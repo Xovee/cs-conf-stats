@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p {
+    @apply text-base md:text-xl my-3
+}
+
+a {
+    @apply text-uestcorange hover:underline
+}

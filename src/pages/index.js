@@ -1,24 +1,33 @@
-// Step 1: Import React
-import * as React from 'react'
-import { Link } from 'gatsby'
+import * as React from 'react';
+import Footer from '../components/Footer';
+import { StaticImage } from 'gatsby-plugin-image';
 
-// Step 2: Define your component
 const IndexPage = () => {
   return (
-    <main>
-      <h1>Computer Science Conference Statistics</h1>
+    <main className="min-h-screen flex flex-col items-center bg-gray-100 p-6">
 
-      <p>Explore top-tier CS conference acceptance rate and number of submission every year.</p>
+      <h1 className="text-4xl md:text-5xl font-bold text-center text-uestc mt-6 mb-6">Computer Science Conference
+        Statistics</h1>
 
-      <p>Created and maintained by <Link to="https://www.xoveexu.com">Xovee Xu</Link>.
-        If you would like to add or correct data, create issues or PRs at the
-        <Link to="https://github.com/Xovee/cs-conf-stats"></Link>GitHub repo.</p>
+      <StaticImage src="../images/logo.webp" alt="Logo" />
+
+      <p className="text-center text-gray-800">
+        Explore top-tier CS conference acceptance rate and number of submission every year.
+      </p>
+
+      <p>
+        Select a conference:
+      </p>
+
+      <button>Select</button>
+
+      <hr className="w-full border-t-1.5 border-gray-600 my-4"/>
+
+      <Footer/>
     </main>
   )
 }
 
-// You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Computer Science Conference Statistics - Xovee Xu</title>
 
-// Step 3: Export your component
 export default IndexPage
