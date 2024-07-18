@@ -6,6 +6,7 @@ module.exports = {
     title: `Computer Science Conference Statistics`,
     siteUrl: `https://www.yourdomain.tld`
   },
+  pathPrefix: "/cs-conf-stats",
   plugins: ["gatsby-plugin-postcss",
     {
       resolve: "gatsby-plugin-google-gtag",
