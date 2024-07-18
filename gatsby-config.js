@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Computer Science Conference Statistics`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://xovee.github.io/cs-conf-stats`
   },
   pathPrefix: "/cs-conf-stats",
   plugins: ["gatsby-plugin-postcss",
@@ -20,7 +20,7 @@ module.exports = {
     "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "src/images/icon.png",
+      "icon": "./src/images/icon.png",
     }
   }, "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
