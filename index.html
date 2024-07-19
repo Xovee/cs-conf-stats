@@ -7,7 +7,7 @@
     <link href="output.css" rel="stylesheet">
 </head>
 
-<body class="min-h-screen flex flex-col items-center bg-gray-100">
+<body class="min-h-screen flex flex-col items-center bg-gray-100 text-gray-800">
 
 <header class="container py-4 my-6">
     <div class="container mx-auto">
@@ -16,7 +16,56 @@
 </header>
 
 <main class="container mx-auto">
-    <p class="text-center text-gray-800">Explore top-tier CS conference acceptance rate and number of submission every year.</p>
+    <p class="text-center">Explore top-tier CS conference acceptance rate and number of submission every year.</p>
+
+    <div class="container mx-auto md:text-xl">
+        <form>
+            <fieldset>
+                <legend>Select a conference: </legend>
+
+                <div class="inline-block select-container">
+                    <label for="dropdown-ai">AI</label>
+                    <select id="dropdown-ai" name="dropdown-ai" class="">
+                        <option value="" disabled selected></option>
+                        <option value="iclr">ICLR</option>
+                        <option value="icml">ICML</option>
+                        <option value="neurips">NeurIPS</option>
+                    </select>
+                </div>
+
+                <div class="inline-block select-container">
+                    <label for="dropdown-cv">CV</label>
+                    <select id="dropdown-cv" name="dropdown-cv" class="">
+                        <option value="" disabled selected></option>
+                        <option value="cvpr">CVPR</option>
+                        <option value="eccv">ECCV</option>
+                        <option value="iccv">ICCV</option>
+                    </select>
+                </div>
+
+                <div class="inline-block select-container">
+                    <label for="dropdown-nlp">NLP</label>
+                    <select id="dropdown-nlp" name="dropdown-nlp" class="">
+                        <option value="" disabled selected></option>
+                        <option value="acl">ACL</option>
+                        <option value="emnlp">EMNLP</option>
+                        <option value="naacl">NAACL</option>
+                    </select>
+                </div>
+
+                <div class="inline-block select-container">
+                    <label for="dropdown-dm">DM</label>
+                    <select id="dropdown-dm" name="dropdown-dm" class="">
+                        <option value="" disabled selected></option>
+                        <option value="acl">CIKM</option>
+                        <option value="emnlp">SIGKDD</option>
+                        <option value="naacl">WSDM</option>
+                    </select>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
 </main>
 
 <footer class="py-4">

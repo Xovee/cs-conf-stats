@@ -12,5 +12,13 @@ p {
 }
 
 footer {
-    @apply text-center mx-auto md:text-left
+    @apply text-center md:text-left
+}
+
+select {
+    @apply ml-4 mr-6 w-24
+}
+
+.select-container {
+    @apply content-center
 }
