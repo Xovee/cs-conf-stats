@@ -8,11 +8,11 @@ a {
 }
 
 p {
-    @apply my-4 text-base md:text-xl
+    @apply my-4 text-base md:text-xl text-gray-800
 }
 
 footer {
-    @apply text-center md:text-left
+    @apply text-center text-gray-600 md:text-left
 }
 
 select {
@@ -25,4 +25,24 @@ select option {
 
 .select-container {
     @apply content-center
+}
+
+.conf-card {
+    @apply bg-white shadow-md rounded-lg px-6 py-4 m-3 flex-1 min-w-[400px] max-w-[800px]
+}
+
+.conf-card-title {
+    @apply font-bold text-xl mb-2
+}
+
+.conf-card-desc {
+    @apply text-base text-gray-700
+}
+
+.card-tag {
+    @apply inline-flex bg-uestc text-white rounded-lg px-3 py-1.5 text-sm mr-2 mb-2
+}
+
+.card-tag-2 {
+    @apply inline-flex bg-uestc_orange text-white rounded-lg px-3 py-1.5 text-sm mr-2 mb-2
 }

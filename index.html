@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computer Science Conference Statistics</title>
     <link href="output.css" rel="stylesheet">
+    <script src="./src/js/echarts.min.js"></script>
 </head>
 
 <body class="min-h-screen flex flex-col items-center bg-gray-100 text-gray-800">
@@ -18,6 +19,7 @@
 <main class="container mx-auto">
     <p class="text-center">Explore top-tier CS conference acceptance rate and number of submission every year.</p>
 
+    <!-- select a conference-->
     <div class="container mx-auto md:text-xl">
         <form>
             <fieldset>
@@ -109,39 +111,21 @@
         </form>
     </div>
 
+    <div id="plot-area" class="container w-full h-[400px]"></div>
+
+    <div id="stats-card-container" class="container flex flex-wrap -mx-3">
+    </div>
+
 </main>
 
-<footer class="py-4">
-    <div class="container">
+<footer class="py-4 container">
+    <div class="">
         <p>Created and maintained by <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">Xovee Xu</a>. Data are collected from the web, if you would like to add or correct data, please open issues or PR at the  <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub repo</a>.</p>
         <p>&copy; 2024 Xovee Xu <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">https://www.xoveexu.com</a></p>
     </div>
 </footer>
 
-<script>
-    document.addEventListener('DOMContentLoaded', (event) => {
-      const dropdowns = document.querySelectorAll('select');
-      const curConfSelection = document.getElementById('cur-conf');
-
-      dropdowns.forEach(dropdown => {
-        dropdown.addEventListener('change', (event) => {
-          const selectedValue = event.target.value;
-          if (selectedValue)
-          curConfSelection.textContent = `${selectedValue}`;
-
-          document.querySelectorAll('select').forEach(function(otherDropdwon) {
-            if (otherDropdwon !== dropdown) {
-              otherDropdwon.querySelectorAll('option').forEach(function(option) {
-                option.removeAttribute('selected');
-              });
-              otherDropdwon.querySelector('option').setAttribute('selected', 'selected');
-            }
-          });
-
-        });
-      });
-    });
-</script>
+<script src="./src/js/main.js"></script>
 
 </body>
 </html>

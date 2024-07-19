@@ -1,0 +1,72 @@
+{
+  "conferences": [
+    {
+      "series": "AAAI",
+      "metadata": {
+        "series_full_title": "AAAI Conference on Artificial Intelligence",
+        "main_discipline": [
+          "Artificial Intelligence", "Machine Learning"
+        ],
+        "other_discipline": ["Computer Vision", "Data Mining", "Natural Language Processing", "Planning", "Reasoning", "Robotics", "Searching"],
+        "parent_org": ["AAAI - Association for the Advancement of Artificial Intelligence"],
+        "website": ["https://aaai.org/conference/aaai/"]
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "acc_sub": 200,
+            "num_sub": 500
+          }
+        },
+        {
+          "year": 2023,
+          "location": "Washington DC, USA",
+          "main_track": {
+            "acc_sub": 200,
+            "num_sub": 400
+          }
+        },
+        {
+          "year": 2022,
+          "location": "Virtual Conference",
+          "main_track": {
+            "acc_sub": 240,
+            "num_sub": 300
+          }
+        }
+      ]
+    },
+    {
+      "series": "ICLR",
+      "metadata": {
+        "series_full_title": "International Conference on Learning Representations",
+        "main_discipline": [
+          "Deep Learning", "Machine Learning", "Representation Learning"
+        ],
+        "other_discipline": ["Reinforcement Learning", "Unsupervised Learning", "Semi-Supervised Learning", "Self-Supervised Learning", "Generative Models", "Graph Neural Networks"],
+        "parent_org": ["n/a"],
+        "website": ["https://iclr.cc/"]
+      },
+      "yearly_data": [
+        {
+          "year": 2021,
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "acc_sub": 860,
+            "num_sub": 2997
+          }
+        },
+        {
+          "year": 2019,
+          "location": "Washington DC, USA",
+          "main_track": {
+            "acc_sub": 500,
+            "num_sub": 1591
+          }
+        }
+      ]
+    }
+  ]
+}
