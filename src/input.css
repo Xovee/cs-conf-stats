@@ -11,9 +11,9 @@ a {
 }
 
 p {
-    @apply my-4
+    @apply my-4 text-base md:text-xl
 }
 
 footer {
-    @apply text-center max-auto md:text-left
+    @apply text-center mx-auto md:text-left
 }
