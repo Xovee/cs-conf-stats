@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.head {
+    @apply text-3xl md:text-4xl text-uestc my-6
+}
+
+a {
+    @apply text-uestc hover:underline
+}
+
+p {
+    @apply my-4
+}
+
+footer {
+    @apply text-center max-auto md:text-left
+}

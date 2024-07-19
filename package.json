@@ -1,38 +1,5 @@
 {
-  "name": "computer-science-conference-statistics",
-  "version": "1.0.0",
-  "private": true,
-  "description": "computer-science-conference-statistics",
-  "author": "Xovee Xu",
-  "homepage": "https://xovee.github.io/cs-conf-stats",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
-  },
-  "dependencies": {
-    "@mdx-js/react": "^3.0.1",
-    "autoprefixer": "^10.4.19",
-    "gatsby": "^5.13.5",
-    "gatsby-plugin-google-gtag": "^5.13.1",
-    "gatsby-plugin-image": "^3.13.1",
-    "gatsby-plugin-manifest": "^5.13.1",
-    "gatsby-plugin-mdx": "^5.13.1",
-    "gatsby-plugin-postcss": "^6.13.1",
-    "gatsby-plugin-sharp": "^5.13.1",
-    "gatsby-plugin-sitemap": "^6.13.1",
-    "gatsby-source-filesystem": "^5.13.1",
-    "gatsby-transformer-sharp": "^5.13.1",
-    "gh-pages": "^6.1.1",
-    "postcss": "^8.4.39",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+  "devDependencies": {
     "tailwindcss": "^3.4.6"
   }
 }

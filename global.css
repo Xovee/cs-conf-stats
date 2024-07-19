@@ -7,5 +7,5 @@ p {
 }
 
 a {
-    @apply text-uestcorange hover:underline
+    @apply text-uestc hover:underline
 }
