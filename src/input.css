@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.head {
-    @apply text-3xl md:text-4xl text-uestc my-6 text-center
-}
 
 a {
     @apply text-uestc hover:underline
