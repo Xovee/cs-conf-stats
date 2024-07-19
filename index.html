@@ -21,47 +21,90 @@
     <div class="container mx-auto md:text-xl">
         <form>
             <fieldset>
-                <legend>Select a conference: </legend>
+                <legend class="mb-2">Current selection: <span id="cur-conf" class="">AAAI</span></legend>
 
                 <div class="inline-block select-container">
-                    <label for="dropdown-ai">AI</label>
+                    <label for="dropdown-ai">AI & ML</label>
                     <select id="dropdown-ai" name="dropdown-ai" class="">
-                        <option value="" disabled selected></option>
-                        <option value="iclr">ICLR</option>
-                        <option value="icml">ICML</option>
-                        <option value="neurips">NeurIPS</option>
+                        <option value="" disabled></option>
+                        <option value="AAAI" selected>AAAI</option>
+                        <option value="ICLR">ICLR</option>
+                        <option value="ICML">ICML</option>
+                        <option value="IJCAI">IJCAI</option>
+                        <option value="NeurIPS">NeurIPS</option>
                     </select>
                 </div>
 
-                <div class="inline-block select-container">
-                    <label for="dropdown-cv">CV</label>
-                    <select id="dropdown-cv" name="dropdown-cv" class="">
-                        <option value="" disabled selected></option>
-                        <option value="cvpr">CVPR</option>
-                        <option value="eccv">ECCV</option>
-                        <option value="iccv">ICCV</option>
-                    </select>
-                </div>
+<!--                <div class="inline-block select-container">-->
+<!--                    <label for="dropdown-cv">CV</label>-->
+<!--                    <select id="dropdown-cv" name="dropdown-cv" class="">-->
+<!--                        <option value="" disabled selected></option>-->
+<!--                        <option value="CVPR">CVPR</option>-->
+<!--                        <option value="ECCV">ECCV</option>-->
+<!--                        <option value="ICCV">ICCV</option>-->
+<!--                    </select>-->
+<!--                </div>-->
 
-                <div class="inline-block select-container">
-                    <label for="dropdown-nlp">NLP</label>
-                    <select id="dropdown-nlp" name="dropdown-nlp" class="">
-                        <option value="" disabled selected></option>
-                        <option value="acl">ACL</option>
-                        <option value="emnlp">EMNLP</option>
-                        <option value="naacl">NAACL</option>
-                    </select>
-                </div>
+<!--                <div class="inline-block select-container">-->
+<!--                    <label for="dropdown-db">DB</label>-->
+<!--                    <select id="dropdown-db" name="dropdown-db" class="">-->
+<!--                        <option value="" disabled selected></option>-->
+<!--                        <option value="ICDE">ICDE</option>-->
+<!--                        <option value="SIGMOD">SIGMOD</option>-->
+<!--                        <option value="VLDB">VLDB</option>-->
+<!--                    </select>-->
+<!--                </div>-->
 
-                <div class="inline-block select-container">
-                    <label for="dropdown-dm">DM</label>
-                    <select id="dropdown-dm" name="dropdown-dm" class="">
-                        <option value="" disabled selected></option>
-                        <option value="acl">CIKM</option>
-                        <option value="emnlp">SIGKDD</option>
-                        <option value="naacl">WSDM</option>
-                    </select>
-                </div>
+<!--                <div class="inline-block select-container">-->
+<!--                    <label for="dropdown-dm">DM & IR</label>-->
+<!--                    <select id="dropdown-dm" name="dropdown-dm" class="">-->
+<!--                        <option value="" disabled selected></option>-->
+<!--                        <option value="CIKM">CIKM</option>-->
+<!--                        <option value="ICDM">ICDM</option>-->
+<!--                        <option value="SIGKDD">SIGKDD</option>-->
+<!--                        <option value="WSDM">WSDM</option>-->
+<!--                    </select>-->
+<!--                </div>-->
+
+<!--                <div class="inline-block select-container">-->
+<!--                    <label for="dropdown-hci">HCI</label>-->
+<!--                    <select id="dropdown-hci" name="dropdown-hci" class="">-->
+<!--                        <option value="" disabled selected></option>-->
+<!--                        <option value="CHI">CHI</option>-->
+<!--                        <option value="CSCW">CSCW</option>-->
+<!--                        <option value="UbiComp">UbiComp</option>-->
+<!--                        <option value="UIST">UIST</option>-->
+<!--                    </select>-->
+<!--                </div>-->
+
+<!--                <div class="inline-block select-container">-->
+<!--                    <label for="dropdown-net">Net</label>-->
+<!--                    <select id="dropdown-net" name="dropdown-net" class="">-->
+<!--                        <option value="" disabled selected></option>-->
+<!--                        <option value="INFOCOM">INFOCOM</option>-->
+<!--                        <option value="NSDI">NSDI</option>-->
+<!--                        <option value="SIGCOMM">SIGCOMM</option>-->
+<!--                    </select>-->
+<!--                </div>-->
+
+<!--                <div class="inline-block select-container">-->
+<!--                    <label for="dropdown-nlp">NLP</label>-->
+<!--                    <select id="dropdown-nlp" name="dropdown-nlp" class="">-->
+<!--                        <option value="" disabled selected></option>-->
+<!--                        <option value="ACL">ACL</option>-->
+<!--                        <option value="EMNLP">EMNLP</option>-->
+<!--                        <option value="NAACL">NAACL</option>-->
+<!--                    </select>-->
+<!--                </div>-->
+
+<!--                <div class="inline-block select-container">-->
+<!--                    <label for="dropdown-web">Web</label>-->
+<!--                    <select id="dropdown-web" name="dropdown-web" class="">-->
+<!--                        <option value="" disabled selected></option>-->
+<!--                        <option value="ICWSM">ICWSM</option>-->
+<!--                        <option value="TheWebConf">TheWebConf</option>-->
+<!--                    </select>-->
+<!--                </div>-->
             </fieldset>
         </form>
     </div>
@@ -75,7 +118,30 @@
     </div>
 </footer>
 
-<!--<script src="js/scripts.js"></script>-->
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const dropdowns = document.querySelectorAll('select');
+      const curConfSelection = document.getElementById('cur-conf');
+
+      dropdowns.forEach(dropdown => {
+        dropdown.addEventListener('change', (event) => {
+          const selectedValue = event.target.value;
+          if (selectedValue)
+          curConfSelection.textContent = `${selectedValue}`;
+
+          document.querySelectorAll('select').forEach(function(otherDropdwon) {
+            if (otherDropdwon !== dropdown) {
+              otherDropdwon.querySelectorAll('option').forEach(function(option) {
+                option.removeAttribute('selected');
+              });
+              otherDropdwon.querySelector('option').setAttribute('selected', 'selected');
+            }
+          });
+
+        });
+      });
+    });
+</script>
 
 </body>
 </html>

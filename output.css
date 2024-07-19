@@ -598,6 +598,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -637,6 +641,14 @@ video {
   line-height: 2.25rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -645,6 +657,10 @@ video {
 .text-uestc {
   --tw-text-opacity: 1;
   color: rgb(0 64 152 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 a {
@@ -684,6 +700,20 @@ select {
   margin-left: 1rem;
   margin-right: 1.5rem;
   width: 6rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  select {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+select option {
+  padding: 1rem;
 }
 
 .select-container {

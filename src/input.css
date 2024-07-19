@@ -16,7 +16,11 @@ footer {
 }
 
 select {
-    @apply ml-4 mr-6 w-24
+    @apply ml-4 mr-6 w-24 font-mono text-sm md:text-base
+}
+
+select option {
+    @apply p-4
 }
 
 .select-container {
