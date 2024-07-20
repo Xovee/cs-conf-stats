@@ -353,6 +353,45 @@
       ]
     },
     {
+      "series": "ICML",
+      "metadata": {
+        "series_full_title": "International Conference on Machine Learning",
+        "main_discipline": ["Machine Learning"],
+        "other_discipline": ["Deep Learning", "Learning Theory", "Optimization", "Probabilistic Inference", "Trustworthy Machine Learning"],
+        "parent_org": ["n/a"],
+        "website": ["https://icml.cc"]
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "41st",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 2609,
+            "num_sub": 9473
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "40th",
+          "location": "Honolulu, Hawaii, USA",
+          "main_track": {
+            "num_acc": 1827,
+            "num_sub": 6538
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "39th",
+          "location": "Baltimore, Maryland, USA",
+          "main_track": {
+            "num_acc": 1235,
+            "num_sub": 5630
+          }
+        }
+      ]
+    },
+    {
       "series": "ICLR",
       "metadata": {
         "series_full_title": "International Conference on Learning Representations",
