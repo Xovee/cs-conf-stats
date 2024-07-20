@@ -90,6 +90,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           const years = conference.yearly_data.map(d => d.year);
           const num_sub = conference.yearly_data.map(d => d.main_track.num_sub);
           const acc_rate = conference.yearly_data.map(d => (d.main_track.num_acc / d.main_track.num_sub) * 100);
+          // const locations = conferece.yearly_data.map(d => d.location);
 
           setChartSize(years);
 
@@ -104,7 +105,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 textStyle: {
                   fontSize: 14
                 }
-              }
+              },
+              inverse: true
             },
             yAxis: [
               {
@@ -195,7 +197,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     </div>
                     <div class="flex justify-between">
                         <span>Acceptance Rate: </span>
-                        <span class="ml-5">${accRate}</span>
+                        <span class="ml-5">${accRate.toFixed(1)}%</span>
                     </div>
                     <div class="flex justify-between">
                         <span>Number of Submissions: </span>

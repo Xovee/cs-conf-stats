@@ -16,24 +16,88 @@
           "year": 2024,
           "location": "Vancouver, Canada",
           "main_track": {
-            "num_acc": 200,
-            "num_sub": 500
+            "num_acc": 2342,
+            "num_sub": 9862
           }
         },
         {
           "year": 2023,
           "location": "Washington DC, USA",
           "main_track": {
-            "num_acc": 200,
-            "num_sub": 400
+            "num_acc": 1721,
+            "num_sub": 8777
           }
         },
         {
           "year": 2022,
           "location": "Virtual Conference",
           "main_track": {
-            "num_acc": 240,
-            "num_sub": 300
+            "num_acc": 1349,
+            "num_sub": 9020
+          }
+        },
+        {
+          "year": 2021,
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 1692,
+            "num_sub": 7911
+          }
+        },
+        {
+          "year": 2020,
+          "location": "New York, USA",
+          "main_track": {
+            "num_acc": 1591,
+            "num_sub": 7737
+          }
+        },
+        {
+          "year": 2019,
+          "location": "Honolulu, Hawaii, USA",
+          "main_track": {
+            "num_acc": 1150,
+            "num_sub": 7095
+          }
+        },
+        {
+          "year": 2018,
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 933,
+            "num_sub": 3800
+          }
+        },
+        {
+          "year": 2017,
+          "location": "San Francisco, USA",
+          "main_track": {
+            "num_acc": 638,
+            "num_sub": 2590
+          }
+        },
+        {
+          "year": 2016,
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 549,
+            "num_sub": 2132
+          }
+        },
+        {
+          "year": 2015,
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 531,
+            "num_sub": 1991
+          }
+        },
+        {
+          "year": 2014,
+          "location": "Québec City, Canada",
+          "main_track": {
+            "num_acc": 398,
+            "num_sub": 1406
           }
         }
       ]
