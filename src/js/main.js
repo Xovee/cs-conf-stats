@@ -84,12 +84,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
             type: 'slider',
             xAxisIndex: [0],
             filterMode: 'empty',
-            endValue: 0
+            endValue: 0,
+            zoomLock: true
           };
 
-          if (isMobile && years.length > 12) {
+          if (isMobile && years.length > 10) {
             dataZoom.show = true;
-            dataZoom.startValue = 12;
+            dataZoom.startValue = 10;
           } else if (!isMobile && years.length >= 30) {
             dataZoom.show = true;
             dataZoom.startValue = 30;
