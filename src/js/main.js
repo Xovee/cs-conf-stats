@@ -22,37 +22,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
   });
 
-
-  // define plot resize
-  function setChartSize(xAxisData) {
-    const container = document.getElementById('plot-area');
-    const screenWidth = window.innerWidth;
-
-    if (screenWidth < 768) {
-      container.style.width = `100%`;
-    } else {
-      const dataLength = xAxisData.length;
-      if (dataLength < 5) {
-        container.style.width = '400px';
-      } else if (dataLength < 10) {
-        container.style.width = '800px';
-      } else {
-        container.style.width = '100%';
-      }
-    }
-  }
-
   // display conf stats
   fetch('../../data/conf.json')
     .then(response => response.json())
     .then(data => {
 
-      const statsDiv = document.getElementById('stats-card-container');
       const selectedConf = document.getElementById('cur-conf');
-      const plotDiv = document.getElementById('plot-area');
 
       function displayConfMetadata(conferenceSeries) {
+        const statsDiv = document.getElementById('stats-card-container');
+        const plotDiv = document.getElementById('plot-area');
         const conference = data.conferences.find(c => c.series === conferenceSeries);
+
         if (conference) {
           const main_discipline = conference.metadata.main_discipline.map(discipline => `
           <span class="card-tag">${discipline}</span>
@@ -88,16 +69,34 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
           // prepare plot data
           const years = conference.yearly_data.map(d => d.year);
+          const ordinals = conference.yearly_data.map(d => d.ordinal);
+          const num_acc = conference.yearly_data.map(d => d.main_track.num_acc);
           const num_sub = conference.yearly_data.map(d => d.main_track.num_sub);
           const acc_rate = conference.yearly_data.map(d => (d.main_track.num_acc / d.main_track.num_sub) * 100);
-          // const locations = conferece.yearly_data.map(d => d.location);
+          const locations = conference.yearly_data.map(d => d.location);
 
-          setChartSize(years);
+          const confPlot = echarts.init(document.getElementById('plot-area'));
 
-          const confPlot = echarts.init(plotDiv)
+          const isMobile = window.innerWidth <= 768;
+          const dataZoom = {
+            show: false,
+            id: 'dataZoomX',
+            type: 'slider',
+            xAxisIndex: [0],
+            filterMode: 'empty',
+            endValue: 0
+          };
+
+          if (isMobile && years.length > 12) {
+            dataZoom.show = true;
+            dataZoom.startValue = 12;
+          } else if (!isMobile && years.length >= 30) {
+            dataZoom.show = true;
+            dataZoom.startValue = 30;
+          }
 
           const option = {
-
+            dataZoom: dataZoom,
             xAxis: {
               type: 'category',
               data: years,
@@ -136,7 +135,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             ],
             legend: {
               data: ["Number of Submissions", "Acceptance Rate"],
-              top: 'bottom'
+              top: 'top'
             },
             series: [
               {
@@ -190,24 +189,31 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 const year = params[0].name;
                 const numSub = params[0].value;
                 const accRate = params[1].value;
+                const numAcc = num_acc[years.indexOf(parseInt(year, 10))];
+                const location = locations[years.indexOf(parseInt(year, 10))];
+                const ordinal = ordinals[years.indexOf(parseInt(year, 10))];
                 return `<div class="text-left">
                     <div class="flex justify-between">
                       <span>Year: </span>
-                      <span class="ml-5">${year}</span>
+                      <span class="ml-2 text-uestc_orange">${year} (${ordinal})</span>
                     </div>
                     <div class="flex justify-between">
-                        <span>Acceptance Rate: </span>
-                        <span class="ml-5">${accRate.toFixed(1)}%</span>
+                        <span>Number of Accepted: </span>
+                        <span class="ml-2 text-uestc_orange">${numAcc}</span>
                     </div>
                     <div class="flex justify-between">
                         <span>Number of Submissions: </span>
-                        <span class="ml-5">${numSub}</span>
+                        <span class="ml-2 text-uestc_orange">${numSub}</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span>Acceptance Rate: </span>
+                        <span class="ml-2 text-uestc_orange">${accRate.toFixed(1)}%</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span>Conference Location: </span>
+                        <span class="ml-2 text-uestc_orange">${location}</span>
                     </div>
                 </div>`
-
-
-                // 'Year: ' + year + '<br/>' +
-                //   'Number of Submissions: ' + numSub + '<br/>'
               }
             },
           };
@@ -215,7 +221,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
           confPlot.setOption(option);
 
           window.addEventListener('resize', function() {
-            setChartSize(years);
             confPlot.resize();
           });
         }

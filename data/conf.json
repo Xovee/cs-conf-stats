@@ -14,6 +14,7 @@
       "yearly_data": [
         {
           "year": 2024,
+          "ordinal": "38th",
           "location": "Vancouver, Canada",
           "main_track": {
             "num_acc": 2342,
@@ -22,6 +23,7 @@
         },
         {
           "year": 2023,
+          "ordinal": "37th",
           "location": "Washington DC, USA",
           "main_track": {
             "num_acc": 1721,
@@ -30,6 +32,7 @@
         },
         {
           "year": 2022,
+          "ordinal": "36th",
           "location": "Virtual Conference",
           "main_track": {
             "num_acc": 1349,
@@ -38,6 +41,7 @@
         },
         {
           "year": 2021,
+          "ordinal": "35th",
           "location": "Virtual Conference",
           "main_track": {
             "num_acc": 1692,
@@ -46,6 +50,7 @@
         },
         {
           "year": 2020,
+          "ordinal": "34th",
           "location": "New York, USA",
           "main_track": {
             "num_acc": 1591,
@@ -54,6 +59,7 @@
         },
         {
           "year": 2019,
+          "ordinal": "33rd",
           "location": "Honolulu, Hawaii, USA",
           "main_track": {
             "num_acc": 1150,
@@ -62,42 +68,286 @@
         },
         {
           "year": 2018,
+          "ordinal": "32nd",
           "location": "New Orleans, USA",
           "main_track": {
-            "num_acc": 933,
-            "num_sub": 3800
+            "num_acc": 938,
+            "num_sub": 3808
           }
         },
         {
           "year": 2017,
+          "ordinal": "31st",
           "location": "San Francisco, USA",
           "main_track": {
-            "num_acc": 638,
-            "num_sub": 2590
+            "num_acc": 639,
+            "num_sub": 2571
           }
         },
         {
           "year": 2016,
+          "ordinal": "30th",
           "location": "Phoenix, USA",
           "main_track": {
-            "num_acc": 549,
-            "num_sub": 2132
+            "num_acc": 548,
+            "num_sub": 2143
           }
         },
         {
           "year": 2015,
+          "ordinal": "29th",
           "location": "Austin, USA",
           "main_track": {
-            "num_acc": 531,
+            "num_acc": 539,
             "num_sub": 1991
           }
         },
         {
           "year": 2014,
+          "ordinal": "28th",
           "location": "Québec City, Canada",
           "main_track": {
             "num_acc": 398,
             "num_sub": 1406
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "27th",
+          "location": "Bellevue, Washington, USA",
+          "main_track": {
+            "num_acc": 203,
+            "num_sub": 690
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "26th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 294,
+            "num_sub": 1129
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "25th",
+          "location": "San Francisco, USA",
+          "main_track": {
+            "num_acc": 242,
+            "num_sub": 990
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "24th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 264,
+            "num_sub": 977
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "23rd",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 227,
+            "num_sub": 937
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "22nd",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 251,
+            "num_sub": 923
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "21st",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 171,
+            "num_sub": 774
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "20th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 229,
+            "num_sub": 803
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "19th",
+          "location": "San Jose, USA",
+          "main_track": {
+            "num_acc": 120,
+            "num_sub": 453
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "18th",
+          "location": "Edmonton, Alberta, USA",
+          "main_track": {
+            "num_acc": 121,
+            "num_sub": 469
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "17th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 143,
+            "num_sub": 431
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "16th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 109,
+            "num_sub": 400
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "15th",
+          "location": "Madison, USA",
+          "main_track": {
+            "num_acc": 143,
+            "num_sub": 475
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "14th",
+          "location": "Providence, Rhode Island, USA",
+          "main_track": {
+            "num_acc": 117,
+            "num_sub": 323
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "13th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 197,
+            "num_sub": 643
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "12th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 222,
+            "num_sub": 725
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "11th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 126,
+            "num_sub": 524
+          }
+        },
+        {
+          "year": 1992,
+          "ordinal": "10th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 133,
+            "num_sub": 636
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "9th",
+          "location": "Anaheim, California, USA",
+          "main_track": {
+            "num_acc": 142,
+            "num_sub": 603
+          }
+        },
+        {
+          "year": 1990,
+          "ordinal": "8th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 161,
+            "num_sub": 926
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "7th",
+          "location": "Saint Paul, Minnesota, USA",
+          "main_track": {
+            "num_acc": 148,
+            "num_sub": 850
+          }
+        },
+        {
+          "year": 1987,
+          "ordinal": "6th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 149,
+            "num_sub": 715
+          }
+        },
+        {
+          "year": 1986,
+          "ordinal": "5th",
+          "location": "Philadelphia, Pennsylvania, USA",
+          "main_track": {
+            "num_acc": 187,
+            "num_sub": 817
+          }
+        },
+        {
+          "year": 1984,
+          "ordinal": "4th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 69
+          }
+        },
+        {
+          "year": 1983,
+          "ordinal": "3rd",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 92
+          }
+        },
+        {
+          "year": 1982,
+          "ordinal": "2nd",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 104
+          }
+        },
+        {
+          "year": 1980,
+          "ordinal": "1st",
+          "location": "Stanford, California, USA",
+          "main_track": {
+            "num_acc": 95
           }
         }
       ]
@@ -115,19 +365,111 @@
       },
       "yearly_data": [
         {
+          "year": 2024,
+          "ordinal": "12th",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 2250,
+            "num_sub": 7304
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "11th",
+          "location": "Kigali, Rwanda",
+          "main_track": {
+            "num_acc": 1574,
+            "num_sub": 4938
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "10th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 1095,
+            "num_sub": 3391
+          }
+        },
+        {
           "year": 2021,
-          "location": "Vancouver, Canada",
+          "ordinal": "9th",
+          "location": "Virtual Conference",
           "main_track": {
             "num_acc": 860,
             "num_sub": 2997
           }
         },
         {
+          "year": 2020,
+          "ordinal": "8th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 687,
+            "num_sub": 2594
+          }
+        },
+        {
           "year": 2019,
-          "location": "Washington DC, USA",
+          "ordinal": "7th",
+          "location": "New Orleans, USA",
           "main_track": {
             "num_acc": 500,
             "num_sub": 1591
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "6th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 314,
+            "num_sub": 981
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "5th",
+          "location": "Toulon, France",
+          "main_track": {
+            "num_acc": 198,
+            "num_sub": 507
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "4th",
+          "location": "San Juan, Puerto Rico",
+          "main_track": {
+            "num_acc": 80,
+            "num_sub": 265
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "3rd",
+          "location": "San Diego, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 143
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "2nd",
+          "location": "Banff, Canada",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 87
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "1st",
+          "location": "Scottsdale, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 67
           }
         }
       ]
