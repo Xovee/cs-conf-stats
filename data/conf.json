@@ -16,7 +16,7 @@
           "year": 2024,
           "location": "Vancouver, Canada",
           "main_track": {
-            "acc_sub": 200,
+            "num_acc": 200,
             "num_sub": 500
           }
         },
@@ -24,7 +24,7 @@
           "year": 2023,
           "location": "Washington DC, USA",
           "main_track": {
-            "acc_sub": 200,
+            "num_acc": 200,
             "num_sub": 400
           }
         },
@@ -32,7 +32,7 @@
           "year": 2022,
           "location": "Virtual Conference",
           "main_track": {
-            "acc_sub": 240,
+            "num_acc": 240,
             "num_sub": 300
           }
         }
@@ -54,7 +54,7 @@
           "year": 2021,
           "location": "Vancouver, Canada",
           "main_track": {
-            "acc_sub": 860,
+            "num_acc": 860,
             "num_sub": 2997
           }
         },
@@ -62,7 +62,7 @@
           "year": 2019,
           "location": "Washington DC, USA",
           "main_track": {
-            "acc_sub": 500,
+            "num_acc": 500,
             "num_sub": 1591
           }
         }
