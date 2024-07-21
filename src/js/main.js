@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
   const dropdowns = document.querySelectorAll('select');
   const curConfSelection = document.getElementById('cur-conf');
 
+  const loadingMessage = document.getElementById("loadingMessage");
+
   dropdowns.forEach(dropdown => {
     dropdown.addEventListener('change', (event) => {
       const selectedValue = event.target.value;
@@ -28,6 +30,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     .then(data => {
 
       const selectedConf = document.getElementById('cur-conf');
+
+      loadingMessage.classList.add('hidden');
 
       function displayConfMetadata(conferenceSeries) {
         const statsDiv = document.getElementById('stats-card-container');

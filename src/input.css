@@ -8,7 +8,7 @@ a {
 }
 
 p {
-    @apply my-4 text-base md:text-xl text-gray-800
+    @apply my-4 text-base md:text-xl text-gray-600
 }
 
 footer {
