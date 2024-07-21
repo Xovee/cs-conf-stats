@@ -388,6 +388,24 @@
             "num_acc": 1235,
             "num_sub": 5630
           }
+        },
+        {
+          "year": 2021,
+          "ordinal": "38th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 1184,
+            "num_sub": 5513
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "37th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 1088,
+            "num_sub": 4990
+          }
         }
       ]
     },
@@ -509,6 +527,277 @@
           "main_track": {
             "num_acc": 23,
             "num_sub": 67
+          }
+        }
+      ]
+    },
+    {
+      "series": "IJCAI",
+      "metadata": {
+        "series_full_title": "International Joint Conference on Artificial Intelligence",
+        "main_discipline": [
+          "Artificial Intelligence"
+        ],
+        "other_discipline": [
+          "Agent", "Constraint Satisfaction and Optimization", "Game Theory", "Knowledge Representation", "Planning and Scheduling", "Robotics", "Search", "Uncertainty"
+        ],
+        "parent_org": ["IJCAI Organization"],
+        "website": ["https://www.ijcai.org/future_conferences"]
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "32nd",
+          "location": "Macao, China",
+          "main_track": {
+            "num_acc": 643,
+            "num_sub": 4566
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "31st",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 679,
+            "num_sub": 4537
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "30th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 587,
+            "num_sub": 4204
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "29th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 592,
+            "num_sub": 4717
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "28th",
+          "location": "Macao, China",
+          "main_track": {
+            "num_acc": 850,
+            "num_sub": 4752
+          }
+        }
+      ]
+    },
+    {
+      "series": "NeurIPS",
+      "metadata": {
+        "series_full_title": "Conference on Neural Information Processing Systems",
+        "main_discipline": [
+          "Machine Learning", "Artificial Intelligence", "Neuroscience"
+        ],
+        "other_discipline": [
+          "Deep Learning", "Cognitive Science", "Psychology", "Information Theory", "Optimization", "Probabilistic Methods", "Reinforcement Learning", "Theory"
+        ],
+        "parent_org": ["NeurIPS Foundation"],
+        "website": ["https://neurips.cc"]
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "37th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 3218,
+            "num_sub": 12343
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "36th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 2905,
+            "num_sub": 9634
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "35th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 2334,
+            "num_sub": 9122
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "34th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 1898,
+            "num_sub": 9467
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "33rd",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 1428,
+            "num_sub": 6743
+          }
+        }
+      ]
+    },
+    {
+      "series": "CVPR",
+      "metadata": {
+        "series_full_title": "International Conference on Computer Vision and Pattern Recognition",
+        "main_discipline": [
+          "Computer Vision", "Pattern Recognition"
+        ],
+        "other_discipline": [
+          "Image", "Video", "Object Detection", "Segmentation", "3D CV", "Synthesis", "VR", "AR", "Graphics"
+        ],
+        "parent_org": ["IEEE"],
+        "website": ["https://cvpr.thecvf.com"]
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "37th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 2719,
+            "num_sub": 11532
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "36th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 2359,
+            "num_sub": 9155
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "35th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 2064,
+            "num_sub": 8161
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "34th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 1663,
+            "num_sub": 7015
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "33rd",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 1470,
+            "num_sub": 6656
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "32nd",
+          "location": "Long Beach, California, USA",
+          "main_track": {
+            "num_acc": 1300,
+            "num_sub": 5165
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "31st",
+          "location": "Salt Lake City, USA",
+          "main_track": {
+            "num_acc": 979,
+            "num_sub": 3303
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "31st",
+          "location": "Honolulu, Hawaii, USA",
+          "main_track": {
+            "num_acc": 783,
+            "num_sub": 2620
+          }
+        }
+      ]
+    },
+    {
+      "series": "Template",
+      "metadata": {
+        "series_full_title": "Template",
+        "main_discipline": [
+          "Template"
+        ],
+        "other_discipline": [
+          "Template"
+        ],
+        "parent_org": ["n/a"],
+        "website": [""]
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "12th",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "11th",
+          "location": "Kigali, Rwanda",
+          "main_track": {
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "10th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "9th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "8th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 0,
+            "num_sub": 0
           }
         }
       ]
