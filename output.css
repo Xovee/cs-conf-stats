@@ -608,6 +608,11 @@ video {
   position: relative;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -968,6 +973,11 @@ select option {
   .md\:-mx-3 {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
+  }
+
+  .md\:mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
   .md\:text-left {

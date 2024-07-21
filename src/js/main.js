@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
       function displayConfMetadata(conferenceSeries) {
         const statsDiv = document.getElementById('stats-card-container');
-        const plotDiv = document.getElementById('plot-area');
         const conference = data.conferences.find(c => c.series === conferenceSeries);
 
         if (conference) {
@@ -44,30 +43,60 @@ document.addEventListener('DOMContentLoaded', (event) => {
           `).join("");
           const other_discipline = conference.metadata.other_discipline.map(discipline => `
           <span class="card-tag-2">${discipline}</span>
-          `).join("")
+          `).join("");
 
-          const cards = `
+          let cards = `
             <div class="conf-card">
               <div class="conf-card-title">${conference.series}</div>
               <div class="conf-card-desc">${conference.metadata.series_full_title}</div>
             </div>
-            <div class="conf-card">
-              <div class="conf-card-title">Main Discipline</div>
-              <div class="conf-card-desc">${main_discipline}</div>
-            </div>
-            <div class="conf-card">
-              <div class="conf-card-title">Other Discipline</div>
-              <div class="conf-card-desc">${other_discipline}</div>
-            </div>
-            <div class="conf-card">
-              <div class="conf-card-title">Parent Organization</div>
-              <div class="conf-card-desc">${conference.metadata.parent_org}</div>
-            </div>
-            <div class="conf-card">
-              <div class="conf-card-title">Website</div>
-              <div class="conf-card-desc"><a href="${conference.metadata.website}" target="_blank">${conference.metadata.website}</a></div>
-            </div>
           `;
+
+          if (conference.metadata.main_discipline && conference.metadata.main_discipline.length > 0) {
+            cards += `
+              <div class="conf-card">
+                <div class="conf-card-title">Main Discipline</div>
+                <div class="conf-card-desc">${main_discipline}</div>
+            </div>
+            `;
+          }
+
+          if (conference.metadata.other_discipline && conference.metadata.other_discipline.length > 0) {
+            cards += `
+              <div class="conf-card">
+                <div class="conf-card-title">Other Discipline</div>
+                <div class="conf-card-desc">${other_discipline}</div>
+              </div>
+            `
+          }
+
+          if (conference.metadata.parent_org && conference.metadata.parent_org.length > 0) {
+            cards += `
+              <div class="conf-card">
+                <div class="conf-card-title">Parent Organization</div>
+                <div class="conf-card-desc">${conference.metadata.parent_org}</div>
+              </div>
+            `;
+          }
+
+          if (conference.metadata.website && conference.metadata.website.length > 0) {
+            cards += `
+              <div class="conf-card">
+                <div class="conf-card-title">Website</div>
+                <div class="conf-card-desc"><a href="${conference.metadata.website}" target="_blank">${conference.metadata.website}</a></div>
+              </div>
+            `;
+          }
+
+          if (conference.metadata.proceedings && conference.metadata.proceedings.length > 0) {
+            cards += `
+              <div class="conf-card">
+                <div class="conf-card-title">Proceedings</div>
+                <div class="conf-card-desc"><a href="${conference.metadata.proceedings}" target="_blank">${conference.metadata.proceedings}</a></div>
+              </div>
+            `;
+          }
+
 
           statsDiv.innerHTML = cards;
 
@@ -89,7 +118,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
             xAxisIndex: [0],
             filterMode: 'empty',
             endValue: 0,
-            zoomLock: true
+            zoomLock: true,
+            brushSelect: false
           };
 
           if (isMobile && years.length > 10) {

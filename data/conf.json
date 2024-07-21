@@ -358,7 +358,6 @@
         "series_full_title": "International Conference on Machine Learning",
         "main_discipline": ["Machine Learning"],
         "other_discipline": ["Deep Learning", "Learning Theory", "Optimization", "Probabilistic Inference", "Trustworthy Machine Learning"],
-        "parent_org": ["n/a"],
         "website": ["https://icml.cc"]
       },
       "yearly_data": [
@@ -417,7 +416,6 @@
           "Deep Learning", "Machine Learning", "Representation Learning"
         ],
         "other_discipline": ["Reinforcement Learning", "Unsupervised Learning", "Semi-Supervised Learning", "Self-Supervised Learning", "Generative Models", "Graph Neural Networks"],
-        "parent_org": ["n/a"],
         "website": ["https://iclr.cc/"]
       },
       "yearly_data": [
@@ -737,6 +735,185 @@
           "main_track": {
             "num_acc": 783,
             "num_sub": 2620
+          }
+        }
+      ]
+    },
+    {
+      "series": "ECCV",
+      "metadata": {
+        "series_full_title": "European Conference on Computer Vision",
+        "main_discipline": [
+          "Computer Vision"
+        ],
+        "other_discipline": [
+          "Image", "Video", "3D CV", "Scene Understanding", "Motion and Tracking", "Recognition", "Biomedical"
+        ],
+        "parent_org": "European Computer Vision Association",
+        "website": ["https://www.ecva.net/index.php"],
+        "proceedings": "https://link.springer.com/conference/eccv"
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "18th",
+          "location": "Milan, Italy",
+          "main_track": {
+            "num_acc": 2395,
+            "num_sub": 8585
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "17th",
+          "location": "Tel Aviv, Israel",
+          "main_track": {
+            "num_acc": 1361,
+            "num_sub": 5025
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "16th",
+          "location": "Glasgow, Scotland",
+          "main_track": {
+            "num_acc": 1361,
+            "num_sub": 5025
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "15th",
+          "location": "Munich, Germany",
+          "main_track": {
+            "num_acc": 776,
+            "num_sub": 2439
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "14th",
+          "location": "Amsterdam, Netherlands",
+          "main_track": {
+            "num_acc": 415,
+            "num_sub": 1561
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "13th",
+          "location": "Zurich, Switzerland",
+          "main_track": {
+            "num_acc": 363,
+            "num_sub": 1444
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "12th",
+          "location": "Florence, Italy",
+          "main_track": {
+            "num_acc": 408,
+            "num_sub": 1437
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "11th",
+          "location": "Heraklion, Greece",
+          "main_track": {
+            "num_acc": 325,
+            "num_sub": 1174
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "10th",
+          "location": "Marseille, France",
+          "main_track": {
+            "num_acc": 203,
+            "num_sub": 871
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "9th",
+          "location": "Graz, Austria",
+          "main_track": {
+            "num_acc": 192,
+            "num_sub": 811
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "8th",
+          "location": "Prague, Czech Republic",
+          "main_track": {
+            "num_acc": 190,
+            "num_sub": 555
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "7th",
+          "location": "Copenhagen, Denmark (num of sub is around 600)",
+          "main_track": {
+            "num_acc": 226,
+            "num_sub": 600
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "6th",
+          "location": "Dublin, Ireland",
+          "main_track": {
+            "num_acc": 116,
+            "num_sub": 266
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "5th",
+          "location": "Freiburg, Germany",
+          "main_track": {
+            "num_acc": 112,
+            "num_sub": 223
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "4th",
+          "location": "Cambridge, UK",
+          "main_track": {
+            "num_acc": 123,
+            "num_sub": 328
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "3rd",
+          "location": "Stockholm, Sweden (unknown num of sub)",
+          "main_track": {
+            "num_acc": 115,
+            "num_sub": 318
+          }
+        },
+        {
+          "year": 1992,
+          "ordinal": "2nd",
+          "location": "Santa Margherita Ligure, Italy",
+          "main_track": {
+            "num_acc": 105,
+            "num_sub": 308
+          }
+        },
+        {
+          "year": 1990,
+          "ordinal": "1st",
+          "location": "Antibes, France (unknown num of sub)",
+          "main_track": {
+            "num_acc": 81,
+            "num_sub": 298
           }
         }
       ]
