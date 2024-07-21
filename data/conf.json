@@ -661,7 +661,7 @@
         "other_discipline": [
           "Image", "Video", "Object Detection", "Segmentation", "3D CV", "Synthesis", "VR", "AR", "Graphics"
         ],
-        "parent_org": ["IEEE"],
+        "parent_org": "IEEE Computer Society, Computer Vision Foundation",
         "website": ["https://cvpr.thecvf.com"]
       },
       "yearly_data": [
@@ -914,6 +914,68 @@
           "main_track": {
             "num_acc": 81,
             "num_sub": 298
+          }
+        }
+      ]
+    },
+    {
+      "series": "ICCV",
+      "metadata": {
+        "series_full_title": "International Conference on Computer Vision",
+        "main_discipline": [
+          "Computer Vision"
+        ],
+        "other_discipline": [
+          "Object Recognition and Detection", "Image Segmentation", "3D Vision", "Motion and Tracking", "Deep Learning", "Scene Understanding", "Vision and Language", "AR", "VR", "Multimodal Learning"
+        ],
+        "parent_org": "IEEE Computer Society, Computer Vision Foundation",
+        "website": "https://www.thecvf.com/",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings"
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "18th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 2160,
+            "num_sub": 8088
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "17th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 1617,
+            "num_sub": 6236
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "14th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 1075,
+            "num_sub": 4303
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "15th",
+          "location": "Venice, Italy",
+          "main_track": {
+            "num_acc": 621,
+            "num_sub": 2143
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "15th",
+          "location": "Santiago, Chile",
+          "main_track": {
+            "num_acc": 525,
+            "num_sub": 1698
           }
         }
       ]

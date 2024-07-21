@@ -980,6 +980,11 @@ select option {
     margin-right: 0.5rem;
   }
 
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .md\:text-left {
     text-align: left;
   }
