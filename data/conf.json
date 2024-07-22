@@ -1042,6 +1042,149 @@
       ]
     },
     {
+      "series": "PODS",
+      "metadata": {
+        "series_full_title": "Symposium on Principles of Database Systems",
+        "main_discipline": [
+          "Database Theory", "Management of Data"
+        ],
+        "other_discipline": [
+          "Query Language", "Data Models", "Data Integrity", "Data Semantics", "Database Design"
+        ],
+        "parent_org": "ACM SIGMOD",
+        "website": "https://sigmod.org/pods-home/",
+        "proceedings": "https://dl.acm.org/conference/pods"
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "43rd",
+          "location": "Santiago, Chile",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 110
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "42nd",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 85
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "41st",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 95
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "40th",
+          "location": "Xi'an, China",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 79
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "39th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 70
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "38th",
+          "location": "Amsterdam, Netherlands",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 87
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "37th",
+          "location": "Houston, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 83
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "36th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 101
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "35th",
+          "location": "San Francisco, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 94
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "34th",
+          "location": "Melbourne, Australia",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 80
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "33rd",
+          "location": "Snowbird, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 67
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "32nd",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 97
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "31st",
+          "location": "Scottsdale, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 101
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "30th",
+          "location": "Athens, Greece",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 113
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
@@ -1058,7 +1201,7 @@
         {
           "year": 2024,
           "ordinal": "12th",
-          "location": "Vienna, Austria",
+          "location": "Virtual",
           "main_track": {
             "num_acc": 0,
             "num_sub": 0
@@ -1067,7 +1210,7 @@
         {
           "year": 2023,
           "ordinal": "11th",
-          "location": "Kigali, Rwanda",
+          "location": "Virtual",
           "main_track": {
             "num_acc": 0,
             "num_sub": 0
@@ -1076,7 +1219,7 @@
         {
           "year": 2022,
           "ordinal": "10th",
-          "location": "Virtual Conference",
+          "location": "Virtual",
           "main_track": {
             "num_acc": 0,
             "num_sub": 0
@@ -1085,7 +1228,7 @@
         {
           "year": 2021,
           "ordinal": "9th",
-          "location": "Virtual Conference",
+          "location": "Virtual",
           "main_track": {
             "num_acc": 0,
             "num_sub": 0
@@ -1094,7 +1237,7 @@
         {
           "year": 2020,
           "ordinal": "8th",
-          "location": "Virtual Conference",
+          "location": "Virtual",
           "main_track": {
             "num_acc": 0,
             "num_sub": 0
