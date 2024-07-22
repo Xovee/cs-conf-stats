@@ -17,6 +17,7 @@
           "ordinal": "38th",
           "location": "Vancouver, Canada",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 2342,
             "num_sub": 9862
           }
@@ -26,6 +27,7 @@
           "ordinal": "37th",
           "location": "Washington DC, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1721,
             "num_sub": 8777
           }
@@ -35,6 +37,7 @@
           "ordinal": "36th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1349,
             "num_sub": 9020
           }
@@ -44,6 +47,7 @@
           "ordinal": "35th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1692,
             "num_sub": 7911
           }
@@ -53,6 +57,7 @@
           "ordinal": "34th",
           "location": "New York, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1591,
             "num_sub": 7737
           }
@@ -62,6 +67,7 @@
           "ordinal": "33rd",
           "location": "Honolulu, Hawaii, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1150,
             "num_sub": 7095
           }
@@ -71,6 +77,7 @@
           "ordinal": "32nd",
           "location": "New Orleans, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 938,
             "num_sub": 3808
           }
@@ -80,6 +87,7 @@
           "ordinal": "31st",
           "location": "San Francisco, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 639,
             "num_sub": 2571
           }
@@ -89,6 +97,7 @@
           "ordinal": "30th",
           "location": "Phoenix, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 548,
             "num_sub": 2143
           }
@@ -98,6 +107,7 @@
           "ordinal": "29th",
           "location": "Austin, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 539,
             "num_sub": 1991
           }
@@ -107,6 +117,7 @@
           "ordinal": "28th",
           "location": "Québec City, Canada",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 398,
             "num_sub": 1406
           }
@@ -116,6 +127,7 @@
           "ordinal": "27th",
           "location": "Bellevue, Washington, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 203,
             "num_sub": 690
           }
@@ -125,6 +137,7 @@
           "ordinal": "26th",
           "location": "Toronto, Canada",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 294,
             "num_sub": 1129
           }
@@ -134,6 +147,7 @@
           "ordinal": "25th",
           "location": "San Francisco, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 242,
             "num_sub": 990
           }
@@ -143,6 +157,7 @@
           "ordinal": "24th",
           "location": "Atlanta, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 264,
             "num_sub": 977
           }
@@ -152,6 +167,7 @@
           "ordinal": "23rd",
           "location": "Chicago, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 227,
             "num_sub": 937
           }
@@ -161,6 +177,7 @@
           "ordinal": "22nd",
           "location": "Vancouver, Canada",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 251,
             "num_sub": 923
           }
@@ -170,6 +187,7 @@
           "ordinal": "21st",
           "location": "Boston, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 171,
             "num_sub": 774
           }
@@ -179,6 +197,7 @@
           "ordinal": "20th",
           "location": "Pittsburgh, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 229,
             "num_sub": 803
           }
@@ -188,6 +207,7 @@
           "ordinal": "19th",
           "location": "San Jose, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 120,
             "num_sub": 453
           }
@@ -197,6 +217,7 @@
           "ordinal": "18th",
           "location": "Edmonton, Alberta, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 121,
             "num_sub": 469
           }
@@ -206,6 +227,7 @@
           "ordinal": "17th",
           "location": "Austin, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 143,
             "num_sub": 431
           }
@@ -215,6 +237,7 @@
           "ordinal": "16th",
           "location": "Orlando, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 109,
             "num_sub": 400
           }
@@ -224,6 +247,7 @@
           "ordinal": "15th",
           "location": "Madison, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 143,
             "num_sub": 475
           }
@@ -233,6 +257,7 @@
           "ordinal": "14th",
           "location": "Providence, Rhode Island, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 117,
             "num_sub": 323
           }
@@ -242,6 +267,7 @@
           "ordinal": "13th",
           "location": "Portland, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 197,
             "num_sub": 643
           }
@@ -251,6 +277,7 @@
           "ordinal": "12th",
           "location": "Seattle, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 222,
             "num_sub": 725
           }
@@ -260,6 +287,7 @@
           "ordinal": "11th",
           "location": "Washington DC, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 126,
             "num_sub": 524
           }
@@ -269,6 +297,7 @@
           "ordinal": "10th",
           "location": "San Jose, California, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 133,
             "num_sub": 636
           }
@@ -278,6 +307,7 @@
           "ordinal": "9th",
           "location": "Anaheim, California, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 142,
             "num_sub": 603
           }
@@ -287,6 +317,7 @@
           "ordinal": "8th",
           "location": "Boston, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 161,
             "num_sub": 926
           }
@@ -296,6 +327,7 @@
           "ordinal": "7th",
           "location": "Saint Paul, Minnesota, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 148,
             "num_sub": 850
           }
@@ -305,6 +337,7 @@
           "ordinal": "6th",
           "location": "Seattle, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 149,
             "num_sub": 715
           }
@@ -314,6 +347,7 @@
           "ordinal": "5th",
           "location": "Philadelphia, Pennsylvania, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 187,
             "num_sub": 817
           }
@@ -323,6 +357,7 @@
           "ordinal": "4th",
           "location": "Austin, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 69
           }
         },
@@ -331,6 +366,7 @@
           "ordinal": "3rd",
           "location": "Washington DC, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 92
           }
         },
@@ -339,6 +375,7 @@
           "ordinal": "2nd",
           "location": "Pittsburgh, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 104
           }
         },
@@ -347,6 +384,7 @@
           "ordinal": "1st",
           "location": "Stanford, California, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 95
           }
         }
@@ -366,6 +404,7 @@
           "ordinal": "41st",
           "location": "Vienna, Austria",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 2609,
             "num_sub": 9473
           }
@@ -375,6 +414,7 @@
           "ordinal": "40th",
           "location": "Honolulu, Hawaii, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1827,
             "num_sub": 6538
           }
@@ -384,6 +424,7 @@
           "ordinal": "39th",
           "location": "Baltimore, Maryland, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1235,
             "num_sub": 5630
           }
@@ -393,6 +434,7 @@
           "ordinal": "38th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1184,
             "num_sub": 5513
           }
@@ -402,6 +444,7 @@
           "ordinal": "37th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1088,
             "num_sub": 4990
           }
@@ -424,6 +467,7 @@
           "ordinal": "12th",
           "location": "Vienna, Austria",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 2250,
             "num_sub": 7304
           }
@@ -433,6 +477,7 @@
           "ordinal": "11th",
           "location": "Kigali, Rwanda",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1574,
             "num_sub": 4938
           }
@@ -442,6 +487,7 @@
           "ordinal": "10th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1095,
             "num_sub": 3391
           }
@@ -451,6 +497,7 @@
           "ordinal": "9th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 860,
             "num_sub": 2997
           }
@@ -460,6 +507,7 @@
           "ordinal": "8th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 687,
             "num_sub": 2594
           }
@@ -469,6 +517,7 @@
           "ordinal": "7th",
           "location": "New Orleans, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 500,
             "num_sub": 1591
           }
@@ -478,6 +527,7 @@
           "ordinal": "6th",
           "location": "Vancouver, Canada",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 314,
             "num_sub": 981
           }
@@ -487,6 +537,7 @@
           "ordinal": "5th",
           "location": "Toulon, France",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 198,
             "num_sub": 507
           }
@@ -496,6 +547,7 @@
           "ordinal": "4th",
           "location": "San Juan, Puerto Rico",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 80,
             "num_sub": 265
           }
@@ -505,6 +557,7 @@
           "ordinal": "3rd",
           "location": "San Diego, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 31,
             "num_sub": 143
           }
@@ -514,6 +567,7 @@
           "ordinal": "2nd",
           "location": "Banff, Canada",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 35,
             "num_sub": 87
           }
@@ -523,6 +577,7 @@
           "ordinal": "1st",
           "location": "Scottsdale, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 23,
             "num_sub": 67
           }
@@ -548,6 +603,7 @@
           "ordinal": "32nd",
           "location": "Macao, China",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 643,
             "num_sub": 4566
           }
@@ -557,6 +613,7 @@
           "ordinal": "31st",
           "location": "Vienna, Austria",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 679,
             "num_sub": 4537
           }
@@ -566,6 +623,7 @@
           "ordinal": "30th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 587,
             "num_sub": 4204
           }
@@ -575,6 +633,7 @@
           "ordinal": "29th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 592,
             "num_sub": 4717
           }
@@ -584,6 +643,7 @@
           "ordinal": "28th",
           "location": "Macao, China",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 850,
             "num_sub": 4752
           }
@@ -609,6 +669,7 @@
           "ordinal": "37th",
           "location": "New Orleans, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 3218,
             "num_sub": 12343
           }
@@ -618,6 +679,7 @@
           "ordinal": "36th",
           "location": "New Orleans, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 2905,
             "num_sub": 9634
           }
@@ -627,6 +689,7 @@
           "ordinal": "35th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 2334,
             "num_sub": 9122
           }
@@ -636,6 +699,7 @@
           "ordinal": "34th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1898,
             "num_sub": 9467
           }
@@ -645,6 +709,7 @@
           "ordinal": "33rd",
           "location": "Vancouver, Canada",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1428,
             "num_sub": 6743
           }
@@ -670,6 +735,7 @@
           "ordinal": "37th",
           "location": "Seattle, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 2719,
             "num_sub": 11532
           }
@@ -679,6 +745,7 @@
           "ordinal": "36th",
           "location": "Vancouver, Canada",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 2359,
             "num_sub": 9155
           }
@@ -688,6 +755,7 @@
           "ordinal": "35th",
           "location": "New Orleans, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 2064,
             "num_sub": 8161
           }
@@ -697,6 +765,7 @@
           "ordinal": "34th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1663,
             "num_sub": 7015
           }
@@ -706,6 +775,7 @@
           "ordinal": "33rd",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1470,
             "num_sub": 6656
           }
@@ -715,6 +785,7 @@
           "ordinal": "32nd",
           "location": "Long Beach, California, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1300,
             "num_sub": 5165
           }
@@ -724,6 +795,7 @@
           "ordinal": "31st",
           "location": "Salt Lake City, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 979,
             "num_sub": 3303
           }
@@ -733,6 +805,7 @@
           "ordinal": "31st",
           "location": "Honolulu, Hawaii, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 783,
             "num_sub": 2620
           }
@@ -759,6 +832,7 @@
           "ordinal": "18th",
           "location": "Milan, Italy",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 2395,
             "num_sub": 8585
           }
@@ -768,6 +842,7 @@
           "ordinal": "17th",
           "location": "Tel Aviv, Israel",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1361,
             "num_sub": 5025
           }
@@ -777,6 +852,7 @@
           "ordinal": "16th",
           "location": "Glasgow, Scotland",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1361,
             "num_sub": 5025
           }
@@ -786,6 +862,7 @@
           "ordinal": "15th",
           "location": "Munich, Germany",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 776,
             "num_sub": 2439
           }
@@ -795,6 +872,7 @@
           "ordinal": "14th",
           "location": "Amsterdam, Netherlands",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 415,
             "num_sub": 1561
           }
@@ -804,6 +882,7 @@
           "ordinal": "13th",
           "location": "Zurich, Switzerland",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 363,
             "num_sub": 1444
           }
@@ -813,6 +892,7 @@
           "ordinal": "12th",
           "location": "Florence, Italy",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 408,
             "num_sub": 1437
           }
@@ -822,6 +902,7 @@
           "ordinal": "11th",
           "location": "Heraklion, Greece",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 325,
             "num_sub": 1174
           }
@@ -831,6 +912,7 @@
           "ordinal": "10th",
           "location": "Marseille, France",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 203,
             "num_sub": 871
           }
@@ -840,6 +922,7 @@
           "ordinal": "9th",
           "location": "Graz, Austria",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 192,
             "num_sub": 811
           }
@@ -849,6 +932,7 @@
           "ordinal": "8th",
           "location": "Prague, Czech Republic",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 190,
             "num_sub": 555
           }
@@ -858,6 +942,7 @@
           "ordinal": "7th",
           "location": "Copenhagen, Denmark (num of sub is around 600)",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 226,
             "num_sub": 600
           }
@@ -867,6 +952,7 @@
           "ordinal": "6th",
           "location": "Dublin, Ireland",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 116,
             "num_sub": 266
           }
@@ -876,6 +962,7 @@
           "ordinal": "5th",
           "location": "Freiburg, Germany",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 112,
             "num_sub": 223
           }
@@ -885,6 +972,7 @@
           "ordinal": "4th",
           "location": "Cambridge, UK",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 123,
             "num_sub": 328
           }
@@ -894,6 +982,7 @@
           "ordinal": "3rd",
           "location": "Stockholm, Sweden (unknown num of sub)",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 115,
             "num_sub": 318
           }
@@ -903,6 +992,7 @@
           "ordinal": "2nd",
           "location": "Santa Margherita Ligure, Italy",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 105,
             "num_sub": 308
           }
@@ -912,6 +1002,7 @@
           "ordinal": "1st",
           "location": "Antibes, France (unknown num of sub)",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 81,
             "num_sub": 298
           }
@@ -938,6 +1029,7 @@
           "ordinal": "18th",
           "location": "Paris, France",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 2160,
             "num_sub": 8088
           }
@@ -947,6 +1039,7 @@
           "ordinal": "17th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1617,
             "num_sub": 6236
           }
@@ -956,6 +1049,7 @@
           "ordinal": "14th",
           "location": "Seoul, Korea",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 1075,
             "num_sub": 4303
           }
@@ -965,6 +1059,7 @@
           "ordinal": "15th",
           "location": "Venice, Italy",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 621,
             "num_sub": 2143
           }
@@ -974,6 +1069,7 @@
           "ordinal": "15th",
           "location": "Santiago, Chile",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 525,
             "num_sub": 1698
           }
@@ -999,6 +1095,7 @@
           "ordinal": "40th",
           "location": "Utrecht, Netherlands",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 337,
             "num_sub": 1481
           }
@@ -1008,6 +1105,7 @@
           "ordinal": "39th",
           "location": "Anaheim, California, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 229,
             "num_sub": 748
           }
@@ -1017,6 +1115,7 @@
           "ordinal": "38th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 211,
             "num_sub": 780
           }
@@ -1026,6 +1125,7 @@
           "ordinal": "37th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 151,
             "num_sub": 549
           }
@@ -1035,6 +1135,7 @@
           "ordinal": "36th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 129,
             "num_sub": 568
           }
@@ -1061,6 +1162,7 @@
           "ordinal": "43rd",
           "location": "Santiago, Chile",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 39,
             "num_sub": 110
           }
@@ -1070,6 +1172,7 @@
           "ordinal": "42nd",
           "location": "Seattle, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 29,
             "num_sub": 85
           }
@@ -1079,6 +1182,7 @@
           "ordinal": "41st",
           "location": "Philadelphia, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 33,
             "num_sub": 95
           }
@@ -1088,6 +1192,7 @@
           "ordinal": "40th",
           "location": "Xi'an, China",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 26,
             "num_sub": 79
           }
@@ -1097,6 +1202,7 @@
           "ordinal": "39th",
           "location": "Virtual Conference",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 26,
             "num_sub": 70
           }
@@ -1106,6 +1212,7 @@
           "ordinal": "38th",
           "location": "Amsterdam, Netherlands",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 29,
             "num_sub": 87
           }
@@ -1115,6 +1222,7 @@
           "ordinal": "37th",
           "location": "Houston, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 29,
             "num_sub": 83
           }
@@ -1124,6 +1232,7 @@
           "ordinal": "36th",
           "location": "Chicago, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 29,
             "num_sub": 101
           }
@@ -1133,6 +1242,7 @@
           "ordinal": "35th",
           "location": "San Francisco, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 31,
             "num_sub": 94
           }
@@ -1142,6 +1252,7 @@
           "ordinal": "34th",
           "location": "Melbourne, Australia",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 25,
             "num_sub": 80
           }
@@ -1151,6 +1262,7 @@
           "ordinal": "33rd",
           "location": "Snowbird, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 22,
             "num_sub": 67
           }
@@ -1160,6 +1272,7 @@
           "ordinal": "32nd",
           "location": "New York City, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 24,
             "num_sub": 97
           }
@@ -1169,6 +1282,7 @@
           "ordinal": "31st",
           "location": "Scottsdale, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 26,
             "num_sub": 101
           }
@@ -1178,6 +1292,7 @@
           "ordinal": "30th",
           "location": "Athens, Greece",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 25,
             "num_sub": 113
           }
@@ -1187,6 +1302,7 @@
           "ordinal": "29th",
           "location": "Indianapolis, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 27,
             "num_sub": 113
           }
@@ -1196,6 +1312,7 @@
           "ordinal": "28th",
           "location": "Providence, Rhode Island, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 26,
             "num_sub": 97
           }
@@ -1205,6 +1322,7 @@
           "ordinal": "27th",
           "location": "Vancouver, Canada",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 28,
             "num_sub": 159
           }
@@ -1214,6 +1332,7 @@
           "ordinal": "26th",
           "location": "Beijing, China",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 28,
             "num_sub": 187
           }
@@ -1223,6 +1342,7 @@
           "ordinal": "25th",
           "location": "Chicago, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 35,
             "num_sub": 185
           }
@@ -1232,6 +1352,7 @@
           "ordinal": "24th",
           "location": "Baltimore, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 32,
             "num_sub": 157
           }
@@ -1241,6 +1362,7 @@
           "ordinal": "23rd",
           "location": "Paris, France",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 30,
             "num_sub": 183
           }
@@ -1250,6 +1372,7 @@
           "ordinal": "22nd",
           "location": "San Diego, California, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 27,
             "num_sub": 136
           }
@@ -1259,6 +1382,7 @@
           "ordinal": "21st",
           "location": "Madison, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 24,
             "num_sub": 109
           }
@@ -1268,9 +1392,94 @@
           "ordinal": "20th",
           "location": "Santa Barbara, California, USA",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 26,
             "num_sub": 99
           }
+        }
+      ]
+    },
+    {
+      "series": "VLDB",
+      "metadata": {
+        "series_full_title": "International Conference on Very Large Data Bases",
+        "main_discipline": [
+          "Database"
+        ],
+        "other_discipline": [
+          "Template"
+        ],
+        "parent_org": "",
+        "website": "",
+        "proceedings": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "12th",
+          "location": "Virtual",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "11th",
+          "location": "Virtual",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "10th",
+          "location": "Virtual",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "9th",
+          "location": "Virtual",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "8th",
+          "location": "Virtual",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "8th",
+          "location": "Virtual",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 128,
+            "num_sub": 677
+          },
+          "other_track": [
+            {
+              "track_name": "Industrial Track",
+              "num_acc": 22,
+              "num_sub": 72
+            }
+          ]
         }
       ]
     },
@@ -1285,7 +1494,8 @@
           "Template"
         ],
         "parent_org": "",
-        "website": ""
+        "website": "",
+        "proceedings": ""
       },
       "yearly_data": [
         {
@@ -1293,6 +1503,7 @@
           "ordinal": "12th",
           "location": "Virtual",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 0,
             "num_sub": 0
           }
@@ -1302,6 +1513,7 @@
           "ordinal": "11th",
           "location": "Virtual",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 0,
             "num_sub": 0
           }
@@ -1311,6 +1523,7 @@
           "ordinal": "10th",
           "location": "Virtual",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 0,
             "num_sub": 0
           }
@@ -1320,6 +1533,7 @@
           "ordinal": "9th",
           "location": "Virtual",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 0,
             "num_sub": 0
           }
@@ -1329,6 +1543,7 @@
           "ordinal": "8th",
           "location": "Virtual",
           "main_track": {
+            "track_name": "Research Track", 
             "num_acc": 0,
             "num_sub": 0
           }

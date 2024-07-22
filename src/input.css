@@ -45,3 +45,15 @@ select option {
 
 .card-tag  {@apply bg-uestc}
 .card-tag-2 {@apply bg-uestc_orange}
+
+dl {
+    @apply ml-2
+}
+
+dt {
+    @apply font-bold
+}
+
+dd {
+    @apply ml-10
+}

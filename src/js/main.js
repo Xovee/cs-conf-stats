@@ -197,7 +197,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 data: acc_rate,
                 symbolSize: 7,
                 itemStyle: {
-                  color: '#F08300',
+                  // color: '#F08300',
+                  color: '#00409880',
                   borderColor: '#F08300',
                   borderWidth: 3
                 },

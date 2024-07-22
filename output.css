@@ -981,15 +981,22 @@ select option {
   background-color: rgb(240 131 0 / var(--tw-bg-opacity));
 }
 
+dl {
+  margin-left: 0.5rem;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin-left: 2.5rem;
+}
+
 @media (min-width: 768px) {
   .md\:-mx-3 {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
-  }
-
-  .md\:mx-2 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
   }
 
   .md\:mx-0 {
