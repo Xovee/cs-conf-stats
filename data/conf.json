@@ -981,6 +981,67 @@
       ]
     },
     {
+      "series": "ICDE",
+      "metadata": {
+        "series_full_title": "IEEE International Conference on Data Engineering",
+        "main_discipline": [
+          "Data Engineering", "Data Management", "Database"
+        ],
+        "other_discipline": [
+          "Data Mining", "Data Stream", "Sensor Networks", "Query Language", "Data Visualization", "Distributed DM", "Parallel DM", "Graphs", "Data Quality"
+        ],
+        "parent_org": "IEEE Computer Society",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000178/all-proceedings"
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "40th",
+          "location": "Utrecht, Netherlands",
+          "main_track": {
+            "num_acc": 337,
+            "num_sub": 1481
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "39th",
+          "location": "Anaheim, California, USA",
+          "main_track": {
+            "num_acc": 229,
+            "num_sub": 748
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "38th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 211,
+            "num_sub": 780
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "37th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 151,
+            "num_sub": 549
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "36th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 129,
+            "num_sub": 568
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
@@ -990,8 +1051,8 @@
         "other_discipline": [
           "Template"
         ],
-        "parent_org": ["n/a"],
-        "website": [""]
+        "parent_org": "",
+        "website": ""
       },
       "yearly_data": [
         {
