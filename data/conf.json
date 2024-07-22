@@ -1181,6 +1181,96 @@
             "num_acc": 25,
             "num_sub": 113
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "29th",
+          "location": "Indianapolis, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 113
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "28th",
+          "location": "Providence, Rhode Island, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 97
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "27th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 159
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "26th",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 187
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "25th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 185
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "24th",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 157
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "23rd",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 183
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "22nd",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 136
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "21st",
+          "location": "Madison, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 109
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "20th",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 99
+          }
         }
       ]
     },
