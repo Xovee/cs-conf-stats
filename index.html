@@ -32,12 +32,12 @@
     <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">Conference Selection</div>
 
     <!-- select a conference-->
-    <div class="container md:text-xl">
+    <div class="container md:text-lg">
         <form class="py-2 rounded-lg bg-white shadow-md p-5 mx-2 md:mx-0">
             <fieldset>
                 <legend class="mb-2">Current selection: <span id="cur-conf" class="">AAAI</span></legend>
+                <div class="selects-container grid grid-cols-3 gap-2 sm:grid-cols-6 md:grid-cols-9 lg:grid-cols-12">
 
-                <div class="inline-block select-container">
                     <label for="dropdown-ai">AI & ML</label>
                     <select id="dropdown-ai" name="dropdown-ai" class="">
                         <option value="" disabled></option>
@@ -47,9 +47,7 @@
                         <option value="IJCAI">IJCAI</option>
                         <option value="NeurIPS">NeurIPS</option>
                     </select>
-                </div>
 
-                <div class="inline-block select-container">
                     <label for="dropdown-cv">CV</label>
                     <select id="dropdown-cv" name="dropdown-cv" class="">
                         <option value="" disabled selected></option>
@@ -57,9 +55,7 @@
                         <option value="ECCV">ECCV</option>
                         <option value="ICCV">ICCV</option>
                     </select>
-                </div>
 
-                <div class="inline-block select-container">
                     <label for="dropdown-db">DB</label>
                     <select id="dropdown-db" name="dropdown-db" class="">
                         <option value="" disabled selected></option>
@@ -68,9 +64,7 @@
                         <option value="SIGMOD">SIGMOD</option>
                         <option value="VLDB">VLDB</option>
                     </select>
-                </div>
 
-                <div class="inline-block select-container">
                     <label for="dropdown-mm">MM</label>
                     <select id="dropdown-mm" name="dropdown-mm" class="">
                         <option value="" disabled selected></option>

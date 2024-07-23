@@ -15,16 +15,17 @@ footer {
     @apply text-center text-gray-600 md:text-left
 }
 
-select {
-    @apply ml-4 mr-6 w-24 font-mono text-sm md:text-base
-}
 
 select option {
     @apply p-4
 }
 
-.select-container {
-    @apply content-center
+.selects-container label {
+    @apply mb-3 sm:mb-0 text-right text-nowrap
+}
+
+.selects-container select {
+    @apply font-mono text-sm md:text-base col-span-2 w-1/2 mx-3 sm:w-3/4 md:w-4/5 xl:col-span-1
 }
 
 .conf-card {

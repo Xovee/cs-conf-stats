@@ -618,16 +618,6 @@ video {
   margin-right: auto;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -654,10 +644,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
 }
 
 .block {
@@ -712,6 +698,10 @@ video {
   list-style-type: disc;
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -730,6 +720,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .truncate {
@@ -797,10 +791,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .ordinal {
@@ -900,28 +890,50 @@ footer {
   }
 }
 
-select {
-  margin-left: 1rem;
-  margin-right: 1.5rem;
-  width: 6rem;
+select option {
+  padding: 1rem;
+}
+
+.selects-container label {
+  margin-bottom: 0.75rem;
+  text-wrap: nowrap;
+  text-align: right;
+}
+
+@media (min-width: 640px) {
+  .selects-container label {
+    margin-bottom: 0px;
+  }
+}
+
+.selects-container select {
+  grid-column: span 2 / span 2;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  width: 50%;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
+@media (min-width: 640px) {
+  .selects-container select {
+    width: 75%;
+  }
+}
+
 @media (min-width: 768px) {
-  select {
+  .selects-container select {
+    width: 80%;
     font-size: 1rem;
     line-height: 1.5rem;
   }
 }
 
-select option {
-  padding: 1rem;
-}
-
-.select-container {
-  align-content: center;
+@media (min-width: 1280px) {
+  .selects-container select {
+    grid-column: span 1 / span 1;
+  }
 }
 
 .conf-card {
@@ -1011,6 +1023,12 @@ dd {
   margin-left: 2.5rem;
 }
 
+@media (min-width: 640px) {
+  .sm\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
 @media (min-width: 768px) {
   .md\:-mx-3 {
     margin-left: -0.75rem;
@@ -1020,6 +1038,10 @@ dd {
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .md\:grid-cols-9 {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
   }
 
   .md\:py-0 {
@@ -1049,5 +1071,11 @@ dd {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 }

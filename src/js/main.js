@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
 
   // display conf stats
-  fetch('../../data/conf.json')
+  fetch('/data/conf.json')
     .then(response => response.json())
     .then(data => {
 
@@ -97,9 +97,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             `;
           }
 
-
-          statsDiv.innerHTML = cards;
-
           // prepare plot data
           const years = conference.yearly_data.map(d => d.year);
           const ordinals = conference.yearly_data.map(d => d.ordinal);
@@ -123,6 +120,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
               location: d.location
             }));
           }
+
+          const sortedMainTrackData = mainTrackData.sort((a, b) => b.year - a.year);
+          const yearsToConsider = Math.min(sortedMainTrackData.length, 5);
+          const recentYearsData = sortedMainTrackData.slice(0, yearsToConsider);
+          const recentAccRate = recentYearsData.reduce((acc, d) => acc + d.acc_rate, 0) / recentYearsData.length;
+
+          if (conference.yearly_data && conference.yearly_data.length > 0) {
+            cards += `
+              <div class="conf-card">
+                <div class="conf-card-title">Acceptance Rate</div>
+                <div class="conf-card-desc">Average acceptance rate in recent ${yearsToConsider} confrence: ${recentAccRate.toFixed(2)}%</div>
+              </div>
+            `;
+          }
+
+          statsDiv.innerHTML = cards;
 
           const confPlot = echarts.init(document.getElementById('plot-area'));
 
