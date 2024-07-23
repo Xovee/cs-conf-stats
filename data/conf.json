@@ -1404,82 +1404,151 @@
       "metadata": {
         "series_full_title": "International Conference on Very Large Data Bases",
         "main_discipline": [
-          "Database"
+          "Database", "Data Management", "System"
         ],
         "other_discipline": [
-          "Template"
+          "Data Mining", "Data Privacy & Security", "DB Performance", "Distributed DB", "Graph", "Information Integration", "Data Quality", "Query Language", "Architecture"
         ],
-        "parent_org": "",
-        "website": "",
-        "proceedings": ""
+        "parent_org": "VLDB Endowment Inc.",
+        "website": "https://vldb.org/pvldb",
+        "proceedings": "https://vldb.org/pvldb/volumes/"
+      },
+      "yearly_data": [
+        {
+          "year": 2013,
+          "ordinal": "39th",
+          "location": "Trento, Italy",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 127,
+            "num_sub": 559
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "38th",
+          "location": "Istanbul, Turkey",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 134,
+            "num_sub": 659
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "37th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 100,
+            "num_sub": 553
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "36th",
+          "location": "Singapore",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 84,
+            "num_sub": 478
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "35th",
+          "location": "Lyon, France",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 100,
+            "num_sub": 575
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "34th",
+          "location": "Auckland, New Zealand",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 101,
+            "num_sub": 590
+          }
+        }
+      ]
+    },
+    {
+      "series": "ICME",
+      "metadata": {
+        "series_full_title": "IEEE International Conference on Multimedia and Expo",
+        "main_discipline": [
+          "Multimedia"
+        ],
+        "other_discipline": [
+          "3D", "AR", "VR", "Communication", "Mobility", "Networking", "Database", "Quality Assessment", "Security", "Multimodal", "Image", "Video"
+        ],
+        "parent_org": "IEEE CAS, IEEE ComSoc, IEEE CS, IEEE SPS",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000477/all-proceedings"
       },
       "yearly_data": [
         {
           "year": 2024,
-          "ordinal": "12th",
-          "location": "Virtual",
+          "ordinal": "32nd",
+          "location": "Niagara Falls, Canada",
           "main_track": {
-            "track_name": "Research Track", 
+            "track_name": "Research Track",
             "num_acc": 0,
-            "num_sub": 0
+            "num_sub": 2071
           }
         },
         {
           "year": 2023,
-          "ordinal": "11th",
-          "location": "Virtual",
+          "ordinal": "31rd",
+          "location": "Brisbane, Australia",
           "main_track": {
-            "track_name": "Research Track", 
-            "num_acc": 0,
-            "num_sub": 0
+            "track_name": "Research Track",
+            "num_acc": 488,
+            "num_sub": 1274
           }
         },
         {
           "year": 2022,
-          "ordinal": "10th",
-          "location": "Virtual",
+          "ordinal": "30th",
+          "location": "Taipei, Taiwan, China",
           "main_track": {
-            "track_name": "Research Track", 
-            "num_acc": 0,
-            "num_sub": 0
+            "track_name": "Research Track",
+            "num_acc": 381,
+            "num_sub": 1285
           }
         },
         {
           "year": 2021,
-          "ordinal": "9th",
-          "location": "Virtual",
+          "ordinal": "29th",
+          "location": "Virtual Conference",
           "main_track": {
-            "track_name": "Research Track", 
-            "num_acc": 0,
-            "num_sub": 0
+            "track_name": "Research Track",
+            "num_acc": 397,
+            "num_sub": 1300
           }
         },
         {
           "year": 2020,
-          "ordinal": "8th",
-          "location": "Virtual",
+          "ordinal": "28th",
+          "location": "Virtual Conference",
           "main_track": {
-            "track_name": "Research Track", 
-            "num_acc": 0,
-            "num_sub": 0
+            "track_name": "Research Track",
+            "num_acc": 241,
+            "num_sub": 834
           }
         },
         {
-          "year": 2019,
-          "ordinal": "8th",
-          "location": "Virtual",
+          "year": 2004,
+          "ordinal": "5th",
+          "location": "Taipei, Taiwan, China",
           "main_track": {
-            "track_name": "Research Track", 
-            "num_acc": 128,
-            "num_sub": 677
-          },
-          "other_track": [
-            {
-              "track_name": "Industrial Track",
-              "num_acc": 22,
-              "num_sub": 72
-            }
-          ]
+            "track_name": "Research Track",
+            "num_acc": 579,
+            "num_sub": 841
+          }
         }
       ]
     },

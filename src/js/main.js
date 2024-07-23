@@ -103,10 +103,26 @@ document.addEventListener('DOMContentLoaded', (event) => {
           // prepare plot data
           const years = conference.yearly_data.map(d => d.year);
           const ordinals = conference.yearly_data.map(d => d.ordinal);
-          const num_acc = conference.yearly_data.map(d => d.main_track.num_acc);
-          const num_sub = conference.yearly_data.map(d => d.main_track.num_sub);
-          const acc_rate = conference.yearly_data.map(d => (d.main_track.num_acc / d.main_track.num_sub) * 100);
-          const locations = conference.yearly_data.map(d => d.location);
+          
+          // main research track
+          const mainTrackData = conference.yearly_data.map(d => ({
+            num_acc: d.main_track.num_acc, 
+            num_rej: d.main_track.num_sub - d.main_track.num_acc,
+            num_sub: d.main_track.num_sub,
+            acc_rate: (d.main_track.num_acc / d.main_track.num_sub) * 100,
+            location: d.location
+          }));
+          
+          let secondTrackData = [];
+          if (conference.yearly_data[0].second_track) {
+            secondTrackData = conference.yearly_data.map(d => ({
+              num_acc: d.second_track.num_acc,
+              num_rej: d.second_track.num_sub - d.second_track.num_acc,
+              num_sub: d.second_track.num_sub,
+              acc_rate: (d.second_track.num_acc / d.second_track.num_sub) * 100,
+              location: d.location
+            }));
+          }
 
           const confPlot = echarts.init(document.getElementById('plot-area'));
 
@@ -132,16 +148,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
           const option = {
             dataZoom: dataZoom,
-            xAxis: {
-              type: 'category',
-              data: years,
-              axisLabel: {
-                textStyle: {
-                  fontSize: 14
-                }
-              },
-              inverse: true
-            },
+            xAxis: [
+              {
+                type: 'category',
+                data: years,
+                axisLabel: {
+                  textStyle: {
+                    fontSize: 14
+                  }
+                },
+                inverse: true
+            }],
             yAxis: [
               {
                 type: 'value',
@@ -169,47 +186,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
               }
             ],
             legend: {
-              data: ["Number of Submissions", "Acceptance Rate"],
-              top: 'top'
+              top: 'top',
             },
-            series: [
-              {
-                name: 'Number of Submissions',
-                data: num_sub,
-                type: 'bar',
-                itemStyle: {
-                  color: '#004098'
-                },
-                barWidth: '60%',
-                label: {
-                  show: true,
-                  position: 'top',
-                  textStyle: {
-                    fontSize: 14,
-                    color: '#333'
-                  }
-                }
-              },
-              {
-                name: 'Acceptance Rate',
-                type: 'line',
-                yAxisIndex: 1,
-                data: acc_rate,
-                symbolSize: 7,
-                itemStyle: {
-                  // color: '#F08300',
-                  color: '#00409880',
-                  borderColor: '#F08300',
-                  borderWidth: 3
-                },
-                emphasis: {
-                  scale: true
-                },
-                lineStyle: {
-                  width: 3
-                }
-              }
-            ],
+            series: [],
             tooltip: {
               trigger: 'axis',
               axisPointer: {
@@ -223,11 +202,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
               },
               formatter: function(params) {
                 const year = params[0].name;
-                const numSub = params[0].value;
-                const accRate = params[1].value;
-                const numAcc = num_acc[years.indexOf(parseInt(year, 10))];
-                const location = locations[years.indexOf(parseInt(year, 10))];
-                const ordinal = ordinals[years.indexOf(parseInt(year, 10))];
+                const trackData = (currentTrack === 'mainTrack') ? mainTrackData : secondTrackData;
+                const dataIndex = years.indexOf(parseInt(year, 10));
+                const numRej = params[0].value;
+                const numAcc = params[1].value;
+                const numSub = trackData[dataIndex].num_sub;
+                const accRate = params[2].value;
+                const location = trackData[dataIndex].location;
+                const ordinal = ordinals[dataIndex];
                 return `<div class="text-left">
                     <div class="flex justify-between">
                       <span>Year: </span>
@@ -236,6 +218,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     <div class="flex justify-between">
                         <span>Number of Accepted: </span>
                         <span class="ml-2 text-uestc_orange">${numAcc}</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span>Number of Rejected: </span>
+                        <span class="ml-2 text-uestc_orange">${numRej}</span>
                     </div>
                     <div class="flex justify-between">
                         <span>Number of Submissions: </span>
@@ -254,7 +240,80 @@ document.addEventListener('DOMContentLoaded', (event) => {
             },
           };
 
-          confPlot.setOption(option);
+          function updateChart(trackData, title) {
+            option.series = [
+              {
+                name: "Number of Accepted",
+                data: trackData.map(d => d.num_acc),
+                type: 'bar',
+                stack: 'paper',
+                itemStyle: {
+                  color: '#F08300'
+                }
+                // barWidth: '60%'
+              },
+              {
+                name: 'Number of Rejected',
+                data: trackData.map(d => d.num_rej),
+                type: 'bar',
+                stack: 'paper',
+                itemStyle: {
+                  color: '#004098'
+                }
+              },
+              {
+                name: 'Acceptance Rate',
+                type: 'line',
+                yAxisIndex: 1,
+                data: trackData.map(d => d.acc_rate),
+                symbolSize: 7,
+                itemStyle: {
+                  color: '#F08300',
+                  borderColor: '#222',
+                  borderWidth: 3
+                },
+                emphasis: {
+                  scale: true
+                },
+                lineStyle: {
+                  width: 3
+                }
+              }
+            ];
+
+            confPlot.setOption(option);
+          }
+
+          updateChart(mainTrackData, "Research Track")
+
+          let secondTrackName = '';
+
+          if (secondTrackData.length > 0) {
+            secondTrackName = conference.yearly_data[0].second_track.track_name;
+          }
+
+          const trackButtons = document.getElementById('track-buttons');
+
+          if (secondTrackName) {
+            let buttonsHTML = `
+              <label class=""><input type="radio" name="track" value="mainTrack" onclick="showTrack('mainTrack')" checked><span class="mx-2">Research Track</span></label>
+              <label class=""><input type="radio" name="track" value="secondTrack" onclick="showTrack('secondTrack')"><span class="mx-2">${secondTrackName}</span></label>
+             `;
+            trackButtons.innerHTML = buttonsHTML;
+          } else {
+            trackButtons.innerHTML = '';
+          }
+
+          let currentTrack = 'mainTrack';
+
+          window.showTrack = function(track) {
+            currentTrack = track;
+            if (track === 'mainTrack') {
+              updateChart(mainTrackData, "Research Track");
+            } else {
+              updateChart(secondTrackData, secondTrackName);
+            }
+          };
 
           window.addEventListener('resize', function() {
             confPlot.resize();

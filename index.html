@@ -70,6 +70,15 @@
                     </select>
                 </div>
 
+                <div class="inline-block select-container">
+                    <label for="dropdown-mm">MM</label>
+                    <select id="dropdown-mm" name="dropdown-mm" class="">
+                        <option value="" disabled selected></option>
+                        <option value="ACM MM">ACM MM</option>
+                        <option value="ICME">ICME</option>
+                    </select>
+                </div>
+
 <!--                <div class="inline-block select-container">-->
 <!--                    <label for="dropdown-dm">DM & IR</label>-->
 <!--                    <select id="dropdown-dm" name="dropdown-dm" class="">-->
@@ -91,6 +100,8 @@
 <!--                        <option value="UIST">UIST</option>-->
 <!--                    </select>-->
 <!--                </div>-->
+
+
 
 <!--                <div class="inline-block select-container">-->
 <!--                    <label for="dropdown-net">Net</label>-->
@@ -132,6 +143,8 @@
         <div id="plot-area" class="container min-w-[200px] h-[450px] text-center py-2"></div>
     </div>
 
+    <div id="track-buttons" class="text-center md:text-left py-2 md:py-0"></div>
+
     <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">Conference Info</div>
 
     <div id="stats-card-container" class="container flex flex-wrap md:-mx-3"> </div>
@@ -146,6 +159,7 @@
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-cv" data-conf="ICCV">ICCV: International Conference on Computer Vision</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-db" data-conf="ICDE">ICDE: International Conference on Data Engineering</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="ICLR">ICLR: International Conference on Learning Representations</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
+            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="ICME">ICME: IEEE International Conference on Multimedia and Expo</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="ICML">ICML: International Conference on Machine Learning</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="IJCAI">IJCAI: International Joint Conference on Artificial Intelligence</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="NeurIPS">NeurIPS: Conference on Neural Information Processing Systems</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
@@ -165,7 +179,12 @@
             <dt>Are the data complete?</dt>
             <dd>No. There are many conference, and some of them have more than 30 or 40 years of history. I am continually working on that. I try to make sure there are at least five years of recent data. Contributions are welcome.</dd>
             <dt>What if the conference has multiple tracks?</dt>
-            <dd>Mainly I include the <i>Research Track</i>. If there is another major tracks that have many submissions each year, I will include it as a second track, such as the <i>Applied Data Science</i> track for SIGKDD, <i>Industrial Track</i> for ICDE, <i>Short Paper Track</i> for CIKM. But only one additional track.</dd>
+            <dd>Mainly I include the <i>Research Track</i>. If there is another major tracks that have many submissions each year,
+                I will include it as a second track, such as the <i>Short Paper Track</i> and <i>Industrial/Applied Track</i>.
+                Moreover, when possible, the "number of submission" means the number of reviewed papers, i.e., those desk-rejected or withdrawal papers are not counted.
+            </dd>
+            <dt>What about those Journal-like Conferences?</dt>
+            <dd>More and more conferences adopted a journal-like mechanism: several submission opportunities a year, the proceedings are appeared in a journal, etc. Examples include <i>VLDB</i>, <i>ACL</i>, and <i>CSCW</i>. Many of them did not report the number of submissions or acceptance rate data. In such cases, I will only include valid (old) stats.</dd>
         </dl>
 
     </details>
