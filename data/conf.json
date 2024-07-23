@@ -1551,6 +1551,262 @@
           }
         }
       ]
+    },{
+      "series": "CIKM",
+      "metadata": {
+        "series_full_title": "ACM International Conference on Information and Knowledge Management",
+        "main_discipline": [
+          "Database", "Information Retrieval", "Knowledge Management"
+        ],
+        "other_discipline": [
+          "Data Mining", "Integration & Aggregation", "Search", "Artificial Intelligence", "Big Data", "Graph", "Recommendation"
+        ],
+        "parent_org": "ACM SIGWEB, ACM SIGIR",
+        "website": "https://dl.acm.org/conference/cikm",
+        "proceedings": "https://dl.acm.org/conference/cikm"
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "32nd",
+          "location": "Birmingham, UK",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 354,
+            "num_sub": 1472
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 152,
+            "num_sub": 554
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "31st",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 274,
+            "num_sub": 1175
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 196,
+            "num_sub": 675
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "30th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 271,
+            "num_sub": 1251
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 177,
+            "num_sub": 626
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "29th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 274,
+            "num_sub": 1175
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 196,
+            "num_sub": 675
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "28th",
+          "location": "Beijing, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 202,
+            "num_sub": 1031
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 107,
+            "num_sub": 471
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "27th",
+          "location": "Turin, Italy",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 147,
+            "num_sub": 826
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 96,
+            "num_sub": 413
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "26th",
+          "location": "Singapore",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 171,
+            "num_sub": 855
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 119,
+            "num_sub": 419
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "25th",
+          "location": "Indianapolis, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 160,
+            "num_sub": 701
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 55,
+            "num_sub": 234
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "24th",
+          "location": "Melbourne, Australia",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 165,
+            "num_sub": 646
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 69,
+            "num_sub": 276
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "23rd",
+          "location": "Shanghai, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 175,
+            "num_sub": 838
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 57,
+            "num_sub": 260
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "22nd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 143,
+            "num_sub": 848
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "21st",
+          "location": "Maui, Hawaii, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 146,
+            "num_sub": 1088
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "20th",
+          "location": "Glasgow, UK",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 134,
+            "num_sub": 918
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "19th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 126,
+            "num_sub": 945
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "18th",
+          "location": "Beijing, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 123,
+            "num_sub": 847
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "17th",
+          "location": "Napa Valley, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 132,
+            "num_sub": 800
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        }
+      ]
     },
     {
       "series": "Template",

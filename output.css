@@ -1023,6 +1023,10 @@ dd {
   margin-left: 2.5rem;
 }
 
+#track-buttons label:has(:checked) {
+  font-weight: 700;
+}
+
 @media (min-width: 640px) {
   .sm\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));

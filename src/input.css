@@ -58,3 +58,7 @@ dt {
 dd {
     @apply ml-10
 }
+
+#track-buttons label {
+    @apply has-[:checked]:font-bold
+}
