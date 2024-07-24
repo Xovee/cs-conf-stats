@@ -1415,6 +1415,16 @@
       },
       "yearly_data": [
         {
+          "year": 2015,
+          "ordinal": "41st",
+          "location": "Hawaii, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 151,
+            "num_sub": 710
+          }
+        },
+        {
           "year": 2013,
           "ordinal": "39th",
           "location": "Trento, Italy",
@@ -1472,6 +1482,136 @@
             "track_name": "Research Track", 
             "num_acc": 101,
             "num_sub": 590
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "33rd",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 108,
+            "num_sub": 594
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "32nd",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 83,
+            "num_sub": 626
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "31st",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 85,
+            "num_sub": 517
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "30th",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 83,
+            "num_sub": 463
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "29th",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 75,
+            "num_sub": 411
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "28th",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 69,
+            "num_sub": 431
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "27th",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 59,
+            "num_sub": 337
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "26th",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 53,
+            "num_sub": 349
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "25th",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 51,
+            "num_sub": 387
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "24th",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 51,
+            "num_sub": 328
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "23rd",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 53,
+            "num_sub": 355
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "22nd",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 48,
+            "num_sub": 349
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "21st",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 52,
+            "num_sub": 297
           }
         }
       ]
@@ -1878,8 +2018,8 @@
           "location": "Washington DC, USA",
           "main_track": {
             "track_name": "Research Track",
-            "num_acc": 60,
-            "num_sub": 303
+            "num_acc": 75,
+            "num_sub": 300
           }
         },
         {
@@ -1888,94 +2028,14 @@
           "location": "Atlanta, USA",
           "main_track": {
             "track_name": "Research Track",
-            "num_acc": 60,
-            "num_sub": 303
+            "num_acc": 66,
+            "num_sub": 259
           }
         },
         {
           "year": 2000,
           "ordinal": "9th",
           "location": "Washington DC, USA",
-          "main_track": {
-            "track_name": "Research Track",
-            "num_acc": 60,
-            "num_sub": 303
-          }
-        },
-        {
-          "year": 1999,
-          "ordinal": "8th",
-          "location": "Washington DC, USA",
-          "main_track": {
-            "track_name": "Research Track",
-            "num_acc": 60,
-            "num_sub": 303
-          }
-        },
-        {
-          "year": 1998,
-          "ordinal": "7th",
-          "location": "Washington DC, USA",
-          "main_track": {
-            "track_name": "Research Track",
-            "num_acc": 60,
-            "num_sub": 303
-          }
-        },
-        {
-          "year": 1997,
-          "ordinal": "6th",
-          "location": "Las Vegas, USA",
-          "main_track": {
-            "track_name": "Research Track",
-            "num_acc": 60,
-            "num_sub": 303
-          }
-        },
-        {
-          "year": 1996,
-          "ordinal": "5th",
-          "location": "Rockville, USA",
-          "main_track": {
-            "track_name": "Research Track",
-            "num_acc": 60,
-            "num_sub": 303
-          }
-        },
-        {
-          "year": 1995,
-          "ordinal": "4th",
-          "location": "Baltimore, USA",
-          "main_track": {
-            "track_name": "Research Track",
-            "num_acc": 60,
-            "num_sub": 303
-          }
-        },
-        {
-          "year": 1994,
-          "ordinal": "3rd",
-          "location": "Gaithersburg, USA",
-          "main_track": {
-            "track_name": "Research Track",
-            "num_acc": 60,
-            "num_sub": 303
-          }
-        },
-        {
-          "year": 1993,
-          "ordinal": "2nd",
-          "location": "Washington DC, USA",
-          "main_track": {
-            "track_name": "Research Track",
-            "num_acc": 60,
-            "num_sub": 303
-          }
-        },
-        {
-          "year": 1992,
-          "ordinal": "1st",
-          "location": "Baltimore, USA",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 60,

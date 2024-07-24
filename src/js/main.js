@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           let secondTrackData = [];
           if (conference.yearly_data[0].second_track) {
             secondTrackData = conference.yearly_data
-                .filter(d => d.second_track && d.second_track.num_sub > 0)
+                .filter(d => d.second_track && d.second_track.num_acc > 0)
                 .map(d => ({
               year: d.year,
               ordinal: d.ordinal,
