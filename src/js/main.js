@@ -98,11 +98,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
           }
 
           // prepare plot data
-          const years = conference.yearly_data.map(d => d.year);
-          const ordinals = conference.yearly_data.map(d => d.ordinal);
-          
           // main research track
           const mainTrackData = conference.yearly_data.map(d => ({
+            year: d.year,
+            ordinal: d.ordinal,
             num_acc: d.main_track.num_acc, 
             num_rej: d.main_track.num_sub - d.main_track.num_acc,
             num_sub: d.main_track.num_sub,
@@ -112,7 +111,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
           
           let secondTrackData = [];
           if (conference.yearly_data[0].second_track) {
-            secondTrackData = conference.yearly_data.map(d => ({
+            secondTrackData = conference.yearly_data
+                .filter(d => d.second_track && d.second_track.num_sub > 0)
+                .map(d => ({
+              year: d.year,
+              ordinal: d.ordinal,
               num_acc: d.second_track.num_acc,
               num_rej: d.second_track.num_sub - d.second_track.num_acc,
               num_sub: d.second_track.num_sub,
@@ -154,24 +157,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
           if (isMobile && years.length > 10) {
             dataZoom.show = true;
             dataZoom.startValue = 10;
-          } else if (!isMobile && years.length >= 30) {
+          } else if (!isMobile && mainTrackData.length >= 30) {
             dataZoom.show = true;
             dataZoom.startValue = 30;
           }
 
           const option = {
             dataZoom: dataZoom,
-            xAxis: [
-              {
-                type: 'category',
-                data: years,
-                axisLabel: {
-                  textStyle: {
-                    fontSize: 14
-                  }
-                },
-                inverse: true
-            }],
             yAxis: [
               {
                 type: 'value',
@@ -216,13 +208,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
               formatter: function(params) {
                 const year = params[0].name;
                 const trackData = (currentTrack === 'mainTrack') ? mainTrackData : secondTrackData;
-                const dataIndex = years.indexOf(parseInt(year, 10));
+                const dataIndex = params[0].axisIndex;
                 const numRej = params[0].value;
                 const numAcc = params[1].value;
                 const numSub = trackData[dataIndex].num_sub;
                 const accRate = params[2].value;
                 const location = trackData[dataIndex].location;
-                const ordinal = ordinals[dataIndex];
+                const ordinal = trackData[dataIndex].ordinal;
                 return `<div class="text-left">
                     <div class="flex justify-between">
                       <span>Year: </span>
@@ -254,6 +246,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
           };
 
           function updateChart(trackData, title) {
+
+            option.xAxis = [
+              {
+                type: 'category',
+                data: trackData.map(d => d.year),
+                axisLabel: {
+                  textStyle: {
+                    fontSize: 14
+                  }
+                },
+                inverse: true
+              }
+            ]
             option.series = [
               {
                 name: "Number of Accepted",
