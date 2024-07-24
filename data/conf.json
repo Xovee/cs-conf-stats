@@ -1139,6 +1139,16 @@
             "num_acc": 129,
             "num_sub": 568
           }
+        },
+        {
+          "year": 2019,
+          "ordinal": "36th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 129,
+            "num_sub": 568
+          }
         }
       ]
     },
@@ -1487,7 +1497,7 @@
         {
           "year": 2007,
           "ordinal": "33rd",
-          "location": "",
+          "location": "Vienna, Austria",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 108,
@@ -1497,7 +1507,7 @@
         {
           "year": 2006,
           "ordinal": "32nd",
-          "location": "",
+          "location": "Seoul, Korea",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 83,
@@ -1507,7 +1517,7 @@
         {
           "year": 2005,
           "ordinal": "31st",
-          "location": "",
+          "location": "Trondheim, Norway",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 85,
@@ -1517,7 +1527,7 @@
         {
           "year": 2004,
           "ordinal": "30th",
-          "location": "",
+          "location": "Toronto, Canada",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 83,
@@ -1527,7 +1537,7 @@
         {
           "year": 2003,
           "ordinal": "29th",
-          "location": "",
+          "location": "Berlin, Germany",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 75,
@@ -1537,7 +1547,7 @@
         {
           "year": 2002,
           "ordinal": "28th",
-          "location": "",
+          "location": "Hong Kong, China",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 69,
@@ -1547,7 +1557,7 @@
         {
           "year": 2001,
           "ordinal": "27th",
-          "location": "",
+          "location": "Roma, Italy",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 59,
@@ -1557,7 +1567,7 @@
         {
           "year": 2000,
           "ordinal": "26th",
-          "location": "",
+          "location": "Cairo, Egypt",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 53,
@@ -1567,7 +1577,7 @@
         {
           "year": 1999,
           "ordinal": "25th",
-          "location": "",
+          "location": "Edinburgh, Scotland, UK",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 51,
@@ -1577,7 +1587,7 @@
         {
           "year": 1998,
           "ordinal": "24th",
-          "location": "",
+          "location": "New York City, USA",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 51,
@@ -1587,7 +1597,7 @@
         {
           "year": 1997,
           "ordinal": "23rd",
-          "location": "",
+          "location": "Athens, Greece",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 53,
@@ -1597,7 +1607,7 @@
         {
           "year": 1996,
           "ordinal": "22nd",
-          "location": "",
+          "location": "Bombay, India",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 48,
@@ -1607,7 +1617,7 @@
         {
           "year": 1995,
           "ordinal": "21st",
-          "location": "",
+          "location": "Zurich, Switzerland",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 52,
@@ -1691,7 +1701,8 @@
           }
         }
       ]
-    },{
+    },
+    {
       "series": "CIKM",
       "metadata": {
         "series_full_title": "ACM International Conference on Information and Knowledge Management",
@@ -2040,6 +2051,83 @@
             "track_name": "Research Track",
             "num_acc": 60,
             "num_sub": 303
+          }
+        }
+      ]
+    },
+    {
+      "series": "SIGMOD",
+      "metadata": {
+        "series_full_title": "ACM SIGMOD/PODS International Conference on Management of Data ",
+        "main_discipline": [
+          "Database", "Data Management", "Big Data"
+        ],
+        "other_discipline": [
+          "Data Science", "Cloud Computing and DB", "Information Retrieval", "Knowledge Management", "Data Streams and Sensor Networks"
+        ],
+        "parent_org": "ACM SIGMOD",
+        "website": "https://sigmod.org",
+        "proceedings": "https://dl.acm.org/journal/pacmmod"
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "42nd",
+          "location": "Virtual",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 186,
+            "num_sub": 660
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "41st",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 151,
+            "num_sub": 514
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "40th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 188,
+            "num_sub": 450
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "39th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 123,
+            "num_sub": 458
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "38th",
+          "location": "Amsterdam, Netherlands",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 88,
+            "num_sub": 418
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "37th",
+          "location": "Houston, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 90,
+            "num_sub": 438
           }
         }
       ]
