@@ -106,7 +106,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
             num_rej: d.main_track.num_sub - d.main_track.num_acc,
             num_sub: d.main_track.num_sub,
             acc_rate: (d.main_track.num_acc / d.main_track.num_sub) * 100,
-            location: d.location
+            location: d.location,
+            note: d.note
           }));
           
           let secondTrackData = [];
@@ -120,7 +121,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
               num_rej: d.second_track.num_sub - d.second_track.num_acc,
               num_sub: d.second_track.num_sub,
               acc_rate: (d.second_track.num_acc / d.second_track.num_sub) * 100,
-              location: d.location
+              location: d.location,
+              note: d.note || ''
             }));
           }
 
@@ -208,13 +210,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
               formatter: function(params) {
                 const year = params[0].name;
                 const trackData = (currentTrack === 'mainTrack') ? mainTrackData : secondTrackData;
-                const dataIndex = params[0].axisIndex;
-                const numRej = params[0].value;
-                const numAcc = params[1].value;
+                const dataIndex = params[0].dataIndex;
+                const numRej = params[1].value;
+                const numAcc = params[0].value;
                 const numSub = trackData[dataIndex].num_sub;
                 const accRate = params[2].value;
                 const location = trackData[dataIndex].location;
                 const ordinal = trackData[dataIndex].ordinal;
+                const note = trackData[dataIndex].note;
                 return `<div class="text-left">
                     <div class="flex justify-between">
                       <span>Year: </span>
@@ -240,6 +243,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         <span>Conference Location: </span>
                         <span class="ml-2 text-uestc_orange">${location}</span>
                     </div>
+                    ${note ? `<div class="flex justify-between">
+                        <span>Note: </span>
+                        <span class="ml-2 text-uestc_orange">${note}</span>
+                    </div>` : ''}
                 </div>`
               }
             },
