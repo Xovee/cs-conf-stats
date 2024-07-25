@@ -329,11 +329,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
           const trackButtons = document.getElementById('track-buttons');
 
           if (secondTrackName) {
-            let buttonsHTML = `
+            trackButtons.innerHTML = `
               <label class=""><input type="radio" name="track" value="mainTrack" onclick="showTrack('mainTrack')" checked><span class="mx-2">Research Track</span></label>
               <label class=""><input type="radio" name="track" value="secondTrack" onclick="showTrack('secondTrack')"><span class="mx-2">${secondTrackName}</span></label>
              `;
-            trackButtons.innerHTML = buttonsHTML;
           } else {
             trackButtons.innerHTML = '';
           }
