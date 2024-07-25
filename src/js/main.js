@@ -156,14 +156,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             brushSelect: false
           };
 
-          if (isMobile && years.length > 10) {
-            dataZoom.show = true;
-            dataZoom.startValue = 10;
-          } else if (!isMobile && mainTrackData.length >= 30) {
-            dataZoom.show = true;
-            dataZoom.startValue = 30;
-          }
-
           const option = {
             dataZoom: dataZoom,
             yAxis: [
@@ -253,6 +245,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
           };
 
           function updateChart(trackData, title) {
+
+            if (isMobile && trackData.length > 10) {
+              dataZoom.show = true;
+              dataZoom.startValue = 10;
+            } else if (!isMobile && trackData.length >= 30) {
+              dataZoom.show = true;
+              dataZoom.startValue = 30;
+            }
 
             option.xAxis = [
               {
