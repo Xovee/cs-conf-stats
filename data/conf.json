@@ -1164,7 +1164,8 @@
         ],
         "parent_org": "ACM SIGMOD",
         "website": "https://sigmod.org/pods-home/",
-        "proceedings": "https://dl.acm.org/conference/pods"
+        "proceedings": "https://dl.acm.org/conference/pods",
+        "note": "The PODS conference has been held yearly since 1982, and has been held jointly with ACM SIGMOD conference since 1991."
       },
       "yearly_data": [
         {
@@ -1406,6 +1407,116 @@
             "num_acc": 26,
             "num_sub": 99
           }
+        },
+        {
+          "year": 2000,
+          "ordinal": "19th",
+          "location": "Dallas, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 26,
+            "num_sub": 119
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "18th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 32,
+            "num_sub": 116
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "17th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 28,
+            "num_sub": 119
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "16th",
+          "location": "Tucson, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 23,
+            "num_sub": 118
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "15th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 22,
+            "num_sub": 84
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "14th",
+          "location": "San Jose, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 25,
+            "num_sub": 94
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "13th",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 28,
+            "num_sub": 117
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "12th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 26,
+            "num_sub": 115
+          }
+        },
+        {
+          "year": 1984,
+          "ordinal": "3rd",
+          "location": "Waterloo, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 36,
+            "num_sub": 107
+          }
+        },
+        {
+          "year": 1983,
+          "ordinal": "2nd",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 38,
+            "num_sub": 118
+          }
+        },
+        {
+          "year": 1982,
+          "ordinal": "1st",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 37,
+            "num_sub": 104
+          }
         }
       ]
     },
@@ -1467,7 +1578,7 @@
         {
           "year": 2010,
           "ordinal": "36th",
-          "location": "Singapore",
+          "location": "Singapore, Singapore",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 84,
@@ -1810,7 +1921,7 @@
         {
           "year": 2017,
           "ordinal": "26th",
-          "location": "Singapore",
+          "location": "Singapore, Singapore",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 171,

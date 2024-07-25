@@ -140,6 +140,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
             `;
           }
 
+          if (conference.metadata.note && conference.metadata.note.length > 0) {
+            cards += `
+              <div class="conf-card">
+                <div class="conf-card-title">Note</div>
+                <div class="conf-card-desc">${conference.metadata.note}</div>
+              </div>
+            `;
+          }
+
           statsDiv.innerHTML = cards;
 
           const confPlot = echarts.init(document.getElementById('plot-area'));
