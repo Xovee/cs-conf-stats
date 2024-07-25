@@ -940,12 +940,13 @@
         {
           "year": 2002,
           "ordinal": "7th",
-          "location": "Copenhagen, Denmark (num of sub is around 600)",
+          "location": "Copenhagen, Denmark",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 226,
             "num_sub": 600
-          }
+          },
+          "note": "num of sub is around 600"
         },
         {
           "year": 2000,
@@ -980,12 +981,13 @@
         {
           "year": 1994,
           "ordinal": "3rd",
-          "location": "Stockholm, Sweden (unknown num of sub)",
+          "location": "Stockholm, Sweden",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 115,
             "num_sub": 318
-          }
+          },
+          "note": "unknown num of sub (estimated)"
         },
         {
           "year": 1992,
@@ -1000,12 +1002,13 @@
         {
           "year": 1990,
           "ordinal": "1st",
-          "location": "Antibes, France (unknown num of sub)",
+          "location": "Antibes, France",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 81,
             "num_sub": 298
-          }
+          },
+          "note": "unknown num of sub (estimated)"
         }
       ]
     },
@@ -1113,7 +1116,7 @@
         {
           "year": 2022,
           "ordinal": "38th",
-          "location": "Virtual Conference",
+          "location": "Kuala Lumpur, Malaysia",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 211,
@@ -1143,7 +1146,7 @@
         {
           "year": 2019,
           "ordinal": "36th",
-          "location": "Virtual Conference",
+          "location": "Macau, China",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 129,
@@ -1825,7 +1828,8 @@
         ],
         "parent_org": "ACM SIGWEB, ACM SIGIR",
         "website": "https://dl.acm.org/conference/cikm",
-        "proceedings": "https://dl.acm.org/conference/cikm"
+        "proceedings": "https://dl.acm.org/conference/cikm",
+        "second_track_name": "Short Paper Track"
       },
       "yearly_data": [
         {
@@ -1988,7 +1992,6 @@
             "num_sub": 848
           },
           "second_track": {
-            "track_name": "Short Research Track",
             "num_acc": 0,
             "num_sub": 0
           }
@@ -2086,7 +2089,7 @@
         {
           "year": 2006,
           "ordinal": "16th",
-          "location": "Lisbon, Portugal",
+          "location": "Arlington, USA",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 86,
@@ -2184,7 +2187,7 @@
         {
           "year": 2023,
           "ordinal": "42nd",
-          "location": "Virtual",
+          "location": "Seattle, USA",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 186,
@@ -2244,6 +2247,198 @@
       ]
     },
     {
+      "series": "ACM MM",
+      "metadata": {
+        "series_full_title": "ACM International Conference on Multimedia",
+        "main_discipline": [
+          "Multimedia"
+        ],
+        "other_discipline": [
+          "MM Content Analysis", "MM Interaction", "MM Networking", "MM Security & Privacy", "HCI for MM", "ML for MM", "MM Data Management"
+        ],
+        "parent_org": "SIGMM",
+        "website": "https://dl.acm.org/conference/mm",
+        "proceedings": "",
+        "second_track_name": "Short Paper Track"
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "31st",
+          "location": "Ottawa, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 902,
+            "num_sub": 3669
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "30th",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 691,
+            "num_sub": 2472
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "29th",
+          "location": "Chengdu, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 542,
+            "num_sub": 1942
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "28th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 474,
+            "num_sub": 1698
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "27th",
+          "location": "Nice, France",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 252,
+            "num_sub": 936
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "26th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 209,
+            "num_sub": 757
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "25th",
+          "location": "Mountain View, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 189,
+            "num_sub": 684
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "24th",
+          "location": "Amsterdam, Netherlands",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 52,
+            "num_sub": 237
+          },
+          "second_track": {
+            "track_name": "Short Paper Track",
+            "num_acc": 127,
+            "num_sub": 413
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "23rd",
+          "location": "Brisbane, Australia",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 56,
+            "num_sub": 252
+          },
+          "second_track": {
+            "track_name": "Short Paper Track",
+            "num_acc": 117,
+            "num_sub": 386
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "22nd",
+          "location": "Orlando, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 55,
+            "num_sub": 286
+          },
+          "second_track": {
+            "track_name": "Short Paper Track",
+            "num_acc": 117,
+            "num_sub": 393
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "21st",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 47,
+            "num_sub": 235
+          },
+          "second_track": {
+            "track_name": "Short Paper Track",
+            "num_acc": 77,
+            "num_sub": 278
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "20th",
+          "location": "Nara, Japan",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 67,
+            "num_sub": 331
+          },
+          "second_track": {
+            "track_name": "Short Paper Track",
+            "num_acc": 127,
+            "num_sub": 407
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "19th",
+          "location": "Scottsdale, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 58,
+            "num_sub": 335
+          },
+          "second_track": {
+            "track_name": "Short Paper Track",
+            "num_acc": 120,
+            "num_sub": 331
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "17th",
+          "location": "Beijing, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 50,
+            "num_sub": 305
+          },
+          "second_track": {
+            "num_acc": 103,
+            "num_sub": 369
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
@@ -2261,47 +2456,7 @@
         {
           "year": 2024,
           "ordinal": "12th",
-          "location": "Virtual",
-          "main_track": {
-            "track_name": "Research Track", 
-            "num_acc": 0,
-            "num_sub": 0
-          }
-        },
-        {
-          "year": 2023,
-          "ordinal": "11th",
-          "location": "Virtual",
-          "main_track": {
-            "track_name": "Research Track", 
-            "num_acc": 0,
-            "num_sub": 0
-          }
-        },
-        {
-          "year": 2022,
-          "ordinal": "10th",
-          "location": "Virtual",
-          "main_track": {
-            "track_name": "Research Track", 
-            "num_acc": 0,
-            "num_sub": 0
-          }
-        },
-        {
-          "year": 2021,
-          "ordinal": "9th",
-          "location": "Virtual",
-          "main_track": {
-            "track_name": "Research Track", 
-            "num_acc": 0,
-            "num_sub": 0
-          }
-        },
-        {
-          "year": 2020,
-          "ordinal": "8th",
-          "location": "Virtual",
+          "location": "Virtual Conference",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 0,

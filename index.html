@@ -38,7 +38,7 @@
                 <legend class="mb-2">Current selection: <span id="cur-conf" class="">AAAI</span></legend>
                 <div class="selects-container grid grid-cols-3 gap-2 sm:grid-cols-6 md:grid-cols-9 lg:grid-cols-12">
 
-                    <label for="dropdown-ai">AI & ML</label>
+                    <label for="dropdown-ai" title="Artificial Intelligence and Machine Learning">AI & ML</label>
                     <select id="dropdown-ai" name="dropdown-ai" class="">
                         <option value="" disabled></option>
                         <option value="AAAI" selected>AAAI</option>
@@ -48,7 +48,7 @@
                         <option value="NeurIPS">NeurIPS</option>
                     </select>
 
-                    <label for="dropdown-cv">CV</label>
+                    <label for="dropdown-cv" title="Computer Vision">CV</label>
                     <select id="dropdown-cv" name="dropdown-cv" class="">
                         <option value="" disabled selected></option>
                         <option value="CVPR">CVPR</option>
@@ -56,7 +56,7 @@
                         <option value="ICCV">ICCV</option>
                     </select>
 
-                    <label for="dropdown-db">DB</label>
+                    <label for="dropdown-db" title="Database">DB</label>
                     <select id="dropdown-db" name="dropdown-db" class="">
                         <option value="" disabled selected></option>
                         <option value="ICDE">ICDE</option>
@@ -65,14 +65,14 @@
                         <option value="VLDB">VLDB</option>
                     </select>
 
-                    <label for="dropdown-mm">MM</label>
+                    <label for="dropdown-mm" title="Multimedia">MM</label>
                     <select id="dropdown-mm" name="dropdown-mm" class="">
                         <option value="" disabled selected></option>
-<!--                        <option value="ACM MM">ACM MM</option>-->
+                        <option value="ACM MM">ACM MM</option>
                         <option value="ICME">ICME</option>
                     </select>
 
-                    <label for="dropdown-dm">DM & IR</label>
+                    <label for="dropdown-dm" title="Data Mining and Information Retrieval">DM & IR</label>
                     <select id="dropdown-dm" name="dropdown-dm" class="">
                         <option value="" disabled selected></option>
                         <option value="CIKM">CIKM</option>
@@ -141,18 +141,23 @@
 
     <div id="stats-card-container" class="container flex flex-wrap md:-mx-3"> </div>
 
+    <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">Fun Facts</div>
+
+    <div class="text-base md:text-lg">Some <a href="fun-fact.html" target="_blank">fun visualizations</a> for conferences, e.g., the most picky conferences and the most large conferences.</div>
+
     <details>
         <summary class="text-lg md:text-xl mt-5 mb-3 text-center md:text-left">Catalog</summary>
 
         <ol class="list-decimal list-outside ml-6">
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="AAAI">AAAI: AAAI Conference on Artificial Intelligence</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
+            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-mm" data-conf="ACM MM">ACM MM: ACM International Conference on Multimedia</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-cv" data-conf="CVPR">CVPR: International Conference on Computer Vision and Pattern Recognition</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
-            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-cv" data-conf="CIKM">CIKM: ACM International Conference on Information and Knowledge Management</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
+            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-db" data-conf="CIKM">CIKM: ACM International Conference on Information and Knowledge Management</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-cv" data-conf="ECCV">ECCV: European Conference on Computer Vision</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-cv" data-conf="ICCV">ICCV: International Conference on Computer Vision</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-db" data-conf="ICDE">ICDE: International Conference on Data Engineering</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="ICLR">ICLR: International Conference on Learning Representations</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
-            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="ICME">ICME: IEEE International Conference on Multimedia and Expo</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
+            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-mm" data-conf="ICME">ICME: IEEE International Conference on Multimedia and Expo</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="ICML">ICML: International Conference on Machine Learning</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="IJCAI">IJCAI: International Joint Conference on Artificial Intelligence</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="NeurIPS">NeurIPS: Conference on Neural Information Processing Systems</a>, Number of Submissions, Number of Accepted Papers, Acceptance Rate.</li>

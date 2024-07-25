@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           }));
           
           let secondTrackData = [];
-          if (conference.yearly_data[0].second_track) {
+          if (conference.metadata.second_track_name) {
             secondTrackData = conference.yearly_data
                 .filter(d => d.second_track && d.second_track.num_acc > 0)
                 .map(d => ({
@@ -323,7 +323,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           let secondTrackName = '';
 
           if (secondTrackData.length > 0) {
-            secondTrackName = conference.yearly_data[0].second_track.track_name;
+            secondTrackName = conference.metadata.second_track_name;
           }
 
           const trackButtons = document.getElementById('track-buttons');
