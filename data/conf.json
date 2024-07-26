@@ -2425,6 +2425,106 @@
             "num_acc": 103,
             "num_sub": 369
           }
+        },
+        {
+          "year": 2008,
+          "ordinal": "16th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 56,
+            "num_sub": 280
+          },
+          "second_track": {
+            "num_acc": 80,
+            "num_sub": 236
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "15th",
+          "location": "Augsburg, Germany",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 57,
+            "num_sub": 298
+          },
+          "second_track": {
+            "num_acc": 70,
+            "num_sub": 255
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "14th",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 48,
+            "num_sub": 292
+          },
+          "second_track": {
+            "num_acc": 66,
+            "num_sub": 178
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "13th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 49,
+            "num_sub": 312
+          },
+          "second_track": {
+            "num_acc": 59,
+            "num_sub": 203
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "12th",
+          "location": "New York City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 55,
+            "num_sub": 331
+          },
+          "second_track": {
+            "num_acc": 71,
+            "num_sub": 158
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "11th",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 43,
+            "num_sub": 255
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "10th",
+          "location": "Juan les Pins, France",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 46,
+            "num_sub": 330
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "5th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 40,
+            "num_sub": 142
+          }
         }
       ]
     },
