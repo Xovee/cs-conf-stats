@@ -194,7 +194,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
               }
             ],
             legend: {
-              top: 'top',
+              top: 'top'
+            },
+            toolbox: {
+              show: true,
+              feature: {
+                saveAsImage: {
+                  show: true
+                }
+              }
             },
             series: [],
             tooltip: {
