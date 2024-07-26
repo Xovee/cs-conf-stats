@@ -48,7 +48,7 @@ function renderCity(cityData) {
   var maxCityValue = Math.max(...cityData.map(item => item.value));
 
   const cityChart = echarts.init(document.getElementById('viz-city'));
-  const option = {
+  const cityOption = {
     tooltip: {
       trigger: 'axis',
       axisPointer: {
@@ -60,9 +60,9 @@ function renderCity(cityData) {
       type: 'continuous',
       id: 'viz-city',
       inRange: {
-        color: ['#004098']
+        color: ['#00409830', '#004098']
       },
-      show: false,
+      dimension: 0,
       min: minCityValue,
       max: maxCityValue,
     },
@@ -72,6 +72,8 @@ function renderCity(cityData) {
         fontSize: 16,
         fontWeight: 'bold'
       },
+      nameLocation: 'middle',
+      nameGap: 25,
       type: 'value'
     },
     yAxis: {
@@ -97,7 +99,7 @@ function renderCity(cityData) {
     ]
   };
 
-  cityChart.setOption(option);
+  cityChart.setOption(cityOption);
 
   window.addEventListener('resize', function() {
     cityChart.resize();
@@ -112,7 +114,7 @@ function renderCountry(countryData) {
   console.log(maxCountryValue);
 
   const countryChart = echarts.init(document.getElementById('viz-country'));
-  const option = {
+  const countryOption = {
     tooltip: {
       trigger: 'axis',
       axisPointer: {
@@ -124,8 +126,9 @@ function renderCountry(countryData) {
       type: 'continuous',
       min: minCountryValue,
       max: maxCountryValue,
-      inRange: {color: ['#004098']},
-      show: false
+      inRange: {color: ['#00409830', '#004098']},
+      dimension: 0,
+      // inverse: true,
     },
     xAxis: {
       name: 'Frequency',
@@ -133,6 +136,8 @@ function renderCountry(countryData) {
         fontSize: 16,
         fontWeight: 'bold'
       },
+      nameLocation: 'middle',
+      nameGap: 25,
       type: 'value'
     },
     yAxis: {
@@ -158,7 +163,7 @@ function renderCountry(countryData) {
     ]
   };
 
-  countryChart.setOption(option);
+  countryChart.setOption(countryOption);
 
   window.addEventListener('resize', function() {
     countryChart.resize();
