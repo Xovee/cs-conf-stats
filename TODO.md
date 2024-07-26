@@ -3,9 +3,9 @@
 - [ ] Jul 25, 2024. Add the trending stats
 - [ ] Jul 25, 2024. Add some charts for fun
     - [x] frequent cities and countries
-    - [ ] most picky confs
-    - [ ] most generous confs
-    - [ ] highest num of total accepted
+    - [x] most picky confs
+    - [x] most generous confs
+    - [x] highest num of total accepted
     - [ ] trending conferences
     - [ ] oldest conferences
 - [ ] Jul 24, 2024. Check ICME 2024 Proceeding
