@@ -4,6 +4,7 @@ fetch('/data/conf.json')
   .then(data => {
 
     const cityCount = {};
+    const cityConferences = {};
     const countryCount = {};
     const seriesAccRates = {};
 
@@ -18,13 +19,16 @@ fetch('/data/conf.json')
         const city = location[0].trim();
         const country = location.length > 1 ? location[location.length - 1].trim() : "Unknown";
 
-
         if (city !== "Virtual Conference") {
           if (cityCount[city]) {
             cityCount[city]++;
+            cityConferences[city].push({year: yearData.year, name: `${conference.series} ${yearData.year}`});
           } else {
             cityCount[city] = 1;
+            cityConferences[city] = [{year: yearData.year, name: `${conference.series} ${yearData.year}`}];
           }
+
+          cityConferences[city].sort((a, b) => b.year - a.year);
 
           if (countryCount[country]) {
             countryCount[country]++;
@@ -46,7 +50,8 @@ fetch('/data/conf.json')
 
     const cityData = Object.keys(cityCount).map(city => ({
       name: city,
-      value: cityCount[city]
+      value: cityCount[city],
+      conferences: cityConferences[city]
     })).sort((a, b) => b.value - a.value).slice(0, 20);
 
     renderCity(cityData);
@@ -88,9 +93,14 @@ function renderCity(cityData) {
   const cityChart = echarts.init(document.getElementById('viz-city'));
   const cityOption = {
     tooltip: {
-      trigger: 'axis',
+      trigger: 'item',
       axisPointer: {
         type: 'shadow'
+      },
+      formatter: function (params) {
+        const cityName = params.name;
+        const conferences = params.data.conferences.map(conf => conf.name).join('<br>');
+        return `${cityName}: ${params.value}<br>${conferences}`;
       }
     },
     grid: { containLabel: true },
@@ -137,7 +147,18 @@ function renderCity(cityData) {
       {
         name: "City Frequency",
         type: 'bar',
-        data: cityData.map(city => city.value),
+        data: cityData.map(city => ({
+          value: city.value,
+          conferences: city.conferences
+        })),
+        label: {
+          show: true,
+          position: 'right',
+          textStyle: {
+            fontSize: 16,
+            color: '#000'
+          }
+        }
       }
     ]
   };
@@ -204,6 +225,14 @@ function renderCountry(countryData) {
         name: "Country Frequency",
         type: 'bar',
         data: countryData.map(country => country.value),
+        label: {
+          show: true,
+          position: 'right',
+          textStyle: {
+            fontSize: 16,
+            color: '#000'
+          }
+        }
       }
     ]
   };
