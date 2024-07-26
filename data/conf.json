@@ -2539,8 +2539,8 @@
           "Machine Learning", "Artificial Intelligence", "Big Data", "Statistical Methods", "Multimedia", "Web", "Spatiotemporal", "Recommendation"
         ],
         "parent_org": "IEEE CompSoc",
-        "website": "",
-        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000179/all-proceedings"
+        "proceedings": "https://www.computer.org/csdl/proceedings/1000179",
+        "note": "Wow! This conference's data are complete!🏆"
       },
       "yearly_data": [
         {
@@ -2611,6 +2611,166 @@
             "track_name": "Research Track",
             "num_acc": 155,
             "num_sub": 778
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "16th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 178,
+            "num_sub": 904
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "15th",
+          "location": "Atlantic City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 146,
+            "num_sub": 807
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "14th",
+          "location": "Shenzhen, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 143,
+            "num_sub": 727
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "13th",
+          "location": "Dallas, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 159,
+            "num_sub": 809
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "12th",
+          "location": "Brussels, Belgium",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 151,
+            "num_sub": 756
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "11th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 148,
+            "num_sub": 786
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "10th",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 155,
+            "num_sub": 797
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "9th",
+          "location": "Miami, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 139,
+            "num_sub": 786
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "8th",
+          "location": "Pisa, Italy",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 144,
+            "num_sub": 724
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "7th",
+          "location": "Omaha, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 101,
+            "num_sub": 530
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "6th",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 152,
+            "num_sub": 776
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "5th",
+          "location": "Houston, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 141,
+            "num_sub": 630
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "4th",
+          "location": "Brighton, UK",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 105,
+            "num_sub": 451
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "3rd",
+          "location": "Melbourne FL, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 128,
+            "num_sub": 500
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "2nd",
+          "location": "Maebashi City, Japan",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 121,
+            "num_sub": 369
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "1st",
+          "location": "San Jose, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 112,
+            "num_sub": 365
           }
         }
       ]
