@@ -2540,7 +2540,7 @@
         ],
         "parent_org": "IEEE CompSoc",
         "proceedings": "https://www.computer.org/csdl/proceedings/1000179",
-        "note": "Wow! This conference's data are complete!🏆"
+        "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
         {
@@ -2771,6 +2771,33 @@
             "track_name": "Research Track",
             "num_acc": 112,
             "num_sub": 365
+          }
+        }
+      ]
+    },
+    {
+      "series": "SIGKDD",
+      "metadata": {
+        "series_full_title": "Template",
+        "main_discipline": [
+          "Template"
+        ],
+        "other_discipline": [
+          "Template"
+        ],
+        "parent_org": "",
+        "website": "",
+        "proceedings": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "12th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 0,
+            "num_sub": 0
           }
         }
       ]
