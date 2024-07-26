@@ -2529,6 +2529,93 @@
       ]
     },
     {
+      "series": "ICDM",
+      "metadata": {
+        "series_full_title": "IEEE International Conference on Data Mining",
+        "main_discipline": [
+          "Data Mining", "Knowledge Discovery"
+        ],
+        "other_discipline": [
+          "Machine Learning", "Artificial Intelligence", "Big Data", "Statistical Methods", "Multimedia", "Web", "Spatiotemporal", "Recommendation"
+        ],
+        "parent_org": "IEEE CompSoc",
+        "website": "",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000179/all-proceedings"
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "23rd",
+          "location": "Shanghai, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 200,
+            "num_sub": 926
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "22nd",
+          "location": "Orlando, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 174,
+            "num_sub": 870
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "21st",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 198,
+            "num_sub": 990
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "20th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 183,
+            "num_sub": 930
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "19th",
+          "location": "Beijing, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 194,
+            "num_sub": 1046
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "18th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 188,
+            "num_sub": 948
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "17th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 155,
+            "num_sub": 778
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
