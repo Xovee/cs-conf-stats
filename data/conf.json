@@ -3138,6 +3138,196 @@
       ]
     },
     {
+      "series": "WSDM",
+      "metadata": {
+        "series_full_title": "ACM International Conference on Web Search and Data Mining",
+        "main_discipline": [
+          "Web Search", "Data Mining"
+        ],
+        "other_discipline": [
+          "Recommender System", "Information Retrieval", "Machine Learning", "Graph Mining", "NLP", "Social Network", "User Behavior"
+        ],
+        "parent_org": "ACM SIGWEB",
+        "website": "https://www.sigweb.org/conferences/acm-sigweb-conferences/wsdm",
+        "proceedings": "https://dl.acm.org/conference/wsdm/proceedings",
+        "second_track_name": "",
+        "note": "Wow! This conference's data are complete! 🏆"
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "17th",
+          "location": "Merida, Mexico",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 109,
+            "num_sub": 615
+          },
+          "note": "Number of submissions may not be accurate."
+        },
+        {
+          "year": 2023,
+          "ordinal": "16th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 123,
+            "num_sub": 690
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "15th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 160,
+            "num_sub": 790
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "14th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 112,
+            "num_sub": 603
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "13th",
+          "location": "Houston, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 91,
+            "num_sub": 615
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "12th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 84,
+            "num_sub": 511
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "11th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 81,
+            "num_sub": 514
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "10th",
+          "location": "Cambridge, UK",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 80,
+            "num_sub": 505
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "9th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 67,
+            "num_sub": 386
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "8th",
+          "location": "Shanghai, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 39,
+            "num_sub": 238
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "7th",
+          "location": "New York City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 64,
+            "num_sub": 355
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "6th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 73,
+            "num_sub": 387
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "5th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 75,
+            "num_sub": 363
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "4th",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 83,
+            "num_sub": 372
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "3rd",
+          "location": "New York City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 45,
+            "num_sub": 290
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "2nd",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 29,
+            "num_sub": 170
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "1st",
+          "location": "Stanford, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 24,
+            "num_sub": 151
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
@@ -3159,7 +3349,7 @@
           "ordinal": "12th",
           "location": "Virtual Conference",
           "main_track": {
-            "track_name": "Research Track", 
+            "track_name": "Research Track",
             "num_acc": 0,
             "num_sub": 0
           }
