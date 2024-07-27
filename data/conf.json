@@ -3003,13 +3003,136 @@
           }
         },
         {
+          "year": 2008,
+          "ordinal": "14th",
+          "location": "Las Vegas, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 95,
+            "num_sub": 510
+          },
+          "second_track": {
+            "num_acc": 23,
+            "num_sub": 83
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "13th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 92,
+            "num_sub": 513
+          },
+          "second_track": {
+            "num_acc": 19,
+            "num_sub": 60
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "12th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 105,
+            "num_sub": 457
+          },
+          "second_track": {
+            "num_acc": 15,
+            "num_sub": 74
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "11th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 76,
+            "num_sub": 465
+          },
+          "second_track": {
+            "num_acc": 25,
+            "num_sub": 73
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "10th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 85,
+            "num_sub": 337
+          },
+          "second_track": {
+            "num_acc": 26,
+            "num_sub": 47
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "9th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 70,
+            "num_sub": 258
+          },
+          "second_track": {
+            "num_acc": 22,
+            "num_sub": 40
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "8th",
+          "location": "Edmonton, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 69,
+            "num_sub": 270
+          },
+          "second_track": {
+            "num_acc": 12,
+            "num_sub": 37
+          },
+          "note": "Estimated."
+        },
+        {
+          "year": 2001,
+          "ordinal": "7th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 52,
+            "num_sub": 203
+          },
+          "second_track": {
+            "num_acc": 12,
+            "num_sub": 34
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "6th",
+          "location": "Boston, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 52,
+            "num_sub": 280
+          }
+        },
+        {
           "year": 1999,
           "ordinal": "5th",
           "location": "San Diego, California, USA",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 52,
-            "num_sub": 280
+            "num_sub": 237
           }
         }
       ]
