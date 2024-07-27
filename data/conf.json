@@ -2778,26 +2778,238 @@
     {
       "series": "SIGKDD",
       "metadata": {
-        "series_full_title": "Template",
+        "series_full_title": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
         "main_discipline": [
-          "Template"
+          "Data Mining", "Machine Learning", "Knowledge Discovery"
         ],
         "other_discipline": [
-          "Template"
+          "Big Data", "Artificial Intelligence", "Graph", "Statistics", "Data Science", "Information Retrieval"
         ],
-        "parent_org": "",
-        "website": "",
-        "proceedings": ""
+        "parent_org": "ACM SIGKDD",
+        "website": "https://www.kdd.org",
+        "proceedings": "https://dl.acm.org/conference/kdd/proceedings",
+        "second_track_name": "Applied Data Science"
       },
       "yearly_data": [
         {
-          "year": 2024,
-          "ordinal": "12th",
+          "year": 2023,
+          "ordinal": "29th",
+          "location": "Long Beach, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 313,
+            "num_sub": 1416
+          },
+          "second_track": {
+            "num_acc": 184,
+            "num_sub": 725
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "28th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 254,
+            "num_sub": 1659
+          },
+          "second_track": {
+            "num_acc": 196,
+            "num_sub": 753
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "27th",
           "location": "Virtual Conference",
           "main_track": {
             "track_name": "Research Track",
-            "num_acc": 0,
-            "num_sub": 0
+            "num_acc": 239,
+            "num_sub": 1541
+          },
+          "second_track": {
+            "num_acc": 155,
+            "num_sub": 705
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "26th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 217,
+            "num_sub": 1279
+          },
+          "second_track": {
+            "num_acc": 121,
+            "num_sub": 756
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "25th",
+          "location": "Anchorage, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 174,
+            "num_sub": 1179
+          },
+          "second_track": {
+            "num_acc": 147,
+            "num_sub": 629
+          },
+          "note": "The numbers should be very close but not absolutely precise."
+        },
+        {
+          "year": 2018,
+          "ordinal": "24th",
+          "location": "London, UK",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 181,
+            "num_sub": 983
+          },
+          "second_track": {
+            "num_acc": 112,
+            "num_sub": 497
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "23rd",
+          "location": "Halifax, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 130,
+            "num_sub": 748
+          },
+          "second_track": {
+            "num_acc": 86,
+            "num_sub": 390
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "22nd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 142,
+            "num_sub": 784
+          },
+          "second_track": {
+            "num_acc": 66,
+            "num_sub": 331
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "21st",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 160,
+            "num_sub": 819
+          },
+          "second_track": {
+            "num_acc": 68,
+            "num_sub": 189
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "20th",
+          "location": "New York City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 151,
+            "num_sub": 1036
+          },
+          "second_track": {
+            "num_acc": 44,
+            "num_sub": 197
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "19th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 125,
+            "num_sub": 726
+          },
+          "second_track": {
+            "num_acc": 34,
+            "num_sub": 136
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "18th",
+          "location": "Beijing, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 133,
+            "num_sub": 755
+          },
+          "second_track": {
+            "num_acc": 30,
+            "num_sub": 113
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "17th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 126,
+            "num_sub": 714
+          },
+          "second_track": {
+            "num_acc": 26,
+            "num_sub": 73
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "16th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 101,
+            "num_sub": 578
+          },
+          "second_track": {
+            "num_acc": 20,
+            "num_sub": 101
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "15th",
+          "location": "Paris, France",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 105,
+            "num_sub": 537
+          },
+          "second_track": {
+            "num_acc": 34,
+            "num_sub": 122
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "5th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 52,
+            "num_sub": 280
           }
         }
       ]
@@ -2814,7 +3026,9 @@
         ],
         "parent_org": "",
         "website": "",
-        "proceedings": ""
+        "proceedings": "",
+        "second_track_name": "",
+        "note": ""
       },
       "yearly_data": [
         {
