@@ -850,7 +850,7 @@
         {
           "year": 2020,
           "ordinal": "16th",
-          "location": "Glasgow, Scotland",
+          "location": "Glasgow, Scotland, UK",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 1361,
@@ -2004,7 +2004,7 @@
         {
           "year": 2011,
           "ordinal": "20th",
-          "location": "Glasgow, UK",
+          "location": "Glasgow, Scotland, UK",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 134,
@@ -3499,6 +3499,156 @@
       ]
     },
     {
+      "series": "ECIR",
+      "metadata": {
+        "series_full_title": "European Conference on Information Retrieval",
+        "main_discipline": [
+          "Information Retrieval"
+        ],
+        "other_discipline": [
+          "NLP", "Machine Learning", "Web & Social Media", "Recommender System", "Multimedia Retrieval", "User Modeling", "HCI"
+        ],
+        "parent_org": "British Computer Society, Information Retrieval Specialist Group",
+        "proceedings": "https://link.springer.com/conference/ecir",
+        "second_track_name": "Short Paper Track",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "46th",
+          "location": "Glasgow, UK",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 57,
+            "num_sub": 230
+          },
+          "second_track": {
+            "num_acc": 36,
+            "num_sub": 150
+          },
+          "note": "Estimated num of sub."
+        },
+        {
+          "year": 2023,
+          "ordinal": "45th",
+          "location": "Dublin, Ireland",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 57,
+            "num_sub": 224
+          },
+          "second_track": {
+            "num_acc": 41,
+            "num_sub": 152
+          },
+          "note": "Estimated num of sub."
+        },
+        {
+          "year": 2022,
+          "ordinal": "44th",
+          "location": "Stavanger, Norway",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 35,
+            "num_sub": 175
+          },
+          "second_track": {
+            "num_acc": 29,
+            "num_sub": 132
+          },
+          "note": "Estimated num of sub."
+        },
+        {
+          "year": 2021,
+          "ordinal": "43rd",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 50,
+            "num_sub": 208
+          },
+          "second_track": {
+            "num_acc": 39,
+            "num_sub": 156
+          },
+          "note": "Estimated num of sub."
+        },
+        {
+          "year": 2020,
+          "ordinal": "42nd",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 55,
+            "num_sub": 212
+          },
+          "second_track": {
+            "num_acc": 46,
+            "num_sub": 164
+          },
+          "note": "Estimated num of sub."
+        },
+        {
+          "year": 2019,
+          "ordinal": "41st",
+          "location": "Cologne, Germany",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 39,
+            "num_sub": 170
+          },
+          "second_track": {
+            "num_acc": 44,
+            "num_sub": 152
+          },
+          "note": "Estimated num of sub."
+        },
+        {
+          "year": 2018,
+          "ordinal": "40th",
+          "location": "Grenoble, France",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 39,
+            "num_sub": 171
+          },
+          "second_track": {
+            "num_acc": 39,
+            "num_sub": 112
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "39th",
+          "location": "Aberdeen, UK",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 36,
+            "num_sub": 135
+          },
+          "second_track": {
+            "num_acc": 35,
+            "num_sub": 110
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "38th",
+          "location": "Padua, Italy",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 50,
+            "num_sub": 201
+          },
+          "second_track": {
+            "num_acc": 20,
+            "num_sub": 66
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
@@ -3520,7 +3670,6 @@
           "ordinal": "12th",
           "location": "Virtual Conference",
           "main_track": {
-            "track_name": "Research Track",
             "num_acc": 0,
             "num_sub": 0
           }
