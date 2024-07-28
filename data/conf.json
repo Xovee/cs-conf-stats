@@ -3328,6 +3328,136 @@
       ]
     },
     {
+      "series": "SDM",
+      "metadata": {
+        "series_full_title": "SIAM International Conference on Data Mining",
+        "main_discipline": [
+          "Data Mining", "Knowledge Discovery"
+        ],
+        "other_discipline": [
+          "Machine Learning", "Artificial Intelligence", "Statistics", "Social Network", "Big Data"
+        ],
+        "parent_org": "Society for Industrial and Applied Mathematics (SIAM)",
+        "website": "https://www.siam.org",
+        "proceedings": "<a href='https://epubs.siam.org/action/showPublications?pubType=proceedings&category=10.1555%2Fcategory.40105907&expand=10.1555%2Fcategory.40105907&startPage=&ConceptID=114926' target='_blank'>Link</a>",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "24th",
+          "location": "Houston, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 98,
+            "num_sub": 335
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "23rd",
+          "location": "Minneapolis-St. Paul Twin Cities, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 105,
+            "num_sub": 420
+          },
+          "note": "Num of sub is estimated"
+        },
+        {
+          "year": 2022,
+          "ordinal": "22nd",
+          "location": "Alexandria, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 83,
+            "num_sub": 298
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "21st",
+          "location": "Virtual Conference",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 85,
+            "num_sub": 400
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "18th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 86,
+            "num_sub": 374
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "17th",
+          "location": "Houston, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 93,
+            "num_sub": 358
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "16th",
+          "location": "Miami, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 96,
+            "num_sub": 380
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "15th",
+          "location": "Miami, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 108,
+            "num_sub": 491
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "7th",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 75,
+            "num_sub": 302
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "6th",
+          "location": "Bethesda, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 111,
+            "num_sub": 242
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "5th",
+          "location": "Newport Beach, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 94,
+            "num_sub": 218
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
