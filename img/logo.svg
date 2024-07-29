@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="377 286 200 200" width="200" height="200">
+  <defs/>
+  <g id="Canvas_1" stroke="none" fill-opacity="1" fill="none" stroke-dasharray="none" stroke-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_2"/>
+      <g id="Graphic_3">
+        <rect x="522" y="296" width="40" height="180" fill="#004098"/>
+      </g>
+      <g id="Graphic_4">
+        <rect x="457" y="346" width="40" height="130" fill="#004098"/>
+      </g>
+      <g id="Graphic_5">
+        <rect x="392" y="396" width="40" height="80" fill="#004098"/>
+      </g>
+      <g id="Line_25">
+        <path d="M 412.08054 458.0537 L 477.1812 425.1678 L 543.62416 361.4094" stroke="#f08400" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+      </g>
+    </g>
+  </g>
+</svg>

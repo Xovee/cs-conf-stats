@@ -3,54 +3,82 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="See some fun facts about top-tier computer science conferences.">
+    <meta name="description" content="See some fun facts about top-tier computer science conferences, e.g., the most picky and generous conferences, the most frequent cities and countries. ">
     <title>Fun Facts of Computer Science Conferences</title>
     <link href="output.css" rel="stylesheet">
+
+    <meta property="og:title" content="Fun Facts of Computer Science Conferences">
+    <meta property="og:description" content="See some fun facts about top-tier computer science conferences, e.g., the most picky and generous conferences, the most frequent cities and countries. ">
+    <meta property="og:image" content="https://csconfstats.xoveexu.com/img/csconfstats-intro.png">
+    <meta property="og:url" content="https://csconfstats.xoveexu.com/fun-fact.html">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
 </head>
 
 <body class="min-h-screen flex flex-col items-center bg-gray-100 text-gray-800">
 
-<header class="container py-6 mt-6 mb-4">
-    <div class="container mx-auto">
-        <div class="text-3xl md:text-4xl text-uestc text-center">Computer Science Conference Fun Facts</div>
+<header class="py-6 mt-6 mb-4">
+    <div class="container mx-auto flex items-center space-x-4">
+        <img src="/img/logo.svg" alt="Logo" class="h-10 w-10 ml-2">
+        <div class="text-3xl md:text-4xl text-uestc">Computer Science Conference Fun Facts</div>
     </div>
 </header>
 
 <main class="container mx-auto">
     <div class="text-center mb-6 text-gray-600 text-lg md:text-xl">See some fun visualizations of top-tier CS conferences.</div>
 
-    <div class="md:text-lg">Return to the <a href="index.html">CS Conference Stats</a></div>
+    <div class="md:text-lg text-right">Note: The states are based on the long/research papers.</div>
 
-    <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">The Most Frequent Conference Hosting Cities</div>
+    <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">The Most Frequent Cities</div>
 
     <div class="md:text-lg">Which cities are the ultimate conference hotspots?</div>
 
     <div id="viz-city" class="w-full h-[600px] md:w-3/4 mx-auto"></div>
 
 
-    <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">The Most Frequent Conference Hosting Countries/Regions</div>
+    <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">The Most Frequent Countries/Regions</div>
 
-    <div class="md:text-lg">Discover which countries and regions love hosting conferences the most!</div>
+    <div class="md:text-lg">Discover which countries and regions love hosting conferences the most! Wow, its USA.</div>
 
     <div id="viz-country" class="w-full h-[600px] md:w-3/4 mx-auto"></div>
 
 
     <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">The Most Picky Conferences</div>
 
-    <div class="md:text-lg">These conferences are the crème de la crème with the toughest acceptance rates!</div>
+    <div class="md:text-lg">These conferences are the crème de la crème with the toughest acceptance rates over years!</div>
+
+    <div id="viz-picky" class="w-full h-[500px] md:w-3/4 mx-auto"></div>
+
 
     <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">The Most Generous Conferences</div>
 
-    <div class="md:text-lg">Find out which conferences are the most welcoming with the highest acceptance rates!</div>
+    <div class="md:text-lg">Find out which conferences are the most welcoming with the highest acceptance rates over years!</div>
 
-    <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">The Largest Conferences</div>
+    <div id="viz-generous" class="w-full h-[500px] md:w-3/4 mx-auto"></div>
+
+
+    <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">The Largest Conferences in History</div>
 
     <div class="md:text-lg">Check out the conferences with the biggest turnout of accepted papers!</div>
+
+    <div id="viz-large" class="w-full h-[500px] md:w-3/4 mx-auto"></div>
+
+
+    <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">The Smallest Conferences</div>
+
+    <div class="md:text-lg">The conferences that have the smallest yearly accepted long papers on average. </div>
+
+    <div id="viz-small" class="w-full h-[500px] md:w-3/4 mx-auto"></div>
 </main>
 
 <footer class="py-4 container">
     <div class="">
         <p>Created and maintained by <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">Xovee Xu</a> from <a href="https://en.uestc.edu.cn/" target="_blank">UESTC</a>, China. Data are collected from the proceedings and/or web that may contain errors.</p>
+
+        <p>Please be careful using these charts! The data are incomplete (though I am working on adding new). For many conferences, I only have the recent stats.</p>
 
         <p>Addition, correction, feature suggestion are welcomed: please open issues or PR at the  <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub repo</a>.</p>
 

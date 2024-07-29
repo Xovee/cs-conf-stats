@@ -3,11 +3,12 @@
 - [ ] Jul 25, 2024. Add the trending stats
 - [ ] Jul 25, 2024. Add some charts for fun
     - [x] frequent cities and countries
-    - [ ] most picky confs
-    - [ ] most generous confs
-    - [ ] highest num of total accepted
+    - [x] most picky confs
+    - [x] most generous confs
+    - [x] highest num of total accepted
     - [ ] trending conferences
     - [ ] oldest conferences
+    - [x] smallest conference (yearly paper)
 - [ ] Jul 24, 2024. Check ICME 2024 Proceeding
 - [x] Jul 23, 2024. To add a custom field in metadata to report some issues of that conference.
 - [x] Jul 22, 2024. To include the second track. 
