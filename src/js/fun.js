@@ -11,7 +11,7 @@ fetch('/data/conf.json')
     data.conferences.forEach(conference => {
       const series = conference.series;
       if (!seriesAccRates[series]) {
-        seriesAccRates[series] = {totalAcc: 0, totalSub: 0};
+        seriesAccRates[series] = {totalAcc: 0, totalSub: 0, numConf: 0};
       }
 
       conference.yearly_data.forEach(yearData => {
@@ -43,6 +43,7 @@ fetch('/data/conf.json')
         if (numSub > 0) {
           seriesAccRates[series].totalAcc += numAcc;
           seriesAccRates[series].totalSub += numSub;
+          seriesAccRates[series].numConf += 1;
         }
 
       });
@@ -64,25 +65,27 @@ fetch('/data/conf.json')
     renderCountry(countryData);
 
     const aggregatedAccRates = Object.keys(seriesAccRates).map(series => {
-      const {totalAcc, totalSub} = seriesAccRates[series];
+      const {totalAcc, totalSub, numConf} = seriesAccRates[series];
       const accRate = (totalAcc / totalSub) * 100;
 
       return {name: series, value: accRate};
     });
 
     const aggregatedNumAcc = Object.keys(seriesAccRates).map(series => {
-      const {totalAcc, totalSub} = seriesAccRates[series];
-      return {name: series, value: totalAcc};
+      const {totalAcc, totalSub, numConf} = seriesAccRates[series];
+      return {name: series, value: totalAcc, numConf: numConf};
     })
 
     const sortedAccRate = aggregatedAccRates.sort((a, b) => a.value - b.value).slice(0, 15);
     const sortedAccRateInv = aggregatedAccRates.sort((a, b) => b.value - a.value).slice(0, 15);
     const sortedLarge = aggregatedNumAcc.sort((a, b) => b.value - a.value).slice(0, 15);
-
+    const sortedSmall = aggregatedNumAcc.sort((a, b) => (a.value / a.numConf) - (b.value / b.numConf)).slice(0, 15);
+    
     renderPicky(sortedAccRate);
     renderGenerous(sortedAccRateInv);
 
     renderLarge(sortedLarge);
+    renderSmall(sortedSmall);
 
   });
 
@@ -479,5 +482,85 @@ function renderLarge(numAcc) {
 
   window.addEventListener('resize', function() {
     largeChart.resize();
+  })
+}
+
+function renderSmall(numYearlyAcc) {
+  var minSmallValue = Math.min(...numYearlyAcc.map(item => item.value / item.numConf));
+  var maxSmallValue = Math.max(...numYearlyAcc.map(item => item.value / item.numConf));
+
+  const smallChart = echarts.init(document.getElementById('viz-small'));
+  const smallOption = {
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: {
+        type: 'shadow'
+      },
+      formatter: function (params) {
+        return `${params[0].name}: Yearly ${params[0].value.toFixed(2)} papers.`
+      }
+    },
+    grid: { containLabel: true },
+    visualMap: {
+      type: 'continuous',
+      min: minSmallValue,
+      max: maxSmallValue,
+      inRange: {color: ['#004098', '#00409830']},
+      dimension: 0,
+    },
+    xAxis: {
+      name: 'Yearly Accepted Papers',
+      nameTextStyle: {
+        fontSize: 16,
+        fontWeight: 'bold'
+      },
+      axisLabel: {
+        formatter: '{value}',
+        fontSize: 16,
+        color: '#000'
+      },
+      nameLocation: 'middle',
+      nameGap: 30,
+      type: 'value'
+    },
+    yAxis: {
+      name: 'Conference',
+      nameLocation: 'start',
+      nameTextStyle: {
+        fontSize: 16,
+        fontWeight: 'bold'
+      },
+      type: 'category',
+      data: numYearlyAcc.map(num => num.name),
+      inverse: true,
+      axisLabel: {
+        fontSize: 16,
+        color: '#000'
+      }
+    },
+    series: [
+      {
+        name: "Yearly Accepted Papers",
+        type: 'bar',
+        data: numYearlyAcc.map(num => (num.value / num.numConf)),
+        label: {
+          show: true,
+          position: 'right',
+          formatter: function (params) {
+            return `${params.value.toFixed(1)}`;
+          },
+          textStyle: {
+            fontSize: 16,
+            color: '#000'
+          }
+        }
+      }
+    ]
+  };
+
+  smallChart.setOption(smallOption);
+
+  window.addEventListener('resize', function() {
+    smallChart.resize();
   })
 }
