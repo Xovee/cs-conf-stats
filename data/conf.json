@@ -661,7 +661,8 @@
           "Deep Learning", "Cognitive Science", "Psychology", "Information Theory", "Optimization", "Probabilistic Methods", "Reinforcement Learning", "Theory"
         ],
         "parent_org": ["NeurIPS Foundation"],
-        "website": ["https://neurips.cc"]
+        "website": ["https://neurips.cc"],
+        "note": "Named change from NIPS to NeurIPS in 2018."
       },
       "yearly_data": [
         {
@@ -680,8 +681,8 @@
           "location": "New Orleans, USA",
           "main_track": {
             "track_name": "Research Track", 
-            "num_acc": 2905,
-            "num_sub": 9634
+            "num_acc": 2672,
+            "num_sub": 10411
           }
         },
         {
@@ -712,6 +713,16 @@
             "track_name": "Research Track", 
             "num_acc": 1428,
             "num_sub": 6743
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "33rd",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 1011,
+            "num_sub": 4856
           }
         }
       ]
