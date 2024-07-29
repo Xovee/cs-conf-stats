@@ -18,6 +18,10 @@ contact me at `xovee.xu at gmail.com`.
 - Before 2000
 - CIKM 2003
 
+## ECIR
+
+- Before 2002
+
 ## ICME
 
 - ICME 2013-2018
