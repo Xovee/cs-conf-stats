@@ -1756,7 +1756,7 @@
       "yearly_data": [
         {
           "year": 2023,
-          "ordinal": "31rd",
+          "ordinal": "24th",
           "location": "Brisbane, Australia",
           "main_track": {
             "track_name": "Research Track",
@@ -1766,7 +1766,7 @@
         },
         {
           "year": 2022,
-          "ordinal": "30th",
+          "ordinal": "23rd",
           "location": "Taipei, Taiwan, China",
           "main_track": {
             "track_name": "Research Track",
@@ -1776,7 +1776,7 @@
         },
         {
           "year": 2021,
-          "ordinal": "29th",
+          "ordinal": "22nd",
           "location": "Virtual Conference",
           "main_track": {
             "track_name": "Research Track",
@@ -1786,12 +1786,62 @@
         },
         {
           "year": 2020,
-          "ordinal": "28th",
+          "ordinal": "21st",
           "location": "Virtual Conference",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 241,
             "num_sub": 834
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "20th",
+          "location": "Shanghai, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 313,
+            "num_sub": 1002
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "13th",
+          "location": "Melbourne, Australia",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 184,
+            "num_sub": 609
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "9th",
+          "location": "Hannover, Germany",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 407,
+            "num_sub": 811
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "8th",
+          "location": "Beijing, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 573,
+            "num_sub": 1200
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "7th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 552,
+            "num_sub": 1022
           }
         },
         {
@@ -1803,6 +1853,17 @@
             "num_acc": 579,
             "num_sub": 841
           }
+        },
+        {
+          "year": 2000,
+          "ordinal": "1st",
+          "location": "New York City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 400,
+            "num_sub": 650
+          },
+          "note": "Rough numbers."
         }
       ]
     },
