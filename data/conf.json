@@ -3897,6 +3897,116 @@
       ]
     },
     {
+      "series": "SIGIR",
+      "metadata": {
+        "series_full_title": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "main_discipline": [
+          "Information Retrieval"
+        ],
+        "other_discipline": [
+          "Search & Rank", "Search Recommendation", "Content Analysis", "ML for Search & Recomm.", "Humans and Interface", "IR Evaluation", "FATE in IR"
+        ],
+        "parent_org": "ACM SIGIR",
+        "website": "https://sigir.org",
+        "proceedings": "https://dl.acm.org/conference/sigir/proceedings",
+        "second_track_name": "Short Paper Track",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "47th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 160,
+            "num_sub": 791
+          },
+          "second_track": {
+            "num_acc": 87,
+            "num_sub": 362
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "46th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 165,
+            "num_sub": 822
+          },
+          "second_track": {
+            "num_acc": 154,
+            "num_sub": 613
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "45th",
+          "location": "Madrid, Spain",
+          "main_track": {
+            "num_acc": 161,
+            "num_sub": 793
+          },
+          "second_track": {
+            "num_acc": 165,
+            "num_sub": 667
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "44th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 151,
+            "num_sub": 720
+          },
+          "second_track": {
+            "num_acc": 145,
+            "num_sub": 526
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "43rd",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 147,
+            "num_sub": 555
+          },
+          "second_track": {
+            "num_acc": 152,
+            "num_sub": 507
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "42nd",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 84,
+            "num_sub": 426
+          },
+          "second_track": {
+            "num_acc": 108,
+            "num_sub": 443
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "42nd",
+          "location": "Ann Arbor, USA",
+          "main_track": {
+            "num_acc": 86,
+            "num_sub": 409
+          },
+          "second_track": {
+            "num_acc": 98,
+            "num_sub": 327
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",

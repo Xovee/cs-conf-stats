@@ -994,7 +994,7 @@ select option {
 
 @media (min-width: 768px) {
   .conf-card {
-    min-width: 300px;
+    min-width: 400px;
   }
 }
 
@@ -1098,10 +1098,6 @@ dd {
 
   .md\:text-left {
     text-align: left;
-  }
-
-  .md\:text-right {
-    text-align: right;
   }
 
   .md\:text-2xl {

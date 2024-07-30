@@ -29,7 +29,7 @@ select option {
 }
 
 .conf-card {
-    @apply bg-white shadow-md rounded-lg px-5 py-4 m-3 flex-1 min-w-[200px] max-w-[800px] md:min-w-[300px]
+    @apply bg-white shadow-md rounded-lg px-5 py-4 m-3 flex-1 min-w-[200px] max-w-[800px] md:min-w-[400px]
 }
 
 .conf-card-title {
