@@ -3993,7 +3993,7 @@
         },
         {
           "year": 2018,
-          "ordinal": "42nd",
+          "ordinal": "41st",
           "location": "Ann Arbor, USA",
           "main_track": {
             "num_acc": 86,
@@ -4002,6 +4002,110 @@
           "second_track": {
             "num_acc": 98,
             "num_sub": 327
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "40th",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 372
+          },
+          "second_track": {
+            "num_acc": 121,
+            "num_sub": 398
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "39th",
+          "location": "Pisa, Italy",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 341
+          },
+          "second_track": {
+            "num_acc": 104,
+            "num_sub": 339
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "38th",
+          "location": "Santiago, Chile",
+          "main_track": {
+            "num_acc": 70,
+            "num_sub": 351
+          },
+          "second_track": {
+            "num_acc": 79,
+            "num_sub": 252
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "37nd",
+          "location": "Golden Coast, Queensland, Australia",
+          "main_track": {
+            "num_acc": 82,
+            "num_sub": 387
+          },
+          "second_track": {
+            "num_acc": 104,
+            "num_sub": 263
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "36th",
+          "location": "Dublin, Ireland",
+          "main_track": {
+            "num_acc": 73,
+            "num_sub": 366
+          },
+          "second_track": {
+            "num_acc": 85,
+            "num_sub": 250
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "35th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 98,
+            "num_sub": 483
+          },
+          "second_track": {
+            "num_acc": 76,
+            "num_sub": 208
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "34th",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 240,
+            "num_sub": 543
+          },
+          "second_track": {
+            "num_acc": 89,
+            "num_sub": 274
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "33rd",
+          "location": "Geneva, Switzerland",
+          "main_track": {
+            "num_acc": 87,
+            "num_sub": 520
+          },
+          "second_track": {
+            "num_acc": 90,
+            "num_sub": 294
           }
         }
       ]
