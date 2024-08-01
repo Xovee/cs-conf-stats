@@ -4107,6 +4107,117 @@
             "num_acc": 90,
             "num_sub": 294
           }
+        },
+        {
+          "year": 2009,
+          "ordinal": "32nd",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 494
+          },
+          "second_track": {
+            "num_acc": 86,
+            "num_sub": 256
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "31st",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 497
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "30th",
+          "location": "Amsterdam, Netherlands",
+          "main_track": {
+            "num_acc": 84,
+            "num_sub": 490
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "29th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 399
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "28th",
+          "location": "Salvador, Brazil",
+          "main_track": {
+            "num_acc": 71,
+            "num_sub": 368
+          },
+          "second_track": {
+            "num_acc": 53,
+            "num_sub": 120
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "27th",
+          "location": "Sheffield, UK",
+          "main_track": {
+            "num_acc": 58,
+            "num_sub": 267
+          },
+          "second_track": {
+            "num_acc": 65,
+            "num_sub": 130
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "26th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 277
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "25th",
+          "location": "Tampere, Finland",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 219
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "24th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 201
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "23rd",
+          "location": "Athens, Greece",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 201
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "22nd",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 135
+          }
         }
       ]
     },

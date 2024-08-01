@@ -57,10 +57,14 @@ fetch('/data/conf.json')
 
     renderCity(cityData);
 
-    const countryData = Object.keys(countryCount).map(country => ({
+    const sortedCountryData = Object.keys(countryCount).map(country => ({
       name: country,
       value: countryCount[country]
-    })).sort((a, b) => b.value - a.value).slice(0, 20);
+    })).sort((a, b) => b.value - a.value)
+
+    const countryData = sortedCountryData.slice(0, 20);
+    const remainingCountrySum = sortedCountryData.slice(20).reduce((sum, { value }) => sum + value, 0);
+    countryData.push({name: 'Others', value: remainingCountrySum});
 
     renderCountry(countryData);
 

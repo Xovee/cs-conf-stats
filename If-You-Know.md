@@ -41,6 +41,10 @@ contact me at `xovee.xu at gmail.com`.
 - SDM 2003
 - SDM 2001
 
+## SIGIR
+
+- SIGIR 2000
+
 ## SIGKDD
 
 - Before 1999
