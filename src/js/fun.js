@@ -501,7 +501,7 @@ function renderSmall(numYearlyAcc) {
         type: 'shadow'
       },
       formatter: function (params) {
-        return `${params[0].name}: Yearly ${params[0].value.toFixed(2)} papers.`
+        return `${params[0].name}: Yearly ${params[0].value.toFixed(0)} papers.`
       }
     },
     grid: { containLabel: true },
@@ -551,7 +551,7 @@ function renderSmall(numYearlyAcc) {
           show: true,
           position: 'right',
           formatter: function (params) {
-            return `${params.value.toFixed(1)}`;
+            return `${params.value.toFixed(0)}`;
           },
           textStyle: {
             fontSize: 16,

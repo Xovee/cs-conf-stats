@@ -44,6 +44,7 @@ contact me at `xovee.xu at gmail.com`.
 ## SIGIR
 
 - SIGIR 2000
+- Before 1999
 
 ## SIGKDD
 

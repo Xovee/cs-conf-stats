@@ -4202,15 +4202,6 @@
           }
         },
         {
-          "year": 2000,
-          "ordinal": "23rd",
-          "location": "Athens, Greece",
-          "main_track": {
-            "num_acc": 47,
-            "num_sub": 201
-          }
-        },
-        {
           "year": 1999,
           "ordinal": "22nd",
           "location": "Berkeley, California, USA",
@@ -4218,6 +4209,196 @@
             "num_acc": 33,
             "num_sub": 135
           }
+        }
+      ]
+    },
+    {
+      "series": "ICMR",
+      "metadata": {
+        "series_full_title": "ACM International Conference on Multimedia Retrieval",
+        "main_discipline": [
+          "Multimedia Retrieval"
+        ],
+        "other_discipline": [
+          "Computer Vision", "Search", "Recommender System", "Web", "Social Network", "Data Mining", "Indexing", "Semantic Descriptors", "Narrative", "Query", "NLP", "Information Retrieval", "HCI", "Signal Processing"
+        ],
+        "parent_org": "ACM SIGMM",
+        "website": "https://sites.google.com/view/www-acmicmr-org",
+        "proceedings": "https://dl.acm.org/conference/icmr/proceedings",
+        "second_track_name": "Short Paper Track",
+        "note": "Wow! This conference has complete data! 🏆"
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "14th",
+          "location": "Phuket, Thailand",
+          "main_track": {
+            "num_acc": 117,
+            "num_sub": 281
+          },
+          "second_track": {
+            "num_acc": 22,
+            "num_sub": 42
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "13th",
+          "location": "Thessaloniki, Greece",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 175
+          },
+          "second_track": {
+            "num_acc": 20,
+            "num_sub": 40
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "12th",
+          "location": "Newark, USA",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 157
+          },
+          "second_track": {
+            "num_acc": 11,
+            "num_sub": 32
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "11th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 134
+          },
+          "second_track": {
+            "num_acc": 15,
+            "num_sub": 43
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "10th",
+          "location": "Dublin, Ireland",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 78
+          },
+          "second_track": {
+            "num_acc": 19,
+            "num_sub": 27
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "9th",
+          "location": "Ottawa, Canada",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 83
+          },
+          "second_track": {
+            "num_acc": 23,
+            "num_sub": 23
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "8th",
+          "location": "Yokohama, Japan",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 136
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "7th",
+          "location": "Bucharest, Romania",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 95
+          },
+          "second_track": {
+            "num_acc": 13,
+            "num_sub": 35
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "6th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 120
+          },
+          "second_track": {
+            "num_acc": 36,
+            "num_sub": 72
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "5th",
+          "location": "Shanghai, China",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 127
+          },
+          "second_track": {
+            "num_acc": 34,
+            "num_sub": 84
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "4th",
+          "location": "Glasgow, UK",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 111
+          },
+          "second_track": {
+            "num_acc": 27,
+            "num_sub": 56
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "3rd",
+          "location": "Dallas, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 96
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "2nd",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 145
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "1st",
+          "location": "Trento, Italy",
+          "main_track": {
+            "num_acc": 60,
+            "num_sub": 366
+          },
+          "second_track": {
+            "num_acc": 16,
+            "num_sub": 46
+          },
+          "note": "Estimated, could be wrong."
         }
       ]
     },
