@@ -62,3 +62,7 @@ dd {
 #track-buttons label {
     @apply has-[:checked]:font-bold
 }
+
+#catalog span {
+    @apply font-bold
+}

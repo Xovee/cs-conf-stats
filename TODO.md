@@ -1,5 +1,6 @@
 # TODO List
 
+- [x] Aug 3, 2024. Add catalog page for SEO.
 - [ ] Jul 25, 2024. Add the trending stats
 - [ ] Jul 25, 2024. Add some charts for fun
     - [x] frequent cities and countries
