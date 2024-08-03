@@ -4403,6 +4403,139 @@
       ]
     },
     {
+      "series": "ICWSM",
+      "metadata": {
+        "series_full_title": "ICWSM: International AAAI Conference on Web and Social Media",
+        "main_discipline": [
+          "Computational Social Science", "Social Media", "Web Mining"
+        ],
+        "other_discipline": [
+          "Social Network", "HCI", "NLP", "Data Mining", "Information Diffusion", "Misinformation"
+        ],
+        "parent_org": "AAAI",
+        "website": "https://www.icwsm.org",
+        "proceedings": "https://ojs.aaai.org/index.php/ICWSM/issue/archive",
+        "second_track_name": "Research Poster Track",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2020,
+          "ordinal": "14th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 72,
+            "num_sub": 295
+          },
+          "second_track": {
+            "num_acc": 12,
+            "num_sub": 53
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "13th",
+          "location": "Munich, Germany",
+          "main_track": {
+            "num_acc": 51,
+            "num_sub": 238
+          },
+          "second_track": {
+            "num_acc": 7,
+            "num_sub": 33
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "12th",
+          "location": "Palo Alto, California, USA",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 295
+          },
+          "second_track": {
+            "num_acc": 18,
+            "num_sub": 71
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "11th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 372
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "10th",
+          "location": "Cologne, Germany",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 306
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "9th",
+          "location": "Oxford, UK",
+          "main_track": {
+            "num_acc": 64,
+            "num_sub": 343
+          },
+          "second_track": {
+            "num_acc": 37,
+            "num_sub": 57
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "8th",
+          "location": "Ann Arbor, USA",
+          "main_track": {
+            "num_acc": 64,
+            "num_sub": 279
+          },
+          "second_track": {
+            "num_acc": 18,
+            "num_sub": 44
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "7th",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 72,
+            "num_sub": 349
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "6th",
+          "location": "Dublin, Ireland",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 232
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "4th",
+          "location": "Ann Arbor, USA",
+          "main_track": {
+            "num_acc": 64,
+            "num_sub": 279
+          },
+          "second_track": {
+            "num_acc": 18,
+            "num_sub": 44
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",

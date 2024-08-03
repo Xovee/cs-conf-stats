@@ -29,6 +29,11 @@ contact me at `xovee.xu at gmail.com`.
 - ICME 2005
 - ICME 2001-2004
 
+# ICWSM
+
+- ICWSM 2011
+- Before 2010
+
 ## PODS
 
 - PODS 1985-1993
