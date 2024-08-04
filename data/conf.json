@@ -4536,6 +4536,114 @@
       ]
     },
     {
+      "series": "TheWebConf",
+      "metadata": {
+        "series_full_title": "Template",
+        "main_discipline": [
+          "Web and all related"
+        ],
+        "other_discipline": [
+          "Economics", "Graph", "Search", "Security", "Semantics and Knowledge", "HCI", "Social Network", "Web Systems", "User Modeling", "Web Mining", "Data Mining", "CV", "NLP", "Information Retrieval", "Recommender System", "Ranking"
+        ],
+        "parent_org": "Now ACM SIGWEB, former is IW3C2",
+        "website": "https://thewebconf.org",
+        "proceedings": "History: https://archives.iw3c2.org",
+        "second_track_name": "Short Paper Track",
+        "note": "The World Wide Web (WWW) conference is renamed to The Web Conference (TheWebConf) in 2018."
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "33rd",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 405,
+            "num_sub": 2008
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "32nd",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 365,
+            "num_sub": 1783
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "31st",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 323,
+            "num_sub": 1822
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "30th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 355,
+            "num_sub": 1736
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "29th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 219,
+            "num_sub": 1129
+          },
+          "second_track": {
+            "num_acc": 97,
+            "num_sub": 397
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "28th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 225,
+            "num_sub": 1247
+          },
+          "second_track": {
+            "num_acc": 72,
+            "num_sub": 361
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "27th",
+          "location": "Lyon, France",
+          "main_track": {
+            "num_acc": 170,
+            "num_sub": 1155
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "26th",
+          "location": "Perth, Australia",
+          "main_track": {
+            "num_acc": 164,
+            "num_sub": 966
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "25th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 115,
+            "num_sub": 727
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
