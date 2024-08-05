@@ -4547,7 +4547,7 @@
         ],
         "parent_org": "Now ACM SIGWEB, former is IW3C2",
         "website": "https://thewebconf.org",
-        "proceedings": "History: https://archives.iw3c2.org",
+        "proceedings": "New: https://dl.acm.org/conference/webconf/proceedings <br> History: https://archives.iw3c2.org",
         "second_track_name": "Short Paper Track",
         "note": "The World Wide Web (WWW) conference is renamed to The Web Conference (TheWebConf) in 2018."
       },
@@ -4639,6 +4639,60 @@
           "main_track": {
             "num_acc": 115,
             "num_sub": 727
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "24th",
+          "location": "Florence, Italy",
+          "main_track": {
+            "num_acc": 131,
+            "num_sub": 929
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "23rd",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 84,
+            "num_sub": 645
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "22nd",
+          "location": "Rio de Janeiro, Brazil",
+          "main_track": {
+            "num_acc": 125,
+            "num_sub": 831
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "21st",
+          "location": "Lyon, France",
+          "main_track": {
+            "num_acc": 108,
+            "num_sub": 885
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "20th",
+          "location": "Hyderabad, India",
+          "main_track": {
+            "num_acc": 81,
+            "num_sub": 658
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "19th",
+          "location": "Raleigh, USA",
+          "main_track": {
+            "num_acc": 91,
+            "num_sub": 754
           }
         }
       ]
