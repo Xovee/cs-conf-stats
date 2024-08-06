@@ -4548,7 +4548,6 @@
         "parent_org": "Now ACM SIGWEB, former is IW3C2",
         "website": "https://thewebconf.org",
         "proceedings": "New: https://dl.acm.org/conference/webconf/proceedings <br> History: https://archives.iw3c2.org",
-        "second_track_name": "Short Paper Track",
         "note": "The World Wide Web (WWW) conference is renamed to The Web Conference (TheWebConf) in 2018."
       },
       "yearly_data": [
@@ -4595,10 +4594,6 @@
           "main_track": {
             "num_acc": 219,
             "num_sub": 1129
-          },
-          "second_track": {
-            "num_acc": 97,
-            "num_sub": 397
           }
         },
         {
@@ -4608,10 +4603,6 @@
           "main_track": {
             "num_acc": 225,
             "num_sub": 1247
-          },
-          "second_track": {
-            "num_acc": 72,
-            "num_sub": 361
           }
         },
         {
@@ -4694,6 +4685,136 @@
             "num_acc": 91,
             "num_sub": 754
           }
+        },
+        {
+          "year": 2009,
+          "ordinal": "18th",
+          "location": "Madrid, Spain",
+          "main_track": {
+            "num_acc": 105,
+            "num_sub": 823
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "17th",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 103,
+            "num_sub": 880
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "16th",
+          "location": "Banff, Alberta, Canada",
+          "main_track": {
+            "num_acc": 111,
+            "num_sub": 755
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "15th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 75,
+            "num_sub": 667
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "14th",
+          "location": "Chiba, Japan",
+          "main_track": {
+            "num_acc": 77,
+            "num_sub": 550
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "13th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 506
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "12th",
+          "location": "Budapest, Hungary",
+          "main_track": {
+            "num_acc": 77,
+            "num_sub": 602
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "11th",
+          "location": "Honolulu, Hawaii, USA",
+          "main_track": {
+            "num_acc": 72,
+            "num_sub": 454
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "10th",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 392
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "9th",
+          "location": "Amsterdam, Netherlands",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 280
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "7th",
+          "location": "Brisbane, Australia",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 218
+          },
+          "note": "Can be wrong."
+        },
+        {
+          "year": 1997,
+          "ordinal": "6th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 64,
+            "num_sub": 276
+          },
+          "note": "Can be wrong."
+        },
+        {
+          "year": 1996,
+          "ordinal": "5th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 58,
+            "num_sub": 210
+          },
+          "note": "Can be wrong."
+        },
+        {
+          "year": 1995,
+          "ordinal": "4th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 189
+          },
+          "note": "Can be wrong."
         }
       ]
     },
