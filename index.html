@@ -85,6 +85,15 @@
                         <option value="SIGKDD">SIGKDD</option>
                     </select>
 
+                    <label for="dropdown-hci">HCI</label>
+                    <select id="dropdown-hci" name="dropdown-hci" class="">
+                        <option value="" disabled selected></option>
+                        <option value="CHI">CHI</option>
+<!--                            <option value="CSCW">CSCW</option>-->
+<!--                            <option value="UbiComp">UbiComp</option>-->
+<!--                            <option value="UIST">UIST</option>-->
+                    </select>
+
                     <label for="dropdown-ir" title="Information Retrieval">IR</label>
                     <select id="dropdown-ir" name="dropdown-ir" class="">
                         <option value="" disabled selected></option>
@@ -109,17 +118,6 @@
                         <option value="WSDM">WSDM</option>
                     </select>
                 </div>
-
-<!--                <div class="inline-block select-container">-->
-<!--                    <label for="dropdown-hci">HCI</label>-->
-<!--                    <select id="dropdown-hci" name="dropdown-hci" class="">-->
-<!--                        <option value="" disabled selected></option>-->
-<!--                        <option value="CHI">CHI</option>-->
-<!--                        <option value="CSCW">CSCW</option>-->
-<!--                        <option value="UbiComp">UbiComp</option>-->
-<!--                        <option value="UIST">UIST</option>-->
-<!--                    </select>-->
-<!--                </div>-->
 
 
 
@@ -179,6 +177,7 @@
         <ol class="list-decimal list-outside ml-6" id="catalog">
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="AAAI"><span>AAAI</span>: AAAI Conference on Artificial Intelligence</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-mm" data-conf="ACM MM"><span>ACM MM</span>: ACM International Conference on Multimedia</a>.</li>
+            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-hci" data-conf="CHI"><span>CHI</span>: ACM Conference on Human Factors in Computing Systems</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-cv" data-conf="CVPR"><span>CVPR</span>: International Conference on Computer Vision and Pattern Recognition</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ir" data-conf="CIKM"><span>CIKM</span>: ACM International Conference on Information and Knowledge Management</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-cv" data-conf="ECCV"><span>ECCV</span>: European Conference on Computer Vision</a>.</li>

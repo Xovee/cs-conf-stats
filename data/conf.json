@@ -4819,6 +4819,259 @@
       ]
     },
     {
+      "series": "CHI",
+      "metadata": {
+        "series_full_title": "ACM Conference on Human Factors in Computing Systems",
+        "main_discipline": [
+          "Human-Computer Interaction"
+        ],
+        "other_discipline": [
+          "UX Design", "Cognitive Psychology", "Social Computing", "Social Network", "Interaction Design", "Usability", "Accessibility", "Health", "Devices", "Visualization"
+        ],
+        "parent_org": "ACM SIGCHI",
+        "website": "https://archive.sigchi.org/conferences/conference-history/chi/",
+        "proceedings": "https://dl.acm.org/conference/chi/proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "41st",
+          "location": "Hamburg, Germany",
+          "main_track": {
+            "num_acc": 879,
+            "num_sub": 3180
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "40th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 637,
+            "num_sub": 2579
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "39th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 747,
+            "num_sub": 2845
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "38th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 760,
+            "num_sub": 3126
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "37th",
+          "location": "Glasgow, Scotland, UK",
+          "main_track": {
+            "num_acc": 703,
+            "num_sub": 2958
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "36th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 666,
+            "num_sub": 2592
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "35th",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 600,
+            "num_sub": 2400
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "34th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 565,
+            "num_sub": 2435
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "33rd",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 379,
+            "num_sub": 1520
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "32nd",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 465,
+            "num_sub": 2043
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "31st",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 392,
+            "num_sub": 1963
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "30th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 370,
+            "num_sub": 1577
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "29th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 410,
+            "num_sub": 1532
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "28th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 302,
+            "num_sub": 1346
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "27th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 277,
+            "num_sub": 1130
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "26th",
+          "location": "Florence, Italy",
+          "main_track": {
+            "num_acc": 157,
+            "num_sub": 714
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "25th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 182,
+            "num_sub": 840
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "24th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 151,
+            "num_sub": 626
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "23rd",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 93,
+            "num_sub": 372
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "22nd",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 93,
+            "num_sub": 578
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "21st",
+          "location": "Fort Lauderdale, USA",
+          "main_track": {
+            "num_acc": 75,
+            "num_sub": 468
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "20th",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "num_acc": 61,
+            "num_sub": 414
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "19th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 69,
+            "num_sub": 352
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "18th",
+          "location": "The Hague, Netherlands",
+          "main_track": {
+            "num_acc": 72,
+            "num_sub": 336
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "17th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 312
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "16th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 81,
+            "num_sub": 351
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
