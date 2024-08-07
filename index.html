@@ -169,10 +169,13 @@
 
     <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">Fun Facts</div>
 
-    <div class="text-base md:text-lg">Some <a href="fun-fact.html" target="_blank">fun visualizations</a> for conferences, e.g., the most picky conferences and the most large conferences.</div>
+    <div class="text-base md:text-lg"><a href="fun-fact.html" target="_blank" class="font-bold">Fun visualizations</a> for conferences, e.g., the most picky conferences and the most large conferences.</div>
 
     <details>
         <summary class="text-lg md:text-xl mt-5 mb-3 text-center md:text-left">Catalog</summary>
+
+
+        <div class="text-base md:text-lg my-2">Click a conference to see its statistics!</div>
 
         <ol class="list-decimal list-outside ml-6" id="catalog">
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="AAAI"><span>AAAI</span>: AAAI Conference on Artificial Intelligence</a>.</li>
@@ -227,6 +230,8 @@
 
 <footer class="py-4 container">
     <div class="">
+        <div class="text-base">List of 24 conferences: AAAI, ACM MM, CHI, CVPR, CIKM, ECCV, ECIR, ICCV, ICDE, ICDM, ICLR, ICME, ICML, ICMR, ICWSM, IJCAI, NeurIPS, PODS, SDM, SIGIR, SIGKDD, TheWebConf, VLDB, and WSDM.</div>
+
         <p>Created and maintained by <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">Xovee Xu</a> from <a href="https://en.uestc.edu.cn/" target="_blank">UESTC</a>, China. Data are collected from the proceedings and/or web that may contain errors.</p>
 
         <p>Addition, correction, feature suggestion are welcomed: please open issues or PR at the  <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub repo</a>.</p>
