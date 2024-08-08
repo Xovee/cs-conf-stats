@@ -4832,7 +4832,7 @@
         "website": "https://archive.sigchi.org/conferences/conference-history/chi/",
         "proceedings": "https://dl.acm.org/conference/chi/proceedings",
         "second_track_name": "",
-        "note": ""
+        "note": "Wow! We have complete stats for this conference! 🏆"
       },
       "yearly_data": [
         {
@@ -5067,6 +5067,313 @@
           "main_track": {
             "num_acc": 81,
             "num_sub": 351
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "15th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 234
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "14th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 256
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "13th",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 228
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "12th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 70,
+            "num_sub": 263
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "11th",
+          "location": "Amsterdam, Netherlands",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 330
+          }
+        },
+        {
+          "year": 1992,
+          "ordinal": "10th",
+          "location": "Monterey, California, USA",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 216
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "9th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 56,
+            "num_sub": 240
+          }
+        },
+        {
+          "year": 1990,
+          "ordinal": "8th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 260
+          }
+        },
+        {
+          "year": 1989,
+          "ordinal": "7th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 199
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "6th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 187
+          }
+        },
+        {
+          "year": 1987,
+          "ordinal": "5th",
+          "location": "Toronto, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 166
+          }
+        },
+        {
+          "year": 1986,
+          "ordinal": "4th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 122
+          }
+        },
+        {
+          "year": 1985,
+          "ordinal": "3rd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 170
+          }
+        },
+        {
+          "year": 1983,
+          "ordinal": "2nd",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 176
+          }
+        },
+        {
+          "year": 1982,
+          "ordinal": "1st",
+          "location": "Gaithersburg, USA",
+          "main_track": {
+            "num_acc": 75,
+            "num_sub": 165
+          }
+        }
+      ]
+    },
+    {
+      "series": "CSCW",
+      "metadata": {
+        "series_full_title": "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+        "main_discipline": [
+          "Human-Computer Interaction", "Social Computing", "Computer-Supported Cooperative Work"
+        ],
+        "other_discipline": [
+          "Crowd Computing", "Computing System", "HCI Tools", "Ethics", "Privacy", "Sociology", "UX Design"
+        ],
+        "parent_org": "ACM CHI",
+        "website": "https://archive.sigchi.org/conferences/conference-history/CSCW/",
+        "proceedings": "https://dl.acm.org/journal/pacmhci",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2018,
+          "ordinal": "21st",
+          "location": "Jersey City, USA",
+          "main_track": {
+            "num_acc": 289,
+            "num_sub": 1107
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "20th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 183,
+            "num_sub": 530
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "19th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 142,
+            "num_sub": 571
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "18th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 165,
+            "num_sub": 575
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "17th",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "num_acc": 134,
+            "num_sub": 497
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "16th",
+          "location": "San Antonio, USA",
+          "main_track": {
+            "num_acc": 139,
+            "num_sub": 390
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "15th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 164,
+            "num_sub": 415
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "14th",
+          "location": "Hangzhou, China",
+          "main_track": {
+            "num_acc": 58,
+            "num_sub": 264
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "13th",
+          "location": "Savannah, USA",
+          "main_track": {
+            "num_acc": 58,
+            "num_sub": 288
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "12th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 86,
+            "num_sub": 370
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "11th",
+          "location": "Banff, Canada",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 304
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "10th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 53,
+            "num_sub": 176
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "9th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 193
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "8th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 199
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "7th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 220
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "5th",
+          "location": "Chapel Hill, USA",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 200
+          }
+        },
+        {
+          "year": 1986,
+          "ordinal": "1st",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 80
           }
         }
       ]

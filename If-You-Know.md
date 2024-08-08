@@ -18,6 +18,12 @@ contact me at `xovee.xu at gmail.com`.
 - Before 2000
 - CIKM 2003
 
+## CSCW
+
+- CSCW 2019-2024
+- CSCW 1996
+- CSCW 1988-1992
+
 ## ECIR
 
 - Before 2002
