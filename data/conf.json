@@ -5472,6 +5472,87 @@
             "num_acc": 39,
             "num_sub": 202
           }
+        },
+        {
+          "year": 2009,
+          "ordinal": "9th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 251
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "8th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 226
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "7th",
+          "location": "Innsbruck, Austria",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 152
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "6th",
+          "location": "Orange County, California, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 204
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "5th",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 230
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "4th",
+          "location": "Nottingham, UK",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 144
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "3rd",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 16,
+            "num_sub": 117
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "2nd",
+          "location": "Gothenburg, Sweden",
+          "main_track": {
+            "num_acc": 15,
+            "num_sub": 136
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "1st",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 14,
+            "num_sub": 90
+          }
         }
       ]
     },
