@@ -70,6 +70,10 @@ contact me at `xovee.xu at gmail.com`.
 
 - After 2016
 
+## UIST
+
+- Before 2003
+
 ## VLDB 
 
 - Before 1995

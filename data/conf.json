@@ -5557,6 +5557,214 @@
       ]
     },
     {
+      "series": "UIST",
+      "metadata": {
+        "series_full_title": "ACM Symposium on User Interface Software and Technology",
+        "main_discipline": [
+          "HCI"
+        ],
+        "other_discipline": [
+          "Graphical UI", "Web UI", "Tangible Computing", "Ubiquitous Computing", "VR", "AR", "Multimedia", "Devices"
+        ],
+        "parent_org": "ACM SIGCHI, ACM SIGGRAPH",
+        "website": "https://uist.acm.org",
+        "proceedings": "https://dl.acm.org/conference/uist",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "36th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 121,
+            "num_sub": 483
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "35th",
+          "location": "Bend, USA",
+          "main_track": {
+            "num_acc": 98,
+            "num_sub": 372
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "34th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 95,
+            "num_sub": 367
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "33rd",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 97,
+            "num_sub": 450
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "32nd",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 93,
+            "num_sub": 382
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "31st",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 80,
+            "num_sub": 375
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "30th",
+          "location": "Quebec City, Canada",
+          "main_track": {
+            "num_acc": 73,
+            "num_sub": 324
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "29th",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 79,
+            "num_sub": 384
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "28th",
+          "location": "Charlotte, USA",
+          "main_track": {
+            "num_acc": 70,
+            "num_sub": 297
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "27th",
+          "location": "Honolulu, USA",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 333
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "26th",
+          "location": "St Andrews, UK",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 317
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "25th",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 288
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "24th",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 262
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "23rd",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 207
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "22nd",
+          "location": "Victoria, Canada",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 183
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "21st",
+          "location": "Monterey, California, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 115
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "20th",
+          "location": "Newport, Rhode Island, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 129
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "19th",
+          "location": "Montreux, Switzerland",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 177
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "18th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 159
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "17th",
+          "location": "Santa Fe, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 170
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "16th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 116
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
