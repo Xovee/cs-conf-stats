@@ -5765,6 +5765,88 @@
       ]
     },
     {
+      "series": "INFOCOM",
+      "metadata": {
+        "series_full_title": "IEEE International Conference on Computer Communications",
+        "main_discipline": [
+          "Network", "Communications"
+        ],
+        "other_discipline": [
+          "Wireless Network", "Mobile Network", "Network Security", "Privacy", "Cloud Computing", "Edge Computing", "IoT", "Protocols", "Network Architecture"
+        ],
+        "parent_org": "IEEE ComSoc",
+        "website": "ieee-infocom.org",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000359/all-proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "43rd",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 256,
+            "num_sub": 1307
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "42nd",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 252,
+            "num_sub": 1312
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "41st",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 224,
+            "num_sub": 1129
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "40th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 251,
+            "num_sub": 1271
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "39th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 267,
+            "num_sub": 1397
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "38th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 288,
+            "num_sub": 1464
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "37th",
+          "location": "Honolulu, USA",
+          "main_track": {
+            "num_acc": 308,
+            "num_sub": 1609
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
