@@ -5888,6 +5888,99 @@
             "num_acc": 279,
             "num_sub": 1613
           }
+        },
+        {
+          "year": 2012,
+          "ordinal": "31st",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 278,
+            "num_sub": 1547
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "30th",
+          "location": "Shanghai, China",
+          "main_track": {
+            "num_acc": 291,
+            "num_sub": 1823
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "29th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 276,
+            "num_sub": 1575
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "28th",
+          "location": "Rio de Janeiro, Brazil",
+          "main_track": {
+            "num_acc": 282,
+            "num_sub": 1435
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "27th",
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 236,
+            "num_sub": 1152
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "26th",
+          "location": "Anchorage, USA",
+          "main_track": {
+            "num_acc": 250,
+            "num_sub": 1400
+          },
+          "note": "over 1400"
+        },
+        {
+          "year": 2006,
+          "ordinal": "25th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 251,
+            "num_sub": 1412
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "24th",
+          "location": "Miami, USA",
+          "main_track": {
+            "num_acc": 244,
+            "num_sub": 1419
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "23rd",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 261,
+            "num_sub": 1420
+          },
+          "note": "over 1420"
+        },
+        {
+          "year": 2003,
+          "ordinal": "22nd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 224,
+            "num_sub": 1100
+          },
+          "note": "nearly 1100"
         }
       ]
     },
