@@ -5843,6 +5843,51 @@
             "num_acc": 308,
             "num_sub": 1609
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "36th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 292,
+            "num_sub": 1395
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "35th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 300,
+            "num_sub": 1644
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "34th",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 316,
+            "num_sub": 1640
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "33rd",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 319,
+            "num_sub": 1650
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "32nd",
+          "location": "Turin, Italy",
+          "main_track": {
+            "num_acc": 279,
+            "num_sub": 1613
+          }
         }
       ]
     },
