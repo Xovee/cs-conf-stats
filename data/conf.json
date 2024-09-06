@@ -5981,6 +5981,78 @@
             "num_sub": 1100
           },
           "note": "nearly 1100"
+        },
+        {
+          "year": 2002,
+          "ordinal": "21st",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 192,
+            "num_sub": 938
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "20th",
+          "location": "Anchorage, USA",
+          "main_track": {
+            "num_acc": 192,
+            "num_sub": 826
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "19th",
+          "location": "Tel Aviv, Israel",
+          "main_track": {
+            "num_acc": 192,
+            "num_sub": 717
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "18th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 184,
+            "num_sub": 573
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "17th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 172,
+            "num_sub": 800
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "16th",
+          "location": "Kobe, Japan",
+          "main_track": {
+            "num_acc": 167,
+            "num_sub": 525
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "15th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 176,
+            "num_sub": 590
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "14th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 156,
+            "num_sub": 470
+          }
         }
       ]
     },
