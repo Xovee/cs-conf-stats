@@ -39,7 +39,7 @@
 </header>
 
 <main class="container mx-auto">
-    <div class="text-center mb-6 text-gray-600 text-lg md:text-xl">Explore top-tier CS conference yearly acceptance rate and number of submissions.</div>
+    <div class="text-center mb-6 text-gray-600 text-lg md:text-xl">Explore top-tier CS conference yearly acceptance rate and number of submissions. <br> Created and maintained by <a href="https://www.xoveexu.com" target="_blank">Xovee Xu</a>.</div>
 
     <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">Conference Selection</div>
 
@@ -110,6 +110,14 @@
                         <option value="ICMR">ICMR</option>
                     </select>
 
+                    <label for="dropdown-net">Network</label>
+                    <select id="dropdown-net" name="dropdown-net" class="">
+                        <option value="" disabled selected></option>
+                        <option value="INFOCOM">INFOCOM</option>
+                        <option value="NSDI">NSDI</option>
+                        <option value="SIGCOMM">SIGCOMM</option>
+                    </select>
+
                     <label for="dropdown-web" title="Web Research">Web</label>
                     <select id="dropdown-web" name="dropdown-web" class="">
                         <option value="" disabled selected></option>
@@ -118,18 +126,6 @@
                         <option value="WSDM">WSDM</option>
                     </select>
                 </div>
-
-
-
-<!--                <div class="inline-block select-container">-->
-<!--                    <label for="dropdown-net">Net</label>-->
-<!--                    <select id="dropdown-net" name="dropdown-net" class="">-->
-<!--                        <option value="" disabled selected></option>-->
-<!--                        <option value="INFOCOM">INFOCOM</option>-->
-<!--                        <option value="NSDI">NSDI</option>-->
-<!--                        <option value="SIGCOMM">SIGCOMM</option>-->
-<!--                    </select>-->
-<!--                </div>-->
 
 <!--                <div class="inline-block select-container">-->
 <!--                    <label for="dropdown-nlp">NLP</label>-->
@@ -195,6 +191,7 @@
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-mm" data-conf="ICMR"><span>ICMR</span>: ACM International Conference on Multimedia Retrieval</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-web" data-conf="ICWSM"><span>ICWSM</span>: International AAAI Conference on Web and Social Media</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="IJCAI"><span>IJCAI</span>: International Joint Conference on Artificial Intelligence</a>.</li>
+            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-net" data-conf="INFOCOM"><span>INFOCOM</span>: IEEE International Conference on Computer Communications</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="NeurIPS"><span>NeurIPS</span>: Conference on Neural Information Processing Systems</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-db" data-conf="PODS"><span>PODS</span>: ACM Symposium on Principles of Database Systems</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-dm" data-conf="SDM"><span>SDM</span>: SIAM International Conference on Data Mining</a>.</li>
@@ -233,7 +230,7 @@
 
 <footer class="py-4 container">
     <div class="">
-        <div class="text-base">List of 27 conferences: AAAI, ACM MM, CHI, CIKM, CSCW, CVPR, ECCV, ECIR, ICCV, ICDE, ICDM, ICLR, ICME, ICML, ICMR, ICWSM, IJCAI, NeurIPS, PODS, SDM, SIGIR, SIGKDD, TheWebConf, UbiComp, UIST, VLDB, and WSDM.</div>
+        <div class="text-base">List of 28 conferences: AAAI, ACM MM, CHI, CIKM, CSCW, CVPR, ECCV, ECIR, ICCV, ICDE, ICDM, ICLR, ICME, ICML, ICMR, ICWSM, IJCAI, INFOCOM, NeurIPS, PODS, SDM, SIGIR, SIGKDD, TheWebConf, UbiComp, UIST, VLDB, and WSDM.</div>
 
         <p>Created and maintained by <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">Xovee Xu</a> from <a href="https://en.uestc.edu.cn/" target="_blank">UESTC</a>, China. Data are collected from the proceedings and/or web that may contain errors.</p>
 
