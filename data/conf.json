@@ -6057,6 +6057,218 @@
       ]
     },
     {
+      "series": "NSDI",
+      "metadata": {
+        "series_full_title": "USENIX Symposium on Networked Systems Design and Implementation",
+        "main_discipline": [
+          "Distributed System", "Networked System"
+        ],
+        "other_discipline": [
+          "Operating System Design", "Cloud Computing", "Storage System", "Data Center", "Security & Privacy", "Performance"
+        ],
+        "parent_org": "USENIX, ACM SIGCOMM, ACM SIGOPS",
+        "website": "https://www.usenix.org/conferences/byname/178",
+        "proceedings": "https://www.usenix.org/publications/proceedings",
+        "second_track_name": "",
+        "note": "Wow! This conference's data are complete! 🏆"
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "21st",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 112,
+            "num_sub": 601
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "20th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 96,
+            "num_sub": 560
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "19th",
+          "location": "Renton, USA",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 396
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "18th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 369
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "17th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 65,
+            "num_sub": 354
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "16th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 49,
+            "num_sub": 332
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "15th",
+          "location": "Renton, USA",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 255
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "14th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 254
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "13th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 225
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "12th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 213
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "11th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 223
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "10th",
+          "location": "Lombard, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 170
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "9th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 169
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "8th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 157
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "7th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 175
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "6th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 163
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "5th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 175
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "4th",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 113
+          },
+          "note": "could be wrong."
+        },
+        {
+          "year": 2006,
+          "ordinal": "3rd",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 110
+          },
+          "note": "could be wrong."
+        },
+        {
+          "year": 2005,
+          "ordinal": "2nd",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 112
+          },
+          "note": "could be wrong."
+        },
+        {
+          "year": 2004,
+          "ordinal": "1st",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 118
+          },
+          "note": "could be wrong."
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
