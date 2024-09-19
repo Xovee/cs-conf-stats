@@ -2257,6 +2257,16 @@
       },
       "yearly_data": [
         {
+          "year": 2024,
+          "ordinal": "43rd",
+          "location": "Santiago, Chile",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 213,
+            "num_sub": 768
+          }
+        },
+        {
           "year": 2023,
           "ordinal": "42nd",
           "location": "Seattle, USA",
