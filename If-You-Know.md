@@ -46,6 +46,10 @@ First, we need **ALL** new stats in the upcoming years.
 
 - Before 1995
 
+# IJCAI
+
+- Before 2005
+
 ## PODS
 
 - PODS 1985-1993

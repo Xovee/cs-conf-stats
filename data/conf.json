@@ -657,6 +657,96 @@
             "num_acc": 850,
             "num_sub": 4752
           }
+        },
+        {
+          "year": 2018,
+          "ordinal": "27th",
+          "location": "Stockholm, Sweden",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 710,
+            "num_sub": 3470
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "26th",
+          "location": "Melbourne, Australia",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 660,
+            "num_sub": 2540
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "25th",
+          "location": "New York City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 551,
+            "num_sub": 2294
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "24th",
+          "location": "Buenos Aires, Argentina",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 572,
+            "num_sub": 1996
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "23rd",
+          "location": "Beijing, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 413,
+            "num_sub": 1473
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "22nd",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 400,
+            "num_sub": 1325
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "21st",
+          "location": "Pasadena, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 331,
+            "num_sub": 1291
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "20th",
+          "location": "Hyderabad, India",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 470,
+            "num_sub": 1365
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "19th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 240,
+            "num_sub": 1339
+          }
         }
       ]
     },
@@ -6383,6 +6473,96 @@
           "main_track": {
             "num_acc": 40,
             "num_sub": 242
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "47th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 242
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "46th",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 246
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "45th",
+          "location": "Helsinki, Finland",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 235
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "44th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 223
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "43rd",
+          "location": "New Delhi, India",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 276
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "42nd",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 267
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "41st",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 288
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "40th",
+          "location": "Kyoto, Japan",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 258
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "39th",
+          "location": "Pisa, Italy",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 298
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "38th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 255
           }
         }
       ]
