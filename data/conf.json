@@ -1256,12 +1256,102 @@
         },
         {
           "year": 2019,
-          "ordinal": "36th",
+          "ordinal": "35th",
           "location": "Macau, China",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 129,
             "num_sub": 568
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "34th",
+          "location": "Paris, France",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 98,
+            "num_sub": 424
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "33rd",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 63,
+            "num_sub": 356
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "32nd",
+          "location": "Helsinki, Finland",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 99,
+            "num_sub": 395
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "31st",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 103,
+            "num_sub": 409
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "30th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 89,
+            "num_sub": 446
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "29th",
+          "location": "Brisbane, Australia",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 95,
+            "num_sub": 443
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "28th",
+          "location": "Arlington, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 100,
+            "num_sub": 413
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "27th",
+          "location": "Hannover, Germany",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 98,
+            "num_sub": 491
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "26th",
+          "location": "Long Beach, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 110,
+            "num_sub": 523
           }
         }
       ]
