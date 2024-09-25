@@ -1353,6 +1353,106 @@
             "num_acc": 110,
             "num_sub": 523
           }
+        },
+        {
+          "year": 2009,
+          "ordinal": "25th",
+          "location": "Shanghai, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 93,
+            "num_sub": 545
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "24th",
+          "location": "Cancun, Mexico",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 119,
+            "num_sub": 615
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "23rd",
+          "location": "Istanbul, Turkey",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 111,
+            "num_sub": 620
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "22nd",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 89,
+            "num_sub": 460
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "21st",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 100,
+            "num_sub": 521
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "20th",
+          "location": "Boston, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 83,
+            "num_sub": 441
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "19th",
+          "location": "Bangalore, India",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 77,
+            "num_sub": 378
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "18th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 54,
+            "num_sub": 287
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "17th",
+          "location": "Heidelberg, Germany",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 54,
+            "num_sub": 296
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "16th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 41,
+            "num_sub": 287
+          }
         }
       ]
     },
