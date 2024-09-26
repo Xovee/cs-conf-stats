@@ -1453,6 +1453,157 @@
             "num_acc": 41,
             "num_sub": 287
           }
+        },
+        {
+          "year": 1999,
+          "ordinal": "15th",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 57,
+            "num_sub": 299
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "14th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 56,
+            "num_sub": 252
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "13th",
+          "location": "Birmingham, UK",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 45,
+            "num_sub": 240
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "12th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 60,
+            "num_sub": 264
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "11th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 56,
+            "num_sub": 233
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "10th",
+          "location": "Houston, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 50,
+            "num_sub": 270
+          },
+          "note": "Source from here: http://informatics.inha.ac.kr/tcde/pages/FM/1994%20front%20matter.pdf"
+        },
+        {
+          "year": 1993,
+          "ordinal": "98th",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 72,
+            "num_sub": 286
+          }
+        },
+        {
+          "year": 1992,
+          "ordinal": "8th",
+          "location": "Tempe, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 69,
+            "num_sub": 213
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "7th",
+          "location": "Kobe, Japan",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 77,
+            "num_sub": 260
+          }
+        },
+        {
+          "year": 1990,
+          "ordinal": "6th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 66,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 1989,
+          "ordinal": "5th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 73,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "4th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 64,
+            "num_sub": 0
+          }
+        },
+        {
+          "year": 1987,
+          "ordinal": "3rd",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 72,
+            "num_sub": 209
+          }
+        },
+        {
+          "year": 1986,
+          "ordinal": "2nd",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 75,
+            "num_sub": 184
+          }
+        },
+        {
+          "year": 1985,
+          "ordinal": "1st",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 80,
+            "num_sub": 0
+          }
         }
       ]
     },
