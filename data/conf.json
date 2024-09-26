@@ -1546,36 +1546,6 @@
           }
         },
         {
-          "year": 1990,
-          "ordinal": "6th",
-          "location": "Los Angeles, California, USA",
-          "main_track": {
-            "track_name": "Research Track",
-            "num_acc": 66,
-            "num_sub": 0
-          }
-        },
-        {
-          "year": 1989,
-          "ordinal": "5th",
-          "location": "Los Angeles, California, USA",
-          "main_track": {
-            "track_name": "Research Track",
-            "num_acc": 73,
-            "num_sub": 0
-          }
-        },
-        {
-          "year": 1988,
-          "ordinal": "4th",
-          "location": "Los Angeles, California, USA",
-          "main_track": {
-            "track_name": "Research Track",
-            "num_acc": 64,
-            "num_sub": 0
-          }
-        },
-        {
           "year": 1987,
           "ordinal": "3rd",
           "location": "Los Angeles, California, USA",
@@ -1593,16 +1563,6 @@
             "track_name": "Research Track",
             "num_acc": 75,
             "num_sub": 184
-          }
-        },
-        {
-          "year": 1985,
-          "ordinal": "1st",
-          "location": "Los Angeles, California, USA",
-          "main_track": {
-            "track_name": "Research Track",
-            "num_acc": 80,
-            "num_sub": 0
           }
         }
       ]
