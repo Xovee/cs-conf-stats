@@ -766,6 +766,16 @@
       },
       "yearly_data": [
         {
+          "year": 2024,
+          "ordinal": "38th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 4043,
+            "num_sub": 15671
+          }
+        },
+        {
           "year": 2023,
           "ordinal": "37th",
           "location": "New Orleans, USA",
@@ -817,12 +827,252 @@
         },
         {
           "year": 2018,
-          "ordinal": "33rd",
+          "ordinal": "32nd",
           "location": "Montreal, Canada",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 1011,
             "num_sub": 4856
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "31st",
+          "location": "Long Beach, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 678,
+            "num_sub": 3240
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "30th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 568,
+            "num_sub": 2406
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "29th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 403,
+            "num_sub": 1838
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "28th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 414,
+            "num_sub": 1678
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "27th",
+          "location": "Lake Tahoe, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 360,
+            "num_sub": 1420
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "26th",
+          "location": "Lake Tahoe, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 370,
+            "num_sub": 1452
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "25th",
+          "location": "Granada, Spain",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 306,
+            "num_sub": 1400
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "24th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 292,
+            "num_sub": 1219
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "23rd",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 263,
+            "num_sub": 1105
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "22nd",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 250,
+            "num_sub": 1016
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "21st",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 217,
+            "num_sub": 975
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "20th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 204,
+            "num_sub": 833
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "19th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 206,
+            "num_sub": 752
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "18th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 207,
+            "num_sub": 823
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "17th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 198,
+            "num_sub": 717
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "16th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 207,
+            "num_sub": 694
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "14th",
+          "location": "Denver, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 152,
+            "num_sub": 514
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "13th",
+          "location": "Denver, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 150,
+            "num_sub": 467
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "12th",
+          "location": "Denver, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 150,
+            "num_sub": 474
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "11th",
+          "location": "Denver, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 150,
+            "num_sub": 491
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "10th",
+          "location": "Denver, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 151,
+            "num_sub": 509
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "9th",
+          "location": "Denver, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 152,
+            "num_sub": 462
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "8th",
+          "location": "Denver, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 151,
+            "num_sub": 509
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "7th",
+          "location": "Denver, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 144,
+            "num_sub": 515
           }
         }
       ]
