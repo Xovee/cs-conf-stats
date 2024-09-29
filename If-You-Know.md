@@ -116,5 +116,4 @@ First, we need **ALL** new stats in the upcoming years.
 - ICME
 - ICML
 - IJCAI
-- NeurIPS
 - SIGMOD

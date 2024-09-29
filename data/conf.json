@@ -448,6 +448,116 @@
             "num_acc": 1088,
             "num_sub": 4990
           }
+        },
+        {
+          "year": 2019,
+          "ordinal": "36th",
+          "location": "Long Beach, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 774,
+            "num_sub": 3424
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "35th",
+          "location": "Stockholm, Sweden",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 621,
+            "num_sub": 2473
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "34th",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 434,
+            "num_sub": 1676
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "33rd",
+          "location": "New York City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 434,
+            "num_sub": 1676
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "21st",
+          "location": "Banff, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 118,
+            "num_sub": 368
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "19th",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 86,
+            "num_sub": 261
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "18th",
+          "location": "Williamstown, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 80,
+            "num_sub": 249
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "15th",
+          "location": "Madison, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 66,
+            "num_sub": 215
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "10th",
+          "location": "Amherst, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 44,
+            "num_sub": 164
+          }
+        },
+        {
+          "year": 1990,
+          "ordinal": "7th",
+          "location": "Austin, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 50,
+            "num_sub": 165
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "5th",
+          "location": "Ann Arbor, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 49,
+            "num_sub": 150
+          }
         }
       ]
     },
@@ -5382,7 +5492,7 @@
         {
           "year": 2007,
           "ordinal": "16th",
-          "location": "Banff, Alberta, Canada",
+          "location": "Banff, Canada",
           "main_track": {
             "num_acc": 111,
             "num_sub": 755
