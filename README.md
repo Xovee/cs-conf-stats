@@ -18,7 +18,7 @@ Number of submissions and number of accepted papers for the following conference
 
 1. AAAI: AAAI Conference on Artificial Intelligence.
 1. ACM MM: ACM International Conference on Multimedia.
-1. HI: ACM Conference on Human Factors in Computing Systems.
+1. HCI: ACM Conference on Human Factors in Computing Systems.
 1. CIKM: ACM International Conference on Information and Knowledge Management.
 1. CSCW: ACM Conference on Computer-Supported Cooperative Work and Social Computing.
 1. CVPR: International Conference on Computer Vision and Pattern Recognition.
