@@ -1288,7 +1288,8 @@
           "Image", "Video", "Object Detection", "Segmentation", "3D CV", "Synthesis", "VR", "AR", "Graphics"
         ],
         "parent_org": "IEEE Computer Society, Computer Vision Foundation",
-        "website": ["https://cvpr.thecvf.com"]
+        "website": ["https://cvpr.thecvf.com"],
+        "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
         {
@@ -1363,13 +1364,304 @@
         },
         {
           "year": 2017,
-          "ordinal": "31st",
+          "ordinal": "30th",
           "location": "Honolulu, Hawaii, USA",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 783,
             "num_sub": 2620
           }
+        },
+        {
+          "year": 2016,
+          "ordinal": "29th",
+          "location": "Las Vegas, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 643,
+            "num_sub": 1865
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "28th",
+          "location": "Boston, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 602,
+            "num_sub": 1815
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "27th",
+          "location": "Columbus, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 540,
+            "num_sub": 1778
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "26th",
+          "location": "Portland, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 472,
+            "num_sub": 1798
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "25th",
+          "location": "Providence, Rhode Island, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 465,
+            "num_sub": 1776
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "24th",
+          "location": "Colorado Springs, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 438,
+            "num_sub": 1688
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "23rd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 462,
+            "num_sub": 1724
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "22nd",
+          "location": "Miami, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 383,
+            "num_sub": 1464
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "21st",
+          "location": "Anchorage, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 508,
+            "num_sub": 1593
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "20th",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 353,
+            "num_sub": 1250
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "19th",
+          "location": "New York City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 318,
+            "num_sub": 1131
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "18th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 324,
+            "num_sub": 1160
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "17th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 260,
+            "num_sub": 873
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "16th",
+          "location": "Madison, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 209,
+            "num_sub": 905
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "15th",
+          "location": "Kauai, Hawaii, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 273,
+            "num_sub": 920
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "14th",
+          "location": "Hilton Head, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 220,
+            "num_sub": 466
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "13th",
+          "location": "Fort Collins, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 192,
+            "num_sub": 503
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "12th",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 139,
+            "num_sub": 453
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "11th",
+          "location": "San Juan, Puerto Rico",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 173,
+            "num_sub": 544
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "10th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 137,
+            "num_sub": 551
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "9th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 164,
+            "num_sub": 472
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "8th",
+          "location": "New York City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 186,
+            "num_sub": 431
+          }
+        },
+        {
+          "year": 1992,
+          "ordinal": "7th",
+          "location": "Champaign, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 159,
+            "num_sub": 357
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "6th",
+          "location": "Maui, Hawaii, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 143,
+            "num_sub": 491
+          }
+        },
+        {
+          "year": 1989,
+          "ordinal": "5th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 95,
+            "num_sub": 327
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "4th",
+          "location": "Ann Arbor, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 140,
+            "num_sub": 300
+          }
+        },
+        {
+          "year": 1986,
+          "ordinal": "3rd",
+          "location": "Miami, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 111,
+            "num_sub": 200
+          }
+        },
+        {
+          "year": 1985,
+          "ordinal": "2nd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 124,
+            "num_sub": 240
+          }
+        },
+        {
+          "year": 1983,
+          "ordinal": "1st",
+          "location": "Arlington, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 110,
+            "num_sub": 210
+          },
+          "note": "Estimated"
         }
       ]
     },

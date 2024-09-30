@@ -178,6 +178,8 @@ function renderCity(cityData) {
 }
 
 function renderCountry(countryData) {
+  var totalValue = countryData.reduce((sum, item) => sum + item.value, 0);
+
   var minCountryValue = Math.min(...countryData.map(item => item.value));
   var maxCountryValue = Math.max(...countryData.map(item => item.value));
 
@@ -235,6 +237,14 @@ function renderCountry(countryData) {
         label: {
           show: true,
           position: 'right',
+          formatter: function (params) {
+            if (params.dataIndex === 0 || params.dataIndex === countryData.length - 1) {
+              var perc = (params.value / totalValue * 100).toFixed(2);
+              return params.value + ' (' + perc + '%)';
+            } else {
+              return params.value;
+            }
+          },
           textStyle: {
             fontSize: 16,
             color: '#000'
