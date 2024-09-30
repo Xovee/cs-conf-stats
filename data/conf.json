@@ -485,8 +485,88 @@
           "location": "New York City, USA",
           "main_track": {
             "track_name": "Research Track",
-            "num_acc": 434,
-            "num_sub": 1676
+            "num_acc": 322,
+            "num_sub": 1320
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "32nd",
+          "location": "Lille, France",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 270,
+            "num_sub": 1037
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "31st",
+          "location": "Beijing, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 310,
+            "num_sub": 1238
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "27th",
+          "location": "Haifa, Israel",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 152,
+            "num_sub": 594
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "26th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 160,
+            "num_sub": 595
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "25th",
+          "location": "Helsinki, Finland",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 158,
+            "num_sub": 583
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "24th",
+          "location": "Corvallis, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 150,
+            "num_sub": 522
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "23rd",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 140,
+            "num_sub": 548
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "22nd",
+          "location": "Bonn, Germany",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 134,
+            "num_sub": 491
           }
         },
         {
@@ -497,6 +577,16 @@
             "track_name": "Research Track",
             "num_acc": 118,
             "num_sub": 368
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "20th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 119,
+            "num_sub": 371
           }
         },
         {
