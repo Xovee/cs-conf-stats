@@ -46,6 +46,10 @@ First, we need **ALL** new stats in the upcoming years.
 
 - ICML 2011-2013
 - ICML 1999-2000
+- ICML 1994-1997
+- ICML 1991-1992
+- ICML 1989
+- Before 1988
 
 # ICWSM
 
