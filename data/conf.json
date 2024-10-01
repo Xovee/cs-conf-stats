@@ -1638,7 +1638,7 @@
           "location": "Miami, USA",
           "main_track": {
             "track_name": "Research Track",
-            "num_acc": 111,
+            "num_acc": 91,
             "num_sub": 200
           }
         },
@@ -1658,7 +1658,7 @@
           "location": "Arlington, USA",
           "main_track": {
             "track_name": "Research Track",
-            "num_acc": 110,
+            "num_acc": 117,
             "num_sub": 210
           },
           "note": "Estimated"
@@ -1677,7 +1677,8 @@
         ],
         "parent_org": "European Computer Vision Association",
         "website": ["https://www.ecva.net/index.php"],
-        "proceedings": "https://link.springer.com/conference/eccv"
+        "proceedings": "https://link.springer.com/conference/eccv",
+        "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
         {
@@ -1877,7 +1878,8 @@
         ],
         "parent_org": "IEEE Computer Society, Computer Vision Foundation",
         "website": "https://www.thecvf.com/",
-        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings"
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings",
+        "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
         {
@@ -1929,6 +1931,150 @@
             "num_acc": 525,
             "num_sub": 1698
           }
+        },
+        {
+          "year": 2013,
+          "ordinal": "14th",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 454,
+            "num_sub": 1629
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "13th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 339,
+            "num_sub": 1394
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "12th",
+          "location": "Kyoto, Japan",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 308,
+            "num_sub": 1238
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "11th",
+          "location": "Rio de Janeiro, Brazil",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 280,
+            "num_sub": 1190
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "10th",
+          "location": "Beijing, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 244,
+            "num_sub": 1230
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "9th",
+          "location": "Nice, France",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 199,
+            "num_sub": 966
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "8th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 205,
+            "num_sub": 596
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "7th",
+          "location": "Corfu, Greece",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 163,
+            "num_sub": 575
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "6th",
+          "location": "Mumbai, India",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 140,
+            "num_sub": 545
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "5th",
+          "location": "Boston, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 161,
+            "num_sub": 600
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "4th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 101,
+            "num_sub": 380
+          },
+          "note": "Source: https://lear.inrialpes.fr/people/triggs/events/iccv03/conf-stats.html"
+        },
+        {
+          "year": 1990,
+          "ordinal": "3rd",
+          "location": "Osaka, Japan",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 102,
+            "num_sub": 420
+          },
+          "note": "Source: https://lear.inrialpes.fr/people/triggs/events/iccv03/conf-stats.html"
+        },
+        {
+          "year": 1988,
+          "ordinal": "2nd",
+          "location": "Tampa, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 89,
+            "num_sub": 306
+          },
+          "note": "Source: https://lear.inrialpes.fr/people/triggs/events/iccv03/conf-stats.html"
+        },
+        {
+          "year": 1987,
+          "ordinal": "1st",
+          "location": "London, UK",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 60,
+            "num_sub": 300
+          },
+          "note": "Source: https://lear.inrialpes.fr/people/triggs/events/iccv03/conf-stats.html"
         }
       ]
     },
@@ -1952,7 +2098,7 @@
           "location": "Utrecht, Netherlands",
           "main_track": {
             "track_name": "Research Track", 
-            "num_acc": 337,
+            "num_acc": 376,
             "num_sub": 1481
           }
         },
@@ -2285,6 +2431,16 @@
             "track_name": "Research Track",
             "num_acc": 77,
             "num_sub": 260
+          }
+        },
+        {
+          "year": 1989,
+          "ordinal": "5th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 73,
+            "num_sub": 277
           }
         },
         {
@@ -3401,7 +3557,7 @@
       "yearly_data": [
         {
           "year": 2024,
-          "ordinal": "43rd",
+          "ordinal": "50th",
           "location": "Santiago, Chile",
           "main_track": {
             "track_name": "Research Track",
@@ -3411,7 +3567,7 @@
         },
         {
           "year": 2023,
-          "ordinal": "42nd",
+          "ordinal": "49th",
           "location": "Seattle, USA",
           "main_track": {
             "track_name": "Research Track",
@@ -3421,7 +3577,7 @@
         },
         {
           "year": 2022,
-          "ordinal": "41st",
+          "ordinal": "48th",
           "location": "Philadelphia, USA",
           "main_track": {
             "track_name": "Research Track",
@@ -3431,7 +3587,7 @@
         },
         {
           "year": 2021,
-          "ordinal": "40th",
+          "ordinal": "47th",
           "location": "Virtual Conference",
           "main_track": {
             "track_name": "Research Track",
@@ -3441,7 +3597,7 @@
         },
         {
           "year": 2020,
-          "ordinal": "39th",
+          "ordinal": "46th",
           "location": "Virtual Conference",
           "main_track": {
             "track_name": "Research Track",
@@ -3451,7 +3607,7 @@
         },
         {
           "year": 2019,
-          "ordinal": "38th",
+          "ordinal": "45th",
           "location": "Amsterdam, Netherlands",
           "main_track": {
             "track_name": "Research Track",
@@ -3461,12 +3617,262 @@
         },
         {
           "year": 2018,
-          "ordinal": "37th",
+          "ordinal": "44th",
           "location": "Houston, USA",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 90,
-            "num_sub": 438
+            "num_sub": 458
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "43rd",
+          "location": "Chicago, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 96,
+            "num_sub": 489
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "42nd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 116,
+            "num_sub": 569
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "41st",
+          "location": "Melbourne, Australia",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 106,
+            "num_sub": 413
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "40th",
+          "location": "Snowbird, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 107,
+            "num_sub": 421
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "39th",
+          "location": "New York City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 76,
+            "num_sub": 372
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "38th",
+          "location": "Scottsdale, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 48,
+            "num_sub": 289
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "37th",
+          "location": "Athens, Greece",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 84,
+            "num_sub": 375
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "36th",
+          "location": "Indianapolis, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 80,
+            "num_sub": 384
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "35th",
+          "location": "Providence, Rhode Island, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 63,
+            "num_sub": 397
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "34th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 78,
+            "num_sub": 435
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "33rd",
+          "location": "Beijing, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 70,
+            "num_sub": 480
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "32nd",
+          "location": "Chicago, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 58,
+            "num_sub": 446
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "31st",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 65,
+            "num_sub": 431
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "30th",
+          "location": "Paris, France",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 69,
+            "num_sub": 431
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "29th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 53,
+            "num_sub": 342
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "28th",
+          "location": "Madison, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 42,
+            "num_sub": 240
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "27th",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 44,
+            "num_sub": 293
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "26th",
+          "location": "Dallas, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 42,
+            "num_sub": 248
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "25th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 42,
+            "num_sub": 205
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "24th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 42,
+            "num_sub": 246
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "23rd",
+          "location": "Tucson, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 42,
+            "num_sub": 202
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "22nd",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 47,
+            "num_sub": 290
+          }
+        },
+        {
+          "year": 1983,
+          "ordinal": "9th",
+          "location": "San Jose, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 23,
+            "num_sub": 103
+          }
+        },
+        {
+          "year": 1982,
+          "ordinal": "8th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 33,
+            "num_sub": 123
+          }
+        },
+        {
+          "year": 1981,
+          "ordinal": "7th",
+          "location": "Ann Arbor, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 25,
+            "num_sub": 93
           }
         }
       ]

@@ -32,7 +32,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ICDE
 
-- ICDE 1988-1990
+- ICDE 1990
 - ICDE 1988
 
 ## ICME
@@ -119,9 +119,6 @@ First, we need **ALL** new stats in the upcoming years.
 
 # Conferences that Need to Check
 
-- CVPR
-- ICCV
-- ICDE
 - ICME
 - ICML
 - IJCAI
