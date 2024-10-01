@@ -2909,6 +2909,16 @@
       },
       "yearly_data": [
         {
+          "year": 2024,
+          "ordinal": "25th",
+          "location": "Niagara Falls, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 666,
+            "num_sub": 2049
+          }
+        },
+        {
           "year": 2023,
           "ordinal": "24th",
           "location": "Brisbane, Australia",
