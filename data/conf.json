@@ -3846,6 +3846,46 @@
           }
         },
         {
+          "year": 1990,
+          "ordinal": "16th",
+          "location": "Atlantic City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 37,
+            "num_sub": 206
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "14th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 48,
+            "num_sub": 211
+          }
+        },
+        {
+          "year": 1986,
+          "ordinal": "12th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 30,
+            "num_sub": 158
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "10th",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 40,
+            "num_sub": 279
+          }
+        },
+        {
           "year": 1983,
           "ordinal": "9th",
           "location": "San Jose, USA",
