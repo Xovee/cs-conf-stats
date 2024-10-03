@@ -8189,7 +8189,7 @@
         "website": "https://www.sigmobile.org/grav/",
         "proceedings": "https://dl.acm.org/conference/mobicom/proceedings",
         "second_track_name": "",
-        "note": ""
+        "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
         {
@@ -8334,6 +8334,132 @@
           "main_track": {
             "num_acc": 30,
             "num_sub": 282
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "14th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 264
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "13th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 233
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "12th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 298
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "11th",
+          "location": "Cologne, Germany",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 224
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "10th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 326
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "9th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 281
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "8th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 364
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "7th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 281
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "6th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 226
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "5th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 170
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "4th",
+          "location": "Dallas, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 147
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "3rd",
+          "location": "Budapest, Hungary",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 101
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "2nd",
+          "location": "Rye, USA",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 90
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "1st",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 72
           }
         }
       ]
