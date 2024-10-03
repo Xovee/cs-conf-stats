@@ -8176,6 +8176,169 @@
       ]
     },
     {
+      "series": "MobiCom",
+      "metadata": {
+        "series_full_title": "International Conference on Mobile Computing and Networking",
+        "main_discipline": [
+          "Mobile Computing", "Wireless Networking", "Networked Systems"
+        ],
+        "other_discipline": [
+          "IoT", "Edge Computing", "Cyber-Physical Systems", "Security & Privacy", "Efficiency"
+        ],
+        "parent_org": "ACM SIGMOBILE",
+        "website": "https://www.sigmobile.org/grav/",
+        "proceedings": "https://dl.acm.org/conference/mobicom/proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "30th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 288
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "29th",
+          "location": "Madrid, Spain",
+          "main_track": {
+            "num_acc": 92,
+            "num_sub": 377
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "28th",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "num_acc": 56,
+            "num_sub": 314
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "27th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 297
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "26th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 384
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "25th",
+          "location": "Los Cabos, Mexico",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 290
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "24th",
+          "location": "New Delhi, India",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 187
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "23rd",
+          "location": "Snowbird, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 186
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "22nd",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 226
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "21st",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 207
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "20th",
+          "location": "Maui, Hawaii, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 220
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "19th",
+          "location": "Miami, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 207
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "18th",
+          "location": "Istanbul, Turkey",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 212
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "17th",
+          "location": "Las Vegas, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 214
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "16th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 233
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "15th",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 282
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",

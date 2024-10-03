@@ -126,7 +126,4 @@ First, we need **ALL** new stats in the upcoming years.
 
 # Conferences that Need to Check
 
-- ICME
-- ICML
-- IJCAI
-- SIGMOD
+None

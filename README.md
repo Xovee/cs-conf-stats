@@ -34,6 +34,7 @@ Number of submissions and number of accepted papers for the following conference
 1. ICWSM: International AAAI Conference on Web and Social Media.
 1. IJCAI: International Joint Conference on Artificial Intelligence.
 1. INFOCOM: IEEE International Conference on Computer Communications.
+1. MobiCom: International Conference on Mobile Computing and Networking.
 1. NeurIPS: Conference on Neural Information Processing Systems.
 1. NSDI: USENIX Symposium on Networked Systems Design and Implementation.
 1. PODS: ACM Symposium on Principles of Database Systems.
