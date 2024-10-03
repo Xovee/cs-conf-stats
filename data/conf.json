@@ -3866,6 +3866,16 @@
           }
         },
         {
+          "year": 1987,
+          "ordinal": "13th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 42,
+            "num_sub": 178
+          }
+        },
+        {
           "year": 1986,
           "ordinal": "12th",
           "location": "Washington DC, USA",

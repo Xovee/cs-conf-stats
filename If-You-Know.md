@@ -85,6 +85,13 @@ First, we need **ALL** new stats in the upcoming years.
 
 - Before 1994
 
+## SIGMOD
+
+- SIGMOD 1991-1995
+- SIGMOD 1989
+- SIGMOD 1985
+- Before 1981
+
 ## SIGIR
 
 - SIGIR 2000
