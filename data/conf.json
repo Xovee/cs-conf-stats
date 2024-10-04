@@ -8695,7 +8695,7 @@
         "website": "https://www.sigmobile.org/grav/events/conferences/sensys",
         "proceedings": "https://dl.acm.org/conference/sensys/proceedings",
         "second_track_name": "",
-        "note": ""
+        "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
         {
@@ -8885,6 +8885,160 @@
           "main_track": {
             "num_acc": 24,
             "num_sub": 137
+          }
+        }
+      ]
+    },
+    {
+      "series": "ICASSP",
+      "metadata": {
+        "series_full_title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+        "main_discipline": [
+          "Signal Processing", "Speech", "Audio & Acoustic Signal Processing"
+        ],
+        "other_discipline": [
+          "Image, Video, Multidimensional Signal Processing", "ML for Signal Processing", "Biomedical Signal Processing", "Multimedia Signal Processing", "Sensor Array", "Multichannel Signal Processing"
+        ],
+        "parent_org": "IEEE Signal Processing Society",
+        "website": "https://signalprocessingsociety.org",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "49th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 2812,
+            "num_sub": 5796
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "48th",
+          "location": "Rhodes, Greece",
+          "main_track": {
+            "num_acc": 2765,
+            "num_sub": 6127
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "47th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 1721,
+            "num_sub": 3859
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "46th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 1734,
+            "num_sub": 3610
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "45th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 1881,
+            "num_sub": 3951
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "44th",
+          "location": "Brighton, UK",
+          "main_track": {
+            "num_acc": 1725,
+            "num_sub": 3510
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "43rd",
+          "location": "Calgary, Canada",
+          "main_track": {
+            "num_acc": 1406,
+            "num_sub": 2830
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "42nd",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 1220,
+            "num_sub": 2518
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "41st",
+          "location": "Shanghai, China",
+          "main_track": {
+            "num_acc": 1265,
+            "num_sub": 2682
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "40th",
+          "location": "Brisbane, Australia",
+          "main_track": {
+            "num_acc": 1207,
+            "num_sub": 2322
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "39th",
+          "location": "Florence, Italy",
+          "main_track": {
+            "num_acc": 1755,
+            "num_sub": 3544
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "38th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 1786,
+            "num_sub": 3314
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "37th",
+          "location": "Kyoto, Japan",
+          "main_track": {
+            "num_acc": 1370,
+            "num_sub": 2670
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "36th",
+          "location": "Prague, Czech Republic",
+          "main_track": {
+            "num_acc": 1438,
+            "num_sub": 2946
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "35th",
+          "location": "Dallas, USA",
+          "main_track": {
+            "num_acc": 1356,
+            "num_sub": 2855
           }
         }
       ]
