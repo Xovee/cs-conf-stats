@@ -40,6 +40,7 @@ Number of submissions and number of accepted papers for the following conference
 1. NSDI: USENIX Symposium on Networked Systems Design and Implementation.
 1. PODS: ACM Symposium on Principles of Database Systems.
 1. SDM: SIAM International Conference on Data Mining.
+1. SenSys: ACM Conference on Embedded Networked Sensor Systems.
 1. SIGCOMM: Annual Conference of the ACM SIGCOMM on the Applications, Technologies, Architectures, and Protocols for Computer Communication
 1. SIGIR: International ACM SIGIR Conference on Research and Development in Information Retrieval.
 1. SIGKDD: ACM SIGKDD Conference on Knowledge Discovery and Data Mining.

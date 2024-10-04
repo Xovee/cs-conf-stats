@@ -8682,6 +8682,214 @@
       ]
     },
     {
+      "series": "SenSys",
+      "metadata": {
+        "series_full_title": "ACM Conference on Embedded Networked Sensor Systems",
+        "main_discipline": [
+          "Sensors", "Embedded Systems", "IoT"
+        ],
+        "other_discipline": [
+          "Cyber-Physical Systems", "Networking", "Energy Harvesting", "Power Management", "Security & Privacy"
+        ],
+        "parent_org": "ACM",
+        "website": "https://www.sigmobile.org/grav/events/conferences/sensys",
+        "proceedings": "https://dl.acm.org/conference/sensys/proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "21st",
+          "location": "Istanbul, Turkey",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 179
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "20th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 209
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "19th",
+          "location": "Coimbra, Portugal",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 139
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "18th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 203
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "17th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 144
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "16th",
+          "location": "Shenzhen, China",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 147
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "15th",
+          "location": "Delft, Netherlands",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 152
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "14th",
+          "location": "Stanford, California, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 119
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "13th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 132
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "12th",
+          "location": "Memphis, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 117
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "11th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 123
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "10th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 123
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "9th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 123
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "8th",
+          "location": "Zurich, Switzerland",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 145
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "7th",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 119
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "6th",
+          "location": "Raleigh, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 153
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "5th",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 149
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "4th",
+          "location": "Boulder, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 122
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "3rd",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 118
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "2nd",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 145
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "1st",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 137
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",

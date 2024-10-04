@@ -53,7 +53,7 @@ fetch('/data/conf.json')
       name: city,
       value: cityCount[city],
       conferences: cityConferences[city]
-    })).sort((a, b) => b.value - a.value).slice(0, 20);
+    })).sort((a, b) => b.value - a.value).slice(0, 50);
 
     renderCity(cityData);
 
@@ -106,8 +106,17 @@ function renderCity(cityData) {
       },
       formatter: function (params) {
         const cityName = params.name;
-        const conferences = params.data.conferences.map(conf => conf.name).join('<br>');
-        return `${cityName}: ${params.value}<br>${conferences}`;
+        const conferences = params.data.conferences.map(conf => conf.name);
+
+        const columnCount = 3;
+        const columnWidth = 100 / columnCount;
+        let columns = '';
+        for (let i = 0; i < columnCount; i++) {
+          const columnData = conferences.slice(i * Math.ceil(conferences.length / columnCount), (i + 1) * Math.ceil(conferences.length / columnCount));
+          columns += `<div style="float:left;width:${columnWidth}%;padding-right:50px;">${columnData.join('<br>')}</div>`;
+        }
+
+        return `<div>${cityName}: ${params.value}<br><div style="overflow:hidden;">${columns}</div></div>`;
       }
     },
     grid: { containLabel: true },
