@@ -9053,6 +9053,97 @@
       ]
     },
     {
+      "series": "INTERSPEECH",
+      "metadata": {
+        "series_full_title": "Conference of the International Speech Communication Association",
+        "main_discipline": [
+          "Speech Processing", "Automatic Speech Recognition", "Speech Synthesis", "Text-to-Speech"
+        ],
+        "other_discipline": [
+          "Spoken Language Understanding", "Speaker Recognition & Verification", "Multimodal Processing", "Speech in HCI", "Paralinguistics"
+        ],
+        "parent_org": "ISCA",
+        "website": "https://www.isca-speech.org/page-18313",
+        "proceedings": "https://www.isca-archive.org",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "25th",
+          "location": "Kos, Greece",
+          "main_track": {
+            "num_acc": 1029,
+            "num_sub": 2138
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "24th",
+          "location": "Dublin, Ireland",
+          "main_track": {
+            "num_acc": 1097,
+            "num_sub": 2207
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "23rd",
+          "location": "Incheon, Korea",
+          "main_track": {
+            "num_acc": 1121,
+            "num_sub": 2140
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "22nd",
+          "location": "Brno, Czech Republic",
+          "main_track": {
+            "num_acc": 963,
+            "num_sub": 1990
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "21st",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 1021,
+            "num_sub": 2103
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "20th",
+          "location": "Graz, Austria",
+          "main_track": {
+            "num_acc": 914,
+            "num_sub": 1855
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "19th",
+          "location": "Hyderabad, India",
+          "main_track": {
+            "num_acc": 749,
+            "num_sub": 1668
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "18th",
+          "location": "Stockholm, Sweden",
+          "main_track": {
+            "num_acc": 799,
+            "num_sub": 1582
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
