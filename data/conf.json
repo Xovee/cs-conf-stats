@@ -9185,6 +9185,51 @@
             "num_acc": 678,
             "num_sub": 1322
           }
+        },
+        {
+          "year": 2011,
+          "ordinal": "12th",
+          "location": "Florence, Italy",
+          "main_track": {
+            "num_acc": 848,
+            "num_sub": 1438
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "11th",
+          "location": "Makuhari, Japan",
+          "main_track": {
+            "num_acc": 778,
+            "num_sub": 1324
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "10th",
+          "location": "Brighton, UK",
+          "main_track": {
+            "num_acc": 762,
+            "num_sub": 1303
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "9th",
+          "location": "Brisbane, Australia",
+          "main_track": {
+            "num_acc": 773,
+            "num_sub": 1292
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "8th",
+          "location": "Antwerp, Belgium",
+          "main_track": {
+            "num_acc": 727,
+            "num_sub": 1269
+          }
         }
       ]
     },
