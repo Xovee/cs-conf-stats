@@ -9066,7 +9066,7 @@
         "website": "https://www.isca-speech.org/page-18313",
         "proceedings": "https://www.isca-archive.org",
         "second_track_name": "",
-        "note": ""
+        "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
         {
@@ -9198,7 +9198,7 @@
         {
           "year": 2010,
           "ordinal": "11th",
-          "location": "Makuhari, Japan",
+          "location": "Chiba, Japan",
           "main_track": {
             "num_acc": 778,
             "num_sub": 1324
@@ -9229,6 +9229,69 @@
           "main_track": {
             "num_acc": 727,
             "num_sub": 1269
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "7th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 700,
+            "num_sub": 1114
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "6th",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "num_acc": 867,
+            "num_sub": 1379
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "5th",
+          "location": "Jeju, Korea",
+          "main_track": {
+            "num_acc": 785,
+            "num_sub": 1101
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "4th",
+          "location": "Geneva, Switzerland",
+          "main_track": {
+            "num_acc": 810,
+            "num_sub": 1153
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "3rd",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 675,
+            "num_sub": 941
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "2nd",
+          "location": "Aalborg, Denmark",
+          "main_track": {
+            "num_acc": 669,
+            "num_sub": 902
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "1st",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 930,
+            "num_sub": 1200
           }
         }
       ]
