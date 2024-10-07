@@ -9140,6 +9140,51 @@
             "num_acc": 799,
             "num_sub": 1582
           }
+        },
+        {
+          "year": 2016,
+          "ordinal": "17th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 779,
+            "num_sub": 1541
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "16th",
+          "location": "Dresden, Germany",
+          "main_track": {
+            "num_acc": 746,
+            "num_sub": 1458
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "15th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 614,
+            "num_sub": 1173
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "14th",
+          "location": "Lyon, France",
+          "main_track": {
+            "num_acc": 741,
+            "num_sub": 1425
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "13th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 678,
+            "num_sub": 1322
+          }
         }
       ]
     },
