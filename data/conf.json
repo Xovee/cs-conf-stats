@@ -9297,6 +9297,53 @@
       ]
     },
     {
+      "series": "ACL",
+      "metadata": {
+        "series_full_title": "Annual Meeting of the Association for Computational Linguistics",
+        "main_discipline": [
+          "Natural Language Processing", "Computational Linguistics", "ML for NLP"
+        ],
+        "other_discipline": [
+          "Speech and Audio Processing", "Multimodal Learning", "Information Retrieval", "Ethics and Fairness in NLP", "HCI for NLP"
+        ],
+        "parent_org": "Association for Computational Linguistics",
+        "website": "https://www.aclweb.org/portal/",
+        "proceedings": "https://aclanthology.org",
+        "second_track_name": "Findings",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "62nd",
+          "location": "Bangkok, Thailand",
+          "main_track": {
+            "num_acc": 943,
+            "num_sub": 4407
+          },
+          "second_track": {
+            "num_acc": 976,
+            "num_sub": 4407
+          },
+          "note": "Estimated"
+        },
+        {
+          "year": 2023,
+          "ordinal": "61st",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 1074,
+            "num_sub": 4864
+          },
+          "second_track": {
+            "num_acc": 901,
+            "num_sub": 4864
+          },
+          "note": "Estimated"
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",

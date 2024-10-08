@@ -17,6 +17,7 @@ PS: I am constantly adding more conferences.
 Number of submissions and number of accepted papers for the following conferences:
 
 1. AAAI: AAAI Conference on Artificial Intelligence.
+1. ACL: Annual Meeting of the Association for Computational Linguistics.
 1. ACM MM: ACM International Conference on Multimedia.
 1. HCI: ACM Conference on Human Factors in Computing Systems.
 1. CIKM: ACM International Conference on Information and Knowledge Management.
