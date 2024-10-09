@@ -7,6 +7,7 @@ fetch('/data/conf.json')
     const cityConferences = {};
     const countryCount = {};
     const seriesAccRates = {};
+    const yearlyCounts = {};
 
     data.conferences.forEach(conference => {
       const series = conference.series;
@@ -46,8 +47,34 @@ fetch('/data/conf.json')
           seriesAccRates[series].numConf += 1;
         }
 
+        // for yearly counting
+        const year = yearData.year;
+        const numAccYearly = yearData.main_track.num_acc;
+        const numSubYearly = yearData.main_track.num_sub;
+
+        console.log(year);
+
+        if (!yearlyCounts[year]) {
+          yearlyCounts[year] = {totalAcc: 0, totalSub: 0};
+        }
+
+        yearlyCounts[year].totalAcc += numAccYearly;
+        yearlyCounts[year].totalSub += numSubYearly;
+
       });
+
     });
+
+
+    // for yearly counting
+    const years = Object.keys(yearlyCounts).sort();
+    const submissions = years.map(year => yearlyCounts[year].totalSub);
+    const acceptances = years.map(year => yearlyCounts[year].totalAcc);
+    const rateYearly = years.map(year => (yearlyCounts[year].totalSub > 0 ? (yearlyCounts[year].totalAcc / yearlyCounts[year].totalSub) * 100 : 0));
+
+    console.log(acceptances);
+
+    renderYearly(years, submissions, acceptances, rateYearly, rateYearly);
 
     const cityData = Object.keys(cityCount).map(city => ({
       name: city,
@@ -92,6 +119,108 @@ fetch('/data/conf.json')
     renderSmall(sortedSmall);
 
   });
+
+function renderYearly(years, submissions, acceptances, rateYearly) {
+  const yearlyChart = echarts.init(document.getElementById('viz-yearly-num'));
+  const yearlyOption = {
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: {
+        type: 'shadow'
+      },
+      borderColor: '#333',
+      borderWidth: 1,
+      textStyle: {
+        color: '#004098',
+        align: 'left'
+      }
+    },
+    legend: {
+      top: 'top'
+    },
+    xAxis: {
+      type: 'category',
+      data: years,
+      axisLabel: {
+        fontSize: 14,
+        rotate: 45
+      }
+    },
+    series: [
+      {
+        name: 'Number of Accepted',
+        data: acceptances,
+        type: 'bar',
+        stack: 'yearly',
+        itemStyle: {
+          color: '#f08300'
+        }
+      },
+      {
+        name: 'Number of Submissions',
+        data: submissions,
+        type: 'bar',
+        stack: 'yearly',
+        itemStyle: {
+          color: '#004098'
+        }
+      },
+      {
+        name: "Overall Acceptance Rate",
+        data: rateYearly,
+        symbolSize: 7,
+        type: 'line',
+        yAxisIndex: 1,
+        itemStyle: {
+          color: '#f08300',
+          borderColor: '#222',
+          borderWidth: 3
+        },
+        tooltip: {
+          valueFormatter: value => value.toFixed(2) + '%'
+        },
+        emphasis: {
+          scale: true
+        },
+        lineStyle: {
+          width: 3
+        }
+      }
+    ],
+    yAxis: [
+      {
+        type: 'value',
+        axisLabel: {
+          textStyle: {
+            fontSize: 16
+          }
+        },
+        position: 'left'
+      },
+      {
+        type: 'value',
+        position: 'right',
+        axisLabel: {
+          textStyle: {
+            fontSize: 14
+          },
+          formatter: function (value) {
+            return value + '%';
+          }
+        },
+        splitLine: {
+          show: false
+        }
+      }
+    ]
+  };
+
+  yearlyChart.setOption(yearlyOption);
+
+  window.addEventListener('resize', function() {
+    yearlyChart.resize();
+  });
+}
 
 function renderCity(cityData) {
   var minCityValue = Math.min(...cityData.map(item => item.value));

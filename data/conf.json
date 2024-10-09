@@ -351,42 +351,6 @@
             "num_acc": 187,
             "num_sub": 817
           }
-        },
-        {
-          "year": 1984,
-          "ordinal": "4th",
-          "location": "Austin, USA",
-          "main_track": {
-            "track_name": "Research Track", 
-            "num_acc": 69
-          }
-        },
-        {
-          "year": 1983,
-          "ordinal": "3rd",
-          "location": "Washington DC, USA",
-          "main_track": {
-            "track_name": "Research Track", 
-            "num_acc": 92
-          }
-        },
-        {
-          "year": 1982,
-          "ordinal": "2nd",
-          "location": "Pittsburgh, USA",
-          "main_track": {
-            "track_name": "Research Track", 
-            "num_acc": 104
-          }
-        },
-        {
-          "year": 1980,
-          "ordinal": "1st",
-          "location": "Stanford, California, USA",
-          "main_track": {
-            "track_name": "Research Track", 
-            "num_acc": 95
-          }
         }
       ]
     },
@@ -3361,10 +3325,6 @@
             "track_name": "Research Track",
             "num_acc": 143,
             "num_sub": 848
-          },
-          "second_track": {
-            "num_acc": 0,
-            "num_sub": 0
           }
         },
         {
@@ -3375,11 +3335,6 @@
             "track_name": "Research Track",
             "num_acc": 146,
             "num_sub": 1088
-          },
-          "second_track": {
-            "track_name": "Short Research Track",
-            "num_acc": 0,
-            "num_sub": 0
           }
         },
         {
@@ -3390,11 +3345,6 @@
             "track_name": "Research Track",
             "num_acc": 134,
             "num_sub": 918
-          },
-          "second_track": {
-            "track_name": "Short Research Track",
-            "num_acc": 0,
-            "num_sub": 0
           }
         },
         {
@@ -3405,11 +3355,6 @@
             "track_name": "Research Track",
             "num_acc": 126,
             "num_sub": 945
-          },
-          "second_track": {
-            "track_name": "Short Research Track",
-            "num_acc": 0,
-            "num_sub": 0
           }
         },
         {
@@ -3420,11 +3365,6 @@
             "track_name": "Research Track",
             "num_acc": 123,
             "num_sub": 847
-          },
-          "second_track": {
-            "track_name": "Short Research Track",
-            "num_acc": 0,
-            "num_sub": 0
           }
         },
         {
@@ -3435,11 +3375,6 @@
             "track_name": "Research Track",
             "num_acc": 132,
             "num_sub": 800
-          },
-          "second_track": {
-            "track_name": "Short Research Track",
-            "num_acc": 0,
-            "num_sub": 0
           }
         },
         {
@@ -3450,11 +3385,6 @@
             "track_name": "Research Track",
             "num_acc": 86,
             "num_sub": 512
-          },
-          "second_track": {
-            "track_name": "Short Research Track",
-            "num_acc": 0,
-            "num_sub": 0
           }
         },
         {
@@ -3465,11 +3395,6 @@
             "track_name": "Research Track",
             "num_acc": 86,
             "num_sub": 512
-          },
-          "second_track": {
-            "track_name": "Short Research Track",
-            "num_acc": 0,
-            "num_sub": 0
           }
         },
         {
@@ -3480,11 +3405,6 @@
             "track_name": "Research Track",
             "num_acc": 77,
             "num_sub": 425
-          },
-          "second_track": {
-            "track_name": "Short Research Track",
-            "num_acc": 0,
-            "num_sub": 0
           }
         },
         {
@@ -9340,6 +9260,97 @@
             "num_sub": 4864
           },
           "note": "Estimated"
+        },
+        {
+          "year": 2022,
+          "ordinal": "60th",
+          "location": "Dublin, Ireland",
+          "main_track": {
+            "num_acc": 701,
+            "num_sub": 3378
+          },
+          "second_track": {
+            "num_acc": 331,
+            "num_sub": 3378
+          },
+          "note": "Estimated"
+        },
+        {
+          "year": 2021,
+          "ordinal": "59th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 710,
+            "num_sub": 3350
+          },
+          "second_track": {
+            "num_acc": 361,
+            "num_sub": 3350
+          },
+          "note": "Estimated"
+        },
+        {
+          "year": 2020,
+          "ordinal": "58th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 571,
+            "num_sub": 2248
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "57th",
+          "location": "Florence, Italy",
+          "main_track": {
+            "num_acc": 447,
+            "num_sub": 1740
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "56th",
+          "location": "Melbourne, Australia",
+          "main_track": {
+            "num_acc": 256,
+            "num_sub": 1045
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "55th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 195,
+            "num_sub": 751
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "54th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 231,
+            "num_sub": 825
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "53rd",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 173,
+            "num_sub": 692
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "52nd",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "num_acc": 146,
+            "num_sub": 572
+          }
         }
       ]
     },

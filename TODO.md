@@ -1,5 +1,6 @@
 # TODO List
 
+- [x] Oct 9, 2024. Add yearly stats in viz.
 - [x] Oct 4, 2024. Let city viz's tooltip having three columns.
 - [x] Aug 3, 2024. Add catalog page for SEO.
 - [ ] Jul 25, 2024. Add the trending stats
