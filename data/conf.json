@@ -9351,6 +9351,96 @@
             "num_acc": 146,
             "num_sub": 572
           }
+        },
+        {
+          "year": 2013,
+          "ordinal": "51st",
+          "location": "Sofia, Bulgaria",
+          "main_track": {
+            "num_acc": 174,
+            "num_sub": 664
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "50th",
+          "location": "Jeju, Korea",
+          "main_track": {
+            "num_acc": 111,
+            "num_sub": 571
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "49th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 164,
+            "num_sub": 634
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "48th",
+          "location": "Uppsala, Sweden",
+          "main_track": {
+            "num_acc": 160,
+            "num_sub": 638
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "47th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 121,
+            "num_sub": 569
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "46th",
+          "location": "Columbus, USA",
+          "main_track": {
+            "num_acc": 119,
+            "num_sub": 470
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "45th",
+          "location": "Prague, Czech Republic",
+          "main_track": {
+            "num_acc": 131,
+            "num_sub": 588
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "44th",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "num_acc": 147,
+            "num_sub": 630
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "43rd",
+          "location": "Ann Arbor, USA",
+          "main_track": {
+            "num_acc": 77,
+            "num_sub": 423
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "32nd",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 71,
+            "num_sub": 360
+          }
         }
       ]
     },
