@@ -9486,6 +9486,24 @@
             "num_acc": 80,
             "num_sub": 320
           }
+        },
+        {
+          "year": 1998,
+          "ordinal": "26th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 137,
+            "num_sub": 550
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "25th",
+          "location": "Madrid, Spain",
+          "main_track": {
+            "num_acc": 83,
+            "num_sub": 264
+          }
         }
       ]
     },
