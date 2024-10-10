@@ -9438,8 +9438,53 @@
           "ordinal": "32nd",
           "location": "Barcelona, Spain",
           "main_track": {
+            "num_acc": 88,
+            "num_sub": 348
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "31st",
+          "location": "Sapporo, Japan",
+          "main_track": {
             "num_acc": 71,
             "num_sub": 360
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "30th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 256
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "29th",
+          "location": "Toulouse, France",
+          "main_track": {
+            "num_acc": 69,
+            "num_sub": 260
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "28th",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 70,
+            "num_sub": 267
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "27th",
+          "location": "College Park, USA",
+          "main_track": {
+            "num_acc": 80,
+            "num_sub": 320
           }
         }
       ]
