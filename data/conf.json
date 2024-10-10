@@ -9435,7 +9435,7 @@
         },
         {
           "year": 2004,
-          "ordinal": "32nd",
+          "ordinal": "42nd",
           "location": "Barcelona, Spain",
           "main_track": {
             "num_acc": 88,
@@ -9444,7 +9444,7 @@
         },
         {
           "year": 2003,
-          "ordinal": "31st",
+          "ordinal": "41st",
           "location": "Sapporo, Japan",
           "main_track": {
             "num_acc": 71,
@@ -9453,7 +9453,7 @@
         },
         {
           "year": 2002,
-          "ordinal": "30th",
+          "ordinal": "40th",
           "location": "Philadelphia, USA",
           "main_track": {
             "num_acc": 66,
@@ -9462,7 +9462,7 @@
         },
         {
           "year": 2001,
-          "ordinal": "29th",
+          "ordinal": "39th",
           "location": "Toulouse, France",
           "main_track": {
             "num_acc": 69,
@@ -9471,7 +9471,7 @@
         },
         {
           "year": 2000,
-          "ordinal": "28th",
+          "ordinal": "38th",
           "location": "Hong Kong, China",
           "main_track": {
             "num_acc": 70,
@@ -9480,7 +9480,7 @@
         },
         {
           "year": 1999,
-          "ordinal": "27th",
+          "ordinal": "37th",
           "location": "College Park, USA",
           "main_track": {
             "num_acc": 80,
@@ -9489,7 +9489,7 @@
         },
         {
           "year": 1998,
-          "ordinal": "26th",
+          "ordinal": "36th",
           "location": "Montreal, Canada",
           "main_track": {
             "num_acc": 137,
@@ -9498,10 +9498,10 @@
         },
         {
           "year": 1997,
-          "ordinal": "25th",
+          "ordinal": "35th",
           "location": "Madrid, Spain",
           "main_track": {
-            "num_acc": 83,
+            "num_acc": 63,
             "num_sub": 264
           }
         }
