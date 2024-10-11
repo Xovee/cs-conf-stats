@@ -9562,6 +9562,55 @@
             "num_acc": 419,
             "num_sub": 3600
           }
+        },
+        {
+          "year": 2020,
+          "ordinal": "25th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 752,
+            "num_sub": 3359
+          },
+          "second_track": {
+            "num_acc": 447,
+            "num_sub": 3359
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "24th",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 683,
+            "num_sub": 2876
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "23rd",
+          "location": "Brussels, Belgium",
+          "main_track": {
+            "num_acc": 549,
+            "num_sub": 2231
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "22nd",
+          "location": "Copenhagen, Denmark",
+          "main_track": {
+            "num_acc": 323,
+            "num_sub": 1418
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "21st",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 264,
+            "num_sub": 1087
+          }
         }
       ]
     },
