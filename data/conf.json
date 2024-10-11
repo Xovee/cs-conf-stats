@@ -9355,6 +9355,64 @@
       ]
     },
     {
+      "series": "EMNLP",
+      "metadata": {
+        "series_full_title": "Conference on Empirical Methods in Natural Language Processing",
+        "main_discipline": [
+          "NLP", "Linguistics", "ML for NLP"
+        ],
+        "other_discipline": [
+          "Information Retrieval", "Computational Linguistics", "AI", "Speech Processing", "Semantics"
+        ],
+        "parent_org": "Association for Computational Linguistics, ACL SIGDAT",
+        "website": "https://sigdat.org",
+        "proceedings": "https://aclanthology.org/venues/emnlp/",
+        "second_track_name": "Findings",
+        "note": "Main Track includes Long and Short Papers. The Second Track is the Findings."
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "28th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 1047,
+            "num_sub": 4909
+          },
+          "second_track": {
+            "num_acc": 1060,
+            "num_sub": 4909
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "27th",
+          "location": "Abu Dhabi, UAE",
+          "main_track": {
+            "num_acc": 829,
+            "num_sub": 4190
+          },
+          "second_track": {
+            "num_acc": 549,
+            "num_sub": 4190
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "26th",
+          "location": "Punta Cana, Dominican Republic",
+          "main_track": {
+            "num_acc": 840,
+            "num_sub": 3600
+          },
+          "second_track": {
+            "num_acc": 419,
+            "num_sub": 3600
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",

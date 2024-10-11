@@ -25,6 +25,7 @@ Number of submissions and number of accepted papers for the following conference
 1. CVPR: International Conference on Computer Vision and Pattern Recognition.
 1. ECCV: European Conference on Computer Vision.
 1. ECIR: European Conference on Information Retrieval.
+1. EMNLP: Conference on Empirical Methods in Natural Language Processing.
 1. ICASSP: IEEE International Conference on Acoustics, Speech, and Signal Processing
 1. ICCV: International Conference on Computer Vision.
 1. ICDE: International Conference on Data Engineering.
