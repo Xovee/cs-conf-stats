@@ -52,8 +52,6 @@ fetch('/data/conf.json')
         const numAccYearly = yearData.main_track.num_acc;
         const numSubYearly = yearData.main_track.num_sub;
 
-        console.log(year);
-
         if (!yearlyCounts[year]) {
           yearlyCounts[year] = {totalAcc: 0, totalSub: 0};
         }
@@ -71,8 +69,6 @@ fetch('/data/conf.json')
     const submissions = years.map(year => yearlyCounts[year].totalSub);
     const acceptances = years.map(year => yearlyCounts[year].totalAcc);
     const rateYearly = years.map(year => (yearlyCounts[year].totalSub > 0 ? (yearlyCounts[year].totalAcc / yearlyCounts[year].totalSub) * 100 : 0));
-
-    console.log(acceptances);
 
     renderYearly(years, submissions, acceptances, rateYearly, rateYearly);
 
