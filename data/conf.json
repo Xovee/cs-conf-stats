@@ -8962,6 +8962,24 @@
           }
         },
         {
+          "year": 2009,
+          "ordinal": "34th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 1178,
+            "num_sub": 2633
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "33rd",
+          "location": "Las Vegas, USA",
+          "main_track": {
+            "num_acc": 1352,
+            "num_sub": 2729
+          }
+        },
+        {
           "year": 2007,
           "ordinal": "32nd",
           "location": "Honolulu, Hawaii, USA",
@@ -9610,6 +9628,123 @@
           "main_track": {
             "num_acc": 264,
             "num_sub": 1087
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "20th",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "num_acc": 312,
+            "num_sub": 1300
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "19th",
+          "location": "Doha, Qatar",
+          "main_track": {
+            "num_acc": 225,
+            "num_sub": 790
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "18th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 205,
+            "num_sub": 772
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "17th",
+          "location": "Jeju, Korea",
+          "main_track": {
+            "num_acc": 139,
+            "num_sub": 570
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "16th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 149,
+            "num_sub": 628
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "15th",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 125,
+            "num_sub": 500
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "14th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 163,
+            "num_sub": 475
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "13th",
+          "location": "Honolulu, Hawaii, USA",
+          "main_track": {
+            "num_acc": 116,
+            "num_sub": 385
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "12th",
+          "location": "Prague, Czech Republic",
+          "main_track": {
+            "num_acc": 109,
+            "num_sub": 398
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "11th",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "num_acc": 73,
+            "num_sub": 234
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "10th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 127,
+            "num_sub": 402
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "9th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 58,
+            "num_sub": 257
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "7th",
+          "location": "Rhode Island, USA",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 142
           }
         }
       ]
