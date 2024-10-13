@@ -9750,6 +9750,96 @@
       ]
     },
     {
+      "series": "NAACL",
+      "metadata": {
+        "series_full_title": "Annual Conference of the North American Chapter of the Association for Computational Linguistics.",
+        "main_discipline": [
+          "NLP", "Computational Linguistics", "ML for NLP"
+        ],
+        "other_discipline": [
+          "Information Retrieval", "Speech and Dialogue Systems", "Multimodal Learning", "Ethics in NLP", "Linguistic Resources & Evaluation"
+        ],
+        "parent_org": "NAACL, ACL",
+        "website": "https://naacl.org/conferences/index.html",
+        "proceedings": "https://aclanthology.org/",
+        "second_track_name": "Findings",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "20th",
+          "location": "Mexico City, Mexico",
+          "main_track": {
+            "num_acc": 565,
+            "num_sub": 2434
+          },
+          "second_track": {
+            "num_acc": 304,
+            "num_sub": 2434
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "19th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 442,
+            "num_sub": 2103
+          },
+          "second_track": {
+            "num_acc": 209,
+            "num_sub": 2103
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "18th",
+          "location": "Virtual Conference",
+          "main_track": {
+            "num_acc": 477,
+            "num_sub": 1797
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "17th",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "num_acc": 423,
+            "num_sub": 1733
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "16th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 331,
+            "num_sub": 1089
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "15th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 182,
+            "num_sub": 680
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "14th",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 186,
+            "num_sub": 714
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
