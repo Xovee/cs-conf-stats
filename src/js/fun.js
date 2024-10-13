@@ -17,8 +17,9 @@ fetch('/data/conf.json')
 
       conference.yearly_data.forEach(yearData => {
         const location = yearData.location.split(',');
-        const city = location[0].trim();
-        const country = location.length > 1 ? location[location.length - 1].trim() : "Unknown";
+        console.log(location);
+        const country = location[location.length - 1].trim();
+        const city = location[0].trim() + ' ' + country.split(" ")[1];
 
         if (city !== "Virtual Conference") {
           if (cityCount[city]) {
