@@ -9769,7 +9769,7 @@
       "yearly_data": [
         {
           "year": 2024,
-          "ordinal": "20th",
+          "ordinal": "17th",
           "location": "Mexico City, Mexico 🇲🇽",
           "main_track": {
             "num_acc": 565,
@@ -9782,7 +9782,7 @@
         },
         {
           "year": 2022,
-          "ordinal": "19th",
+          "ordinal": "16th",
           "location": "Seattle, USA 🇺🇸",
           "main_track": {
             "num_acc": 442,
@@ -9795,7 +9795,7 @@
         },
         {
           "year": 2021,
-          "ordinal": "18th",
+          "ordinal": "15th",
           "location": "Online, Online 🌏",
           "main_track": {
             "num_acc": 477,
@@ -9804,7 +9804,7 @@
         },
         {
           "year": 2019,
-          "ordinal": "17th",
+          "ordinal": "14th",
           "location": "Minneapolis, USA 🇺🇸",
           "main_track": {
             "num_acc": 423,
@@ -9813,7 +9813,7 @@
         },
         {
           "year": 2018,
-          "ordinal": "16th",
+          "ordinal": "13th",
           "location": "New Orleans, USA 🇺🇸",
           "main_track": {
             "num_acc": 331,
@@ -9822,7 +9822,7 @@
         },
         {
           "year": 2016,
-          "ordinal": "15th",
+          "ordinal": "12th",
           "location": "San Diego, California, USA 🇺🇸",
           "main_track": {
             "num_acc": 182,
@@ -9831,7 +9831,7 @@
         },
         {
           "year": 2015,
-          "ordinal": "14th",
+          "ordinal": "11th",
           "location": "Denver, USA 🇺🇸",
           "main_track": {
             "num_acc": 186,
@@ -9840,7 +9840,7 @@
         },
         {
           "year": 2013,
-          "ordinal": "13th",
+          "ordinal": "10th",
           "location": "Atlanta, USA 🇺🇸",
           "main_track": {
             "num_acc": 146,
@@ -9850,7 +9850,7 @@
         },
         {
           "year": 2012,
-          "ordinal": "12th",
+          "ordinal": "9th",
           "location": "Montreal, Canada 🇨🇦",
           "main_track": {
             "num_acc": 97,
@@ -9859,7 +9859,7 @@
         },
         {
           "year": 2010,
-          "ordinal": "11th",
+          "ordinal": "8th",
           "location": "Los Angeles, California, USA 🇺🇸",
           "main_track": {
             "num_acc": 146,
@@ -9868,7 +9868,7 @@
         },
         {
           "year": 2009,
-          "ordinal": "10th",
+          "ordinal": "7th",
           "location": "Boulder, USA 🇺🇸",
           "main_track": {
             "num_acc": 146,
@@ -9877,7 +9877,7 @@
         },
         {
           "year": 2007,
-          "ordinal": "9th",
+          "ordinal": "6th",
           "location": "Rochester, USA 🇺🇸",
           "main_track": {
             "num_acc": 127,
@@ -9886,11 +9886,38 @@
         },
         {
           "year": 2006,
-          "ordinal": "8th",
+          "ordinal": "5th",
           "location": "New York City, USA 🇺🇸",
           "main_track": {
             "num_acc": 114,
             "num_sub": 384
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "4th",
+          "location": "Boston, USA 🇺🇸",
+          "main_track": {
+            "num_acc": 83,
+            "num_sub": 252
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "3rd",
+          "location": "Boston, USA 🇺🇸",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 242
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "1st",
+          "location": "Seattle, USA 🇺🇸",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 131
           }
         }
       ]
