@@ -20,7 +20,8 @@
             "track_name": "Research Track", 
             "num_acc": 2342,
             "num_sub": 9862
-          }
+          },
+          "_comment": "2025 sub: 12957"
         },
         {
           "year": 2023,
@@ -9863,6 +9864,33 @@
           "main_track": {
             "num_acc": 146,
             "num_sub": 450
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "10th",
+          "location": "Boulder, USA 🇺🇸",
+          "main_track": {
+            "num_acc": 146,
+            "num_sub": 438
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "9th",
+          "location": "Rochester, USA 🇺🇸",
+          "main_track": {
+            "num_acc": 127,
+            "num_sub": 448
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "8th",
+          "location": "New York City, USA 🇺🇸",
+          "main_track": {
+            "num_acc": 114,
+            "num_sub": 384
           }
         }
       ]
