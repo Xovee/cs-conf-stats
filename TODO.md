@@ -1,5 +1,6 @@
 # TODO List
 
+- [x] Oct 17, 2024. List all missing top-tier conferences and try to categorize them. 
 - [x] Oct 12, 2024. Country Emoji
 - [x] Oct 9, 2024. Add yearly stats in viz.
 - [x] Oct 4, 2024. Let city viz's tooltip having three columns.

@@ -21,6 +21,7 @@ Number of submissions and number of accepted papers for the following conference
 1. ACM MM: ACM International Conference on Multimedia.
 1. HCI: ACM Conference on Human Factors in Computing Systems.
 1. CIKM: ACM International Conference on Information and Knowledge Management.
+1. COLING: International Conference on Computational Linguistics.
 1. CSCW: ACM Conference on Computer-Supported Cooperative Work and Social Computing.
 1. CVPR: International Conference on Computer Vision and Pattern Recognition.
 1. ECCV: European Conference on Computer Vision.
