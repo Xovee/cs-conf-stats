@@ -9965,6 +9965,52 @@
             "num_acc": 614,
             "num_sub": 1950
           }
+        },
+        {
+          "year": 2018,
+          "ordinal": "27th",
+          "location": "Santa Fe, USA 🇺🇸",
+          "main_track": {
+            "num_acc": 331,
+            "num_sub": 888
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "26th",
+          "location": "Osaka, Japan 🇯🇵",
+          "main_track": {
+            "num_acc": 337,
+            "num_sub": 1039
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "25th",
+          "location": "Dublin, Ireland 🇮🇪",
+          "main_track": {
+            "num_acc": 217,
+            "num_sub": 685
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "24th",
+          "location": "Mumbai, India 🇮🇳",
+          "main_track": {
+            "num_acc": 333,
+            "num_sub": 1600
+          },
+          "note": "Estimated num of sub."
+        },
+        {
+          "year": 2010,
+          "ordinal": "23rd",
+          "location": "Beijing, China 🇨🇳",
+          "main_track": {
+            "num_acc": 334,
+            "num_sub": 815
+          }
         }
       ]
     },
