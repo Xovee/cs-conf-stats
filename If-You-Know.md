@@ -28,6 +28,9 @@ First, we need **ALL** new stats in the upcoming years.
 
 - COLING 2004
 - COLING 2002
+- COLING 1992
+- COLING 1990
+- COLING 1984
 
 ## CSCW
 

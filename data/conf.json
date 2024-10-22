@@ -10047,6 +10047,44 @@
             "num_acc": 137,
             "num_sub": 550
           }
+        },
+        {
+          "year": 1996,
+          "ordinal": "17th",
+          "location": "Copenhagen, Denmark",
+          "main_track": {
+            "num_acc": 165,
+            "num_sub": 400
+          },
+          "note": "Estimated"
+        },
+        {
+          "year": 1994,
+          "ordinal": "15th",
+          "location": "Kyoto, Japan",
+          "main_track": {
+            "num_acc": 116,
+            "num_sub": 348
+          },
+          "note": "Estimated"
+        },
+        {
+          "year": 1988,
+          "ordinal": "12th",
+          "location": "Budapest, Hungary",
+          "main_track": {
+            "num_acc": 137,
+            "num_sub": 461
+          }
+        },
+        {
+          "year": 1986,
+          "ordinal": "11th",
+          "location": "Bonn, Germany",
+          "main_track": {
+            "num_acc": 152,
+            "num_sub": 225
+          }
         }
       ]
     },
