@@ -9,6 +9,21 @@ fetch('/data/conf.json')
     const seriesAccRates = {};
     const yearlyCounts = {};
 
+    function getCountryFlag(countryCode) {
+      if (countryCode === 'Online') {
+        return '🌏';
+      } else if (countryCode === 'Unknown') {
+        return '🤔';
+      } else {
+        const codePoints = countryCode
+          .toUpperCase()
+          .split('')
+          .map(char => 127397 + char.charCodeAt(0));
+        return String.fromCodePoint(...codePoints);
+      }
+
+    }
+
     data.conferences.forEach(conference => {
       const series = conference.series;
       if (!seriesAccRates[series]) {
@@ -17,26 +32,29 @@ fetch('/data/conf.json')
 
       conference.yearly_data.forEach(yearData => {
         const location = yearData.location.split(',');
-        console.log(location);
         const country = location[location.length - 1].trim();
-        const city = location[0].trim() + ' ' + country.split(" ")[1];
+        const city = location[0].trim();
 
-        if (city !== "Virtual Conference") {
-          if (cityCount[city]) {
-            cityCount[city]++;
-            cityConferences[city].push({year: yearData.year, name: `${conference.series} ${yearData.year}`});
-          } else {
-            cityCount[city] = 1;
-            cityConferences[city] = [{year: yearData.year, name: `${conference.series} ${yearData.year}`}];
-          }
+        const countryCode = countryToCode(country);
+        const flag = getCountryFlag(countryCode);
 
-          cityConferences[city].sort((a, b) => b.year - a.year);
+        const cityWithFlag = `${city} ${flag}`;
+        const countryWithFlag = `${country} ${flag}`;
 
-          if (countryCount[country]) {
-            countryCount[country]++;
-          } else {
-            countryCount[country] = 1;
-          }
+        if (cityCount[cityWithFlag]) {
+          cityCount[cityWithFlag]++;
+          cityConferences[cityWithFlag].push({year: yearData.year, name: `${conference.series} ${yearData.year}`});
+        } else {
+          cityCount[cityWithFlag] = 1;
+          cityConferences[cityWithFlag] = [{year: yearData.year, name: `${conference.series} ${yearData.year}`}];
+        }
+
+        cityConferences[cityWithFlag].sort((a, b) => b.year - a.year);
+
+        if (countryCount[countryWithFlag]) {
+          countryCount[countryWithFlag]++;
+        } else {
+          countryCount[countryWithFlag] = 1;
         }
 
         const numAcc = yearData.main_track.num_acc;
@@ -63,6 +81,33 @@ fetch('/data/conf.json')
       });
 
     });
+
+    function countryToCode(countryName) {
+      const countries = {
+        'USA': 'US',
+        'Canada': 'CA',
+        'China': 'CN',
+        'Australia': 'AU',
+        'Online': 'Online',
+        'Singapore': 'SG',
+        'UK': 'GB',
+        'France': 'FR',
+        'Italy': 'IT',
+        'Spain': 'ES',
+        'Korea': 'KR',
+        'Japan': 'JP',
+        'Netherlands': 'NL',
+        'Austria': 'AU',
+        'India': 'IN',
+        'Ireland': 'IE',
+        'Sweden': 'SE',
+        'Greece': 'GR',
+        'Switzerland': 'CH',
+        'Germany': 'DE'
+      };
+
+      return countries[countryName] || 'Unknown';
+    }
 
 
     // for yearly counting
