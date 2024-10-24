@@ -9923,6 +9923,70 @@
       ]
     },
     {
+      "series": "COLT",
+      "metadata": {
+        "series_full_title": "Annual Conference on Computational Learning Theory.",
+        "main_discipline": [
+          "Theoretical Machine Learning"
+        ],
+        "other_discipline": [
+          "Statistics", "Applied Mathematics", "Learning Theory"
+        ],
+        "parent_org": "Association for Computational Learning",
+        "website": "https://www.learningtheory.org/",
+        "proceedings": "https://proceedings.mlr.press/",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "37th",
+          "location": "Edmonton, Canada",
+          "main_track": {
+            "num_acc": 160,
+            "num_sub": 448
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "36th",
+          "location": "Bangalore, India",
+          "main_track": {
+            "num_acc": 164,
+            "num_sub": 474
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "35th",
+          "location": "London, UK",
+          "main_track": {
+            "num_acc": 155,
+            "num_sub": 470
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "34th",
+          "location": "Boulder, USA",
+          "main_track": {
+            "num_acc": 136,
+            "num_sub": 387
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "33rd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 120,
+            "num_sub": 388
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",
