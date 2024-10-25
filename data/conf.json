@@ -9983,6 +9983,195 @@
             "num_acc": 120,
             "num_sub": 388
           }
+        },
+        {
+          "year": 2019,
+          "ordinal": "32nd",
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 118,
+            "num_sub": 393
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "31st",
+          "location": "Stockholm, Sweden",
+          "main_track": {
+            "num_acc": 91,
+            "num_sub": 335
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "30th",
+          "location": "Amsterdam, Netherlands",
+          "main_track": {
+            "num_acc": 73,
+            "num_sub": 228
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "29th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 63,
+            "num_sub": 199
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "28th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 70,
+            "num_sub": 180
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "27th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 140
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "26th",
+          "location": "Princeton, USA",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 98
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "25th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 139
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "23rd",
+          "location": "Haifa, Israel",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 129
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "21st",
+          "location": "",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 126
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "20th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 92
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "19th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 102
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "18th",
+          "location": "Bertinoro, Italy",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 120
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "17st",
+          "location": "Banff, Canada",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 107
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "16th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 92
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "15th",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 55
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "14th",
+          "location": "Amsterdam, Netherlands",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 69
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "12th",
+          "location": "Santa Cruz, California, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 71
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "4th",
+          "location": "Santa Cruz, California, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 77
+          }
+        },
+        {
+          "year": 1990,
+          "ordinal": "3rd",
+          "location": "Rochester, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 59
+          }
+        },
+        {
+          "year": 1989,
+          "ordinal": "2nd",
+          "location": "Santa Cruz, California, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 66
+          }
         }
       ]
     },
