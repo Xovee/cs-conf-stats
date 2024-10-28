@@ -10176,6 +10176,97 @@
       ]
     },
     {
+      "series": "AISTATS",
+      "metadata": {
+        "series_full_title": "International Conference on Artificial Intelligence and Statistics",
+        "main_discipline": [
+          "Artificial Intelligence", "Statistics", "Machine Learning"
+        ],
+        "other_discipline": [
+          "ML Methods & Algorithms", "Probabilistic Methods", "ML Theory & Statistics", "Deep Learning", "Reinforcement Learning", "Ethical & Trustworthy ML", "ML Applications & Statistics"
+        ],
+        "parent_org": "Society for Artificial Intelligence and Statistics",
+        "website": "https://aistats.org",
+        "proceedings": "https://proceedings.mlr.press/",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "27th",
+          "location": "Valencia, Spain",
+          "main_track": {
+            "num_acc": 547,
+            "num_sub": 1980
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "24th",
+          "location": "Valencia, Spain",
+          "main_track": {
+            "num_acc": 455,
+            "num_sub": 1527
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "22nd",
+          "location": "Naha, Japan",
+          "main_track": {
+            "num_acc": 360,
+            "num_sub": 1111
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "21st",
+          "location": "Lanzarote, Spain",
+          "main_track": {
+            "num_acc": 214,
+            "num_sub": 645
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "20th",
+          "location": "Fort Lauderdale, USA",
+          "main_track": {
+            "num_acc": 168,
+            "num_sub": 530
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "19th",
+          "location": "Cadiz, Spain",
+          "main_track": {
+            "num_acc": 165,
+            "num_sub": 537
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "18th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 127,
+            "num_sub": 442
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "17th",
+          "location": "Reykjavik, Iceland",
+          "main_track": {
+            "num_acc": 120,
+            "num_sub": 335
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",

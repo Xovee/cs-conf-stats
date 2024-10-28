@@ -1,5 +1,6 @@
 # TODO List
 
+- [ ] Oct 28, 2024. Add discipline distribution (# papers). 
 - [x] Oct 22, 2024. Modify the codes to decouple the country/city names with flags
 - [x] Oct 17, 2024. List all missing top-tier conferences and try to categorize them. 
 - [x] Oct 12, 2024. Country Emoji

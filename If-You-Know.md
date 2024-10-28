@@ -19,6 +19,11 @@ First, we need **ALL** new stats in the upcoming years.
 - ACM MM 1998-2001
 - ACM MM 2010
 
+## AISTATS
+
+- AISTATS 2022-2023
+- AISTATS 2020
+
 ## CIKM 
 
 - Before 2000

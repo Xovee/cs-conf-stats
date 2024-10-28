@@ -19,6 +19,7 @@ Number of submissions and number of accepted papers for the following conference
 1. AAAI: AAAI Conference on Artificial Intelligence.
 1. ACL: Annual Meeting of the Association for Computational Linguistics.
 1. ACM MM: ACM International Conference on Multimedia.
+1. AISTATS: International Conference on Artificial Intelligence and Statistics. 
 1. HCI: ACM Conference on Human Factors in Computing Systems.
 1. CIKM: ACM International Conference on Information and Knowledge Management.
 1. COLT: Annual Conference on Computational Learning Theory.
