@@ -10263,6 +10263,79 @@
             "num_acc": 120,
             "num_sub": 335
           }
+        },
+        {
+          "year": 2012,
+          "ordinal": "15th",
+          "location": "La Palma, Spain",
+          "main_track": {
+            "num_acc": 157,
+            "num_sub": 402
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "14th",
+          "location": "Fort Lauderdale, USA",
+          "main_track": {
+            "num_acc": 99,
+            "num_sub": 272
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "13th",
+          "location": "Sardinia, Italy",
+          "main_track": {
+            "num_acc": 125,
+            "num_sub": 304
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "12th",
+          "location": "Clearwater Beach, USA",
+          "main_track": {
+            "num_acc": 84,
+            "num_sub": 210
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "11th",
+          "location": "San Juan, Puerto Rico",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 150
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "10th",
+          "location": "Bridgetown, Barbados",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 150
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "9th",
+          "location": "Key West, USA",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 107
+          },
+          "note": "Estimated, not accurate."
+        },
+        {
+          "year": 1995,
+          "ordinal": "5th",
+          "location": "Fort Lauderdale, USA",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 111
+          }
         }
       ]
     },
