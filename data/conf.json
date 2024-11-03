@@ -10340,6 +10340,99 @@
       ]
     },
     {
+      "series": "UAI",
+      "metadata": {
+        "series_full_title": "Conference on Uncertainty in Artificial Intelligence",
+        "main_discipline": [
+          "Knowledge Representation w/ Uncertainty", "Learning w/ Uncertainty", "Reasoning w/ Uncertainty"
+        ],
+        "other_discipline": [
+          "ML", "Bayesian Inference", "Probabilistic Graphical Models", "Causal Inference", "Decision Theory", "RL", "Information Theory", "Computational Neuroscience"
+        ],
+        "parent_org": "<a href='https://www.auai.org/' target='_blank'>The Association for Uncertainty in Artificial Intelligence</a>",
+        "website": "https://www.auai.org/",
+        "proceedings": "https://proceedings.mlr.press/",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "40th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 200,
+            "num_sub": 715
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "39th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 243,
+            "num_sub": 778
+          },
+          "note": "from web"
+        },
+        {
+          "year": 2022,
+          "ordinal": "38th",
+          "location": "Eindhoven, Netherlands",
+          "main_track": {
+            "num_acc": 230,
+            "num_sub": 712
+          },
+          "note": "from web"
+        },
+        {
+          "year": 2021,
+          "ordinal": "37th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 205,
+            "num_sub": 694
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "36th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 142,
+            "num_sub": 515
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "35th",
+          "location": "Tel Aviv, Israel",
+          "main_track": {
+            "num_acc": 118,
+            "num_sub": 450
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "34th",
+          "location": "Monterey, California, USA",
+          "main_track": {
+            "num_acc": 104,
+            "num_sub": 337
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "33rd",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "num_acc": 87,
+            "num_sub": 282
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "metadata": {
         "series_full_title": "Template",

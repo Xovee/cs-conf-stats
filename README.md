@@ -52,6 +52,7 @@ Number of submissions and number of accepted papers for the following conference
 1. SIGIR: International ACM SIGIR Conference on Research and Development in Information Retrieval.
 1. SIGKDD: ACM SIGKDD Conference on Knowledge Discovery and Data Mining.
 1. TheWebConf: The Web Conference.
+1. UAI: Conference on Uncertainty in Artificial Intelligence. 
 1. UbiComp: ACM International Joint Conference on Pervasive and Ubiquitous Computing.
 1. UIST: ACM Symposium on User Interface Software and Technology.
 1. VLDB: International Conference on Very Large Data Bases.
