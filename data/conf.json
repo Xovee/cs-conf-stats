@@ -10429,6 +10429,51 @@
             "num_acc": 87,
             "num_sub": 282
           }
+        },
+        {
+          "year": 2016,
+          "ordinal": "32nd",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 275
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "31st",
+          "location": "Amsterdam, Netherlands",
+          "main_track": {
+            "num_acc": 99,
+            "num_sub": 291
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "30th",
+          "location": "Quebec City, Canada",
+          "main_track": {
+            "num_acc": 94,
+            "num_sub": 292
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "29th",
+          "location": "Bellevue, Washington, USA",
+          "main_track": {
+            "num_acc": 73,
+            "num_sub": 233
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "28th",
+          "location": "Catalina Island, California, USA",
+          "main_track": {
+            "num_acc": 95,
+            "num_sub": 304
+          }
         }
       ]
     },
