@@ -10474,6 +10474,63 @@
             "num_acc": 95,
             "num_sub": 304
           }
+        },
+        {
+          "year": 2011,
+          "ordinal": "27th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 96,
+            "num_sub": 285
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "24th",
+          "location": "Helsinki, Finland",
+          "main_track": {
+            "num_acc": 72,
+            "num_sub": 256
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "23rd",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 180
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "22nd",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 68,
+            "num_sub": 215
+          },
+          "note": "Estimated # Sub"
+        },
+        {
+          "year": 2005,
+          "ordinal": "21st",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 82,
+            "num_sub": 245
+          },
+          "note": "Estimated # Sub & Acc"
+        },
+        {
+          "year": 2004,
+          "ordinal": "20th",
+          "location": "Banff, Canada",
+          "main_track": {
+            "num_acc": 76,
+            "num_sub": 252
+          },
+          "note": "Estimated # Sub & Acc"
         }
       ]
     },

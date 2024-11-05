@@ -144,6 +144,10 @@ First, we need **ALL** new stats in the upcoming years.
 
 - Before 2000
 
+## UAI
+
+- UAI 2010
+
 ## UbiComp
 
 - After 2016
