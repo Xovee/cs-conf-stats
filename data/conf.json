@@ -9742,7 +9742,7 @@
         {
           "year": 2002,
           "ordinal": "7th",
-          "location": "Rhode Island, USA",
+          "location": "Providence, Rhode Island, USA",
           "main_track": {
             "num_acc": 41,
             "num_sub": 142
@@ -10485,6 +10485,15 @@
           }
         },
         {
+          "year": 2009,
+          "ordinal": "25th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 76,
+            "num_sub": 243
+          }
+        },
+        {
           "year": 2008,
           "ordinal": "24th",
           "location": "Helsinki, Finland",
@@ -10528,9 +10537,116 @@
           "location": "Banff, Canada",
           "main_track": {
             "num_acc": 76,
-            "num_sub": 252
-          },
-          "note": "Estimated # Sub & Acc"
+            "num_sub": 253
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "19th",
+          "location": "Acapulco, Mexico",
+          "main_track": {
+            "num_acc": 77,
+            "num_sub": 230
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "18th",
+          "location": "Edmonton, Canada",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 192
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "17th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 69,
+            "num_sub": 173
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "16th",
+          "location": "Stanford, California, USA",
+          "main_track": {
+            "num_acc": 75,
+            "num_sub": 165
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "15th",
+          "location": "Stockholm, Sweden",
+          "main_track": {
+            "num_acc": 77,
+            "num_sub": 150
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "14th",
+          "location": "Madison, USA",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 137
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "13th",
+          "location": "Providence, Rhode Island, USA",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 117
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "12th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 140
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "11th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 121
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "10th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 160
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "9th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 120
+          }
+        },
+        {
+          "year": 1992,
+          "ordinal": "8th",
+          "location": "Stanford, California, USA",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 100
+          }
         }
       ]
     },

@@ -1,7 +1,8 @@
 # TODO List
 
+- [ ] Nov 6, 2024. Add visualizations for domains in the main page. 
 - [ ] Oct 28, 2024. Optimize GitHub README. 
-- [ ] Oct 28, 2024. Add discipline distribution (# papers). 
+- [ ] Oct 28, 2024. Add discipline distribution (# papers). Pie chart.  
 - [x] Oct 22, 2024. Modify the codes to decouple the country/city names with flags
 - [x] Oct 17, 2024. List all missing top-tier conferences and try to categorize them. 
 - [x] Oct 12, 2024. Country Emoji
