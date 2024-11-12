@@ -184,7 +184,7 @@ function renderDiscipline(disciplineCounts) {
   const disciplineOption = {
     tooltip: {
       trigger: 'item',
-      formatter: '{a} <br />{b}: {c} Paper ({d}%)'
+      formatter: '<b>{b}</b><br />{c} Paper ({d}%)'
     },
     series: [
       {
@@ -194,7 +194,8 @@ function renderDiscipline(disciplineCounts) {
         radius: '80%',
         data: sortedDisciplineCounts,
         label: {
-          fontSize: 16
+          fontSize: 16,
+          alignTo: 'labelLine'
         },
         itemStyle: {
           borderColor: '#111'
