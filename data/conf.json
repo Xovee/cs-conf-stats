@@ -2,6 +2,7 @@
   "conferences": [
     {
       "series": "AAAI",
+      "discipline": "AI & ML",
       "metadata": {
         "series_full_title": "AAAI Conference on Artificial Intelligence",
         "main_discipline": [
@@ -357,6 +358,7 @@
     },
     {
       "series": "ICML",
+      "discipline": "AI & ML",
       "metadata": {
         "series_full_title": "International Conference on Machine Learning",
         "main_discipline": ["Machine Learning"],
@@ -618,6 +620,7 @@
     },
     {
       "series": "ICLR",
+      "discipline": "AI & ML",
       "metadata": {
         "series_full_title": "International Conference on Learning Representations",
         "main_discipline": [
@@ -751,6 +754,7 @@
     },
     {
       "series": "IJCAI",
+      "discipline": "AI & ML",
       "metadata": {
         "series_full_title": "International Joint Conference on Artificial Intelligence",
         "main_discipline": [
@@ -917,6 +921,7 @@
     },
     {
       "series": "NeurIPS",
+      "discipline": "AI & ML",
       "metadata": {
         "series_full_title": "Conference on Neural Information Processing Systems",
         "main_discipline": [
@@ -1244,6 +1249,7 @@
     },
     {
       "series": "CVPR",
+      "discipline": "CV",
       "metadata": {
         "series_full_title": "International Conference on Computer Vision and Pattern Recognition",
         "main_discipline": [
@@ -1632,6 +1638,7 @@
     },
     {
       "series": "ECCV",
+      "discipline": "CV",
       "metadata": {
         "series_full_title": "European Conference on Computer Vision",
         "main_discipline": [
@@ -1833,6 +1840,7 @@
     },
     {
       "series": "ICCV",
+      "discipline": "CV",
       "metadata": {
         "series_full_title": "International Conference on Computer Vision",
         "main_discipline": [
@@ -2045,6 +2053,7 @@
     },
     {
       "series": "ICDE",
+      "discipline": "DB",
       "metadata": {
         "series_full_title": "IEEE International Conference on Data Engineering",
         "main_discipline": [
@@ -2432,6 +2441,7 @@
     },
     {
       "series": "PODS",
+      "discipline": "DB",
       "metadata": {
         "series_full_title": "Symposium on Principles of Database Systems",
         "main_discipline": [
@@ -2800,6 +2810,7 @@
     },
     {
       "series": "VLDB",
+      "discipline": "DB",
       "metadata": {
         "series_full_title": "International Conference on Very Large Data Bases",
         "main_discipline": [
@@ -3017,6 +3028,7 @@
     },
     {
       "series": "ICME",
+      "discipline": "Multimedia",
       "metadata": {
         "series_full_title": "IEEE International Conference on Multimedia and Expo",
         "main_discipline": [
@@ -3154,6 +3166,7 @@
     },
     {
       "series": "CIKM",
+      "discipline": "IR",
       "metadata": {
         "series_full_title": "ACM International Conference on Information and Knowledge Management",
         "main_discipline": [
@@ -3463,6 +3476,7 @@
     },
     {
       "series": "SIGMOD",
+      "discipline": "DB",
       "metadata": {
         "series_full_title": "ACM SIGMOD/PODS International Conference on Management of Data ",
         "main_discipline": [
@@ -3850,6 +3864,7 @@
     },
     {
       "series": "ACM MM",
+      "discipline": "Multimedia",
       "metadata": {
         "series_full_title": "ACM International Conference on Multimedia",
         "main_discipline": [
@@ -4142,6 +4157,7 @@
     },
     {
       "series": "ICDM",
+      "discipline": "DM",
       "metadata": {
         "series_full_title": "IEEE International Conference on Data Mining",
         "main_discipline": [
@@ -4389,6 +4405,7 @@
     },
     {
       "series": "SIGKDD",
+      "discipline": "DM",
       "metadata": {
         "series_full_title": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
         "main_discipline": [
@@ -4765,6 +4782,7 @@
     },
     {
       "series": "WSDM",
+      "discipline": "Web",
       "metadata": {
         "series_full_title": "ACM International Conference on Web Search and Data Mining",
         "main_discipline": [
@@ -4955,6 +4973,7 @@
     },
     {
       "series": "SDM",
+      "discipline": "DM",
       "metadata": {
         "series_full_title": "SIAM International Conference on Data Mining",
         "main_discipline": [
@@ -5126,6 +5145,7 @@
     },
     {
       "series": "ECIR",
+      "discipline": "IR",
       "metadata": {
         "series_full_title": "European Conference on Information Retrieval",
         "main_discipline": [
@@ -5452,6 +5472,7 @@
     },
     {
       "series": "SIGIR",
+      "discipline": "IR",
       "metadata": {
         "series_full_title": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
         "main_discipline": [
@@ -5768,6 +5789,7 @@
     },
     {
       "series": "ICMR",
+      "discipline": "Multimedia",
       "metadata": {
         "series_full_title": "ACM International Conference on Multimedia Retrieval",
         "main_discipline": [
@@ -5958,6 +5980,7 @@
     },
     {
       "series": "ICWSM",
+      "discipline": "Web",
       "metadata": {
         "series_full_title": "ICWSM: International AAAI Conference on Web and Social Media",
         "main_discipline": [
@@ -6091,6 +6114,7 @@
     },
     {
       "series": "TheWebConf",
+      "discipline": "Web",
       "metadata": {
         "series_full_title": "The Web Conference",
         "main_discipline": [
@@ -6374,6 +6398,7 @@
     },
     {
       "series": "CHI",
+      "discipline": "HCI",
       "metadata": {
         "series_full_title": "ACM Conference on Human Factors in Computing Systems",
         "main_discipline": [
@@ -6762,6 +6787,7 @@
     },
     {
       "series": "CSCW",
+      "discipline": "HCI",
       "metadata": {
         "series_full_title": "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
         "main_discipline": [
@@ -6934,6 +6960,7 @@
     },
     {
       "series": "UbiComp",
+      "discipline": "HCI",
       "metadata": {
         "series_full_title": "ACM International Joint Conference on Pervasive and Ubiquitous Computing",
         "main_discipline": [
@@ -7088,6 +7115,7 @@
     },
     {
       "series": "UIST",
+      "discipline": "HCI",
       "metadata": {
         "series_full_title": "ACM Symposium on User Interface Software and Technology",
         "main_discipline": [
@@ -7296,6 +7324,7 @@
     },
     {
       "series": "INFOCOM",
+      "discipline": "Network",
       "metadata": {
         "series_full_title": "IEEE International Conference on Computer Communications",
         "main_discipline": [
@@ -7588,6 +7617,7 @@
     },
     {
       "series": "NSDI",
+      "discipline": "Network",
       "metadata": {
         "series_full_title": "USENIX Symposium on Networked Systems Design and Implementation",
         "main_discipline": [
@@ -7800,6 +7830,7 @@
     },
     {
       "series": "SIGCOMM",
+      "discipline": "Network",
       "metadata": {
         "series_full_title": "Annual Conference of the ACM SIGCOMM on the Applications, Technologies, Architectures, and Protocols for Computer Communication",
         "main_discipline": [
@@ -8098,6 +8129,7 @@
     },
     {
       "series": "MobiCom",
+      "discipline": "Mobile",
       "metadata": {
         "series_full_title": "International Conference on Mobile Computing and Networking",
         "main_discipline": [
@@ -8387,6 +8419,7 @@
     },
     {
       "series": "MobiSys",
+      "discipline": "Mobile",
       "metadata": {
         "series_full_title": "ACM International Conference on Mobile Systems, Applications, and Services",
         "main_discipline": [
@@ -8604,6 +8637,7 @@
     },
     {
       "series": "SenSys",
+      "discipline": "Mobile",
       "metadata": {
         "series_full_title": "ACM Conference on Embedded Networked Sensor Systems",
         "main_discipline": [
@@ -8812,6 +8846,7 @@
     },
     {
       "series": "ICASSP",
+      "discipline": "Speech",
       "metadata": {
         "series_full_title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
         "main_discipline": [
@@ -8993,6 +9028,7 @@
     },
     {
       "series": "INTERSPEECH",
+      "discipline": "Speech",
       "metadata": {
         "series_full_title": "Conference of the International Speech Communication Association",
         "main_discipline": [
@@ -9237,6 +9273,7 @@
     },
     {
       "series": "ACL",
+      "discipline": "NLP",
       "metadata": {
         "series_full_title": "Annual Meeting of the Association for Computational Linguistics",
         "main_discipline": [
@@ -9528,6 +9565,7 @@
     },
     {
       "series": "EMNLP",
+      "discipline": "NLP",
       "metadata": {
         "series_full_title": "Conference on Empirical Methods in Natural Language Processing",
         "main_discipline": [
@@ -9752,6 +9790,7 @@
     },
     {
       "series": "NAACL",
+      "discipline": "NLP",
       "metadata": {
         "series_full_title": "Annual Conference of the North American Chapter of the Association for Computational Linguistics.",
         "main_discipline": [
@@ -9924,6 +9963,7 @@
     },
     {
       "series": "COLT",
+      "discipline": "AI & ML",
       "metadata": {
         "series_full_title": "Annual Conference on Computational Learning Theory.",
         "main_discipline": [
@@ -10177,6 +10217,7 @@
     },
     {
       "series": "AISTATS",
+      "discipline": "AI & ML",
       "metadata": {
         "series_full_title": "International Conference on Artificial Intelligence and Statistics",
         "main_discipline": [
@@ -10341,6 +10382,7 @@
     },
     {
       "series": "UAI",
+      "discipline": "AI & ML",
       "metadata": {
         "series_full_title": "Conference on Uncertainty in Artificial Intelligence",
         "main_discipline": [
@@ -10652,6 +10694,7 @@
     },
     {
       "series": "Template",
+      "discipline": "",
       "metadata": {
         "series_full_title": "Template",
         "main_discipline": [

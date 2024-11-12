@@ -8,6 +8,7 @@ fetch('/data/conf.json')
     const countryCount = {};
     const seriesAccRates = {};
     const yearlyCounts = {};
+    const disciplineCounts = {};
 
     function getCountryFlag(countryCode) {
       if (countryCode === 'Online') {
@@ -21,11 +22,12 @@ fetch('/data/conf.json')
           .map(char => 127397 + char.charCodeAt(0));
         return String.fromCodePoint(...codePoints);
       }
-
     }
 
     data.conferences.forEach(conference => {
       const series = conference.series;
+      const discipline = conference.discipline;
+
       if (!seriesAccRates[series]) {
         seriesAccRates[series] = {totalAcc: 0, totalSub: 0, numConf: 0};
       }
@@ -64,6 +66,15 @@ fetch('/data/conf.json')
           seriesAccRates[series].totalAcc += numAcc;
           seriesAccRates[series].totalSub += numSub;
           seriesAccRates[series].numConf += 1;
+        }
+
+        // count discipline
+        if (discipline) {
+          if (disciplineCounts[discipline]) {
+            disciplineCounts[discipline] += numAcc;
+          } else {
+            disciplineCounts[discipline] = numAcc;
+          }
         }
 
         // for yearly counting
@@ -110,7 +121,6 @@ fetch('/data/conf.json')
       return countries[countryName] || 'Unknown';
     }
 
-
     // for yearly counting
     const years = Object.keys(yearlyCounts).sort();
     const submissions = years.map(year => yearlyCounts[year].totalSub);
@@ -154,7 +164,9 @@ fetch('/data/conf.json')
     const sortedAccRateInv = aggregatedAccRates.sort((a, b) => b.value - a.value).slice(0, 20);
     const sortedLarge = aggregatedNumAcc.sort((a, b) => b.value - a.value).slice(0, 30);
     const sortedSmall = aggregatedNumAcc.sort((a, b) => (a.value / a.numConf) - (b.value / b.numConf)).slice(0, 20);
-    
+
+    renderDiscipline(disciplineCounts);
+
     renderPicky(sortedAccRate);
     renderGenerous(sortedAccRateInv);
 
@@ -162,6 +174,48 @@ fetch('/data/conf.json')
     renderSmall(sortedSmall);
 
   });
+
+function renderDiscipline(disciplineCounts) {
+  const sortedDisciplineCounts = Object.entries(disciplineCounts)
+      .sort((a, b) => b[1] - a[1])
+      .map(([key, value]) => ({ name: key, value}));
+
+  const disciplineChart = echarts.init(document.getElementById('viz-discipline'));
+  const disciplineOption = {
+    tooltip: {
+      trigger: 'item',
+      formatter: '{a} <br />{b}: {c} Paper ({d}%)'
+    },
+    series: [
+      {
+        name: 'Discipline',
+        type: 'pie',
+        clockwise: false,
+        radius: '80%',
+        data: sortedDisciplineCounts,
+        label: {
+          fontSize: 16
+        },
+        itemStyle: {
+          borderColor: '#111'
+        },
+        emphasis: {
+          itemStyle: {
+            shadowBlur: 10,
+            shadowOffsetX: 0,
+            shadowColor: 'rgba(0, 0, 0, 0.5)'
+          }
+        }
+      }
+    ]
+  };
+
+  disciplineChart.setOption(disciplineOption);
+
+  window.addEventListener('resize', function() {
+    disciplineChart.resize();
+  });
+}
 
 function renderYearly(years, submissions, acceptances, rateYearly) {
   const yearlyChart = echarts.init(document.getElementById('viz-yearly-num'));

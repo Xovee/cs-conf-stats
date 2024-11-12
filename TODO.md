@@ -1,22 +1,19 @@
 # TODO List
-
-- [ ] Nov 6, 2024. Add visualizations for domains in the main page. 
+ 
 - [ ] Oct 28, 2024. Optimize GitHub README. 
-- [ ] Oct 28, 2024. Add discipline distribution (# papers). Pie chart.  
+- [x] Oct 28, 2024. Add discipline distribution (# papers). Pie chart. Finished Nov 12, 2024.
 - [x] Oct 22, 2024. Modify the codes to decouple the country/city names with flags
 - [x] Oct 17, 2024. List all missing top-tier conferences and try to categorize them. 
 - [x] Oct 12, 2024. Country Emoji
 - [x] Oct 9, 2024. Add yearly stats in viz.
 - [x] Oct 4, 2024. Let city viz's tooltip having three columns.
 - [x] Aug 3, 2024. Add catalog page for SEO.
-- [ ] Jul 25, 2024. Add the trending stats
+- [ ] Jul 25, 2024. Add the trending stats. Like scatter plot or line plots with positives and negatives. 
 - [ ] Jul 25, 2024. Add some charts for fun
     - [x] frequent cities and countries
     - [x] most picky confs
     - [x] most generous confs
     - [x] highest num of total accepted
-    - [ ] trending conferences
-    - [ ] oldest conferences
     - [x] smallest conference (yearly paper)
     - [x] yearly sub and acc
 - [x] Jul 24, 2024. Check ICME 2024 Proceeding
