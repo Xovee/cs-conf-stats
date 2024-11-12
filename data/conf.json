@@ -10693,6 +10693,98 @@
       ]
     },
     {
+      "series": "ASPLOS",
+      "discipline": "Arch",
+      "metadata": {
+        "series_full_title": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+        "main_discipline": [
+          "Computer Architecture", "Operating Systems", "Programming Language & Compilers"
+        ],
+        "other_discipline": [
+          "Security & Privacy in Systems", "Emerging Technologies & Applications", "ML for Systems", "Energy-Efficient Computing", "Distributed Systems & Cloud Computing"
+        ],
+        "parent_org": "ACM, ACM SIGARCH, ACM SIGOPS, ACM SIGPLAN",
+        "website": "https://www.asplos-conference.org/",
+        "proceedings": "https://dl.acm.org/conference/asplos/proceedings",
+        "second_track_name": "",
+        "note": "The revisions accepted after the current year's conference, are counted in next year's ASPLOS statistics (Since 2023)."
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "29th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 193,
+            "num_sub": 922
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "28th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 128,
+            "num_sub": 600
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "27th",
+          "location": "Lausanne, Switzerland",
+          "main_track": {
+            "num_acc": 80,
+            "num_sub": 397
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "26th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 75,
+            "num_sub": 398
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "25th",
+          "location": "Lausanne, Switzerland",
+          "main_track": {
+            "num_acc": 86,
+            "num_sub": 486
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "24th",
+          "location": "Providence, Rhode Island, USA",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 351
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "23rd",
+          "location": "Williamsburg, USA",
+          "main_track": {
+            "num_acc": 56,
+            "num_sub": 319
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "22nd",
+          "location": "Xi'an, China",
+          "main_track": {
+            "num_acc": 53,
+            "num_sub": 320
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
