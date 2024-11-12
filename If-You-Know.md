@@ -32,6 +32,13 @@ First, we need **ALL** new stats in the upcoming years.
 - AISTATS 1989
 - AISTATS 1985
 
+## ASPLOS
+
+- ASPLOS V 1992
+- ASPLOS IV 1991
+- ASPLOS III 1989
+- ASPLOS I 1982
+
 ## CIKM 
 
 - Before 2000
