@@ -9582,6 +9582,19 @@
       },
       "yearly_data": [
         {
+          "year": 2024,
+          "ordinal": "29th",
+          "location": "Miami, USA",
+          "main_track": {
+            "num_acc": 1271,
+            "num_sub": 6105
+          },
+          "second_track": {
+            "num_acc": 1029,
+            "num_sub": 6105
+          }
+        },
+        {
           "year": 2023,
           "ordinal": "28th",
           "location": "Singapore, Singapore",
