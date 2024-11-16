@@ -11049,6 +11049,63 @@
             "num_acc": 53,
             "num_sub": 240
           }
+        },
+        {
+          "year": 2015,
+          "ordinal": "21st",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 51,
+            "num_sub": 228
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "20th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 215
+          },
+          "note": "From openresearch.org"
+        },
+        {
+          "year": 2013,
+          "ordinal": "19th",
+          "location": "Shenzhen, China",
+          "main_track": {
+            "num_acc": 51,
+            "num_sub": 249
+          },
+          "note": "From openresearch.org"
+        },
+        {
+          "year": 2012,
+          "ordinal": "18th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 213
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "17th",
+          "location": "San Antonio, USA",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 227
+          },
+          "note": "From openresearch.org"
+        },
+        {
+          "year": 2010,
+          "ordinal": "16th",
+          "location": "Bangalore, India",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 175
+          }
         }
       ]
     },
