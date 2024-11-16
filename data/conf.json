@@ -10951,6 +10951,108 @@
       ]
     },
     {
+      "series": "HPCA",
+      "discipline": "Arch",
+      "metadata": {
+        "series_full_title": "IEEE International Symposium on High-Performance Computer Architecture",
+        "main_discipline": [
+          "Computer Architecture", "Programming Languages", "Operating Systems"
+        ],
+        "other_discipline": [
+          "Process", "Memory", "Storage", "Multicore & Multiprocessor Architecture", "Interconnection Networks", "Network Interface Architecture", "Domain-specific Architecture and Accelerators", "Near/In-memory Computing", "Reliability", "Fault Tolerance", "Energy Efficiency", "Sustainability", "Parallel Computing"
+        ],
+        "parent_org": "IEEE",
+        "website": "https://www.hpca-conf.org/",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000335/all-proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "30th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 75,
+            "num_sub": 410
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "29th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 91,
+            "num_sub": 364
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "28th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 80,
+            "num_sub": 273
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "27th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 61,
+            "num_sub": 260
+          },
+          "note": "Estimated sub (by chair)"
+        },
+        {
+          "year": 2020,
+          "ordinal": "26th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 248
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "25th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 233
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "24th",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 260
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "23rd",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 224
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "22nd",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 53,
+            "num_sub": 240
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
