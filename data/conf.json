@@ -10965,7 +10965,7 @@
         "website": "https://www.hpca-conf.org/",
         "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000335/all-proceedings",
         "second_track_name": "",
-        "note": ""
+        "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
         {
@@ -11105,6 +11105,142 @@
           "main_track": {
             "num_acc": 32,
             "num_sub": 175
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "15th",
+          "location": "Raleigh, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 184
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "14th",
+          "location": "Salt Lake City, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 161
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "13th",
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 174
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "12th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 172
+          },
+          "note": "From multiple resources"
+        },
+        {
+          "year": 2005,
+          "ordinal": "11th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 181
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "10th",
+          "location": "Madrid, Spain",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 153
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "9th",
+          "location": "Anaheim, California, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 141
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "8th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 130
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "7th",
+          "location": "Nuevo Leone, Mexico",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 110
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "6th",
+          "location": "Toulouse, France",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 163
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "5th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 117
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "4th",
+          "location": "Las Vegas, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 141
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "3rd",
+          "location": "San Antonio, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 152
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "2nd",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 131
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "1st",
+          "location": "Raleigh, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 190
           }
         }
       ]
