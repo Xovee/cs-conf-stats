@@ -723,7 +723,7 @@
         {
           "year": 2015,
           "ordinal": "3rd",
-          "location": "San Diego, USA",
+          "location": "San Diego, California, USA",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 31,
@@ -4852,7 +4852,7 @@
         {
           "year": 2019,
           "ordinal": "12th",
-          "location": "Online, Online",
+          "location": "Melbourne, Australia",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 84,
@@ -5621,7 +5621,7 @@
         {
           "year": 2014,
           "ordinal": "37nd",
-          "location": "Golden Coast, Queensland, Australia",
+          "location": "Queensland, Australia",
           "main_track": {
             "num_acc": 82,
             "num_sub": 387
@@ -7215,7 +7215,7 @@
         {
           "year": 2014,
           "ordinal": "27th",
-          "location": "Honolulu, USA",
+          "location": "Honolulu, Hawaii, USA",
           "main_track": {
             "num_acc": 74,
             "num_sub": 333
@@ -7397,7 +7397,7 @@
         {
           "year": 2018,
           "ordinal": "37th",
-          "location": "Honolulu, USA",
+          "location": "Honolulu, Hawaii, USA",
           "main_track": {
             "num_acc": 308,
             "num_sub": 1609
@@ -10348,7 +10348,7 @@
         {
           "year": 2009,
           "ordinal": "12th",
-          "location": "Clearwater Beach, USA",
+          "location": "Clearwater, USA",
           "main_track": {
             "num_acc": 84,
             "num_sub": 210
@@ -10940,6 +10940,33 @@
           }
         },
         {
+          "year": 1992,
+          "ordinal": "5th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 150
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "4th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 92
+          }
+        },
+        {
+          "year": 1989,
+          "ordinal": "3rd",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 114
+          }
+        },
+        {
           "year": 1987,
           "ordinal": "2th",
           "location": "Palo Alto, California, USA",
@@ -11351,6 +11378,357 @@
           "main_track": {
             "num_acc": 58,
             "num_sub": 305
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "41st",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 258
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "40th",
+          "location": "Tel Aviv, Israel",
+          "main_track": {
+            "num_acc": 56,
+            "num_sub": 288
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "39th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 262
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "38th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 208
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "37th",
+          "location": "Saint-Malo, France",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 245
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "36th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 210
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "35th",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 259
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "34th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 204
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "33rd",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 234
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "32nd",
+          "location": "Madison, USA",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 194
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "31st",
+          "location": "Munich, Germany",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 217
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "30th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 184
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "29th",
+          "location": "Anchorage, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 180
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "28th",
+          "location": "Gothenburg, Sweden",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 163
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "27th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 166
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "26th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 135
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "25th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 156
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "24th",
+          "location": "Boulder, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 147
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "23rd",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 112
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "22nd",
+          "location": "Santa Margherita Ligure, Italy",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 180
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "21st",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 143
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "20th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 208
+          }
+        },
+        {
+          "year": 1992,
+          "ordinal": "19th",
+          "location": "Queensland, Australia",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 173
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "18th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 197
+          }
+        },
+        {
+          "year": 1990,
+          "ordinal": "17th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 242
+          }
+        },
+        {
+          "year": 1989,
+          "ordinal": "16th",
+          "location": "Jerusalem, Israel",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 170
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "15th",
+          "location": "Honolulu, Hawaii, USA",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 275
+          }
+        },
+        {
+          "year": 1987,
+          "ordinal": "14th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 126
+          }
+        },
+        {
+          "year": 1986,
+          "ordinal": "13th",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 171
+          }
+        },
+        {
+          "year": 1985,
+          "ordinal": "12th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 127
+          }
+        },
+        {
+          "year": 1984,
+          "ordinal": "11th",
+          "location": "Ann Arbor, USA",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 106
+          }
+        },
+        {
+          "year": 1983,
+          "ordinal": "10th",
+          "location": "Stockholm, Sweden",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 149
+          }
+        },
+        {
+          "year": 1982,
+          "ordinal": "9th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 90
+          }
+        },
+        {
+          "year": 1981,
+          "ordinal": "8th",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 90
+          }
+        },
+        {
+          "year": 1980,
+          "ordinal": "7th",
+          "location": "La Baule, France",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 145
+          }
+        },
+        {
+          "year": 1979,
+          "ordinal": "6th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 56
+          }
+        },
+        {
+          "year": 1978,
+          "ordinal": "5th",
+          "location": "Palo Alto, California, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 86
+          }
+        },
+        {
+          "year": 1977,
+          "ordinal": "4th",
+          "location": "College Park, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 63
+          }
+        },
+        {
+          "year": 1976,
+          "ordinal": "3rd",
+          "location": "Clearwater, USA",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 80
           }
         }
       ]
