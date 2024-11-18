@@ -6741,7 +6741,7 @@
         {
           "year": 1987,
           "ordinal": "5th",
-          "location": "Toronto, USA",
+          "location": "Toronto, Canada",
           "main_track": {
             "num_acc": 46,
             "num_sub": 166
@@ -11241,6 +11241,116 @@
           "main_track": {
             "num_acc": 36,
             "num_sub": 190
+          }
+        }
+      ]
+    },
+    {
+      "series": "ISCA",
+      "discipline": "Arch",
+      "metadata": {
+        "series_full_title": "International Symposium on Computer Architecture",
+        "main_discipline": [
+          "Computer Architecture"
+        ],
+        "other_discipline": [
+          "Processor", "Memory", "Storage", "Parallelism", "Datacenter", "IoT", "Network Architecture", "ML for Arch", "Programming Language", "Accelerators", "Security", "Dependable Processor"
+        ],
+        "parent_org": "ACM SIGARCH, IEEE CompSoc",
+        "website": "https://www.iscaconf.org",
+        "proceedings": "https://dl.acm.org/conference/isca/proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "51st",
+          "location": "Buenos Aires, Argentina",
+          "main_track": {
+            "num_acc": 83,
+            "num_sub": 423
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "50th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 79,
+            "num_sub": 372
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "49th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 400
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "48th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 76,
+            "num_sub": 407
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "47th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 77,
+            "num_sub": 428
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "46th",
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 365
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "45th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 64,
+            "num_sub": 367
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "44th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 322
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "43rd",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 291
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "42nd",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 58,
+            "num_sub": 305
           }
         }
       ]
