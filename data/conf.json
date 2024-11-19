@@ -11840,6 +11840,51 @@
             "num_acc": 53,
             "num_sub": 279
           }
+        },
+        {
+          "year": 2013,
+          "ordinal": "46th",
+          "location": "Davis, California, USA",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 239
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "45th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 228
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "44th",
+          "location": "Porto Alegre, Brazil",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 209
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "43rd",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 248
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "42nd",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 209
+          }
         }
       ]
     },
