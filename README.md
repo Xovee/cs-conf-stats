@@ -42,7 +42,8 @@ Number of submissions and number of accepted papers for the following conference
 1. IJCAI: International Joint Conference on Artificial Intelligence.
 1. INFOCOM: IEEE International Conference on Computer Communications.
 1. INTERSPEECH: Conference of the International Speech Communication Association.
-1. ISCA: International Symposium on Computer Architecture. 
+1. ISCA: International Symposium on Computer Architecture.
+1. MICRO: IEEE/ACM International Symposium on Microarchitecture. 
 1. MobiCom: International Conference on Mobile Computing and Networking.
 1. MobiSys: ACM International Conference on Mobile Systems, Applications, and Services.
 1. NAACL: Annual Conference of the North American Chapter of the Association for Computational Linguistics.

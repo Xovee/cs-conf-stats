@@ -11734,6 +11734,107 @@
       ]
     },
     {
+      "series": "MICRO",
+      "discipline": "Arch",
+      "metadata": {
+        "series_full_title": "IEEE/ACM International Symposium on Microarchitecture",
+        "main_discipline": [
+          "Microarchitecture"
+        ],
+        "other_discipline": [
+          "Compiler", "Chips", "Processor", "Multicore", "Multiprocessor", "Parallelism", "Memory", "Cloud Computing", "Datacenter", "IoT", "Network Architecture", "Accelerator", "Quantum"
+        ],
+        "parent_org": "IEEE CompSoc, ACM SIGMICRO",
+        "website": "https://microarch.org",
+        "proceedings": "https://dl.acm.org/conference/micro/proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "56th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 101,
+            "num_sub": 434
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "55th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 83,
+            "num_sub": 366
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "54th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 94,
+            "num_sub": 430
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "53rd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 82,
+            "num_sub": 446
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "52nd",
+          "location": "Columbus, USA",
+          "main_track": {
+            "num_acc": 79,
+            "num_sub": 344
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "51st",
+          "location": "Fukuoka, Japan",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 351
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "50th",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 61,
+            "num_sub": 327
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "49th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 61,
+            "num_sub": 288
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "48th",
+          "location": "Honolulu, Hawaii, USA",
+          "main_track": {
+            "num_acc": 61,
+            "num_sub": 283
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
