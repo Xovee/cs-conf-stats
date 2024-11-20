@@ -11885,6 +11885,51 @@
             "num_acc": 52,
             "num_sub": 209
           }
+        },
+        {
+          "year": 2008,
+          "ordinal": "41st",
+          "location": "Lake Como, Italy",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 210
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "40th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 166
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "39th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 174
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "38th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 147
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "37th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 158
+          }
         }
       ]
     },
