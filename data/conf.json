@@ -11975,6 +11975,52 @@
             "num_acc": 27,
             "num_sub": 131
           }
+        },
+        {
+          "year": 1998,
+          "ordinal": "31st",
+          "location": "Dallas, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 108
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "30th",
+          "location": "Research Triangle Park, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 103
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "29th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 94
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "28th",
+          "location": "Ann Arbor, USA",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 90
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "27th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 63
+          },
+          "note": "From Mark Hill"
         }
       ]
     },
