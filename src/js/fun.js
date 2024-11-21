@@ -115,7 +115,8 @@ fetch('/data/conf.json')
         'Greece': 'GR',
         'Switzerland': 'CH',
         'Germany': 'DE',
-        'Hungary': 'HU'
+        'Hungary': 'HU',
+        'Israel': 'IL'
       };
 
       return countries[countryName] || 'Unknown';
