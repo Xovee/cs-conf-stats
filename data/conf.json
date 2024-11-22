@@ -12008,7 +12008,7 @@
           "ordinal": "28th",
           "location": "Ann Arbor, USA",
           "main_track": {
-            "num_acc": 37,
+            "num_acc": 22,
             "num_sub": 90
           }
         },
@@ -12021,6 +12021,34 @@
             "num_sub": 63
           },
           "note": "From Mark Hill"
+        },
+        {
+          "year": 1993,
+          "ordinal": "26th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 63
+          },
+          "note": "From Mark Hill"
+        },
+        {
+          "year": 1992,
+          "ordinal": "25th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 79
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "24th",
+          "location": "Albuquerque, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 61
+          }
         }
       ]
     },
