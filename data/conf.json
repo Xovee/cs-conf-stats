@@ -12067,7 +12067,7 @@
         "website": "https://www.sigsac.org/ccs/ccs-history.html",
         "proceedings": "https://dl.acm.org/conference/ccs/proceedings",
         "second_track_name": "",
-        "note": ""
+        "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
         {
@@ -12255,10 +12255,10 @@
           "ordinal": "10th",
           "location": "Washington DC, USA",
           "main_track": {
-            "num_acc": 21,
-            "num_sub": 128
+            "num_acc": 35,
+            "num_sub": 253
           },
-          "note": "From myhuiban.com"
+          "note": "From https://people.engr.tamu.edu/guofei/sec_conf_stat.htm"
         },
         {
           "year": 2002,
@@ -12295,7 +12295,7 @@
             "num_acc": 16,
             "num_sub": 83
           },
-          "note": "From myhuiban.com"
+          "note": "From https://people.engr.tamu.edu/guofei/sec_conf_stat.htm"
         },
         {
           "year": 1998,
