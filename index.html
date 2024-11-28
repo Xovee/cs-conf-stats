@@ -122,7 +122,7 @@
                         <option value="SenSys">SenSys</option>
                     </select>
 
-                    <label for="dropdown-mm" title="Multimedia">MM</label>
+                    <label for="dropdown-mm" title="Multimedia">Media</label>
                     <select id="dropdown-mm" name="dropdown-mm" class="">
                         <option value="" disabled selected></option>
                         <option value="ACM MM">ACM MM</option>
@@ -144,6 +144,15 @@
                         <option value="ACL">ACL</option>
                         <option value="EMNLP">EMNLP</option>
                         <option value="NAACL">NAACL</option>
+                    </select>
+
+                    <label for="dropdown-security" title="Security & Privacy">Security</label>
+                    <select id="dropdown-security" name="dropdown-security" class="">
+                        <option value="" disabled selected></option>
+                        <option value="CCS">CCS</option>
+<!--                        <option value="IEEE S&P">IEEE S&P</option>-->
+<!--                        <option value="USENIX Security">USENIX Security</option>-->
+<!--                        <option value="NDSS">NDSS</option>-->
                     </select>
 
                     <label for="dropdown-speech" title="Speech & Signal Processing">Speech</label>
@@ -196,6 +205,7 @@
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-mm" data-conf="ACM MM"><span>ACM MM</span>: ACM International Conference on Multimedia</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="AISTATS"><span>AISTATS</span>: International Conference on Artificial Intelligence and Statistics</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-arch" data-conf="ASPLOS"><span>ASPLOS</span>: ACM International Conference on Architectural Support for Programming Languages and Operating Systems</a>.</li>
+            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-security" data-conf="CCS"><span>CCS</span>: ACM Conference on Computer and Communications Security</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-hci" data-conf="CHI"><span>CHI</span>: ACM Conference on Human Factors in Computing Systems</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ir" data-conf="CIKM"><span>CIKM</span>: ACM International Conference on Information and Knowledge Management</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="COLT"><span>COLT</span>: Annual Conference on Computational Learning Theory</a>.</li>
@@ -264,7 +274,7 @@
 
 <footer class="py-4 container">
     <div class="">
-        <div class="text-base">List of 45 conferences: AAAI, ACL, ACM MM, AISTATS, ASPLOS, CHI, CIKM, COLT, CSCW, CVPR, ECCV, ECIR, EMNLP, HPCA, ICASSP, ICCV, ICDE, ICDM, ICLR, ICME, ICML, ICMR, ICWSM, IJCAI, INFOCOM, INTERSPEECH, ISCA, MICRO, MobiCom, MobiSys, NAACL, NeurIPS, NSDI, PODS, SDM, SenSys, SIGCOMM, SIGIR, SIGKDD, TheWebConf, UAI, UbiComp, UIST, VLDB, and WSDM.</div>
+        <div class="text-base">List of 46 conferences: AAAI, ACL, ACM MM, AISTATS, ASPLOS, CCS, CHI, CIKM, COLT, CSCW, CVPR, ECCV, ECIR, EMNLP, HPCA, ICASSP, ICCV, ICDE, ICDM, ICLR, ICME, ICML, ICMR, ICWSM, IJCAI, INFOCOM, INTERSPEECH, ISCA, MICRO, MobiCom, MobiSys, NAACL, NeurIPS, NSDI, PODS, SDM, SenSys, SIGCOMM, SIGIR, SIGKDD, TheWebConf, UAI, UbiComp, UIST, VLDB, and WSDM.</div>
 
         <p>Created and maintained by <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">Xovee Xu</a> from <a href="https://en.uestc.edu.cn/" target="_blank">UESTC</a>, China. Data are primarily collected from the proceedings, though sometimes from the web, which may contain errors.</p>
 
