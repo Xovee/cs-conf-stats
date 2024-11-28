@@ -12132,6 +12132,69 @@
             "num_acc": 151,
             "num_sub": 836
           }
+        },
+        {
+          "year": 2016,
+          "ordinal": "23rd",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 137,
+            "num_sub": 831
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "22nd",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 128,
+            "num_sub": 660
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "21st",
+          "location": "Scottsdale, USA",
+          "main_track": {
+            "num_acc": 114,
+            "num_sub": 585
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "20th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 105,
+            "num_sub": 530
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "19th",
+          "location": "Raleigh, USA",
+          "main_track": {
+            "num_acc": 81,
+            "num_sub": 423
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "18th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 60,
+            "num_sub": 429
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "17th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 325
+          }
         }
       ]
     },
