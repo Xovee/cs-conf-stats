@@ -12345,6 +12345,98 @@
       ]
     },
     {
+      "series": "IEEE S&P",
+      "discipline": "Security",
+      "metadata": {
+        "series_full_title": "IEEE Symposium on Security and Privacy",
+        "main_discipline": [
+          "Computer Security", "Electronic Privacy"
+        ],
+        "other_discipline": [
+          "Cryptography Protocols", "System Security", "Network Security", "Privacy-Preserving", "Software Security", "Human Factors in Security", "AI for Security", "ML for Security", "Hardware Security"
+        ],
+        "parent_org": "IEEE, IEEE CompSoc",
+        "website": "https://www.ieee-security.org/",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000646/all-proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "45th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 261,
+            "num_sub": 1466
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "44th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 199,
+            "num_sub": 1147
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "43rd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 147,
+            "num_sub": 1012
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "42nd",
+          "location": "Online Online",
+          "main_track": {
+            "num_acc": 115,
+            "num_sub": 952
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "41st",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 104,
+            "num_sub": 841
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "40th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 84,
+            "num_sub": 651
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "39th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 63,
+            "num_sub": 533
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "38th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 60,
+            "num_sub": 419
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
