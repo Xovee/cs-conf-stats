@@ -12433,6 +12433,79 @@
             "num_acc": 60,
             "num_sub": 419
           }
+        },
+        {
+          "year": 2016,
+          "ordinal": "37th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 398
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "36th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 407
+          },
+          "note": "from https://people.engr.tamu.edu/guofei/sec_conf_stat.htm"
+        },
+        {
+          "year": 2014,
+          "ordinal": "35th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 333
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "34th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 315
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "33rd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 307
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "32nd",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 309
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "31st",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 267
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "30th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 254
+          }
         }
       ]
     },
