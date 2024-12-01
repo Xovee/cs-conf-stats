@@ -12542,6 +12542,51 @@
             "num_acc": 17,
             "num_sub": 192
           }
+        },
+        {
+          "year": 2004,
+          "ordinal": "25th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 186
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "24th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 131
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "23rd",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 95
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "22nd",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 107
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "21st",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 137
+          }
         }
       ]
     },
