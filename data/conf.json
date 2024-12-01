@@ -12506,6 +12506,42 @@
             "num_acc": 26,
             "num_sub": 254
           }
+        },
+        {
+          "year": 2008,
+          "ordinal": "29th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 249
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "28th",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 246
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "27th",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 251
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "26th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 17,
+            "num_sub": 192
+          }
         }
       ]
     },
