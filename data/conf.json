@@ -12587,6 +12587,97 @@
             "num_acc": 18,
             "num_sub": 137
           }
+        },
+        {
+          "year": 1999,
+          "ordinal": "20th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 15,
+            "num_sub": 61
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "19th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 116
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "18th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 110
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "17th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 67
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "16th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 72
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "15th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 64
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "14th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 17,
+            "num_sub": 70
+          }
+        },
+        {
+          "year": 1992,
+          "ordinal": "13th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 89
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "12th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 92
+          }
+        },
+        {
+          "year": 1990,
+          "ordinal": "11th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 99
+          },
+          "note": "Estimated sub"
         }
       ]
     },
