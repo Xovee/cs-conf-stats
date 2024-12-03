@@ -94,6 +94,10 @@ First, we need **ALL** new stats in the upcoming years.
 - ICWSM 2011
 - Before 2010
 
+## IEEE S&P
+
+- IEEE S&P 1987-1989
+
 ## INFOCOM
 
 - Before 1995
