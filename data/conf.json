@@ -12736,6 +12736,90 @@
       ]
     },
     {
+      "series": "USENIX Security",
+      "discipline": "Security",
+      "metadata": {
+        "series_full_title": "USENIX Security Symposium. ",
+        "main_discipline": [
+          "Security", "Privacy"
+        ],
+        "other_discipline": [
+          "System Security", "Network Security", "Wireless Security", "Security Analysis", "ML Security", "Language Security", "Hardware Security", "Cryptography Appli.", "Social Security"
+        ],
+        "parent_org": "USENIX",
+        "website": "https://www.usenix.org/conferences/byname/108",
+        "proceedings": "https://www.usenix.org/publications/proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "33rd",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 417,
+            "num_sub": 2176
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "32nd",
+          "location": "Anaheim, California, USA",
+          "main_track": {
+            "num_acc": 422,
+            "num_sub": 1444
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "31st",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 256,
+            "num_sub": 1414
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "30th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 246,
+            "num_sub": 1294
+          },
+          "note": "Estimated sub"
+        },
+        {
+          "year": 2020,
+          "ordinal": "29th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 157,
+            "num_sub": 977
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "28th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 113,
+            "num_sub": 697
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "27th",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "num_acc": 100,
+            "num_sub": 500
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
