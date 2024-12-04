@@ -97,6 +97,7 @@ First, we need **ALL** new stats in the upcoming years.
 ## IEEE S&P
 
 - IEEE S&P 1987-1989
+- IEEE S&P 1981
 
 ## INFOCOM
 

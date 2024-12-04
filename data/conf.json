@@ -12696,6 +12696,42 @@
             "num_acc": 25,
             "num_sub": 63
           }
+        },
+        {
+          "year": 1984,
+          "ordinal": "5th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 15,
+            "num_sub": 39
+          }
+        },
+        {
+          "year": 1983,
+          "ordinal": "4th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 34
+          }
+        },
+        {
+          "year": 1982,
+          "ordinal": "3th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 34
+          }
+        },
+        {
+          "year": 1980,
+          "ordinal": "1st",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 19
+          }
         }
       ]
     },
