@@ -12816,6 +12816,51 @@
             "num_acc": 100,
             "num_sub": 500
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "26th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 553
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "25th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 72,
+            "num_sub": 451
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "24th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 407
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "23rd",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 350
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "22nd",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 277
+          }
         }
       ]
     },
