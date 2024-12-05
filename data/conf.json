@@ -12861,6 +12861,51 @@
             "num_acc": 44,
             "num_sub": 277
           }
+        },
+        {
+          "year": 2012,
+          "ordinal": "21st",
+          "location": "Bellevue, Washington, USA",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 222
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "20th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 204
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "19th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 202
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "18th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 172
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "17th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 170
+          }
         }
       ]
     },
