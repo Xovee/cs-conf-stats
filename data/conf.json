@@ -7341,6 +7341,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "44rd",
+          "location": "London, United Kingdom",
+          "main_track": {
+            "num_acc": 272,
+            "num_sub": 1458
+          }
+        },        
+        {
           "year": 2024,
           "ordinal": "43rd",
           "location": "Vancouver, Canada",
