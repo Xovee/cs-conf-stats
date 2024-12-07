@@ -1,5 +1,6 @@
 # TODO List
  
+- [x] Dec 7, 2024. Add Most Picky Single Conference Chart. Finished Dec 7, 2024. 
 - [ ] Oct 28, 2024. Optimize GitHub README. 
 - [x] Oct 28, 2024. Add discipline distribution (# papers). Pie chart. Finished Nov 12, 2024.
 - [x] Oct 22, 2024. Modify the codes to decouple the country/city names with flags

@@ -9,6 +9,7 @@ fetch('/data/conf.json')
     const seriesAccRates = {};
     const yearlyCounts = {};
     const disciplineCounts = {};
+    const singleConfs = [];
 
     function getCountryFlag(countryCode) {
       if (countryCode === 'Online') {
@@ -61,6 +62,16 @@ fetch('/data/conf.json')
 
         const numAcc = yearData.main_track.num_acc;
         const numSub = yearData.main_track.num_sub;
+        const accRate = (numAcc / numSub) * 100;
+
+        if (numSub > 0) {
+          singleConfs.push({
+            name: `${conference.series} ${yearData.year}`,
+            sub: numSub,
+            acc: numAcc,
+            rate: accRate
+          });
+        }
 
         if (numSub > 0) {
           seriesAccRates[series].totalAcc += numAcc;
@@ -166,9 +177,13 @@ fetch('/data/conf.json')
     const sortedLarge = aggregatedNumAcc.sort((a, b) => b.value - a.value).slice(0, 30);
     const sortedSmall = aggregatedNumAcc.sort((a, b) => (a.value / a.numConf) - (b.value / b.numConf)).slice(0, 20);
 
+    const sortedSingleConfs = singleConfs.sort((a, b) => a.rate - b.rate).slice(0, 20);
+
     renderDiscipline(disciplineCounts);
 
     renderPicky(sortedAccRate);
+    renderPickySingle(sortedSingleConfs);
+
     renderGenerous(sortedAccRateInv);
 
     renderLarge(sortedLarge);
@@ -576,6 +591,95 @@ function renderPicky(accRate) {
 
   window.addEventListener('resize', function() {
     pickyChart.resize();
+  })
+}
+
+function renderPickySingle(pickySingle) {
+  var minPickySingleValue = Math.min(...pickySingle.map(item => item.rate));
+  var maxPickySingleValue = Math.max(...pickySingle.map(item => item.rate));
+
+  console.log(minPickySingleValue, maxPickySingleValue);
+
+  const pickySingleChart = echarts.init(document.getElementById('viz-picky-single'));
+  const pickySingleOption = {
+    tooltip: {
+      trigger: 'item',
+      axisPointer: { type: 'shadow' },
+      formatter: function (params) {
+        const d = params.data;
+        return `${d.name}:<br>${d.acc}/${d.sub} (${d.rate.toFixed(2)}%`;
+      }
+    },
+    grid: { containLabel: true },
+    visualMap: {
+      type: 'continuous',
+      min: minPickySingleValue,
+      max: maxPickySingleValue,
+      inRange: {color: ['#004098', '#00409830']},
+      dimension: 0,
+      // inverse: true,
+    },
+    xAxis: {
+      name: 'Acceptance Rate',
+      nameTextStyle: {
+        fontSize: 16,
+        fontWeight: 'bold'
+      },
+      axisLabel: {
+        formatter: '{value}%',
+        fontSize: 16,
+        color: '#000'
+      },
+      nameLocation: 'middle',
+      nameGap: 30,
+      type: 'value'
+    },
+    yAxis: {
+      name: 'Single Conference Event',
+      nameLocation: 'start',
+      nameTextStyle: {
+        fontSize: 16,
+        fontWeight: 'bold'
+      },
+      type: 'category',
+      data: pickySingle.map(rate => rate.name),
+      inverse: true,
+      axisLabel: {
+        fontSize: 16,
+        color: '#000'
+      }
+    },
+    series: [
+      {
+        name: "Acceptance Rate",
+        type: 'bar',
+        data: pickySingle.map(d => ({
+          value: d.rate,
+          name: d.name,
+          sub: d.sub,
+          acc: d.acc,
+          rate: d.rate
+        })),
+        label: {
+          show: true,
+          position: 'right',
+          formatter: function (params) {
+            const d = params.data;
+            return `${d.rate.toFixed(2)}% (${d.acc}/${d.sub})`;
+          },
+          textStyle: {
+            fontSize: 16,
+            color: '#000'
+          }
+        }
+      }
+    ]
+  };
+
+  pickySingleChart.setOption(pickySingleOption);
+
+  window.addEventListener('resize', function() {
+    pickySingleChart.resize();
   })
 }
 
