@@ -68,7 +68,11 @@ Number of submissions and number of accepted papers for the following conference
 
 ## If You Know
 
-If you know some stats of the conferences listed in [this file](./If-You-Know.md), you can send them to us. 
+If you know some stats of the conferences [listed here](./If-You-Know.md), you can send them to us. 
+
+## Need Check
+
+[Some events](./Need-Check.md) need further check (e.g., when proceedings are published). 
 
 ## CSS Compile
 
@@ -77,6 +81,6 @@ Using `tailwindcss` and `npm`:
 npx tailwindcss -i ./src/input.css -o output.css --watch
 ```
 
-# Contact
+# Contribution & Contact
 
-For adding more data, correcting existing data or code, or suggesting stuffs, please open issues, PRs, or contact me at `xovee.xu at gmail.com`. 
+For adding more data, correcting existing data or code, or suggesting something, please open issues, PRs, or contact me at `xovee.xu at gmail.com`. 
