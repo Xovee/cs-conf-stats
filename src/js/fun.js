@@ -10,6 +10,7 @@ fetch('/data/conf.json')
     const yearlyCounts = {};
     const disciplineCounts = {};
     const singleConfs = [];
+    const singleConfsScatter = [];
 
     function getCountryFlag(countryCode) {
       if (countryCode === 'Online') {
@@ -69,7 +70,9 @@ fetch('/data/conf.json')
             name: `${conference.series} ${yearData.year}`,
             sub: numSub,
             acc: numAcc,
-            rate: accRate
+            rate: accRate,
+            conf: series,
+            discipline: discipline
           });
         }
 
@@ -180,6 +183,9 @@ fetch('/data/conf.json')
     const sortedSingleConfs = singleConfs.sort((a, b) => a.rate - b.rate).slice(0, 20);
 
     renderDiscipline(disciplineCounts);
+
+    const uniqueConfs = Array.from(new Set(singleConfs.map(d => d.conf))).sort();
+    renderScatter(singleConfs, uniqueConfs);
 
     renderPicky(sortedAccRate);
     renderPickySingle(sortedSingleConfs);
@@ -513,6 +519,108 @@ function renderCountry(countryData) {
   })
 }
 
+function renderScatter(dataPoints, uniqueConfs) {
+  const confsSeries = uniqueConfs.map((conf, idx) => {
+    const confsData = dataPoints.filter(d => d.conf === conf)
+        .map(d => [d.rate, d.sub, d.conf, d.discipline, d.name, d.acc]);
+
+    return {
+      name: conf,
+      type: 'scatter',
+      symbolSize: 12,
+      data: confsData,
+      encode: { x: 0, y: 1 },
+      itemStyle: {
+        borderColor: '#333',
+        borderWidth: 1
+      },
+      label: { show: true, position: 'right', formatter: `{@[4]}` },
+      labelLayout: { hideOverlap: true }
+    }
+  });
+
+  const defaultSelected = {};
+  uniqueConfs.forEach(conf => {
+    if (conf === 'ICLR' || conf === 'NeurIPS') {
+      defaultSelected[conf] = true;
+    } else {
+      defaultSelected[conf] = false;
+    }
+  });
+
+  const scatterChart = echarts.init(document.getElementById('viz-scatter'));
+
+  const scatterOption = {
+    tooltip: {
+      trigger: 'item',
+      formatter: function (params) {
+        const rate = params.data[0].toFixed(2) + '%';
+        const sub = params.data[1];
+        const conf = params.data[4];
+        const name = params.data[3];
+        const acc = params.data[5];
+
+
+        return `<b>${conf}</b><br>
+                Discipline: ${name}<br>
+                Accepted: ${acc}<br>
+                Submissions: ${sub}<br>
+                Acceptance Rate: ${rate}`;
+      }
+    },
+    legend: {
+      top: 'top',
+      selected: defaultSelected,
+      textStyle: {
+        fontSize: 14
+      },
+      itemStyle: {
+        borderWidth: 1
+      },
+      inactiveBorderWidth: 1,
+      selector: [{ type: 'inverse', title: 'inv'}],
+      selectorPosition: 'start'
+    },
+    grid: { containLabel: true,  top: 150},
+    xAxis: {
+      name: 'Acceptance Rate',
+      nameTextStyle: {
+        fontSize: 16,
+        fontWeight: 'bold'
+      },
+      axisLabel: {
+        formatter: '{value}%',
+        fontSize: 16,
+        color: '#000'
+      },
+      nameLocation: 'middle',
+      nameGap: 30,
+      type: 'value'
+    },
+    yAxis: {
+      name: 'Number of Submissions (Popularity)',
+      nameLocation: 'middle',
+      nameGap: 70,
+      nameTextStyle: {
+        fontSize: 16,
+        fontWeight: 'bold'
+      },
+      type: 'value',
+      axisLabel: {
+        fontSize: 16,
+        color: '#000'
+      }
+    },
+    series: confsSeries
+  };
+
+  scatterChart.setOption(scatterOption);
+
+  window.addEventListener('resize', function() {
+    scatterChart.resize();
+  })
+}
+
 function renderPicky(accRate) {
   var minPickyValue = Math.min(...accRate.map(item => item.value));
   var maxPickyValue = Math.max(...accRate.map(item => item.value));
@@ -597,8 +705,6 @@ function renderPicky(accRate) {
 function renderPickySingle(pickySingle) {
   var minPickySingleValue = Math.min(...pickySingle.map(item => item.rate));
   var maxPickySingleValue = Math.max(...pickySingle.map(item => item.rate));
-
-  console.log(minPickySingleValue, maxPickySingleValue);
 
   const pickySingleChart = echarts.init(document.getElementById('viz-picky-single'));
   const pickySingleOption = {
