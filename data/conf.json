@@ -12956,6 +12956,45 @@
             "num_sub": 128
           },
           "note": "from https://people.engr.tamu.edu/guofei/sec_conf_stat.htm"
+        },
+        {
+          "year": 2002,
+          "ordinal": "11th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 130
+          },
+          "note": "from https://people.engr.tamu.edu/guofei/sec_conf_stat.htm"
+        },
+        {
+          "year": 2001,
+          "ordinal": "10th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 83
+          },
+          "note": "from https://people.engr.tamu.edu/guofei/sec_conf_stat.htm"
+        },
+        {
+          "year": 1999,
+          "ordinal": "8th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 67
+          },
+          "note": "from https://people.engr.tamu.edu/guofei/sec_conf_stat.htm"
+        },
+        {
+          "year": 1998,
+          "ordinal": "7th",
+          "location": "San Antonio, USA",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 65
+          }
         }
       ]
     },
