@@ -13008,6 +13008,98 @@
       ]
     },
     {
+      "series": "NDSS",
+      "discipline": "Security",
+      "metadata": {
+        "series_full_title": "Network and Distributed System Security Symposium",
+        "main_discipline": [
+          "ML & AI Security", "Attack Prevention & Detection", "Cloud & Edge Computing Security"
+        ],
+        "other_discipline": [
+          "Anti-Malware", "Mobile & Wireless Network Security", "Security for Cyber-Physical Systems", "Web Security"
+        ],
+        "parent_org": "Internet Society",
+        "website": "https://www.ndss-symposium.org/",
+        "proceedings": "https://www.ndss-symposium.org/previous-ndss-symposia/",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "31st",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 140,
+            "num_sub": 682
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "30th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 94,
+            "num_sub": 574
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "29th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 83,
+            "num_sub": 513
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "28th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 87,
+            "num_sub": 573
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "27th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 88,
+            "num_sub": 506
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "26th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 89,
+            "num_sub": 521
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "25th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 71,
+            "num_sub": 331
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "24th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 68,
+            "num_sub": 423
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
