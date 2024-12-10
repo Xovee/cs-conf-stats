@@ -1,5 +1,6 @@
 # TODO List
- 
+
+- [ ] Dec 10, 2024. Add rankings of conferences by the recent five ones, including number of accepted papers, acceptance rate. Including highest and smallest.  
 - [x] Dec 7, 2024. Add conference scatter plot. Finished Dec 7, 2024. 
 - [x] Dec 7, 2024. Add Most Picky Single Conference Chart. Finished Dec 7, 2024. 
 - [ ] Oct 28, 2024. Optimize GitHub README. 
@@ -11,7 +12,7 @@
 - [x] Oct 4, 2024. Let city viz's tooltip having three columns.
 - [x] Aug 3, 2024. Add catalog page for SEO.
 - [ ] Jul 25, 2024. Add the trending stats. Like scatter plot or line plots with positives and negatives. 
-- [ ] Jul 25, 2024. Add some charts for fun
+- [x] Jul 25, 2024. Add some charts for fun
     - [x] frequent cities and countries
     - [x] most picky confs
     - [x] most generous confs
