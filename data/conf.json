@@ -14,6 +14,16 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "39th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 3032,
+            "num_sub": 12957
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "38th",
           "location": "Vancouver, Canada",
@@ -21,8 +31,7 @@
             "track_name": "Research Track", 
             "num_acc": 2342,
             "num_sub": 9862
-          },
-          "_comment": "2025 sub: 12957"
+          }
         },
         {
           "year": 2023,
