@@ -13154,6 +13154,33 @@
             "num_sub": 258
           },
           "note": "From external source"
+        },
+        {
+          "year": 2011,
+          "ordinal": "18th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 258
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "17th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 258
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "16th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 258
+          }
         }
       ]
     },

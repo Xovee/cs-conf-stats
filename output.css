@@ -659,10 +659,6 @@ video {
   display: block;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
 .flex {
   display: flex;
 }
@@ -679,8 +675,8 @@ video {
   height: 2.5rem;
 }
 
-.h-\[1000px\] {
-  height: 1000px;
+.h-\[1200px\] {
+  height: 1200px;
 }
 
 .h-\[450px\] {
@@ -693,10 +689,6 @@ video {
 
 .h-\[800px\] {
   height: 800px;
-}
-
-.h-\[1200px\] {
-  height: 1200px;
 }
 
 .min-h-screen {
@@ -915,7 +907,7 @@ video {
 
 a {
   --tw-text-opacity: 1;
-  color: rgb(0 64 152 / var(--tw-text-opacity));
+  color: rgb(26 13 171 / var(--tw-text-opacity));
 }
 
 a:hover {

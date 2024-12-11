@@ -9,6 +9,9 @@ module.exports = {
         },
         uestc_orange: {
           DEFAULT: '#F08300'
+        },
+        google: {
+          DEFAULT: '#1A0DAB'
         }
       }
     },
