@@ -13198,6 +13198,89 @@
       ]
     },
     {
+      "series": "ASIACRYPT",
+      "discipline": "Cryptology",
+      "metadata": {
+        "series_full_title": "ASIACRYPT: International Conference on the Theory and Application of Cryptology and Information Security",
+        "main_discipline": [
+          "Cryptology"
+        ],
+        "other_discipline": [
+          "Cryptology"
+        ],
+        "parent_org": "International Association for Cryptologic Research",
+        "website": "https://www.iacr.org/meetings/asiacrypt/",
+        "proceedings": "https://link.springer.com/conference/asiacrypt",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "30th",
+          "location": "Kolkata, India",
+          "main_track": {
+            "num_acc": 127,
+            "num_sub": 433
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "29th",
+          "location": "Guangzhou, China",
+          "main_track": {
+            "num_acc": 106,
+            "num_sub": 375
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "28th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 98,
+            "num_sub": 363
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "27th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 95,
+            "num_sub": 332
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "26th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 328
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "25th",
+          "location": "Kobe, Japan",
+          "main_track": {
+            "num_acc": 71,
+            "num_sub": 307
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "24th",
+          "location": "Brisbane, Australia",
+          "main_track": {
+            "num_acc": 65,
+            "num_sub": 234
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
