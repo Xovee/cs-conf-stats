@@ -13105,6 +13105,55 @@
             "num_acc": 68,
             "num_sub": 423
           }
+        },
+        {
+          "year": 2016,
+          "ordinal": "23rd",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 60,
+            "num_sub": 389
+          },
+          "note": "From external source"
+        },
+        {
+          "year": 2015,
+          "ordinal": "22nd",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 51,
+            "num_sub": 302
+          },
+          "note": "From external source"
+        },
+        {
+          "year": 2014,
+          "ordinal": "21st",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 295
+          },
+          "note": "From external source"
+        },
+        {
+          "year": 2013,
+          "ordinal": "20th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 250
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "19th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 258
+          },
+          "note": "From external source"
         }
       ]
     },
