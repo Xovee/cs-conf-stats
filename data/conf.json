@@ -13114,7 +13114,7 @@
             "num_acc": 60,
             "num_sub": 389
           },
-          "note": "From external source"
+          "note": "From two external sources"
         },
         {
           "year": 2015,
@@ -13124,7 +13124,7 @@
             "num_acc": 51,
             "num_sub": 302
           },
-          "note": "From external source"
+          "note": "From two external sources"
         },
         {
           "year": 2014,
@@ -13134,7 +13134,7 @@
             "num_acc": 55,
             "num_sub": 295
           },
-          "note": "From external source"
+          "note": "From two external sources"
         },
         {
           "year": 2013,
@@ -13153,34 +13153,47 @@
             "num_acc": 46,
             "num_sub": 258
           },
-          "note": "From external source"
-        },
-        {
-          "year": 2011,
-          "ordinal": "18th",
-          "location": "San Diego, California, USA",
-          "main_track": {
-            "num_acc": 46,
-            "num_sub": 258
-          }
+          "note": "From two external sources"
         },
         {
           "year": 2010,
           "ordinal": "17th",
           "location": "San Diego, California, USA",
           "main_track": {
-            "num_acc": 46,
-            "num_sub": 258
-          }
+            "num_acc": 24,
+            "num_sub": 156
+          },
+          "note": "From two external sources"
         },
         {
           "year": 2009,
           "ordinal": "16th",
           "location": "San Diego, California, USA",
           "main_track": {
-            "num_acc": 46,
-            "num_sub": 258
-          }
+            "num_acc": 20,
+            "num_sub": 171
+          },
+          "note": "From two external sources"
+        },
+        {
+          "year": 2008,
+          "ordinal": "15th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 118
+          },
+          "note": "From two external sources"
+        },
+        {
+          "year": 2007,
+          "ordinal": "14th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 125
+          },
+          "note": "From two external sources"
         }
       ]
     },
