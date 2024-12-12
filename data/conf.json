@@ -13203,10 +13203,10 @@
       "metadata": {
         "series_full_title": "ASIACRYPT: International Conference on the Theory and Application of Cryptology and Information Security",
         "main_discipline": [
-          "Cryptology"
+          "Cryptographic Protocols", "Post-Quantum Cryptography", "Public-Key Cryptography"
         ],
         "other_discipline": [
-          "Cryptology"
+          "Symmetric Cryptography", "Secure Implementations and Side-Channel Attacks", "Lattice-Based Cryptography", "Blockchain & Cryptographic Applications", "Privacy-Preserving Computation"
         ],
         "parent_org": "International Association for Cryptologic Research",
         "website": "https://www.iacr.org/meetings/asiacrypt/",
@@ -13276,6 +13276,69 @@
           "main_track": {
             "num_acc": 65,
             "num_sub": 234
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "23rd",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 243
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "22nd",
+          "location": "Hanoi, Vietnam",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 240
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "21st",
+          "location": "Auckland, New Zealand",
+          "main_track": {
+            "num_acc": 64,
+            "num_sub": 251
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "20th",
+          "location": "Kaohsiung, Taiwan, China",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 255
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "19th",
+          "location": "Bangalore, India",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 269
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "18th",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 247
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "17th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 266
           }
         }
       ]
