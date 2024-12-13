@@ -28,6 +28,9 @@ fetch('/data/conf.json')
 
     data.conferences.forEach(conference => {
       const series = conference.series;
+      if (series === 'Template') {
+        return;
+      }
       const discipline = conference.discipline;
 
       if (!seriesAccRates[series]) {
@@ -80,6 +83,12 @@ fetch('/data/conf.json')
           seriesAccRates[series].totalAcc += numAcc;
           seriesAccRates[series].totalSub += numSub;
           seriesAccRates[series].numConf += 1;
+
+          if (!seriesAccRates[series].accRates) {
+            seriesAccRates[series].accRates = [];
+          }
+          const accRate = (numAcc / numSub) * 100;
+          seriesAccRates[series].accRates.push(accRate);
         }
 
         // count discipline
@@ -164,10 +173,10 @@ fetch('/data/conf.json')
     renderCountry(countryData);
 
     const aggregatedAccRates = Object.keys(seriesAccRates).map(series => {
-      const {totalAcc, totalSub, numConf} = seriesAccRates[series];
-      const accRate = (totalAcc / totalSub) * 100;
+      const { accRates } = seriesAccRates[series];
+      const avgAccRate = accRates.reduce((sum, rate) => sum + rate, 0) / accRates.length;
 
-      return {name: series, value: accRate};
+      return {name: series, value: avgAccRate };
     });
 
     const aggregatedNumAcc = Object.keys(seriesAccRates).map(series => {
@@ -704,7 +713,7 @@ function renderPicky(accRate) {
 
 function renderPickySingle(pickySingle) {
   var minPickySingleValue = Math.min(...pickySingle.map(item => item.rate));
-  var maxPickySingleValue = Math.max(...pickySingle.map(item => item.rate));
+  var maxPickySingleValueXovee = Math.max(...pickySingle.map(item => item.rate));
 
   const pickySingleChart = echarts.init(document.getElementById('viz-picky-single'));
   const pickySingleOption = {
@@ -713,14 +722,14 @@ function renderPickySingle(pickySingle) {
       axisPointer: { type: 'shadow' },
       formatter: function (params) {
         const d = params.data;
-        return `${d.name}:<br>${d.acc}/${d.sub} (${d.rate.toFixed(2)}%`;
+        return `${d.name}:<br> ${d.rate.toFixed(2)}% (${d.acc}/${d.sub})`;
       }
     },
     grid: { containLabel: true },
     visualMap: {
       type: 'continuous',
       min: minPickySingleValue,
-      max: maxPickySingleValue,
+      max: maxPickySingleValueXovee,
       inRange: {color: ['#004098', '#00409830']},
       dimension: 0,
       // inverse: true,

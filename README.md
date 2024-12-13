@@ -87,4 +87,4 @@ npx tailwindcss -i ./src/input.css -o output.css --watch
 
 # Contribution & Contact
 
-For adding more data, correcting existing data or code, or suggesting something, please open issues, PRs, or contact me at `xovee.xu at gmail.com`. 
+For adding more data, correcting existing data or code, or suggesting something, please open issues, PRs, or contact me at `xovee.xu at gmail.com`.

@@ -1,5 +1,6 @@
 # TODO List
 
+- [ ] Dec 13, 2024. Optimize js for speed. 
 - [ ] Dec 10, 2024. Add rankings of conferences by the recent five ones, including number of accepted papers, acceptance rate. Including highest and smallest.  
 - [x] Dec 7, 2024. Add conference scatter plot. Finished Dec 7, 2024. 
 - [x] Dec 7, 2024. Add Most Picky Single Conference Chart. Finished Dec 7, 2024. 

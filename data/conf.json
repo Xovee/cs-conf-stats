@@ -13340,6 +13340,69 @@
             "num_acc": 40,
             "num_sub": 266
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "16th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 216
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "15th",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 300
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "14th",
+          "location": "Melbourne, Australia",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 196
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "13th",
+          "location": "Kuching, Malaysia",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 223
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "12th",
+          "location": "Shanghai, China",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 314
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "11th",
+          "location": "Chennai, India",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 237
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "10th",
+          "location": "Jeju, Korea",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 208
+          }
         }
       ]
     },
