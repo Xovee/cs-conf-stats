@@ -34,7 +34,6 @@ Number of submissions and number of accepted papers for the following conference
 1. EMNLP: Conference on Empirical Methods in Natural Language Processing.
 1. EUROCRYPT: International Conference on the Theory and Applications of Cryptographic Techniques.
 1. HPCA: IEEE International Symposium on High-Performance Computer Architecture.
-1. ICASSP: IEEE International Conference on Acoustics, Speech, and Signal Processing
 1. ICCV: International Conference on Computer Vision.
 1. ICDE: International Conference on Data Engineering.
 1. ICDM: International Conference on Data Mining.
@@ -46,7 +45,6 @@ Number of submissions and number of accepted papers for the following conference
 1. IEEE S&P: IEEE Symposium on Security and Privacy. 
 1. IJCAI: International Joint Conference on Artificial Intelligence.
 1. INFOCOM: IEEE International Conference on Computer Communications.
-1. INTERSPEECH: Conference of the International Speech Communication Association.
 1. ISCA: International Symposium on Computer Architecture.
 1. MICRO: IEEE/ACM International Symposium on Microarchitecture. 
 1. MobiCom: International Conference on Mobile Computing and Networking.

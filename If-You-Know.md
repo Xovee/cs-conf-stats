@@ -64,10 +64,6 @@ First, we need **ALL** new stats in the upcoming years.
 - EMNLP 2003
 - Before 2002
 
-## ICASSP
-
-- Before 2007
-
 ## ICDE
 
 - ICDE 1990

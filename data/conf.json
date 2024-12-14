@@ -8863,433 +8863,6 @@
       ]
     },
     {
-      "series": "ICASSP",
-      "discipline": "Speech",
-      "metadata": {
-        "series_full_title": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
-        "main_discipline": [
-          "Signal Processing", "Speech", "Audio & Acoustic Signal Processing"
-        ],
-        "other_discipline": [
-          "Image, Video, Multidimensional Signal Processing", "ML for Signal Processing", "Biomedical Signal Processing", "Multimedia Signal Processing", "Sensor Array", "Multichannel Signal Processing"
-        ],
-        "parent_org": "IEEE Signal Processing Society",
-        "website": "https://signalprocessingsociety.org",
-        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings",
-        "second_track_name": "",
-        "note": ""
-      },
-      "yearly_data": [
-        {
-          "year": 2024,
-          "ordinal": "49th",
-          "location": "Seoul, Korea",
-          "main_track": {
-            "num_acc": 2812,
-            "num_sub": 5796
-          }
-        },
-        {
-          "year": 2023,
-          "ordinal": "48th",
-          "location": "Rhodes, Greece",
-          "main_track": {
-            "num_acc": 2765,
-            "num_sub": 6127
-          }
-        },
-        {
-          "year": 2022,
-          "ordinal": "47th",
-          "location": "Singapore, Singapore",
-          "main_track": {
-            "num_acc": 1721,
-            "num_sub": 3859
-          }
-        },
-        {
-          "year": 2021,
-          "ordinal": "46th",
-          "location": "Online, Online",
-          "main_track": {
-            "num_acc": 1734,
-            "num_sub": 3610
-          }
-        },
-        {
-          "year": 2020,
-          "ordinal": "45th",
-          "location": "Online, Online",
-          "main_track": {
-            "num_acc": 1881,
-            "num_sub": 3951
-          }
-        },
-        {
-          "year": 2019,
-          "ordinal": "44th",
-          "location": "Brighton, UK",
-          "main_track": {
-            "num_acc": 1725,
-            "num_sub": 3510
-          }
-        },
-        {
-          "year": 2018,
-          "ordinal": "43rd",
-          "location": "Calgary, Canada",
-          "main_track": {
-            "num_acc": 1406,
-            "num_sub": 2830
-          }
-        },
-        {
-          "year": 2017,
-          "ordinal": "42nd",
-          "location": "New Orleans, USA",
-          "main_track": {
-            "num_acc": 1220,
-            "num_sub": 2518
-          }
-        },
-        {
-          "year": 2016,
-          "ordinal": "41st",
-          "location": "Shanghai, China",
-          "main_track": {
-            "num_acc": 1265,
-            "num_sub": 2682
-          }
-        },
-        {
-          "year": 2015,
-          "ordinal": "40th",
-          "location": "Brisbane, Australia",
-          "main_track": {
-            "num_acc": 1207,
-            "num_sub": 2322
-          }
-        },
-        {
-          "year": 2014,
-          "ordinal": "39th",
-          "location": "Florence, Italy",
-          "main_track": {
-            "num_acc": 1755,
-            "num_sub": 3544
-          }
-        },
-        {
-          "year": 2013,
-          "ordinal": "38th",
-          "location": "Vancouver, Canada",
-          "main_track": {
-            "num_acc": 1786,
-            "num_sub": 3314
-          }
-        },
-        {
-          "year": 2012,
-          "ordinal": "37th",
-          "location": "Kyoto, Japan",
-          "main_track": {
-            "num_acc": 1370,
-            "num_sub": 2670
-          }
-        },
-        {
-          "year": 2011,
-          "ordinal": "36th",
-          "location": "Prague, Czech Republic 🇨🇿",
-          "main_track": {
-            "num_acc": 1438,
-            "num_sub": 2946
-          }
-        },
-        {
-          "year": 2010,
-          "ordinal": "35th",
-          "location": "Dallas, USA",
-          "main_track": {
-            "num_acc": 1356,
-            "num_sub": 2855
-          }
-        },
-        {
-          "year": 2009,
-          "ordinal": "34th",
-          "location": "Taipei, Taiwan, China",
-          "main_track": {
-            "num_acc": 1178,
-            "num_sub": 2633
-          }
-        },
-        {
-          "year": 2008,
-          "ordinal": "33rd",
-          "location": "Las Vegas, USA",
-          "main_track": {
-            "num_acc": 1352,
-            "num_sub": 2729
-          }
-        },
-        {
-          "year": 2007,
-          "ordinal": "32nd",
-          "location": "Honolulu, Hawaii, USA",
-          "main_track": {
-            "num_acc": 1344,
-            "num_sub": 2912
-          }
-        }
-      ]
-    },
-    {
-      "series": "INTERSPEECH",
-      "discipline": "Speech",
-      "metadata": {
-        "series_full_title": "Conference of the International Speech Communication Association",
-        "main_discipline": [
-          "Speech Processing", "Automatic Speech Recognition", "Speech Synthesis", "Text-to-Speech"
-        ],
-        "other_discipline": [
-          "Spoken Language Understanding", "Speaker Recognition & Verification", "Multimodal Processing", "Speech in HCI", "Paralinguistics"
-        ],
-        "parent_org": "ISCA",
-        "website": "https://www.isca-speech.org/page-18313",
-        "proceedings": "https://www.isca-archive.org",
-        "second_track_name": "",
-        "note": "Wow! This conference's data are complete! 🏆"
-      },
-      "yearly_data": [
-        {
-          "year": 2024,
-          "ordinal": "25th",
-          "location": "Kos, Greece",
-          "main_track": {
-            "num_acc": 1029,
-            "num_sub": 2138
-          }
-        },
-        {
-          "year": 2023,
-          "ordinal": "24th",
-          "location": "Dublin, Ireland",
-          "main_track": {
-            "num_acc": 1097,
-            "num_sub": 2207
-          }
-        },
-        {
-          "year": 2022,
-          "ordinal": "23rd",
-          "location": "Incheon, Korea",
-          "main_track": {
-            "num_acc": 1121,
-            "num_sub": 2140
-          }
-        },
-        {
-          "year": 2021,
-          "ordinal": "22nd",
-          "location": "Brno, Czech Republic 🇨🇿",
-          "main_track": {
-            "num_acc": 963,
-            "num_sub": 1990
-          }
-        },
-        {
-          "year": 2020,
-          "ordinal": "21st",
-          "location": "Online, Online",
-          "main_track": {
-            "num_acc": 1021,
-            "num_sub": 2103
-          }
-        },
-        {
-          "year": 2019,
-          "ordinal": "20th",
-          "location": "Graz, Austria",
-          "main_track": {
-            "num_acc": 914,
-            "num_sub": 1855
-          }
-        },
-        {
-          "year": 2018,
-          "ordinal": "19th",
-          "location": "Hyderabad, India",
-          "main_track": {
-            "num_acc": 749,
-            "num_sub": 1668
-          }
-        },
-        {
-          "year": 2017,
-          "ordinal": "18th",
-          "location": "Stockholm, Sweden",
-          "main_track": {
-            "num_acc": 799,
-            "num_sub": 1582
-          }
-        },
-        {
-          "year": 2016,
-          "ordinal": "17th",
-          "location": "San Francisco, California, USA",
-          "main_track": {
-            "num_acc": 779,
-            "num_sub": 1541
-          }
-        },
-        {
-          "year": 2015,
-          "ordinal": "16th",
-          "location": "Dresden, Germany",
-          "main_track": {
-            "num_acc": 746,
-            "num_sub": 1458
-          }
-        },
-        {
-          "year": 2014,
-          "ordinal": "15th",
-          "location": "Singapore, Singapore",
-          "main_track": {
-            "num_acc": 614,
-            "num_sub": 1173
-          }
-        },
-        {
-          "year": 2013,
-          "ordinal": "14th",
-          "location": "Lyon, France",
-          "main_track": {
-            "num_acc": 741,
-            "num_sub": 1425
-          }
-        },
-        {
-          "year": 2012,
-          "ordinal": "13th",
-          "location": "Portland, USA",
-          "main_track": {
-            "num_acc": 678,
-            "num_sub": 1322
-          }
-        },
-        {
-          "year": 2011,
-          "ordinal": "12th",
-          "location": "Florence, Italy",
-          "main_track": {
-            "num_acc": 848,
-            "num_sub": 1438
-          }
-        },
-        {
-          "year": 2010,
-          "ordinal": "11th",
-          "location": "Chiba, Japan",
-          "main_track": {
-            "num_acc": 778,
-            "num_sub": 1324
-          }
-        },
-        {
-          "year": 2009,
-          "ordinal": "10th",
-          "location": "Brighton, UK",
-          "main_track": {
-            "num_acc": 762,
-            "num_sub": 1303
-          }
-        },
-        {
-          "year": 2008,
-          "ordinal": "9th",
-          "location": "Brisbane, Australia",
-          "main_track": {
-            "num_acc": 773,
-            "num_sub": 1292
-          }
-        },
-        {
-          "year": 2007,
-          "ordinal": "8th",
-          "location": "Antwerp, Belgium",
-          "main_track": {
-            "num_acc": 727,
-            "num_sub": 1269
-          }
-        },
-        {
-          "year": 2006,
-          "ordinal": "7th",
-          "location": "Pittsburgh, USA",
-          "main_track": {
-            "num_acc": 700,
-            "num_sub": 1114
-          }
-        },
-        {
-          "year": 2005,
-          "ordinal": "6th",
-          "location": "Lisbon, Portugal",
-          "main_track": {
-            "num_acc": 867,
-            "num_sub": 1379
-          }
-        },
-        {
-          "year": 2004,
-          "ordinal": "5th",
-          "location": "Jeju, Korea",
-          "main_track": {
-            "num_acc": 785,
-            "num_sub": 1101
-          }
-        },
-        {
-          "year": 2003,
-          "ordinal": "4th",
-          "location": "Geneva, Switzerland",
-          "main_track": {
-            "num_acc": 810,
-            "num_sub": 1153
-          }
-        },
-        {
-          "year": 2002,
-          "ordinal": "3rd",
-          "location": "Denver, USA",
-          "main_track": {
-            "num_acc": 675,
-            "num_sub": 941
-          }
-        },
-        {
-          "year": 2001,
-          "ordinal": "2nd",
-          "location": "Aalborg, Denmark",
-          "main_track": {
-            "num_acc": 669,
-            "num_sub": 902
-          }
-        },
-        {
-          "year": 2000,
-          "ordinal": "1st",
-          "location": "Beijing, China",
-          "main_track": {
-            "num_acc": 930,
-            "num_sub": 1200
-          }
-        }
-      ]
-    },
-    {
       "series": "ACL",
       "discipline": "NLP",
       "metadata": {
@@ -13212,7 +12785,7 @@
         "website": "https://www.iacr.org/meetings/asiacrypt/",
         "proceedings": "https://link.springer.com/conference/asiacrypt",
         "second_track_name": "",
-        "note": ""
+        "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
         {
@@ -13402,6 +12975,87 @@
           "main_track": {
             "num_acc": 35,
             "num_sub": 208
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "9th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 188
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "8th",
+          "location": "Queenstown, New Zealand",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 173
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "7th",
+          "location": "Gold Coast, Australia",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 153
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "6th",
+          "location": "Kyoto, Japan",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 140
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "5th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 96
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "4th",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 118
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "3rd",
+          "location": "Kyongju, Korea",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 124
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "2nd",
+          "location": "Queensland, Australia",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 94
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "1st",
+          "location": "Fujiyoshida, Japan",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 97
           }
         }
       ]
