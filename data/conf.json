@@ -12771,10 +12771,10 @@
       ]
     },
     {
-      "series": "ASIACRYPT",
+      "series": "Asiacrypt",
       "discipline": "Cryptology",
       "metadata": {
-        "series_full_title": "ASIACRYPT: International Conference on the Theory and Application of Cryptology and Information Security",
+        "series_full_title": "Asiacrypt: International Conference on the Theory and Application of Cryptology and Information Security",
         "main_discipline": [
           "Cryptographic Protocols", "Post-Quantum Cryptography", "Public-Key Cryptography"
         ],
@@ -13056,6 +13056,89 @@
           "main_track": {
             "num_acc": 39,
             "num_sub": 97
+          }
+        }
+      ]
+    },
+    {
+      "series": "Crypto",
+      "discipline": "Cryptology",
+      "metadata": {
+        "series_full_title": "Crypto: International Cryptology Conference",
+        "main_discipline": [
+          "Foundations of Cryptology", "Cryptographic Algorithms & Constructions", "Cryptanalysis & Security Evaluation"
+        ],
+        "other_discipline": [
+          "Homomorphic Encryption", "Cryptography for Privacy & Anonymity", "Applied Cryptology in Protocols", "Quantum-Safe Cryptographic Designs", "Advanced Encryption Schemes"
+        ],
+        "parent_org": "International Association for Cryptologic Research",
+        "website": "https://www.iacr.org/meetings/crypto/",
+        "proceedings": "https://www.iacr.org/cryptodb/",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "44th",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "num_acc": 143,
+            "num_sub": 519
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "43rd",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "num_acc": 124,
+            "num_sub": 479
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "42nd",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "num_acc": 99,
+            "num_sub": 452
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "41st",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 103,
+            "num_sub": 414
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "40th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 371
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "39th",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "num_acc": 81,
+            "num_sub": 378
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "38th",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "num_acc": 79,
+            "num_sub": 351
           }
         }
       ]
