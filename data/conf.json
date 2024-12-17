@@ -13414,6 +13414,89 @@
       ]
     },
     {
+      "series": "Eurocrypt",
+      "discipline": "Cryptology",
+      "metadata": {
+        "series_full_title": "Eurocrypt: International Conference on the Theory and Applications of Cryptographic Techniques",
+        "main_discipline": [
+          "Theoretical Cryptography", "Secure Multiparty Computation", "Cryptographic Protocol Design"
+        ],
+        "other_discipline": [
+          "Elliptic Curve Cryptography", "Post-Quantum and Quantum Cryptography", "Authentication & Key Management", "Secure Blockchain Protocols", "Cryptography for ML"
+        ],
+        "parent_org": "International Association for Cryptologic Research",
+        "website": "https://www.iacr.org/meetings/eurocrypt/",
+        "proceedings": "https://www.iacr.org/cryptodb/",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "43rd",
+          "location": "Zurich, Switzerland",
+          "main_track": {
+            "num_acc": 105,
+            "num_sub": 482
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "42nd",
+          "location": "Lyon, France",
+          "main_track": {
+            "num_acc": 109,
+            "num_sub": 415
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "41st",
+          "location": "Trondheim, Norway",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 369
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "40th",
+          "location": "Zagreb, Croatia",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 401
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "39th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 81,
+            "num_sub": 375
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "38th",
+          "location": "Darmstadt, Germany",
+          "main_track": {
+            "num_acc": 76,
+            "num_sub": 327
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "37th",
+          "location": "Tel Aviv, Israel",
+          "main_track": {
+            "num_acc": 69,
+            "num_sub": 294
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

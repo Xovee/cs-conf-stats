@@ -49,6 +49,10 @@ First, we need **ALL** new stats in the upcoming years.
 - COLT 1992-1998
 - COLT 1988
 
+## Crypto
+
+- Crypto before 1988
+
 ## CSCW
 
 - CSCW 2019-2024
@@ -193,3 +197,7 @@ First, we need **ALL** new stats in the upcoming years.
 # Conferences that Need to Check
 
 None
+
+# Conference Keywords
+
+If you would like to add or adjust conference keywords, feel free to open PR or contact me at `xovee.xu at gmail.com`.

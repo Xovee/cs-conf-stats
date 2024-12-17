@@ -20,7 +20,7 @@ Number of submissions and number of accepted papers for the following conference
 1. ACL: Annual Meeting of the Association for Computational Linguistics.
 1. ACM MM: ACM International Conference on Multimedia.
 1. AISTATS: International Conference on Artificial Intelligence and Statistics. 
-1. ASIACRYPT: International Conference on the Theory and Application of Cryptology and Information Security.
+1. Asiacrypt: International Conference on the Theory and Application of Cryptology and Information Security.
 1. ASPLOS: ACM International Conference on Architectural Support for Programming Languages and Operating Systems. 
 1. CCS: ACM Conference on Computer and Communications Security.
 1. CHI: ACM Conference on Human Factors in Computing Systems.
@@ -32,7 +32,7 @@ Number of submissions and number of accepted papers for the following conference
 1. ECCV: European Conference on Computer Vision.
 1. ECIR: European Conference on Information Retrieval.
 1. EMNLP: Conference on Empirical Methods in Natural Language Processing.
-1. EUROCRYPT: International Conference on the Theory and Applications of Cryptographic Techniques.
+1. Eurocrypt: International Conference on the Theory and Applications of Cryptographic Techniques.
 1. HPCA: IEEE International Symposium on High-Performance Computer Architecture.
 1. ICCV: International Conference on Computer Vision.
 1. ICDE: International Conference on Data Engineering.
