@@ -130,7 +130,7 @@ fetch('/data/conf.json')
         'Spain': 'ES',
         'Korea': 'KR',
         'Japan': 'JP',
-        'Netherlands': 'NL',
+        'The Netherlands': 'NL',
         'Austria': 'AU',
         'India': 'IN',
         'Ireland': 'IE',
