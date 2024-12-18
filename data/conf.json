@@ -1705,7 +1705,7 @@
         {
           "year": 2016,
           "ordinal": "14th",
-          "location": "Amsterdam, Netherlands",
+          "location": "Amsterdam, The Netherlands",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 415,
@@ -2078,7 +2078,7 @@
         {
           "year": 2024,
           "ordinal": "40th",
-          "location": "Utrecht, Netherlands",
+          "location": "Utrecht, The Netherlands",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 376,
@@ -2518,7 +2518,7 @@
         {
           "year": 2019,
           "ordinal": "38th",
-          "location": "Amsterdam, Netherlands",
+          "location": "Amsterdam, The Netherlands",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 29,
@@ -3552,7 +3552,7 @@
         {
           "year": 2019,
           "ordinal": "45th",
-          "location": "Amsterdam, Netherlands",
+          "location": "Amsterdam, The Netherlands",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 88,
@@ -3961,7 +3961,7 @@
         {
           "year": 2016,
           "ordinal": "24th",
-          "location": "Amsterdam, Netherlands",
+          "location": "Amsterdam, The Netherlands",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 52,
@@ -5318,7 +5318,7 @@
         {
           "year": 2014,
           "ordinal": "36th",
-          "location": "Amsterdam, Netherlands",
+          "location": "Amsterdam, The Netherlands",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 33,
@@ -5717,7 +5717,7 @@
         {
           "year": 2007,
           "ordinal": "30th",
-          "location": "Amsterdam, Netherlands",
+          "location": "Amsterdam, The Netherlands",
           "main_track": {
             "num_acc": 84,
             "num_sub": 490
@@ -6357,7 +6357,7 @@
         {
           "year": 2000,
           "ordinal": "9th",
-          "location": "Amsterdam, Netherlands",
+          "location": "Amsterdam, The Netherlands",
           "main_track": {
             "num_acc": 57,
             "num_sub": 280
@@ -6633,7 +6633,7 @@
         {
           "year": 2000,
           "ordinal": "18th",
-          "location": "The Hague, Netherlands",
+          "location": "The Hague, The Netherlands",
           "main_track": {
             "num_acc": 72,
             "num_sub": 336
@@ -6696,7 +6696,7 @@
         {
           "year": 1993,
           "ordinal": "11th",
-          "location": "Amsterdam, Netherlands",
+          "location": "Amsterdam, The Netherlands",
           "main_track": {
             "num_acc": 62,
             "num_sub": 330
@@ -8728,7 +8728,7 @@
         {
           "year": 2017,
           "ordinal": "15th",
-          "location": "Delft, Netherlands",
+          "location": "Delft, The Netherlands",
           "main_track": {
             "num_acc": 26,
             "num_sub": 152
@@ -9649,7 +9649,7 @@
         {
           "year": 2017,
           "ordinal": "30th",
-          "location": "Amsterdam, Netherlands",
+          "location": "Amsterdam, The Netherlands",
           "main_track": {
             "num_acc": 73,
             "num_sub": 228
@@ -9775,7 +9775,7 @@
         {
           "year": 2001,
           "ordinal": "14th",
-          "location": "Amsterdam, Netherlands",
+          "location": "Amsterdam, The Netherlands",
           "main_track": {
             "num_acc": 40,
             "num_sub": 69
@@ -10024,7 +10024,7 @@
         {
           "year": 2022,
           "ordinal": "38th",
-          "location": "Eindhoven, Netherlands",
+          "location": "Eindhoven, The Netherlands",
           "main_track": {
             "num_acc": 230,
             "num_sub": 712
@@ -10088,7 +10088,7 @@
         {
           "year": 2015,
           "ordinal": "31st",
-          "location": "Amsterdam, Netherlands",
+          "location": "Amsterdam, The Netherlands",
           "main_track": {
             "num_acc": 99,
             "num_sub": 291
@@ -13582,6 +13582,96 @@
           "main_track": {
             "num_acc": 31,
             "num_sub": 163
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "26th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 173
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "25th",
+          "location": "Saint Petersburg, Russia",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 198
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "24th",
+          "location": "Aarhus, Denmark",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 190
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "23rd",
+          "location": "Interlaken, Switzerland",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 206
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "22nd",
+          "location": "Warsaw, Poland",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 156
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "21st",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 122
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "20th",
+          "location": "Innsbruck, Austria",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 155
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "19th",
+          "location": "Bruges, Belgium",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 150
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "18th",
+          "location": "Prague, Czech Republic",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 122
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "17th",
+          "location": "Espoo, Finland",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 161
           }
         }
       ]
