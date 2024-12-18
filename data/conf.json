@@ -1765,7 +1765,7 @@
         {
           "year": 2004,
           "ordinal": "8th",
-          "location": "Prague, Czech Republic 🇨🇿",
+          "location": "Prague, Czech Republic",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 190,
@@ -1947,7 +1947,7 @@
         {
           "year": 2007,
           "ordinal": "11th",
-          "location": "Rio de Janeiro, Brazil 🇧🇷",
+          "location": "Rio de Janeiro, Brazil",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 280,
@@ -2238,7 +2238,7 @@
         {
           "year": 2008,
           "ordinal": "24th",
-          "location": "Cancun, Mexico 🇲🇽",
+          "location": "Cancun, Mexico",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 119,
@@ -2248,7 +2248,7 @@
         {
           "year": 2007,
           "ordinal": "23rd",
-          "location": "Istanbul, Turkey 🇹🇷",
+          "location": "Istanbul, Turkey",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 111,
@@ -2856,7 +2856,7 @@
         {
           "year": 2012,
           "ordinal": "38th",
-          "location": "Istanbul, Turkey 🇹🇷",
+          "location": "Istanbul, Turkey",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 134,
@@ -4810,7 +4810,7 @@
         {
           "year": 2024,
           "ordinal": "17th",
-          "location": "Merida, Mexico 🇲🇽",
+          "location": "Merida, Mexico",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 109,
@@ -5735,7 +5735,7 @@
         {
           "year": 2005,
           "ordinal": "28th",
-          "location": "Salvador, Brazil 🇧🇷",
+          "location": "Salvador, Brazil",
           "main_track": {
             "num_acc": 71,
             "num_sub": 368
@@ -6240,7 +6240,7 @@
         {
           "year": 2013,
           "ordinal": "22nd",
-          "location": "Rio de Janeiro, Brazil 🇧🇷",
+          "location": "Rio de Janeiro, Brazil",
           "main_track": {
             "num_acc": 125,
             "num_sub": 831
@@ -7496,7 +7496,7 @@
         {
           "year": 2009,
           "ordinal": "28th",
-          "location": "Rio de Janeiro, Brazil 🇧🇷",
+          "location": "Rio de Janeiro, Brazil",
           "main_track": {
             "num_acc": 282,
             "num_sub": 1435
@@ -7939,7 +7939,7 @@
         {
           "year": 2016,
           "ordinal": "49th",
-          "location": "Florianopolis, Brazil 🇧🇷",
+          "location": "Florianopolis, Brazil",
           "main_track": {
             "num_acc": 39,
             "num_sub": 231
@@ -8211,7 +8211,7 @@
         {
           "year": 2019,
           "ordinal": "25th",
-          "location": "Los Cabos, Mexico 🇲🇽",
+          "location": "Los Cabos, Mexico",
           "main_track": {
             "num_acc": 55,
             "num_sub": 290
@@ -8274,7 +8274,7 @@
         {
           "year": 2012,
           "ordinal": "18th",
-          "location": "Istanbul, Turkey 🇹🇷",
+          "location": "Istanbul, Turkey",
           "main_track": {
             "num_acc": 32,
             "num_sub": 212
@@ -8674,7 +8674,7 @@
         {
           "year": 2023,
           "ordinal": "21st",
-          "location": "Istanbul, Turkey 🇹🇷",
+          "location": "Istanbul, Turkey",
           "main_track": {
             "num_acc": 35,
             "num_sub": 179
@@ -9056,7 +9056,7 @@
         {
           "year": 2007,
           "ordinal": "45th",
-          "location": "Prague, Czech Republic 🇨🇿",
+          "location": "Prague, Czech Republic",
           "main_track": {
             "num_acc": 131,
             "num_sub": 588
@@ -9348,7 +9348,7 @@
         {
           "year": 2007,
           "ordinal": "12th",
-          "location": "Prague, Czech Republic 🇨🇿",
+          "location": "Prague, Czech Republic",
           "main_track": {
             "num_acc": 109,
             "num_sub": 398
@@ -9413,7 +9413,7 @@
         {
           "year": 2024,
           "ordinal": "17th",
-          "location": "Mexico City, Mexico 🇲🇽",
+          "location": "Mexico City, Mexico",
           "main_track": {
             "num_acc": 565,
             "num_sub": 2434
@@ -13492,6 +13492,96 @@
           "main_track": {
             "num_acc": 69,
             "num_sub": 294
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "36th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 264
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "35th",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 274
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "34th",
+          "location": "Sofia, Bulgaria",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 194
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "33rd",
+          "location": "Copenhagen, Denmark",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 197
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "32nd",
+          "location": "Athens, Greece",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 202
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "31st",
+          "location": "Cambridge, UK",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 195
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "30th",
+          "location": "Tallinn, Estonia",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 167
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "29th",
+          "location": "Nice, France",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 192
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "28th",
+          "location": "Cologne, Germany",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 148
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "27th",
+          "location": "Istanbul, Turkey",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 163
           }
         }
       ]
