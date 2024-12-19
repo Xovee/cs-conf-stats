@@ -105,6 +105,13 @@
                         <option value="KDD">KDD</option>
                     </select>
 
+                    <label for="dropdown-eda" title="Electronic Design Automation">EDA</label>
+                    <select id="dropdown-eda" name="dropdown-eda" class="">
+                        <option value="" disabled selected></option>
+                        <option value="DAC">DAC</option>
+                        <option value="ICCAD">ICCAD</option>
+                    </select>
+
                     <label for="dropdown-hci" title="Human Computer Interaction">HCI</label>
                     <select id="dropdown-hci" name="dropdown-hci" class="">
                         <option value="" disabled selected></option>
@@ -214,6 +221,7 @@
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-crypto" data-conf="Crypto"><span>Crypto</span>: International Cryptology Conference</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-hci" data-conf="CSCW"><span>CSCW</span>: ACM Conference on Computer-Supported Cooperative Work and Social Computing</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-cv" data-conf="CVPR"><span>CVPR</span>: International Conference on Computer Vision and Pattern Recognition</a>.</li>
+            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-eda" data-conf="DAC"><span>DAC</span>: Design Automation Conference</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-cv" data-conf="ECCV"><span>ECCV</span>: European Conference on Computer Vision</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ir" data-conf="ECIR"><span>ECIR</span>: European Conference on Information Retrieval</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-nlp" data-conf="EMNLP"><span>EMNLP</span>: Conference on Empirical Methods in Natural Language Processing</a>.</li>
@@ -279,7 +287,7 @@
 
 <footer class="py-4 container">
     <div class="">
-        <div class="text-base">List of 50 conferences: AAAI, ACL, ACM MM, AISTATS, Asiacrypt, ASPLOS, CCS, CHI, CIKM, COLT, CRYPTO, CSCW, CVPR, ECCV, ECIR, EMNLP, Eurocrypt, HPCA, ICCV, ICDE, ICDM, ICLR, ICME, ICML, ICMR, ICWSM, IEEE S&P, IJCAI, INFOCOM, ISCA, MICRO, MobiCom, MobiSys, NAACL,
+        <div class="text-base">List of 51 conferences: AAAI, ACL, ACM MM, AISTATS, Asiacrypt, ASPLOS, CCS, CHI, CIKM, COLT, CRYPTO, CSCW, CVPR, DAC, ECCV, ECIR, EMNLP, Eurocrypt, HPCA, ICCV, ICDE, ICDM, ICLR, ICME, ICML, ICMR, ICWSM, IEEE S&P, IJCAI, INFOCOM, ISCA, MICRO, MobiCom, MobiSys, NAACL,
             NDSS, NeurIPS, NSDI, PODS, SDM, SenSys, SIGCOMM, SIGIR, KDD, TheWebConf, UAI, UbiComp, UIST, USENIX Security, VLDB, and WSDM.</div>
 
         <p>Created and maintained by <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">Xovee Xu</a> from <a href="https://en.uestc.edu.cn/" target="_blank">UESTC</a>, China. Data are primarily collected from the proceedings, though sometimes from the web, which may contain errors.</p>

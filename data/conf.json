@@ -13731,6 +13731,98 @@
       ]
     },
     {
+      "series": "DAC",
+      "discipline": "EDA",
+      "metadata": {
+        "series_full_title": "Design Automation Conference",
+        "main_discipline": [
+          "Electronic Design Automation", "Chips to Systems"
+        ],
+        "other_discipline": [
+          "Security", "Systems", "Low Power Design", "Chiplet Integration", "Cloud Computing in EDA"
+        ],
+        "parent_org": "ACM, IEEE",
+        "website": "https://www.dac.com/",
+        "proceedings": "https://www.dac.com/About/Conference-Archive",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "61st",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 337,
+            "num_sub": 1545
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "60th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 263,
+            "num_sub": 1156
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "59th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 223,
+            "num_sub": 987
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "58th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 215,
+            "num_sub": 914
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "57th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 228,
+            "num_sub": 984
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "56th",
+          "location": "Las Vegas, USA",
+          "main_track": {
+            "num_acc": 202,
+            "num_sub": 815
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "55th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 168,
+            "num_sub": 691
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "55th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 155,
+            "num_sub": 740
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

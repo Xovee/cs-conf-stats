@@ -29,6 +29,7 @@ Number of submissions and number of accepted papers for the following conference
 1. Crypto: International Cryptology Conference.
 1. CSCW: ACM Conference on Computer-Supported Cooperative Work and Social Computing.
 1. CVPR: International Conference on Computer Vision and Pattern Recognition.
+1. DAC: Design Automation Conference. 
 1. ECCV: European Conference on Computer Vision.
 1. ECIR: European Conference on Information Retrieval.
 1. EMNLP: Conference on Empirical Methods in Natural Language Processing.
