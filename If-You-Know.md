@@ -68,6 +68,11 @@ First, we need **ALL** new stats in the upcoming years.
 - EMNLP 2003
 - Before 2002
 
+## Eurocrypt
+
+- Eurocrypt 1991-1992
+- Before 1990
+
 ## ICDE
 
 - ICDE 1990

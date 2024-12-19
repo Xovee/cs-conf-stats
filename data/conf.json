@@ -13673,6 +13673,60 @@
             "num_acc": 44,
             "num_sub": 161
           }
+        },
+        {
+          "year": 1997,
+          "ordinal": "16th",
+          "location": "Konstanz, Germany",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 104
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "15th",
+          "location": "Saragossa, Spain",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 126
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "14th",
+          "location": "Saint-Malo, France",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 113
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "13th",
+          "location": "Perugia, Italy",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 137
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "12th",
+          "location": "Lofthus, Norway",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 117
+          }
+        },
+        {
+          "year": 1990,
+          "ordinal": "9th",
+          "location": "Aarhus, Denmark",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 85
+          }
         }
       ]
     },
