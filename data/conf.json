@@ -13837,6 +13837,52 @@
             "num_acc": 148,
             "num_sub": 607
           }
+        },
+        {
+          "year": 2009,
+          "ordinal": "46th",
+          "location": "",
+          "main_track": {
+            "num_acc": 150,
+            "num_sub": 682
+          },
+          "note": "Estimated acc, ~22%"
+        },
+        {
+          "year": 2008,
+          "ordinal": "45th",
+          "location": "Anaheim, California, USA",
+          "main_track": {
+            "num_acc": 147,
+            "num_sub": 639
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "44th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 152,
+            "num_sub": 659
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "43rd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 210,
+            "num_sub": 865
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "42nd",
+          "location": "Anaheim, California, USA",
+          "main_track": {
+            "num_acc": 154,
+            "num_sub": 735
+          }
         }
       ]
     },
