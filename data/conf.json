@@ -13883,6 +13883,51 @@
             "num_acc": 154,
             "num_sub": 735
           }
+        },
+        {
+          "year": 2004,
+          "ordinal": "41st",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 163,
+            "num_sub": 785
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "40th",
+          "location": "Anaheim, California, USA",
+          "main_track": {
+            "num_acc": 152,
+            "num_sub": 628
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "39th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 147,
+            "num_sub": 491
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "36th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 154,
+            "num_sub": 451
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "34th",
+          "location": "Anaheim, California, USA",
+          "main_track": {
+            "num_acc": 139,
+            "num_sub": 400
+          }
         }
       ]
     },
