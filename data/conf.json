@@ -14015,6 +14015,90 @@
       ]
     },
     {
+      "series": "ICCAD",
+      "discipline": "EDA",
+      "metadata": {
+        "series_full_title": "IEEE/ACM International Conference on Computer Aided Design",
+        "main_discipline": [
+          "Electronic Design Automation", "Hardware & System Design Optimization"
+        ],
+        "other_discipline": [
+          "Formal Methods & Verification", "Embedded Systems & IoT", "Design for Manufacturability & Yield", "ML in EDA", "Cyber-Physical Systems & Security"
+        ],
+        "parent_org": "IEEE, ACM",
+        "website": "https://www.iccad.com",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000151/all-proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "43rd",
+          "location": "Newark, USA",
+          "main_track": {
+            "num_acc": 195,
+            "num_sub": 802
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "42nd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 172,
+            "num_sub": 750
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "41st",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 132,
+            "num_sub": 595
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "40th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 121,
+            "num_sub": 514
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "39th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 127,
+            "num_sub": 470
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "38th",
+          "location": "Westminster, USA",
+          "main_track": {
+            "num_acc": 94,
+            "num_sub": 394
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "37th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 98,
+            "num_sub": 400
+          },
+          "note": "Approximately 400"
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
