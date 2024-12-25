@@ -3889,6 +3889,16 @@
       },
       "yearly_data": [
         {
+          "year": 2024,
+          "ordinal": "32nd",
+          "location": "New York City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 1150,
+            "num_sub": 4385
+          }
+        },
+        {
           "year": 2023,
           "ordinal": "31st",
           "location": "Ottawa, Canada",
