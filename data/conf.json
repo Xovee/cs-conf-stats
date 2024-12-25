@@ -14095,6 +14095,69 @@
             "num_sub": 400
           },
           "note": "Approximately 400"
+        },
+        {
+          "year": 2017,
+          "ordinal": "36th",
+          "location": "Irvine, California, USA",
+          "main_track": {
+            "num_acc": 105,
+            "num_sub": 399
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "35th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 97,
+            "num_sub": 409
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "34th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 94,
+            "num_sub": 382
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "33rd",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 77,
+            "num_sub": 304
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "32nd",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 92,
+            "num_sub": 354
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "31st",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 82,
+            "num_sub": 338
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "30th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 106,
+            "num_sub": 349
+          }
         }
       ]
     },
