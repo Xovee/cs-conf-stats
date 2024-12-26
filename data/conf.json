@@ -4059,6 +4059,21 @@
           }
         },
         {
+          "year": 2010,
+          "ordinal": "18th",
+          "location": "Firenze, Italy",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 61,
+            "num_sub": 357
+          },
+          "second_track": {
+            "track_name": "Short Paper Track",
+            "num_acc": 157,
+            "num_sub": 490
+          }
+        },
+        {
           "year": 2009,
           "ordinal": "17th",
           "location": "Beijing, China",

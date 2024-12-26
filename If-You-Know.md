@@ -17,7 +17,6 @@ First, we need **ALL** new stats in the upcoming years.
 
 - Before 1997
 - ACM MM 1998-2001
-- ACM MM 2010
 
 ## AISTATS
 
