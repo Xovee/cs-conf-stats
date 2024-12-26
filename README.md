@@ -85,6 +85,10 @@ Using `tailwindcss` and `npm`:
 npx tailwindcss -i ./src/input.css -o output.css --watch
 ```
 
+## Discuss
+
+Should I include second-tier conferences? If you have some thoughts, you can share with me :)
+
 # Contribution & Contact
 
 For adding more data, correcting existing data or code, or suggesting something, please open issues, PRs, or contact me at `xovee.xu at gmail.com`.
