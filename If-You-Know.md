@@ -83,6 +83,10 @@ First, we need **ALL** new stats in the upcoming years.
 - Eurocrypt 1991-1992
 - Before 1990
 
+## ICCAD
+
+- ICCAD 2006
+
 ## ICDE
 
 - ICDE 1990

@@ -14219,6 +14219,60 @@
             "num_acc": 139,
             "num_sub": 510
           }
+        },
+        {
+          "year": 2005,
+          "ordinal": "24th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 128,
+            "num_sub": 540
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "23rd",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 127,
+            "num_sub": 520
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "22nd",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 129,
+            "num_sub": 490
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "21st",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 105,
+            "num_sub": 381
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "20th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 92,
+            "num_sub": 301
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "19th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 86,
+            "num_sub": 265
+          }
         }
       ]
     },
