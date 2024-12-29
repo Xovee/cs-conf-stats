@@ -14059,7 +14059,7 @@
       "yearly_data": [
         {
           "year": 2024,
-          "ordinal": "43rd",
+          "ordinal": "42nd",
           "location": "Newark, USA",
           "main_track": {
             "num_acc": 195,
@@ -14068,7 +14068,7 @@
         },
         {
           "year": 2023,
-          "ordinal": "42nd",
+          "ordinal": "41st",
           "location": "San Francisco, California, USA",
           "main_track": {
             "num_acc": 172,
@@ -14077,7 +14077,7 @@
         },
         {
           "year": 2022,
-          "ordinal": "41st",
+          "ordinal": "40th",
           "location": "San Diego, California, USA",
           "main_track": {
             "num_acc": 132,
@@ -14086,7 +14086,7 @@
         },
         {
           "year": 2021,
-          "ordinal": "40th",
+          "ordinal": "39th",
           "location": "Online, Online",
           "main_track": {
             "num_acc": 121,
@@ -14095,7 +14095,7 @@
         },
         {
           "year": 2020,
-          "ordinal": "39th",
+          "ordinal": "38th",
           "location": "Online, Online",
           "main_track": {
             "num_acc": 127,
@@ -14104,7 +14104,7 @@
         },
         {
           "year": 2019,
-          "ordinal": "38th",
+          "ordinal": "37th",
           "location": "Westminster, USA",
           "main_track": {
             "num_acc": 94,
@@ -14113,7 +14113,7 @@
         },
         {
           "year": 2018,
-          "ordinal": "37th",
+          "ordinal": "36th",
           "location": "San Diego, California, USA",
           "main_track": {
             "num_acc": 98,
@@ -14123,7 +14123,7 @@
         },
         {
           "year": 2017,
-          "ordinal": "36th",
+          "ordinal": "35th",
           "location": "Irvine, California, USA",
           "main_track": {
             "num_acc": 105,
@@ -14132,7 +14132,7 @@
         },
         {
           "year": 2016,
-          "ordinal": "35th",
+          "ordinal": "34th",
           "location": "Austin, USA",
           "main_track": {
             "num_acc": 97,
@@ -14141,7 +14141,7 @@
         },
         {
           "year": 2015,
-          "ordinal": "34th",
+          "ordinal": "33rd",
           "location": "Austin, USA",
           "main_track": {
             "num_acc": 94,
@@ -14150,7 +14150,7 @@
         },
         {
           "year": 2014,
-          "ordinal": "33rd",
+          "ordinal": "32nd",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 77,
@@ -14159,7 +14159,7 @@
         },
         {
           "year": 2013,
-          "ordinal": "32nd",
+          "ordinal": "31st",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 92,
@@ -14168,7 +14168,7 @@
         },
         {
           "year": 2012,
-          "ordinal": "31st",
+          "ordinal": "30th",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 82,
@@ -14177,7 +14177,7 @@
         },
         {
           "year": 2011,
-          "ordinal": "30th",
+          "ordinal": "29th",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 106,
@@ -14186,7 +14186,7 @@
         },
         {
           "year": 2010,
-          "ordinal": "29th",
+          "ordinal": "28th",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 108,
@@ -14195,7 +14195,7 @@
         },
         {
           "year": 2009,
-          "ordinal": "28th",
+          "ordinal": "27th",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 115,
@@ -14204,7 +14204,7 @@
         },
         {
           "year": 2008,
-          "ordinal": "27th",
+          "ordinal": "26th",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 122,
@@ -14213,7 +14213,7 @@
         },
         {
           "year": 2007,
-          "ordinal": "26th",
+          "ordinal": "25th",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 139,
@@ -14222,7 +14222,7 @@
         },
         {
           "year": 2005,
-          "ordinal": "24th",
+          "ordinal": "23rd",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 128,
@@ -14231,7 +14231,7 @@
         },
         {
           "year": 2004,
-          "ordinal": "23rd",
+          "ordinal": "22nd",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 127,
@@ -14240,7 +14240,7 @@
         },
         {
           "year": 2003,
-          "ordinal": "22nd",
+          "ordinal": "21st",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 129,
@@ -14249,7 +14249,7 @@
         },
         {
           "year": 2002,
-          "ordinal": "21st",
+          "ordinal": "20th",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 105,
@@ -14258,7 +14258,7 @@
         },
         {
           "year": 2001,
-          "ordinal": "20th",
+          "ordinal": "19th",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 92,
@@ -14267,12 +14267,49 @@
         },
         {
           "year": 2000,
-          "ordinal": "19th",
+          "ordinal": "18th",
           "location": "San Jose, California, USA",
           "main_track": {
             "num_acc": 86,
             "num_sub": 265
           }
+        },
+        {
+          "year": 1999,
+          "ordinal": "17th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 102,
+            "num_sub": 318
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "16th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 102,
+            "num_sub": 345
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "13th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 108,
+            "num_sub": 350
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "11th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 129,
+            "num_sub": 420
+          },
+          "note": "Over 420 papers"
         }
       ]
     },

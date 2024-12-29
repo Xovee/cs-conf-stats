@@ -86,6 +86,9 @@ First, we need **ALL** new stats in the upcoming years.
 ## ICCAD
 
 - ICCAD 2006
+- ICCAD 1996-1997
+- ICCAD 1994
+- Before 1993
 
 ## ICDE
 
