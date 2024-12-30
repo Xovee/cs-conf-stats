@@ -14341,6 +14341,89 @@
           }
         }
       ]
+    },
+    {
+      "series": "EMSOFT",
+      "discipline": "ERTS",
+      "metadata": {
+        "series_full_title": "International Conference on Embedded Software",
+        "main_discipline": [
+          "Embedded Software Design", "Real-Time Systems", "Cyber-Physical Systems"
+        ],
+        "other_discipline": [
+          "Formal Methods for Embedded Software", "Model-based Design", "System-Level Design & Optimization", "Energy-Efficient Computing", "Embedded System Security"
+        ],
+        "parent_org": "ACM SIGBED",
+        "website": "https://sigbed.org/",
+        "proceedings": "https://dl.acm.org/conference/esweek/proceedings",
+        "second_track_name": "",
+        "note": "EMSOFT is part of the ESWEEK, the annual highlight event of the embedded systems community."
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "23rd",
+          "location": "Hamburg, Germany",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 90
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "22nd",
+          "location": "Shanghai, China",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 118
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "21st",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 111
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "20th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 138
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "18th",
+          "location": "Turin, Italy",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 111
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "16th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 97
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "15th",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 85
+          }
+        }
+      ]
     }
   ]
 }

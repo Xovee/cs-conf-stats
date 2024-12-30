@@ -78,6 +78,11 @@ First, we need **ALL** new stats in the upcoming years.
 - EMNLP 2003
 - Before 2002
 
+## EMSOFT
+
+- EMSOFT 2019
+- EMSOFT 2017
+
 ## Eurocrypt
 
 - Eurocrypt 1991-1992
