@@ -1057,7 +1057,7 @@
         {
           "year": 2013,
           "ordinal": "27th",
-          "location": "Lake Tahoe, USA",
+          "location": "Lake Tahoe, California, USA",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 360,
@@ -1067,7 +1067,7 @@
         {
           "year": 2012,
           "ordinal": "26th",
-          "location": "Lake Tahoe, USA",
+          "location": "Lake Tahoe, California, USA",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 370,
@@ -14315,7 +14315,7 @@
     },
     {
       "series": "EMSOFT",
-      "discipline": "ERTS",
+      "discipline": "EmbSys",
       "metadata": {
         "series_full_title": "International Conference on Embedded Software",
         "main_discipline": [
@@ -14328,9 +14328,18 @@
         "website": "https://sigbed.org/",
         "proceedings": "https://dl.acm.org/conference/esweek/proceedings",
         "second_track_name": "",
-        "note": "EMSOFT is part of the ESWEEK, the annual highlight event of the embedded systems community."
+        "note": "EMSOFT is part of the ESWEEK, the annual highlight event of the embedded systems community. EMSOFT '01 is fully invited paper-based, while half of EMSOFT '02 papers are invited. We did not count them here."
       },
       "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "24th",
+          "location": "Raleigh, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 129
+          }
+        },
         {
           "year": 2023,
           "ordinal": "23rd",
@@ -14437,6 +14446,69 @@
           "main_track": {
             "num_acc": 29,
             "num_sub": 89
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "9th",
+          "location": "Grenoble, France",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 106
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "8th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 110
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "7th",
+          "location": "Salzburg, Austria",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 131
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "6th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 94
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "5th",
+          "location": "Jersey City, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 88
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "4th",
+          "location": "Pisa, Italy",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 87
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "3rd",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 60
           }
         }
       ]
