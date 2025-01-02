@@ -14328,7 +14328,7 @@
         "website": "https://sigbed.org/",
         "proceedings": "https://dl.acm.org/conference/esweek/proceedings",
         "second_track_name": "",
-        "note": "EMSOFT is part of the ESWEEK, the annual highlight event of the embedded systems community. EMSOFT '01 is fully invited paper-based, while half of EMSOFT '02 papers are invited. We did not count them here."
+        "note": "EMSOFT is part of the ESWEEK, the annual highlight event of the embedded systems community. EMSOFT '01 is fully invited paper-based, while half of EMSOFT '02 papers are invited. We did not count these two here."
       },
       "yearly_data": [
         {
@@ -14509,6 +14509,89 @@
           "main_track": {
             "num_acc": 20,
             "num_sub": 60
+          }
+        }
+      ]
+    },
+    {
+      "series": "CASES",
+      "discipline": "EmbSys",
+      "metadata": {
+        "series_full_title": "International Conference on Compilers, Architectures, and Synthesis for Embedded Systems",
+        "main_discipline": [
+          "Embedded Systems Design", "Compilers & Code Generation", "System-Level Synthesis & Optimization"
+        ],
+        "other_discipline": [
+          "Hardware/Software Co-Design", "Real-Time Systems", "Low-Power Design", "Security in Embedded Systems", "Application-specific Arch"
+        ],
+        "parent_org": "ACM, IEEE",
+        "website": "https://esweek.org/cases/",
+        "proceedings": "https://dl.acm.org/conference/esweek/proceedings",
+        "second_track_name": "",
+        "note": "CASES conference is part of the ESWEEK."
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "19th",
+          "location": "Raleigh, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 103
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "18th",
+          "location": "Hamburg, Germany",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 77
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "17th",
+          "location": "Shanghai, China",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 100
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "16th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 11,
+            "num_sub": 44
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "13th",
+          "location": "Turin, Italy",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 74
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "11th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 63
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "10th",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 49
           }
         }
       ]
