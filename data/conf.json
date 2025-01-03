@@ -14533,7 +14533,7 @@
       "yearly_data": [
         {
           "year": 2024,
-          "ordinal": "19th",
+          "ordinal": "27th",
           "location": "Raleigh, USA",
           "main_track": {
             "num_acc": 29,
@@ -14542,7 +14542,7 @@
         },
         {
           "year": 2023,
-          "ordinal": "18th",
+          "ordinal": "26th",
           "location": "Hamburg, Germany",
           "main_track": {
             "num_acc": 21,
@@ -14551,7 +14551,7 @@
         },
         {
           "year": 2022,
-          "ordinal": "17th",
+          "ordinal": "25th",
           "location": "Shanghai, China",
           "main_track": {
             "num_acc": 24,
@@ -14560,7 +14560,7 @@
         },
         {
           "year": 2021,
-          "ordinal": "16th",
+          "ordinal": "24th",
           "location": "Online, Online",
           "main_track": {
             "num_acc": 11,
@@ -14569,7 +14569,7 @@
         },
         {
           "year": 2018,
-          "ordinal": "13th",
+          "ordinal": "21st",
           "location": "Turin, Italy",
           "main_track": {
             "num_acc": 18,
@@ -14578,7 +14578,7 @@
         },
         {
           "year": 2016,
-          "ordinal": "11th",
+          "ordinal": "19th",
           "location": "Pittsburgh, USA",
           "main_track": {
             "num_acc": 18,
@@ -14587,11 +14587,56 @@
         },
         {
           "year": 2015,
-          "ordinal": "10th",
+          "ordinal": "18th",
           "location": "Amsterdam, The Netherlands",
           "main_track": {
             "num_acc": 18,
             "num_sub": 49
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "17th",
+          "location": "New Delhi, India",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 80
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "16th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 68
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "15th",
+          "location": "Tampere, Finland",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 60
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "14th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 61
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "13th",
+          "location": "Scottsdale, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 57
           }
         }
       ]
