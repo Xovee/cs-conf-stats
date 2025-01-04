@@ -14638,6 +14638,52 @@
             "num_acc": 22,
             "num_sub": 57
           }
+        },
+        {
+          "year": 2009,
+          "ordinal": "12th",
+          "location": "Grenoble, France",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 72
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "11th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 64
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "10th",
+          "location": "Salzburg, Austria",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 77
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "9th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 100
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "8th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 100
+          },
+          "note": "Over 100 submitted"
         }
       ]
     },
