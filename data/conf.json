@@ -14725,6 +14725,89 @@
       ]
     },
     {
+      "series": "CODES+ISSS",
+      "discipline": "EmbSys",
+      "metadata": {
+        "series_full_title": "International Conference on Hardware/Software Codesign and System Synthesis",
+        "main_discipline": [
+          "Embedded Systems Design", "Hardware/Software Co-design", "Cyber-physical Systems", "IoT"
+        ],
+        "other_discipline": [
+          "System-level Design", "Domain/Application-specific Design", "System Architecture", "Simulation, Test, Validation, & Verification", "Embedded Software", "Safety, Security, & Reliability", "Power-aware Systems", "Embedded Machine Learning", "Industrial Practices & Case Studies"
+        ],
+        "parent_org": "ACM, IEEE",
+        "website": "https://esweek.org/codes-isss/",
+        "proceedings": "https://dl.acm.org/conference/esweek/proceedings",
+        "second_track_name": "",
+        "note": "CODES+ISSS is part of the ESWEEK."
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "21st",
+          "location": "Hamburg, Germany",
+          "main_track": {
+            "num_acc": 17,
+            "num_sub": 71
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "19th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 70
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "16th",
+          "location": "Turin, Italy",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 86
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "13th",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 79
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "12th",
+          "location": "New Delhi, India",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 117
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "11th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 111
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "10th",
+          "location": "Tampere, Finland",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 163
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

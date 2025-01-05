@@ -26,6 +26,7 @@ Number of submissions and number of accepted papers for the following conference
 1. CASES: International Conference on Compilers, Architectures, and Synthesis for Embedded Systems.
 1. CHI: ACM Conference on Human Factors in Computing Systems.
 1. CIKM: ACM International Conference on Information and Knowledge Management.
+1. CODES+ISSS: International Conference on Hardware/Software Codesign and System Synthesis.
 1. COLT: Annual Conference on Computational Learning Theory.
 1. Crypto: International Cryptology Conference.
 1. CSCW: ACM Conference on Computer-Supported Cooperative Work and Social Computing.
