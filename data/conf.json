@@ -14684,6 +14684,43 @@
             "num_sub": 100
           },
           "note": "Over 100 submitted"
+        },
+        {
+          "year": 2004,
+          "ordinal": "7th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 102
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "6th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 162
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "5th",
+          "location": "Grenoble, France",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 118
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "4th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 80
+          },
+          "note": "About 80 paper submissions."
         }
       ]
     },
