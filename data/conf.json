@@ -14743,12 +14743,30 @@
       },
       "yearly_data": [
         {
+          "year": 2024,
+          "ordinal": "22nd",
+          "location": "Raleigh, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 102
+          }
+        },
+        {
           "year": 2023,
           "ordinal": "21st",
           "location": "Hamburg, Germany",
           "main_track": {
             "num_acc": 17,
             "num_sub": 71
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "20th",
+          "location": "Shanghai, China",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 127
           }
         },
         {
@@ -14767,6 +14785,15 @@
           "main_track": {
             "num_acc": 22,
             "num_sub": 86
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "14th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 80
           }
         },
         {
