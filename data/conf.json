@@ -14916,6 +14916,90 @@
       ]
     },
     {
+      "series": "ECRTS",
+      "discipline": "RTS",
+      "metadata": {
+        "series_full_title": "Euromicro Conference on Real-Time Systems",
+        "main_discipline": [
+          "Real-Time Systems"
+        ],
+        "other_discipline": [
+          "Embedded/RT Systems Design", "Scheduling Design & Analysis", "WCET Analysis", "Power, Energy and/or Thermal-aware RTS", "RT operating Systems & Middleware", "Network/System-on-Chips", "Mixed Criticality Design & Assurance", "Wireless Sensor Networks", "RT Applications", "Tools & Compilers for Embedded Systems"
+        ],
+        "parent_org": "Euromicro Technical Committee on Real-Time Systems",
+        "website": "http://archives.ecrts.org/index4da6.html?id=org",
+        "proceedings": "https://drops.dagstuhl.de/entities/conference/ECRTS",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "36th",
+          "location": "Lille, France",
+          "main_track": {
+            "num_acc": 17,
+            "num_sub": 62
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "35th",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 65
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "34th",
+          "location": "Modena, Italy",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 52
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "33rd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 16,
+            "num_sub": 84
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "32nd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 71
+          },
+          "note": "Acc is 34%, accepted is 24, the calculated sub is ~71."
+        },
+        {
+          "year": 2019,
+          "ordinal": "31st",
+          "location": "Stuttgart, Germany",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 80
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "30th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 78
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
