@@ -14996,6 +14996,60 @@
             "num_acc": 26,
             "num_sub": 78
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "29th",
+          "location": "Dubrovnik, Croatia",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 79
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "28th",
+          "location": "Toulouse, France",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 92
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "27th",
+          "location": "Lund, Sweden",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 80
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "26th",
+          "location": "Madrid, Spain",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 114
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "25th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 99
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "24th",
+          "location": "Pisa, Italy",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 111
+          }
         }
       ]
     },
