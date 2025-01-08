@@ -93,9 +93,6 @@ npx tailwindcss -i ./src/input.css -o output.css --watch
 
 Should I include second-tier conferences? If you have some thoughts, you can share with me :)
 
-## Like the Site?
-
-[Consider support me with a coffee ☕️](https://ko-fi.com/xovee)!
 
 # Contribution & Contact
 

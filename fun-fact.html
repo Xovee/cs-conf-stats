@@ -114,7 +114,7 @@
 
         <p>If you like this site, consider <a href="https://ko-fi.com/xovee" target="_blank">buy me a coffee ☕️</a>!</p>
 
-        <p>&copy; 2024 Xovee Xu <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">https://www.xoveexu.com</a></p>
+        <p>&copy; 2024-<span id="current-year"></span> Xovee Xu <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">https://www.xoveexu.com</a></p>
     </div>
 </footer>
 
@@ -131,6 +131,11 @@
   gtag('js', new Date());
 
   gtag('config', 'G-YKKPH99HSJ');
+</script>
+
+<script>
+    const currentYear = new Date().getFullYear();
+    document.getElementById("current-year").textContent = currentYear;
 </script>
 
 </body>
