@@ -15123,6 +15123,88 @@
             "num_acc": 29,
             "num_sub": 115
           }
+        },
+        {
+          "year": 2003,
+          "ordinal": "15th",
+          "location": "Porto, Portugal",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 103
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "14th",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 92
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "13th",
+          "location": "Delft, The Netherlands",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 62
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "12th",
+          "location": "Stockholm, Sweden",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 70
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "11th",
+          "location": "York, UK",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 88
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "8th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 43
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "9th",
+          "location": "Toledo, Spain",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 65
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "8th",
+          "location": "L'Aquila, Italy",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 77
+          }
+        },
+        {
+          "year": 1992,
+          "ordinal": "4th",
+          "location": "Athen, Greece",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 60
+          },
+          "note": "Well over sixty extended abstracts were submitted..."
         }
       ]
     },
