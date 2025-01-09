@@ -290,14 +290,15 @@
             <dt>Where you get the data?</dt>
             <dd>Mostly from the conference proceedings. Otherwise, I searched the web.</dd>
             <dt>Are the data accurate?</dt>
-            <dd>Most should be correct when they are from the proceedings. Otherwise, I will search the web and try to find at least two sources both validating the data, and if not, I didn't include it and record it <a href="https://github.com/Xovee/cs-conf-stats/blob/879633df100020a104e927c9fe1e692948df7cf8/If-You-Know.md" target="_blank">here</a>. Errors may exist, corrections are welcome if you find some.</dd>
+            <dd>Most should be correct when they are from the proceedings. Otherwise, I will search the web and try to find at least two sources both validating the data, and if not, I will exclude that event and record it <a href="https://github.com/Xovee/cs-conf-stats/blob/879633df100020a104e927c9fe1e692948df7cf8/If-You-Know.md" target="_blank">here</a>. Errors may exist, corrections are welcome if you find some.</dd>
             <dt>Are the data complete?</dt>
             <dd>No. There are many conference, and some of them have more than 30+ years of history. I am continually working on that. I try to make sure there are at least five years of recent data. Contributions are welcome.</dd>
             <dt>What if the conference has multiple tracks?</dt>
             <dd>Mainly I include the <i>Research Track</i>. If there is another major tracks that have many submissions each year,
                 I will include it as a second track, such as the <i>Short Paper Track</i> and <i>Industrial/Applied Track</i>.
-                Moreover, when I have the data, the "number of submission" means the number of reviewed papers, i.e., those desk-rejected or withdrawal papers are not counted.
-                When the acceptance rate is not changed significantly, I will include short papers if the current event accepts both full and short/poster papers; otherwise only full-length papers.
+                Moreover, when I have the data, the "number of submission" means the number of reviewed papers, i.e., those desk-rejected or early-withdrawal papers are not counted.
+                For an event that has both long and short/poster papers (under a single track), if the number of full+short is comparable to this event's history number of accepted, I will count the short/poster papers.
+                For example, if Conference X 2001 has 20 full papers, and Conference X 2002 has 10 full papers and 10 short papers, I will count the short papers. But if Conference X 2001 has 20 full papers, and Conference X 2002 has 20 full papers and 30 short papers, I will not count the short papers.
             </dd>
             <dt>What about those Journal-like Conferences?</dt>
             <dd>More and more conferences adopted a journal-like mechanism: several submission opportunities a year, the proceedings are appeared in a journal, etc. Examples include <i>VLDB</i>, <i>ACL</i>, and <i>CSCW</i>. Many of them did not report the number of submissions or acceptance rate data. In such cases, I will only include the valid (old) stats.</dd>
@@ -319,7 +320,10 @@
         <div class="text-base">List of 56 conferences: AAAI, ACL, ACM MM, AISTATS, Asiacrypt, ASPLOS, CASES, CCS, CHI, CIKM, CODES+ISSS, COLT, CRYPTO, CSCW, CVPR, DAC, ECCV, ECIR, ECRTS, EMNLP, EMSOFT, Eurocrypt, HPCA, ICCAD, ICCV, ICDE, ICDM, ICLR, ICME, ICML, ICMR, ICWSM, IEEE S&P, IJCAI, INFOCOM, ISCA, MICRO, MobiCom, MobiSys, NAACL,
             NDSS, NeurIPS, NSDI, PODS, SDM, SenSys, SIGCOMM, SIGIR, KDD, TheWebConf, UAI, UbiComp, UIST, USENIX Security, VLDB, and WSDM.</div>
 
-        <p>Created and maintained by <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">Xovee Xu</a> from <a href="https://en.uestc.edu.cn/" target="_blank">UESTC</a>, China. Data are primarily collected from the proceedings, though sometimes from the web, which may contain errors.</p>
+        <p>
+            Created and maintained by <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">Xovee Xu</a> from <a href="https://en.uestc.edu.cn/" target="_blank">UESTC</a>, China. If you like the site, consider <a href="https://ko-fi.com/xovee" target="_blank">buy me a coffee</a>! Data are primarily collected from the proceedings, though sometimes from the web, which may contain errors.
+
+        </p>
 
         <p>Addition, correction, feature suggestion are welcomed: please open issues or PRs at the  <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub repo</a> (give me star!).</p>
 
