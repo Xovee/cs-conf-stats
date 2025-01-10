@@ -15209,6 +15209,89 @@
       ]
     },
     {
+      "series": "RTAS",
+      "discipline": "RTS",
+      "metadata": {
+        "series_full_title": "IEEE Real-Time and Embedded Technology and Applications Symposium",
+        "main_discipline": [
+          "Time-Sensitive Systems", "Real-Time OS", "Cyber-Physical Systems"
+        ],
+        "other_discipline": [
+          "Time-Sensitive Appli.", "RT & Embed OS", "Hypervisors & Runtime Frameworks", "Hardware Arch, Memory Hierarchies", "FPGA", "GPU", "Accelerators", "Time-Sensitive Networks", "IoT Infrast.", "Microservice Technol.", "Cloud & Edge Computing", "RT AI & ML", "Appli. Profiling", "WCET Analysis", "Compilers", "Scheduling & Resource Allocation", "System-level Optimization", "Co-design Tech.", "Design Space Exploration", "Verification & Validation"
+        ],
+        "parent_org": "IEEE, IEEE CompSoc, IEEE CompSoc TCRTS",
+        "website": "https://www.rtas.org/",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1003170/all-proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "30th",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 124
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "29th",
+          "location": "San Antonio, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 93
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "28th",
+          "location": "Milan, Italy",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 91
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "27th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 114
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "26th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 107
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "25th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 116
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "24th",
+          "location": "Porto, Portugal",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 79
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
