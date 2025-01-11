@@ -15288,6 +15288,69 @@
             "num_acc": 27,
             "num_sub": 79
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "23rd",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 85
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "22nd",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 92
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "21st",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 124
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "20th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 133
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "19th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 96
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "18th",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 127
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "17th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 139
+          }
         }
       ]
     },
