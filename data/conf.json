@@ -15351,6 +15351,151 @@
             "num_acc": 29,
             "num_sub": 139
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "16th",
+          "location": "Stockholm, Sweden",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 149
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "15th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 125
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "14th",
+          "location": "St. Louis, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 140
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "13th",
+          "location": "Bellevue, Washington, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 109
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "12th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 128
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "11th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 53,
+            "num_sub": 158
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "10th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 205
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "9th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 50
+          },
+          "note": "Had over 50 submissions..."
+        },
+        {
+          "year": 2002,
+          "ordinal": "8th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 89
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "7th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 64
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "6th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 84
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "5th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 86
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "4th",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 94
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "3rd",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 67
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "2nd",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 86
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "1st",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 70
+          }
         }
       ]
     },
