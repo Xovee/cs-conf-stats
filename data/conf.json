@@ -15223,7 +15223,7 @@
         "website": "https://www.rtas.org/",
         "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1003170/all-proceedings",
         "second_track_name": "",
-        "note": ""
+        "note": "Wow! This conference's data are complete!"
       },
       "yearly_data": [
         {
@@ -15495,6 +15495,89 @@
           "main_track": {
             "num_acc": 24,
             "num_sub": 70
+          }
+        }
+      ]
+    },
+    {
+      "series": "RTSS",
+      "discipline": "RTS",
+      "metadata": {
+        "series_full_title": "IEEE Real-Time Systems Symposium",
+        "main_discipline": [
+          "Real-Time Systems", "Real-Time Design & Applications"
+        ],
+        "other_discipline": [
+          "RT OS", "RT Networks", "RT Middleware", "RT Compilers & Tools", "RT Scheduling", "RT QoS Support", "Resource Management", "Test & Debug", "Design & Verification", "RT Modeling", "WCET Analysis", "Performance Analysis", "Fault Tolerance", "RT Security", "Cyber-Physical Systems", "HW-SW Integration", "System-level Design", "IoT"
+        ],
+        "parent_org": "IEEE, IEEE CompSoc, IEEE CompSoc TCRTS",
+        "website": "https://www.rtss.org",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000619/all-proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2023,
+          "ordinal": "44th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 126
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "43rd",
+          "location": "Houston, USA",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 128
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "42nd",
+          "location": "Dortmund, Germany",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 133
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "41st",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 140
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "40th",
+          "location": "Canceled, Canceled",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 160
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "39th",
+          "location": "Nashville, USA",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 166
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "38th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 131
           }
         }
       ]
