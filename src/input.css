@@ -40,6 +40,10 @@ select option {
     @apply text-base text-gray-700
 }
 
+.conf-card-big-desc {
+    @apply text-center text-uestc text-3xl md:text-6xl md:text-left
+}
+
 .card-tag, .card-tag-2 {
     @apply inline-flex text-white rounded-lg px-3 py-1.5 text-sm mr-2 mb-2 hover:ring-2 hover:ring-uestc hover:ring-opacity-20 transition duration-300
 }

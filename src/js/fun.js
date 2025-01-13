@@ -116,6 +116,43 @@ fetch('/data/conf.json')
 
     });
 
+    function numberWithCommas(x) {
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    const numVenues = Object.keys(seriesAccRates).length - 1;  // remove the template conf entry
+    const numConfs = singleConfs.length;
+    const numTotalAcc = singleConfs.reduce((sum, conf) => sum + conf.acc, 0);
+    const numTotalSub = singleConfs.reduce((sum, conf) => sum + conf.sub, 0);
+    const avgAccRateViz = (numTotalAcc / numTotalSub) * 100;
+    const numTotalCountry = Object.keys(countryCount).length;
+    const numTotalCity = Object.keys(cityCount).length;
+    const [popCountry, popCountryVal] = Object.entries(countryCount)
+        .sort((a, b) => b[1] - a[1])[0];
+    const [popuCity, popCityVal] = Object.entries(cityCount)
+        .sort((a, b) => b[1] - a[1])[1];
+    const [popDiscipline, popDisciplineVal] = Object.entries(disciplineCounts)
+        .sort((a, b) => b[1] - a[1])[0];
+    const [popConfName, popConfVal] = Object.entries(seriesAccRates)
+        .sort((a, b) => b[1].totalSub - a[1].totalSub)[0];
+    const popSingleConf = singleConfs.slice().sort((a, b) => b.acc - a.acc)[0];
+    const mostSelective = singleConfs.slice().sort((a, b) => a.rate - b.rate)[0];
+
+    document.querySelector('#viz-num-venues .conf-card-big-desc').textContent = numberWithCommas(numVenues);
+    document.querySelector('#viz-num-confs .conf-card-big-desc').textContent = numberWithCommas(numConfs);
+    document.querySelector('#viz-num-country .conf-card-big-desc').textContent = numberWithCommas(numTotalCountry);
+    document.querySelector('#viz-num-cities .conf-card-big-desc').textContent = numberWithCommas(numTotalCity);
+    document.querySelector('#viz-num-acc .conf-card-big-desc').textContent = numberWithCommas(numTotalAcc);
+    document.querySelector('#viz-num-sub .conf-card-big-desc').textContent = numberWithCommas(numTotalSub);
+    document.querySelector('#viz-num-rate .conf-card-big-desc').textContent = avgAccRateViz.toFixed(2) + '%';
+
+    document.querySelector('#viz-popular-country .conf-card-big-desc').textContent = popCountry;
+    document.querySelector('#viz-popular-city .conf-card-big-desc').textContent = popuCity;
+    document.querySelector('#viz-top-subject .conf-card-big-desc').textContent = popDiscipline;
+    document.querySelector('#viz-top-conference .conf-card-big-desc').textContent = popConfName;
+    document.querySelector('#viz-top-event .conf-card-big-desc').textContent = popSingleConf.name + ` (${numberWithCommas(popSingleConf.acc)})`;
+    document.querySelector('#viz-selective-event .conf-card-big-desc').textContent = `${mostSelective.name} (${mostSelective.rate.toFixed(1)}%)`;
+
     function countryToCode(countryName) {
       const countries = {
         'USA': 'US',

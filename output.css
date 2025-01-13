@@ -1025,6 +1025,22 @@ select option {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+.conf-card-big-desc {
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 64 152 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .conf-card-big-desc {
+    text-align: left;
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
 .card-tag, .card-tag-2 {
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
