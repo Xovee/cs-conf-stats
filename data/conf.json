@@ -722,7 +722,7 @@
         {
           "year": 2016,
           "ordinal": "4th",
-          "location": "San Juan, Puerto Rico",
+          "location": "San Juan, Puerto Rico, USA",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 80,
@@ -1535,7 +1535,7 @@
         {
           "year": 1997,
           "ordinal": "11th",
-          "location": "San Juan, Puerto Rico",
+          "location": "San Juan, Puerto Rico, USA",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 173,
@@ -8634,7 +8634,7 @@
         {
           "year": 2007,
           "ordinal": "5th",
-          "location": "San Juan, Puerto Rico",
+          "location": "San Juan, Puerto Rico, USA",
           "main_track": {
             "num_acc": 22,
             "num_sub": 105
@@ -9973,7 +9973,7 @@
         {
           "year": 2007,
           "ordinal": "11th",
-          "location": "San Juan, Puerto Rico",
+          "location": "San Juan, Puerto Rico, USA",
           "main_track": {
             "num_acc": 85,
             "num_sub": 150
@@ -15578,6 +15578,60 @@
           "main_track": {
             "num_acc": 31,
             "num_sub": 131
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "37th",
+          "location": "Porto, Portugal",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 137
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "36th",
+          "location": "San Antonio, USA",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 151
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "35th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 154
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "34th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 160
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "33rd",
+          "location": "San Juan, Puerto Rico, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 157
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "32nd",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 149
           }
         }
       ]
