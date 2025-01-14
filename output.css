@@ -1036,7 +1036,7 @@ select option {
 @media (min-width: 768px) {
   .conf-card-big-desc {
     text-align: left;
-    font-size: 3.75rem;
+    font-size: 3rem;
     line-height: 1;
   }
 }

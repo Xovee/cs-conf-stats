@@ -41,7 +41,7 @@ select option {
 }
 
 .conf-card-big-desc {
-    @apply text-center text-uestc text-3xl md:text-6xl md:text-left
+    @apply text-center text-uestc text-3xl md:text-5xl md:text-left
 }
 
 .card-tag, .card-tag-2 {
