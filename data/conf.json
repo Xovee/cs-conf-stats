@@ -15633,6 +15633,97 @@
             "num_acc": 33,
             "num_sub": 149
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "31st",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 142
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "30th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 197
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "29th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 189
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "28th",
+          "location": "Tucson, USA",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 171
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "27th",
+          "location": "Rio de Janeiro, Brazil",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 173
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "26th",
+          "location": "Miami, USA",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 176
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "25th",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 187
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "24th",
+          "location": "Cancun, Mexico",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 145
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "22nd",
+          "location": "London, UK",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 112
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "21st",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 103
+          },
+          "note": "Slightly over 100 submissions"
         }
       ]
     },
