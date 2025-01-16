@@ -15724,6 +15724,51 @@
             "num_sub": 103
           },
           "note": "Slightly over 100 submissions"
+        },
+        {
+          "year": 1999,
+          "ordinal": "20th",
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 146
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "19th",
+          "location": "Madrid, Spain",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 182
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "18th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 99
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "16th",
+          "location": "Pisa, Italy",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 104
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "14th",
+          "location": "Raleigh, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 138
+          }
         }
       ]
     },

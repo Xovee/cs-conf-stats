@@ -586,18 +586,55 @@ function renderScatter(dataPoints, uniqueConfs) {
     }
   });
 
+  const latestConfsSeries = uniqueConfs.map((conf) => {
+    const latestConfData = dataPoints
+        .filter(d => d.conf === conf)
+        .sort((a, b) => {
+          const yearA = parseInt(a.name.match(/\d{4}$/)?.[0] || '0', 10);
+          const yearB = parseInt(b.name.match(/\d{4}$/)?.[0] || '0', 10);
+          return yearB - yearA;
+        })[0];
+
+    if (latestConfData) {
+      return {
+        name: conf,
+        type: 'scatter',
+        symbolSize: 12,
+        data: [[latestConfData.rate, latestConfData.sub, latestConfData.conf, latestConfData.discipline, latestConfData.name, latestConfData.acc]],
+        encode: { x: 0, y: 1 },
+        itemStyle: {
+          borderColor: '#333',
+          borderWidth: 1
+        },
+        label: { show: true, position: 'right', formatter: `{@[4]}` },
+        labelLayout: { hideOverlap: true }
+      };
+    }
+    return null;
+  }).filter(Boolean);
+
   const defaultSelected = {};
   uniqueConfs.forEach(conf => {
-    if (conf === 'ICLR' || conf === 'NeurIPS') {
-      defaultSelected[conf] = true;
-    } else {
-      defaultSelected[conf] = false;
-    }
+    defaultSelected[conf] = conf === 'ICLR' || conf === 'NeurIPS';
   });
 
   const scatterChart = echarts.init(document.getElementById('viz-scatter'));
 
+  const customColors = [
+    '#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231',
+    '#911eb4', '#42d4f4', '#f032e6', '#bfef45', '#fabed4',
+    '#469990', '#dcbeff', '#9a6324', '#fffac8', '#800000',
+    '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080',
+    '#ff7f7f', '#7f7fff', '#7fff7f', '#ff7f00', '#7f00ff',
+    '#00ff7f', '#007fff', '#ff007f', '#ffbf00', '#bfbf00',
+    '#00bfbf', '#bf00bf', '#7f3f00', '#3f7f00', '#007f3f',
+    '#003f7f', '#3f007f', '#7f003f', '#ffdfbf', '#bfffd0',
+    '#d0bfff', '#bfbfbf', '#d0d0ff', '#ffd0d0', '#d0ffd0',
+    '#ffd0bf', '#bf7fd0', '#d07fbf', '#7fd0bf', '#7fbfd0'
+  ]
+
   const scatterOption = {
+    color: customColors,
     tooltip: {
       trigger: 'item',
       formatter: function (params) {
@@ -663,9 +700,29 @@ function renderScatter(dataPoints, uniqueConfs) {
 
   scatterChart.setOption(scatterOption);
 
+  const latestScatterChart = echarts.init(document.getElementById('viz-scatter-latest'));
+  const latestScatterOption = {
+    tooltip: scatterOption.tooltip,
+    legend: {
+      top: 'top',
+      textStyle: {
+        fontSize: 14
+      },
+      itemStyle: {
+        borderWidth: 1
+      }
+    },
+    grid: scatterOption.grid,
+    xAxis: scatterOption.xAxis,
+    yAxis: scatterOption.yAxis,
+    series: latestConfsSeries
+  };
+  latestScatterChart.setOption(latestScatterOption);
+
   window.addEventListener('resize', function() {
     scatterChart.resize();
-  })
+    latestScatterChart.resize();
+  });
 }
 
 function renderPicky(accRate) {

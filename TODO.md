@@ -1,5 +1,6 @@
 # TODO List
 
+- [x] Jan 16, 2025. Add Scatter for each latest conference. Finished Jan 16, 2025.
 - [x] Jan 13, 2025. Add fun fact statistics. Finished Jan 13, 2025.
 - [ ] Dec 13, 2024. Optimize js for speed. 
 - [ ] Dec 10, 2024. Add rankings of conferences by the recent five ones, including number of accepted papers, acceptance rate. Including highest and smallest.  
