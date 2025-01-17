@@ -15773,6 +15773,89 @@
       ]
     },
     {
+      "series": "HPDC",
+      "discipline": "HPC",
+      "metadata": {
+        "series_full_title": "International Symposium on High-Performance Parallel Distributed Computing",
+        "main_discipline": [
+          "High-Performance Computing", "Distributed Systems", "Parallel Computing"
+        ],
+        "other_discipline": [
+          "Cloud Computing", "Edge Computing", "Resource Management", "Fault Tolerance", "Performance Optimization"
+        ],
+        "parent_org": "ACM, ACM SIGARCH",
+        "website": "http://www.hpdc.org/",
+        "proceedings": "https://dl.acm.org/conference/hpdc/proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "33rd",
+          "location": "Pisa, Italy",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 152
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "32nd",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 104
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "31st",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 108
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "30th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 92
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "29th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 16,
+            "num_sub": 71
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "28th",
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 106
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "27th",
+          "location": "Tempe, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 111
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
