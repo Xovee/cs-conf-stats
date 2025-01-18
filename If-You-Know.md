@@ -108,6 +108,12 @@ First, we need **ALL** new stats in the upcoming years.
 - Eurocrypt 1991-1992
 - Before 1990
 
+## HPDC
+
+- HPDC 2007
+- HPDC 2001
+- HPDC 1995
+
 ## ICCAD
 
 - ICCAD 2006

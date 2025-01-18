@@ -15783,7 +15783,7 @@
         "other_discipline": [
           "Cloud Computing", "Edge Computing", "Resource Management", "Fault Tolerance", "Performance Optimization"
         ],
-        "parent_org": "ACM, ACM SIGARCH",
+        "parent_org": "ACM, ACM SIGARCH, IEEE (former)",
         "website": "http://www.hpdc.org/",
         "proceedings": "https://dl.acm.org/conference/hpdc/proceedings",
         "second_track_name": "",
@@ -15851,6 +15851,150 @@
           "main_track": {
             "num_acc": 22,
             "num_sub": 111
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "26th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 100
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "25th",
+          "location": "Kyoto, Japan",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 129
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "24th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 116
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "23rd",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 130
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "22nd",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 131
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "21st",
+          "location": "Delft, The Netherlands",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 143
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "20th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 170
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "19th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 91
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "18th",
+          "location": "Munich, Germany",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 68
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "17th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 103
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "15th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 157
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "14th",
+          "location": "Research Triangle Park, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 140
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "13th",
+          "location": "Honolulu, Hawaii, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 153
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "12th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 121
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "11th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 133
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "9th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 103
           }
         }
       ]
