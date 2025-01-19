@@ -15996,6 +15996,42 @@
             "num_acc": 32,
             "num_sub": 103
           }
+        },
+        {
+          "year": 1999,
+          "ordinal": "8th",
+          "location": "Redondo Beach, California, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 74
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "7th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 83
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "6th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 76
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "5th",
+          "location": "Syracuse, USA",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 82
+          }
         }
       ]
     },
