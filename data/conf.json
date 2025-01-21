@@ -16072,6 +16072,107 @@
           }
         }
       ]
+    },
+    {
+      "series": "ICS",
+      "discipline": "HPC",
+      "metadata": {
+        "series_full_title": "International Conference on Supercomputing",
+        "main_discipline": [
+          "High Performance Computing", "Parallel & Distributed Computing", "Scalable Architectures"
+        ],
+        "other_discipline": [
+          "Energy-Efficient Computing", "Cloud & Edge Computing", "Compiler Optimization", "Machine Learning for HPC", "Computational Science Applications"
+        ],
+        "parent_org": "ACM, ACM SIGARCH",
+        "website": "https://www.ics-conference.org/",
+        "proceedings": "https://dl.acm.org/conference/ics/proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "38th",
+          "location": "Kyoto, Japan",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 125
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "37th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 136
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "36th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 165
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "35th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 157
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "34th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 132
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "33rd",
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 193
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "32nd",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 193
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "31st",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 177
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "30th",
+          "location": "Istanbul, Turkey",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 180
+          }
+        }
+      ]
     }
   ]
 }
