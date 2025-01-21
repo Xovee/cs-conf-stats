@@ -6164,6 +6164,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "34th",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "num_acc": 409,
+            "num_sub": 2062
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "33rd",
           "location": "Singapore, Singapore",
