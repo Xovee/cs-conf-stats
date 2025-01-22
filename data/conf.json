@@ -16045,35 +16045,6 @@
       ]
     },
     {
-      "series": "Template",
-      "discipline": "",
-      "metadata": {
-        "series_full_title": "Template",
-        "main_discipline": [
-          "Template"
-        ],
-        "other_discipline": [
-          "Template"
-        ],
-        "parent_org": "",
-        "website": "",
-        "proceedings": "",
-        "second_track_name": "",
-        "note": ""
-      },
-      "yearly_data": [
-        {
-          "year": 2024,
-          "ordinal": "12th",
-          "location": "Online, Online",
-          "main_track": {
-            "num_acc": 0,
-            "num_sub": 0
-          }
-        }
-      ]
-    },
-    {
       "series": "ICS",
       "discipline": "HPC",
       "metadata": {
@@ -16170,6 +16141,35 @@
           "main_track": {
             "num_acc": 43,
             "num_sub": 180
+          }
+        }
+      ]
+    },
+    {
+      "series": "Template",
+      "discipline": "",
+      "metadata": {
+        "series_full_title": "Template",
+        "main_discipline": [
+          "Template"
+        ],
+        "other_discipline": [
+          "Template"
+        ],
+        "parent_org": "",
+        "website": "",
+        "proceedings": "",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "12th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 0,
+            "num_sub": 0
           }
         }
       ]
