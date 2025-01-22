@@ -142,6 +142,10 @@ First, we need **ALL** new stats in the upcoming years.
 - ICML 1989
 - Before 1988
 
+## ICS
+
+- ICS 2013
+
 ## ICWSM
 
 - ICWSM 2011

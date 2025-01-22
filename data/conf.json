@@ -16142,6 +16142,71 @@
             "num_acc": 43,
             "num_sub": 180
           }
+        },
+        {
+          "year": 2015,
+          "ordinal": "29th",
+          "location": "Newport Beach, California, USA",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 160
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "28th",
+          "location": "Munich, Germany",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 160
+          },
+          "note": "Over 160 submissions"
+        },
+        {
+          "year": 2013,
+          "ordinal": "27th",
+          "location": "Eugene, USA",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 202
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "26th",
+          "location": "Venice, Italy",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 161
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "25th",
+          "location": "Tucson, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 161
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "24th",
+          "location": "Tsukuba, Japan",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 178
+          },
+          "note": "32 is 18% of all submitted."
+        },
+        {
+          "year": 2009,
+          "ordinal": "23rd",
+          "location": "Yorktown Heights, USA",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 191
+          }
         }
       ]
     },
