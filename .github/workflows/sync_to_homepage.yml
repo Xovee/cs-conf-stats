@@ -24,8 +24,13 @@ jobs:
           cd homepage-temp
           git init
           git remote add origin https://xovee:${{ secrets.GH_PAT }}@github.com/Xovee/xoveexu-com.git
-          git fetch origin csconfstats || true
-          git checkout -B csconfstats
+          git fetch origin
+
+          if git show-ref --verify --quiet refs/remotes/origin/csconfstats; then
+            git checkout csconfstats
+          else
+            git checkout --orphan csconfstats
+          fi
 
       - name: Copy files from csconfstats to homepage
         run: |
@@ -37,6 +42,13 @@ jobs:
           cd homepage-temp
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions@github.com"
+
+          if [ ! -d ".git" ]; then
+            git init
+            git remote add origin https://xovee:${{ secrets.GH_PAT }}@github.com/Xovee/xoveexu-com.git
+            git checkout -B csconfstats
+          fi
+          
           git add .
           if git diff --staged --quiet; then
             echo "No changes to commit"
