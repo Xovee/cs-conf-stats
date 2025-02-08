@@ -1,58 +1,32 @@
-name: Sync to homepage repo
+name: Sync to xoveexu-com csconfstats branch
 
-on: 
+on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout cs-conf-stats repository
-        uses: actions/checkout@v3
+      - name: Checkout cs-conf-stats
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Clone homepage repository
+      - name: Push changes to xoveexu-com csconfstats branch
         run: |
-          git clone --depth 1 https://xovee:${{ secrets.GH_PAT }}@github.com/Xovee/xoveexu-com.git homepage-temp
-          rm -rf homepage-temp/.git
-
-      - name: Create/Checkout csconfstats branch in hompage
-        run: |
-          cd homepage-temp
-          git init
-          git remote add origin https://xovee:${{ secrets.GH_PAT }}@github.com/Xovee/xoveexu-com.git
-          git fetch origin
-
-          if git show-ref --verify --quiet refs/remotes/origin/csconfstats; then
-            git checkout csconfstats
-          else
-            git checkout --orphan csconfstats
-          fi
-
-      - name: Copy files from csconfstats to homepage
-        run: |
-          sleep 5
-          rsync -av --delete --ignore-missing-args ".git/" ./ homepage-temp/ || true
-
-      - name: Commit and Push Changes
-        run: |
-          cd homepage-temp
-          git config --global user.name "github-actions[bot]"
+          git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-          if [ ! -d ".git" ]; then
-            git init
-            git remote add origin https://xovee:${{ secrets.GH_PAT }}@github.com/Xovee/xoveexu-com.git
-            git checkout -B csconfstats
-          fi
+          git clone --branch csconfstats https://github.com/Xovee/xoveexu-com.git target-repo
+          rsync -av --delete --exclude='.git' ./ target-repo/
           
+          cd target-repo
           git add .
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
           else
-            git commit -m "Sync content from cs-conf-stats"
-            git push -f origin csconfstats
+            git commit -m "Sync from cs-conf-stats main"
+            git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/Xovee/xoveexu-com.git csconfstats
           fi
