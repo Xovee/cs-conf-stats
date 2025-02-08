@@ -66,7 +66,7 @@
         {
           "year": 2020,
           "ordinal": "34th",
-          "location": "New York, USA",
+          "location": "New York City, USA",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 1591,
@@ -96,7 +96,7 @@
         {
           "year": 2017,
           "ordinal": "31st",
-          "location": "San Francisco, USA",
+          "location": "San Francisco, California, USA",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 639,
@@ -156,7 +156,7 @@
         {
           "year": 2011,
           "ordinal": "25th",
-          "location": "San Francisco, USA",
+          "location": "San Francisco, California, USA",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 242,
@@ -2558,7 +2558,7 @@
         {
           "year": 2016,
           "ordinal": "35th",
-          "location": "San Francisco, USA",
+          "location": "San Francisco, California, USA",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 31,
@@ -16216,6 +16216,69 @@
           "main_track": {
             "num_acc": 47,
             "num_sub": 191
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "22nd",
+          "location": "Island of Kos, Greece",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 140
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "21st",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 123
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "20th",
+          "location": "Cairns, AUstralia",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 141
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "19th",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 152
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "18th",
+          "location": "Saint-Malo, France",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 167
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "17th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 171
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "16th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 144
           }
         }
       ]
