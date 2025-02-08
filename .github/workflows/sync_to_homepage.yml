@@ -30,7 +30,7 @@ jobs:
       - name: Copy files from csconfstats to homepage
         run: |
           sleep 5
-          rsync -av --delete ./ homepage-temp/
+          rsync -av --delete --ignore-missing-args ".git/" ./ homepage-temp/ || true
 
       - name: Commit and Push Changes
         run: |
