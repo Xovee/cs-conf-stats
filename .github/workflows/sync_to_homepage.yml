@@ -29,6 +29,7 @@ jobs:
 
       - name: Copy files from csconfstats to homepage
         run: |
+          sleep 5
           rsync -av --delete ./ homepage-temp/
 
       - name: Commit and Push Changes
