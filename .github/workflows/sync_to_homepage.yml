@@ -1,0 +1,43 @@
+name: Sync to homepage repo
+
+on: 
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout cs-conf-stats repository
+        uses: actions/checkout@v3
+
+      - name: Copy repository content
+        run: |
+          rm -rf .git
+          mkdir -p ../homepage-sync
+          mv * ../homepage-sync/
+          mv .??* ../homepage-sync/ || true
+
+      - name: Clone homepage repository
+        run: |
+          git clone --depth 1 https://github.com/Xovee/xoveexu-com.git homepage-temp
+          cd homepage-temp
+          git checkout -B csconfstats
+
+      - name: Sync content to homepage
+        run: |
+          cd homepage-temp
+          rm -rf *
+          mv ../homepage-sync/* ./
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Sync content from cs-conf-stats"
+            git push -f origin csconfstats
+          fi
