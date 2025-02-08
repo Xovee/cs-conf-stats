@@ -23,7 +23,7 @@ jobs:
 
       - name: Clone homepage repository
         run: |
-          git clone --depth 1 https://github.com/Xovee/xoveexu-com.git homepage-temp
+          git clone --depth 1 https://xovee:${{ secrets.GH_PAT }}@github.com/Xovee/xoveexu-com.git homepage-temp
           cd homepage-temp
           git checkout -B csconfstats
 
