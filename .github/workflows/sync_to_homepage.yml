@@ -14,24 +14,26 @@ jobs:
       - name: Checkout cs-conf-stats repository
         uses: actions/checkout@v3
 
-      - name: Copy repository content
-        run: |
-          rm -rf .git
-          mkdir -p ../homepage-sync
-          mv * ../homepage-sync/
-          mv .??* ../homepage-sync/ || true
-
       - name: Clone homepage repository
         run: |
           git clone --depth 1 https://xovee:${{ secrets.GH_PAT }}@github.com/Xovee/xoveexu-com.git homepage-temp
-          cd homepage-temp
-          git checkout -B csconfstats
+          rm -rf homepage-temp/.git
 
-      - name: Sync content to homepage
+      - name: Create/Checkout csconfstats branch in hompage
         run: |
           cd homepage-temp
-          rm -rf *
-          mv ../homepage-sync/* ./
+          git init
+          git remote add origin https://xovee:${{ secrets.GH_PAT }}@github.com/Xovee/xoveexu-com.git
+          git fetch origin csconfstats || true
+          git checkout -B csconfstats
+
+      - name: Copy files from csconfstats to homepage
+        run: |
+          rsync -av --delete ./ homepage-temp/
+
+      - name: Commit and Push Changes
+        run: |
+          cd homepage-temp
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions@github.com"
           git add .
