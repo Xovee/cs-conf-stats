@@ -11,17 +11,22 @@ jobs:
     steps:
       - name: Checkout cs-conf-stats
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Push changes to xoveexu-com csconfstats branch
+      - name: Configure Git
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-          git clone --branch csconfstats https://github.com/Xovee/xoveexu-com.git target-repo
+      - name: Clone the target repository
+        run: |
+          git clone --branch csconfstats https://x-access-token:${{ secrets.GH_PAT }}@github.com/Xovee/xoveexu-com.git target-repo
+
+      - name: Sync changes
+        run: |
           rsync -av --delete --exclude='.git' ./ target-repo/
-          
+
+      - name: Commit and Push
+        run: |
           cd target-repo
           git add .
           if git diff --cached --quiet; then
