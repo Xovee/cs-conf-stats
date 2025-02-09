@@ -145,6 +145,10 @@ First, we need **ALL** new stats in the upcoming years.
 ## ICS
 
 - ICS 2013
+- ICS 1993
+- ICS 1992
+- ICS 1991
+- ICS 1989
 
 ## ICWSM
 
