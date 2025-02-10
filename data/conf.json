@@ -12027,7 +12027,7 @@
         {
           "year": 2021,
           "ordinal": "42nd",
-          "location": "Online Online",
+          "location": "Online, Online",
           "main_track": {
             "num_acc": 115,
             "num_sub": 952
@@ -16379,6 +16379,90 @@
             "num_acc": 45,
             "num_sub": 135
           }
+        }
+      ]
+    },
+    {
+      "series": "SC",
+      "discipline": "HPC",
+      "metadata": {
+        "series_full_title": "The International Conference for High Performance Computing, Networking, Storage and Analysis",
+        "main_discipline": [
+          "High Performance Computing", "Networking", "Storage"
+        ],
+        "other_discipline": [
+          "Parallel Computing", "Cloud Computing", "Big Data", "Supercomputing", "Machine Learning", "Scientific Computing"
+        ],
+        "parent_org": "ACM, IEEE",
+        "website": "https://supercomputing.org",
+        "proceedings": "https://dl.acm.org/conference/sc/proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "37th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 99,
+            "num_sub": 470
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "36th",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 90,
+            "num_sub": 376
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "35th",
+          "location": "Dallas, USA",
+          "main_track": {
+            "num_acc": 81,
+            "num_sub": 320
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "34th",
+          "location": "St. Louis, USA",
+          "main_track": {
+            "num_acc": 98,
+            "num_sub": 379
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "33rd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 95,
+            "num_sub": 378
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "32nd",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 87,
+            "num_sub": 339
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "31st",
+          "location": "Dallas, USA",
+          "main_track": {
+            "num_acc": 68,
+            "num_sub": 288
+          },
+          "note": "from wiki. no data in proceedings."
         }
       ]
     },

@@ -64,6 +64,7 @@ Number of submissions and number of accepted papers for the following conference
 1. PODS: ACM Symposium on Principles of Database Systems.
 1. RTAS: IEEE Real-Time and Embedded Technology and Applications Symposium. 
 1. RTSS: IEEE Real-Time Systems Symposium. 
+1. SC: The International Conference for High Performance Computing, Networking, Storage and Analysis.
 1. SDM: SIAM International Conference on Data Mining.
 1. SenSys: ACM Conference on Embedded Networked Sensor Systems.
 1. SIGCOMM: Annual Conference of the ACM SIGCOMM on the Applications, Technologies, Architectures, and Protocols for Computer Communication
