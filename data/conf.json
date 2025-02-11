@@ -16463,6 +16463,69 @@
             "num_sub": 288
           },
           "note": "from wiki. no data in proceedings."
+        },
+        {
+          "year": 2017,
+          "ordinal": "30th",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 61,
+            "num_sub": 327
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "29th",
+          "location": "Salt Lake City, USA",
+          "main_track": {
+            "num_acc": 81,
+            "num_sub": 442
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "28th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 79,
+            "num_sub": 358
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "27th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 81,
+            "num_sub": 394
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "26th",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 90,
+            "num_sub": 456
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "25th",
+          "location": "Salt Lake City, USA",
+          "main_track": {
+            "num_acc": 100,
+            "num_sub": 472
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "24th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 352
+          }
         }
       ]
     },
