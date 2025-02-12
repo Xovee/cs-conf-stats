@@ -16526,6 +16526,69 @@
             "num_acc": 74,
             "num_sub": 352
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "23rd",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 51,
+            "num_sub": 253
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "22nd",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 261
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "21st",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 277
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "20th",
+          "location": "Reno, USA",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 268
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "19th",
+          "location": "Tampa, USA",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 239
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "18th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 260
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "17th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 60,
+            "num_sub": 200
+          }
         }
       ]
     },

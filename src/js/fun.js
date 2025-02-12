@@ -665,7 +665,7 @@ function renderScatter(dataPoints, uniqueConfs) {
       selector: [{ type: 'inverse', title: 'inv'}],
       selectorPosition: 'start'
     },
-    grid: { containLabel: true,  top: 150},
+    grid: { containLabel: true,  top: 250},
     xAxis: {
       name: 'Acceptance Rate',
       nameTextStyle: {
