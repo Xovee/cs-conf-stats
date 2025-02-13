@@ -202,6 +202,12 @@ First, we need **ALL** new stats in the upcoming years.
 - RTSS 1994
 - Before 1993
 
+## SC
+
+- SC 1999
+- SC 1998
+- SC 1997
+
 ## SDM 
 
 - SDM 2019-2020

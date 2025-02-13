@@ -398,7 +398,7 @@
         {
           "year": 2022,
           "ordinal": "39th",
-          "location": "Baltimore, Maryland, USA",
+          "location": "Baltimore, USA",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 1235,
@@ -16588,6 +16588,43 @@
           "main_track": {
             "num_acc": 60,
             "num_sub": 200
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "16th",
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 60,
+            "num_sub": 207
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "15th",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 230
+          },
+          "note": "more than 230"
+        },
+        {
+          "year": 2001,
+          "ordinal": "14th",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 60,
+            "num_sub": 204
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "13th",
+          "location": "Dallas, USA",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 179
           }
         }
       ]
