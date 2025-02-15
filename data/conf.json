@@ -16678,6 +16678,53 @@
             "num_acc": 62,
             "num_sub": 179
           }
+        },
+        {
+          "year": 1995,
+          "ordinal": "8th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 69,
+            "num_sub": 241
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "6th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 72,
+            "num_sub": 300
+          }
+        },
+        {
+          "year": 1992,
+          "ordinal": "5th",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "num_acc": 75,
+            "num_sub": 220
+          },
+          "note": "Over 220"
+        },
+        {
+          "year": 1991,
+          "ordinal": "4th",
+          "location": "Albuquerque, USA",
+          "main_track": {
+            "num_acc": 83,
+            "num_sub": 215
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "1st",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 61,
+            "num_sub": 152
+          },
+          "note": "about 40% accepted"
         }
       ]
     },

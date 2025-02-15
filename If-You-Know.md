@@ -207,6 +207,10 @@ First, we need **ALL** new stats in the upcoming years.
 - SC 1999
 - SC 1998
 - SC 1997
+- SC 1996
+- SC 1994
+- SC 1990
+- SC 1989
 
 ## SDM 
 
