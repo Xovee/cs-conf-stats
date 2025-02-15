@@ -3121,6 +3121,48 @@
           }
         },
         {
+          "year": 2018,
+          "ordinal": "19th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 173,
+            "num_sub": 582
+          },
+          "note": "from several webpages"
+        },
+        {
+          "year": 2017,
+          "ordinal": "18th",
+          "location": "",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 313,
+            "num_sub": 1002
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "15th",
+          "location": "Chengdu, China",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 212,
+            "num_sub": 716
+          },
+          "note": "from ICME 开会小结 http://vision.ia.ac.cn/"
+        },
+        {
+          "year": 2013,
+          "ordinal": "14th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 186,
+            "num_sub": 622
+          }
+        },
+        {
           "year": 2012,
           "ordinal": "13th",
           "location": "Melbourne, Australia",
@@ -3128,6 +3170,16 @@
             "track_name": "Research Track",
             "num_acc": 184,
             "num_sub": 609
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "12th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 223,
+            "num_sub": 744
           }
         },
         {
