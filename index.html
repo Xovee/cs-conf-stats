@@ -27,6 +27,12 @@
         }
       }
     </script>
+
+    <style>
+        /* back to top */
+        #back-to-top {position: fixed; bottom: 30px; right: 5%; width: 40px; height: 40px; display: none; background-color: rgba(255, 255, 255, 0.7); color: black; border: 1px solid black; font-size: 24px; align-items: center; justify-content: center; border-radius: 5%; cursor: pointer; transition: 0.3s;}
+        #back-to-top:hover {background-color: black; color: white}
+    </style>
 </head>
 
 <body class="min-h-screen flex flex-col items-center text-gray-1000 bg-gray-100">
@@ -346,6 +352,8 @@
     </div>
 </footer>
 
+<button id="back-to-top" onclick="scrollToTop()">▲</button>
+
 <script src="./src/js/echarts.min.js" defer></script>
 <script src="./src/js/main.js" defer></script>
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js" defer></script>-->
@@ -364,6 +372,26 @@
 <script>
     const currentYear = new Date().getFullYear();
     document.getElementById("current-year").textContent = currentYear;
+</script>
+
+<script>
+    // Show button when user scrolls down
+    window.onscroll = function() {
+        let button = document.getElementById("back-to-top");
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            button.style.display = "flex";
+        } else {
+            button.style.display = "none";
+        }
+    };
+
+    // Scroll to top function
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
 </script>
 
 </body>

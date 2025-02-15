@@ -16,6 +16,12 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
     <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+
+    <style>
+        /* back to top */
+        #back-to-top {position: fixed; bottom: 30px; right: 5%; width: 40px; height: 40px; display: none; background-color: rgba(255, 255, 255, 0.8); color: black; border: 1px solid black; font-size: 24px; align-items: center; justify-content: center; border-radius: 5%; cursor: pointer; transition: 0.3s;}
+        #back-to-top:hover {background-color: black; color: white}
+    </style>
 </head>
 
 <body class="min-h-screen flex flex-col items-center bg-gray-100 text-gray-800">
@@ -145,6 +151,8 @@
     </div>
 </footer>
 
+<button id="back-to-top" onclick="scrollToTop()">▲</button>
+
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKKPH99HSJ"></script>
@@ -159,6 +167,26 @@
 <script>
     const currentYear = new Date().getFullYear();
     document.getElementById("current-year").textContent = currentYear;
+</script>
+
+<script>
+    // Show button when user scrolls down
+    window.onscroll = function() {
+        let button = document.getElementById("back-to-top");
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            button.style.display = "flex";
+        } else {
+            button.style.display = "none";
+        }
+    };
+
+    // Scroll to top function
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
 </script>
 
 </body>
