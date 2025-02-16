@@ -16729,6 +16729,89 @@
       ]
     },
     {
+      "series": "PPoPP",
+      "discipline": "HPC",
+      "metadata": {
+        "series_full_title": "ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+        "main_discipline": [
+          "Parallel Computing", "Concurrency", "Performance Optimization"
+        ],
+        "other_discipline": [
+          "Multicore & Manycore Systems", "Compilers & Runtime Systems", "Synchronization & Scalability", "High-Performance Systems", "Parallel Algorithms & Data Structures"
+        ],
+        "parent_org": "ACM SIGPLAN",
+        "website": "https://www.sigplan.org/Conferences/PPOPP/",
+        "proceedings": "https://dl.acm.org/doi/proceedings/10.1145/3627535",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "29th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 151
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "28th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 131
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "27th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 118
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "26th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 150
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "25th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 121
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "24th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 152
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "23rd",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 139
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
