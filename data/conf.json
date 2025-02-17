@@ -16808,6 +16808,69 @@
             "num_acc": 28,
             "num_sub": 139
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "22nd",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 132
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "21st",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 146
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "20th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 135
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "19th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 184
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "18th",
+          "location": "Shenzhen, China",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 146
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "17th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 173
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "16th",
+          "location": "San Antonio, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 165
+          }
         }
       ]
     },
