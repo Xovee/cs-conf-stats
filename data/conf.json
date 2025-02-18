@@ -16871,6 +16871,69 @@
             "num_acc": 26,
             "num_sub": 165
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "15th",
+          "location": "Bangalore, India",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 173
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "14th",
+          "location": "Raleigh, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 109
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "13th",
+          "location": "Salt Lake City, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 102
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "12th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 65
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "11th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 91
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "10th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 87
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "9th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 45
+          }
         }
       ]
     },
