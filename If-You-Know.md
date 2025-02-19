@@ -195,6 +195,14 @@ First, we need **ALL** new stats in the upcoming years.
 
 - PODS 1985-1993
 
+## PPoPP
+
+- PPoPP 2001 (acc 14)
+- PPoPP 1995
+- PPoPP 1993
+- PPoPP 1991
+- PPoPP 1988
+
 ## RTSS
 
 - RTSS 2002
