@@ -16965,6 +16965,90 @@
       ]
     },
     {
+      "series": "IPDPS",
+      "discipline": "HPC",
+      "metadata": {
+        "series_full_title": "IEEE International Parallel and Distributed Processing Symposium",
+        "main_discipline": [
+          "Parallel Computing", "Distributed Computing", "High-Performance Computing"
+        ],
+        "other_discipline": [
+          "Computational Algorithms", "Data Science Algorithms", "System Software", "Programming Models, Compilers & Runtime Systems", "Architecture", "Measurements, Modeling & Experiments", "Applications"
+        ],
+        "parent_org": "IEEE CompSoc TCPP",
+        "website": "https://www.ipdps.org/",
+        "proceedings": "https://www.ipdps.org/library.htm",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "38th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 88,
+            "num_sub": 337
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "37th",
+          "location": "St. Petersburg, USA",
+          "main_track": {
+            "num_acc": 95,
+            "num_sub": 369
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "36th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 123,
+            "num_sub": 474
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "35th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 105,
+            "num_sub": 462
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "34th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 110,
+            "num_sub": 446
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "33rd",
+          "location": "Rio de Janeiro, Brazil",
+          "main_track": {
+            "num_acc": 103,
+            "num_sub": 372
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "32nd",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 113,
+            "num_sub": 436
+          },
+          "note": "25 full papers not reviewed"
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

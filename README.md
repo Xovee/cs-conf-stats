@@ -53,6 +53,7 @@ Number of submissions and number of accepted papers for the following conference
 1. IEEE S&P: IEEE Symposium on Security and Privacy. 
 1. IJCAI: International Joint Conference on Artificial Intelligence.
 1. INFOCOM: IEEE International Conference on Computer Communications.
+1. IPDPS: IEEE International Parallel and Distributed Processing Symposium. 
 1. ISCA: International Symposium on Computer Architecture.
 1. MICRO: IEEE/ACM International Symposium on Microarchitecture. 
 1. MobiCom: International Conference on Mobile Computing and Networking.
