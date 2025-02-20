@@ -17109,6 +17109,69 @@
             "num_acc": 111,
             "num_sub": 570
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "24th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 127,
+            "num_sub": 527
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "23rd",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 100,
+            "num_sub": 440
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "22nd",
+          "location": "Miami, USA",
+          "main_track": {
+            "num_acc": 105,
+            "num_sub": 410
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "21st",
+          "location": "Long Beach, California, USA",
+          "main_track": {
+            "num_acc": 109,
+            "num_sub": 419
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "20th",
+          "location": "Rhodes, Greece",
+          "main_track": {
+            "num_acc": 125,
+            "num_sub": 515
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "19th",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 115,
+            "num_sub": 343
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "18th",
+          "location": "Santa Fe, USA",
+          "main_track": {
+            "num_acc": 142,
+            "num_sub": 447
+          }
         }
       ]
     },
