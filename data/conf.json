@@ -17045,6 +17045,70 @@
             "num_sub": 436
           },
           "note": "25 full papers not reviewed"
+        },
+        {
+          "year": 2017,
+          "ordinal": "31st",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 116,
+            "num_sub": 508
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "30st",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 114,
+            "num_sub": 496
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "29th",
+          "location": "Hyderabad, India",
+          "main_track": {
+            "num_acc": 109,
+            "num_sub": 496
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "28th",
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 114,
+            "num_sub": 541
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "27th",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 108,
+            "num_sub": 500
+          },
+          "note": "almost 500"
+        },
+        {
+          "year": 2012,
+          "ordinal": "26th",
+          "location": "Shanghai, China",
+          "main_track": {
+            "num_acc": 118,
+            "num_sub": 569
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "25th",
+          "location": "Anchorage, USA",
+          "main_track": {
+            "num_acc": 111,
+            "num_sub": 570
+          }
         }
       ]
     },
