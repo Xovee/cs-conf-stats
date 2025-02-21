@@ -195,7 +195,7 @@ fetch('/data/conf.json')
       name: city,
       value: cityCount[city],
       conferences: cityConferences[city]
-    })).sort((a, b) => b.value - a.value);
+    })).sort((a, b) => b.value - a.value).slice(0, 50);
 
     const sortedCountryData = Object.keys(countryCount).map(country => ({
       name: country,
@@ -203,7 +203,6 @@ fetch('/data/conf.json')
     })).sort((a, b) => b.value - a.value)
 
     console.log(sortedCountryData);
-    console.log(cityData);
 
     const countryData = sortedCountryData.slice(0, 20);
     const remainingCountrySum = sortedCountryData.slice(20).reduce((sum, { value }) => sum + value, 0);
@@ -211,10 +210,9 @@ fetch('/data/conf.json')
 
     renderCountry(countryData);
     
-    renderCity(cityData.slice(0, 50));
+    renderCity(cityData);
 
     renderWorldMap();
-    renderWorldMapCity(cityData);
 
     const aggregatedAccRates = Object.keys(seriesAccRates).map(series => {
       const { accRates } = seriesAccRates[series];
@@ -468,52 +466,6 @@ function renderWorldMap() {
     };
 
     var chart = new google.visualization.GeoChart(document.getElementById('country-map'));
-
-    chart.draw(data, options);
-  }
-}
-
-
-
-
-
-function renderWorldMapCity(cityData) {
-  google.charts.load('current', {
-    'packages':['geochart'],
-    'mapsApiKey': 'AIzaSyCUh0nLiiCcRK_elmftdkErbUlpQPqiTew'
-  });
-  google.charts.setOnLoadCallback(drawCityMap);
-
-  function drawCityMap() {
-    var chartData = [['City', 'Frequency']];
-    cityData.forEach(city => {
-      chartData.push([city.name, city.value]);
-    })
-
-    var data = google.visualization.arrayToDataTable(chartData);
-    // [
-      // ['City', 'frequency'],
-      // ['San Francisco', 54],
-      // ['San Diego', 53],
-      // ['San Jose', 47],
-      // ['Santa Barbara', 41],
-      // ['Vancouver', 38],
-      // ['Seattle', 38],
-      // ['Boston', 34],
-      // ['Washington DC', 33],
-      // ['New York City', 30]
-    // ]);
-
-    var options = {
-      backgroundColor: {
-        fill: "rgb(243,244,246)",
-      },
-      displayMode: 'markers',
-      colorAxis: {colors: ['#bbbbbb', '#004098']},
-      domain: 'CN',
-    };
-
-    var chart = new google.visualization.GeoChart(document.getElementById('city-map'));
 
     chart.draw(data, options);
   }

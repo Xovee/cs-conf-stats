@@ -1,6 +1,6 @@
 # TODO List
 
-- [x] Feb 21, 2025. Add two google maps. Finished Feb 21, 2025.
+- [x] Feb 21, 2025. Add a google map. Finished Feb 21, 2025.
 - [x] Jan 16, 2025. Add Scatter for each latest conference. Finished Jan 16, 2025.
 - [x] Jan 13, 2025. Add fun fact statistics. Finished Jan 13, 2025.
 - [ ] Dec 13, 2024. Optimize js for speed. 
