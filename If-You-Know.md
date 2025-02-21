@@ -168,6 +168,16 @@ First, we need **ALL** new stats in the upcoming years.
 
 - Before 2005
 
+## IPDPS
+
+- IPDPS 1994
+- IPDPS 1993
+- IPDPS 1991 (acc 112)
+- IPDPS 1990
+- IPDPS 1989
+- IPDPS 1988
+- IPDPS 1987
+
 ## ISCA
 
 - ISCA 1975

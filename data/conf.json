@@ -732,7 +732,7 @@
         {
           "year": 2016,
           "ordinal": "4th",
-          "location": "San Juan, Puerto Rico, USA",
+          "location": "San Juan, Puerto Rico",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 80,
@@ -1545,7 +1545,7 @@
         {
           "year": 1997,
           "ordinal": "11th",
-          "location": "San Juan, Puerto Rico, USA",
+          "location": "San Juan, Puerto Rico",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 173,
@@ -8705,7 +8705,7 @@
         {
           "year": 2007,
           "ordinal": "5th",
-          "location": "San Juan, Puerto Rico, USA",
+          "location": "San Juan, Puerto Rico",
           "main_track": {
             "num_acc": 22,
             "num_sub": 105
@@ -10044,7 +10044,7 @@
         {
           "year": 2007,
           "ordinal": "11th",
-          "location": "San Juan, Puerto Rico, USA",
+          "location": "San Juan, Puerto Rico",
           "main_track": {
             "num_acc": 85,
             "num_sub": 150
@@ -15690,7 +15690,7 @@
         {
           "year": 2012,
           "ordinal": "33rd",
-          "location": "San Juan, Puerto Rico, USA",
+          "location": "San Juan, Puerto Rico",
           "main_track": {
             "num_acc": 35,
             "num_sub": 157
@@ -16979,7 +16979,7 @@
         "website": "https://www.ipdps.org/",
         "proceedings": "https://www.ipdps.org/library.htm",
         "second_track_name": "",
-        "note": ""
+        "note": "Some history: IPDPS was founded in 1987 named IPPS, and merged with SPDP in 1998 and 1999, then in 2000 renamed to IPDPS."
       },
       "yearly_data": [
         {
@@ -17172,6 +17172,98 @@
             "num_acc": 142,
             "num_sub": 447
           }
+        },
+        {
+          "year": 2003,
+          "ordinal": "17th",
+          "location": "Nice, France",
+          "main_track": {
+            "num_acc": 119,
+            "num_sub": 407
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "16th",
+          "location": "Fort Lauderdale, USA",
+          "main_track": {
+            "num_acc": 98,
+            "num_sub": 258
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "15th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 100,
+            "num_sub": 276
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "14th",
+          "location": "Cancun, Mexico",
+          "main_track": {
+            "num_acc": 107,
+            "num_sub": 303
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "13th",
+          "location": "San Juan, Puerto Rico",
+          "main_track": {
+            "num_acc": 113,
+            "num_sub": 260
+          },
+          "note": "IPPS/SPDP, merged"
+        },
+        {
+          "year": 1998,
+          "ordinal": "12th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 118,
+            "num_sub": 324
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "11th",
+          "location": "Geneva, Switzerland",
+          "main_track": {
+            "num_acc": 113,
+            "num_sub": 298
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "10th",
+          "location": "Honolulu, Hawaii, USA",
+          "main_track": {
+            "num_acc": 126,
+            "num_sub": 353
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "9th",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "num_acc": 115,
+            "num_sub": 290
+          }
+        },
+        {
+          "year": 1992,
+          "ordinal": "6th",
+          "location": "Beverly Hills, California, USA",
+          "main_track": {
+            "num_acc": 118,
+            "num_sub": 352
+          },
+          "note": "found from google book in-book search."
         }
       ]
     },
