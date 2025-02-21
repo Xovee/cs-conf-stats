@@ -3134,7 +3134,7 @@
         {
           "year": 2017,
           "ordinal": "18th",
-          "location": "",
+          "location": "Hong Kong, China",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 313,
@@ -9808,7 +9808,7 @@
         {
           "year": 2008,
           "ordinal": "21st",
-          "location": "",
+          "location": "Helsinki, Finland",
           "main_track": {
             "num_acc": 44,
             "num_sub": 126
@@ -16291,7 +16291,7 @@
         {
           "year": 2006,
           "ordinal": "20th",
-          "location": "Cairns, AUstralia",
+          "location": "Cairns, Australia",
           "main_track": {
             "num_acc": 37,
             "num_sub": 141

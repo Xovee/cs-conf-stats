@@ -195,12 +195,15 @@ fetch('/data/conf.json')
       name: city,
       value: cityCount[city],
       conferences: cityConferences[city]
-    })).sort((a, b) => b.value - a.value).slice(0, 50);
+    })).sort((a, b) => b.value - a.value);
 
     const sortedCountryData = Object.keys(countryCount).map(country => ({
       name: country,
       value: countryCount[country]
     })).sort((a, b) => b.value - a.value)
+
+    console.log(sortedCountryData);
+    console.log(cityData);
 
     const countryData = sortedCountryData.slice(0, 20);
     const remainingCountrySum = sortedCountryData.slice(20).reduce((sum, { value }) => sum + value, 0);
@@ -208,10 +211,10 @@ fetch('/data/conf.json')
 
     renderCountry(countryData);
     
-    renderCity(cityData);
+    renderCity(cityData.slice(0, 50));
 
     renderWorldMap();
-    renderWorldMapCity();
+    renderWorldMapCity(cityData);
 
     const aggregatedAccRates = Object.keys(seriesAccRates).map(series => {
       const { accRates } = seriesAccRates[series];
@@ -399,35 +402,82 @@ function renderWorldMap() {
   google.charts.setOnLoadCallback(drawRegionsMap);
 
   function drawRegionsMap() {
-        var data = google.visualization.arrayToDataTable([
-          ['Country', 'Popularity'],
-          ['Germany', 200],
-          ['United States', 300],
-          ['Brazil', 400],
-          ['Canada', 500],
-          ['France', 600],
-          ['RU', 700]
-        ]);
 
-        var options = {
-          backgroundColor: {
-            fill: "rgb(243,244,246)",
-          },
-          colorAxis: {minValue: 0, colors: ['#ffffff', '#004098']},
-          domain: 'CN',
-        };
+    var data = google.visualization.arrayToDataTable([
+      ['Country', 'Frequency'],
+      ['US', 864],
+      ['Canada', 87],
+      ['China', 77],
+      ['Taiwan', 77],
+      ['France', 45],
+      ['Italy', 44],
+      ['United Kingdom', 43],
+      ['Spain', 41], 
+      ['Australia', 35],
+      ['Germany', 35],
+      ['Japan', 25],
+      ['Austria', 22],
+      ['Netherlands', 22],
+      ['South Korea', 19],
+      ['North Korea', 19],
+      ['India', 18],
+      ['Singapore', 16],
+      ['Sweden', 15],
+      ['Greece', 14],
+      ['Finland', 11],
+      ['Switzerland', 11],
+      ['Israel', 9],
+      ['Portugal', 9],
+      ['Ireland', 8],
+      ['Brazil', 8],
+      ['Mexico', 8],
+      ['Turkey', 8],
+      ['Denmark', 7],
+      ['Puerto Rico', 6],
+      ['Czech Republic', 5],
+      ['Chile', 4],
+      ['Norway', 4],
+      ['Belgium', 4],
+      ['New Zealand', 3],
+      ['Hungary', 3],
+      ['Argentina', 2],
+      ['Malaysia', 2],
+      ['Russia', 2],
+      ['Thailand', 2],
+      ['Poland', 2],
+      ['Bulgaria', 2],
+      ['Croatia', 2],
+      ['Rwanda', 1],
+      ['Egypt', 1],
+      ['Romania', 1],
+      ['United Arab Emirates', 1],
+      ['Dominican Republic', 1],
+      ['Qatar', 1],
+      ['Iceland', 1],
+      ['Barbados', 1],
+      ['Vietnam', 1],
+      ['Estonia', 1],
+    ]);
 
-        var chart = new google.visualization.GeoChart(document.getElementById('country-map'));
+    var options = {
+      backgroundColor: {
+        fill: "rgb(243,244,246)",
+      },
+      colorAxis: {values: [1, 120, 2000], colors: ['#ccd8ea', '#004098', '#000']},
+      domain: 'CN',
+    };
 
-        chart.draw(data, options);
-      }
+    var chart = new google.visualization.GeoChart(document.getElementById('country-map'));
+
+    chart.draw(data, options);
+  }
 }
 
 
 
 
 
-function renderWorldMapCity() {
+function renderWorldMapCity(cityData) {
   google.charts.load('current', {
     'packages':['geochart'],
     'mapsApiKey': 'AIzaSyCUh0nLiiCcRK_elmftdkErbUlpQPqiTew'
@@ -435,34 +485,38 @@ function renderWorldMapCity() {
   google.charts.setOnLoadCallback(drawCityMap);
 
   function drawCityMap() {
-        var data = google.visualization.arrayToDataTable([
-          ['City',   'Population', 'Area'],
-          ['Rome',      2761477,    1285.31],
-          ['Milan',     1324110,    181.76],
-          ['Naples',    959574,     117.27],
-          ['Turin',     907563,     130.17],
-          ['Palermo',   655875,     158.9],
-          ['Genoa',     607906,     243.60],
-          ['Bologna',   380181,     140.7],
-          ['Florence',  371282,     102.41],
-          ['Fiumicino', 67370,      213.44],
-          ['Anzio',     52192,      43.43],
-          ['Ciampino',  38262,      11]
-        ]);
+    var chartData = [['City', 'Frequency']];
+    cityData.forEach(city => {
+      chartData.push([city.name, city.value]);
+    })
 
-        var options = {
-          backgroundColor: {
-            fill: "rgb(243,244,246)",
-          },
-          displayMode: 'markers',
-          colorAxis: {colors: ['#bbbbbb', '#004098']},
-          domain: 'CN',
-        };
+    var data = google.visualization.arrayToDataTable(chartData);
+    // [
+      // ['City', 'frequency'],
+      // ['San Francisco', 54],
+      // ['San Diego', 53],
+      // ['San Jose', 47],
+      // ['Santa Barbara', 41],
+      // ['Vancouver', 38],
+      // ['Seattle', 38],
+      // ['Boston', 34],
+      // ['Washington DC', 33],
+      // ['New York City', 30]
+    // ]);
 
-        var chart = new google.visualization.GeoChart(document.getElementById('city-map'));
+    var options = {
+      backgroundColor: {
+        fill: "rgb(243,244,246)",
+      },
+      displayMode: 'markers',
+      colorAxis: {colors: ['#bbbbbb', '#004098']},
+      domain: 'CN',
+    };
 
-        chart.draw(data, options);
-      }
+    var chart = new google.visualization.GeoChart(document.getElementById('city-map'));
+
+    chart.draw(data, options);
+  }
 }
 
 function renderCity(cityData) {

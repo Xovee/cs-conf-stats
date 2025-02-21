@@ -1,5 +1,6 @@
 # TODO List
 
+- [x] Feb 21, 2025. Add two google maps. Finished Feb 21, 2025.
 - [x] Jan 16, 2025. Add Scatter for each latest conference. Finished Jan 16, 2025.
 - [x] Jan 13, 2025. Add fun fact statistics. Finished Jan 13, 2025.
 - [ ] Dec 13, 2024. Optimize js for speed. 
@@ -14,15 +15,15 @@
 - [x] Oct 9, 2024. Add yearly stats in viz.
 - [x] Oct 4, 2024. Let city viz's tooltip having three columns.
 - [x] Aug 3, 2024. Add catalog page for SEO.
-- [ ] Jul 25, 2024. Add the trending stats. Like scatter plot or line plots with positives and negatives. 
-- [x] Jul 25, 2024. Add some charts for fun
+- [ ] July 25, 2024. Add the trending stats. Like scatter plot or line plots with positives and negatives. 
+- [x] July 25, 2024. Add some charts for fun
     - [x] frequent cities and countries
     - [x] most picky confs
     - [x] most generous confs
     - [x] highest num of total accepted
     - [x] smallest conference (yearly paper)
     - [x] yearly sub and acc
-- [x] Jul 24, 2024. Check ICME 2024 Proceeding
-- [x] Jul 23, 2024. To add a custom field in metadata to report some issues of that conference.
-- [x] Jul 22, 2024. To include the second track. 
-- [x] Jul 22, 2024. Check ICDE 2024 Proceeding
+- [x] July 24, 2024. Check ICME 2024 Proceeding
+- [x] July 23, 2024. To add a custom field in metadata to report some issues of that conference.
+- [x] July 22, 2024. To include the second track. 
+- [x] July 22, 2024. Check ICDE 2024 Proceeding
