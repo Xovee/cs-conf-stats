@@ -32,12 +32,16 @@ select option {
     @apply shadow-md rounded-lg px-5 py-4 m-3 flex-1 min-w-[200px] max-w-[800px] md:min-w-[400px] bg-white
 }
 
+.conf-card-full {
+    @apply shadow-md rounded-lg px-5 py-4 m-3 flex-1 bg-white
+}
+
 .conf-card-title {
     @apply font-bold text-xl mb-2
 }
 
 .conf-card-desc {
-    @apply text-base text-gray-700
+    @apply text-base text-gray-700 break-words 
 }
 
 .conf-card-big-desc {

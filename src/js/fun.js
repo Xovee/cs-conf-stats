@@ -212,8 +212,6 @@ fetch('/data/conf.json')
     
     renderCity(cityData);
 
-    renderWorldMap();
-
     const aggregatedAccRates = Object.keys(seriesAccRates).map(series => {
       const { accRates } = seriesAccRates[series];
       const avgAccRate = accRates.reduce((sum, rate) => sum + rate, 0) / accRates.length;
@@ -234,6 +232,22 @@ fetch('/data/conf.json')
     const sortedSingleConfs = singleConfs.sort((a, b) => a.rate - b.rate).slice(0, 20);
 
     renderDiscipline(disciplineCounts);
+
+    window.addEventListener('onload', renderWorldMap());
+
+    window.addEventListener('resize', defounce(() => {
+      renderWorldMap();
+    }, 500));
+
+    function defounce(fn, delay = 500) {
+      let timer;
+      return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+          fn.apply(this, args);
+        }, delay);
+      };
+    }
 
     const uniqueConfs = Array.from(new Set(singleConfs.map(d => d.conf))).sort();
     renderScatter(singleConfs, uniqueConfs);
@@ -258,6 +272,14 @@ function renderDiscipline(disciplineCounts) {
     tooltip: {
       trigger: 'item',
       formatter: '<b>{b}</b><br />{c} Paper ({d}%)'
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
+      }
     },
     series: [
       {
@@ -304,6 +326,14 @@ function renderYearly(years, submissions, acceptances, rateYearly) {
       textStyle: {
         color: '#004098',
         align: 'left'
+      }
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
       }
     },
     legend: {
@@ -508,6 +538,14 @@ function renderCity(cityData) {
       min: minCityValue,
       max: maxCityValue,
     },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
+      }
+    },
     xAxis: {
       name: 'Frequency',
       nameTextStyle: {
@@ -576,6 +614,14 @@ function renderCountry(countryData) {
       trigger: 'axis',
       axisPointer: {
         type: 'shadow'
+      }
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
       }
     },
     grid: { containLabel: true },
@@ -747,6 +793,14 @@ function renderScatter(dataPoints, uniqueConfs) {
       selector: [{ type: 'inverse', title: 'inv'}],
       selectorPosition: 'start'
     },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
+      }
+    },
     grid: { containLabel: true,  top: 250},
     xAxis: {
       name: 'Acceptance Rate',
@@ -794,6 +848,14 @@ function renderScatter(dataPoints, uniqueConfs) {
         borderWidth: 1
       }
     },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
+      }
+    },
     grid: scatterOption.grid,
     xAxis: scatterOption.xAxis,
     yAxis: scatterOption.yAxis,
@@ -830,6 +892,14 @@ function renderPicky(accRate) {
       inRange: {color: ['#004098', '#00409830']},
       dimension: 0,
       // inverse: true,
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
+      }
     },
     xAxis: {
       name: 'Average Acceptance Rate',
@@ -900,6 +970,14 @@ function renderPickySingle(pickySingle) {
       formatter: function (params) {
         const d = params.data;
         return `${d.name}:<br> ${d.rate.toFixed(2)}% (${d.acc}/${d.sub})`;
+      }
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
       }
     },
     grid: { containLabel: true },
@@ -990,6 +1068,14 @@ function renderGenerous(accRate) {
         return `${params[0].name}: ${params[0].value.toFixed(2)}%`
       }
     },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
+      }
+    },
     grid: { containLabel: true },
     visualMap: {
       type: 'continuous',
@@ -1066,6 +1152,14 @@ function renderLarge(numAcc) {
       axisPointer: {
         type: 'shadow'
       },
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
+      }
     },
     grid: { containLabel: true },
     visualMap: {
@@ -1154,6 +1248,14 @@ function renderSmall(numYearlyAcc) {
       max: maxSmallValue,
       inRange: {color: ['#004098', '#00409830']},
       dimension: 0,
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
+      }
     },
     xAxis: {
       name: 'Yearly Accepted Papers',
