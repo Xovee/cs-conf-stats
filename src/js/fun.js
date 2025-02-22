@@ -233,13 +233,13 @@ fetch('/data/conf.json')
 
     renderDiscipline(disciplineCounts);
 
-    window.addEventListener('onload', renderWorldMap);
+    window.addEventListener('load', renderWorldMap);
 
-    window.addEventListener('resize', defounce(() => {
+    window.addEventListener('resize', debounce(() => {
       renderWorldMap();
     }, 500));
 
-    function defounce(fn, delay = 500) {
+    function debounce(fn, delay = 500) {
       let timer;
       return (...args) => {
         clearTimeout(timer);
