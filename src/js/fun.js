@@ -233,7 +233,7 @@ fetch('/data/conf.json')
 
     renderDiscipline(disciplineCounts);
 
-    window.addEventListener('onload', renderWorldMap());
+    window.addEventListener('onload', renderWorldMap);
 
     window.addEventListener('resize', defounce(() => {
       renderWorldMap();
@@ -430,7 +430,6 @@ function renderWorldMap() {
   google.charts.setOnLoadCallback(drawRegionsMap);
 
   function drawRegionsMap() {
-
     var data = google.visualization.arrayToDataTable([
       ['Country', 'Frequency'],
       ['US', 864],
@@ -491,7 +490,7 @@ function renderWorldMap() {
       backgroundColor: {
         fill: "rgb(243,244,246)",
       },
-      colorAxis: {values: [1, 120, 2000], colors: ['#ccd8ea', '#004098', '#000']},
+      colorAxis: {values: [1, 60, 120, 2000], colors: ['#e5ebf4', '#004098', '#00204c', '#000']},
       domain: 'CN',
     };
 

@@ -153,6 +153,13 @@
                         <option value="SIGIR">SIGIR</option>
                     </select>
 
+                    <label for="dropdown-metrics" title="Measurement & Performance Analysis">Metrics</label>
+                    <select id="dropdown-metrics" name="dropdown-metrics" class="">
+                        <option value="" disabled selected></option>
+                        <option value="IMC">IMC</option>
+                        <option value="SIGMETRICS">SIGMETRICS</option>
+                    </select>
+
                     <label for="dropdown-mobi" title="Mobile Computing">Mobile</label>
                     <select id="dropdown-mobi" name="dropdown-mobi" class="">
                         <option value="" disabled selected></option>
@@ -293,6 +300,7 @@
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-web" data-conf="ICWSM"><span>ICWSM</span>: International AAAI Conference on Web and Social Media</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-security" data-conf="IEEE S&P"><span>IEEE S&P</span>: IEEE Symposium on Security and Privacy</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="IJCAI"><span>IJCAI</span>: International Joint Conference on Artificial Intelligence</a>.</li>
+            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-metrics" data-conf="IMC"><span>IMC</span>: ACM Internet Measurement Conference</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-net" data-conf="INFOCOM"><span>INFOCOM</span>: IEEE International Conference on Computer Communications</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-hpc" data-conf="IPDPS"><span>IPDPS</span>: IEEE International Parallel and Distributed Processing Symposium</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-arch" data-conf="ISCA"><span>ISCA</span>: International Symposium on Computer Architecture</a>.</li>
@@ -356,11 +364,14 @@
 
 <footer class="py-4 container">
     <div class="">
-        <div class="text-base">List of 63 conferences: AAAI, ACL, ACM MM, AISTATS, Asiacrypt, ASPLOS, CASES, CCS, CHI, CIKM, CODES+ISSS, COLT, CRYPTO, CSCW, CVPR, DAC, ECCV, ECIR, ECRTS, EMNLP, EMSOFT, Eurocrypt, HPCA, HPDC, ICCAD, ICCV, ICDE, ICDM, ICLR, ICME, ICML, ICMR, ICS, ICWSM, IEEE S&P, IJCAI, INFOCOM, IPDPS, ISCA, MICRO, MobiCom, MobiSys, NAACL, NDSS, NeurIPS, NSDI, PODS, PPoPP, RTAS, RTSS, SC, SDM, SenSys, SIGCOMM, SIGIR, KDD, TheWebConf, UAI, UbiComp, UIST, USENIX Security, VLDB, and WSDM.</div>
+        <div class="text-base">List of 64 conferences: AAAI, ACL, ACM MM, AISTATS, Asiacrypt, ASPLOS, CASES, CCS, CHI, CIKM, CODES+ISSS, COLT, CRYPTO, CSCW, CVPR, DAC, ECCV, ECIR, ECRTS, EMNLP, EMSOFT, Eurocrypt, HPCA, HPDC, ICCAD, ICCV, ICDE, ICDM, ICLR, ICME, ICML, ICMR, ICS, ICWSM, IEEE S&P, IJCAI, IMC, INFOCOM, IPDPS, ISCA, MICRO, MobiCom, MobiSys, NAACL, NDSS, NeurIPS, NSDI, PODS, PPoPP, RTAS, RTSS, SC, SDM, SenSys, SIGCOMM, SIGIR, KDD, TheWebConf, UAI, UbiComp, UIST, USENIX Security, VLDB, and WSDM.</div>
 
         <p>
             Created and maintained by <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">Xovee Xu</a> from <a href="https://en.uestc.edu.cn/" target="_blank">UESTC</a>, China. If you like the site, consider <a href="https://ko-fi.com/xovee" target="_blank">buy me a coffee</a>! Data are primarily collected from the proceedings, though sometimes from the web, which may contain errors.
+        </p>
 
+        <p>
+            If you think certain top-tier conferences are missing in some categories, please let me know.
         </p>
 
         <p>Addition, correction, feature suggestion are welcomed: please open issues or PRs at the  <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub repo</a> (give me star!).</p>

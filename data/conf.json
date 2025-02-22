@@ -17268,6 +17268,104 @@
       ]
     },
     {
+      "series": "IMC",
+      "discipline": "Metrics",
+      "metadata": {
+        "series_full_title": "ACM Internet Measurement Conference",
+        "main_discipline": [
+          "Network Measurement", "Internet Performance", "Data Communications"
+        ],
+        "other_discipline": [
+          "Network Topology", "Traffic Analysis", "Routing", "Security"
+        ],
+        "parent_org": "ACM SIGCOMM, ACM SIGMETRICS",
+        "website": "https://www.sigcomm.org/events/imc",
+        "proceedings": "https://dl.acm.org/conference/imc/proceedings",
+        "second_track_name": "Short Paper Track",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "24th",
+          "location": "Madrid, Spain",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 158
+          },
+          "second_track": {
+            "num_acc": 25,
+            "num_sub": 91
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "23rd",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 137
+          },
+          "second_track": {
+            "num_acc": 14,
+            "num_sub": 64
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "22nd",
+          "location": "Nice, France",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 143
+          },
+          "second_track": {
+            "num_acc": 18,
+            "num_sub": 69
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "21st",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 135
+          },
+          "second_track": {
+            "num_acc": 15,
+            "num_sub": 61
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "20th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 142
+          },
+          "second_track": {
+            "num_acc": 15,
+            "num_sub": 74
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "19th",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 118
+          },
+          "second_track": {
+            "num_acc": 10,
+            "num_sub": 79
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
