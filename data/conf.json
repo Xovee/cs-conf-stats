@@ -17362,6 +17362,97 @@
             "num_acc": 10,
             "num_sub": 79
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "17th",
+          "location": "London, UK",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 100
+          },
+          "second_track": {
+            "num_acc": 14,
+            "num_sub": 79
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "16th",
+          "location": "Santa Monica, California, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 104
+          },
+          "second_track": {
+            "num_acc": 21,
+            "num_sub": 80
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "15th",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 96
+          },
+          "second_track": {
+            "num_acc": 12,
+            "num_sub": 73
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "14th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 103
+          },
+          "second_track": {
+            "num_acc": 11,
+            "num_sub": 85
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "13th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 92
+          },
+          "second_track": {
+            "num_acc": 17,
+            "num_sub": 86
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "12th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 101
+          },
+          "second_track": {
+            "num_acc": 10,
+            "num_sub": 82
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "11th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 111
+          },
+          "second_track": {
+            "num_acc": 14,
+            "num_sub": 110
+          }
         }
       ]
     },
