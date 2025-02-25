@@ -17561,6 +17561,115 @@
       ]
     },
     {
+      "series": "SIGMETRICS",
+      "discipline": "Metrics",
+      "metadata": {
+        "series_full_title": "ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems",
+        "main_discipline": [
+          "Performance Evaluation & Modeling", "Machine Learning for Systems", "Computer Systems and Networks"
+        ],
+        "other_discipline": [
+          "Cloud & Edge Computing", "Security & Privacy in Computing", "High-Performance Computing", "Optimization & Resource Management", "Measurement & Benchmarking" 
+        ],
+        "parent_org": "ACM SIGMETRICS",
+        "website": "https://www.sigmetrics.org/index.shtml",
+        "proceedings": "https://dl.acm.org/journal/pomacs",
+        "second_track_name": "Extended Abstract (Poster)",
+        "note": "The papers presented in SIGMETRICS are published in the Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS). Since there are revision papers, the accurate assessment of the acceptance rate is difficult (though roughly the same level). In addition to full papers, before 2018, there are papers presented as extended abstracts (posters)."
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "50th",
+          "location": "Venice, Italy",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 336
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "49th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 339
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "48th",
+          "location": "Mumbai, India",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 303
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "47th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 315
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "46th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 280
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "45th",
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 317
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "44th",
+          "location": "Irvine, California, USA",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 270
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "43rd",
+          "location": "Irvine, California, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 203
+          },
+          "second_track": {
+            "num_acc": 18,
+            "num_sub": 203
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "42nd",
+          "location": "Antibes, France",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 208
+          },
+          "second_track": {
+            "num_acc": 24,
+            "num_sub": 208
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

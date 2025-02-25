@@ -72,6 +72,7 @@ Number of submissions and number of accepted papers for the following conference
 1. SenSys: ACM Conference on Embedded Networked Sensor Systems.
 1. SIGCOMM: Annual Conference of the ACM SIGCOMM on the Applications, Technologies, Architectures, and Protocols for Computer Communication
 1. SIGIR: International ACM SIGIR Conference on Research and Development in Information Retrieval.
+1. SIGMETRICS: ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems.
 1. SIGKDD: ACM SIGKDD Conference on Knowledge Discovery and Data Mining.
 1. TheWebConf: The Web Conference.
 1. UAI: Conference on Uncertainty in Artificial Intelligence. 

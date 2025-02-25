@@ -1,6 +1,7 @@
 # TODO List
 
-- [] Feb 22, 2025. Give URL strings for SEO. 
+- [X] Feb 25, 2025. Longest and youngest conferences. Finished Feb 25, 2025. 
+- [ ] Feb 22, 2025. Give URL strings for SEO. 
 - [x] Feb 21, 2025. Add a google map. Finished Feb 21, 2025.
 - [x] Jan 16, 2025. Add Scatter for each latest conference. Finished Jan 16, 2025.
 - [x] Jan 13, 2025. Add fun fact statistics. Finished Jan 13, 2025.

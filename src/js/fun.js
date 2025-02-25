@@ -260,6 +260,25 @@ fetch('/data/conf.json')
     renderLarge(sortedLarge);
     renderSmall(sortedSmall);
 
+    
+    var yearData = [
+      {name: "AAAI", value: 1980},
+      {name: "ACL", value: 1963},
+      {name: "ACM MM", value: 1993},
+      {name: "Asiacrypt", value: 1990},
+      {name: "ASPLOS", value: 1982},
+      {name: "CASES", value: 1998},
+      {name: "COLT", value: 1988},
+      {name: "CCS", value: 1993},
+      {name: "CHI", value: 1982},
+      {name: "ICLR", value: 2013},
+      {name: "IMC", value: 2001},
+      {name: 'SIGMETRICS', value: 1973}
+    ]
+
+    renderOld(yearData);
+    renderYoung(yearData);
+
   });
 
 function renderDiscipline(disciplineCounts) {
@@ -1310,5 +1329,186 @@ function renderSmall(numYearlyAcc) {
 
   window.addEventListener('resize', function() {
     smallChart.resize();
+  })
+}
+
+
+function renderOld(data) {
+  data.sort((a, b) => a.value - b.value).slice(0, 10);
+  data = data.slice(0, 10);
+  var minSmallValue = Math.min(...data.map(item => item.value));
+  var maxSmallValue = Math.max(...data.map(item => item.value));
+
+  const oldChart = echarts.init(document.getElementById('viz-old'));
+  const oldOption = {
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: {
+        type: 'shadow'
+      },
+      formatter: function (params) {
+        return `${params[0].name}: Started in ${params[0].value}.`
+      }
+    },
+    grid: { containLabel: true },
+    visualMap: {
+      type: 'continuous',
+      min: minSmallValue,
+      max: maxSmallValue,
+      inRange: {color: ['#004098', '#00409830']},
+      dimension: 0,
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
+      }
+    },
+    xAxis: {
+      name: 'Birthyear',
+      nameTextStyle: {
+        fontSize: 16,
+        fontWeight: 'bold'
+      },
+      axisLabel: {
+        formatter: '{value}',
+        fontSize: 16,
+        color: '#000'
+      },
+      nameLocation: 'middle',
+      nameGap: 30,
+      type: 'value'
+    },
+    yAxis: {
+      name: 'Conference',
+      nameLocation: 'start',
+      nameTextStyle: {
+        fontSize: 16,
+        fontWeight: 'bold'
+      },
+      type: 'category',
+      data: data.map(item => item.name),
+      inverse: true,
+      axisLabel: {
+        fontSize: 16,
+        color: '#000'
+      }
+    },
+    series: [
+      {
+        name: "The Oldest Conferences",
+        type: 'bar',
+        data: data,
+        label: {
+          show: true,
+          position: 'right',
+          formatter: function (params) {
+            return `${params.value}`;
+          },
+          textStyle: {
+            fontSize: 16,
+            color: '#000'
+          }
+        }
+      }
+    ]
+  };
+
+  oldChart.setOption(oldOption);
+
+  window.addEventListener('resize', function() {
+    oldChart.resize();
+  })
+}
+
+function renderYoung(data) {
+  data.sort((a, b) => b.value - a.value);
+  data = data.slice(0, 10);
+  var minSmallValue = Math.min(...data.map(item => item.value));
+  var maxSmallValue = Math.max(...data.map(item => item.value));
+
+  const youngChart = echarts.init(document.getElementById('viz-young'));
+  const youngOption = {
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: {
+        type: 'shadow'
+      },
+      formatter: function (params) {
+        return `${params[0].name}: Started in ${params[0].value}.`
+      }
+    },
+    grid: { containLabel: true },
+    visualMap: {
+      type: 'continuous',
+      min: minSmallValue,
+      max: maxSmallValue,
+      inRange: {color: ['#004098', '#00409830']},
+      dimension: 0,
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
+      }
+    },
+    xAxis: {
+      name: 'Birthyear',
+      nameTextStyle: {
+        fontSize: 16,
+        fontWeight: 'bold'
+      },
+      axisLabel: {
+        formatter: '{value}',
+        fontSize: 16,
+        color: '#000'
+      },
+      nameLocation: 'middle',
+      nameGap: 30,
+      type: 'value'
+    },
+    yAxis: {
+      name: 'Conference',
+      nameLocation: 'start',
+      nameTextStyle: {
+        fontSize: 16,
+        fontWeight: 'bold'
+      },
+      type: 'category',
+      data: data.map(item => item.name),
+      inverse: true,
+      axisLabel: {
+        fontSize: 16,
+        color: '#000'
+      }
+    },
+    series: [
+      {
+        name: "The Youngest Conferences",
+        type: 'bar',
+        data: data,
+        label: {
+          show: true,
+          position: 'right',
+          formatter: function (params) {
+            return `${params.value}`;
+          },
+          textStyle: {
+            fontSize: 16,
+            color: '#000'
+          }
+        }
+      }
+    ]
+  };
+
+  youngChart.setOption(youngOption);
+
+  window.addEventListener('resize', function() {
+    youngChart.resize();
   })
 }
