@@ -932,7 +932,8 @@ function renderPicky(accRate) {
       },
       nameLocation: 'middle',
       nameGap: 30,
-      type: 'value'
+      type: 'value',
+      min: 10
     },
     yAxis: {
       name: 'Conference',
@@ -1020,7 +1021,8 @@ function renderPickySingle(pickySingle) {
       },
       nameLocation: 'middle',
       nameGap: 30,
-      type: 'value'
+      type: 'value',
+      min: 5
     },
     yAxis: {
       name: 'Single Conference Event',
@@ -1115,7 +1117,8 @@ function renderGenerous(accRate) {
       },
       nameLocation: 'middle',
       nameGap: 30,
-      type: 'value'
+      type: 'value',
+      min: 20
     },
     yAxis: {
       name: 'Conference',
@@ -1288,7 +1291,8 @@ function renderSmall(numYearlyAcc) {
       },
       nameLocation: 'middle',
       nameGap: 30,
-      type: 'value'
+      type: 'value',
+      min: 10
     },
     yAxis: {
       name: 'Conference',
@@ -1372,6 +1376,8 @@ function renderOld(data) {
         fontSize: 16,
         fontWeight: 'bold'
       },
+      min: 1950,
+      max: 2030,
       axisLabel: {
         formatter: '',
         fontSize: 16,
@@ -1469,7 +1475,9 @@ function renderYoung(data) {
       },
       nameLocation: 'middle',
       nameGap: 30,
-      type: 'value'
+      type: 'value',
+      min: 1950,
+      max: 2030
     },
     yAxis: {
       name: 'Conference',
