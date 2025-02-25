@@ -1373,7 +1373,7 @@ function renderOld(data) {
         fontWeight: 'bold'
       },
       axisLabel: {
-        formatter: '{value}',
+        formatter: '',
         fontSize: 16,
         color: '#000'
       },
@@ -1463,7 +1463,7 @@ function renderYoung(data) {
         fontWeight: 'bold'
       },
       axisLabel: {
-        formatter: '{value}',
+        formatter: '',
         fontSize: 16,
         color: '#000'
       },
