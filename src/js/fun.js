@@ -271,6 +271,10 @@ fetch('/data/conf.json')
       {name: "COLT", value: 1988},
       {name: "CCS", value: 1993},
       {name: "CHI", value: 1982},
+      {name: "CIKM", value: 1992},
+      {name: "CODES+ISSS", value: 2003},
+      {name: "COLT", value: 1988},
+      {name: "Crypto", value: 1981},
       {name: "ICLR", value: 2013},
       {name: "IMC", value: 2001},
       {name: 'SIGMETRICS', value: 1973}
