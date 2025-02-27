@@ -268,13 +268,19 @@ fetch('/data/conf.json')
       {name: "Asiacrypt", value: 1990},
       {name: "ASPLOS", value: 1982},
       {name: "CASES", value: 1998},
-      {name: "COLT", value: 1988},
       {name: "CCS", value: 1993},
       {name: "CHI", value: 1982},
       {name: "CIKM", value: 1992},
       {name: "CODES+ISSS", value: 2003},
       {name: "COLT", value: 1988},
       {name: "Crypto", value: 1981},
+      {name: "CSCW", value: 1986},
+      {name: "CVPR", value: 1983},
+      {name: "DAC", value: 1964},
+      {name: "ECCV", value: 1990},
+      {name: "ECIR", value: 1978},
+      {name: "ECRTS", value: 1989},
+      {name: "EMNLP", value: 1996},
       {name: "ICLR", value: 2013},
       {name: "IMC", value: 2001},
       {name: 'SIGMETRICS', value: 1973}
@@ -1342,8 +1348,8 @@ function renderSmall(numYearlyAcc) {
 
 
 function renderOld(data) {
-  data.sort((a, b) => a.value - b.value).slice(0, 10);
-  data = data.slice(0, 10);
+  data.sort((a, b) => a.value - b.value);
+  data = data.slice(0, 20);
   var minSmallValue = Math.min(...data.map(item => item.value));
   var maxSmallValue = Math.max(...data.map(item => item.value));
 
@@ -1435,7 +1441,7 @@ function renderOld(data) {
 
 function renderYoung(data) {
   data.sort((a, b) => b.value - a.value);
-  data = data.slice(0, 10);
+  data = data.slice(0, 20);
   var minSmallValue = Math.min(...data.map(item => item.value));
   var maxSmallValue = Math.max(...data.map(item => item.value));
 
