@@ -1283,6 +1283,16 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "38th",
+          "location": "Nashville, USA",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 2878,
+            "num_sub": 13008
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "37th",
           "location": "Seattle, USA",
