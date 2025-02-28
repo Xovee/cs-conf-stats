@@ -281,6 +281,13 @@ fetch('/data/conf.json')
       {name: "ECIR", value: 1978},
       {name: "ECRTS", value: 1989},
       {name: "EMNLP", value: 1996},
+      {name: "EMSOFT", value: 2001},
+      {name: "Eurocrypt", value: 1982},
+      {name: "HPCA", value: 1995},
+      {name: "HPDC", value: 1992},
+      {name: "ICCAD", value: 1982},
+      {name: "ICCV", value: 1987},
+      {name: "ICDE", value: 1984},
       {name: "ICLR", value: 2013},
       {name: "IMC", value: 2001},
       {name: 'SIGMETRICS', value: 1973}

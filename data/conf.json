@@ -17884,6 +17884,77 @@
             "num_acc": 11,
             "num_sub": 165
           }
+        },
+        {
+          "year": 1999,
+          "ordinal": "25th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 92
+          },
+          "second_track": {
+            "num_acc": 19,
+            "num_sub": 92
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "24th",
+          "location": "Madison, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 136
+          },
+          "second_track": {
+            "num_acc": 10,
+            "num_sub": 136
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "23rd",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 130
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "22nd",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 110
+          },
+          "second_track": {
+            "num_acc": 6,
+            "num_sub": 110
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "21st",
+          "location": "Ottawa, Canada",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 123
+          },
+          "second_track": {
+            "num_acc": 11,
+            "num_sub": 123
+          }
+        },
+        {
+          "year": 1982,
+          "ordinal": "8th",
+          "location": "",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 60
+          },
+          "note": "More than 60"
         }
       ]
     },
