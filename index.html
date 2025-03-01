@@ -192,6 +192,12 @@
                         <option value="NAACL">NAACL</option>
                     </select>
 
+                    <label for="dropdown-rts" title="Operating Systems">OS</label>
+                    <select id="dropdown-os" name="dropdown-os" class="">
+                        <option value="" disabled selected></option>
+                        <option value="OSDI">OSDI</option>
+                    </select>
+
                     <label for="dropdown-rts" title="Real-Time Systems">RTS</label>
                     <select id="dropdown-rts" name="dropdown-rts" class="">
                         <option value="" disabled selected></option>
@@ -312,6 +318,7 @@
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-security" data-conf="NDSS"><span>NDSS</span>: Network and Distributed System Security Symposium</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="NeurIPS"><span>NeurIPS</span>: Conference on Neural Information Processing Systems</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-net" data-conf="NSDI"><span>NSDI</span>: USENIX Symposium on Networked Systems Design and Implementation</a>.</li>
+            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-os" data-conf="OSDI"><span>OSDI</span>: USENIX Symposium on Operating Systems Design and Implementation</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-db" data-conf="PODS"><span>PODS</span>: ACM Symposium on Principles of Database Systems</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-hpc" data-conf="PPoPP"><span>PPoPP</span>: ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-rts" data-conf="RTAS"><span>RTAS</span>: IEEE Real-Time and Embedded Technology and Applications Symposium</a>.</li>
@@ -366,7 +373,7 @@
 
 <footer class="py-4 container">
     <div class="">
-        <div class="text-base">List of 64 conferences: 
+        <div class="text-base">List of 65 conferences: 
             <a href="#aaai">AAAI</a>, 
             <a href="#acl">ACL</a>, 
             ACM MM, 
@@ -414,6 +421,7 @@
             NDSS, 
             NeurIPS, 
             NSDI, 
+            OSDI,
             PODS, 
             PPoPP, 
             RTAS, 

@@ -288,8 +288,14 @@ fetch('/data/conf.json')
       {name: "ICCAD", value: 1982},
       {name: "ICCV", value: 1987},
       {name: "ICDE", value: 1984},
+      {name: "ICDM", value: 2001},
       {name: "ICLR", value: 2013},
+      {name: "ICME", value: 1994},
+      {name: "ICML", value: 1980},
+      {name: "ICMR", value: 2011},
+      {name: "ICS", value: 1987},
       {name: "IMC", value: 2001},
+      {name: "OSDI", value: 1994},
       {name: 'SIGMETRICS', value: 1973}
     ]
 
@@ -850,7 +856,8 @@ function renderScatter(dataPoints, uniqueConfs) {
       },
       nameLocation: 'middle',
       nameGap: 30,
-      type: 'value'
+      type: 'value',
+      min: 5
     },
     yAxis: {
       name: 'Number of Submissions (Popularity)',

@@ -17959,6 +17959,90 @@
       ]
     },
     {
+      "series": "OSDI",
+      "discipline": "OS",
+      "metadata": {
+        "series_full_title": "USENIX Symposium on Operating Systems Design and Implementation",
+        "main_discipline": [
+          "Operating Systems", "Distributed Systems", "Systems Design & Implementation"
+        ],
+        "other_discipline": [
+          "Cloud Computing", "Security & Reliability", "Virtualization", "File & Storage Systems", "Networking in Systems"
+        ],
+        "parent_org": "USENIX",
+        "website": "https://www.usenix.org/conferences/byname/179",
+        "proceedings": "",
+        "second_track_name": "",
+        "note": "Proceedings are available in each year's conference \"Technical Sessions\" page. Revised and accepted papers from the last year are also counted in the last year for each current year conference. The revise mechanism is introduced in OSDI '22."
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "18th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 49,
+            "num_sub": 272
+          },
+          "note": "Remember to add revised accepted papers when adding '25 data."
+        },
+        {
+          "year": 2023,
+          "ordinal": "17th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 255
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "16th",
+          "location": "Carlsbad, California, USA",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 253
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "15th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 165
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "14th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 70,
+            "num_sub": 400
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "13th",
+          "location": "Carlsbad, California, USA",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 257
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "12th",
+          "location": "Savannah, USA",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 260
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
