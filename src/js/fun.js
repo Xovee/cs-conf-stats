@@ -294,7 +294,12 @@ fetch('/data/conf.json')
       {name: "ICML", value: 1980},
       {name: "ICMR", value: 2011},
       {name: "ICS", value: 1987},
+      {name: "ICWSM", value: 2007},
+      {name: "IEEE S&P", value: 1980},
+      {name: "IJCAI", value: 1969},
       {name: "IMC", value: 2001},
+      {name: "INFOCOM", value: 1982},
+      {name: "IPDPS", value: 1987},
       {name: "OSDI", value: 1994},
       {name: 'SIGMETRICS', value: 1973}
     ]

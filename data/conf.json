@@ -18039,6 +18039,69 @@
             "num_acc": 47,
             "num_sub": 260
           }
+        },
+        {
+          "year": 2014,
+          "ordinal": "11th",
+          "location": "Broomfield, USA",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 228
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "10th",
+          "location": "Hollywood, California, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 215
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "9th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 199
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "8th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 193
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "7th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 155
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "6th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 193
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "5th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 150
+          }
         }
       ]
     },
