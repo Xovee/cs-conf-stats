@@ -17971,9 +17971,9 @@
         ],
         "parent_org": "USENIX",
         "website": "https://www.usenix.org/conferences/byname/179",
-        "proceedings": "",
+        "proceedings": "https://archive.org/search?query=creator%3A%22USENIX+Association%22",
         "second_track_name": "",
-        "note": "Proceedings are available in each year's conference \"Technical Sessions\" page. Revised and accepted papers from the last year are also counted in the last year for each current year conference. The revise mechanism is introduced in OSDI '22."
+        "note": "Proceedings are available in each year's conference \"Technical Sessions\" page. Revised and accepted papers from the last year are also counted in the last year for each current year conference. The revise mechanism is introduced in OSDI '22.<br>I'd happy to see previous OSDI proceedings are well archived at archive.org. This conference's data are complete! 🏆"
       },
       "yearly_data": [
         {
