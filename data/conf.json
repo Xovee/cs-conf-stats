@@ -18102,6 +18102,42 @@
             "num_acc": 27,
             "num_sub": 150
           }
+        },
+        {
+          "year": 2000,
+          "ordinal": "4th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 111
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "3rd",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 96
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "2nd",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 110
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "1st",
+          "location": "Monterey, California, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 178
+          }
         }
       ]
     },

@@ -300,7 +300,12 @@ fetch('/data/conf.json')
       {name: "IMC", value: 2001},
       {name: "INFOCOM", value: 1982},
       {name: "IPDPS", value: 1987},
-      {name: "OSDI", value: 1994},
+      {name: "ISCA", value: 1973},
+      {name: "MICRO", value: 1968},
+      {name: "MobiCom", value: 1995},
+      {name: "MobiSys", value: 2003},
+      {name: "NAACL", value: 2000},
+      {name: "NDSS", value: 1993},
       {name: 'SIGMETRICS', value: 1973}
     ]
 
