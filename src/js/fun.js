@@ -306,7 +306,13 @@ fetch('/data/conf.json')
       {name: "MobiSys", value: 2003},
       {name: "NAACL", value: 2000},
       {name: "NDSS", value: 1993},
-      {name: 'SIGMETRICS', value: 1973}
+      {name: "NeurIPS", value: 1987},
+      {name: "NSDI", value: 2004},
+      {name: "OSDI", value: 1994},
+      {name: "PODS", value: 1982},
+      {name: "PPoPP", value: 1988},
+      {name: 'SIGMETRICS', value: 1973},
+      {name: 'SOSP', value: 1967}
     ]
 
     renderOld(yearData);
