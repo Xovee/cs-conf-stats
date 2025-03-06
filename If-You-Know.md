@@ -189,6 +189,11 @@ First, we need **ALL** new stats in the upcoming years.
 - ISCA 1975
 - ISCA 1973
 
+## KDD
+
+- Before 1999
+- KDD 2019
+
 ## MICRO
 
 - Before 1991
@@ -282,10 +287,12 @@ First, we need **ALL** new stats in the upcoming years.
 - SIGIR 2000
 - Before 1999
 
-## KDD
+## SOSP
 
-- Before 1999
-- KDD 2019
+- SOSP 1997
+- SOSP 1995
+- SOSP 1993
+- SOSP 1991
 
 ## TheWebConf
 

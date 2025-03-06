@@ -18284,6 +18284,42 @@
             "num_acc": 19,
             "num_sub": 90
           }
+        },
+        {
+          "year": 1989,
+          "ordinal": "12th",
+          "location": "Litchfield Park, Arizona, USA",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 84
+          }
+        },
+        {
+          "year": 1987,
+          "ordinal": "11th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 100
+          }
+        },
+        {
+          "year": 1985,
+          "ordinal": "10th",
+          "location": "Orcas Island, Washington, USA",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 85
+          }
+        },
+        {
+          "year": 1981,
+          "ordinal": "8th",
+          "location": "Pacific Grove, California, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 103
+          }
         }
       ]
     },
