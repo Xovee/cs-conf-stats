@@ -18313,6 +18313,15 @@
           }
         },
         {
+          "year": 1983,
+          "ordinal": "9th",
+          "location": "Bretton Woods, USA",
+          "main_track": {
+            "num_acc": 16,
+            "num_sub": 83
+          }
+        },
+        {
           "year": 1981,
           "ordinal": "8th",
           "location": "Pacific Grove, California, USA",

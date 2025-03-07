@@ -293,6 +293,13 @@ First, we need **ALL** new stats in the upcoming years.
 - SOSP 1995
 - SOSP 1993
 - SOSP 1991
+- SOSP 1977
+- SOSP 1975
+- SOSP 1973
+- SOSP 1971
+- SOSP 1969
+- SOSP 1967
+- SOSP 1965
 
 ## TheWebConf
 
