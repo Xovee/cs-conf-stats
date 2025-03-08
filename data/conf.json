@@ -18333,6 +18333,89 @@
       ]
     },
     {
+      "series": "EuroSys",
+      "discipline": "OS",
+      "metadata": {
+        "series_full_title": "European Conference on Computer Systems",
+        "main_discipline": [
+          "Operating Systems", "Distributed Systems", "Cloud Computing"
+        ],
+        "other_discipline": [
+          "Systems Security & Privary", "Virtualization", "ML for Systems", "Parallelism and Multicore Systems", "Embedded & Cyber-Physical Systems"
+        ],
+        "parent_org": "European Chapter of ACM SIGOPS",
+        "website": "https://www.eurosys.org/home",
+        "proceedings": "https://dl.acm.org/conference/eurosys/proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "19th",
+          "location": "Athens, Greece",
+          "main_track": {
+            "num_acc": 71,
+            "num_sub": 484
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "18th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 323
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "17th",
+          "location": "Rennes, France",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 161
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "16th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 191
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "15th",
+          "location": "Heraklion, Greece",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 234
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "14th",
+          "location": "Dresden, Germany",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 207
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "13th",
+          "location": "Porto, Portugal",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 262
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
