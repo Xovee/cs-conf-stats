@@ -18346,7 +18346,7 @@
         "parent_org": "European Chapter of ACM SIGOPS",
         "website": "https://www.eurosys.org/home",
         "proceedings": "https://dl.acm.org/conference/eurosys/proceedings",
-        "second_track_name": "",
+        "second_track_name": "Poster",
         "note": ""
       },
       "yearly_data": [
@@ -18393,6 +18393,10 @@
           "main_track": {
             "num_acc": 43,
             "num_sub": 234
+          },
+          "second_track": {
+            "num_acc": 17,
+            "num_sub": 28
           }
         },
         {
@@ -18402,6 +18406,10 @@
           "main_track": {
             "num_acc": 45,
             "num_sub": 207
+          },
+          "second_track": {
+            "num_acc": 12,
+            "num_sub": 25
           }
         },
         {
@@ -18411,6 +18419,85 @@
           "main_track": {
             "num_acc": 43,
             "num_sub": 262
+          },
+          "second_track": {
+            "num_acc": 8,
+            "num_sub": 11
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "12th",
+          "location": "Belgrade, Serbia",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 188
+          },
+          "second_track": {
+            "num_acc": 17,
+            "num_sub": 28
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "11th",
+          "location": "London, UK",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 180
+          },
+          "second_track": {
+            "num_acc": 16,
+            "num_sub": 20
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "10th",
+          "location": "Bordeaux, France",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 150
+          },
+          "second_track": {
+            "num_acc": 23,
+            "num_sub": 32
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "9th",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 147
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "8th",
+          "location": "Prague, Czech Republic",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 143
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "7th",
+          "location": "Bern, Switzerland",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 179
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "6th",
+          "location": "Salzburg, Austria",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 154
           }
         }
       ]
