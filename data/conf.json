@@ -5269,7 +5269,7 @@
         {
           "year": 2024,
           "ordinal": "46th",
-          "location": "Glasgow, UK",
+          "location": "Glasgow, Scotland, UK",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 57,
@@ -6040,7 +6040,7 @@
         {
           "year": 2014,
           "ordinal": "4th",
-          "location": "Glasgow, UK",
+          "location": "Glasgow, Scotland, UK",
           "main_track": {
             "num_acc": 42,
             "num_sub": 111
@@ -18347,7 +18347,7 @@
         "website": "https://www.eurosys.org/home",
         "proceedings": "https://dl.acm.org/conference/eurosys/proceedings",
         "second_track_name": "Poster",
-        "note": ""
+        "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
         {
@@ -18498,6 +18498,51 @@
           "main_track": {
             "num_acc": 24,
             "num_sub": 154
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "5th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 141
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "4th",
+          "location": "Nuremberg, Germany",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 126
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "3rd",
+          "location": "Glasgow, Scotland, UK",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 131
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "2nd",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 131
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "1st",
+          "location": "Leuven, Belgium",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 144
           }
         }
       ]
