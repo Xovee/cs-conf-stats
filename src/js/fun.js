@@ -284,6 +284,7 @@ fetch('/data/conf.json')
       {name: "EMSOFT", value: 2001},
       {name: "Eurocrypt", value: 1982},
       {name: "EuroSys", value: 2006},
+      {name: "FAST", value: 2002},
       {name: "HPCA", value: 1995},
       {name: "HPDC", value: 1992},
       {name: "ICCAD", value: 1982},

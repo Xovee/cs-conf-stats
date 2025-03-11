@@ -18548,6 +18548,88 @@
       ]
     },
     {
+      "series": "FAST",
+      "discipline": "OS",
+      "metadata": {
+        "series_full_title": "USENIX Conference on File and Storage Technologies",
+        "main_discipline": [
+          "Storage Systems", "File System Design", "Distributed Storage"
+        ],
+        "other_discipline": [
+          "AI for Storage", "Performance and QoS", "Reliability & Availability", "Security & Privacy", "Emerging Memory Technologies"
+        ],
+        "parent_org": "USENIX, ACM SIGOPS",
+        "website": "https://www.usenix.org/conferences/byname/146",
+        "second_track_name": "",
+        "note": "For FAST proceedings, see each conference website's Technical Sessions page."
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "22nd",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 123
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "21st",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 122
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "20th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 130
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "19th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 130
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "18th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 138
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "17th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 145
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "16th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 139
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
