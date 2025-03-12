@@ -18565,6 +18565,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "23rd",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 167
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "22nd",
           "location": "Santa Clara, California, USA",
@@ -18625,6 +18634,69 @@
           "main_track": {
             "num_acc": 23,
             "num_sub": 139
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "15th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 116
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "14th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 115
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "13th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 130
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "12th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 133
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "11th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 127
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "10th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 137
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "9th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 74
           }
         }
       ]
