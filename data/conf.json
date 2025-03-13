@@ -18698,6 +18698,69 @@
             "num_acc": 20,
             "num_sub": 74
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "8th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 89
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "7th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 102
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "5th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 98
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "4th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 125
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "3rd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 75
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "2nd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 67
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "1st",
+          "location": "Monterey, California, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 110
+          }
         }
       ]
     },

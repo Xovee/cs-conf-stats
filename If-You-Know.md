@@ -108,6 +108,10 @@ First, we need **ALL** new stats in the upcoming years.
 - Eurocrypt 1991-1992
 - Before 1990
 
+## FAST
+
+- FAST 2008
+
 ## HPDC
 
 - HPDC 2007
