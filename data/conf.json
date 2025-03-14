@@ -18765,6 +18765,110 @@
       ]
     },
     {
+      "series": "USENIX ATC",
+      "discipline": "OS",
+      "metadata": {
+        "series_full_title": "USENIX Annual Technical Conference",
+        "main_discipline": [
+          "Computer Systems", "Operating Systems", "Distributed Systems"
+        ],
+        "other_discipline": [
+          "Virtualization", "Security & Privacy", "Performance Evaluation", "Reliability & Scalability", "Energy & Power Management"
+        ],
+        "parent_org": "USENIX",
+        "website": "https://www.usenix.org/conferences/byname/131",
+        "second_track_name": "Short Paper Track",
+        "note": "Proceedings are available in each year's conference \"Technical Sessions\" page. Before 1995, there are two conferences, USENIX Summer and Winter Technical Conferences."
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "53rd",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 77,
+            "num_sub": 481
+          },
+          "note": "The numbers of full and short papers are not clear. Therefore I combined then."
+        },
+        {
+          "year": 2023,
+          "ordinal": "52nd",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 334
+          },
+          "second_track": {
+            "num_acc": 3,
+            "num_sub": 19
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "51st",
+          "location": "Carlsbad, California, USA",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 371
+          },
+          "second_track": {
+            "num_acc": 2,
+            "num_sub": 23
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "50th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 63,
+            "num_sub": 316
+          },
+          "second_track": {
+            "num_acc": 1,
+            "num_sub": 25
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "49th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 65,
+            "num_sub": 348
+          },
+          "note": "The short and full papers are combined."
+        },
+        {
+          "year": 2019,
+          "ordinal": "48th",
+          "location": "Renton, USA",
+          "main_track": {
+            "num_acc": 69,
+            "num_sub": 321
+          },
+          "second_track": {
+            "num_acc": 2,
+            "num_sub": 32
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "47th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 72,
+            "num_sub": 347
+          },
+          "second_track": {
+            "num_acc": 4,
+            "num_sub": 30
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
