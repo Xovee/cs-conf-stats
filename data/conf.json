@@ -18865,6 +18865,104 @@
             "num_acc": 4,
             "num_sub": 30
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "46th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 254
+          },
+          "second_track": {
+            "num_acc": 3,
+            "num_sub": 29
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "45th",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 213
+          },
+          "second_track": {
+            "num_acc": 1,
+            "num_sub": 35
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "44th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 189
+          },
+          "second_track": {
+            "num_acc": 2,
+            "num_sub": 32
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "43rd",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 196
+          },
+          "second_track": {
+            "num_acc": 5,
+            "num_sub": 49
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "42nd",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 195
+          },
+          "second_track": {
+            "num_acc": 6,
+            "num_sub": 38
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "41st",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 185
+          },
+          "second_track": {
+            "num_acc": 9,
+            "num_sub": 45
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "40th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 180
+          },
+          "note": "180 include short subs"
+        },
+        {
+          "year": 2010,
+          "ordinal": "39th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 147
+          },
+          "note": "147 include short subs"
         }
       ]
     },
