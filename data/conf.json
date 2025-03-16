@@ -18963,6 +18963,62 @@
             "num_sub": 147
           },
           "note": "147 include short subs"
+        },
+        {
+          "year": 2009,
+          "ordinal": "38th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 191
+          },
+          "note": "191 includes short."
+        },
+        {
+          "year": 2008,
+          "ordinal": "37th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 176
+          },
+          "note": "176 include short subs"
+        },
+        {
+          "year": 2003,
+          "ordinal": "32nd",
+          "location": "San Antonio, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 103
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "29th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 92
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "28th",
+          "location": "Monterey, California, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 63
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "27th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 87
+          }
         }
       ]
     },

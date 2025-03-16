@@ -322,6 +322,16 @@ First, we need **ALL** new stats in the upcoming years.
 
 - Before 2003
 
+## USENIX ATC
+
+- USENIX ATC 2007
+- USENIX ATC 2006
+- USENIX ATC 2005
+- USENIX ATC 2004
+- USENIX ATC 2002
+- USENIX ATC 2001
+- Before 1998
+
 ## USENIX Security
 
 - USENIX Security Before 1998 (1997 not held btw)
