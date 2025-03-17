@@ -177,7 +177,8 @@ fetch('/data/conf.json')
         'Germany': 'DE',
         'Hungary': 'HU',
         'Israel': 'IL',
-        'Finland': 'FI'
+        'Finland': 'FI',
+        'Portugal': 'PT',
       };
 
       return countries[countryName] || 'Unknown';
@@ -271,7 +272,6 @@ fetch('/data/conf.json')
       {name: "CCS", value: 1993},
       {name: "CHI", value: 1982},
       {name: "CIKM", value: 1992},
-      // {name: "CODES+ISSS", value: 2003},
       {name: "COLT", value: 1988},
       {name: "Crypto", value: 1981},
       {name: "CSCW", value: 1986},
@@ -312,6 +312,7 @@ fetch('/data/conf.json')
       {name: "NeurIPS", value: 1987},
       {name: "NSDI", value: 2004},
       {name: "OSDI", value: 1994},
+      {name: "PLDI", value: 1973},
       {name: "PODS", value: 1982},
       {name: "PPoPP", value: 1988},
       {name: "RTAS", value: 1995},

@@ -19023,6 +19023,89 @@
       ]
     },
     {
+      "series": "PLDI",
+      "discipline": "PL",
+      "metadata": {
+        "series_full_title": "ACM SIGPLAN Conference on Programming Language Design and Implementation",
+        "main_discipline": [
+          "Compiler Optimization", "Programming Language Design", "Software Performance Analysis"
+        ],
+        "other_discipline": [
+          "Static & Dynamic Analysis", "Parallel & Concurrent Programming", "Just-in-Time Compilation", "Memory Management", "Formal Methods in PL Design"
+        ],
+        "parent_org": "ACM SIGPLAN",
+        "website": "https://www.sigplan.org/Conferences/PLDI/",
+        "proceedings": "https://dl.acm.org/loi/pacmpl",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "45th",
+          "location": "Copenhagen, Denmark",
+          "main_track": {
+            "num_acc": 89,
+            "num_sub": 322
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "44th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 83,
+            "num_sub": 281
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "43rd",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 68,
+            "num_sub": 330
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "42nd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 87,
+            "num_sub": 320
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "41st",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 77,
+            "num_sub": 349
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "40th",
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 76,
+            "num_sub": 281
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "39th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 258
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
