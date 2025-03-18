@@ -1,4 +1,38 @@
 // display conf stats
+
+
+function countryToCode(countryName) {
+  const countries = {
+    'USA': 'US',
+    'Canada': 'CA',
+    'China': 'CN',
+    'Australia': 'AU',
+    'Online': 'Online',
+    'Singapore': 'SG',
+    'UK': 'GB',
+    'France': 'FR',
+    'Italy': 'IT',
+    'Spain': 'ES',
+    'Korea': 'KR',
+    'Japan': 'JP',
+    'The Netherlands': 'NL',
+    'Austria': 'AT',
+    'India': 'IN',
+    'Ireland': 'IE',
+    'Sweden': 'SE',
+    'Greece': 'GR',
+    'Switzerland': 'CH',
+    'Germany': 'DE',
+    'Hungary': 'HU',
+    'Israel': 'IL',
+    'Finland': 'FI',
+    'Portugal': 'PT',
+    'United States': 'US',
+  };
+
+  return countries[countryName] || 'Unknown';
+}
+
 fetch('/data/conf.json')
   .then(response => response.json())
   .then(data => {
@@ -153,37 +187,6 @@ fetch('/data/conf.json')
     document.querySelector('#viz-top-event .conf-card-big-desc').textContent = popSingleConf.name + ` (${numberWithCommas(popSingleConf.acc)})`;
     document.querySelector('#viz-selective-event .conf-card-big-desc').textContent = `${mostSelective.name} (${mostSelective.rate.toFixed(1)}%)`;
 
-    function countryToCode(countryName) {
-      const countries = {
-        'USA': 'US',
-        'Canada': 'CA',
-        'China': 'CN',
-        'Australia': 'AU',
-        'Online': 'Online',
-        'Singapore': 'SG',
-        'UK': 'GB',
-        'France': 'FR',
-        'Italy': 'IT',
-        'Spain': 'ES',
-        'Korea': 'KR',
-        'Japan': 'JP',
-        'The Netherlands': 'NL',
-        'Austria': 'AU',
-        'India': 'IN',
-        'Ireland': 'IE',
-        'Sweden': 'SE',
-        'Greece': 'GR',
-        'Switzerland': 'CH',
-        'Germany': 'DE',
-        'Hungary': 'HU',
-        'Israel': 'IL',
-        'Finland': 'FI',
-        'Portugal': 'PT',
-      };
-
-      return countries[countryName] || 'Unknown';
-    }
-
     // for yearly counting
     const years = Object.keys(yearlyCounts).sort();
     const submissions = years.map(year => yearlyCounts[year].totalSub);
@@ -234,10 +237,10 @@ fetch('/data/conf.json')
 
     renderDiscipline(disciplineCounts);
 
-    window.addEventListener('load', renderWorldMap);
+    window.addEventListener('load', renderWorldMap(countryCount));
 
     window.addEventListener('resize', debounce(() => {
-      renderWorldMap();
+      renderWorldMap(countryCount);
     }, 500));
 
     function debounce(fn, delay = 500) {
@@ -500,78 +503,52 @@ function renderYearly(years, submissions, acceptances, rateYearly) {
   });
 }
 
-function renderWorldMap() {
+function renderWorldMap(countryCount) {
   google.charts.load('current', {
     'packages':['geochart'],
   });
-  google.charts.setOnLoadCallback(drawRegionsMap);
+  google.charts.setOnLoadCallback(() => drawRegionsMap(countryCount));
 
-  function drawRegionsMap() {
-    var data = google.visualization.arrayToDataTable([
-      ['Country', 'Frequency'],
-      ['US', 864],
-      ['Canada', 87],
-      ['China', 77],
-      ['Taiwan', 77],
-      ['France', 45],
-      ['Italy', 44],
-      ['United Kingdom', 43],
-      ['Spain', 41], 
-      ['Australia', 35],
-      ['Germany', 35],
-      ['Japan', 25],
-      ['Austria', 22],
-      ['Netherlands', 22],
-      ['South Korea', 19],
-      ['North Korea', 19],
-      ['India', 18],
-      ['Singapore', 16],
-      ['Sweden', 15],
-      ['Greece', 14],
-      ['Finland', 11],
-      ['Switzerland', 11],
-      ['Israel', 9],
-      ['Portugal', 9],
-      ['Ireland', 8],
-      ['Brazil', 8],
-      ['Mexico', 8],
-      ['Turkey', 8],
-      ['Denmark', 7],
-      ['Puerto Rico', 6],
-      ['Czech Republic', 5],
-      ['Chile', 4],
-      ['Norway', 4],
-      ['Belgium', 4],
-      ['New Zealand', 3],
-      ['Hungary', 3],
-      ['Argentina', 2],
-      ['Malaysia', 2],
-      ['Russia', 2],
-      ['Thailand', 2],
-      ['Poland', 2],
-      ['Bulgaria', 2],
-      ['Croatia', 2],
-      ['Rwanda', 1],
-      ['Egypt', 1],
-      ['Romania', 1],
-      ['United Arab Emirates', 1],
-      ['Dominican Republic', 1],
-      ['Qatar', 1],
-      ['Iceland', 1],
-      ['Barbados', 1],
-      ['Vietnam', 1],
-      ['Estonia', 1],
-    ]);
+  function drawRegionsMap(countryCount) {
+    const countryData = {};
+    for (const [countryWithFlag, count] of Object.entries(countryCount)) {
+      const parts = countryWithFlag.split(' ');
+      const flag = parts.pop();
+      const countryName = parts.join(' ');
+      const countryCode = countryName;
 
-    var options = {
+      if (countryCode != 'Unknown' && countryCode != 'Online') {
+        countryData[countryCode] = (countryData[countryCode] || 0) + count;
+      }
+    }
+
+    const chartData = [['Country', 'Frequency']];
+    Object.entries(countryData).forEach(([code, count]) => {
+      chartData.push([code, count]);
+    });
+
+    console.log(chartData);
+
+    chartData.push(['Taiwan', countryData['China']]);
+    chartData.push(['North Korea', countryData['Korea']]);
+    chartData.push(['South Korea', countryData['Korea']]);
+    chartData.push(['United Kingdom', countryData['UK']]);
+    chartData.push(['Netherlands', countryData['UK']]);
+    chartData.push(['Czech', countryData['Czech Republic']]);
+    chartData.push(['AE', countryData['UAE']]);
+    chartData.push(['US', countryData['USA']]);
+
+    const data = google.visualization.arrayToDataTable(chartData);
+
+    const options = {
       backgroundColor: {
         fill: "rgb(243,244,246)",
       },
-      colorAxis: {values: [1, 60, 120, 2000], colors: ['#e5ebf4', '#004098', '#00204c', '#000']},
+      colorAxis: {values: [1, 60, 140, 2000], colors: ['#e5ebf4', '#004098', '#00204c', '#000']},
       domain: 'CN',
     };
 
-    var chart = new google.visualization.GeoChart(document.getElementById('country-map'));
+    const chart = new google.visualization.GeoChart(document.getElementById('country-map'));
 
     chart.draw(data, options);
   }

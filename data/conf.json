@@ -15637,11 +15637,12 @@
         {
           "year": 2019,
           "ordinal": "40th",
-          "location": "Canceled, Canceled",
+          "location": "Online, Online",
           "main_track": {
             "num_acc": 39,
             "num_sub": 160
-          }
+          },
+          "note": "Canceled"
         },
         {
           "year": 2018,
@@ -17949,7 +17950,7 @@
         {
           "year": 1982,
           "ordinal": "8th",
-          "location": "",
+          "location": "Seattle, USA",
           "main_track": {
             "num_acc": 27,
             "num_sub": 60
@@ -19101,6 +19102,69 @@
           "main_track": {
             "num_acc": 55,
             "num_sub": 258
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "38th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 322
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "37th",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 288
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "36th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 58,
+            "num_sub": 303
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "35th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 287
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "34th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 267
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "33rd",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 255
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "32nd",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 236
           }
         }
       ]
