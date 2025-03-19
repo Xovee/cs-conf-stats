@@ -237,21 +237,21 @@ fetch('/data/conf.json')
 
     renderDiscipline(disciplineCounts);
 
-    window.addEventListener('load', renderWorldMap(countryCount));
+    // renderWorldMap(countryCount);
 
-    window.addEventListener('resize', debounce(() => {
-      renderWorldMap(countryCount);
-    }, 500));
+    // window.addEventListener('resize', debounce(() => {
+    //   renderWorldMap(countryCount);
+    // }, 500));
 
-    function debounce(fn, delay = 500) {
-      let timer;
-      return (...args) => {
-        clearTimeout(timer);
-        timer = setTimeout(() => {
-          fn.apply(this, args);
-        }, delay);
-      };
-    }
+    // function debounce(fn, delay = 500) {
+    //   let timer;
+    //   return (...args) => {
+    //     clearTimeout(timer);
+    //     timer = setTimeout(() => {
+    //       fn.apply(this, args);
+    //     }, delay);
+    //   };
+    // }
 
     const uniqueConfs = Array.from(new Set(singleConfs.map(d => d.conf))).sort();
     renderScatter(singleConfs, uniqueConfs);
@@ -526,8 +526,6 @@ function renderWorldMap(countryCount) {
     Object.entries(countryData).forEach(([code, count]) => {
       chartData.push([code, count]);
     });
-
-    console.log(chartData);
 
     chartData.push(['Taiwan', countryData['China']]);
     chartData.push(['North Korea', countryData['Korea']]);
