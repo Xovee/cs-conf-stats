@@ -8,23 +8,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     history.pushState({ conf: conference }, '', '?conf=' + encodeURIComponent(conference));
   }
 
-  dropdowns.forEach(dropdown => {
-    dropdown.addEventListener('change', (event) => {
-      const selectedValue = event.target.value;
-      curConfSelection.textContent = selectedValue;
-
-      dropdowns.forEach(otherDropdown => {
-        if (otherDropdown !== dropdown) {
-          otherDropdown.value = "";
-        }
-      });
-
-      updateUrl(selectedValue);
-      displayConfMetadata(selectedValue);
-
-    });
-  });
-
   function updateDropdownSelection(confValue) {
     let found = false;
     dropdowns.forEach(dropdown => {
@@ -40,10 +23,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
     return found;
   }
 
+  dropdowns.forEach(dropdown => {
+    dropdown.disabled = true;
+  });
+
   // display conf stats
   fetch('/data/conf.json')
     .then(response => response.json())
     .then(data => {
+      dropdowns.forEach(dropdown => {
+        dropdown.disabled = false;
+      });
+
       loadingMessage.classList.add('hidden');
 
       function displayConfMetadata(conferenceSeries) {
@@ -286,6 +277,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
           } else if (!isMobile && trackData.length >= 30) {
             dataZoom.show = true;
             dataZoom.startValue = 30;
+          } else {
+            dataZoom.show = false;
+            dataZoom.startValue = 100000;
           }
 
           option.xAxis = [
@@ -380,6 +374,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
       window.displayConfMetadata = displayConfMetadata;
 
+      dropdowns.forEach(dropdown => {
+        dropdown.addEventListener('change', (event) => {
+          const selectedValue = event.target.value;
+          curConfSelection.textContent = selectedValue;
+
+          dropdowns.forEach(otherDropdown => {
+            if (otherDropdown !== dropdown) {
+              otherDropdown.value = "";
+            }
+          });
+
+          updateUrl(selectedValue);
+          displayConfMetadata(selectedValue);
+        });
+      });
+
       const params = new URLSearchParams(window.location.search);
       const conferenceFromUrl = params.get('conf');
       if (conferenceFromUrl) {
@@ -397,7 +407,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
       const newConf = event.state.conf;
       curConfSelection.textContent = newConf;
       if (!updateDropdownSelection(newConf)) {
-        displayConfMetadata(newConf);
+        if (window.displayConfMetadata) {
+          displayConfMetadata(newConf);
+        }
       }
     }
   };
