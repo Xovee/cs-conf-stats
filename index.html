@@ -17,13 +17,15 @@
     <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
 
+    <link rel="canonical" href="https://csconfstats.xoveexu.com/">
+
     <script>
       function clickConf(category, conf) {
-        var targetSelect = document.getElementById(category);
-        if (targetSelect) {
+          const targetSelect = document.getElementById(category);
+          if (targetSelect) {
           targetSelect.value = conf;
-          var event = new Event('change');
-          targetSelect.dispatchEvent(event)
+              const event = new Event('change');
+              targetSelect.dispatchEvent(event)
         }
       }
     </script>
@@ -282,8 +284,8 @@
         <div class="text-base md:text-lg my-2">Click a conference to see its statistics!</div>
 
         <ol class="list-decimal list-outside ml-6" id="catalog">
-            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="AAAI"><span>AAAI</span>: AAAI Conference on Artificial Intelligence</a>.</li>
-            <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-nlp" data-conf="ACL"><span>ACL</span>: Annual Meeting of the Association for Computational Linguistics.</a>.</li>
+            <li><a href="?conf=AAAI" class="cursor-pointer" onclick="clickConf('dropdown-ai', 'AAAI'); return false;"><span>AAAI</span>: AAAI Conference on Artificial Intelligence</a>.</li>
+            <li><a href="?conf=ACL" class="cursor-pointer" onclick="clickConf('dropdown-nlp', 'ACL'); return false;"><span>ACL</span>: Annual Meeting of the Association for Computational Linguistics.</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-mm" data-conf="ACM MM"><span>ACM MM</span>: ACM International Conference on Multimedia</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-ai" data-conf="AISTATS"><span>AISTATS</span>: International Conference on Artificial Intelligence and Statistics</a>.</li>
             <li><a class="cursor-pointer" onclick="clickConf(this.getAttribute('data-category'), this.getAttribute('data-conf'))" data-category="dropdown-crypto" data-conf="Asiacrypt"><span>Asiacrypt</span>: International Conference on the Theory and Application of Cryptology and Information Security</a>.</li>
@@ -390,8 +392,8 @@
 <footer class="py-4 container">
     <div class="">
         <div class="text-base">List of 71 conferences: 
-            <a href="#aaai">AAAI</a>, 
-            <a href="#acl">ACL</a>, 
+            <a href='?conf=AAAI' onclick="clickConf('dropdown-ai', 'AAAI'); return false">AAAI</a>, 
+            <a href='?conf=ACL' onclick="clickConf('dropdown-nlp', 'ACL'); return false">ACL</a>, 
             ACM MM, 
             AISTATS, 
             Asiacrypt, 
