@@ -19166,6 +19166,60 @@
             "num_acc": 55,
             "num_sub": 236
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "31st",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 206
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "30th",
+          "location": "Dublin, Ireland",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 194
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "29th",
+          "location": "Tucson, USA",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 184
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "28th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 178
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "27th",
+          "location": "Ottawa, Canada",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 169
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "26th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 135
+          }
         }
       ]
     },
