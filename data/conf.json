@@ -14806,7 +14806,7 @@
       ]
     },
     {
-      "series": "CODES+ISSS",
+      "series": "CODES-ISSS",
       "discipline": "EmbSys",
       "metadata": {
         "series_full_title": "International Conference on Hardware/Software Codesign and System Synthesis",
