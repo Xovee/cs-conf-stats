@@ -3071,6 +3071,16 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "26th",
+          "location": "Nantes, France",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 1022,
+            "num_sub": 3737
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "25th",
           "location": "Niagara Falls, Canada",
@@ -19219,6 +19229,87 @@
           "main_track": {
             "num_acc": 28,
             "num_sub": 135
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "24th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 131
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "23rd",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 169
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "22nd",
+          "location": "Snowbird, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 144
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "21st",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 173
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "20th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 130
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "19th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 136
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "18th",
+          "location": "Las Vegas, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 158
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "17th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 112
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "16th",
+          "location": "La Jolla, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 105
           }
         }
       ]
