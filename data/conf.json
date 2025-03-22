@@ -3078,7 +3078,8 @@
             "track_name": "Research Track",
             "num_acc": 1022,
             "num_sub": 3737
-          }
+          },
+          "need_check": true
         },
         {
           "year": 2024,
@@ -19310,6 +19311,24 @@
           "main_track": {
             "num_acc": 28,
             "num_sub": 105
+          }
+        },
+        {
+          "year": 1989,
+          "ordinal": "10th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 171
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "9th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 192
           }
         }
       ]

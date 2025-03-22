@@ -1485,7 +1485,7 @@ function renderYoung(data) {
       type: 'continuous',
       min: minSmallValue,
       max: maxSmallValue,
-      inRange: {color: ['#004098', '#00409830']},
+      inRange: {color: ['#00409830', '#004098']},
       dimension: 0,
     },
     toolbox: {
@@ -1515,14 +1515,14 @@ function renderYoung(data) {
     },
     yAxis: {
       name: 'Conference',
-      nameLocation: 'start',
+      nameLocation: 'end',
       nameTextStyle: {
         fontSize: 16,
         fontWeight: 'bold'
       },
       type: 'category',
       data: data.map(item => item.name),
-      inverse: true,
+      inverse: false,
       axisLabel: {
         fontSize: 16,
         color: '#000'

@@ -219,6 +219,12 @@ First, we need **ALL** new stats in the upcoming years.
 ## PLDI
 
 - PLDI 2004
+- PLDI 1994
+- PLDI 1993
+- PLDI 1992
+- PLDI 1991
+- PLDI 1990
+- Before 1988
 
 ## PODS
 
