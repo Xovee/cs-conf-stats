@@ -317,6 +317,7 @@ fetch('/data/conf.json')
       {name: "OSDI", value: 1994},
       {name: "PLDI", value: 1979},
       {name: "PODS", value: 1982},
+      {name: "POPL", value: 1973},
       {name: "PPoPP", value: 1988},
       {name: "RTAS", value: 1995},
       {name: "RTSS", value: 1980},
@@ -802,15 +803,33 @@ function renderScatter(dataPoints, uniqueConfs) {
   const customColors = [
     '#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231',
     '#911eb4', '#42d4f4', '#f032e6', '#bfef45', '#fabed4',
-    '#469990', '#dcbeff', '#9a6324', '#fffac8', '#800000',
-    '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080',
     '#ff7f7f', '#7f7fff', '#7fff7f', '#ff7f00', '#7f00ff',
     '#00ff7f', '#007fff', '#ff007f', '#ffbf00', '#bfbf00',
     '#00bfbf', '#bf00bf', '#7f3f00', '#3f7f00', '#007f3f',
     '#003f7f', '#3f007f', '#7f003f', '#ffdfbf', '#bfffd0',
     '#d0bfff', '#bfbfbf', '#d0d0ff', '#ffd0d0', '#d0ffd0',
-    '#ffd0bf', '#bf7fd0', '#d07fbf', '#7fd0bf', '#7fbfd0'
-  ]
+    '#ffd0bf', '#bf7fd0', '#d07fbf', '#7fd0bf', '#7fbfd0',
+    
+    // New rich jewel tones
+    '#1A535C', '#4ECDC4', '#FF6B6B', '#FFE66D', '#2EC4B6',
+    '#E71D36', '#FF9F1C', '#011627', '#FDFFFC', '#2EC4B6',
+    
+    // New muted pastels
+    '#D4A5A5', '#9BC1BC', '#F4F1DE', '#A5668B', '#69306D',
+    '#8E9AAF', '#DEE2FF', '#B8D8D8', '#FEDFD7', '#EFD9CE',
+    
+    // New deep sophisticated tones
+    '#264653', '#287271', '#2A9D8F', '#E76F51', '#F4A261',
+    '#5F0F40', '#9A031E', '#FB8B24', '#0F4C5C', '#540D6E',
+    
+    // New vibrant but balanced
+    '#00A896', '#F26430', '#6B2D5C', '#D81159', '#218380',
+    '#73D2DE', '#FFA69E', '#AA4465', '#462255', '#854D27',
+    
+    // New gradient-friendly neutrals
+    '#495867', '#577399', '#BDD5EA', '#F7F7FF', '#FE5F55',
+    '#3A405A', '#5E6472', '#AEC5EB', '#E9AFA3', '#685044'
+]
 
   const scatterOption = {
     color: customColors,
@@ -908,6 +927,7 @@ function renderScatter(dataPoints, uniqueConfs) {
         }
       }
     },
+    color: customColors,
     grid: scatterOption.grid,
     xAxis: scatterOption.xAxis,
     yAxis: scatterOption.yAxis,

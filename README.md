@@ -68,6 +68,7 @@ Number of submissions and number of accepted papers for the following conference
 1. OSDI: USENIX Symposium on Operating Systems Design and Implementation. 
 1. PLDI: ACM SIGPLAN Conference on Programming Language Design and Implementation.
 1. PODS: ACM Symposium on Principles of Database Systems.
+1. POPL: ACM SIGPLAN Symposium on Principles of Programming Languages.
 1. PPoPP: ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming.
 1. RTAS: IEEE Real-Time and Embedded Technology and Applications Symposium. 
 1. RTSS: IEEE Real-Time Systems Symposium. 

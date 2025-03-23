@@ -19334,6 +19334,116 @@
       ]
     },
     {
+      "series": "POPL",
+      "discipline": "PL",
+      "metadata": {
+        "series_full_title": "ACM SIGPLAN Symposium on Principles of Programming Languages",
+        "main_discipline": [
+          "Programming Languages", "Programming Systems", "Formal Methods & Theory"
+        ],
+        "other_discipline": [
+          "Language Design", "Program Semantics", "Implementation Techniques", "Type Systems", "Program Verification & Analysis"
+        ],
+        "parent_org": "ACM SISGPLAN (main), and SIGACT and SIGLOG",
+        "website": "https://www.sigplan.org/Conferences/POPL/",
+        "proceedings": "https://dl.acm.org/loi/pacmpl",
+        "second_track_name": "",
+        "note": "Since 2018, the proceedings are published in PACMPL."
+      },
+      "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "52nd",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 79,
+            "num_sub": 298
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "51st",
+          "location": "London, UK",
+          "main_track": {
+            "num_acc": 93,
+            "num_sub": 314
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "50th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 275
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "49th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 65,
+            "num_sub": 286
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "48th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 61,
+            "num_sub": 258
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "47th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 68,
+            "num_sub": 247
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "46th",
+          "location": "Cascais, Portugal",
+          "main_track": {
+            "num_acc": 77,
+            "num_sub": 267
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "45th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 271
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "44th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 64,
+            "num_sub": 282
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "43rd",
+          "location": "St. Petersburg, USA",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 252
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
