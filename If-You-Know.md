@@ -230,6 +230,10 @@ First, we need **ALL** new stats in the upcoming years.
 
 - PODS 1985-1993
 
+## POPL
+
+- POPL 1995
+
 ## PPoPP
 
 - PPoPP 2001 (acc 14)
