@@ -19629,6 +19629,69 @@
             "num_acc": 39,
             "num_sub": 173
           }
+        },
+        {
+          "year": 1993,
+          "ordinal": "20st",
+          "location": "Charleston, USA",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 199
+          }
+        },
+        {
+          "year": 1992,
+          "ordinal": "19st",
+          "location": "Albuquerque, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 204
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "18st",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 152
+          }
+        },
+        {
+          "year": 1990,
+          "ordinal": "17st",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 185
+          }
+        },
+        {
+          "year": 1989,
+          "ordinal": "16st",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 191
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "15st",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 177
+          }
+        },
+        {
+          "year": 1987,
+          "ordinal": "14st",
+          "location": "Munich, Germany",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 108
+          }
         }
       ]
     },
