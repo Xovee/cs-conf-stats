@@ -19632,7 +19632,7 @@
         },
         {
           "year": 1993,
-          "ordinal": "20st",
+          "ordinal": "20th",
           "location": "Charleston, USA",
           "main_track": {
             "num_acc": 39,
@@ -19641,7 +19641,7 @@
         },
         {
           "year": 1992,
-          "ordinal": "19st",
+          "ordinal": "19th",
           "location": "Albuquerque, USA",
           "main_track": {
             "num_acc": 30,
@@ -19650,7 +19650,7 @@
         },
         {
           "year": 1991,
-          "ordinal": "18st",
+          "ordinal": "18th",
           "location": "Orlando, USA",
           "main_track": {
             "num_acc": 31,
@@ -19659,7 +19659,7 @@
         },
         {
           "year": 1990,
-          "ordinal": "17st",
+          "ordinal": "17th",
           "location": "San Francisco, California, USA",
           "main_track": {
             "num_acc": 31,
@@ -19668,7 +19668,7 @@
         },
         {
           "year": 1989,
-          "ordinal": "16st",
+          "ordinal": "16th",
           "location": "Austin, USA",
           "main_track": {
             "num_acc": 30,
@@ -19677,7 +19677,7 @@
         },
         {
           "year": 1988,
-          "ordinal": "15st",
+          "ordinal": "15th",
           "location": "San Diego, California, USA",
           "main_track": {
             "num_acc": 28,
@@ -19686,11 +19686,47 @@
         },
         {
           "year": 1987,
-          "ordinal": "14st",
+          "ordinal": "14th",
           "location": "Munich, Germany",
           "main_track": {
             "num_acc": 29,
             "num_sub": 108
+          }
+        },
+        {
+          "year": 1986,
+          "ordinal": "13th",
+          "location": "St. Petersburg, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 165
+          }
+        },
+        {
+          "year": 1983,
+          "ordinal": "10th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 170
+          }
+        },
+        {
+          "year": 1982,
+          "ordinal": "9th",
+          "location": "Albuquerque, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 121
+          }
+        },
+        {
+          "year": 1981,
+          "ordinal": "8th",
+          "location": "Williamsburg, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 121
           }
         }
       ]
