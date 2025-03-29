@@ -282,6 +282,7 @@ fetch('/data/conf.json')
       {name: "DAC", value: 1964},
       {name: "ECCV", value: 1990},
       {name: "ECIR", value: 1978},
+      {name: "ECOP", value: 1987},
       {name: "ECRTS", value: 1989},
       {name: "EMNLP", value: 1996},
       {name: "EMSOFT", value: 2001},

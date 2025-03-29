@@ -19728,6 +19728,62 @@
             "num_acc": 24,
             "num_sub": 121
           }
+        },
+        {
+          "year": 1979,
+          "ordinal": "6th",
+          "location": "San Antonio, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 146
+          }
+        },
+        {
+          "year": 1978,
+          "ordinal": "5th",
+          "location": "Tucson, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 135
+          }
+        },
+        {
+          "year": 1977,
+          "ordinal": "4th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 105
+          }
+        },
+        {
+          "year": 1976,
+          "ordinal": "3rd",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 90
+          }
+        },
+        {
+          "year": 1975,
+          "ordinal": "2nd",
+          "location": "Palo Alto, California, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 100
+          },
+          "note": "over 100"
+        },
+        {
+          "year": 1973,
+          "ordinal": "1st",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 100
+          },
+          "note": "over 100"
         }
       ]
     },
