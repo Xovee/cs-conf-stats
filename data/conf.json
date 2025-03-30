@@ -19788,6 +19788,71 @@
       ]
     },
     {
+      "series": "ECOOP",
+      "discipline": "PL",
+      "metadata": {
+        "series_full_title": "European Conference on Object-Oriented Programming",
+        "main_discipline": [
+          "Programming Languages", "Empirical Evaluation", "Object-Oriented Programming"
+        ],
+        "other_discipline": [
+          "Language Design & Implementation", "Software Engineering", "Replication Studies", "Tooling & Envionrments", "Programming Paradigms"
+        ],
+        "parent_org": "<a href='https://sites.google.com/aito.org/home' target='_blank'>AITO</a>",
+        "website": "https://sites.google.com/aito.org/home/ecoop",
+        "proceedings": "https://drops.dagstuhl.de/entities/conference/ECOOP",
+        "second_track_name": "",
+        "note": "There are research track, pearl track, tool insight track, experience report track, and brave new idea track, I count em' all."
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "38th",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 112
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "35th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 57
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "34th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 71
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "33rd",
+          "location": "London, UK",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 82
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "32nd",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 66
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
