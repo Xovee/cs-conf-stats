@@ -19849,6 +19849,69 @@
             "num_acc": 26,
             "num_sub": 66
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "31st",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 81
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "30th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 79
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "29th",
+          "location": "Prague, Czech Republic",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 136
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "28th",
+          "location": "Uppsala, Sweden",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 101
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "27th",
+          "location": "Montpellier, France",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 116
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "26th",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 140
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "25th",
+          "location": "Lancaster, UK",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 100
+          }
         }
       ]
     },
