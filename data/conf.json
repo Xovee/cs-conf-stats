@@ -19912,6 +19912,69 @@
             "num_acc": 26,
             "num_sub": 100
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "24th",
+          "location": "Maribor, Slovenia",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 108
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "23rd",
+          "location": "Genoa, Italy",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 117
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "22nd",
+          "location": "Paphos, Cyprus",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 138
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "21st",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 135
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "20th",
+          "location": "Nantes, France",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 162
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "19th",
+          "location": "Glasgow, Scotland, UK",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 172
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "18th",
+          "location": "Oslo, Norway",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 132
+          }
         }
       ]
     },
