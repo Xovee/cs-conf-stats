@@ -19975,6 +19975,69 @@
             "num_acc": 25,
             "num_sub": 132
           }
+        },
+        {
+          "year": 2003,
+          "ordinal": "17th",
+          "location": "Darmstadt, Germany",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 88
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "16th",
+          "location": "Malaga",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 96
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "15th",
+          "location": "Budapest, Hungary",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 108
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "14th",
+          "location": "Sophia Antipolis, France",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 109
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "13th",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 183
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "12th",
+          "location": "Brussels, Belgium",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 124
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "11th",
+          "location": "Jyvaskyla, Finland",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 103
+          }
         }
       ]
     },
