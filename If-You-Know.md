@@ -138,7 +138,6 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ICFP
 
-- ICFP 2019
 - ICFP 2018
 - ICFP 2017
 
