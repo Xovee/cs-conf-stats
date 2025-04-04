@@ -20115,6 +20115,71 @@
       ]
     },
     {
+      "series": "ICFP",
+      "discipline": "PL",
+      "metadata": {
+        "series_full_title": "ACM SIGPLAN International Conference on Functional Programming",
+        "main_discipline": [
+          "Functional Programming", "Programming Languages", "Type Systems"
+        ],
+        "other_discipline": [
+          "Program Semantics", "Compilition & Optimization", "Program Verification", "Concurrency & Parallelism", "Program Analysis & Transformation"
+        ],
+        "parent_org": "ACM, ACM SIGPLAN, IFIP",
+        "website": "https://www.icfpconference.org/",
+        "proceedings": "https://dl.acm.org/loi/pacmpl",
+        "second_track_name": "",
+        "note": "Since 2017, the proceedings are published in PACMPL."
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "29th",
+          "location": "Milan, Italy",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 106
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "28th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 90
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "27th",
+          "location": "Ljubljana, Slovenia",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 102
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "26th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 107
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "25th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 101
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

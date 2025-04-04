@@ -47,6 +47,7 @@ Number of submissions and number of accepted papers for the following conference
 1. ICCV: International Conference on Computer Vision.
 1. ICDE: International Conference on Data Engineering.
 1. ICDM: International Conference on Data Mining.
+1. ICFP: ACM SIGPLAN International Conference on Functional Programming.
 1. ICLR: International Conference on Learning Representations.
 1. ICME: IEEE International Conference on Multimedia and Expo.
 1. ICML: International Conference on Machine Learning.
