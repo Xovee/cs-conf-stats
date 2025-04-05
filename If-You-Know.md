@@ -136,11 +136,6 @@ First, we need **ALL** new stats in the upcoming years.
 - ICDE 1990
 - ICDE 1988
 
-## ICFP
-
-- ICFP 2018
-- ICFP 2017
-
 ## ICME
 
 - ICME 2013-2018
