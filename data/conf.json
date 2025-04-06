@@ -20275,6 +20275,69 @@
             "num_acc": 32,
             "num_sub": 101
           }
+        },
+        {
+          "year": 2008,
+          "ordinal": "14th",
+          "location": "Victoria, Canada",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 99
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "13th",
+          "location": "Freiburg, Germany",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 122
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "12th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 74
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "11th",
+          "location": "Tallinn, Estonia",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 87
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "10th",
+          "location": "Snowbird, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 80
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "9th",
+          "location": "Uppsala, Sweden",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 95
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "8th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 76
+          }
         }
       ]
     },
