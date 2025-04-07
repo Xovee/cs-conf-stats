@@ -316,6 +316,7 @@ fetch('/data/conf.json')
       {name: "NDSS", value: 1993},
       {name: "NeurIPS", value: 1987},
       {name: "NSDI", value: 2004},
+      {name: "OOPSLA", value: 1986},
       {name: "OSDI", value: 1994},
       {name: "PLDI", value: 1979},
       {name: "PODS", value: 1982},

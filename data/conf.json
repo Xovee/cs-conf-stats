@@ -20179,7 +20179,7 @@
         },
         {
           "year": 2019,
-          "ordinal": "25th",
+          "ordinal": "24th",
           "location": "Berlin, Germany",
           "main_track": {
             "num_acc": 39,
@@ -20188,7 +20188,7 @@
         },
         {
           "year": 2018,
-          "ordinal": "24th",
+          "ordinal": "23rd",
           "location": "St. Louis, USA",
           "main_track": {
             "num_acc": 40,
@@ -20197,7 +20197,7 @@
         },
         {
           "year": 2017,
-          "ordinal": "23rd",
+          "ordinal": "22nd",
           "location": "Oxford, UK",
           "main_track": {
             "num_acc": 44,
@@ -20206,7 +20206,7 @@
         },
         {
           "year": 2016,
-          "ordinal": "22nd",
+          "ordinal": "21st",
           "location": "Nara, Japan",
           "main_track": {
             "num_acc": 37,
@@ -20215,7 +20215,7 @@
         },
         {
           "year": 2015,
-          "ordinal": "21st",
+          "ordinal": "20th",
           "location": "Vancouver, Canada",
           "main_track": {
             "num_acc": 35,
@@ -20224,7 +20224,7 @@
         },
         {
           "year": 2014,
-          "ordinal": "20th",
+          "ordinal": "19th",
           "location": "Gothenburg, Sweden",
           "main_track": {
             "num_acc": 28,
@@ -20233,7 +20233,7 @@
         },
         {
           "year": 2013,
-          "ordinal": "19th",
+          "ordinal": "18th",
           "location": "Boston, USA",
           "main_track": {
             "num_acc": 40,
@@ -20242,7 +20242,7 @@
         },
         {
           "year": 2012,
-          "ordinal": "18th",
+          "ordinal": "17th",
           "location": "Copenhagen, Denmark",
           "main_track": {
             "num_acc": 32,
@@ -20251,7 +20251,7 @@
         },
         {
           "year": 2011,
-          "ordinal": "17th",
+          "ordinal": "16th",
           "location": "Tokyo, Japan",
           "main_track": {
             "num_acc": 33,
@@ -20260,7 +20260,7 @@
         },
         {
           "year": 2010,
-          "ordinal": "16th",
+          "ordinal": "15th",
           "location": "Baltimore, USA",
           "main_track": {
             "num_acc": 33,
@@ -20269,7 +20269,7 @@
         },
         {
           "year": 2009,
-          "ordinal": "15th",
+          "ordinal": "14th",
           "location": "Edinburgh, Scotland, UK",
           "main_track": {
             "num_acc": 32,
@@ -20278,7 +20278,7 @@
         },
         {
           "year": 2008,
-          "ordinal": "14th",
+          "ordinal": "13th",
           "location": "Victoria, Canada",
           "main_track": {
             "num_acc": 35,
@@ -20287,7 +20287,7 @@
         },
         {
           "year": 2007,
-          "ordinal": "13th",
+          "ordinal": "12th",
           "location": "Freiburg, Germany",
           "main_track": {
             "num_acc": 32,
@@ -20296,7 +20296,7 @@
         },
         {
           "year": 2006,
-          "ordinal": "12th",
+          "ordinal": "11th",
           "location": "Portland, USA",
           "main_track": {
             "num_acc": 24,
@@ -20305,7 +20305,7 @@
         },
         {
           "year": 2005,
-          "ordinal": "11th",
+          "ordinal": "10th",
           "location": "Tallinn, Estonia",
           "main_track": {
             "num_acc": 26,
@@ -20314,7 +20314,7 @@
         },
         {
           "year": 2004,
-          "ordinal": "10th",
+          "ordinal": "9th",
           "location": "Snowbird, USA",
           "main_track": {
             "num_acc": 21,
@@ -20323,7 +20323,7 @@
         },
         {
           "year": 2003,
-          "ordinal": "9th",
+          "ordinal": "8th",
           "location": "Uppsala, Sweden",
           "main_track": {
             "num_acc": 24,
@@ -20332,11 +20332,65 @@
         },
         {
           "year": 2002,
-          "ordinal": "8th",
+          "ordinal": "7th",
           "location": "Pittsburgh, USA",
           "main_track": {
             "num_acc": 24,
             "num_sub": 76
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "6th",
+          "location": "Florence, Italy",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 66
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "5th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 110
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "4th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 81
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "3rd",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 77
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "2nd",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 78
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "1st",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 83
           }
         }
       ]
