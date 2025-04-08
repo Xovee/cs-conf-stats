@@ -20396,6 +20396,98 @@
       ]
     },
     {
+      "series": "OOPSLA",
+      "discipline": "PL",
+      "metadata": {
+        "series_full_title": "ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications",
+        "main_discipline": [
+          "Programming Lnaguages", "Object-Oriented Programming", "Software Engineering"
+        ],
+        "other_discipline": [
+          "Type Systems", "Language Design & Implementation", "Program Analysis", "Runtime Systems", "Software Architecture"
+        ],
+        "parent_org": "ACM SIGPLAN",
+        "website": "https://www.sigplan.org/Conferences/OOPSLA/",
+        "proceedings": "https://dl.acm.org/loi/pacmpl",
+        "second_track_name": "",
+        "note": "Now part of SPLASH. There are resubmissions every year. Since 2017, the proceedings are published in PACMPL."
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "39th",
+          "location": "Pasadena, California, USA",
+          "main_track": {
+            "num_acc": 148,
+            "num_sub": 384
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "38th",
+          "location": "Cascais, Portugal",
+          "main_track": {
+            "num_acc": 110,
+            "num_sub": 304
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "37th",
+          "location": "Auckland, New Zealand",
+          "main_track": {
+            "num_acc": 92,
+            "num_sub": 294
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "36th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 71,
+            "num_sub": 205
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "35th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 109,
+            "num_sub": 302
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "34th",
+          "location": "Athens, Greece",
+          "main_track": {
+            "num_acc": 73,
+            "num_sub": 201
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "33rd",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 60,
+            "num_sub": 216
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "32nd",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 223
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
