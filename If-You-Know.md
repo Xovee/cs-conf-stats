@@ -222,6 +222,10 @@ First, we need **ALL** new stats in the upcoming years.
 - NIPS 2001
 - Before 1993
 
+## OOPSLA
+
+- OOPSLA 2011
+
 ## PLDI
 
 - PLDI 2004

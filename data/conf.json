@@ -20484,6 +20484,60 @@
             "num_acc": 66,
             "num_sub": 223
           }
+        },
+        {
+          "year": 2016,
+          "ordinal": "31st",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 203
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "30th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 53,
+            "num_sub": 210
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "29th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 186
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "28th",
+          "location": "Indianapolis, USA",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 189
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "27th",
+          "location": "Tucson, USA",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 228
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "20th",
+          "location": "Reno, USA",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 164
+          }
         }
       ]
     },
