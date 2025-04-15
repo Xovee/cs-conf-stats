@@ -1,6 +1,7 @@
 # TODO List
 
-- [x] Apr 2, 2025. Replace Google Analytics with Cloudflare Web Analytics for privacy-first and GDPR-compilant. 
+- [x] Apr 15, 2025. Add ALL select options. Finished Apr 15, 2025.
+- [x] Apr 2, 2025. Replace Google Analytics with Cloudflare Web Analytics for privacy-first and GDPR-compilant. Finished Apr 2, 2025.
 - [x] Feb 25, 2025. Longest and youngest conferences. Finished Feb 25, 2025. 
 - [x] Feb 22, 2025. Give URL strings for SEO. Add href to all the links to all the pages, finished Mar 20, 2025.
 - [x] Feb 21, 2025. Add a google map. Finished Feb 21, 2025. Commented Mar 19, 2025.

@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   const curConfSelection = document.getElementById('cur-conf');
   const loadingMessage = document.getElementById("loadingMessage");
 
+  // helper to update URL
   function updateUrl(conference) {
     history.pushState({ conf: conference }, '', '?conf=' + encodeURIComponent(conference));
   }
@@ -23,6 +24,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     return found;
   }
 
+  // disable dropdowns until data loads
   dropdowns.forEach(dropdown => {
     dropdown.disabled = true;
   });
@@ -34,8 +36,21 @@ document.addEventListener('DOMContentLoaded', (event) => {
       dropdowns.forEach(dropdown => {
         dropdown.disabled = false;
       });
-
       loadingMessage.classList.add('hidden');
+
+      const dropdownAll = document.getElementById('dropdown-all');
+      dropdownAll.innerHTML = `<option value="" disabled></option>`;
+
+      const sortedConferences = data.conferences.slice().sort((a, b) => {
+        return a.series.localeCompare(b.series);
+      });
+
+      sortedConferences.forEach(conference => {
+        const option = document.createElement('option');
+        option.value = conference.series;
+        option.textContent = `${conference.series}`;
+        dropdownAll.appendChild(option);
+      });
 
       function displayConfMetadata(conferenceSeries) {
         const statsDiv = document.getElementById('stats-card-container');
@@ -374,7 +389,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
       window.displayConfMetadata = displayConfMetadata;
 
+      dropdownAll.addEventListener('change', (event) => {
+        const selectedValue = event.target.value;
+        curConfSelection.textContent = selectedValue;
+
+        dropdowns.forEach(dropdown => {
+          if (dropdown !== 'dropdown-all') {
+            dropdown.value = "";
+          }
+        });
+        
+        updateUrl(selectedValue);
+        displayConfMetadata(selectedValue);
+      });
+
       dropdowns.forEach(dropdown => {
+        if (dropdown.id === 'dropdown-all') return;
         dropdown.addEventListener('change', (event) => {
           const selectedValue = event.target.value;
           curConfSelection.textContent = selectedValue;
