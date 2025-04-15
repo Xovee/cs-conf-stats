@@ -225,6 +225,9 @@ First, we need **ALL** new stats in the upcoming years.
 ## OOPSLA
 
 - OOPSLA 2011
+- OOPSLA 1998
+- OOPSLA 1997
+- OOPSLA 1996
 
 ## PLDI
 

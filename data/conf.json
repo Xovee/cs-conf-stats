@@ -20601,6 +20601,43 @@
             "num_acc": 26,
             "num_sub": 147
           }
+        },
+        {
+          "year": 2002,
+          "ordinal": "17th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 125
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "16th",
+          "location": "Tampa, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 145
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "15th",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 142
+          },
+          "note": "https://www.oopsla.org/2000/fp/tech/index.html"
+        },
+        {
+          "year": 1999,
+          "ordinal": "14th",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 152
+          }
         }
       ]
     },
