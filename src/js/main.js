@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       loadingMessage.classList.add('hidden');
 
       const dropdownAll = document.getElementById('dropdown-all');
-      dropdownAll.innerHTML = `<option value="" disabled></option>`;
+      dropdownAll.innerHTML = `<option value="" selected disabled></option>`;
 
       const sortedConferences = data.conferences.slice().sort((a, b) => {
         return a.series.localeCompare(b.series);
