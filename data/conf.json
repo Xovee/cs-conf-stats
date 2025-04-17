@@ -20638,6 +20638,24 @@
             "num_acc": 30,
             "num_sub": 152
           }
+        },
+        {
+          "year": 1989,
+          "ordinal": "4th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 186
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "3rd",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 212
+          }
         }
       ]
     },
