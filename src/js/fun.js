@@ -269,6 +269,7 @@ fetch('/data/conf.json')
       {name: "AAAI", value: 1980},
       {name: "ACL", value: 1963},
       {name: "ACM MM", value: 1993},
+      {name: "ASE", value: 1986},
       {name: "Asiacrypt", value: 1990},
       {name: "ASPLOS", value: 1982},
       {name: "CASES", value: 1998},

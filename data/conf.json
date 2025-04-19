@@ -20660,6 +20660,89 @@
       ]
     },
     {
+      "series": "ASE",
+      "discipline": "Software",
+      "metadata": {
+        "series_full_title": "ACM/IEEE International Conference on Automated Software Engineering",
+        "main_discipline": [
+          "Automation in Software Engineering", "AI-driven Software Engineering", "Software Analysis"
+        ],
+        "other_discipline": [
+          "Model-driven Engineering", "Program Analysis & Synthesis", "DevOps & Release Engineering", "Maintenance & Evolution", "Formal Methods"
+        ],
+        "parent_org": "ACM, IEEE CompSoc",
+        "website": "https://ase-conferences.org/",
+        "proceedings": "https://dl.acm.org/conference/ase/proceedings",
+        "second_track_name": "",
+        "note": "Some history: https://ase-conferences.org/ase-on-line-bibligraphy.html"
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "39th",
+          "location": "Sacramento, California, USA",
+          "main_track": {
+            "num_acc": 155,
+            "num_sub": 568
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "38th",
+          "location": "Echternach, Luxembourg",
+          "main_track": {
+            "num_acc": 134,
+            "num_sub": 630
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "37th",
+          "location": "Oakland Center, Michigan, USA",
+          "main_track": {
+            "num_acc": 116,
+            "num_sub": 527
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "36th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 82,
+            "num_sub": 427
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "35th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 93,
+            "num_sub": 408
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "34th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 77,
+            "num_sub": 377
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "33rd",
+          "location": "Montpellier, France",
+          "main_track": {
+            "num_acc": 64,
+            "num_sub": 315
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
