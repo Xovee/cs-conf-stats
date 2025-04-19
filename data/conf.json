@@ -20739,6 +20739,15 @@
             "num_acc": 64,
             "num_sub": 315
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "32nd",
+          "location": "Urbana-Champaign, USA",
+          "main_track": {
+            "num_acc": 65,
+            "num_sub": 314
+          }
         }
       ]
     },
