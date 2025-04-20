@@ -8,33 +8,37 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout cs-conf-stats
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
-      - name: Configure Git
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+      - name: Checkout xoveexu-com@csconfstats
+        uses: actions/checkout@v4
+        with:
+          repository: Xovee/xoveexu-com
+          ref: csconfstats
+          token: ${{ secrets.GH_PAT }}
+          path: xoveexu-com
 
-      - name: Clone the target repository
-        run: |
-          git clone --branch csconfstats https://x-access-token:${{ secrets.GH_PAT }}@github.com/Xovee/xoveexu-com.git target-repo
-
-      - name: Sync changes
+      - name: Sync files
         run: |
           rsync -av --delete \
             --exclude='.git' \
-            --exclude='target-repo' \
-            ./ target-repo/
+            ./ xoveexu-com/
 
-      - name: Commit and Push
+      - name: Commit & push
+        working-directory: xoveexu-com
         run: |
-          cd target-repo
-          git add .
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add --all
           if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "Sync from cs-conf-stats main"
-            git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/Xovee/xoveexu-com.git csconfstats
+            echo "✅ No changes to sync"
+            exit 0
           fi
+          git commit -m "🔄 Sync from cs-conf-stats @${{ github.sha }}"
+          git push origin csconfstats
+          

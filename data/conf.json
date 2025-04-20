@@ -20748,6 +20748,73 @@
             "num_acc": 65,
             "num_sub": 314
           }
+        },
+        {
+          "year": 2016,
+          "ordinal": "31st",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 53,
+            "num_sub": 284
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "30th",
+          "location": "Lincoln, USA",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 289
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "29th",
+          "location": "Vasteras, Sweden",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 276
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "28th",
+          "location": "Palo Alto, California, USA",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 310
+          },
+          "note": "310 includes 254 long, 21 experience, and 42 new ideas papers, with 7 desk-rejected."
+        },
+        {
+          "year": 2012,
+          "ordinal": "27th",
+          "location": "Essen, Germany",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 138
+          },
+          "note": "There are additional 26 short papers."
+        },
+        {
+          "year": 2011,
+          "ordinal": "26th",
+          "location": "Lawrence, USA",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 252
+          },
+          "note": "There are additional 50 short papers."
+        },
+        {
+          "year": 2010,
+          "ordinal": "25th",
+          "location": "Antwerp, Belgium",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 190
+          },
+          "note": "There are additional 31 short papers."
         }
       ]
     },
