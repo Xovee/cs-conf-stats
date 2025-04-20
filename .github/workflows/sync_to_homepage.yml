@@ -23,7 +23,10 @@ jobs:
 
       - name: Sync changes
         run: |
-          rsync -av --delete --exclude='.git' ./ target-repo/
+          rsync -av --delete \
+            --exclude='.git' \
+            --exclude='target-repo' \
+            ./ target-repo/
 
       - name: Commit and Push
         run: |
