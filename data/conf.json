@@ -20815,6 +20815,76 @@
             "num_sub": 190
           },
           "note": "There are additional 31 short papers."
+        },
+        {
+          "year": 2009,
+          "ordinal": "24th",
+          "location": "Auckland, New Zealand",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 220
+          },
+          "note": "There are additional 33 short papers."
+        },
+        {
+          "year": 2008,
+          "ordinal": "23rd",
+          "location": "L'Aquila, Italy",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 280
+          },
+          "note": "There are additional 31 short papers."
+        },
+        {
+          "year": 2007,
+          "ordinal": "22nd",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 312
+          },
+          "note": "There are additional 38 short papers."
+        },
+        {
+          "year": 2006,
+          "ordinal": "21st",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 121
+          },
+          "note": "There are additional 17 short papers."
+        },
+        {
+          "year": 2005,
+          "ordinal": "20th",
+          "location": "Long Beach, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 291
+          },
+          "note": "There are additional 35 short papers."
+        },
+        {
+          "year": 2004,
+          "ordinal": "19th",
+          "location": "Linz, Austria",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 183
+          },
+          "note": "There are additional 26 short papers."
+        },
+        {
+          "year": 2003,
+          "ordinal": "18th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 170
+          },
+          "note": "There are additional 26 short papers."
         }
       ]
     },
