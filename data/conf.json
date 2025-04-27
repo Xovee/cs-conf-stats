@@ -20674,7 +20674,7 @@
         "website": "https://ase-conferences.org/",
         "proceedings": "https://dl.acm.org/conference/ase/proceedings",
         "second_track_name": "",
-        "note": "Some history: https://ase-conferences.org/ase-on-line-bibligraphy.html"
+        "note": "Some history: https://ase-conferences.org/ase-on-line-bibligraphy.html Before 1997, it was called the Knowledge-Based Software Engineering Conference (KBSE)."
       },
       "yearly_data": [
         {
@@ -20885,6 +20885,94 @@
             "num_sub": 170
           },
           "note": "There are additional 26 short papers."
+        },
+        {
+          "year": 2002,
+          "ordinal": "17th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 94
+          },
+          "note": "There are additional 19 short papers."
+        },
+        {
+          "year": 2001,
+          "ordinal": "16th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 164
+          },
+          "note": "There are additional 28 short papers."
+        },
+        {
+          "year": 2000,
+          "ordinal": "15th",
+          "location": "Grenoble, France",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 100
+          },
+          "note": "Over 100 submissions. There are additional 22 short papers."
+        },
+        {
+          "year": 1999,
+          "ordinal": "14th",
+          "location": "Cocoa Beach, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 123
+          },
+          "note": "There are additional 25 short papers."
+        },
+        {
+          "year": 1998,
+          "ordinal": "13th",
+          "location": "Honolulu, Hawaii, USA",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 155
+          },
+          "note": "There are additional 20 short papers."
+        },
+        {
+          "year": 1997,
+          "ordinal": "12th",
+          "location": "Lake Tahoe, California, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 108
+          },
+          "note": "There are additional 15 short papers."
+        },
+        {
+          "year": 1996,
+          "ordinal": "11th",
+          "location": "Syracuse, USA",
+          "main_track": {
+            "num_acc": 15,
+            "num_sub": 50
+          },
+          "note": "Over 50 submissions."
+        },
+        {
+          "year": 1995,
+          "ordinal": "10th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 56
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "6th",
+          "location": "Syracuse, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 56
+          }
         }
       ]
     },
