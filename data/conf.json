@@ -20977,6 +20977,89 @@
       ]
     },
     {
+      "series": "ICSE",
+      "discipline": "Software",
+      "metadata": {
+        "series_full_title": "International Conference on Software Engineering",
+        "main_discipline": [
+          "Software Engineering", "AI for SE", "Software Testing & Analysis"
+        ],
+        "other_discipline": [
+          "Software Architecture & Design", "Software Evolution & Maintenance", "Empirical Software Engineering", "Software Metrics & Analytics", "Human & Social Aspects of Software Development"
+        ],
+        "parent_org": "ACM, IEEE",
+        "website": "https://www.icse-conferences.org/",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000691/all-proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "46th",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "num_acc": 234,
+            "num_sub": 1051
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "45th",
+          "location": "Melbourne, Australia",
+          "main_track": {
+            "num_acc": 207,
+            "num_sub": 780
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "44th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 197,
+            "num_sub": 691
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "43rd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 138,
+            "num_sub": 615
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "42nd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 129,
+            "num_sub": 617
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "41st",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 109,
+            "num_sub": 504
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "40th",
+          "location": "Gothenburg, Sweden",
+          "main_track": {
+            "num_acc": 105,
+            "num_sub": 502
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
