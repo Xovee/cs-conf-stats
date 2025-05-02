@@ -3274,6 +3274,21 @@
       },
       "yearly_data": [
         {
+          "year": 2024,
+          "ordinal": "33rd",
+          "location": "Boise, Idaho, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 347,
+            "num_sub": 1496
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 141,
+            "num_sub": 527
+          }
+        },
+        {
           "year": 2023,
           "ordinal": "32nd",
           "location": "Birmingham, UK",
