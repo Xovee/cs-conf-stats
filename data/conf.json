@@ -21081,6 +21081,87 @@
             "num_acc": 105,
             "num_sub": 502
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "39th",
+          "location": "Buenos Aires, Argentina",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 415
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "38th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 101,
+            "num_sub": 530
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "37th",
+          "location": "Florence, Italy",
+          "main_track": {
+            "num_acc": 84,
+            "num_sub": 452
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "36th",
+          "location": "Hyderabad, India",
+          "main_track": {
+            "num_acc": 99,
+            "num_sub": 496
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "35th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 461
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "34th",
+          "location": "Zurich, Switzerland",
+          "main_track": {
+            "num_acc": 87,
+            "num_sub": 401
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "33rd",
+          "location": "Honolulu, Hawaii, USA",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 441
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "32nd",
+          "location": "Cape Town, South Africa",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 380
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "31st",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 405
+          }
         }
       ]
     },
