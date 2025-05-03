@@ -372,9 +372,19 @@
         "series_full_title": "International Conference on Machine Learning",
         "main_discipline": ["Machine Learning"],
         "other_discipline": ["Deep Learning", "Learning Theory", "Optimization", "Probabilistic Inference", "Trustworthy Machine Learning"],
-        "website": ["https://icml.cc"]
+        "website": "https://icml.cc"
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "42nd",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 3260,
+            "num_sub": 12107
+          }
+        },
         {
           "year": 2024,
           "ordinal": "41st",
