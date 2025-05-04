@@ -21162,6 +21162,136 @@
             "num_acc": 50,
             "num_sub": 405
           }
+        },
+        {
+          "year": 2008,
+          "ordinal": "30th",
+          "location": "Leipzig, Germany",
+          "main_track": {
+            "num_acc": 56,
+            "num_sub": 370
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "29th",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "num_acc": 49,
+            "num_sub": 325
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "28th",
+          "location": "Shanghai, China",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 400
+          },
+          "note": "9% acc rate"
+        },
+        {
+          "year": 2005,
+          "ordinal": "27th",
+          "location": "St. Louis, USA",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 314
+          },
+          "note": "14% acc rate"
+        },
+        {
+          "year": 2004,
+          "ordinal": "26th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 58,
+            "num_sub": 436
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "25th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 324
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "24th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 303
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "23rd",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 268
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "22nd",
+          "location": "Limerick, Ireland",
+          "main_track": {
+            "num_acc": 49,
+            "num_sub": 335
+          },
+          "note": "including both reseach, speculative, and experience papers."
+        },
+        {
+          "year": 1999,
+          "ordinal": "21st",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 49,
+            "num_sub": 260
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "20th",
+          "location": "Kyoto, Japan",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 209
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "19th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 219
+          },
+          "note": "Additional 9 experience papers."
+        },
+        {
+          "year": 1996,
+          "ordinal": "18th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 213
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "17th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 155
+          }
         }
       ]
     },
