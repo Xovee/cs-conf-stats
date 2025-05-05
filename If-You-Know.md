@@ -168,6 +168,25 @@ First, we need **ALL** new stats in the upcoming years.
 - ICS 1991
 - ICS 1989
 
+## ICSE
+
+- ICSE 1994
+- ICSE 1993
+- ICSE 1992
+- ICSE 1991
+- ICSE 1990
+- ICSE 1989
+- ICSE 1988
+- ICSE 1987
+- ICSE 1985
+- ICSE 1984
+- ICSE 1982
+- ICSE 1981
+- ICSE 1979
+- ICSE 1978
+- ICSE 1976
+- ICSE 1975
+
 ## ICWSM
 
 - ICWSM 2011

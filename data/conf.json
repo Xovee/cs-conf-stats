@@ -21292,6 +21292,15 @@
             "num_acc": 28,
             "num_sub": 155
           }
+        },
+        {
+          "year": 1982,
+          "ordinal": "6th",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 245
+          }
         }
       ]
     },
