@@ -21305,6 +21305,89 @@
       ]
     },
     {
+      "series": "FSE",
+      "discipline": "Software",
+      "metadata": {
+        "series_full_title": "ACM International Conference on the Foundations of Software Engineering",
+        "main_discipline": [
+          "Software Engineering", "Program Analysis & Testing", "AI/ML for Software Engineering"
+        ],
+        "other_discipline": [
+          "Empirical Software Engineering", "Software Security & Reliability", "Human & Social Aspects", "Model-Driven & Program Synthesis", "Software Evolution & Maintenance"
+        ],
+        "parent_org": "ACM, ACM SIGSOFT",
+        "website": "https://www.esec-fse.org/index",
+        "proceedings": "https://dl.acm.org/conference/fse/proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "32nd",
+          "location": "Porto de Galinhas, Brazil",
+          "main_track": {
+            "num_acc": 121,
+            "num_sub": 474
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "31st",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 127,
+            "num_sub": 465
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "30th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 99,
+            "num_sub": 449
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "29th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 97,
+            "num_sub": 396
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "28th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 101,
+            "num_sub": 360
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "27th",
+          "location": "Tallinn, Estonia",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 303
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "26th",
+          "location": "Lake Buena Vista, USA",
+          "main_track": {
+            "num_acc": 61,
+            "num_sub": 289
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

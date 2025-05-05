@@ -8,7 +8,7 @@
 - [x] Jan 16, 2025. Add Scatter for each latest conference. Finished Jan 16, 2025.
 - [x] Jan 13, 2025. Add fun fact statistics. Finished Jan 13, 2025.
 - [ ] Dec 13, 2024. Optimize js for speed. 
-- [ ] Dec 10, 2024. Add rankings of conferences by the recent five ones, including number of accepted papers, acceptance rate. Including highest and smallest.  
+- [ ] Dec 10, 2024. Add rankings of conferences by the recent five ones, including number of accepted papers, acceptance rate. Including highest and smallest. 
 - [x] Dec 7, 2024. Add conference scatter plot. Finished Dec 7, 2024. 
 - [x] Dec 7, 2024. Add Most Picky Single Conference Chart. Finished Dec 7, 2024. 
 - [ ] Oct 28, 2024. Optimize GitHub README. 
