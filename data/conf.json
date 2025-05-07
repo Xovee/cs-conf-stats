@@ -21319,7 +21319,7 @@
         "website": "https://www.esec-fse.org/index",
         "proceedings": "https://dl.acm.org/conference/fse/proceedings",
         "second_track_name": "",
-        "note": ""
+        "note": "The FSE has a history or tradition that certain years ESES and FSE are merged. In 2017, the two conferences were merged into one, named FSE."
       },
       "yearly_data": [
         {
@@ -21383,6 +21383,69 @@
           "main_track": {
             "num_acc": 61,
             "num_sub": 289
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "25th",
+          "location": "Paderborn, Germany",
+          "main_track": {
+            "num_acc": 72,
+            "num_sub": 295
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "24th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 266
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "23rd",
+          "location": "Bergamo, Italy",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 291
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "22nd",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 61,
+            "num_sub": 280
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "21st",
+          "location": "Saint Petersburg, Russia",
+          "main_track": {
+            "num_acc": 51,
+            "num_sub": 251
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "20th",
+          "location": "Cary, USA",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 192
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "19th",
+          "location": "Szeged, Hungary",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 203
           }
         }
       ]
