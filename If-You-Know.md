@@ -126,6 +126,15 @@ First, we need **ALL** new stats in the upcoming years.
 
 - FAST 2008
 
+## FSE
+
+- FSE 2000
+- FSE 1998
+- FSE 1996
+- FSE 1995
+- FSE 1994
+- FSE 1993
+
 ## HPDC
 
 - HPDC 2007

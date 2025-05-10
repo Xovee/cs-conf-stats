@@ -21537,6 +21537,24 @@
             "num_acc": 29,
             "num_sub": 137
           }
+        },
+        {
+          "year": 1999,
+          "ordinal": "7th",
+          "location": "Toulouse, France",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 141
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "5th",
+          "location": "Zurich, Switzerland",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 194
+          }
         }
       ]
     },
