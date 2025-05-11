@@ -21559,6 +21559,89 @@
       ]
     },
     {
+      "series": "ISSTA",
+      "discipline": "Software",
+      "metadata": {
+        "series_full_title": "ACM SIGSOFT International Symposium on Software Testing and Analysis",
+        "main_discipline": [
+          "Software Testing", "Program Analysis", "Software Reliability"
+        ],
+        "other_discipline": [
+          "Automated Testing", "Static & Dynamic Analysis", "Debugging & Fault Localization", "Test Generation & Coverage", "Software Verification & Validation"
+        ],
+        "parent_org": "ACM",
+        "website": "https://www.issta.org/",
+        "proceedings": "https://dl.acm.org/conference/issta/proceedings",
+        "second_track_name": "",
+        "note": "Since 2025, the ISSTA conference proceedings will be published in TACMSE."
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "33rd",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 143,
+            "num_sub": 694
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "32nd",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 117,
+            "num_sub": 406
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "31st",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 61,
+            "num_sub": 250
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "30th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 51,
+            "num_sub": 233
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "29th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 162
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "28th",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 142
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "27th",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 132
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

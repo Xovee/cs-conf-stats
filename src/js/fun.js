@@ -311,6 +311,7 @@ fetch('/data/conf.json')
       {name: "INFOCOM", value: 1982},
       {name: "IPDPS", value: 1987},
       {name: "ISCA", value: 1973},
+      {name: "ISSTA", value: 1993},
       {name: "KDD", value: 1994},
       {name: "MICRO", value: 1968},
       {name: "MobiCom", value: 1995},
