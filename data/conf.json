@@ -21638,6 +21638,69 @@
             "num_acc": 31,
             "num_sub": 132
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "26th",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 118
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "25th",
+          "location": "Saarbrucken, Germany",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 147
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "24th",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 119
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "23rd",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 128
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "22nd",
+          "location": "Lugano, Switzerland",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 124
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "21st",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 108
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "20th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 121
+          }
         }
       ]
     },
