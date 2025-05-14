@@ -1698,7 +1698,7 @@
           "location": "Milan, Italy",
           "main_track": {
             "track_name": "Research Track",
-            "num_acc": 2395,
+            "num_acc": 2387,
             "num_sub": 8585
           }
         },
@@ -1708,8 +1708,8 @@
           "location": "Tel Aviv, Israel",
           "main_track": {
             "track_name": "Research Track", 
-            "num_acc": 1361,
-            "num_sub": 5025
+            "num_acc": 1645,
+            "num_sub": 5804
           }
         },
         {
@@ -1718,8 +1718,8 @@
           "location": "Glasgow, Scotland, UK",
           "main_track": {
             "track_name": "Research Track", 
-            "num_acc": 1361,
-            "num_sub": 5025
+            "num_acc": 1360,
+            "num_sub": 5150
           }
         },
         {
