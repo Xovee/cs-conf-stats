@@ -21701,6 +21701,97 @@
             "num_acc": 35,
             "num_sub": 121
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "19th",
+          "location": "Trento, Italy",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 100
+          },
+          "note": "Over 100 submissions."
+        },
+        {
+          "year": 2009,
+          "ordinal": "18th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 93
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "17th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 101
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "16th",
+          "location": "London, UK",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 101
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "15th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 84
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "14th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 93
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "13th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 97
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "12th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 73
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "11th",
+          "location": "Clearwater, USA",
+          "main_track": {
+            "num_acc": 16,
+            "num_sub": 47
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "9th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 16,
+            "num_sub": 69
+          }
         }
       ]
     },
