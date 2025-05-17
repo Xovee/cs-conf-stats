@@ -290,6 +290,7 @@ fetch('/data/conf.json')
       {name: "Eurocrypt", value: 1982},
       {name: "EuroSys", value: 2006},
       {name: "FAST", value: 2002},
+      {name: "FOCS", value: 1960},
       {name: "FSE", value: 1993},
       {name: "HPCA", value: 1995},
       {name: "HPDC", value: 1992},

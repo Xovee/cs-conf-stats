@@ -21796,6 +21796,90 @@
       ]
     },
     {
+      "series": "FOCS",
+      "discipline": "Theory",
+      "metadata": {
+        "series_full_title": "IEEE Annual Symposium on Foundations of Computer Science",
+        "main_discipline": [
+          "Theory of Computation", "Algorithms", "Computational Complexity"
+        ],
+        "other_discipline": [
+          "Cryptography", "ML Theory", "Quantum Computing", "Optimization", "Derandomization & Pseudorandomness"
+        ],
+        "parent_org": "IEEE, IEEE CompSoc",
+        "website": "https://ieee-focs.org/",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000292/all-proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "65th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 131,
+            "num_sub": 500
+          },
+          "note": "nearly 500 submissions"
+        },
+        {
+          "year": 2023,
+          "ordinal": "64th",
+          "location": "Santa Cruz, California, USA",
+          "main_track": {
+            "num_acc": 141,
+            "num_sub": 421
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "63rd",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 110,
+            "num_sub": 296
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "62nd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 117,
+            "num_sub": 340
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "61st",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 127,
+            "num_sub": 399
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "60th",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "num_acc": 92,
+            "num_sub": 318
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "59th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 86,
+            "num_sub": 320
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
