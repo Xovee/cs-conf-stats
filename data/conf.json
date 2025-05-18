@@ -21876,6 +21876,69 @@
             "num_acc": 86,
             "num_sub": 320
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "58th",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 90,
+            "num_sub": 323
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "57th",
+          "location": "New Brunswick, USA",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 307
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "56th",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 86,
+            "num_sub": 314
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "55th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 68,
+            "num_sub": 273
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "54th",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 79,
+            "num_sub": 281
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "53rd",
+          "location": "New Brunswick, USA",
+          "main_track": {
+            "num_acc": 79,
+            "num_sub": 248
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "52nd",
+          "location": "Palm Springs, California, USA",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 292
+          }
         }
       ]
     },
