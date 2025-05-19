@@ -21939,6 +21939,69 @@
             "num_acc": 85,
             "num_sub": 292
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "51st",
+          "location": "Las Vegas, USA",
+          "main_track": {
+            "num_acc": 81,
+            "num_sub": 270
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "50th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 75,
+            "num_sub": 249
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "49th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 79,
+            "num_sub": 276
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "48th",
+          "location": "Providence, Rhode Island, USA",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 302
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "47th",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 71,
+            "num_sub": 240
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "46th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 276
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "45th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 64,
+            "num_sub": 272
+          }
         }
       ]
     },
