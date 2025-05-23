@@ -22002,6 +22002,78 @@
             "num_acc": 64,
             "num_sub": 272
           }
+        },
+        {
+          "year": 2003,
+          "ordinal": "44th",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 62,
+            "num_sub": 254
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "43rd",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 77,
+            "num_sub": 279
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "42nd",
+          "location": "Las Vegas, USA",
+          "main_track": {
+            "num_acc": 63,
+            "num_sub": 214
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "41st",
+          "location": "Redondo Beach, California, USA",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 206
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "40th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 218
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "39th",
+          "location": "Palo Alto, California, USA",
+          "main_track": {
+            "num_acc": 76,
+            "num_sub": 204
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "37th",
+          "location": "Burlington, USA",
+          "main_track": {
+            "num_acc": 63,
+            "num_sub": 174
+          }
+        },
+        {
+          "year": 1987,
+          "ordinal": "28th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 53,
+            "num_sub": 195
+          }
         }
       ]
     },
