@@ -22074,6 +22074,60 @@
             "num_acc": 53,
             "num_sub": 195
           }
+        },
+        {
+          "year": 1986,
+          "ordinal": "27th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 184
+          }
+        },
+        {
+          "year": 1985,
+          "ordinal": "26th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 61,
+            "num_sub": 204
+          }
+        },
+        {
+          "year": 1983,
+          "ordinal": "24th",
+          "location": "Tucson, USA",
+          "main_track": {
+            "num_acc": 60,
+            "num_sub": 160
+          }
+        },
+        {
+          "year": 1982,
+          "ordinal": "23rd",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 169
+          }
+        },
+        {
+          "year": 1981,
+          "ordinal": "22nd",
+          "location": "Nashville, USA",
+          "main_track": {
+            "num_acc": 51,
+            "num_sub": 135
+          }
+        },
+        {
+          "year": 1980,
+          "ordinal": "21st",
+          "location": "Syracuse, USA",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 146
+          }
         }
       ]
     },
