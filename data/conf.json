@@ -22128,6 +22128,42 @@
             "num_acc": 45,
             "num_sub": 146
           }
+        },
+        {
+          "year": 1979,
+          "ordinal": "20th",
+          "location": "San Juan, Puerto Rico",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 150
+          }
+        },
+        {
+          "year": 1978,
+          "ordinal": "19th",
+          "location": "Ann Arbor, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 129
+          }
+        },
+        {
+          "year": 1977,
+          "ordinal": "18th",
+          "location": "Providence, Rhode Island, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 92
+          }
+        },
+        {
+          "year": 1976,
+          "ordinal": "17th",
+          "location": "Houston, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 75
+          }
         }
       ]
     },
