@@ -22168,6 +22168,89 @@
       ]
     },
     {
+      "series": "SODA",
+      "discipline": "Theory",
+      "metadata": {
+        "series_full_title": "ACM-SIAM Symposium on Discrete Algorithms",
+        "main_discipline": [
+          "Algorithms", "Discrete Mathematics", "Theoretical CS"
+        ],
+        "other_discipline": [
+          "Combinatorics", "Graph Theory", "Optimization", "Data Structures", "Approx. Algorithms"
+        ],
+        "parent_org": "SIAM, ACM",
+        "website": "https://dblp.uni-trier.de/db/conf/soda/index.html",
+        "proceedings": "https://epubs.siam.org/action/doSearch?AllField=SODA&SeriesKey=pr&pt=proceedings&sortBy=EpubDate&startPage=&PubType=105",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "36th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 192,
+            "num_sub": 655
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "35th",
+          "location": "Alexandria, USA",
+          "main_track": {
+            "num_acc": 192,
+            "num_sub": 652
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "34th",
+          "location": "Florence, Italy",
+          "main_track": {
+            "num_acc": 190,
+            "num_sub": 652
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "33rd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 148,
+            "num_sub": 491
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "32nd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 180,
+            "num_sub": 641
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "31st",
+          "location": "Salt Lake City, USA",
+          "main_track": {
+            "num_acc": 182,
+            "num_sub": 589
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "30th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 184,
+            "num_sub": 586
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

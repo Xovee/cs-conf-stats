@@ -335,6 +335,7 @@ fetch('/data/conf.json')
       {name: "SIGCOMM", value: 1969},
       {name: "SIGIR", value: 1971},
       {name: 'SIGMETRICS', value: 1973},
+      {name: 'SODA', value: 1990},
       {name: 'SOSP', value: 1965},
       {name: 'TheWebConf', value: 1994},
       {name: 'UAI', value: 1985},
