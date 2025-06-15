@@ -22311,6 +22311,60 @@
             "num_sub": 517
           },
           "note": "No preface in the proceedings. Use # from web."
+        },
+        {
+          "year": 2011,
+          "ordinal": "22nd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 136,
+            "num_sub": 452
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "21st",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 135,
+            "num_sub": 445
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "20th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 135,
+            "num_sub": 458
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "18th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 139,
+            "num_sub": 382
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "17th",
+          "location": "Miami, USA",
+          "main_track": {
+            "num_acc": 138,
+            "num_sub": 425
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "16th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 126,
+            "num_sub": 392
+          }
         }
       ]
     },
