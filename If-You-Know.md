@@ -382,6 +382,15 @@ First, we need **ALL** new stats in the upcoming years.
 ## SODA
 
 - SODA 2008
+- SODA 2001
+- SODA 1999
+- SODA 1997
+- SODA 1995
+- SODA 1994
+- SODA 1993
+- SODA 1992
+- SODA 1991
+- SODA 1990
 
 ## SOSP
 
