@@ -88,8 +88,9 @@ Number of submissions and number of accepted papers for the following conference
 1. SIGMETRICS: ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems.
 1. SIGKDD: ACM SIGKDD Conference on Knowledge Discovery and Data Mining.
 1. SODA: ACM-SIAM Symposium on Discrete Algorithms. 
-1. SOSP: Symposium ono Operating Systems Principles.
-1. TheWebConf: The Web Conference.
+1. SOSP: Symposium on Operating Systems Principles.
+1. STOC: ACM Symposium on Theory of Computing. 
+1. WWW: The Web Conference.
 1. UAI: Conference on Uncertainty in Artificial Intelligence. 
 1. UbiComp: ACM International Joint Conference on Pervasive and Ubiquitous Computing.
 1. UIST: ACM Symposium on User Interface Software and Technology.

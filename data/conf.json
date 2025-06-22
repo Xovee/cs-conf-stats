@@ -6255,7 +6255,7 @@
       ]
     },
     {
-      "series": "TheWebConf",
+      "series": "WWW",
       "discipline": "Web",
       "metadata": {
         "series_full_title": "The Web Conference",
@@ -6266,9 +6266,9 @@
           "Economics", "Graph", "Search", "Security", "Semantics and Knowledge", "HCI", "Social Network", "Web Systems", "User Modeling", "Web Mining", "Data Mining", "CV", "NLP", "Information Retrieval", "Recommender System", "Ranking"
         ],
         "parent_org": "Now ACM SIGWEB, former is IW3C2",
-        "website": "https://thewebconf.org",
+        "website": "https://WWW.org",
         "proceedings": "New: https://dl.acm.org/conference/webconf/proceedings <br> History: https://archives.iw3c2.org",
-        "note": "The World Wide Web (WWW) conference is renamed to The Web Conference (TheWebConf) in 2018."
+        "note": "The World Wide Web (WWW) conference is renamed to The Web Conference (WWW) in 2018."
       },
       "yearly_data": [
         {
@@ -18182,7 +18182,7 @@
       "series": "SOSP",
       "discipline": "OS",
       "metadata": {
-        "series_full_title": "Symposium ono Operating Systems Principles",
+        "series_full_title": "Symposium on Operating Systems Principles",
         "main_discipline": [
           "Operating Systems", "Distributed Systems", "Cloud Computing"
         ],
@@ -22430,6 +22430,89 @@
           "main_track": {
             "num_acc": 65,
             "num_sub": 232
+          }
+        }
+      ]
+    },
+    {
+      "series": "STOC",
+      "discipline": "Theory",
+      "metadata": {
+        "series_full_title": "ACM Symposium on Theory of Computing",
+        "main_discipline": [
+          "Algorithms", "Computational Complexity", "Cryptography"
+        ],
+        "other_discipline": [
+          "Randomized Algorithms", "Quantum Computing", "Data Structures", "ML Theory", "Combinatorics"
+        ],
+        "parent_org": "ACM, ACM SIGACT",
+        "website": "https://acm-stoc.org/",
+        "proceedings": "https://dl.acm.org/conference/stoc/proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "57th",
+          "location": "Prague, Czech Republic",
+          "main_track": {
+            "num_acc": 219,
+            "num_sub": 735
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "56th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 188,
+            "num_sub": 592
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "55th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 155,
+            "num_sub": 480
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "54th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 135,
+            "num_sub": 457
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "53rd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 143,
+            "num_sub": 498
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "52nd",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 113,
+            "num_sub": 440
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "51st",
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 114,
+            "num_sub": 424
           }
         }
       ]
