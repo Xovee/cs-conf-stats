@@ -22482,7 +22482,7 @@
         {
           "year": 2022,
           "ordinal": "54th",
-          "location": "Rome, Italy",
+          "location": "Online, Online",
           "main_track": {
             "num_acc": 135,
             "num_sub": 457
@@ -22513,6 +22513,69 @@
           "main_track": {
             "num_acc": 114,
             "num_sub": 424
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "50th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 111,
+            "num_sub": 416
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "49th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 103,
+            "num_sub": 422
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "48th",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 92,
+            "num_sub": 370
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "47th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 93,
+            "num_sub": 347
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "46th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 91,
+            "num_sub": 319
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "45th",
+          "location": "Palo Alto, California, USA",
+          "main_track": {
+            "num_acc": 100,
+            "num_sub": 360
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "44th",
+          "location": "",
+          "main_track": {
+            "num_acc": 90,
+            "num_sub": 303
           }
         }
       ]
