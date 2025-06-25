@@ -22572,10 +22572,73 @@
         {
           "year": 2012,
           "ordinal": "44th",
-          "location": "",
+          "location": "New York City, USA",
           "main_track": {
             "num_acc": 90,
             "num_sub": 303
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "43rd",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 84,
+            "num_sub": 299
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "42nd",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 279
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "41st",
+          "location": "Bethesda, USA",
+          "main_track": {
+            "num_acc": 77,
+            "num_sub": 321
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "40th",
+          "location": "Victoria, Canada",
+          "main_track": {
+            "num_acc": 80,
+            "num_sub": 320
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "39th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 312
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "38th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 288
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "37th",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "num_acc": 84,
+            "num_sub": 285
           }
         }
       ]
