@@ -1895,6 +1895,16 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "20th",
+          "location": "Hawaii, USA",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 2698,
+            "num_sub": 11239
+          }
+        },
+        {
           "year": 2023,
           "ordinal": "19th",
           "location": "Paris, France",
