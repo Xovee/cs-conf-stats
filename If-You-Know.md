@@ -406,6 +406,10 @@ First, we need **ALL** new stats in the upcoming years.
 - SOSP 1967
 - SOSP 1965
 
+## STOC
+
+- STOC 1999
+
 ## WWW
 
 - Before 2000

@@ -22650,6 +22650,60 @@
             "num_acc": 84,
             "num_sub": 285
           }
+        },
+        {
+          "year": 2004,
+          "ordinal": "36th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 71,
+            "num_sub": 271
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "35th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 80,
+            "num_sub": 270
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "34th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 91,
+            "num_sub": 287
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "33rd",
+          "location": "Heraklion, Greece",
+          "main_track": {
+            "num_acc": 83,
+            "num_sub": 230
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "32nd",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 182
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "30th",
+          "location": "Dallas, USA",
+          "main_track": {
+            "num_acc": 75,
+            "num_sub": 169
+          }
         }
       ]
     },
