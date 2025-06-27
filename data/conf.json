@@ -22704,6 +22704,60 @@
             "num_acc": 75,
             "num_sub": 169
           }
+        },
+        {
+          "year": 1997,
+          "ordinal": "29th",
+          "location": "El Paso, USA",
+          "main_track": {
+            "num_acc": 75,
+            "num_sub": 211
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "28th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 201
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "25th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 227
+          }
+        },
+        {
+          "year": 1990,
+          "ordinal": "22nd",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 214
+          }
+        },
+        {
+          "year": 1989,
+          "ordinal": "21st",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 56,
+            "num_sub": 196
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "20th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 53,
+            "num_sub": 192
+          }
         }
       ]
     },
