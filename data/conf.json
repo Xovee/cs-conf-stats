@@ -22758,6 +22758,69 @@
             "num_acc": 53,
             "num_sub": 192
           }
+        },
+        {
+          "year": 1987,
+          "ordinal": "19th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 165
+          }
+        },
+        {
+          "year": 1986,
+          "ordinal": "18th",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 175
+          }
+        },
+        {
+          "year": 1985,
+          "ordinal": "17th",
+          "location": "Providence, Rhode Island, USA",
+          "main_track": {
+            "num_acc": 53,
+            "num_sub": 193
+          }
+        },
+        {
+          "year": 1984,
+          "ordinal": "16th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 171
+          }
+        },
+        {
+          "year": 1983,
+          "ordinal": "15th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 54,
+            "num_sub": 169
+          }
+        },
+        {
+          "year": 1982,
+          "ordinal": "14th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 159
+          }
+        },
+        {
+          "year": 1981,
+          "ordinal": "13th",
+          "location": "Milwaukee, USA",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 115
+          }
         }
       ]
     },
