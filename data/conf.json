@@ -22821,6 +22821,69 @@
             "num_acc": 43,
             "num_sub": 115
           }
+        },
+        {
+          "year": 1980,
+          "ordinal": "12th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 125
+          }
+        },
+        {
+          "year": 1979,
+          "ordinal": "11th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 111
+          }
+        },
+        {
+          "year": 1978,
+          "ordinal": "10th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 120
+          }
+        },
+        {
+          "year": 1977,
+          "ordinal": "9th",
+          "location": "Boulder, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 87
+          }
+        },
+        {
+          "year": 1976,
+          "ordinal": "8th",
+          "location": "Hershey, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 83
+          }
+        },
+        {
+          "year": 1975,
+          "ordinal": "7th",
+          "location": "Albuquerque, USA",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 87
+          }
+        },
+        {
+          "year": 1974,
+          "ordinal": "6th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 95
+          }
         }
       ]
     },
