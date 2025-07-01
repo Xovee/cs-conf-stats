@@ -413,6 +413,7 @@ First, we need **ALL** new stats in the upcoming years.
 - STOC 1994
 - STOC 1992
 - STOC 1991
+- STOC 1973
 - STOC 1969
 
 ## WWW

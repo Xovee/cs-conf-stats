@@ -22884,6 +22884,36 @@
             "num_acc": 35,
             "num_sub": 95
           }
+        },
+        {
+          "year": 1972,
+          "ordinal": "4th",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 65
+          },
+          "note": "More than sixty abstracts submitted."
+        },
+        {
+          "year": 1971,
+          "ordinal": "3rd",
+          "location": "Shaker Heights, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 48
+          },
+          "note": "Nearly fifty papers submitted."
+        },
+        {
+          "year": 1970,
+          "ordinal": "2nd",
+          "location": "Northampton, USA",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 68
+          },
+          "note": "Nearly seventy papers submitted."
         }
       ]
     },
