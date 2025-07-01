@@ -22918,6 +22918,35 @@
       ]
     },
     {
+      "series": "ICALP",
+      "discipline": "Theory",
+      "metadata": {
+        "series_full_title": "International Colloquium on Automata, Languages and Programming",
+        "main_discipline": [
+          "Template"
+        ],
+        "other_discipline": [
+          "Template"
+        ],
+        "parent_org": "",
+        "website": "",
+        "proceedings": "",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "12th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 0,
+            "num_sub": 0
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

@@ -46,6 +46,7 @@ Number of submissions and number of accepted papers for the following conference
 1. FSE: ACM International Conference on the Foundations of Software Engineering.
 1. HPCA: IEEE International Symposium on High-Performance Computer Architecture.
 1. HPDC: International Symposium on High-Performance Parallel and Distributed Computing.
+1. ICALP: International Colloquium on Automata, Languages and Programming.
 1. ICCAD: IEEE/ACM International Conference on Computer Aided Design.
 1. ICCV: International Conference on Computer Vision.
 1. ICDE: International Conference on Data Engineering.

@@ -294,6 +294,7 @@ fetch('/data/conf.json')
       {name: "FSE", value: 1993},
       {name: "HPCA", value: 1995},
       {name: "HPDC", value: 1992},
+      {name: "ICALP", value: 1972},
       {name: "ICCAD", value: 1982},
       {name: "ICCV", value: 1987},
       {name: "ICDE", value: 1984},
