@@ -22923,25 +22923,79 @@
       "metadata": {
         "series_full_title": "International Colloquium on Automata, Languages and Programming",
         "main_discipline": [
-          "Template"
+          "Algorithms and Complexity", "Automata and Logic", "Theoretical CS"
         ],
         "other_discipline": [
-          "Template"
+          "Computational Learning Theory", "Cryptograph and Security", "Game Theory", "Programming Language & Semantics", "Distributed & Parallel Computing"
         ],
-        "parent_org": "",
-        "website": "",
-        "proceedings": "",
+        "parent_org": "EATCS",
+        "website": "https://eatcs.org/index.php/international-colloquium",
+        "proceedings": "https://drops.dagstuhl.de/entities/conference/ICALP",
         "second_track_name": "",
         "note": ""
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "52nd",
+          "location": "Aarhus, Denmark",
+          "main_track": {
+            "num_acc": 170,
+            "num_sub": 580
+          }
+        },
+        {
           "year": 2024,
-          "ordinal": "12th",
+          "ordinal": "51st",
+          "location": "Tallinn, Estonia",
+          "main_track": {
+            "num_acc": 153,
+            "num_sub": 519
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "50th",
+          "location": "Paderborn, Germany",
+          "main_track": {
+            "num_acc": 132,
+            "num_sub": 443
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "49th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 127,
+            "num_sub": 433
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "48th",
           "location": "Online, Online",
           "main_track": {
-            "num_acc": 0,
-            "num_sub": 0
+            "num_acc": 137,
+            "num_sub": 362
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "47th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 138,
+            "num_sub": 470
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "46th",
+          "location": "Patras, Greece",
+          "main_track": {
+            "num_acc": 146,
+            "num_sub": 490
           }
         }
       ]
