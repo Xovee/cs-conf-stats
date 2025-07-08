@@ -22997,6 +22997,69 @@
             "num_acc": 146,
             "num_sub": 490
           }
+        },
+        {
+          "year": 2018,
+          "ordinal": "45th",
+          "location": "Prague, Czech Republic",
+          "main_track": {
+            "num_acc": 147,
+            "num_sub": 502
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "44th",
+          "location": "Warsaw, Poland",
+          "main_track": {
+            "num_acc": 137,
+            "num_sub": 459
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "43rd",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 146,
+            "num_sub": 515
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "42nd",
+          "location": "Kyoto, Japan",
+          "main_track": {
+            "num_acc": 143,
+            "num_sub": 507
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "41st",
+          "location": "Copenhagen, Denmark",
+          "main_track": {
+            "num_acc": 136,
+            "num_sub": 484
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "40th",
+          "location": "Riga, Latvia",
+          "main_track": {
+            "num_acc": 124,
+            "num_sub": 422
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "39th",
+          "location": "Warwick, UK",
+          "main_track": {
+            "num_acc": 123,
+            "num_sub": 432
+          }
         }
       ]
     },
