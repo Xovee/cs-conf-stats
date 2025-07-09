@@ -23060,6 +23060,69 @@
             "num_acc": 123,
             "num_sub": 432
           }
+        },
+        {
+          "year": 2011,
+          "ordinal": "38th",
+          "location": "Zurich, Switzerland",
+          "main_track": {
+            "num_acc": 114,
+            "num_sub": 398
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "37th",
+          "location": "Bordeaux, France",
+          "main_track": {
+            "num_acc": 106,
+            "num_sub": 389
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "36th",
+          "location": "Rhodes, Greece",
+          "main_track": {
+            "num_acc": 126,
+            "num_sub": 370
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "35th",
+          "location": "Reykjavik, Iceland",
+          "main_track": {
+            "num_acc": 126,
+            "num_sub": 407
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "34th",
+          "location": "Wroclaw, Poland",
+          "main_track": {
+            "num_acc": 76,
+            "num_sub": 242
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "33rd",
+          "location": "Venice, Italy",
+          "main_track": {
+            "num_acc": 109,
+            "num_sub": 407
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "32nd",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "num_acc": 113,
+            "num_sub": 407
+          }
         }
       ]
     },
