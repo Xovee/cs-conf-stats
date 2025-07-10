@@ -20023,7 +20023,7 @@
         {
           "year": 2002,
           "ordinal": "16th",
-          "location": "Malaga",
+          "location": "Malaga, Spain",
           "main_track": {
             "num_acc": 24,
             "num_sub": 96
@@ -23122,6 +23122,69 @@
           "main_track": {
             "num_acc": 113,
             "num_sub": 407
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "31st",
+          "location": "Turku, Finland",
+          "main_track": {
+            "num_acc": 97,
+            "num_sub": 379
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "30th",
+          "location": "Eindhoven, The Netherlands",
+          "main_track": {
+            "num_acc": 84,
+            "num_sub": 212
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "29th",
+          "location": "Malaga, Spain",
+          "main_track": {
+            "num_acc": 83,
+            "num_sub": 269
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "28th",
+          "location": "Crete, Greece",
+          "main_track": {
+            "num_acc": 80,
+            "num_sub": 208
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "27th",
+          "location": "Geneva, Switzerland",
+          "main_track": {
+            "num_acc": 69,
+            "num_sub": 196
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "26th",
+          "location": "Prague, Czech Republic",
+          "main_track": {
+            "num_acc": 56,
+            "num_sub": 126
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "25th",
+          "location": "Aalborg, Denmark",
+          "main_track": {
+            "num_acc": 70,
+            "num_sub": 182
           }
         }
       ]
