@@ -23249,6 +23249,69 @@
             "num_acc": 54,
             "num_sub": 198
           }
+        },
+        {
+          "year": 1990,
+          "ordinal": "17th",
+          "location": "Warwick, UK",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 250
+          }
+        },
+        {
+          "year": 1989,
+          "ordinal": "16th",
+          "location": "Stresa, Italy",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 188
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "15th",
+          "location": "Tampere, Finland",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 195
+          }
+        },
+        {
+          "year": 1987,
+          "ordinal": "14th",
+          "location": "Karlsruhe, Germany",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 160
+          }
+        },
+        {
+          "year": 1986,
+          "ordinal": "13th",
+          "location": "Rennes, France",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 140
+          }
+        },
+        {
+          "year": 1985,
+          "ordinal": "12th",
+          "location": "Nafplion, Greece",
+          "main_track": {
+            "num_acc": 49,
+            "num_sub": 205
+          }
+        },
+        {
+          "year": 1984,
+          "ordinal": "11th",
+          "location": "Antwerp, Belgium",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 141
+          }
         }
       ]
     },
