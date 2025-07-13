@@ -148,6 +148,11 @@ First, we need **ALL** new stats in the upcoming years.
 - HPDC 2001
 - Before 1996
 
+## ICALP
+
+- ICALP 1976
+- ICALP 1972
+
 ## ICCAD
 
 - ICCAD 2006

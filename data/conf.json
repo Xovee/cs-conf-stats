@@ -23417,6 +23417,89 @@
           }
         }
       ]
+    },
+    {
+      "series": "CCC",
+      "discipline": "Theory",
+      "metadata": {
+        "series_full_title": "Computational Complexity Conference",
+        "main_discipline": [
+          "Computational Complexity Theory", "Resource-Bounded Computation", "Computational Methods"
+        ],
+        "other_discipline": [
+          "Proof Complexity", "Inapproximability", "Interactive Proof Systems", "Descriptive Complexity", "Complexity-theoretic Cryptography"
+        ],
+        "parent_org": "Computational Complexity Foundation (CCF), in cooperation with the EATCS, ACM, SIGACT",
+        "website": "https://computationalcomplexity.org/",
+        "proceedings": "https://drops.dagstuhl.de/entities/conference/CCC",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "39th",
+          "location": "Ann Arbor, USA",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 105
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "38th",
+          "location": "Warwick, UK",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 74
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "37th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 89
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "36th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 116
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "35th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 101
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "34th",
+          "location": "New Brunswick, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 99
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "33rd",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 74
+          }
+        }
+      ]
     }
   ]
 }
