@@ -23312,6 +23312,80 @@
             "num_acc": 46,
             "num_sub": 141
           }
+        },
+        {
+          "year": 1983,
+          "ordinal": "10th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 178
+          }
+        },
+        {
+          "year": 1982,
+          "ordinal": "9th",
+          "location": "Aarhus, Denmark",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 128
+          }
+        },
+        {
+          "year": 1981,
+          "ordinal": "8th",
+          "location": "Arce, Israel",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 109
+          }
+        },
+        {
+          "year": 1980,
+          "ordinal": "7th",
+          "location": "Noordwijk, The Netherlands",
+          "main_track": {
+            "num_acc": 53,
+            "num_sub": 169
+          }
+        },
+        {
+          "year": 1979,
+          "ordinal": "6th",
+          "location": "Graz, Austria",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 139
+          }
+        },
+        {
+          "year": 1978,
+          "ordinal": "5th",
+          "location": "Udine, Italy",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 90
+          },
+          "note": "Over 90 submissions."
+        },
+        {
+          "year": 1977,
+          "ordinal": "4th",
+          "location": "Turku, Finland",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 100
+          },
+          "note": "Some 100 papers"
+        },
+        {
+          "year": 1974,
+          "ordinal": "2nd",
+          "location": "Saarbrucken, Germany",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 130
+          }
         }
       ]
     },
