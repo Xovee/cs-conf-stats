@@ -23390,35 +23390,6 @@
       ]
     },
     {
-      "series": "Template",
-      "discipline": "",
-      "metadata": {
-        "series_full_title": "Template",
-        "main_discipline": [
-          "Template"
-        ],
-        "other_discipline": [
-          "Template"
-        ],
-        "parent_org": "",
-        "website": "",
-        "proceedings": "",
-        "second_track_name": "",
-        "note": ""
-      },
-      "yearly_data": [
-        {
-          "year": 2024,
-          "ordinal": "12th",
-          "location": "Online, Online",
-          "main_track": {
-            "num_acc": 0,
-            "num_sub": 0
-          }
-        }
-      ]
-    },
-    {
       "series": "CCC",
       "discipline": "Theory",
       "metadata": {
@@ -23497,6 +23468,98 @@
           "main_track": {
             "num_acc": 28,
             "num_sub": 74
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "32nd",
+          "location": "Riga, Latvia",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 98
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "31st",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 91
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "30th",
+          "location": "Portland, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 110
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "29th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 94
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "28th",
+          "location": "Palo Alto, California, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 90
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "27th",
+          "location": "Porto, Portugal",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 119
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "26th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 83
+          }
+        }
+      ]
+    },
+    {
+      "series": "Template",
+      "discipline": "",
+      "metadata": {
+        "series_full_title": "Template",
+        "main_discipline": [
+          "Template"
+        ],
+        "other_discipline": [
+          "Template"
+        ],
+        "parent_org": "",
+        "website": "",
+        "proceedings": "",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "12th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 0,
+            "num_sub": 0
           }
         }
       ]
