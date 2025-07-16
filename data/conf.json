@@ -23532,6 +23532,69 @@
             "num_acc": 30,
             "num_sub": 83
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "25th",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 76
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "24th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 113
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "23rd",
+          "location": "College Park, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 87
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "22nd",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 90
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "21st",
+          "location": "Prague, Czech Republic",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 87
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "20th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 79
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "19th",
+          "location": "Amherst, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 71
+          }
         }
       ]
     },
