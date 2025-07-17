@@ -23595,6 +23595,96 @@
             "num_acc": 30,
             "num_sub": 71
           }
+        },
+        {
+          "year": 2003,
+          "ordinal": "18th",
+          "location": "Aarhus, Denmark",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 65
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "17th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 74
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "16th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 60
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "15th",
+          "location": "Florence, Italy",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 63
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "14th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 70
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "12th",
+          "location": "Ulm, Germany",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 75
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "11th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 57
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "10th",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 56
+          }
+        },
+        {
+          "year": 1987,
+          "ordinal": "2nd",
+          "location": "Ithaca, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 48
+          }
+        },
+        {
+          "year": 1986,
+          "ordinal": "1st",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 59
+          }
         }
       ]
     },
