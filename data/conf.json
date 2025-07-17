@@ -23689,6 +23689,89 @@
       ]
     },
     {
+      "series": "CAV",
+      "discipline": "FMV",
+      "metadata": {
+        "series_full_title": "International Conference on Computer-Aided Verification",
+        "main_discipline": [
+          "Formal Verification", "Model Checking", "Automated Reasoning"
+        ],
+        "other_discipline": [
+          "Program Analysis & Software Verification", "Synthesis", "SAT/SMT Solving", "Decision Procedures", "Cyber-Physical & Embedded Systems", "Formal Methods for AI & Security"
+        ],
+        "parent_org": "CAV Steering Committee",
+        "website": "https://i-cav.org/",
+        "proceedings": "https://link.springer.com/conference/cav",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "36th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 69,
+            "num_sub": 317
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "35th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 261
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "34th",
+          "location": "Haifa, Israel",
+          "main_track": {
+            "num_acc": 51,
+            "num_sub": 209
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "33rd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 79,
+            "num_sub": 290
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "32nd",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 65,
+            "num_sub": 240
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "31st",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 258
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "30th",
+          "location": "Oxford, UK",
+          "main_track": {
+            "num_acc": 65,
+            "num_sub": 215
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
