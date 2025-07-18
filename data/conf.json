@@ -23703,7 +23703,7 @@
         "website": "https://i-cav.org/",
         "proceedings": "https://link.springer.com/conference/cav",
         "second_track_name": "",
-        "note": ""
+        "note": "Short papers and other types of papers including tool papers are not distinguished from full papers in the data."
       },
       "yearly_data": [
         {
@@ -23767,6 +23767,69 @@
           "main_track": {
             "num_acc": 65,
             "num_sub": 215
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "29th",
+          "location": "Heidelberg, Germany",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 191
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "28th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 58,
+            "num_sub": 195
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "27th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 69,
+            "num_sub": 252
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "26th",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 229
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "25th",
+          "location": "Saint Petersburg, Russia",
+          "main_track": {
+            "num_acc": 70,
+            "num_sub": 209
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "24th",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 58,
+            "num_sub": 185
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "23rd",
+          "location": "Snowbird, USA",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 161
           }
         }
       ]
