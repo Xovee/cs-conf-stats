@@ -23831,6 +23831,69 @@
             "num_acc": 55,
             "num_sub": 161
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "22nd",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 51,
+            "num_sub": 145
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "21st",
+          "location": "Grenoble, France",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 169
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "20th",
+          "location": "Princeton, USA",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 131
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "19th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 173
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "18th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 144
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "17th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 155
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "16th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 144
+          }
         }
       ]
     },
