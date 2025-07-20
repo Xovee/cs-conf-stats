@@ -23703,7 +23703,7 @@
         "website": "https://i-cav.org/",
         "proceedings": "https://link.springer.com/conference/cav",
         "second_track_name": "",
-        "note": "Short papers and other types of papers including tool papers are not distinguished from full papers in the data."
+        "note": "Short papers and other types of papers including tool papers are not distinguished from full papers in some years of the conferences."
       },
       "yearly_data": [
         {
@@ -23893,6 +23893,87 @@
           "main_track": {
             "num_acc": 48,
             "num_sub": 144
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "15th",
+          "location": "Boulder, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 87
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "14th",
+          "location": "Copenhagen, Denmark",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 94
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "13th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 106
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "12th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 91
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "11th",
+          "location": "Trento, Italy",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 107
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "10th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 98
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "9th",
+          "location": "Haifa, Israel",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 84
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "8th",
+          "location": "New Brunswick, USA",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 93
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "7th",
+          "location": "Liege, Belgium",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 77
           }
         }
       ]
