@@ -23968,12 +23968,39 @@
           }
         },
         {
-          "year": 1997,
+          "year": 1995,
           "ordinal": "7th",
           "location": "Liege, Belgium",
           "main_track": {
             "num_acc": 31,
             "num_sub": 77
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "6th",
+          "location": "Stanford, California, USA",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 121
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "5th",
+          "location": "Crete, Greece",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 84
+          }
+        },
+        {
+          "year": 1992,
+          "ordinal": "4th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 75
           }
         }
       ]
