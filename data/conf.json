@@ -24006,6 +24006,98 @@
       ]
     },
     {
+      "series": "LICS",
+      "discipline": "FMV",
+      "metadata": {
+        "series_full_title": "ACM/IEEE Symposium on Logic in Computer Science",
+        "main_discipline": [
+          "Logic in Computer Science", "Formal Methods & Verification", "Programming Languages & Type Theory"
+        ],
+        "other_discipline": [
+          "Automata Theory", "Model Checking & Decision Procedures", "Proof Theory & Automated Deduction", "Concurrency & Process Calculi", "Knowledge Representation & Description Logics"
+        ],
+        "parent_org": "ACM SIGLOG, IEEE CompSoc",
+        "website": "https://lics.siglog.org/",
+        "proceedings": "https://dl.acm.org/conference/lics/proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "39th",
+          "location": "Tallinn, Estonia",
+          "main_track": {
+            "num_acc": 72,
+            "num_sub": 236
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "38th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 63,
+            "num_sub": 192
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "37th",
+          "location": "Haifa, Israel",
+          "main_track": {
+            "num_acc": 63,
+            "num_sub": 181
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "36th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 91,
+            "num_sub": 227
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "35th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 69,
+            "num_sub": 174
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "34th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 60,
+            "num_sub": 154
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "33rd",
+          "location": "Oxford, UK",
+          "main_track": {
+            "num_acc": 92,
+            "num_sub": 217
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "32nd",
+          "location": "Reykjavik, Iceland",
+          "main_track": {
+            "num_acc": 89,
+            "num_sub": 224
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

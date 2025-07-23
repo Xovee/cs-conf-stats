@@ -68,6 +68,7 @@ Number of submissions and number of accepted papers for the following conference
 1. IPDPS: IEEE International Parallel and Distributed Processing Symposium. 
 1. ISCA: International Symposium on Computer Architecture.
 1. ISSTA: ACM SIGSOFT International Symposium on Software Testing and Analysis. 
+1. LICS: ACM/IEEE Symposium on Logic in Computer Science. 
 1. MICRO: IEEE/ACM International Symposium on Microarchitecture. 
 1. MobiCom: International Conference on Mobile Computing and Networking.
 1. MobiSys: ACM International Conference on Mobile Systems, Applications, and Services.
