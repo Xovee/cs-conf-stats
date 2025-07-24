@@ -24094,6 +24094,69 @@
             "num_acc": 89,
             "num_sub": 224
           }
+        },
+        {
+          "year": 2016,
+          "ordinal": "31st",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 191
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "30th",
+          "location": "Kyoto, Japan",
+          "main_track": {
+            "num_acc": 61,
+            "num_sub": 176
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "29th",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 212
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "28th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 165
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "27th",
+          "location": "Dubrovnik, Croatia",
+          "main_track": {
+            "num_acc": 60,
+            "num_sub": 171
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "26th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 114
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "25th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 149
+          }
         }
       ]
     },
