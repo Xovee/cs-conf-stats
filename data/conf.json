@@ -24157,6 +24157,69 @@
             "num_acc": 39,
             "num_sub": 149
           }
+        },
+        {
+          "year": 2009,
+          "ordinal": "24th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 130
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "23rd",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 116
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "22nd",
+          "location": "Wroclaw, Poland",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 133
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "21st",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 152
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "20th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 127
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "19th",
+          "location": "Turku, Finland",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 168
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "24th",
+          "location": "Ottawa, Canada",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 122
+          }
         }
       ]
     },
