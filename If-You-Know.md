@@ -275,6 +275,11 @@ First, we need **ALL** new stats in the upcoming years.
 - Before 1999
 - KDD 2019
 
+## LICS
+
+- LICS 2000
+- LICS 1999
+
 ## MICRO
 
 - Before 1991
