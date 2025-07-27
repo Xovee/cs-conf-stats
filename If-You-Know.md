@@ -279,6 +279,12 @@ First, we need **ALL** new stats in the upcoming years.
 
 - LICS 2000
 - LICS 1999
+- LICS 1994
+- LICS 1992
+- LICS 1991
+- LICS 1988
+- LICS 1987
+- LICS 1986
 
 ## MICRO
 

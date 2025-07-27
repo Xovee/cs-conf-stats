@@ -24265,6 +24265,42 @@
             "num_acc": 47,
             "num_sub": 175
           }
+        },
+        {
+          "year": 1995,
+          "ordinal": "10th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 137
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "8th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 151
+          }
+        },
+        {
+          "year": 1990,
+          "ordinal": "5th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 185
+          }
+        },
+        {
+          "year": 1989,
+          "ordinal": "4th",
+          "location": "Pacific Grove, California, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 139
+          }
         }
       ]
     },
