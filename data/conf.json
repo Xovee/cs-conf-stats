@@ -6268,7 +6268,7 @@
       "series": "WWW",
       "discipline": "Web",
       "metadata": {
-        "series_full_title": "The Web Conference",
+        "series_full_title": "The ACM Web Conference",
         "main_discipline": [
           "Web and all related"
         ],
@@ -24300,6 +24300,117 @@
           "main_track": {
             "num_acc": 38,
             "num_sub": 139
+          }
+        }
+      ]
+    },
+    {
+      "series": "TACAS",
+      "discipline": "FMV",
+      "metadata": {
+        "series_full_title": "International Conference on Tools and Algorithms for the Construction and Analysis of Systems",
+        "main_discipline": [
+          "Formal Methods", "Model Checking", "Verification Tools"
+        ],
+        "other_discipline": [
+          "Static Analysis", "Program Verification", "Theorem Proving", "Runtime Verification", "Software Model Checking"
+        ],
+        "parent_org": "TACAS Steering Committee",
+        "website": "https://tacas.info/index.php",
+        "proceedings": "https://link.springer.com/conference/tacas",
+        "second_track_name": "Regular Tool Paper Track",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "31st",
+          "location": "Hamilton, Canada",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 103
+          },
+          "second_track": {
+            "num_acc": 11,
+            "num_sub": 29
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "30th",
+          "location": "Luxembourg City, Luxembourg",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 114
+          },
+          "second_track": {
+            "num_acc": 11,
+            "num_sub": 28
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "29th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 119
+          },
+          "second_track": {
+            "num_acc": 11,
+            "num_sub": 34
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "28th",
+          "location": "Munich, Germany",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 112
+          },
+          "second_track": {
+            "num_acc": 12,
+            "num_sub": 33
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "27th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 90
+          },
+          "second_track": {
+            "num_acc": 7,
+            "num_sub": 29
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "26th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 111
+          },
+          "second_track": {
+            "num_acc": 5,
+            "num_sub": 19
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "25th",
+          "location": "Prague, Czech Republic",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 119
+          },
+          "second_track": {
+            "num_acc": 11,
+            "num_sub": 24
           }
         }
       ]

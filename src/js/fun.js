@@ -342,6 +342,7 @@ fetch('/data/conf.json')
       {name: 'SODA', value: 1990},
       {name: 'SOSP', value: 1965},
       {name: 'STOC', value: 1969},
+      {name: 'TACAS', value: 1995},
       {name: 'WWW', value: 1994},
       {name: 'UAI', value: 1985},
       {name: 'UbiComp', value: 1999},
