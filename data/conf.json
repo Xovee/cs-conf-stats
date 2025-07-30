@@ -24412,6 +24412,91 @@
             "num_acc": 11,
             "num_sub": 24
           }
+        },
+        {
+          "year": 2018,
+          "ordinal": "24th",
+          "location": "Thessaloniki, Greece",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 115
+          },
+          "second_track": {
+            "num_acc": 6,
+            "num_sub": 26
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "23rd",
+          "location": "Uppsala, Sweden",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 167
+          },
+          "note": "Research & Tool papers."
+        },
+        {
+          "year": 2016,
+          "ordinal": "22nd",
+          "location": "Eindhoven, The Netherlands",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 157
+          },
+          "note": "Research & Tool papers."
+        },
+        {
+          "year": 2015,
+          "ordinal": "21st",
+          "location": "London, UK",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 105
+          },
+          "second_track": {
+            "num_acc": 7,
+            "num_sub": 31
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "20th",
+          "location": "Grenoble, France",
+          "main_track": {
+            "num_acc": 26,
+            "num_sub": 117
+          },
+          "second_track": {
+            "num_acc": 6,
+            "num_sub": 18
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "19th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 130
+          },
+          "second_track": {
+            "num_acc": 3,
+            "num_sub": 15
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "18th",
+          "location": "Tallinn, Estonia",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 108
+          },
+          "second_track": {
+            "num_acc": 3,
+            "num_sub": 11
+          }
         }
       ]
     },
