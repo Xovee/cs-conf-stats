@@ -24511,6 +24511,97 @@
             "num_acc": 3,
             "num_sub": 11
           }
+        },
+        {
+          "year": 2011,
+          "ordinal": "17th",
+          "location": "Saarbrucken, Germany",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 80
+          },
+          "second_track": {
+            "num_acc": 10,
+            "num_sub": 24
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "16th",
+          "location": "Paphos, Cyprus",
+          "main_track": {
+            "num_acc": 24,
+            "num_sub": 110
+          },
+          "second_track": {
+            "num_acc": 9,
+            "num_sub": 24
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "15th",
+          "location": "York, UK",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 109
+          },
+          "second_track": {
+            "num_acc": 8,
+            "num_sub": 22
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "14th",
+          "location": "Budapest, Hungary",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 121
+          },
+          "second_track": {
+            "num_acc": 7,
+            "num_sub": 19
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "13th",
+          "location": "Braga, Portugal",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 170
+          },
+          "second_track": {
+            "num_acc": 9,
+            "num_sub": 34
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "12th",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 118
+          },
+          "second_track": {
+            "num_acc": 4,
+            "num_sub": 9
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "11th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 141
+          },
+          "second_track": {
+            "num_acc": 8,
+            "num_sub": 20
+          }
         }
       ]
     },
