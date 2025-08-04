@@ -4573,6 +4573,20 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "31th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 552,
+            "num_sub": 2955
+          },
+          "second_track": {
+            "num_acc": 155,
+            "num_sub": 816
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "30th",
           "location": "Barcelona, Spain",

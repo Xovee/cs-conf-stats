@@ -1,5 +1,6 @@
 # TODO List
 
+- [x] Aug 4, 2025. Add conference pie. Finished Aug 4, 2025. 
 - [x] Apr 15, 2025. Add ALL select options. Finished Apr 15, 2025.
 - [x] Apr 2, 2025. Replace Google Analytics with Cloudflare Web Analytics for privacy-first and GDPR-compilant. Finished Apr 2, 2025.
 - [x] Feb 25, 2025. Longest and youngest conferences. Finished Feb 25, 2025. 

@@ -236,6 +236,7 @@ fetch('/data/conf.json')
     const sortedSingleConfs = singleConfs.sort((a, b) => a.rate - b.rate).slice(0, 20);
 
     renderDiscipline(disciplineCounts);
+    renderConferencePapers(seriesAccRates);
 
     // renderWorldMap(countryCount);
 
@@ -406,6 +407,70 @@ function renderDiscipline(disciplineCounts) {
 
   window.addEventListener('resize', function() {
     disciplineChart.resize();
+  });
+}
+
+function renderConferencePapers(seriesAccRates) {
+  const sortedConferenceData = Object.entries(seriesAccRates)
+    .filter(([key]) => key !== 'Template')
+    .map(([key, value]) => ({ name: key, value: value.totalAcc }))
+    .sort((a, b) => b.value - a.value)
+
+  const conferenceChart = echarts.init(document.getElementById('viz-conference-paper'));
+  const chartData = sortedConferenceData.map((item, index) => {
+    if (index < 40) {
+      return item;
+    } else {
+      return {
+        ...item,
+        label: { show: false },
+        labelLine: { show: false }
+      }
+    };
+  })
+
+  const conferenceOption = {
+    tooltip: {
+      trigger: 'item',
+      formatter: '<b>{b}</b> {c} Papers ({d}%)'
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        saveAsImage: {
+          show: true
+        }
+      }
+    },
+    series: [
+      {
+        name: 'Conference',
+        type: 'pie',
+        clockwise: false,
+        radius: '80%',
+        data: chartData,
+        label: {
+          fontSize: 16,
+          alignTo: 'labelLine'
+        },
+        itemStyle: {
+          borderColor: '#111'
+        },
+        emphasis: {
+          itemStyle: {
+            shadowBlur: 10,
+            shadowOffsetX: 0,
+            shadowColor: 'rgba(0, 0, 0, 0.5)'
+          }
+        }
+      }
+    ]
+  };
+
+  conferenceChart.setOption(conferenceOption);
+
+  window.addEventListener('resize', function() {
+    conferenceChart.resize();
   });
 }
 
