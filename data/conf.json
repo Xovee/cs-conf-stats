@@ -24333,7 +24333,7 @@
         "website": "https://tacas.info/index.php",
         "proceedings": "https://link.springer.com/conference/tacas",
         "second_track_name": "Regular Tool Paper Track",
-        "note": ""
+        "note": "Wow! This conference has complete data! 🏆"
       },
       "yearly_data": [
         {
@@ -24602,6 +24602,113 @@
             "num_acc": 8,
             "num_sub": 20
           }
+        },
+        {
+          "year": 2004,
+          "ordinal": "10th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 145
+          },
+          "second_track": {
+            "num_acc": 6,
+            "num_sub": 17
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "9th",
+          "location": "Warsaw, Poland",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 140
+          },
+          "second_track": {
+            "num_acc": 6,
+            "num_sub": 20
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "8th",
+          "location": "Grenoble, France",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 95
+          },
+          "second_track": {
+            "num_acc": 4,
+            "num_sub": 9
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "7th",
+          "location": "Genoa, Italy",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 125
+          },
+          "second_track": {
+            "num_acc": 3,
+            "num_sub": 9
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "6th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 107
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "5th",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 82
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "4th",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 78
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "3rd",
+          "location": "Enschede, The Netherlands",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 54
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "2nd",
+          "location": "Passau, Germany",
+          "main_track": {
+            "num_acc": 19,
+            "num_sub": 47
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "1st",
+          "location": "Aarhus, Denmark",
+          "main_track": {
+            "num_acc": 12,
+            "num_sub": 32
+          },
+          "note": "Though the proceedings have 12 papers, there is 23 papers presented."
         }
       ]
     },
