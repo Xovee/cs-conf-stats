@@ -7818,6 +7818,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "22nd",
+          "location": "Philadelphia, Pennsylvania, USA",
+          "main_track": {
+            "num_acc": 83,
+            "num_sub": 666
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "21st",
           "location": "Santa Clara, California, USA",
