@@ -7820,10 +7820,10 @@
         {
           "year": 2025,
           "ordinal": "22nd",
-          "location": "Philadelphia, Pennsylvania, USA",
+          "location": "Philadelphia, USA",
           "main_track": {
             "num_acc": 83,
-            "num_sub": 666
+            "num_sub": 565
           }
         },
         {
