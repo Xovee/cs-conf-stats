@@ -24713,6 +24713,99 @@
       ]
     },
     {
+      "series": "FM",
+      "discipline": "FMV",
+      "metadata": {
+        "series_full_title": "International Symposium on Formal Methods",
+        "main_discipline": [
+          "Formal Verification", "Model Checking", "Theorem Proving"
+        ],
+        "other_discipline": [
+          "Specification Languages", "SMT/SAT Solving", "Runtime Verification", "Abstract Interpretation", "Safety-Critical & Cyber-Physical Systems"
+        ],
+        "parent_org": "Formal Methods Europe",
+        "website": "https://www.fmeurope.org/symposia/",
+        "proceedings": "https://link.springer.com/conference/fm",
+        "second_track_name": "Long Tool Paper Track",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "26th",
+          "location": "Milan, Italy",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 143
+          },
+          "second_track": {
+            "num_acc": 8,
+            "num_sub": 21
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "25th",
+          "location": "Lubeck, Germany",
+          "main_track": {
+            "num_acc": 18,
+            "num_sub": 75
+          },
+          "second_track": {
+            "num_acc": 5,
+            "num_sub": 8
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "24th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 131
+          },
+          "note": "Include 2 short tool papers."
+        },
+        {
+          "year": 2019,
+          "ordinal": "23rd",
+          "location": "Porto, Portugal",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 129
+          },
+          "note": "Include 2 short tool papers."
+        },
+        {
+          "year": 2018,
+          "ordinal": "22nd",
+          "location": "Oxford, UK",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 110
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "21st",
+          "location": "Limassol, Cyprus",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 162
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "20th",
+          "location": "Oslo, Norway",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 124
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
