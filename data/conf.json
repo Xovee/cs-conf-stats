@@ -24811,6 +24811,71 @@
             "num_acc": 32,
             "num_sub": 124
           }
+        },
+        {
+          "year": 2014,
+          "ordinal": "19th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 150
+          },
+          "note": "Over 150, including 7 for industry."
+        },
+        {
+          "year": 2012,
+          "ordinal": "18th",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 132
+          },
+          "note": "Including 7 tool papers."
+        },
+        {
+          "year": 2011,
+          "ordinal": "17th",
+          "location": "Limerick, Ireland",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 101
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "16th",
+          "location": "Eindhoven, The Netherlands",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 139
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "15th",
+          "location": "Turku, Finland",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 106
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "14th",
+          "location": "Hamilton, Canada",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 145
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "13th",
+          "location": "Newcastle upon Tyne, UK",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 130
+          }
         }
       ]
     },
