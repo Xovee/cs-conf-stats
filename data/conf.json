@@ -24980,6 +24980,101 @@
           }
         }
       ]
+    },
+    {
+      "series": "SIGGRAPH",
+      "discipline": "Graphics",
+      "metadata": {
+        "series_full_title": "ACM SIGGRAPH Conference",
+        "main_discipline": [
+          "Computer Graphics", "Interactive Techniques", "Visualization"
+        ],
+        "other_discipline": [
+          "Virtual Reality", "Augmented Reality", "Computer Vision", "Animation", "Rendering", "HCI"
+        ],
+        "parent_org": "ACM SIGGRAPH",
+        "website": "https://www.siggraph.org/siggraph-events/conferences/",
+        "proceedings": "https://dl.acm.org/conference/siggraph/proceedings",
+        "second_track_name": "Journal-only Track",
+        "note": "The main track is dual-track, the main track submissions could be accepted to the Journal track. "
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "51st",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 134,
+            "num_sub": 652
+          },
+          "second_track": {
+            "num_acc": 118,
+            "num_sub": 192
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "50th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 111,
+            "num_sub": 371
+          },
+          "second_track": {
+            "num_acc": 103,
+            "num_sub": 240
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "49th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 353
+          },
+          "second_track": {
+            "num_acc": 116,
+            "num_sub": 257
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "48th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 149,
+            "num_sub": 449
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "47th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 124,
+            "num_sub": 443
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "46th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 111,
+            "num_sub": 385
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "45th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 128,
+            "num_sub": 464
+          }
+        }
+      ]
     }
   ]
 }
