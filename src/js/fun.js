@@ -28,6 +28,8 @@ function countryToCode(countryName) {
     'Finland': 'FI',
     'Portugal': 'PT',
     'United States': 'US',
+    'Denmark': 'DK',
+    'Czech Republic': "CZ"
   };
 
   return countries[countryName] || 'Unknown';

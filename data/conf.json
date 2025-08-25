@@ -24953,35 +24953,6 @@
       ]
     },
     {
-      "series": "Template",
-      "discipline": "",
-      "metadata": {
-        "series_full_title": "Template",
-        "main_discipline": [
-          "Template"
-        ],
-        "other_discipline": [
-          "Template"
-        ],
-        "parent_org": "",
-        "website": "",
-        "proceedings": "",
-        "second_track_name": "",
-        "note": ""
-      },
-      "yearly_data": [
-        {
-          "year": 2024,
-          "ordinal": "12th",
-          "location": "Online, Online",
-          "main_track": {
-            "num_acc": 0,
-            "num_sub": 0
-          }
-        }
-      ]
-    },
-    {
       "series": "SIGGRAPH",
       "discipline": "Graphics",
       "metadata": {
@@ -25072,6 +25043,127 @@
           "main_track": {
             "num_acc": 128,
             "num_sub": 464
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "44th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 126,
+            "num_sub": 439
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "43rd",
+          "location": "Anaheim, California, USA",
+          "main_track": {
+            "num_acc": 119,
+            "num_sub": 467
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "42nd",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 118,
+            "num_sub": 462
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "41st",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 127,
+            "num_sub": 505
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "40th",
+          "location": "Anaheim, California, USA",
+          "main_track": {
+            "num_acc": 115,
+            "num_sub": 480
+          },
+          "note": "Source: https://blog.siggraph.org/2013/04/siggraph-2013-technical-papers-preview.html/"
+        },
+        {
+          "year": 2012,
+          "ordinal": "39th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 94,
+            "num_sub": 412
+          },
+          "note": "Source: https://www.animationmagazine.net/2012/05/siggraph-announces-papers-and-courses-highlights/"
+        },
+        {
+          "year": 2011,
+          "ordinal": "38th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 82,
+            "num_sub": 432
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "37th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 103,
+            "num_sub": 390
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "36th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 439
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "35th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 90,
+            "num_sub": 518
+          }
+        }
+      ]
+    },
+    {
+      "series": "Template",
+      "discipline": "",
+      "metadata": {
+        "series_full_title": "Template",
+        "main_discipline": [
+          "Template"
+        ],
+        "other_discipline": [
+          "Template"
+        ],
+        "parent_org": "",
+        "website": "",
+        "proceedings": "",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "12th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 0,
+            "num_sub": 0
           }
         }
       ]
