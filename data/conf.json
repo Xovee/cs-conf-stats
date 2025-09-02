@@ -25199,6 +25199,69 @@
             "num_acc": 65,
             "num_sub": 300
           }
+        },
+        {
+          "year": 2000,
+          "ordinal": "27th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 304
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "26th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 320
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "25th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 303
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "24th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 265
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "23rd",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 247
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "22nd",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 56,
+            "num_sub": 257
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "21st",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 242
+          }
         }
       ]
     },
