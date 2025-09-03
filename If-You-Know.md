@@ -386,6 +386,15 @@ First, we need **ALL** new stats in the upcoming years.
 
 - Before 1994
 
+## SIGGRAPH
+
+- SIGGRAPH 1986
+- SIGGRAPH 1983
+- SIGGRAPH 1977
+- SIGGRAPH 1976
+- SIGGRAPH 1975
+- SIGGRAPH 1974
+
 ## SIGMETRICS
 
 - SIGMETRICS 1994
