@@ -24969,7 +24969,7 @@
       "series": "SIGGRAPH",
       "discipline": "Graphics",
       "metadata": {
-        "series_full_title": "ACM SIGGRAPH Conference",
+        "series_full_title": "ACM SIGGRAPH Conference (International Conference on Computer Graphics and Interactive Techniques)",
         "main_discipline": [
           "Computer Graphics", "Interactive Techniques", "Visualization"
         ],
@@ -25400,6 +25400,92 @@
           "main_track": {
             "num_acc": 64,
             "num_sub": 120
+          }
+        }
+      ]
+    },
+    {
+      "series": "SIGGRAPH Asia",
+      "discipline": "Graphics",
+      "metadata": {
+        "series_full_title": "ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia",
+        "main_discipline": [
+          "Computer Graphics", "Interactive Techniques", "Visualization"
+        ],
+        "other_discipline": [
+          "Virtual Reality", "Augmented Reality", "Simulation", "Digital Art & Animation", "HCI", "AI & ML in Graphics"
+        ],
+        "parent_org": "ACM SIGGRAPH",
+        "website": "https://asia.siggraph.org/",
+        "proceedings": "https://dl.acm.org/conference/siggraph-asia/proceedings",
+        "second_track_name": "",
+        "note": "Upon submission, authors can indicate their papers to be a dual-track submission or only to be considered for the journal track. Since I didn't find the numbers of submissions for the two tracks, the stats are aggregated for the two tracks. This mechanism seems to be started in 2022"
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "17th",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 265,
+            "num_sub": 899
+          },
+          "note": "119 journal and 146 conf papers."
+        },
+        {
+          "year": 2023,
+          "ordinal": "16th",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "num_acc": 224,
+            "num_sub": 665
+          },
+          "note": "102 journal and 122 conf papers."
+        },
+        {
+          "year": 2022,
+          "ordinal": "15th",
+          "location": "Daegu, Korea",
+          "main_track": {
+            "num_acc": 150,
+            "num_sub": 407
+          },
+          "note": "97 journal and 53 conf papers."
+        },
+        {
+          "year": 2021,
+          "ordinal": "14th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 92,
+            "num_sub": 270
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "13th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 109,
+            "num_sub": 305
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "12th",
+          "location": "Brisbane, Australia",
+          "main_track": {
+            "num_acc": 93,
+            "num_sub": 309
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "11th",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 106,
+            "num_sub": 353
           }
         }
       ]

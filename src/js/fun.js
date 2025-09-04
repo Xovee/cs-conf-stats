@@ -342,6 +342,7 @@ fetch('/data/conf.json')
       {name: "SenSys", value: 2003},
       {name: "SIGCOMM", value: 1969},
       {name: "SIGGRAPH", value: 1974},
+      {name: "SIGGRAPH Asia", value: 2008},
       {name: "SIGIR", value: 1971},
       {name: 'SIGMETRICS', value: 1973},
       {name: 'SODA', value: 1990},
