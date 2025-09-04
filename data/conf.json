@@ -5655,6 +5655,19 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "48th",
+          "location": "Padova, Italy",
+          "main_track": {
+            "num_acc": 239,
+            "num_sub": 1071
+          },
+          "second_track": {
+            "num_acc": 107,
+            "num_sub": 388
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "47th",
           "location": "Washington DC, USA",
