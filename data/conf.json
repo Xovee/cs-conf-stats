@@ -25413,7 +25413,7 @@
           "Computer Graphics", "Interactive Techniques", "Visualization"
         ],
         "other_discipline": [
-          "Virtual Reality", "Augmented Reality", "Simulation", "Digital Art & Animation", "HCI", "AI & ML in Graphics"
+          "Virtual Reality", "Augmented Reality", "Simulation", "Digital Art & Animation", "AI & ML in Graphics"
         ],
         "parent_org": "ACM SIGGRAPH",
         "website": "https://asia.siggraph.org/",
@@ -25486,6 +25486,90 @@
           "main_track": {
             "num_acc": 106,
             "num_sub": 353
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "10th",
+          "location": "Bangkok, Thailand",
+          "main_track": {
+            "num_acc": 75,
+            "num_sub": 312
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "9th",
+          "location": "Macao, China",
+          "main_track": {
+            "num_acc": 89,
+            "num_sub": 300
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "8th",
+          "location": "Kobe, Japan",
+          "main_track": {
+            "num_acc": 84,
+            "num_sub": 302
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "7th",
+          "location": "Shenzhen, China",
+          "main_track": {
+            "num_acc": 69,
+            "num_sub": 352
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "5th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 82,
+            "num_sub": 326
+          },
+          "note": "5 papers were transferred to the ACM TOG for revisions."
+        },
+        {
+          "year": 2011,
+          "ordinal": "4th",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 72,
+            "num_sub": 330
+          },
+          "note": "4 papers were transferred to the ACM TOG for revisions."
+        },
+        {
+          "year": 2010,
+          "ordinal": "3rd",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 49,
+            "num_sub": 274
+          },
+          "note": "14 papers were transferred to the ACM TOG for revisions."
+        },
+        {
+          "year": 2009,
+          "ordinal": "2nd",
+          "location": "Yokohama, Japan",
+          "main_track": {
+            "num_acc": 70,
+            "num_sub": 275
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "1st",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 320
           }
         }
       ]
