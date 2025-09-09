@@ -139,6 +139,13 @@ First, we need **ALL** new stats in the upcoming years.
 - Eurocrypt 1991-1992
 - Before 1990
 
+## Eurographics 
+
+- Eurographics 2020
+- Eurographics 2019
+- Eurographics 2018
+- Eurographics 2017
+
 ## FAST
 
 - FAST 2008

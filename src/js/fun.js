@@ -293,6 +293,7 @@ fetch('/data/conf.json')
       {name: "EMNLP", value: 1996},
       {name: "EMSOFT", value: 2001},
       {name: "Eurocrypt", value: 1982},
+      {name: "Eurographics", value: 1980},
       {name: "EuroSys", value: 2006},
       {name: "FAST", value: 2002},
       {name: "FM", value: 1987},

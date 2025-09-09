@@ -25575,6 +25575,89 @@
       ]
     },
     {
+      "series": "Eurographics",
+      "discipline": "Graphics",
+      "metadata": {
+        "series_full_title": "Annual Conference of the European Association for Computer Graphics",
+        "main_discipline": [
+          "Computer Graphics", "Visualization", "Rendering & Geometric Processing"
+        ],
+        "other_discipline": [
+          "Animation & VR", "Computer Games"
+        ],
+        "parent_org": "European Association for Computer Graphics",
+        "website": "https://www.eg.org/wp/",
+        "proceedings": "https://diglib.eg.org/communities/048d84e3-dd99-462a-9fe6-110c3ba36c91",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "46th",
+          "location": "London, UK",
+          "main_track": {
+            "num_acc": 75,
+            "num_sub": 205
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "45th",
+          "location": "Limassol, Cyprus",
+          "main_track": {
+            "num_acc": 53,
+            "num_sub": 161
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "44th",
+          "location": "Saarbrucken, Germany",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 111
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "43rd",
+          "location": "Reims, France",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 119
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "42nd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 129
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "37th",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 161
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "36th",
+          "location": "Zurich, Switzerland",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 207
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

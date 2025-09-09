@@ -42,6 +42,7 @@ Number of submissions and number of accepted papers for the following conference
 1. EMNLP: Conference on Empirical Methods in Natural Language Processing.
 1. EMSOFT: International Conference on Embedded Software.
 1. Eurocrypt: International Conference on the Theory and Applications of Cryptographic Techniques.
+1. Eurographics: Annual Conference of the European Association for Computer Graphics. 
 1. EuroSys: European Conference on Computer Systems.
 1. FAST: USENIX Conference on File and Storage Technologies.
 1. FM: International Symposium on Formal Methods. 
