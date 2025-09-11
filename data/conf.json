@@ -25654,6 +25654,42 @@
             "num_acc": 55,
             "num_sub": 207
           }
+        },
+        {
+          "year": 2009,
+          "ordinal": "30th",
+          "location": "Munich, Germany",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 243
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "29th",
+          "location": "Crete, Greece",
+          "main_track": {
+            "num_acc": 58,
+            "num_sub": 300
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "19th",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 101
+          }
+        },
+        {
+          "year": 1989,
+          "ordinal": "10th",
+          "location": "Hamburg, Germany",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 120
+          }
         }
       ]
     },

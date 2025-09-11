@@ -145,6 +145,37 @@ First, we need **ALL** new stats in the upcoming years.
 - Eurographics 2019
 - Eurographics 2018
 - Eurographics 2017
+- Eurographics 2014
+- Eurographics 2013
+- Eurographics 2012
+- Eurographics 2011
+- Eurographics 2010
+- Eurographics 2007
+- Eurographics 2006
+- Eurographics 2005
+- Eurographics 2004
+- Eurographics 2003
+- Eurographics 2002
+- Eurographics 2001
+- Eurographics 2000
+- Eurographics 1999
+- Eurographics 1997
+- Eurographics 1996
+- Eurographics 1995
+- Eurographics 1994
+- Eurographics 1993
+- Eurographics 1992
+- Eurographics 1991
+- Eurographics 1990
+- Eurographics 1988
+- Eurographics 1987
+- Eurographics 1986
+- Eurographics 1985
+- Eurographics 1984
+- Eurographics 1983
+- Eurographics 1982
+- Eurographics 1981
+- Eurographics 1980
 
 ## FAST
 
