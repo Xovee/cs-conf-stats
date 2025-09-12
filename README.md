@@ -60,6 +60,7 @@ Number of submissions and number of accepted papers for the following conference
 1. ICME: IEEE International Conference on Multimedia and Expo.
 1. ICML: International Conference on Machine Learning.
 1. ICMR: ACM International Conference on Multimedia Retrieval.
+1. ICRA: IEEE International Conference on Robotics and Automation. 
 1. ICS: International Conference on Supercomputing.
 1. ICSE: International Conference on Software Engineering.
 1. ICWSM: International AAAI Conference on Web and Social Media.

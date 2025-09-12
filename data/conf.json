@@ -25694,6 +25694,100 @@
       ]
     },
     {
+      "series": "ICRA",
+      "discipline": "Robotics",
+      "metadata": {
+        "series_full_title": "IEEE International Conference on Robotics and Automation",
+        "main_discipline": [
+          "Autonomous Systems & Agents", "Computer Vision for Robotics", "Human-Robot Interaction"
+        ],
+        "other_discipline": [
+          "Autonomy for Mobility & Manipulation", "Cognitive Robotics", "Field Robotics", "Human-Centered Robotics & Automation", "Humanoids & Animaloids", "Localization & Mapping", "Logistics", "Manipulation and Grasping", "Manufacturing, Process & Service Automation", "Dual Arm Manipulation", "Mechanisms, Design, and Controal", "Failure Detection & Recovery", "Medical & Rehabilitation", "Micro, Nano, & Biomimetic Systems", "Multiple & Distributed Systems", "Planning & Simulation", "Theoretical Foundations", "Vision & Sensor-Based Control", "Omnidirectional Vision", "Sensor Fusion", "Visual Tracking", "Visual Perception & Learning"
+        ],
+        "parent_org": "IEEE RAS",
+        "website": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000639/all-proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "42nd",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 1606,
+            "num_sub": 4153
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "41st",
+          "location": "Yokohama, Japan",
+          "main_track": {
+            "num_acc": 1760,
+            "num_sub": 3937
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "40th",
+          "location": "London, UK",
+          "main_track": {
+            "num_acc": 1345,
+            "num_sub": 3125
+          },
+          "note": "Source: https://staff.aist.go.jp/k.koide/acceptance-rate.html"
+        },
+        {
+          "year": 2022,
+          "ordinal": "39th",
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 1428,
+            "num_sub": 3263
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "38th",
+          "location": "Xi'an, China",
+          "main_track": {
+            "num_acc": 1690,
+            "num_sub": 3877
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "37th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 1277,
+            "num_sub": 2902
+          },
+          "note": "Source: https://ewh.ieee.org/soc/ras/conf/fullysponsored/icra/ICRA2020/www.icra2020.org/images/Press/Press_Kit_En.pdf"
+        },
+        {
+          "year": 2019,
+          "ordinal": "36th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 1317,
+            "num_sub": 2916
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "35th",
+          "location": "Brisbane, Australia",
+          "main_track": {
+            "num_acc": 1056,
+            "num_sub": 2586
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

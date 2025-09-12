@@ -311,6 +311,7 @@ fetch('/data/conf.json')
       {name: "ICME", value: 1994},
       {name: "ICML", value: 1980},
       {name: "ICMR", value: 2011},
+      {name: "ICRA", value: 1984},
       {name: "ICS", value: 1987},
       {name: "ICSE", value: 1975},
       {name: "ICWSM", value: 2007},
