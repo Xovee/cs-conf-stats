@@ -25784,6 +25784,93 @@
             "num_acc": 1056,
             "num_sub": 2586
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "34th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 939,
+            "num_sub": 2289
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "33rd",
+          "location": "Stockholm, Sweden",
+          "main_track": {
+            "num_acc": 816,
+            "num_sub": 2358
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "32nd",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 940,
+            "num_sub": 2280
+          },
+          "note": "Roughly 2280 submitted and 940 accepted. Source: ICRA 2018 Program Chair Report. ~41% acceptance rate."
+        },
+        {
+          "year": 2014,
+          "ordinal": "31st",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 1015,
+            "num_sub": 2090
+          },
+          "note": "Roughly estimated, source: ICRA 2018 Program Chair Report."
+        },
+        {
+          "year": 2013,
+          "ordinal": "30th",
+          "location": "Karlsruhe, Germany",
+          "main_track": {
+            "num_acc": 870,
+            "num_sub": 2270
+          },
+          "note": "Roughly estimated, source: ICRA 2018 Program Chair Report."
+        },
+        {
+          "year": 2012,
+          "ordinal": "29th",
+          "location": "Saint Paul, Minnesota, USA",
+          "main_track": {
+            "num_acc": 820,
+            "num_sub": 2020
+          },
+          "note": "Roughly estimated, source: ICRA 2018 Program Chair Report."
+        },
+        {
+          "year": 2011,
+          "ordinal": "28th",
+          "location": "Shanghai, China",
+          "main_track": {
+            "num_acc": 1025,
+            "num_sub": 1980
+          },
+          "note": "Roughly estimated, source: ICRA 2018 Program Chair Report."
+        },
+        {
+          "year": 2010,
+          "ordinal": "27th",
+          "location": "Anchorage, USA",
+          "main_track": {
+            "num_acc": 853,
+            "num_sub": 2020
+          },
+          "note": "Roughly estimated, source: ICRA 2018 Program Chair Report."
+        },
+        {
+          "year": 1998,
+          "ordinal": "15th",
+          "location": "Leuven, Belgium",
+          "main_track": {
+            "num_acc": 596,
+            "num_sub": 963
+          }
         }
       ]
     },
