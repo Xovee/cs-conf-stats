@@ -244,6 +244,12 @@ First, we need **ALL** new stats in the upcoming years.
 - ICML 1989
 - Before 1988
 
+## ICRA
+
+- ICRA 2009
+- ICRA 2006
+- ICRA 2005
+
 ## ICS
 
 - ICS 2013

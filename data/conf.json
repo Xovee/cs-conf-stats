@@ -25864,6 +25864,80 @@
           "note": "Roughly estimated, source: ICRA 2018 Program Chair Report."
         },
         {
+          "year": 2008,
+          "ordinal": "25th",
+          "location": "Pasadena, California, USA",
+          "main_track": {
+            "num_acc": 661,
+            "num_sub": 1478
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "24th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 787,
+            "num_sub": 1737
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "21st",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 858,
+            "num_sub": 1457
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "20th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 714,
+            "num_sub": 1176
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "19th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 689,
+            "num_sub": 1172
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "18th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 678,
+            "num_sub": 1150
+          },
+          "note": "Over 1150"
+        },
+        {
+          "year": 2000,
+          "ordinal": "17th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 641,
+            "num_sub": 1100
+          },
+          "note": "Near 1,000 submissions."
+        },
+        {
+          "year": 1999,
+          "ordinal": "16th",
+          "location": "Detroit, USA",
+          "main_track": {
+            "num_acc": 521,
+            "num_sub": 835
+          }
+        },
+        {
           "year": 1998,
           "ordinal": "15th",
           "location": "Leuven, Belgium",
