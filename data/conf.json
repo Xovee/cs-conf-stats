@@ -809,7 +809,7 @@
         {
           "year": 2023,
           "ordinal": "32nd",
-          "location": "Macao, China",
+          "location": "Macau, China",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 643,
@@ -849,7 +849,7 @@
         {
           "year": 2019,
           "ordinal": "28th",
-          "location": "Macao, China",
+          "location": "Macau, China",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 850,
@@ -25500,7 +25500,7 @@
         {
           "year": 2016,
           "ordinal": "9th",
-          "location": "Macao, China",
+          "location": "Macau, China",
           "main_track": {
             "num_acc": 89,
             "num_sub": 300
@@ -25983,6 +25983,91 @@
             "num_sub": 486
           },
           "note": "About 70% acceptance rate."
+        }
+      ]
+    },
+    {
+      "series": "IROS",
+      "discipline": "Robotics",
+      "metadata": {
+        "series_full_title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+        "main_discipline": [
+          "Autonomous Robots", "Autonomous Systems", "Robot Perception & Sensing", "Control, Planning & Motion"
+        ],
+        "other_discipline": [
+          "Human-Robot Interaction", "Soft/bio-inspired Robotics", "Multi-Robot", "Distributed Systems", "ML & AI in Robotics", "Agriculture/Field/Mobile Outdoor Robots"
+        ],
+        "parent_org": "IEEE RAS, Robotics Society of Japan",
+        "website": "https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000393/all-proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "37th",
+          "location": "Abu Dhabi, UAE",
+          "main_track": {
+            "num_acc": 1600,
+            "num_sub": 3400
+          },
+          "note": "Around 3400 submitted, 1600 accepted."
+        },
+        {
+          "year": 2023,
+          "ordinal": "36th",
+          "location": "Detroit, USA",
+          "main_track": {
+            "num_acc": 1196,
+            "num_sub": 2760
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "35th",
+          "location": "Kyoto, Japan",
+          "main_track": {
+            "num_acc": 1716,
+            "num_sub": 3579
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "34th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 1301,
+            "num_sub": 2786
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "33rd",
+          "location": "Las Vegas, USA",
+          "main_track": {
+            "num_acc": 1420,
+            "num_sub": 2996
+          },
+          "note": "Source: https://www.jstage.jst.go.jp/article/jrsj/39/3/39_39_238/_pdf/-char/ja"
+        },
+        {
+          "year": 2019,
+          "ordinal": "32nd",
+          "location": "Macau, China",
+          "main_track": {
+            "num_acc": 1108,
+            "num_sub": 2494
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "31st",
+          "location": "Madrid, Spain",
+          "main_track": {
+            "num_acc": 1254,
+            "num_sub": 2700
+          }
         }
       ]
     },

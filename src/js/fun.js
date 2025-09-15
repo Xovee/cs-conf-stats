@@ -320,6 +320,7 @@ fetch('/data/conf.json')
       {name: "IMC", value: 2001},
       {name: "INFOCOM", value: 1982},
       {name: "IPDPS", value: 1987},
+      {name: "IROS", value: 1988},
       {name: "ISCA", value: 1973},
       {name: "ISSTA", value: 1993},
       {name: "KDD", value: 1994},
