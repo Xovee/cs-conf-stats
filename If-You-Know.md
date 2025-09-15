@@ -248,7 +248,16 @@ First, we need **ALL** new stats in the upcoming years.
 
 - ICRA 2009
 - ICRA 2006
-- ICRA 2005
+- ICRA 1995
+- ICRA 1994
+- ICRA 1993
+- ICRA 1992
+- ICRA 1991
+- ICRA 1990
+- ICRA 1989
+- ICRA 1988
+- ICRA 1985
+- ICRA 1984
 
 ## ICS
 

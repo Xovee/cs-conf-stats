@@ -25945,6 +25945,44 @@
             "num_acc": 596,
             "num_sub": 963
           }
+        },
+        {
+          "year": 1997,
+          "ordinal": "14th",
+          "location": "Albuquerque, USA",
+          "main_track": {
+            "num_acc": 574,
+            "num_sub": 900
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "13th",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "num_acc": 588,
+            "num_sub": 910
+          }
+        },
+        {
+          "year": 1987,
+          "ordinal": "4th",
+          "location": "Raleigh, USA",
+          "main_track": {
+            "num_acc": 350,
+            "num_sub": 583
+          },
+          "note": "About 60% acceptance rate."
+        },
+        {
+          "year": 1986,
+          "ordinal": "3rd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 340,
+            "num_sub": 486
+          },
+          "note": "About 70% acceptance rate."
         }
       ]
     },
