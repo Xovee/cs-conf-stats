@@ -26068,6 +26068,70 @@
             "num_acc": 1254,
             "num_sub": 2700
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "30th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 970,
+            "num_sub": 2164
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "29th",
+          "location": "Daejeon, Korea",
+          "main_track": {
+            "num_acc": 832,
+            "num_sub": 1719
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "28th",
+          "location": "Hamburg, Germany",
+          "main_track": {
+            "num_acc": 969,
+            "num_sub": 2134
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "27th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 750,
+            "num_sub": 1600
+          },
+          "note": "Over 1600 paper submissions."
+        },
+        {
+          "year": 2013,
+          "ordinal": "26th",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 904,
+            "num_sub": 2094
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "25th",
+          "location": "Loule, Portugal",
+          "main_track": {
+            "num_acc": 806,
+            "num_sub": 1825
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "24th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 790,
+            "num_sub": 2459
+          }
         }
       ]
     },
