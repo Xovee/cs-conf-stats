@@ -26132,6 +26132,60 @@
             "num_acc": 790,
             "num_sub": 2459
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "23rd",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 828,
+            "num_sub": 1798
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "22nd",
+          "location": "St. Louis, USA",
+          "main_track": {
+            "num_acc": 936,
+            "num_sub": 1599
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "20th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 682,
+            "num_sub": 1393
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "19th",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 971,
+            "num_sub": 2167
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "18th",
+          "location": "Edmonton, Canada",
+          "main_track": {
+            "num_acc": 663,
+            "num_sub": 1204
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "17th",
+          "location": "Sendai, Japan",
+          "main_track": {
+            "num_acc": 659,
+            "num_sub": 1192
+          }
         }
       ]
     },
