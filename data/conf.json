@@ -965,6 +965,16 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "39th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 5290,
+            "num_sub": 21575
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "38th",
           "location": "Vancouver, Canada",
