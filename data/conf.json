@@ -26186,6 +26186,72 @@
             "num_acc": 659,
             "num_sub": 1192
           }
+        },
+        {
+          "year": 2003,
+          "ordinal": "16th",
+          "location": "Las Vegas, USA",
+          "main_track": {
+            "num_acc": 600,
+            "num_sub": 1050
+          },
+          "note": "Estimated from https://www.jstage.jst.go.jp/article/jrsj/39/3/39_39_238/_pdf/-char/ja"
+        },
+        {
+          "year": 2002,
+          "ordinal": "15th",
+          "location": "Lausanne, Switzerland",
+          "main_track": {
+            "num_acc": 500,
+            "num_sub": 826
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "14th",
+          "location": "Maui, Hawaii, USA",
+          "main_track": {
+            "num_acc": 400,
+            "num_sub": 580
+          },
+          "note": "Both numbers are estimated from a figure in IROS 2002 proceedings."
+        },
+        {
+          "year": 2000,
+          "ordinal": "13th",
+          "location": "Takamatsu, Japan",
+          "main_track": {
+            "num_acc": 378,
+            "num_sub": 521
+          }
+        },
+        {
+          "year": 1999,
+          "ordinal": "12th",
+          "location": "Kyongju, Korea",
+          "main_track": {
+            "num_acc": 308,
+            "num_sub": 439
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "11th",
+          "location": "Victoria, Canada",
+          "main_track": {
+            "num_acc": 280,
+            "num_sub": 476
+          },
+          "note": "The # accepted is estimated from a figure in IROS 2002 proceedings."
+        },
+        {
+          "year": 1997,
+          "ordinal": "10th",
+          "location": "Grenoble, France",
+          "main_track": {
+            "num_acc": 274,
+            "num_sub": 396
+          }
         }
       ]
     },
