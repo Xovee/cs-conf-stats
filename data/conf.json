@@ -26262,6 +26262,54 @@
             "num_acc": 274,
             "num_sub": 396
           }
+        },
+        {
+          "year": 1996,
+          "ordinal": "9th",
+          "location": "Osaka, Japan",
+          "main_track": {
+            "num_acc": 229,
+            "num_sub": 345
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "8th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 270,
+            "num_sub": 435
+          },
+          "note": "The # accepted is estimated from a figure in IROS 2002 proceedings."
+        },
+        {
+          "year": 1994,
+          "ordinal": "7th",
+          "location": "Munich, Germany",
+          "main_track": {
+            "num_acc": 299,
+            "num_sub": 420
+          },
+          "note": "The # accepted is estimated from a figure in IROS 2002 proceedings."
+        },
+        {
+          "year": 1993,
+          "ordinal": "6th",
+          "location": "Yokohama, Japan",
+          "main_track": {
+            "num_acc": 310,
+            "num_sub": 360
+          },
+          "note": "The # accepted is estimated from a figure in IROS 2002 proceedings."
+        },
+        {
+          "year": 1992,
+          "ordinal": "5th",
+          "location": "Raleigh, USA",
+          "main_track": {
+            "num_acc": 244,
+            "num_sub": 366
+          }
         }
       ]
     },
