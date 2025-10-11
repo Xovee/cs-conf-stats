@@ -26314,6 +26314,89 @@
       ]
     },
     {
+      "series": "RSS",
+      "discipline": "Robotics",
+      "metadata": {
+        "series_full_title": "Robotics: Science and Systems",
+        "main_discipline": [
+          "Robot Learning", "Motion Planning & Control", "Perception & Sensing"
+        ],
+        "other_discipline": [
+          "Mapping & Localization", "Manipulation & Grasping", "Multi-robot Systems", "Sim-to-real Transfer", "Domain Adaptation"
+        ],
+        "parent_org": "RSS Foundation",
+        "website": "https://roboticsconference.org/",
+        "proceedings": "https://www.roboticsproceedings.org/",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "21st",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 163,
+            "num_sub": 594
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "20th",
+          "location": "Delft, The Netherlands",
+          "main_track": {
+            "num_acc": 135,
+            "num_sub": 423
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "19th",
+          "location": "Daegu, Korea",
+          "main_track": {
+            "num_acc": 112,
+            "num_sub": 333
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "18th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 232
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "17th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 92,
+            "num_sub": 282
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "16th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 103,
+            "num_sub": 321
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "15th",
+          "location": "Freiburg, Germany",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 272
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

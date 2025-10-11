@@ -86,6 +86,7 @@ Number of submissions and number of accepted papers for the following conference
 1. PODS: ACM Symposium on Principles of Database Systems.
 1. POPL: ACM SIGPLAN Symposium on Principles of Programming Languages.
 1. PPoPP: ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming.
+1. RSS: Robotics: Science and Systems. 
 1. RTAS: IEEE Real-Time and Embedded Technology and Applications Symposium. 
 1. RTSS: IEEE Real-Time Systems Symposium. 
 1. SC: The International Conference for High Performance Computing, Networking, Storage and Analysis.
