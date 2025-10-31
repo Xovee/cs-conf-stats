@@ -15,6 +15,9 @@ jobs:
         with:
           fetch-depth: 1
 
+      --name Clean up old xoveexu-com directory
+        run: rm -rf xoveexu-com
+
       - name: Checkout xoveexu-com@csconfstats
         uses: actions/checkout@v4
         with:
@@ -27,7 +30,7 @@ jobs:
         run: |
           rsync -av --delete \
             --exclude='.git' \
-            --exclude='xoveexu-com/' \
+            --exclude='xoveexu-com/**' \
             ./ xoveexu-com/
 
       - name: Commit & push
