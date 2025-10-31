@@ -15,9 +15,6 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Clean up old xoveexu-com directory
-        run: rm -rf xoveexu-com
-
       - name: Checkout xoveexu-com@csconfstats
         uses: actions/checkout@v4
         with:
