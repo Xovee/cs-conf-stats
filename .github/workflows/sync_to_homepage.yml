@@ -27,6 +27,7 @@ jobs:
         run: |
           rsync -av --delete \
             --exclude='.git' \
+            --exclude='xoveexu-com/' \
             ./ xoveexu-com/
 
       - name: Commit & push
