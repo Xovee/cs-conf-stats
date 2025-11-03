@@ -359,6 +359,7 @@ fetch('/data/conf.json')
       {name: 'UIST', value: 1988},
       {name: 'USENIX ATC', value: 1983},
       {name: 'USENIX Security', value: 1988},
+      {name: 'VIS', value: 1990},
       {name: 'VLDB', value: 1975},
       {name: 'WSDM', value: 2008},
     ]

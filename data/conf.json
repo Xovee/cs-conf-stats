@@ -26523,6 +26523,89 @@
       ]
     },
     {
+      "series": "VIS",
+      "discipline": "VIS",
+      "metadata": {
+        "series_full_title": "IEEE Visualization Conference",
+        "main_discipline": [
+          "Information Visualization", "Scientific Visualization", "Visual Analytics"
+        ],
+        "other_discipline": [
+          "Human-Computer Interaction", "Immersive Analytics", "AR", "VR", "ML for Visualization", "Data Storytelling", "Narrative Visualization", "Network Visualization"
+        ],
+        "parent_org": "IEEE, IEEE CompSoc",
+        "website": "https://ieeevis.org/",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1001944/all-proceedings",
+        "second_track_name": "",
+        "note": "I"
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "35th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 124,
+            "num_sub": 557
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "34th",
+          "location": "Melbourne, Australia",
+          "main_track": {
+            "num_acc": 133,
+            "num_sub": 539
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "33rd",
+          "location": "Oklahoma City, USA",
+          "main_track": {
+            "num_acc": 119,
+            "num_sub": 460
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "32nd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 110,
+            "num_sub": 441
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "31st",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 147,
+            "num_sub": 586
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "30th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 120,
+            "num_sub": 479
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "29th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 120,
+            "num_sub": 479
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

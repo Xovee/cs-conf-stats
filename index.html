@@ -281,6 +281,13 @@
                         <option value="SODA">SODA</option>
                         <option value="STOC">STOC</option>
                     </select>
+                    </select>
+
+                    <label for="dropdown-vis" title="Visualization">VIS</label>
+                    <select id="dropdown-vis" name="dropdown-vis" class="">
+                        <option value="" disabled selected></option>
+                        <option value="VIS">VIS</option>
+                    </select>
 
                     <label for="dropdown-web" title="Web Research">Web</label>
                     <select id="dropdown-web" name="dropdown-web" class="">
@@ -430,6 +437,7 @@
             <li><a href="?conf=UIST" class="cursor-pointer" onclick="clickConf('dropdown-hci', 'UIST'); return false;"><span>UIST</span>: ACM Symposium on User Interface Software and Technology</a>.</li>
             <li><a href="?conf=USENIX ATC" class="cursor-pointer" onclick="clickConf('dropdown-os', 'USENIX ATC'); return false;"><span>USENIX ATC</span>: USENIX Annual Technical Conference.</a>.</li>
             <li><a href="?conf=USENIX Security" class="cursor-pointer" onclick="clickConf('dropdown-security', 'USENIX Security'); return false;"><span>USENIX Security</span>: USENIX Security Symposium.</a>.</li>
+            <li><a href="?conf=VIS" class="cursor-pointer" onclick="clickConf('dropdown-vis', 'VIS'); return false;"><span>VIS</span>: IEEE Visualization Conference</a>.</li>
             <li><a href="?conf=VLDB" class="cursor-pointer" onclick="clickConf('dropdown-db', 'VLDB'); return false;"><span>VLDB</span>: International Conference on Very Large Data Bases</a>.</li>
             <li><a href="?conf=WSDM" class="cursor-pointer" onclick="clickConf('dropdown-web', 'WSDM'); return false;"><span>WSDM</span>: ACM International Conference on Web Search and Data Mining</a>.</li>
         </ol>
@@ -468,7 +476,7 @@
 
 <footer class="py-4 container">
     <div class="">
-        <div class="text-base">List of 94 conferences: 
+        <div class="text-base">List of 95 conferences: 
             <a href='?conf=AAAI' onclick="clickConf('dropdown-ai', 'AAAI'); return false">AAAI</a>, 
             <a href='?conf=ACL' onclick="clickConf('dropdown-nlp', 'ACL'); return false">ACL</a>, 
             <a href='?conf=ACM MM' onclick="clickConf('dropdown-mm', 'ACM MM'); return false">ACM MM</a>, 
@@ -561,6 +569,7 @@
             <a href='?conf=UIST' onclick="clickConf('dropdown-hci', 'UIST'); return false">UIST</a>, 
             <a href='?conf=USENIX ATC' onclick="clickConf('dropdown-os', 'USENIX ATC'); return false">USENIX ATC</a>, 
             <a href='?conf=USENIX Security' onclick="clickConf('dropdown-security', 'USENIX Security'); return false">USENIX Security</a>, 
+            <a href='?conf=VIS' onclick="clickConf('dropdown-vis', 'VIS'); return false">VIS</a>, 
             <a href='?conf=VLDB' onclick="clickConf('dropdown-db', 'VLDB'); return false">VLDB</a>, and 
             <a href='?conf=WSDM' onclick="clickConf('dropdown-web', 'WSDM'); return false">WSDM</a>.
             <a href="/catalog.html">Catalog Page</a>.
