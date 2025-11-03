@@ -1,4 +1,15 @@
 document.addEventListener('DOMContentLoaded', (event) => {
+  // Debounce function to limit resize event firing
+  function debounce(fn, delay = 250) {
+    let timer;
+    return (...args) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        fn.apply(this, args);
+      }, delay);
+    };
+  }
+  
   // select conference
   const dropdowns = document.querySelectorAll('select');
   const curConfSelection = document.getElementById('cur-conf');
@@ -41,9 +52,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
       const dropdownAll = document.getElementById('dropdown-all');
       dropdownAll.innerHTML = `<option value="" selected disabled></option>`;
 
-      const sortedConferences = data.conferences.slice().sort((a, b) => {
-        return a.series.localeCompare(b.series);
-      });
+      const sortedConferences = data.conferences
+        .filter(c => c.series !== 'Template')
+        .sort((a, b) => a.series.localeCompare(b.series));
 
       sortedConferences.forEach(conference => {
         const option = document.createElement('option');
@@ -382,9 +393,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
           }
         };
 
-        window.addEventListener('resize', function() {
+        window.addEventListener('resize', debounce(() => {
           confPlot.resize();
-        });
+        }, 250));
       }
 
       window.displayConfMetadata = displayConfMetadata;

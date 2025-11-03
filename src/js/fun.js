@@ -1,5 +1,15 @@
 // display conf stats
 
+// Debounce function to limit resize event firing
+function debounce(fn, delay = 250) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      fn.apply(this, args);
+    }, delay);
+  };
+}
 
 function countryToCode(countryName) {
   const countries = {
@@ -47,6 +57,23 @@ fetch('/data/conf.json')
     const disciplineCounts = {};
     const singleConfs = [];
     const singleConfsScatter = [];
+    
+    // Cache DOM references to avoid repeated queries
+    const domCache = {
+      numVenues: document.querySelector('#viz-num-venues .conf-card-big-desc'),
+      numConfs: document.querySelector('#viz-num-confs .conf-card-big-desc'),
+      numCountry: document.querySelector('#viz-num-country .conf-card-big-desc'),
+      numCities: document.querySelector('#viz-num-cities .conf-card-big-desc'),
+      numAcc: document.querySelector('#viz-num-acc .conf-card-big-desc'),
+      numSub: document.querySelector('#viz-num-sub .conf-card-big-desc'),
+      numRate: document.querySelector('#viz-num-rate .conf-card-big-desc'),
+      popularCountry: document.querySelector('#viz-popular-country .conf-card-big-desc'),
+      popularCity: document.querySelector('#viz-popular-city .conf-card-big-desc'),
+      topSubject: document.querySelector('#viz-top-subject .conf-card-big-desc'),
+      topConference: document.querySelector('#viz-top-conference .conf-card-big-desc'),
+      topEvent: document.querySelector('#viz-top-event .conf-card-big-desc'),
+      selectiveEvent: document.querySelector('#viz-selective-event .conf-card-big-desc')
+    };
 
     function getCountryFlag(countryCode) {
       if (countryCode === 'Online') {
@@ -91,8 +118,6 @@ fetch('/data/conf.json')
           cityCount[cityWithFlag] = 1;
           cityConferences[cityWithFlag] = [{year: yearData.year, name: `${conference.series} ${yearData.year}`}];
         }
-
-        cityConferences[cityWithFlag].sort((a, b) => b.year - a.year);
 
         if (countryCount[countryWithFlag]) {
           countryCount[countryWithFlag]++;
@@ -151,6 +176,11 @@ fetch('/data/conf.json')
       });
 
     });
+    
+    // Sort city conferences once after all data is processed
+    Object.keys(cityConferences).forEach(city => {
+      cityConferences[city].sort((a, b) => b.year - a.year);
+    });
 
     function numberWithCommas(x) {
       return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -174,20 +204,20 @@ fetch('/data/conf.json')
     const popSingleConf = singleConfs.slice().sort((a, b) => b.acc - a.acc)[0];
     const mostSelective = singleConfs.slice().sort((a, b) => a.rate - b.rate)[0];
 
-    document.querySelector('#viz-num-venues .conf-card-big-desc').textContent = numberWithCommas(numVenues);
-    document.querySelector('#viz-num-confs .conf-card-big-desc').textContent = numberWithCommas(numConfs);
-    document.querySelector('#viz-num-country .conf-card-big-desc').textContent = numberWithCommas(numTotalCountry);
-    document.querySelector('#viz-num-cities .conf-card-big-desc').textContent = numberWithCommas(numTotalCity);
-    document.querySelector('#viz-num-acc .conf-card-big-desc').textContent = numberWithCommas(numTotalAcc);
-    document.querySelector('#viz-num-sub .conf-card-big-desc').textContent = numberWithCommas(numTotalSub);
-    document.querySelector('#viz-num-rate .conf-card-big-desc').textContent = avgAccRateViz.toFixed(2) + '%';
+    domCache.numVenues.textContent = numberWithCommas(numVenues);
+    domCache.numConfs.textContent = numberWithCommas(numConfs);
+    domCache.numCountry.textContent = numberWithCommas(numTotalCountry);
+    domCache.numCities.textContent = numberWithCommas(numTotalCity);
+    domCache.numAcc.textContent = numberWithCommas(numTotalAcc);
+    domCache.numSub.textContent = numberWithCommas(numTotalSub);
+    domCache.numRate.textContent = avgAccRateViz.toFixed(2) + '%';
 
-    document.querySelector('#viz-popular-country .conf-card-big-desc').textContent = popCountry;
-    document.querySelector('#viz-popular-city .conf-card-big-desc').textContent = popuCity;
-    document.querySelector('#viz-top-subject .conf-card-big-desc').textContent = popDiscipline;
-    document.querySelector('#viz-top-conference .conf-card-big-desc').textContent = popConfName;
-    document.querySelector('#viz-top-event .conf-card-big-desc').textContent = popSingleConf.name + ` (${numberWithCommas(popSingleConf.acc)})`;
-    document.querySelector('#viz-selective-event .conf-card-big-desc').textContent = `${mostSelective.name} (${mostSelective.rate.toFixed(1)}%)`;
+    domCache.popularCountry.textContent = popCountry;
+    domCache.popularCity.textContent = popuCity;
+    domCache.topSubject.textContent = popDiscipline;
+    domCache.topConference.textContent = popConfName;
+    domCache.topEvent.textContent = popSingleConf.name + ` (${numberWithCommas(popSingleConf.acc)})`;
+    domCache.selectiveEvent.textContent = `${mostSelective.name} (${mostSelective.rate.toFixed(1)}%)`;
 
     // for yearly counting
     const years = Object.keys(yearlyCounts).sort();
@@ -237,38 +267,10 @@ fetch('/data/conf.json')
 
     const sortedSingleConfs = singleConfs.sort((a, b) => a.rate - b.rate).slice(0, 20);
 
-    renderDiscipline(disciplineCounts);
-    renderConferencePapers(seriesAccRates);
-
-    // renderWorldMap(countryCount);
-
-    // window.addEventListener('resize', debounce(() => {
-    //   renderWorldMap(countryCount);
-    // }, 500));
-
-    // function debounce(fn, delay = 500) {
-    //   let timer;
-    //   return (...args) => {
-    //     clearTimeout(timer);
-    //     timer = setTimeout(() => {
-    //       fn.apply(this, args);
-    //     }, delay);
-    //   };
-    // }
-
     const uniqueConfs = Array.from(new Set(singleConfs.map(d => d.conf))).sort();
-    renderScatter(singleConfs, uniqueConfs);
-
-    renderPicky(sortedAccRate);
-    renderPickySingle(sortedSingleConfs);
-
-    renderGenerous(sortedAccRateInv);
-
-    renderLarge(sortedLarge);
-    renderSmall(sortedSmall);
-
     
-    var yearData = [
+    // yearData for oldest and youngest conferences
+    const yearData = [
       {name: "AAAI", value: 1980},
       {name: "ACL", value: 1963},
       {name: "ACM MM", value: 1993},
@@ -363,9 +365,43 @@ fetch('/data/conf.json')
       {name: 'VLDB', value: 1975},
       {name: 'WSDM', value: 2008},
     ]
-
-    renderOld(yearData);
-    renderYoung(yearData);
+    
+    // Initialize all charts - each render function returns the chart instance
+    const disciplineChart = renderDiscipline(disciplineCounts);
+    const conferenceChart = renderConferencePapers(seriesAccRates);
+    const yearlyChart = renderYearly(years, submissions, acceptances, rateYearly, rateYearly);
+    const cityChart = renderCity(cityData);
+    const countryChart = renderCountry(countryData);
+    const [scatterChart, latestScatterChart] = renderScatter(singleConfs, uniqueConfs);
+    const pickyChart = renderPicky(sortedAccRate);
+    const pickySingleChart = renderPickySingle(sortedSingleConfs);
+    const generousChart = renderGenerous(sortedAccRateInv);
+    const largeChart = renderLarge(sortedLarge);
+    const smallChart = renderSmall(sortedSmall);
+    const oldChart = renderOld(yearData);
+    const youngChart = renderYoung(yearData);
+    
+    // Consolidate all resize handlers with debouncing for better performance
+    const allCharts = [
+      disciplineChart,
+      conferenceChart,
+      yearlyChart,
+      cityChart,
+      countryChart,
+      scatterChart,
+      latestScatterChart,
+      pickyChart,
+      pickySingleChart,
+      generousChart,
+      largeChart,
+      smallChart,
+      oldChart,
+      youngChart
+    ];
+    
+    window.addEventListener('resize', debounce(() => {
+      allCharts.forEach(chart => chart.resize());
+    }, 250));
 
   });
 
@@ -414,10 +450,8 @@ function renderDiscipline(disciplineCounts) {
   };
 
   disciplineChart.setOption(disciplineOption);
-
-  window.addEventListener('resize', function() {
-    disciplineChart.resize();
-  });
+  
+  return disciplineChart;
 }
 
 function renderConferencePapers(seriesAccRates) {
@@ -478,10 +512,8 @@ function renderConferencePapers(seriesAccRates) {
   };
 
   conferenceChart.setOption(conferenceOption);
-
-  window.addEventListener('resize', function() {
-    conferenceChart.resize();
-  });
+  
+  return conferenceChart;
 }
 
 function renderYearly(years, submissions, acceptances, rateYearly) {
@@ -588,10 +620,8 @@ function renderYearly(years, submissions, acceptances, rateYearly) {
   };
 
   yearlyChart.setOption(yearlyOption);
-
-  window.addEventListener('resize', function() {
-    yearlyChart.resize();
-  });
+  
+  return yearlyChart;
 }
 
 function renderWorldMap(countryCount) {
@@ -738,10 +768,8 @@ function renderCity(cityData) {
   };
 
   cityChart.setOption(cityOption);
-
-  window.addEventListener('resize', function() {
-    cityChart.resize();
-  })
+  
+  return cityChart;
 }
 
 function renderCountry(countryData) {
@@ -830,10 +858,8 @@ function renderCountry(countryData) {
   };
 
   countryChart.setOption(countryOption);
-
-  window.addEventListener('resize', function() {
-    countryChart.resize();
-  })
+  
+  return countryChart;
 }
 
 function renderScatter(dataPoints, uniqueConfs) {
@@ -1024,11 +1050,8 @@ function renderScatter(dataPoints, uniqueConfs) {
     series: latestConfsSeries
   };
   latestScatterChart.setOption(latestScatterOption);
-
-  window.addEventListener('resize', function() {
-    scatterChart.resize();
-    latestScatterChart.resize();
-  });
+  
+  return [scatterChart, latestScatterChart];
 }
 
 function renderPicky(accRate) {
@@ -1115,10 +1138,8 @@ function renderPicky(accRate) {
   };
 
   pickyChart.setOption(pickyOption);
-
-  window.addEventListener('resize', function() {
-    pickyChart.resize();
-  })
+  
+  return pickyChart;
 }
 
 function renderPickySingle(pickySingle) {
@@ -1211,10 +1232,8 @@ function renderPickySingle(pickySingle) {
   };
 
   pickySingleChart.setOption(pickySingleOption);
-
-  window.addEventListener('resize', function() {
-    pickySingleChart.resize();
-  })
+  
+  return pickySingleChart;
 }
 
 function renderGenerous(accRate) {
@@ -1300,10 +1319,8 @@ function renderGenerous(accRate) {
   };
 
   generousChart.setOption(generousOption);
-
-  window.addEventListener('resize', function() {
-    generousChart.resize();
-  })
+  
+  return generousChart;
 }
 
 function renderLarge(numAcc) {
@@ -1385,10 +1402,8 @@ function renderLarge(numAcc) {
   };
 
   largeChart.setOption(largeOption);
-
-  window.addEventListener('resize', function() {
-    largeChart.resize();
-  })
+  
+  return largeChart;
 }
 
 function renderSmall(numYearlyAcc) {
@@ -1474,10 +1489,8 @@ function renderSmall(numYearlyAcc) {
   };
 
   smallChart.setOption(smallOption);
-
-  window.addEventListener('resize', function() {
-    smallChart.resize();
-  })
+  
+  return smallChart;
 }
 
 
@@ -1567,10 +1580,8 @@ function renderOld(data) {
   };
 
   oldChart.setOption(oldOption);
-
-  window.addEventListener('resize', function() {
-    oldChart.resize();
-  })
+  
+  return oldChart;
 }
 
 function renderYoung(data) {
@@ -1659,8 +1670,6 @@ function renderYoung(data) {
   };
 
   youngChart.setOption(youngOption);
-
-  window.addEventListener('resize', function() {
-    youngChart.resize();
-  })
+  
+  return youngChart;
 }
