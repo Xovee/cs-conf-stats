@@ -225,8 +225,6 @@ fetch('/data/conf.json')
     const acceptances = years.map(year => yearlyCounts[year].totalAcc);
     const rateYearly = years.map(year => (yearlyCounts[year].totalSub > 0 ? (yearlyCounts[year].totalAcc / yearlyCounts[year].totalSub) * 100 : 0));
 
-    renderYearly(years, submissions, acceptances, rateYearly, rateYearly);
-
     const cityData = Object.keys(cityCount).map(city => ({
       name: city,
       value: cityCount[city],
@@ -243,10 +241,6 @@ fetch('/data/conf.json')
     const countryData = sortedCountryData.slice(0, 20);
     const remainingCountrySum = sortedCountryData.slice(20).reduce((sum, { value }) => sum + value, 0);
     countryData.push({name: 'Others', value: remainingCountrySum});
-
-    renderCountry(countryData);
-    
-    renderCity(cityData);
 
     const aggregatedAccRates = Object.keys(seriesAccRates).map(series => {
       const { accRates } = seriesAccRates[series];
@@ -369,7 +363,7 @@ fetch('/data/conf.json')
     // Initialize all charts - each render function returns the chart instance
     const disciplineChart = renderDiscipline(disciplineCounts);
     const conferenceChart = renderConferencePapers(seriesAccRates);
-    const yearlyChart = renderYearly(years, submissions, acceptances, rateYearly, rateYearly);
+    const yearlyChart = renderYearly(years, submissions, acceptances, rateYearly);
     const cityChart = renderCity(cityData);
     const countryChart = renderCountry(countryData);
     const [scatterChart, latestScatterChart] = renderScatter(singleConfs, uniqueConfs);
