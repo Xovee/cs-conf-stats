@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           cards += `
             <div class="conf-card">
               <div class="conf-card-title">Acceptance Rate</div>
-              <div class="conf-card-desc">Average acceptance rate in recent ${yearsToConsider} confrence: ${recentAccRate.toFixed(2)}%</div>
+              <div class="conf-card-desc">Average acceptance rate in recent ${yearsToConsider} confrences: ${recentAccRate.toFixed(2)}%</div>
             </div>
           `;
         }
