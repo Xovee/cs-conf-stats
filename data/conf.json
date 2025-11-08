@@ -14,6 +14,16 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "40th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 4167,
+            "num_sub": 23680
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "39th",
           "location": "Philadelphia, USA",
