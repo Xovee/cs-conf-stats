@@ -4344,6 +4344,16 @@
       },
       "yearly_data": [
         {
+          "year": 2024,
+          "ordinal": "24rd",
+          "location": "Abu Dhabi, UAE",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 118,
+            "num_sub": 594
+          }
+        },
+        {
           "year": 2023,
           "ordinal": "23rd",
           "location": "Shanghai, China",
@@ -6623,6 +6633,25 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "43rd",
+          "location": "Yokohama, Japan",
+          "main_track": {
+            "num_acc": 1249,
+            "num_sub": 4668
+          },
+          "note": "9.3% of the 5020 submissioins were desk rejected without review."
+        },
+        {
+          "year": 2024,
+          "ordinal": "42nd",
+          "location": "Honolulu, Hawaii, USA",
+          "main_track": {
+            "num_acc": 1058,
+            "num_sub": 4028
+          }
+        },
+        {
           "year": 2023,
           "ordinal": "41st",
           "location": "Hamburg, Germany",
@@ -7339,6 +7368,24 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "38th",
+          "location": "Busan, Korea",
+          "main_track": {
+            "num_acc": 210,
+            "num_sub": 947
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "37th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 146,
+            "num_sub": 608
+          }
+        },
         {
           "year": 2023,
           "ordinal": "36th",
@@ -8879,6 +8926,24 @@
         "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "23rd",
+          "location": "Irvine, California, USA",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 235
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "22nd",
+          "location": "Hangzhou, China",
+          "main_track": {
+            "num_acc": 58,
+            "num_sub": 313
+          }
+        },
         {
           "year": 2023,
           "ordinal": "21st",
@@ -11551,6 +11616,24 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "58th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 124,
+            "num_sub": 597
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "57th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 113,
+            "num_sub": 497
+          }
+        },
+        {
           "year": 2023,
           "ordinal": "56th",
           "location": "Toronto, Canada",
@@ -11869,6 +11952,15 @@
         "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "31st",
+          "location": "Salt Lake City, USA",
+          "main_track": {
+            "num_acc": 328,
+            "num_sub": 1964
+          }
+        },
         {
           "year": 2023,
           "ordinal": "30th",
@@ -15700,6 +15792,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "31st",
+          "location": "York, UK",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 140
+          }
+        },
         {
           "year": 2023,
           "ordinal": "44th",
