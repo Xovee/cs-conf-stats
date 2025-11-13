@@ -310,6 +310,14 @@ First, we need **ALL** new stats in the upcoming years.
 
 - Before 1995
 
+## InfoVis
+
+- InfoVis 2003
+- InfoVis 2000
+- InfoVis 1998
+- InfoVis 1997
+- InfoVis 1996
+
 ## IPDPS
 
 - IPDPS 1994
@@ -558,6 +566,13 @@ First, we need **ALL** new stats in the upcoming years.
 ## USENIX Security
 
 - USENIX Security Before 1998 (1997 not held btw)
+
+## VIS
+
+- VIS 1993
+- VIS 1992
+- VIS 1991
+- VIS 1990
 
 ## VLDB 
 

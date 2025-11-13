@@ -26776,6 +26776,164 @@
             "num_acc": 93,
             "num_sub": 366
           }
+        },
+        {
+          "year": 2010,
+          "ordinal": "21st",
+          "location": "Salt Lake City, USA",
+          "main_track": {
+            "num_acc": 84,
+            "num_sub": 320
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "20th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 91,
+            "num_sub": 343
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "19th",
+          "location": "Columbus, USA",
+          "main_track": {
+            "num_acc": 78,
+            "num_sub": 303
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "18th",
+          "location": "Sacramento, California, USA",
+          "main_track": {
+            "num_acc": 83,
+            "num_sub": 330
+          }
+        },
+        {
+          "year": 2006,
+          "ordinal": "17th",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "num_acc": 87,
+            "num_sub": 330
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "16th",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "num_acc": 119,
+            "num_sub": 382
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "15th",
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 73,
+            "num_sub": 256
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "14th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 63,
+            "num_sub": 192
+          },
+          "note": "Missing InfoVis data."
+        },
+        {
+          "year": 2002,
+          "ordinal": "13th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 81,
+            "num_sub": 256
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "12th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 73,
+            "num_sub": 215
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "11th",
+          "location": "Salt Lake City, USA",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 151
+          },
+          "note": "Missing InfoVis data."
+        },
+        {
+          "year": 1999,
+          "ordinal": "10th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 176
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "9th",
+          "location": "Research Triangle Park, USA",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 118
+          },
+          "note": "Missing InfoVis data."
+        },
+        {
+          "year": 1997,
+          "ordinal": "8th",
+          "location": "Phoenix, USA",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 170
+          },
+          "note": "Missing InfoVis data."
+        },
+        {
+          "year": 1996,
+          "ordinal": "7th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 101
+          },
+          "note": "Missing InfoVis data."
+        },
+        {
+          "year": 1995,
+          "ordinal": "6th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 139
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "5th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 41,
+            "num_sub": 91
+          }
         }
       ]
     },
