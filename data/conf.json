@@ -26938,6 +26938,89 @@
       ]
     },
     {
+      "series": "VR",
+      "discipline": "VIS",
+      "metadata": {
+        "series_full_title": "IEEE Conference on Virtual Reality and 3D User Interfaces",
+        "main_discipline": [
+          "Virtual Reality", "3D User Interfaces", "Mixed Reality", "Augmented Reality"
+        ],
+        "other_discipline": [
+          "Immersive Environments", "HCI", "Visualization", "Interaction Techniques"
+        ],
+        "parent_org": "IEEE, IEEE CompSoc",
+        "website": "https://ieeevr.org/",
+        "proceedings": "https://ieeexplore.ieee.org/xpl/conhome/1000791/all-proceedings",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "32nd",
+          "location": "Saint-Malo, France",
+          "main_track": {
+            "num_acc": 211,
+            "num_sub": 785
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "31st",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 180,
+            "num_sub": 627
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "30th",
+          "location": "Shanghai, China",
+          "main_track": {
+            "num_acc": 130,
+            "num_sub": 612
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "29th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 90,
+            "num_sub": 418
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "28th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 92,
+            "num_sub": 389
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "27th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 104,
+            "num_sub": 486
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "26th",
+          "location": "Osaka, Japan",
+          "main_track": {
+            "num_acc": 95,
+            "num_sub": 442
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

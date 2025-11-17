@@ -110,6 +110,7 @@ Number of submissions and number of accepted papers for the following conference
 1. USENIX Security: USENIX Security Symposium. 
 1. VIS: IEEE Visualization Conference. 
 1. VLDB: International Conference on Very Large Data Bases.
+1. VR: IEEE Conference on Virtual Reality and 3D User Interfaces.
 1. WSDM: ACM International Conference on Web Search and Data Mining.
 
 
