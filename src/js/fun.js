@@ -255,7 +255,7 @@ fetch('/data/conf.json')
     })
 
     const sortedAccRate = aggregatedAccRates.sort((a, b) => a.value - b.value).slice(0, 20);
-    const sortedAccRateInv = aggregatedAccRates.sort((a, b) => b.value - a.value).slice(0, 20);
+    const sortedAccRateInv = aggregatedAccRates.sort((a, b) => b.value - a.value).slice(0, 30);
     const sortedLarge = aggregatedNumAcc.sort((a, b) => b.value - a.value).slice(0, 30);
     const sortedSmall = aggregatedNumAcc.sort((a, b) => (a.value / a.numConf) - (b.value / b.numConf)).slice(0, 20);
 
