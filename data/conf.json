@@ -27050,8 +27050,8 @@
           "ordinal": "22nd",
           "location": "Arles, France",
           "main_track": {
-            "num_acc": 34,
-            "num_sub": 147
+            "num_acc": 16,
+            "num_sub": 94
           }
         },
         {
@@ -27059,8 +27059,8 @@
           "ordinal": "21st",
           "location": "Minneapolis, USA",
           "main_track": {
-            "num_acc": 28,
-            "num_sub": 116
+            "num_acc": 18,
+            "num_sub": 74
           }
         },
         {
@@ -27077,8 +27077,62 @@
           "ordinal": "19th",
           "location": "Orange County, California, USA",
           "main_track": {
+            "num_acc": 15,
+            "num_sub": 95
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "18th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 14,
+            "num_sub": 72
+          }
+        },
+        {
+          "year": 2010,
+          "ordinal": "17th",
+          "location": "Waltham, USA",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 105
+          }
+        },
+        {
+          "year": 2009,
+          "ordinal": "16th",
+          "location": "Lafayette, USA",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 76
+          }
+        },
+        {
+          "year": 2008,
+          "ordinal": "15th",
+          "location": "Reno, USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 88
+          }
+        },
+        {
+          "year": 2007,
+          "ordinal": "14th",
+          "location": "Charlotte, USA",
+          "main_track": {
             "num_acc": 26,
-            "num_sub": 137
+            "num_sub": 130
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "12th",
+          "location": "Bonn, Germany",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 111
           }
         }
       ]

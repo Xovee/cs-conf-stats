@@ -580,6 +580,10 @@ First, we need **ALL** new stats in the upcoming years.
 - VLDB 2014
 - VLDB 2016-now
 
+## VR
+
+- VR 2006
+
 ## WSDM 
 
 - WSDM 2024
