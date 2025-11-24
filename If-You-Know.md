@@ -583,6 +583,11 @@ First, we need **ALL** new stats in the upcoming years.
 ## VR
 
 - VR 2006
+- VR 1999
+- VR 1998
+- VR 1997
+- VR 1995
+- VR 1994
 
 ## WSDM 
 
