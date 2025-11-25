@@ -27193,6 +27193,89 @@
       ]
     },
     {
+      "series": "EuroVis",
+      "discipline": "VIS",
+      "metadata": {
+        "series_full_title": "Eurographics Conference on Visualization",
+        "main_discipline": [
+          "Visual Analytics", "Information Visualization", "Scientific Visualization"
+        ],
+        "other_discipline": [
+          "Interactive Visualization", "Visual Encoding & Interaction", "Large-Scale Visualization", "Evaluation & Empirical Studies", "Domain-Specific Visualization"
+        ],
+        "parent_org": "Eurographics Association",
+        "website": "https://www.eurovis.org/",
+        "proceedings": "https://dblp.uni-trier.de/db/conf/vissym/index.html",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "27th",
+          "location": "Luxembourg City, Luxembourg",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 167
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "26th",
+          "location": "Odense, Denmark",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 134
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "25th",
+          "location": "Leipzig, Germany",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 133
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "24th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 178
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "23rd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 173
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "22nd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 168
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "21st",
+          "location": "Porto, Portugal",
+          "main_track": {
+            "num_acc": 59,
+            "num_sub": 189
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {
