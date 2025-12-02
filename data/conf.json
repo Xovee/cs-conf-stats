@@ -27272,6 +27272,71 @@
             "num_acc": 59,
             "num_sub": 189
           }
+        },
+        {
+          "year": 2018,
+          "ordinal": "20th",
+          "location": "Brno, Czech Republic",
+          "main_track": {
+            "num_acc": 47,
+            "num_sub": 162
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "19th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 46,
+            "num_sub": 170
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "18th",
+          "location": "Groningen, The Netherlands",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 183
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "17th",
+          "location": "Cagliari, Italy",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 160
+          },
+          "note": "Source: https://eagereyes.org/blog/2015/report-eurovis-2015"
+        },
+        {
+          "year": 2014,
+          "ordinal": "16th",
+          "location": "Swansea, UK",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 161
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "15th",
+          "location": "Leipzig, Germany",
+          "main_track": {
+            "num_acc": 49,
+            "num_sub": 177
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "14th",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 202
+          },
+          "note": "Source: https://www.cg.tuwien.ac.at/events/eurovis2012/news/index.html"
         }
       ]
     },
