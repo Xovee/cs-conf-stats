@@ -177,6 +177,14 @@ First, we need **ALL** new stats in the upcoming years.
 - Eurographics 1981
 - Eurographics 1980
 
+## EuroVis
+
+- EuroVis 2003
+- EuroVis 2002
+- EuroVis 2001
+- EuroVis 2000
+- EuroVis 1999
+
 ## FAST
 
 - FAST 2008
