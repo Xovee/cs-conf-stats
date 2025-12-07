@@ -27455,6 +27455,119 @@
       ]
     },
     {
+      "series": "SIGSPATIAL",
+      "discipline": "DB",
+      "metadata": {
+        "series_full_title": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
+        "main_discipline": [
+          "Geospatial Data Management", "Spatial Databases & Spatial Computing", "GIS and Location-Based Services"
+        ],
+        "other_discipline": [
+          "Spatial Data Mining", "Spatial Analytics", "Geospatial AI", "ML for GIS", "Spatiotemporal Data & Trajectories", "Mapping & Visualization", "Urban Computing", "Mobility Analysis"
+        ],
+        "parent_org": "ACM, ACM SIGSPATIAL",
+        "website": "https://www.sigspatial.org/past-conferences/",
+        "proceedings": "https://dl.acm.org/conference/gis/proceedings",
+        "second_track_name": "Poster",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2024,
+          "ordinal": "32nd",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 122
+          },
+          "second_track": {
+            "num_acc": 41,
+            "num_sub": 122
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "31st",
+          "location": "Hamburg, Germany",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 189
+          },
+          "second_track": {
+            "num_acc": 22,
+            "num_sub": 189
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "30th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 160
+          },
+          "second_track": {
+            "num_acc": 43,
+            "num_sub": 160
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "29th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 152
+          },
+          "second_track": {
+            "num_acc": 49,
+            "num_sub": 152
+          },
+          "note": "49 posters include demo papers."
+        },
+        {
+          "year": 2020,
+          "ordinal": "28th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 149
+          },
+          "second_track": {
+            "num_acc": 55,
+            "num_sub": 149
+          },
+          "note": "55 posters include demo papers."
+        },
+        {
+          "year": 2019,
+          "ordinal": "27th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 161
+          },
+          "second_track": {
+            "num_acc": 38,
+            "num_sub": 161
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "26th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 150
+          },
+          "second_track": {
+            "num_acc": 40,
+            "num_sub": 150
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

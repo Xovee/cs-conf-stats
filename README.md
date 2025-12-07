@@ -99,6 +99,7 @@ Number of submissions and number of accepted papers for the following conference
 1. SIGIR: International ACM SIGIR Conference on Research and Development in Information Retrieval.
 1. SIGMETRICS: ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems.
 1. SIGKDD: ACM SIGKDD Conference on Knowledge Discovery and Data Mining.
+1. SIGSPATIAL: ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems.
 1. SODA: ACM-SIAM Symposium on Discrete Algorithms. 
 1. SOSP: Symposium on Operating Systems Principles.
 1. STOC: ACM Symposium on Theory of Computing. 

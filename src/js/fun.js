@@ -346,6 +346,7 @@ fetch('/data/conf.json')
       {name: "SIGGRAPH Asia", value: 2008},
       {name: "SIGIR", value: 1971},
       {name: 'SIGMETRICS', value: 1973},
+      {name: 'SIGSPATIAL', value: 1993},
       {name: 'SODA', value: 1990},
       {name: 'SOSP', value: 1965},
       {name: 'STOC', value: 1969},
