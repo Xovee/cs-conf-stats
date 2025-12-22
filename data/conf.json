@@ -27564,6 +27564,97 @@
             "num_acc": 40,
             "num_sub": 150
           }
+        },
+        {
+          "year": 2017,
+          "ordinal": "25th",
+          "location": "Redondo Beach, California, USA",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 193
+          },
+          "second_track": {
+            "num_acc": 43,
+            "num_sub": 193
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "24th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 216
+          },
+          "second_track": {
+            "num_acc": 42,
+            "num_sub": 216
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "23rd",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 212
+          },
+          "second_track": {
+            "num_acc": 42,
+            "num_sub": 212
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "22nd",
+          "location": "Dallas, USA",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 184
+          },
+          "second_track": {
+            "num_acc": 36,
+            "num_sub": 184
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "21st",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 39,
+            "num_sub": 202
+          },
+          "second_track": {
+            "num_acc": 32,
+            "num_sub": 202
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "20th",
+          "location": "Redondo Beach, California, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 206
+          },
+          "second_track": {
+            "num_acc": 44,
+            "num_sub": 206
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "19th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 160
+          },
+          "second_track": {
+            "num_acc": 30,
+            "num_sub": 160
+          }
         }
       ]
     },
