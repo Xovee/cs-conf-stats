@@ -27774,6 +27774,89 @@
       ]
     },
     {
+      "series": "ISMB",
+      "discipline": "Interdisc",
+      "metadata": {
+        "series_full_title": "Intelligent Systems for Molecular Biology",
+        "main_discipline": [
+          "Bioinformatics", "Computational Biology", "Molecular Biology"
+        ],
+        "other_discipline": [
+          "Genomics & Transcriptomics", "Protein Structure, Function & Interaction", "Systems Biology", "ML & AI for Biology", "Single-cell & Multi-omics Analysis"
+        ],
+        "parent_org": "International Society for Computational Biology (ISCB)",
+        "website": "https://www.iscb.org/about-iscb",
+        "proceedings": "https://academic.oup.com/bioinformatics/article/40/Supplement_1/i1/7700873",
+        "second_track_name": "",
+        "note": ""
+      },
+      "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "33rd",
+          "location": "Liverpool, UK",
+          "main_track": {
+            "num_acc": 67,
+            "num_sub": 371
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "32nd",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 58,
+            "num_sub": 318
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "31st",
+          "location": "Lyon, France",
+          "main_track": {
+            "num_acc": 60,
+            "num_sub": 336
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "30th",
+          "location": "Madison, USA",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 243
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "29th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 289
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "28th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 65,
+            "num_sub": 329
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "27th",
+          "location": "Basel, Switzerland",
+          "main_track": {
+            "num_acc": 69,
+            "num_sub": 363
+          }
+        }
+      ]
+    },
+    {
       "series": "Template",
       "discipline": "",
       "metadata": {

@@ -319,6 +319,7 @@ fetch('/data/conf.json')
       {name: "IPDPS", value: 1987},
       {name: "IROS", value: 1988},
       {name: "ISCA", value: 1973},
+      {name: "ISMB", value: 1997},
       {name: "ISSTA", value: 1993},
       {name: "KDD", value: 1994},
       {name: "LICS", value: 1986},
