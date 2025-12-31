@@ -27734,6 +27734,42 @@
             "num_acc": 30,
             "num_sub": 90
           }
+        },
+        {
+          "year": 2003,
+          "ordinal": "11th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 22,
+            "num_sub": 82
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "10th",
+          "location": "McLean, USA",
+          "main_track": {
+            "num_acc": 28,
+            "num_sub": 81
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "9th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 93
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "6th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 53
+          }
         }
       ]
     },

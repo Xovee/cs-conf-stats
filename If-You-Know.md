@@ -473,6 +473,12 @@ First, we need **ALL** new stats in the upcoming years.
 - SIGGRAPH 1975
 - SIGGRAPH 1974
 
+
+## SIGIR
+
+- SIGIR 2000
+- Before 1999
+
 ## SIGMETRICS
 
 - SIGMETRICS 1994
@@ -502,10 +508,16 @@ First, we need **ALL** new stats in the upcoming years.
 - SIGMOD 1985
 - Before 1981
 
-## SIGIR
+## SIGSPATIAL
 
-- SIGIR 2000
-- Before 1999
+- SIGSPATIAL 2000
+- SIGSPATIAL 1999
+- SIGSPATIAL 1997
+- SIGSPATIAL 1996
+- SIGSPATIAL 1995
+- SIGSPATIAL 1994
+- SIGSPATIAL 1993
+
 
 ## SODA
 
