@@ -27853,6 +27853,69 @@
             "num_acc": 69,
             "num_sub": 363
           }
+        },
+        {
+          "year": 2018,
+          "ordinal": "26th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 65,
+            "num_sub": 324
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "25th",
+          "location": "Prague, Czech Republic",
+          "main_track": {
+            "num_acc": 45,
+            "num_sub": 279
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "24th",
+          "location": "Orlando, USA",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 188
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "23rd",
+          "location": "Dublin, Ireland",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 241
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "22nd",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 171
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "21st",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 233
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "20th",
+          "location": "Long Beach, California, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 268
+          }
         }
       ]
     },
