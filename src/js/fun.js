@@ -697,7 +697,6 @@ function renderCity(cityData) {
         return `<div>${cityName}: ${params.value}<br><div style="overflow:hidden;">${columns}</div></div>`;
       }
     },
-    grid: { containLabel: true },
     visualMap: {
       type: 'continuous',
       id: 'viz-city',
@@ -792,7 +791,6 @@ function renderCountry(countryData) {
         }
       }
     },
-    grid: { containLabel: true },
     visualMap: {
       type: 'continuous',
       min: minCountryValue,
@@ -943,7 +941,9 @@ function renderScatter(dataPoints, uniqueConfs) {
     // New gradient-friendly neutrals
     '#495867', '#577399', '#BDD5EA', '#F7F7FF', '#FE5F55',
     '#3A405A', '#5E6472', '#AEC5EB', '#E9AFA3', '#685044'
-]
+  ]
+
+  const isMobile = window.innerWidth <= 768;
 
   const scatterOption = {
     color: customColors,
@@ -985,7 +985,9 @@ function renderScatter(dataPoints, uniqueConfs) {
         }
       }
     },
-    grid: { containLabel: true,  top: 250},
+    grid: { 
+      top: isMobile ? 500 : 250
+    },
     xAxis: {
       name: 'Acceptance Rate',
       nameTextStyle: {
@@ -1067,7 +1069,6 @@ function renderPicky(accRate) {
         return `${params[0].name}: ${params[0].value.toFixed(2)}%`
       }
     },
-    grid: { containLabel: true },
     visualMap: {
       type: 'continuous',
       min: minPickyValue,
@@ -1162,7 +1163,6 @@ function renderPickySingle(pickySingle) {
         }
       }
     },
-    grid: { containLabel: true },
     visualMap: {
       type: 'continuous',
       min: minPickySingleValue,
@@ -1257,7 +1257,6 @@ function renderGenerous(accRate) {
         }
       }
     },
-    grid: { containLabel: true },
     visualMap: {
       type: 'continuous',
       min: minGenerousValue,
@@ -1341,7 +1340,6 @@ function renderLarge(numAcc) {
         }
       }
     },
-    grid: { containLabel: true },
     visualMap: {
       type: 'continuous',
       min: minLargeValue,
@@ -1419,7 +1417,6 @@ function renderSmall(numYearlyAcc) {
         return `${params[0].name}: Yearly ${params[0].value.toFixed(0)} papers.`
       }
     },
-    grid: { containLabel: true },
     visualMap: {
       type: 'continuous',
       min: minSmallValue,
@@ -1509,7 +1506,6 @@ function renderOld(data) {
         return `${params[0].name}: Started in ${params[0].value}.`
       }
     },
-    grid: { containLabel: true },
     visualMap: {
       type: 'continuous',
       min: minSmallValue,
@@ -1599,7 +1595,6 @@ function renderYoung(data) {
         return `${params[0].name}: Started in ${params[0].value}.`
       }
     },
-    grid: { containLabel: true },
     visualMap: {
       type: 'continuous',
       min: minSmallValue,
