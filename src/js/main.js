@@ -308,6 +308,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
             dataZoom.startValue = 100000;
           }
 
+          option.grid = {
+            left: '10%'
+          }
+
           option.xAxis = [
             {
               type: 'category',
