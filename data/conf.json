@@ -807,6 +807,16 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "34th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 1023,
+            "num_sub": 5806
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "33rd",
           "location": "Jeju, Korea",
@@ -8120,6 +8130,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "58th",
+          "location": "Coimbra, Portugal",
+          "main_track": {
+            "num_acc": 74,
+            "num_sub": 460
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "57th",
           "location": "Sydney, Australia",
@@ -8418,6 +8437,15 @@
         "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "31st",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 76,
+            "num_sub": 587
+          }
+        },
         {
           "year": 2024,
           "ordinal": "30th",
@@ -28086,6 +28114,89 @@
           "main_track": {
             "num_acc": 52,
             "num_sub": 69
+          }
+        }
+      ]
+    },
+    {
+      "series": "RECOMB",
+      "discipline": "Interdisc",
+      "metadata": {
+        "series_full_title": "Annual International Conference on Research in Computational Molecular Biology",
+        "main_discipline": [
+          "Computational Molecular Biology", "Aglorithmic Genomics", "Theoretical Bioinformatics"
+        ],
+        "other_discipline": [
+          "Sequence Analysis & Alignment", "Genome Assembly & Variant Calling", "Phylogenetics & Evolutionary Modeling", "Structural Bioinformatics", "Protein Modeling", "Single-cell & Transcriptomic Data Analysis"
+        ],
+        "parent_org": "RECOMB Steering Committee",
+        "website": "https://recomb.org/",
+        "proceedings": "https://link.springer.com/conference/recomb",
+        "second_track_name": "",
+        "note": "The long paper acceptance rate is extremely low (around ~5%), therefore I combined the data of long and short papers."
+      },
+      "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "29th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 55,
+            "num_sub": 339
+          }
+        },
+        {
+          "year": 2024,
+          "ordinal": "28th",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 57,
+            "num_sub": 352
+          }
+        },
+        {
+          "year": 2023,
+          "ordinal": "27th",
+          "location": "Istanbul, Turkey",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 188
+          }
+        },
+        {
+          "year": 2022,
+          "ordinal": "26th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 188
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "25th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 195
+          }
+        },
+        {
+          "year": 2020,
+          "ordinal": "24th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 206
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "23rd",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 37,
+            "num_sub": 175
           }
         }
       ]

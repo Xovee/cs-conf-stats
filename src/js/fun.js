@@ -336,6 +336,7 @@ fetch('/data/conf.json')
       {name: "PODS", value: 1982},
       {name: "POPL", value: 1973},
       {name: "PPoPP", value: 1988},
+      {name: "RECOMB", value: 1997},
       {name: "RSS", value: 2005},
       {name: "RTAS", value: 1995},
       {name: "RTSS", value: 1980},
