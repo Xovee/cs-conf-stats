@@ -28198,6 +28198,69 @@
             "num_acc": 37,
             "num_sub": 175
           }
+        },
+        {
+          "year": 2018,
+          "ordinal": "22nd",
+          "location": "Paris, France",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 193
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "21st",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 184
+          }
+        },
+        {
+          "year": 2016,
+          "ordinal": "20th",
+          "location": "Santa Monica, California, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 172
+          }
+        },
+        {
+          "year": 2015,
+          "ordinal": "19th",
+          "location": "Warsaw, Poland",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 170
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "18th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 154
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "17th",
+          "location": "Beijing, China",
+          "main_track": {
+            "num_acc": 32,
+            "num_sub": 167
+          }
+        },
+        {
+          "year": 2012,
+          "ordinal": "16th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 31,
+            "num_sub": 200
+          }
         }
       ]
     },
