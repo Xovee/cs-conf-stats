@@ -2146,6 +2146,16 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "41st",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 300,
+            "num_sub": 1518
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "40th",
           "location": "Utrecht, The Netherlands",
@@ -2535,6 +2545,16 @@
         "note": "The PODS conference has been held yearly since 1982, and has been held jointly with ACM SIGMOD conference since 1991."
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "44th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 45,
+            "num_sub": 127
+          }
+        },
         {
           "year": 2024,
           "ordinal": "43rd",
@@ -3324,6 +3344,21 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "34th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 443,
+            "num_sub": 1627
+          },
+          "second_track": {
+            "track_name": "Short Research Track",
+            "num_acc": 185,
+            "num_sub": 604
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "33rd",
           "location": "Boise, Idaho, USA",
@@ -3647,6 +3682,16 @@
         "proceedings": "https://dl.acm.org/journal/pacmmod"
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "51th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 250,
+            "num_sub": 1008
+          }
+        },
         {
           "year": 2024,
           "ordinal": "50th",
@@ -4036,6 +4081,16 @@
         "second_track_name": "Short Paper Track"
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "33rd",
+          "location": "Dublin, Ireland",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 1250,
+            "num_sub": 5330
+          }
+        },
         {
           "year": 2024,
           "ordinal": "32nd",
@@ -5005,6 +5060,16 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "18th",
+          "location": "Hannover, Germany",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 106,
+            "num_sub": 606
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "17th",
           "location": "Merida, Mexico",
@@ -5196,6 +5261,17 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "25th",
+          "location": "Alexandria, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 61,
+            "num_sub": 228
+          },
+          "note": "Source: https://allenjack.github.io/pages/publication.html"
+        },
+        {
           "year": 2024,
           "ordinal": "24th",
           "location": "Houston, USA",
@@ -5366,6 +5442,21 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "47th",
+          "location": "Lucca, Italy",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 52,
+            "num_sub": 226
+          },
+          "second_track": {
+            "num_acc": 42,
+            "num_sub": 162
+          },
+          "note": "Estimated num of sub."
+        },
         {
           "year": 2024,
           "ordinal": "46th",
@@ -6024,6 +6115,19 @@
         "note": "Wow! This conference has complete data! 🏆"
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "15th",
+          "location": "Chicago, USA",
+          "main_track": {
+            "num_acc": 221,
+            "num_sub": 515
+          },
+          "second_track": {
+            "num_acc": 35,
+            "num_sub": 81
+          }
+        },
         {
           "year": 2024,
           "ordinal": "14th",
