@@ -353,13 +353,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
               itemStyle: {
                 color: '#F08300',
                 borderColor: '#222',
-                borderWidth: 3
+                borderWidth: 1
               },
               emphasis: {
                 scale: true
               },
               lineStyle: {
-                width: 3
+                width: 2
               }
             }
           ];

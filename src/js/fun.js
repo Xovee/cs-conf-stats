@@ -577,7 +577,7 @@ function renderYearly(years, submissions, acceptances, rateYearly) {
         itemStyle: {
           color: '#f08300',
           borderColor: '#222',
-          borderWidth: 3
+          borderWidth: 1
         },
         tooltip: {
           valueFormatter: value => value.toFixed(2) + '%'
@@ -586,7 +586,7 @@ function renderYearly(years, submissions, acceptances, rateYearly) {
           scale: true
         },
         lineStyle: {
-          width: 3
+          width: 2
         }
       }
     ],
@@ -673,8 +673,10 @@ function renderWorldMap(countryCount) {
 }
 
 function renderCity(cityData) {
-  var minCityValue = Math.min(...cityData.map(item => item.value));
-  var maxCityValue = Math.max(...cityData.map(item => item.value));
+  filteredCityData = cityData.filter(city => city.name !== "Online 🌏");
+
+  var minCityValue = Math.min(...filteredCityData.map(item => item.value));
+  var maxCityValue = Math.max(...filteredCityData.map(item => item.value));
 
   const cityChart = echarts.init(document.getElementById('viz-city'));
   const cityOption = {
@@ -707,6 +709,7 @@ function renderCity(cityData) {
       dimension: 0,
       min: minCityValue,
       max: maxCityValue,
+      orient: 'horizontal',
     },
     toolbox: {
       show: true,
@@ -738,7 +741,7 @@ function renderCity(cityData) {
         fontWeight: 'bold'
       },
       type: 'category',
-      data: cityData.map(city => city.name),
+      data: filteredCityData.map(city => city.name),
       inverse: true,
       axisLabel: {
         fontSize: 16,
@@ -749,7 +752,7 @@ function renderCity(cityData) {
       {
         name: "City Frequency",
         type: 'bar',
-        data: cityData.map(city => ({
+        data: filteredCityData.map(city => ({
           value: city.value,
           conferences: city.conferences
         })),
@@ -798,6 +801,7 @@ function renderCountry(countryData) {
       max: maxCountryValue,
       inRange: {color: ['#00409830', '#004098']},
       dimension: 0,
+      orient: 'horizontal',
       // inverse: true,
     },
     xAxis: {
@@ -1076,6 +1080,7 @@ function renderPicky(accRate) {
       max: maxPickyValue,
       inRange: {color: ['#004098', '#00409830']},
       dimension: 0,
+      orient: 'horizontal',
       // inverse: true,
     },
     toolbox: {
@@ -1170,6 +1175,7 @@ function renderPickySingle(pickySingle) {
       max: maxPickySingleValueXovee,
       inRange: {color: ['#004098', '#00409830']},
       dimension: 0,
+      orient: 'horizontal',
       // inverse: true,
     },
     xAxis: {
@@ -1264,6 +1270,7 @@ function renderGenerous(accRate) {
       max: maxGenerousValue,
       inRange: {color: ['#00409830', '#004098']},
       dimension: 0,
+      orient: 'horizontal',
     },
     xAxis: {
       name: 'Average Acceptance Rate',
@@ -1347,6 +1354,7 @@ function renderLarge(numAcc) {
       max: maxLargeValue,
       inRange: {color: ['#00409830', '#004098']},
       dimension: 0,
+      orient: 'horizontal',
     },
     xAxis: {
       name: 'Total Accepted Papers',
@@ -1424,6 +1432,7 @@ function renderSmall(numYearlyAcc) {
       max: maxSmallValue,
       inRange: {color: ['#004098', '#00409830']},
       dimension: 0,
+      orient: 'horizontal',
     },
     toolbox: {
       show: true,
@@ -1513,6 +1522,7 @@ function renderOld(data) {
       max: maxSmallValue,
       inRange: {color: ['#004098', '#00409830']},
       dimension: 0,
+      orient: 'horizontal',
     },
     toolbox: {
       show: true,
@@ -1602,6 +1612,7 @@ function renderYoung(data) {
       max: maxSmallValue,
       inRange: {color: ['#00409830', '#004098']},
       dimension: 0,
+      orient: 'horizontal',
     },
     toolbox: {
       show: true,
