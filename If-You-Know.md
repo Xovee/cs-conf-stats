@@ -20,6 +20,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## AISTATS
 
+- AISTATS 2025
 - AISTATS 2022-2023
 - AISTATS 2020
 - AISTATS 2013
@@ -78,6 +79,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## COLT
 
+- COLT 2025
 - COLT 2011
 - COLT 2009
 - COLT 2000
@@ -568,6 +570,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## UAI
 
+- UAI 2025
 - UAI 2010
 - Before 1992
 

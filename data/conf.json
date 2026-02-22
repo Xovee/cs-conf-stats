@@ -8841,6 +8841,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "23rd",
+          "location": "Anaheim, California, USA",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 233
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "22nd",
           "location": "Tokyo, Japan",
@@ -10760,6 +10769,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "29th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 177,
+            "num_sub": 912
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "29th",
           "location": "San Diego, California, USA",
@@ -11031,6 +11049,16 @@
         "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "31st",
+          "location": "Las Vegas, USA",
+          "main_track": {
+            "num_acc": 121,
+            "num_sub": 534
+          },
+          "note": "Include 5 industry track and 3 letter papers."
+        },
         {
           "year": 2024,
           "ordinal": "30th",
@@ -11326,6 +11354,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "52nd",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 132,
+            "num_sub": 570
+          }
+        },
         {
           "year": 2024,
           "ordinal": "51st",
