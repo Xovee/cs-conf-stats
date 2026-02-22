@@ -28429,6 +28429,51 @@
             "num_acc": 39,
             "num_sub": 217
           }
+        },
+        {
+          "year": 2004,
+          "ordinal": "8th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 215
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "7th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 175
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "6th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 118
+          }
+        },
+        {
+          "year": 2001,
+          "ordinal": "5th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 128
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "1st",
+          "location": "Santa Fe, USA",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 117
+          }
         }
       ]
     },
