@@ -1719,7 +1719,8 @@
         "parent_org": "European Computer Vision Association",
         "website": ["https://www.ecva.net/index.php"],
         "proceedings": "https://link.springer.com/conference/eccv",
-        "note": "Wow! This conference's data are complete! 🏆"
+        "note": "Wow! This conference's data are complete! 🏆",
+        "data": "skip"
       },
       "yearly_data": [
         {
@@ -4409,8 +4410,18 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "25th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 175,
+            "num_sub": 750
+          }
+        },
+        {
           "year": 2024,
-          "ordinal": "24rd",
+          "ordinal": "24th",
           "location": "Abu Dhabi, UAE",
           "main_track": {
             "track_name": "Research Track",
@@ -12162,6 +12173,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "32nd",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 316,
+            "num_sub": 2186
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "31st",
           "location": "Salt Lake City, USA",
@@ -12462,6 +12482,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "46th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 257,
+            "num_sub": 1740
+          }
+        },
         {
           "year": 2024,
           "ordinal": "45th",
@@ -12854,6 +12883,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "34th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 407,
+            "num_sub": 2385
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "33rd",
           "location": "Philadelphia, USA",
@@ -13117,6 +13155,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "32nd",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 211,
+            "num_sub": 1311
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "31st",
           "location": "San Diego, California, USA",
@@ -13297,6 +13344,15 @@
         "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "31st",
+          "location": "Melbourne, Australia",
+          "main_track": {
+            "num_acc": 143,
+            "num_sub": 533
+          }
+        },
         {
           "year": 2024,
           "ordinal": "30th",
@@ -13587,6 +13643,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "45th",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "num_acc": 156,
+            "num_sub": 643
+          }
+        },
         {
           "year": 2024,
           "ordinal": "44th",
@@ -13940,6 +14005,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "44th",
+          "location": "Madrid, Spain",
+          "main_track": {
+            "num_acc": 123,
+            "num_sub": 602
+          }
+        },
         {
           "year": 2024,
           "ordinal": "43rd",

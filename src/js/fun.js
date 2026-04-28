@@ -45,7 +45,7 @@ function countryToCode(countryName) {
   return countries[countryName] || 'Unknown';
 }
 
-fetch('/data/conf.json')
+fetch('./data/conf.json')
   .then(response => response.json())
   .then(data => {
 
@@ -56,7 +56,6 @@ fetch('/data/conf.json')
     const yearlyCounts = {};
     const disciplineCounts = {};
     const singleConfs = [];
-    const singleConfsScatter = [];
     
     // Cache DOM references to avoid repeated queries
     const domCache = {
@@ -186,20 +185,20 @@ fetch('/data/conf.json')
       return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
 
-    const numVenues = Object.keys(seriesAccRates).length - 1;  // remove the template conf entry
+    const numVenues = Object.keys(seriesAccRates).length;
     const numConfs = singleConfs.length;
     const numTotalAcc = singleConfs.reduce((sum, conf) => sum + conf.acc, 0);
     const numTotalSub = singleConfs.reduce((sum, conf) => sum + conf.sub, 0);
     const avgAccRateViz = (numTotalAcc / numTotalSub) * 100;
     const numTotalCountry = Object.keys(countryCount).length;
     const numTotalCity = Object.keys(cityCount).length;
-    const [popCountry, popCountryVal] = Object.entries(countryCount)
+    const cityEntries = Object.entries(cityCount).sort((a, b) => b[1] - a[1]);
+    const [popCountry] = Object.entries(countryCount)
         .sort((a, b) => b[1] - a[1])[0];
-    const [popuCity, popCityVal] = Object.entries(cityCount)
-        .sort((a, b) => b[1] - a[1])[1];
-    const [popDiscipline, popDisciplineVal] = Object.entries(disciplineCounts)
+    const [popuCity] = cityEntries.find(([city]) => !city.startsWith('Online ')) || cityEntries[0];
+    const [popDiscipline] = Object.entries(disciplineCounts)
         .sort((a, b) => b[1] - a[1])[0];
-    const [popConfName, popConfVal] = Object.entries(seriesAccRates)
+    const [popConfName] = Object.entries(seriesAccRates)
         .sort((a, b) => b[1].totalSub - a[1].totalSub)[0];
     const popSingleConf = singleConfs.slice().sort((a, b) => b.acc - a.acc)[0];
     const mostSelective = singleConfs.slice().sort((a, b) => a.rate - b.rate)[0];
@@ -220,7 +219,7 @@ fetch('/data/conf.json')
     domCache.selectiveEvent.textContent = `${mostSelective.name} (${mostSelective.rate.toFixed(1)}%)`;
 
     // for yearly counting
-    const years = Object.keys(yearlyCounts).sort();
+    const years = Object.keys(yearlyCounts).sort((a, b) => Number(a) - Number(b));
     const submissions = years.map(year => yearlyCounts[year].totalSub);
     const acceptances = years.map(year => yearlyCounts[year].totalAcc);
     const rateYearly = years.map(year => (yearlyCounts[year].totalSub > 0 ? (yearlyCounts[year].totalAcc / yearlyCounts[year].totalSub) * 100 : 0));
@@ -235,8 +234,6 @@ fetch('/data/conf.json')
       name: country,
       value: countryCount[country]
     })).sort((a, b) => b.value - a.value)
-
-    console.log(sortedCountryData);
 
     const countryData = sortedCountryData.slice(0, 20);
     const remainingCountrySum = sortedCountryData.slice(20).reduce((sum, { value }) => sum + value, 0);
@@ -399,9 +396,12 @@ fetch('/data/conf.json')
     ];
     
     window.addEventListener('resize', debounce(() => {
-      allCharts.forEach(chart => chart.resize());
+      allCharts.filter(Boolean).forEach(chart => chart.resize());
     }, 250));
 
+  })
+  .catch(error => {
+    console.error('Failed to load visualization data:', error);
   });
 
 function renderDiscipline(disciplineCounts) {
@@ -623,60 +623,11 @@ function renderYearly(years, submissions, acceptances, rateYearly) {
   return yearlyChart;
 }
 
-function renderWorldMap(countryCount) {
-  google.charts.load('current', {
-    'packages':['geochart'],
-  });
-  google.charts.setOnLoadCallback(() => drawRegionsMap(countryCount));
-
-  function drawRegionsMap(countryCount) {
-    const countryData = {};
-    for (const [countryWithFlag, count] of Object.entries(countryCount)) {
-      const parts = countryWithFlag.split(' ');
-      const flag = parts.pop();
-      const countryName = parts.join(' ');
-      const countryCode = countryName;
-
-      if (countryCode != 'Unknown' && countryCode != 'Online') {
-        countryData[countryCode] = (countryData[countryCode] || 0) + count;
-      }
-    }
-
-    const chartData = [['Country', 'Frequency']];
-    Object.entries(countryData).forEach(([code, count]) => {
-      chartData.push([code, count]);
-    });
-
-    chartData.push(['Taiwan', countryData['China']]);
-    chartData.push(['North Korea', countryData['Korea']]);
-    chartData.push(['South Korea', countryData['Korea']]);
-    chartData.push(['United Kingdom', countryData['UK']]);
-    chartData.push(['Netherlands', countryData['UK']]);
-    chartData.push(['Czech', countryData['Czech Republic']]);
-    chartData.push(['AE', countryData['UAE']]);
-    chartData.push(['US', countryData['USA']]);
-
-    const data = google.visualization.arrayToDataTable(chartData);
-
-    const options = {
-      backgroundColor: {
-        fill: "rgb(243,244,246)",
-      },
-      colorAxis: {values: [1, 60, 140, 2000], colors: ['#e5ebf4', '#004098', '#00204c', '#000']},
-      domain: 'CN',
-    };
-
-    const chart = new google.visualization.GeoChart(document.getElementById('country-map'));
-
-    chart.draw(data, options);
-  }
-}
-
 function renderCity(cityData) {
-  filteredCityData = cityData.filter(city => city.name !== "Online 🌏");
+  const filteredCityData = cityData.filter(city => city.name !== "Online 🌏");
 
-  var minCityValue = Math.min(...filteredCityData.map(item => item.value));
-  var maxCityValue = Math.max(...filteredCityData.map(item => item.value));
+  const minCityValue = Math.min(...filteredCityData.map(item => item.value));
+  const maxCityValue = Math.max(...filteredCityData.map(item => item.value));
 
   const cityChart = echarts.init(document.getElementById('viz-city'));
   const cityOption = {

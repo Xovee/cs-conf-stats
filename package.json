@@ -1,4 +1,12 @@
 {
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./output.css",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./output.css --watch",
+    "check:js": "node --check ./src/js/main.js && node --check ./src/js/fun.js",
+    "check:data": "node ./scripts/check-data.js",
+    "check": "npm run check:js && npm run check:data"
+  },
   "overrides": {
     "minimatch": "^10.2.3",
     "picomatch": "^2.3.2",

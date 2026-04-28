@@ -86,6 +86,7 @@ Number of submissions and number of accepted papers for the following conference
 1. OSDI: USENIX Symposium on Operating Systems Design and Implementation. 
 1. PLDI: ACM SIGPLAN Conference on Programming Language Design and Implementation.
 1. PODS: ACM Symposium on Principles of Database Systems.
+1. SIGMOD: ACM SIGMOD/PODS International Conference on Management of Data.
 1. POPL: ACM SIGPLAN Symposium on Principles of Programming Languages.
 1. PPoPP: ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming.
 1. RECOMB: Annual International Conference on Research in Computational Molecular Biology. 
@@ -100,7 +101,7 @@ Number of submissions and number of accepted papers for the following conference
 1. SIGGRAPH Asia: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia. 
 1. SIGIR: International ACM SIGIR Conference on Research and Development in Information Retrieval.
 1. SIGMETRICS: ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems.
-1. SIGKDD: ACM SIGKDD Conference on Knowledge Discovery and Data Mining.
+1. KDD: ACM SIGKDD Conference on Knowledge Discovery and Data Mining.
 1. SIGSPATIAL: ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems.
 1. SODA: ACM-SIAM Symposium on Discrete Algorithms. 
 1. SOSP: Symposium on Operating Systems Principles.
@@ -126,11 +127,43 @@ If you know some stats of the conferences [listed here](./If-You-Know.md), you c
 
 [Some events](./Need-Check.md) need further check (e.g., when proceedings are published). 
 
-## CSS Compile
+## CSS Build
 
-Using `tailwindcss` and `npm`:
+Build the generated stylesheet:
 ```shell
-npx tailwindcss -i ./src/input.css -o output.css --watch
+npm run build:css
+```
+
+Watch during local development:
+```shell
+npm run watch:css
+```
+
+## Updating Data
+
+After editing `data/conf.json`, run:
+```shell
+npm run check
+```
+
+Before committing changes, run the full local verification:
+```shell
+npm run build:css
+npm run check
+git diff --check
+```
+
+On Windows PowerShell, if `npm` is blocked by the execution policy, use `npm.cmd` instead:
+```shell
+npm.cmd run build:css
+npm.cmd run check
+```
+
+## Quality Checks
+
+Run JavaScript syntax checks plus data/page consistency checks:
+```shell
+npm run check
 ```
 
 ## Discuss

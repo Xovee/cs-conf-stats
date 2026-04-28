@@ -14,6 +14,57 @@ document.addEventListener('DOMContentLoaded', (event) => {
   const dropdowns = document.querySelectorAll('select');
   const curConfSelection = document.getElementById('cur-conf');
   const loadingMessage = document.getElementById("loadingMessage");
+  const plotArea = document.getElementById('plot-area');
+  let confPlot = null;
+
+  function escapeHTML(value) {
+    return String(value ?? '').replace(/[&<>"']/g, char => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#39;'
+    }[char]));
+  }
+
+  function asArray(value) {
+    if (Array.isArray(value)) {
+      return value;
+    }
+    if (value === undefined || value === null || value === '') {
+      return [];
+    }
+    return [value];
+  }
+
+  function renderTags(values, className) {
+    return asArray(values)
+      .map(value => `<span class="${className}">${escapeHTML(value)}</span>`)
+      .join("");
+  }
+
+  function renderTextValue(value) {
+    return escapeHTML(asArray(value).join(", "));
+  }
+
+  function renderLinks(value) {
+    const rawValue = asArray(value).join(" ");
+    const urls = Array.from(new Set(rawValue.match(/https?:\/\/[^\s"'<>]+/g) || []));
+
+    if (urls.length === 0) {
+      return escapeHTML(rawValue.replace(/<[^>]+>/g, ''));
+    }
+
+    return urls
+      .map(url => `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(url)}</a>`)
+      .join("<br>");
+  }
+
+  window.addEventListener('resize', debounce(() => {
+    if (confPlot) {
+      confPlot.resize();
+    }
+  }, 250));
 
   // helper to update URL
   function updateUrl(conference) {
@@ -41,7 +92,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
 
   // display conf stats
-  fetch('/data/conf.json')
+  fetch('./data/conf.json')
     .then(response => response.json())
     .then(data => {
       dropdowns.forEach(dropdown => {
@@ -50,7 +101,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
       loadingMessage.classList.add('hidden');
 
       const dropdownAll = document.getElementById('dropdown-all');
-      dropdownAll.innerHTML = `<option value="" selected disabled></option>`;
+      dropdownAll.replaceChildren(new Option('', '', true, true));
+      dropdownAll.options[0].disabled = true;
 
       const sortedConferences = data.conferences
         .filter(c => c.series !== 'Template')
@@ -68,21 +120,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const conference = data.conferences.find(c => c.series === conferenceSeries);
 
         if (!conference) {
-          statsDiv.innerHTML = `<p>No data available for ${conferenceSeries}</p>`;
+          statsDiv.innerHTML = `<p>No data available for ${escapeHTML(conferenceSeries)}</p>`;
           return;
         }
 
-        const main_discipline = conference.metadata.main_discipline.map(discipline => `
-        <span class="card-tag">${discipline}</span>
-        `).join("");
-        const other_discipline = conference.metadata.other_discipline.map(discipline => `
-        <span class="card-tag-2">${discipline}</span>
-        `).join("");
+        const main_discipline = renderTags(conference.metadata.main_discipline, 'card-tag');
+        const other_discipline = renderTags(conference.metadata.other_discipline, 'card-tag-2');
 
         let cards = `
           <div class="conf-card">
-            <div class="conf-card-title">${conference.series}</div>
-            <div class="conf-card-desc">${conference.metadata.series_full_title}</div>
+            <div class="conf-card-title">${escapeHTML(conference.series)}</div>
+            <div class="conf-card-desc">${escapeHTML(conference.metadata.series_full_title)}</div>
           </div>
         `;
 
@@ -108,7 +156,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           cards += `
             <div class="conf-card">
               <div class="conf-card-title">Parent Organization</div>
-              <div class="conf-card-desc">${conference.metadata.parent_org}</div>
+              <div class="conf-card-desc">${renderTextValue(conference.metadata.parent_org)}</div>
             </div>
           `;
         }
@@ -117,7 +165,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           cards += `
             <div class="conf-card">
               <div class="conf-card-title">Website</div>
-              <div class="conf-card-desc"><a href="${conference.metadata.website}" target="_blank">${conference.metadata.website}</a></div>
+              <div class="conf-card-desc">${renderLinks(conference.metadata.website)}</div>
             </div>
           `;
         }
@@ -126,7 +174,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           cards += `
             <div class="conf-card">
               <div class="conf-card-title">Proceedings</div>
-              <div class="conf-card-desc"><a href="${conference.metadata.proceedings}" target="_blank">${conference.metadata.proceedings}</a></div>
+              <div class="conf-card-desc">${renderLinks(conference.metadata.proceedings)}</div>
             </div>
           `;
         }
@@ -160,7 +208,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           }));
         }
 
-        const sortedMainTrackData = mainTrackData.sort((a, b) => b.year - a.year);
+        const sortedMainTrackData = mainTrackData.slice().sort((a, b) => b.year - a.year);
         const yearsToConsider = Math.min(sortedMainTrackData.length, 5);
         const recentYearsData = sortedMainTrackData.slice(0, yearsToConsider);
         const recentAccRate = recentYearsData.reduce((acc, d) => acc + d.acc_rate, 0) / recentYearsData.length;
@@ -169,7 +217,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           cards += `
             <div class="conf-card">
               <div class="conf-card-title">Acceptance Rate</div>
-              <div class="conf-card-desc">Average acceptance rate in recent ${yearsToConsider} confrences: ${recentAccRate.toFixed(2)}%</div>
+              <div class="conf-card-desc">Average acceptance rate in recent ${yearsToConsider} conferences: ${recentAccRate.toFixed(2)}%</div>
             </div>
           `;
         }
@@ -178,16 +226,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
           cards += `
             <div class="conf-card">
               <div class="conf-card-title">Note</div>
-              <div class="conf-card-desc">${conference.metadata.note}</div>
+              <div class="conf-card-desc">${escapeHTML(conference.metadata.note)}</div>
             </div>
           `;
         }
 
         statsDiv.innerHTML = cards;
 
-        const confPlot = echarts.init(document.getElementById('plot-area'));
+        if (!confPlot) {
+          confPlot = echarts.init(plotArea);
+        }
 
-        const isMobile = window.innerWidth <= 768;
         const dataZoom = {
           show: false,
           id: 'dataZoomX',
@@ -198,6 +247,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
           zoomLock: true,
           brushSelect: false
         };
+
+        let currentTrack = 'mainTrack';
 
         const option = {
           dataZoom: dataZoom,
@@ -264,19 +315,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
               return `<div class="text-left">
                   <div class="flex justify-between">
                     <span>Year: </span>
-                    <span class="ml-2 text-uestc_orange">${year} (${ordinal})</span>
+                    <span class="ml-2 text-uestc_orange">${escapeHTML(year)} (${escapeHTML(ordinal)})</span>
                   </div>
                   <div class="flex justify-between">
                       <span>Number of Accepted: </span>
-                      <span class="ml-2 text-uestc_orange">${numAcc}</span>
+                      <span class="ml-2 text-uestc_orange">${escapeHTML(numAcc)}</span>
                   </div>
                   <div class="flex justify-between">
                       <span>Number of Rejected: </span>
-                      <span class="ml-2 text-uestc_orange">${numRej}</span>
+                      <span class="ml-2 text-uestc_orange">${escapeHTML(numRej)}</span>
                   </div>
                   <div class="flex justify-between">
                       <span>Number of Submissions: </span>
-                      <span class="ml-2 text-uestc_orange">${numSub}</span>
+                      <span class="ml-2 text-uestc_orange">${escapeHTML(numSub)}</span>
                   </div>
                   <div class="flex justify-between">
                       <span>Acceptance Rate: </span>
@@ -284,11 +335,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
                   </div>
                   <div class="flex justify-between">
                       <span>Conference Location: </span>
-                      <span class="ml-2 text-uestc_orange">${location}</span>
+                      <span class="ml-2 text-uestc_orange">${escapeHTML(location)}</span>
                   </div>
                   ${note ? `<div class="flex justify-between">
                       <span>Note: </span>
-                      <span class="ml-2 text-uestc_orange">${note}</span>
+                      <span class="ml-2 text-uestc_orange">${escapeHTML(note)}</span>
                   </div>` : ''}
               </div>`
             }
@@ -297,10 +348,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
         function updateChart(trackData, title) {
 
-          if (isMobile && trackData.length > 10) {
+          const isNarrowViewport = window.innerWidth <= 768;
+
+          if (isNarrowViewport && trackData.length > 10) {
             dataZoom.show = true;
             dataZoom.startValue = 10;
-          } else if (!isMobile && trackData.length >= 30) {
+          } else if (!isNarrowViewport && trackData.length >= 30) {
             dataZoom.show = true;
             dataZoom.startValue = 30;
           } else {
@@ -364,7 +417,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             }
           ];
 
-          confPlot.setOption(option);
+          confPlot.setOption(option, true);
         }
 
         updateChart(mainTrackData, "Research Track")
@@ -379,27 +432,25 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
         if (secondTrackName) {
           trackButtons.innerHTML = `
-            <label class=""><input type="radio" name="track" value="mainTrack" onclick="showTrack('mainTrack')" checked><span class="mx-2">Research Track</span></label>
-            <label class=""><input type="radio" name="track" value="secondTrack" onclick="showTrack('secondTrack')"><span class="mx-2">${secondTrackName}</span></label>
+            <label class=""><input type="radio" name="track" value="mainTrack" checked><span class="mx-2">Research Track</span></label>
+            <label class=""><input type="radio" name="track" value="secondTrack"><span class="mx-2">${escapeHTML(secondTrackName)}</span></label>
             `;
         } else {
           trackButtons.innerHTML = '';
         }
 
-        let currentTrack = 'mainTrack';
-
-        window.showTrack = function(track) {
+        function showTrack(track) {
           currentTrack = track;
           if (track === 'mainTrack') {
             updateChart(mainTrackData, "Research Track");
           } else {
             updateChart(secondTrackData, secondTrackName);
           }
-        };
+        }
 
-        window.addEventListener('resize', debounce(() => {
-          confPlot.resize();
-        }, 250));
+        trackButtons.querySelectorAll('input[name="track"]').forEach(input => {
+          input.addEventListener('change', event => showTrack(event.target.value));
+        });
       }
 
       window.displayConfMetadata = displayConfMetadata;
@@ -409,7 +460,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         curConfSelection.textContent = selectedValue;
 
         dropdowns.forEach(dropdown => {
-          if (dropdown !== 'dropdown-all') {
+          if (dropdown.id !== 'dropdown-all') {
             dropdown.value = "";
           }
         });
@@ -445,6 +496,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
       } else {
         displayConfMetadata(curConfSelection.textContent);
       }
+    })
+    .catch(error => {
+      console.error('Failed to load conference data:', error);
+      loadingMessage.textContent = 'Failed to load conference data.';
     });
 
   window.onpopstate = function(event) {
