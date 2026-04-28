@@ -887,6 +887,10 @@ video {
   padding: 1.25rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1194,6 +1198,87 @@ select option {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.seo-list-card {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  padding: 1.5rem;
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 768px) {
+  .seo-list-card {
+    padding: 1.75rem;
+  }
+}
+
+.seo-conference-list {
+  margin-left: 1.5rem;
+  list-style-position: outside;
+  list-style-type: decimal;
+}
+
+.seo-conference-list > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.seo-conference-list {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .seo-conference-list {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.seo-year-list {
+  margin-left: 1.5rem;
+  list-style-position: outside;
+  list-style-type: disc;
+  -moz-columns: 2;
+       columns: 2;
+  gap: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .seo-year-list {
+    -moz-columns: 3;
+         columns: 3;
+  }
+}
+
+@media (min-width: 768px) {
+  .seo-year-list {
+    -moz-columns: 4;
+         columns: 4;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .seo-year-list {
+    -moz-columns: 5;
+         columns: 5;
+  }
+}
+
+.seo-year-list li {
+  margin-bottom: 0.5rem;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
 }
 
 .card-tag, .card-tag-2 {

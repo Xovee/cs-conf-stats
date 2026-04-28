@@ -338,7 +338,9 @@ function renderConferencePage(conference) {
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">More ${escapeHTML(series)} Pages</h2>
-  <p>${events.map(event => `<a href="${yearUrl(conference, event.year)}">${series} ${event.year}</a>`).join(', ')}</p>
+  <ul class="seo-year-list bg-white shadow-md rounded-lg p-6">
+    ${events.map(event => `<li><a href="${yearUrl(conference, event.year)}">${series} ${event.year}</a></li>`).join('\n    ')}
+  </ul>
   <p>Interactive chart: <a href="/?conf=${encodeURIComponent(series)}">${escapeHTML(series)} on the main CS Conf Stats chart</a>.</p>
   ${related ? `<p>Related ${escapeHTML(discipline)} conferences: ${related}.</p>` : ''}
 </section>`;
@@ -495,9 +497,11 @@ function renderConferencesIndex() {
 
     return `<section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">${escapeHTML(discipline)}</h2>
-  <ol class="list-decimal list-outside ml-6 bg-white shadow-md rounded-lg p-5">
+  <div class="seo-list-card">
+    <ol class="seo-conference-list">
 ${links}
-  </ol>
+    </ol>
+  </div>
 </section>`;
   }).join('\n');
 
@@ -557,7 +561,6 @@ ${urls.map(item => `  <url>
 `;
 
   writeFile('sitemap.xml', xml);
-  writeFile('sitemap.txt', `${urls.map(item => item.loc).join('\n')}\n`);
   writeFile('robots.txt', `User-agent: *
 Allow: /
 

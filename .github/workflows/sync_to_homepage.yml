@@ -32,7 +32,7 @@ jobs:
 
       - name: Verify generated assets are current
         run: |
-          git diff --exit-code -- output.css conferences sitemap.xml sitemap.txt robots.txt
+          git diff --exit-code -- output.css conferences sitemap.xml robots.txt
 
       - name: Checkout xoveexu-com@csconfstats
         uses: actions/checkout@v4

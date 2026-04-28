@@ -56,6 +56,22 @@ select option {
     @apply shadow-md rounded-lg px-5 py-4 bg-white min-w-0
 }
 
+.seo-list-card {
+    @apply bg-white shadow-md rounded-lg p-6 md:p-7 overflow-hidden
+}
+
+.seo-conference-list {
+    @apply list-decimal list-outside ml-6 space-y-2 text-base md:text-lg
+}
+
+.seo-year-list {
+    @apply list-disc list-outside ml-6 columns-2 sm:columns-3 md:columns-4 lg:columns-5 gap-8 text-base md:text-lg
+}
+
+.seo-year-list li {
+    @apply break-inside-avoid mb-2
+}
+
 .card-tag, .card-tag-2 {
     @apply inline-flex text-white rounded-lg px-3 py-1.5 text-sm mr-2 mb-2 hover:ring-2 hover:ring-uestc hover:ring-opacity-20 transition duration-300
 }

@@ -174,7 +174,7 @@ The static SEO pages are generated from `data/conf.json`:
 npm run build:seo
 ```
 
-This creates `/conferences/`, one page for each conference, one page for each conference year, `sitemap.xml`, `sitemap.txt`, and `robots.txt`.
+This creates `/conferences/`, one page for each conference, one page for each conference year, `sitemap.xml`, and `robots.txt`.
 
 ## Discuss
 

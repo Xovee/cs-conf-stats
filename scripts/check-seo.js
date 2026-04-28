@@ -81,7 +81,6 @@ function checkPage(page, seenTitles) {
 function checkSitemap(pages) {
   const sitemap = readText('sitemap.xml');
   const robots = readText('robots.txt');
-  const sitemapTxt = readText('sitemap.txt');
 
   if (!sitemap.startsWith('<?xml version="1.0" encoding="UTF-8"?>')) {
     addError('sitemap.xml must be an XML sitemap.');
@@ -103,9 +102,6 @@ function checkSitemap(pages) {
   for (const url of expectedUrls) {
     if (!uniqueSitemapUrls.has(url)) {
       addError(`sitemap.xml is missing ${url}.`);
-    }
-    if (!sitemapTxt.includes(url)) {
-      addError(`sitemap.txt is missing ${url}.`);
     }
   }
 
