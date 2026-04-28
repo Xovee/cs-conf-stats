@@ -570,7 +570,6 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## UAI
 
-- UAI 2025
 - UAI 2010
 - Before 1992
 
