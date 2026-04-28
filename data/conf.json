@@ -10468,6 +10468,16 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "41st",
+          "location": "Rio de Janeiro, Brazil",
+          "main_track": {
+            "num_acc": 230,
+            "num_sub": 750
+          },
+          "note": "750 submissions, data from personal websites' cv"
+        },
+        {
           "year": 2024,
           "ordinal": "40th",
           "location": "Barcelona, Spain",
