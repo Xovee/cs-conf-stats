@@ -127,14 +127,14 @@ If you know some stats of the conferences [listed here](./If-You-Know.md), you c
 
 [Some events](./Need-Check.md) need further check (e.g., when proceedings are published). 
 
-## CSS Build
+## Build
 
-Build the generated stylesheet:
+Build the generated stylesheet and SEO pages:
 ```shell
-npm run build:css
+npm run build
 ```
 
-Watch during local development:
+Watch only the stylesheet during local development:
 ```shell
 npm run watch:css
 ```
@@ -143,28 +143,38 @@ npm run watch:css
 
 After editing `data/conf.json`, run:
 ```shell
+npm run build
 npm run check
 ```
 
 Before committing changes, run the full local verification:
 ```shell
-npm run build:css
+npm run build
 npm run check
 git diff --check
 ```
 
 On Windows PowerShell, if `npm` is blocked by the execution policy, use `npm.cmd` instead:
 ```shell
-npm.cmd run build:css
+npm.cmd run build
 npm.cmd run check
 ```
 
 ## Quality Checks
 
-Run JavaScript syntax checks plus data/page consistency checks:
+Run JavaScript syntax checks plus data/page/SEO consistency checks:
 ```shell
 npm run check
 ```
+
+## SEO Pages
+
+The static SEO pages are generated from `data/conf.json`:
+```shell
+npm run build:seo
+```
+
+This creates `/conferences/`, one page for each conference, one page for each conference year, `sitemap.xml`, `sitemap.txt`, and `robots.txt`.
 
 ## Discuss
 

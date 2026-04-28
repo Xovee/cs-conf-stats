@@ -24,13 +24,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Check source and data
+      - name: Build generated assets
+        run: npm run build
+
+      - name: Check source, data, and generated SEO pages
         run: npm run check
 
-      - name: Verify generated CSS is current
+      - name: Verify generated assets are current
         run: |
-          npm run build:css
-          git diff --exit-code -- output.css
+          git diff --exit-code -- output.css conferences sitemap.xml sitemap.txt robots.txt
 
       - name: Checkout xoveexu-com@csconfstats
         uses: actions/checkout@v4

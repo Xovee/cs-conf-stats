@@ -1,11 +1,14 @@
 {
   "private": true,
   "scripts": {
+    "build": "npm run build:seo && npm run build:css",
     "build:css": "tailwindcss -i ./src/input.css -o ./output.css",
+    "build:seo": "node ./scripts/generate-seo-pages.js",
     "watch:css": "tailwindcss -i ./src/input.css -o ./output.css --watch",
     "check:js": "node --check ./src/js/main.js && node --check ./src/js/fun.js",
     "check:data": "node ./scripts/check-data.js",
-    "check": "npm run check:js && npm run check:data"
+    "check:seo": "node ./scripts/check-seo.js",
+    "check": "npm run check:js && npm run check:data && npm run check:seo"
   },
   "overrides": {
     "minimatch": "^10.2.3",
