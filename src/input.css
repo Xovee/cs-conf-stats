@@ -60,7 +60,7 @@ footer {
 }
 
 .hero-stat-label {
-    @apply mt-1 block break-words text-sm text-gray-600
+    @apply mt-1 block whitespace-nowrap text-sm text-gray-600
 }
 
 .conference-picker {

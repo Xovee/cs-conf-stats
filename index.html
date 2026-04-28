@@ -54,25 +54,25 @@
 </header>
 
 <main class="container mx-auto flex-1 px-4 py-8">
-    <section class="mb-8 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(280px,360px)] lg:items-end">
-        <div>
+    <section class="mb-8">
+        <div class="mb-6">
             <div class="mb-3 text-sm font-semibold uppercase tracking-wide text-uestc_orange">CS Conf Stats</div>
-            <h1 class="mb-4 text-3xl md:text-5xl text-uestc">Computer Science Conference Statistics</h1>
+            <h1 class="text-3xl leading-[1.12] md:text-5xl xl:whitespace-nowrap text-uestc">Computer Science Conference Statistics</h1>
+        </div>
+        <div class="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(300px,360px)] lg:items-end">
+            <div>
             <p class="max-w-3xl text-lg md:text-xl text-gray-600">Explore top-tier CS conference statistics such as acceptance rate and number of submissions.</p>
             <p class="max-w-3xl text-base md:text-lg text-gray-600">Created and maintained by <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">Xovee Xu</a> from UESTC.</p>
-        </div>
-        <div class="grid grid-cols-1 gap-3 sm:grid-cols-3">
-            <div class="hero-stat-card">
-                <span id="hero-conf-count" class="hero-stat-value">101</span>
-                <span class="hero-stat-label">Conferences</span>
             </div>
-            <div class="hero-stat-card">
-                <span id="hero-event-count" class="hero-stat-value">--</span>
-                <span class="hero-stat-label">Events</span>
-            </div>
-            <div class="hero-stat-card">
-                <span id="hero-latest-year" class="hero-stat-value">--</span>
-                <span class="hero-stat-label">Latest year</span>
+            <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                <div class="hero-stat-card">
+                    <span id="hero-conf-count" class="hero-stat-value">101</span>
+                    <span class="hero-stat-label">Conferences</span>
+                </div>
+                <div class="hero-stat-card">
+                    <span id="hero-event-count" class="hero-stat-value">--</span>
+                    <span class="hero-stat-label">Events</span>
+                </div>
             </div>
         </div>
     </section>

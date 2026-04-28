@@ -952,6 +952,10 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.leading-\[1\.12\] {
+  line-height: 1.12;
+}
+
 .tracking-wide {
   letter-spacing: 0.025em;
 }
@@ -1221,7 +1225,7 @@ footer {
 .hero-stat-label {
   margin-top: 0.25rem;
   display: block;
-  overflow-wrap: break-word;
+  white-space: nowrap;
   font-size: 0.875rem;
   line-height: 1.25rem;
   --tw-text-opacity: 1;
@@ -1818,6 +1822,10 @@ dd {
 }
 
 @media (min-width: 640px) {
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1906,11 +1914,17 @@ dd {
     grid-template-columns: minmax(0,1fr) auto;
   }
 
-  .lg\:grid-cols-\[minmax\(0\2c 1fr\)_minmax\(280px\2c 360px\)\] {
-    grid-template-columns: minmax(0,1fr) minmax(280px,360px);
+  .lg\:grid-cols-\[minmax\(0\2c 1fr\)_minmax\(300px\2c 360px\)\] {
+    grid-template-columns: minmax(0,1fr) minmax(300px,360px);
   }
 
   .lg\:items-end {
     align-items: flex-end;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:whitespace-nowrap {
+    white-space: nowrap;
   }
 }

@@ -120,17 +120,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
         conference.series
       ]));
       const eventCount = sortedConferences.reduce((total, conference) => total + conference.yearly_data.length, 0);
-      const latestYear = sortedConferences.reduce((latest, conference) => {
-        const conferenceLatest = Math.max(...conference.yearly_data.map(event => event.year));
-        return Math.max(latest, conferenceLatest);
-      }, 0);
 
       const heroConfCount = document.getElementById('hero-conf-count');
       const heroEventCount = document.getElementById('hero-event-count');
-      const heroLatestYear = document.getElementById('hero-latest-year');
       if (heroConfCount) heroConfCount.textContent = sortedConferences.length.toLocaleString();
       if (heroEventCount) heroEventCount.textContent = eventCount.toLocaleString();
-      if (heroLatestYear) heroLatestYear.textContent = latestYear.toString();
 
       function getCategoryLabel(dropdown) {
         const label = document.querySelector(`label[for="${dropdown.id}"]`);
