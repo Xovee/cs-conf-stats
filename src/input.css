@@ -48,6 +48,14 @@ select option {
     @apply text-center text-uestc text-3xl md:text-5xl md:text-left
 }
 
+.seo-stat-grid {
+    @apply grid gap-4 grid-cols-1 md:grid-cols-3
+}
+
+.seo-stat-card {
+    @apply shadow-md rounded-lg px-5 py-4 bg-white min-w-0
+}
+
 .card-tag, .card-tag-2 {
     @apply inline-flex text-white rounded-lg px-3 py-1.5 text-sm mr-2 mb-2 hover:ring-2 hover:ring-uestc hover:ring-opacity-20 transition duration-300
 }

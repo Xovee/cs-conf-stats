@@ -297,18 +297,18 @@ function renderConferencePage(conference) {
   ${renderExternalLinks(conference)}
 </section>
 
-<section class="grid gap-4 md:grid-cols-3 mb-8">
-  <div class="conf-card m-0">
+<section class="seo-stat-grid mb-8">
+  <div class="seo-stat-card">
     <div class="conf-card-title">Latest Acceptance Rate</div>
     <div class="conf-card-big-desc">${formatRate(latest)}</div>
     <div class="conf-card-desc">${latest.year}: ${formatNumber(latest.main_track.num_acc)} accepted / ${formatNumber(latest.main_track.num_sub)} submitted</div>
   </div>
-  <div class="conf-card m-0">
+  <div class="seo-stat-card">
     <div class="conf-card-title">Years Covered</div>
     <div class="conf-card-big-desc">${events.length}</div>
     <div class="conf-card-desc">${escapeHTML(yearRange)}</div>
   </div>
-  <div class="conf-card m-0">
+  <div class="seo-stat-card">
     <div class="conf-card-title">Discipline</div>
     <div class="conf-card-desc">${escapeHTML(discipline)}</div>
     <div class="conf-card-desc">${escapeHTML(mainDisciplines)}</div>
@@ -405,16 +405,16 @@ function renderYearPage(conference, event, events) {
   <p>${escapeHTML(comparisonSentence(conference, event, olderEvent))}</p>
 </section>
 
-<section class="grid gap-4 md:grid-cols-3 mb-8">
-  <div class="conf-card m-0">
+<section class="seo-stat-grid mb-8">
+  <div class="seo-stat-card">
     <div class="conf-card-title">Acceptance Rate</div>
     <div class="conf-card-big-desc">${rate}</div>
   </div>
-  <div class="conf-card m-0">
+  <div class="seo-stat-card">
     <div class="conf-card-title">Accepted Papers</div>
     <div class="conf-card-big-desc">${formatNumber(accepted)}</div>
   </div>
-  <div class="conf-card m-0">
+  <div class="seo-stat-card">
     <div class="conf-card-title">Submissions</div>
     <div class="conf-card-big-desc">${formatNumber(submitted)}</div>
   </div>
