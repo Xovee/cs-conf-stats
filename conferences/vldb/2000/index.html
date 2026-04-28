@@ -14,13 +14,13 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://csconfstats.xoveexu.com/"},{"@type":"ListItem","position":2,"name":"Conferences","item":"https://csconfstats.xoveexu.com/conferences/"},{"@type":"ListItem","position":3,"name":"VLDB","item":"https://csconfstats.xoveexu.com/conferences/vldb/"},{"@type":"ListItem","position":4,"name":"2000","item":"https://csconfstats.xoveexu.com/conferences/vldb/2000/"}]},{"@context":"https://schema.org","@type":"Dataset","name":"VLDB 2000 acceptance rate","description":"VLDB 2000 accepted 53 papers out of 349 submissions, for an acceptance rate of 15.2%.","url":"https://csconfstats.xoveexu.com/conferences/vldb/2000/","creator":{"@type":"Person","name":"Xovee Xu","url":"https://www.xoveexu.com"},"license":"https://github.com/Xovee/cs-conf-stats"}]}</script>
 </head>
 <body class="min-h-screen flex flex-col bg-gray-100 text-gray-800">
-<header class="py-6 border-b bg-white">
-  <div class="container mx-auto px-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-    <a href="/" class="flex items-center gap-3 text-gray-800 hover:no-underline">
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-brand" aria-label="CS Conf Stats home">
       <img src="/img/logo.svg" alt="CS Conf Stats logo" class="h-10 w-10">
-      <span class="text-2xl md:text-3xl text-uestc">CS Conf Stats</span>
+      <span class="site-brand-title">CS Conf Stats</span>
     </a>
-    <nav class="flex flex-wrap gap-4 text-base md:text-lg">
+    <nav class="site-nav" aria-label="Primary navigation">
       <a href="/conferences/">Conferences</a>
       <a href="/fun-fact.html">Fun Facts</a>
       <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -40,7 +40,7 @@
 </section>
 
 <section class="seo-stat-grid mb-8">
-  <div class="seo-stat-card">
+  <div class="seo-stat-card seo-stat-card-accent">
     <div class="conf-card-title">Acceptance Rate</div>
     <div class="conf-card-big-desc">15.2%</div>
   </div>
@@ -56,17 +56,17 @@
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">VLDB 2000 Statistics</h2>
-  <div class="overflow-x-auto bg-white shadow-md rounded-lg">
-    <table class="min-w-full text-sm md:text-base">
+  <div class="seo-table-card">
+    <table class="seo-table">
       <tbody>
-        <tr class="border-b"><th class="p-3 text-left">Conference</th><td class="p-3">VLDB - International Conference on Very Large Data Bases</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Year</th><td class="p-3">2000</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Ordinal</th><td class="p-3">26th</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Location</th><td class="p-3">Cairo, Egypt</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Accepted</th><td class="p-3">53</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Submitted</th><td class="p-3">349</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Acceptance Rate</th><td class="p-3">15.2%</td></tr>
-        <tr><th class="p-3 text-left">Note</th><td class="p-3">No event-level note is recorded.</td></tr>
+        <tr><th>Conference</th><td>VLDB - International Conference on Very Large Data Bases</td></tr>
+        <tr><th>Year</th><td>2000</td></tr>
+        <tr><th>Ordinal</th><td>26th</td></tr>
+        <tr><th>Location</th><td>Cairo, Egypt</td></tr>
+        <tr><th>Accepted</th><td>53</td></tr>
+        <tr><th>Submitted</th><td>349</td></tr>
+        <tr><th>Acceptance Rate</th><td><span class="rate-badge">15.2%</span></td></tr>
+        <tr><th>Note</th><td>No event-level note is recorded.</td></tr>
       </tbody>
     </table>
   </div>

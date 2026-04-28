@@ -24,19 +24,27 @@
     </style>
 </head>
 
-<body class="min-h-screen flex flex-col items-center bg-gray-100 text-gray-800">
+<body class="min-h-screen flex flex-col bg-gray-100 text-gray-800">
 
-<header class="py-6 mt-6 mb-4">
-    <div class="container mx-auto flex items-center space-x-4">
-        <img src="/img/logo.svg" alt="Logo" class="h-10 w-10 ml-2">
-        <div class="text-3xl md:text-4xl text-uestc">Fun Facts of CS Conferences</div>
+<header class="site-header">
+    <div class="site-header-inner">
+        <a href="/" class="site-brand" aria-label="CS Conf Stats home">
+            <img src="/img/logo.svg" alt="CS Conf Stats logo" class="h-10 w-10">
+            <span class="site-brand-title">CS Conf Stats</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="/conferences/">Conferences</a>
+            <a href="/fun-fact.html" aria-current="page">Fun Facts</a>
+            <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
     </div>
 </header>
 
-<main class="container mx-auto">
-    <div class="text-center mb-6 text-gray-600 text-lg md:text-xl">Data visualizations for top-tier CS conferences. <br> Created and maintained by <a href="https://www.xoveexu.com" target="_blank">Xovee Xu</a>.</div>
-
-    <div class="md:text-lg text-center sm:text-left">> Back to the <a href="https://csconfstats.xoveexu.com" target="_blank">CS Conf Stats</a></div>
+<main class="container mx-auto flex-1 px-4 py-8">
+    <section class="mb-8">
+        <h1 class="mb-4 text-3xl md:text-5xl text-uestc">Fun Facts of CS Conferences</h1>
+        <p class="max-w-3xl text-lg md:text-xl text-gray-600">Data visualizations for top-tier CS conferences. Created and maintained by <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">Xovee Xu</a>.</p>
+    </section>
 
     <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">General Statistics</div>
 
@@ -208,7 +216,7 @@
     <div id="viz-young" class="w-full h-[600px] mx-auto"></div>
 </main>
 
-<footer class="py-4 container">
+<footer class="container mx-auto px-4 py-4">
     <div class="">
         <p>Created and maintained by <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">Xovee Xu</a> from <a href="https://en.uestc.edu.cn/" target="_blank">UESTC</a>, China. Data are collected from the proceedings and/or web that may contain errors.</p> 
 

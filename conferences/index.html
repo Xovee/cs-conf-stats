@@ -14,13 +14,13 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://csconfstats.xoveexu.com/"},{"@type":"ListItem","position":2,"name":"Conferences","item":"https://csconfstats.xoveexu.com/conferences/"}]},{"@context":"https://schema.org","@type":"Dataset","name":"Computer science conference acceptance rate statistics","description":"Browse acceptance rate and submission statistics for 101 computer science conferences.","url":"https://csconfstats.xoveexu.com/conferences/","creator":{"@type":"Person","name":"Xovee Xu","url":"https://www.xoveexu.com"},"license":"https://github.com/Xovee/cs-conf-stats"}]}</script>
 </head>
 <body class="min-h-screen flex flex-col bg-gray-100 text-gray-800">
-<header class="py-6 border-b bg-white">
-  <div class="container mx-auto px-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-    <a href="/" class="flex items-center gap-3 text-gray-800 hover:no-underline">
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-brand" aria-label="CS Conf Stats home">
       <img src="/img/logo.svg" alt="CS Conf Stats logo" class="h-10 w-10">
-      <span class="text-2xl md:text-3xl text-uestc">CS Conf Stats</span>
+      <span class="site-brand-title">CS Conf Stats</span>
     </a>
-    <nav class="flex flex-wrap gap-4 text-base md:text-lg">
+    <nav class="site-nav" aria-label="Primary navigation">
       <a href="/conferences/">Conferences</a>
       <a href="/fun-fact.html">Fun Facts</a>
       <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub</a>

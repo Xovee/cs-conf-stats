@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply antialiased
+}
+
+body > main {
+    @apply min-w-0 w-full
+}
+
 
 a {
     @apply text-google hover:underline
@@ -13,6 +21,74 @@ p {
 
 footer {
     @apply text-center text-gray-600 md:text-left
+}
+
+.site-header {
+    @apply w-full border-b border-gray-200 bg-white
+}
+
+.site-header-inner {
+    @apply container mx-auto flex min-w-0 flex-col gap-4 px-4 py-5 md:flex-row md:items-center md:justify-between
+}
+
+.site-brand {
+    @apply flex items-center gap-3 text-gray-800 hover:no-underline
+}
+
+.site-brand-title {
+    @apply text-2xl md:text-3xl text-uestc
+}
+
+.site-nav {
+    @apply flex flex-wrap gap-2 text-base md:text-lg
+}
+
+.site-nav a {
+    @apply rounded-md px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-uestc hover:no-underline
+}
+
+.site-nav a[aria-current="page"] {
+    @apply bg-blue-50 text-uestc
+}
+
+.hero-stat-card {
+    @apply min-w-0 rounded-lg border border-gray-200 bg-white p-4 shadow-sm
+}
+
+.hero-stat-value {
+    @apply block font-mono text-2xl font-bold text-uestc md:text-3xl
+}
+
+.hero-stat-label {
+    @apply mt-1 block break-words text-sm text-gray-600
+}
+
+.conference-picker {
+    @apply rounded-lg border border-gray-200 bg-white p-5 shadow-sm mx-0
+}
+
+.conference-search-input {
+    @apply w-full rounded-lg border border-gray-300 px-4 py-3 text-base text-gray-800 shadow-sm outline-none transition focus:border-uestc focus:ring-2 focus:ring-blue-100
+}
+
+.conference-search-button {
+    @apply w-full rounded-lg bg-uestc px-5 py-3 text-base font-semibold text-white transition hover:bg-blue-900 lg:w-auto
+}
+
+.category-tab {
+    @apply min-w-0 rounded-md border border-gray-200 bg-white px-3 py-2 text-sm font-semibold text-gray-700 transition hover:border-uestc hover:text-uestc
+}
+
+.category-tab.is-active {
+    @apply border-uestc bg-blue-50 text-uestc
+}
+
+.conference-choice {
+    @apply min-w-0 break-words rounded-md border border-gray-200 bg-gray-50 px-3 py-2 text-left text-sm font-semibold text-gray-700 transition hover:border-uestc hover:bg-white hover:text-uestc
+}
+
+.conference-choice.is-active {
+    @apply border-uestc bg-uestc text-white hover:bg-uestc hover:text-white
 }
 
 
@@ -53,11 +129,15 @@ select option {
 }
 
 .seo-stat-card {
-    @apply shadow-md rounded-lg px-5 py-4 bg-white min-w-0
+    @apply rounded-lg border border-gray-200 bg-white px-5 py-4 shadow-sm min-w-0
+}
+
+.seo-stat-card-accent {
+    @apply border-l-4 border-l-uestc
 }
 
 .seo-list-card {
-    @apply bg-white shadow-md rounded-lg p-6 md:p-7 overflow-hidden
+    @apply bg-white border border-gray-200 shadow-sm rounded-lg p-6 md:p-7 overflow-hidden
 }
 
 .seo-conference-list {
@@ -70,6 +150,46 @@ select option {
 
 .seo-year-list li {
     @apply break-inside-avoid mb-2
+}
+
+.seo-table-card {
+    @apply overflow-x-auto rounded-lg border border-gray-200 bg-white shadow-sm
+}
+
+.seo-table {
+    @apply min-w-full text-sm md:text-base
+}
+
+.seo-table thead th {
+    @apply sticky top-0 z-10 border-b border-gray-200 bg-gray-50 p-3 text-left text-xs font-semibold uppercase tracking-wide text-gray-600
+}
+
+.seo-table td {
+    @apply border-b border-gray-100 p-3 align-top
+}
+
+.seo-table tbody th {
+    @apply border-b border-gray-100 bg-gray-50 p-3 text-left font-semibold text-gray-700 align-top
+}
+
+.seo-table tbody tr {
+    @apply transition hover:bg-blue-50
+}
+
+.seo-table tbody tr:nth-child(even) {
+    @apply bg-gray-50
+}
+
+.seo-table tbody tr.is-latest {
+    @apply bg-orange-50
+}
+
+.rate-badge {
+    @apply inline-flex rounded-md bg-blue-50 px-2 py-1 font-mono text-sm font-semibold text-uestc tabular-nums
+}
+
+.seo-detail-list {
+    @apply rounded-lg border border-gray-200 bg-white p-5 shadow-sm
 }
 
 .card-tag, .card-tag-2 {

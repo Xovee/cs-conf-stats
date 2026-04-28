@@ -37,26 +37,64 @@
     </style>
 </head>
 
-<body class="min-h-screen flex flex-col items-center text-gray-1000 bg-gray-100">
+<body class="min-h-screen flex flex-col bg-gray-100 text-gray-800">
 
-<header class="py-6 mt-6 mb-4">
-    <div class="container mx-auto flex items-center space-x-4">
-        <img src="/img/logo.svg" alt="Logo" class="h-10 w-10 ml-2">
-        <div class="text-3xl md:text-4xl text-uestc">Computer Science Conference Statistics</div>
+<header class="site-header">
+    <div class="site-header-inner">
+        <a href="/" class="site-brand" aria-label="CS Conf Stats home">
+            <img src="/img/logo.svg" alt="CS Conf Stats logo" class="h-10 w-10">
+            <span class="site-brand-title">CS Conf Stats</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="/conferences/">Conferences</a>
+            <a href="/fun-fact.html">Fun Facts</a>
+            <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
     </div>
 </header>
 
-<main class="container mx-auto">
-    <div class="text-center mb-6 text-gray-600 text-lg md:text-xl">Explore top-tier CS conference statistics such as acceptance rate and number of submissions. <br> Created and maintained by <a href="https://www.xoveexu.com" target="_blank">Xovee Xu</a> from UESTC. <a href="/conferences/">Conference pages</a>. <a href="https://github.com/Xovee/cs-conf-stats" target="_blank">GitHub Repo</a>.</div>
+<main class="container mx-auto flex-1 px-4 py-8">
+    <section class="mb-8 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(280px,360px)] lg:items-end">
+        <div>
+            <div class="mb-3 text-sm font-semibold uppercase tracking-wide text-uestc_orange">CS Conf Stats</div>
+            <h1 class="mb-4 text-3xl md:text-5xl text-uestc">Computer Science Conference Statistics</h1>
+            <p class="max-w-3xl text-lg md:text-xl text-gray-600">Explore top-tier CS conference statistics such as acceptance rate and number of submissions.</p>
+            <p class="max-w-3xl text-base md:text-lg text-gray-600">Created and maintained by <a href="https://www.xoveexu.com" target="_blank" rel="noopener noreferrer">Xovee Xu</a> from UESTC.</p>
+        </div>
+        <div class="grid grid-cols-1 gap-3 sm:grid-cols-3">
+            <div class="hero-stat-card">
+                <span id="hero-conf-count" class="hero-stat-value">101</span>
+                <span class="hero-stat-label">Conferences</span>
+            </div>
+            <div class="hero-stat-card">
+                <span id="hero-event-count" class="hero-stat-value">--</span>
+                <span class="hero-stat-label">Events</span>
+            </div>
+            <div class="hero-stat-card">
+                <span id="hero-latest-year" class="hero-stat-value">--</span>
+                <span class="hero-stat-label">Latest year</span>
+            </div>
+        </div>
+    </section>
 
     <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">Conference Selection</div>
 
     <!-- select a conference-->
     <div class="container md:text-lg">
-        <form class="py-2 rounded-lg bg-white shadow-md p-5 mx-2 md:mx-0">
+        <form id="conference-picker-form" class="conference-picker">
             <fieldset>
-                <legend class="mb-2">Current selection: <span id="cur-conf" class="">AAAI</span></legend>
-                <div class="selects-container grid grid-cols-3 gap-2 sm:grid-cols-6 md:grid-cols-9 lg:grid-cols-12">
+                <legend class="mb-4 text-base font-semibold text-gray-700">Current selection: <span id="cur-conf" class="text-uestc">AAAI</span></legend>
+                <div class="grid gap-4 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end">
+                    <div>
+                        <label for="conference-search" class="mb-2 block text-sm font-semibold text-gray-600">Search conference</label>
+                        <input id="conference-search" class="conference-search-input" type="search" list="conference-options" placeholder="AAAI, CVPR, NeurIPS..." autocomplete="off">
+                        <datalist id="conference-options"></datalist>
+                    </div>
+                    <button id="conference-search-submit" type="submit" class="conference-search-button">Show stats</button>
+                </div>
+                <div id="category-tabs" class="mt-5 flex flex-wrap gap-2"></div>
+                <div id="category-conference-buttons" class="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6"></div>
+                <div id="legacy-conference-selects" class="hidden selects-container grid grid-cols-3 gap-2 sm:grid-cols-6 md:grid-cols-9 lg:grid-cols-12">
 
                     <label for="dropdown-all" title="All Conferences">ALL</label>
                     <select id="dropdown-all" name="dropdown-all" class="border-gray-900">
@@ -488,7 +526,7 @@
 
 </main>
 
-<footer class="py-4 container">
+<footer class="container mx-auto px-4 py-4">
     <div class="">
         <div class="text-base">List of 101 conferences. For search-friendly pages, browse the <a href="/conferences/">conference index</a>:
             <a href='?conf=AAAI' onclick="clickConf('dropdown-ai', 'AAAI'); return false">AAAI</a>, 

@@ -140,13 +140,13 @@ function pageShell({ title, description, canonicalPath, body, structuredData }) 
   <script type="application/ld+json">${jsonForHTML(structuredData)}</script>
 </head>
 <body class="min-h-screen flex flex-col bg-gray-100 text-gray-800">
-<header class="py-6 border-b bg-white">
-  <div class="container mx-auto px-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-    <a href="/" class="flex items-center gap-3 text-gray-800 hover:no-underline">
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-brand" aria-label="CS Conf Stats home">
       <img src="/img/logo.svg" alt="CS Conf Stats logo" class="h-10 w-10">
-      <span class="text-2xl md:text-3xl text-uestc">CS Conf Stats</span>
+      <span class="site-brand-title">CS Conf Stats</span>
     </a>
-    <nav class="flex flex-wrap gap-4 text-base md:text-lg">
+    <nav class="site-nav" aria-label="Primary navigation">
       <a href="/conferences/">Conferences</a>
       <a href="/fun-fact.html">Fun Facts</a>
       <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -203,36 +203,37 @@ function graphStructuredData(...items) {
 }
 
 function renderTable(conference, events) {
-  const rows = events.map(event => {
+  const rows = events.map((event, index) => {
     const accepted = event.main_track.num_acc;
     const submitted = event.main_track.num_sub;
     const note = toText(event.note);
     const secondTrack = event.second_track
       ? `${formatNumber(event.second_track.num_acc)} / ${formatNumber(event.second_track.num_sub)} (${((event.second_track.num_acc / event.second_track.num_sub) * 100).toFixed(1)}%)`
       : '';
+    const rowClass = index === 0 ? 'is-latest' : '';
 
-    return `      <tr class="border-t">
+    return `      <tr class="${rowClass}">
         <td class="p-3"><a href="${yearUrl(conference, event.year)}">${event.year}</a></td>
         <td class="p-3">${escapeHTML(event.location)}</td>
         <td class="p-3 text-right">${formatNumber(accepted)}</td>
         <td class="p-3 text-right">${formatNumber(submitted)}</td>
-        <td class="p-3 text-right">${formatRate(event)}</td>
+        <td class="p-3 text-right"><span class="rate-badge">${formatRate(event)}</span></td>
         <td class="p-3">${escapeHTML(secondTrack)}</td>
         <td class="p-3">${escapeHTML(note)}</td>
       </tr>`;
   }).join('\n');
 
-  return `<div class="overflow-x-auto bg-white shadow-md rounded-lg">
-  <table class="min-w-full text-sm md:text-base">
+  return `<div class="seo-table-card">
+  <table class="seo-table">
     <thead>
-      <tr class="bg-gray-50 text-left">
-        <th class="p-3">Year</th>
-        <th class="p-3">Location</th>
-        <th class="p-3 text-right">Accepted</th>
-        <th class="p-3 text-right">Submitted</th>
-        <th class="p-3 text-right">Acceptance Rate</th>
-        <th class="p-3">Second Track</th>
-        <th class="p-3">Note</th>
+      <tr>
+        <th>Year</th>
+        <th>Location</th>
+        <th class="text-right">Accepted</th>
+        <th class="text-right">Submitted</th>
+        <th class="text-right">Acceptance Rate</th>
+        <th>Second Track</th>
+        <th>Note</th>
       </tr>
     </thead>
     <tbody>
@@ -298,7 +299,7 @@ function renderConferencePage(conference) {
 </section>
 
 <section class="seo-stat-grid mb-8">
-  <div class="seo-stat-card">
+  <div class="seo-stat-card seo-stat-card-accent">
     <div class="conf-card-title">Latest Acceptance Rate</div>
     <div class="conf-card-big-desc">${formatRate(latest)}</div>
     <div class="conf-card-desc">${latest.year}: ${formatNumber(latest.main_track.num_acc)} accepted / ${formatNumber(latest.main_track.num_sub)} submitted</div>
@@ -322,7 +323,7 @@ function renderConferencePage(conference) {
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">Conference Details</h2>
-  <dl class="bg-white shadow-md rounded-lg p-5">
+  <dl class="seo-detail-list">
     <dt>Full Title</dt>
     <dd>${escapeHTML(fullTitle)}</dd>
     <dt>Main Discipline</dt>
@@ -338,7 +339,7 @@ function renderConferencePage(conference) {
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">More ${escapeHTML(series)} Pages</h2>
-  <ul class="seo-year-list bg-white shadow-md rounded-lg p-6">
+  <ul class="seo-year-list seo-list-card">
     ${events.map(event => `<li><a href="${yearUrl(conference, event.year)}">${series} ${event.year}</a></li>`).join('\n    ')}
   </ul>
   <p>Interactive chart: <a href="/?conf=${encodeURIComponent(series)}">${escapeHTML(series)} on the main CS Conf Stats chart</a>.</p>
@@ -408,7 +409,7 @@ function renderYearPage(conference, event, events) {
 </section>
 
 <section class="seo-stat-grid mb-8">
-  <div class="seo-stat-card">
+  <div class="seo-stat-card seo-stat-card-accent">
     <div class="conf-card-title">Acceptance Rate</div>
     <div class="conf-card-big-desc">${rate}</div>
   </div>
@@ -424,17 +425,17 @@ function renderYearPage(conference, event, events) {
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">${escapeHTML(series)} ${event.year} Statistics</h2>
-  <div class="overflow-x-auto bg-white shadow-md rounded-lg">
-    <table class="min-w-full text-sm md:text-base">
+  <div class="seo-table-card">
+    <table class="seo-table">
       <tbody>
-        <tr class="border-b"><th class="p-3 text-left">Conference</th><td class="p-3">${escapeHTML(series)} - ${escapeHTML(fullTitle)}</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Year</th><td class="p-3">${event.year}</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Ordinal</th><td class="p-3">${escapeHTML(event.ordinal || '')}</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Location</th><td class="p-3">${escapeHTML(event.location)}</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Accepted</th><td class="p-3">${formatNumber(accepted)}</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Submitted</th><td class="p-3">${formatNumber(submitted)}</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Acceptance Rate</th><td class="p-3">${rate}</td></tr>
-        <tr><th class="p-3 text-left">Note</th><td class="p-3">${escapeHTML(note || 'No event-level note is recorded.')}</td></tr>
+        <tr><th>Conference</th><td>${escapeHTML(series)} - ${escapeHTML(fullTitle)}</td></tr>
+        <tr><th>Year</th><td>${event.year}</td></tr>
+        <tr><th>Ordinal</th><td>${escapeHTML(event.ordinal || '')}</td></tr>
+        <tr><th>Location</th><td>${escapeHTML(event.location)}</td></tr>
+        <tr><th>Accepted</th><td>${formatNumber(accepted)}</td></tr>
+        <tr><th>Submitted</th><td>${formatNumber(submitted)}</td></tr>
+        <tr><th>Acceptance Rate</th><td><span class="rate-badge">${rate}</span></td></tr>
+        <tr><th>Note</th><td>${escapeHTML(note || 'No event-level note is recorded.')}</td></tr>
       </tbody>
     </table>
   </div>

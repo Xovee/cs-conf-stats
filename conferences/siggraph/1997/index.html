@@ -14,13 +14,13 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://csconfstats.xoveexu.com/"},{"@type":"ListItem","position":2,"name":"Conferences","item":"https://csconfstats.xoveexu.com/conferences/"},{"@type":"ListItem","position":3,"name":"SIGGRAPH","item":"https://csconfstats.xoveexu.com/conferences/siggraph/"},{"@type":"ListItem","position":4,"name":"1997","item":"https://csconfstats.xoveexu.com/conferences/siggraph/1997/"}]},{"@context":"https://schema.org","@type":"Dataset","name":"SIGGRAPH 1997 acceptance rate","description":"SIGGRAPH 1997 accepted 48 papers out of 265 submissions, for an acceptance rate of 18.1%.","url":"https://csconfstats.xoveexu.com/conferences/siggraph/1997/","creator":{"@type":"Person","name":"Xovee Xu","url":"https://www.xoveexu.com"},"license":"https://github.com/Xovee/cs-conf-stats"}]}</script>
 </head>
 <body class="min-h-screen flex flex-col bg-gray-100 text-gray-800">
-<header class="py-6 border-b bg-white">
-  <div class="container mx-auto px-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-    <a href="/" class="flex items-center gap-3 text-gray-800 hover:no-underline">
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-brand" aria-label="CS Conf Stats home">
       <img src="/img/logo.svg" alt="CS Conf Stats logo" class="h-10 w-10">
-      <span class="text-2xl md:text-3xl text-uestc">CS Conf Stats</span>
+      <span class="site-brand-title">CS Conf Stats</span>
     </a>
-    <nav class="flex flex-wrap gap-4 text-base md:text-lg">
+    <nav class="site-nav" aria-label="Primary navigation">
       <a href="/conferences/">Conferences</a>
       <a href="/fun-fact.html">Fun Facts</a>
       <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -40,7 +40,7 @@
 </section>
 
 <section class="seo-stat-grid mb-8">
-  <div class="seo-stat-card">
+  <div class="seo-stat-card seo-stat-card-accent">
     <div class="conf-card-title">Acceptance Rate</div>
     <div class="conf-card-big-desc">18.1%</div>
   </div>
@@ -56,17 +56,17 @@
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">SIGGRAPH 1997 Statistics</h2>
-  <div class="overflow-x-auto bg-white shadow-md rounded-lg">
-    <table class="min-w-full text-sm md:text-base">
+  <div class="seo-table-card">
+    <table class="seo-table">
       <tbody>
-        <tr class="border-b"><th class="p-3 text-left">Conference</th><td class="p-3">SIGGRAPH - ACM SIGGRAPH Conference (International Conference on Computer Graphics and Interactive Techniques)</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Year</th><td class="p-3">1997</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Ordinal</th><td class="p-3">24th</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Location</th><td class="p-3">Los Angeles, California, USA</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Accepted</th><td class="p-3">48</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Submitted</th><td class="p-3">265</td></tr>
-        <tr class="border-b"><th class="p-3 text-left">Acceptance Rate</th><td class="p-3">18.1%</td></tr>
-        <tr><th class="p-3 text-left">Note</th><td class="p-3">No event-level note is recorded.</td></tr>
+        <tr><th>Conference</th><td>SIGGRAPH - ACM SIGGRAPH Conference (International Conference on Computer Graphics and Interactive Techniques)</td></tr>
+        <tr><th>Year</th><td>1997</td></tr>
+        <tr><th>Ordinal</th><td>24th</td></tr>
+        <tr><th>Location</th><td>Los Angeles, California, USA</td></tr>
+        <tr><th>Accepted</th><td>48</td></tr>
+        <tr><th>Submitted</th><td>265</td></tr>
+        <tr><th>Acceptance Rate</th><td><span class="rate-badge">18.1%</span></td></tr>
+        <tr><th>Note</th><td>No event-level note is recorded.</td></tr>
       </tbody>
     </table>
   </div>

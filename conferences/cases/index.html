@@ -14,13 +14,13 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://csconfstats.xoveexu.com/"},{"@type":"ListItem","position":2,"name":"Conferences","item":"https://csconfstats.xoveexu.com/conferences/"},{"@type":"ListItem","position":3,"name":"CASES","item":"https://csconfstats.xoveexu.com/conferences/cases/"}]},{"@context":"https://schema.org","@type":"Dataset","name":"CASES acceptance rate and submission statistics","description":"CASES acceptance rate and submission statistics from 2001-2024, including yearly accepted papers, submissions, locations, and notes.","url":"https://csconfstats.xoveexu.com/conferences/cases/","creator":{"@type":"Person","name":"Xovee Xu","url":"https://www.xoveexu.com"},"license":"https://github.com/Xovee/cs-conf-stats"}]}</script>
 </head>
 <body class="min-h-screen flex flex-col bg-gray-100 text-gray-800">
-<header class="py-6 border-b bg-white">
-  <div class="container mx-auto px-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-    <a href="/" class="flex items-center gap-3 text-gray-800 hover:no-underline">
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-brand" aria-label="CS Conf Stats home">
       <img src="/img/logo.svg" alt="CS Conf Stats logo" class="h-10 w-10">
-      <span class="text-2xl md:text-3xl text-uestc">CS Conf Stats</span>
+      <span class="site-brand-title">CS Conf Stats</span>
     </a>
-    <nav class="flex flex-wrap gap-4 text-base md:text-lg">
+    <nav class="site-nav" aria-label="Primary navigation">
       <a href="/conferences/">Conferences</a>
       <a href="/fun-fact.html">Fun Facts</a>
       <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -40,7 +40,7 @@
 </section>
 
 <section class="seo-stat-grid mb-8">
-  <div class="seo-stat-card">
+  <div class="seo-stat-card seo-stat-card-accent">
     <div class="conf-card-title">Latest Acceptance Rate</div>
     <div class="conf-card-big-desc">28.2%</div>
     <div class="conf-card-desc">2024: 29 accepted / 103 submitted</div>
@@ -59,206 +59,206 @@
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">Yearly Statistics</h2>
-  <div class="overflow-x-auto bg-white shadow-md rounded-lg">
-  <table class="min-w-full text-sm md:text-base">
+  <div class="seo-table-card">
+  <table class="seo-table">
     <thead>
-      <tr class="bg-gray-50 text-left">
-        <th class="p-3">Year</th>
-        <th class="p-3">Location</th>
-        <th class="p-3 text-right">Accepted</th>
-        <th class="p-3 text-right">Submitted</th>
-        <th class="p-3 text-right">Acceptance Rate</th>
-        <th class="p-3">Second Track</th>
-        <th class="p-3">Note</th>
+      <tr>
+        <th>Year</th>
+        <th>Location</th>
+        <th class="text-right">Accepted</th>
+        <th class="text-right">Submitted</th>
+        <th class="text-right">Acceptance Rate</th>
+        <th>Second Track</th>
+        <th>Note</th>
       </tr>
     </thead>
     <tbody>
-      <tr class="border-t">
+      <tr class="is-latest">
         <td class="p-3"><a href="/conferences/cases/2024/">2024</a></td>
         <td class="p-3">Raleigh, USA</td>
         <td class="p-3 text-right">29</td>
         <td class="p-3 text-right">103</td>
-        <td class="p-3 text-right">28.2%</td>
+        <td class="p-3 text-right"><span class="rate-badge">28.2%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2023/">2023</a></td>
         <td class="p-3">Hamburg, Germany</td>
         <td class="p-3 text-right">21</td>
         <td class="p-3 text-right">77</td>
-        <td class="p-3 text-right">27.3%</td>
+        <td class="p-3 text-right"><span class="rate-badge">27.3%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2022/">2022</a></td>
         <td class="p-3">Shanghai, China</td>
         <td class="p-3 text-right">24</td>
         <td class="p-3 text-right">100</td>
-        <td class="p-3 text-right">24.0%</td>
+        <td class="p-3 text-right"><span class="rate-badge">24.0%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2021/">2021</a></td>
         <td class="p-3">Online, Online</td>
         <td class="p-3 text-right">11</td>
         <td class="p-3 text-right">44</td>
-        <td class="p-3 text-right">25.0%</td>
+        <td class="p-3 text-right"><span class="rate-badge">25.0%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2018/">2018</a></td>
         <td class="p-3">Turin, Italy</td>
         <td class="p-3 text-right">18</td>
         <td class="p-3 text-right">74</td>
-        <td class="p-3 text-right">24.3%</td>
+        <td class="p-3 text-right"><span class="rate-badge">24.3%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2016/">2016</a></td>
         <td class="p-3">Pittsburgh, USA</td>
         <td class="p-3 text-right">18</td>
         <td class="p-3 text-right">63</td>
-        <td class="p-3 text-right">28.6%</td>
+        <td class="p-3 text-right"><span class="rate-badge">28.6%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2015/">2015</a></td>
         <td class="p-3">Amsterdam, The Netherlands</td>
         <td class="p-3 text-right">18</td>
         <td class="p-3 text-right">49</td>
-        <td class="p-3 text-right">36.7%</td>
+        <td class="p-3 text-right"><span class="rate-badge">36.7%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2014/">2014</a></td>
         <td class="p-3">New Delhi, India</td>
         <td class="p-3 text-right">24</td>
         <td class="p-3 text-right">80</td>
-        <td class="p-3 text-right">30.0%</td>
+        <td class="p-3 text-right"><span class="rate-badge">30.0%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2013/">2013</a></td>
         <td class="p-3">Montreal, Canada</td>
         <td class="p-3 text-right">21</td>
         <td class="p-3 text-right">68</td>
-        <td class="p-3 text-right">30.9%</td>
+        <td class="p-3 text-right"><span class="rate-badge">30.9%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2012/">2012</a></td>
         <td class="p-3">Tampere, Finland</td>
         <td class="p-3 text-right">18</td>
         <td class="p-3 text-right">60</td>
-        <td class="p-3 text-right">30.0%</td>
+        <td class="p-3 text-right"><span class="rate-badge">30.0%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2011/">2011</a></td>
         <td class="p-3">Taipei, Taiwan, China</td>
         <td class="p-3 text-right">23</td>
         <td class="p-3 text-right">61</td>
-        <td class="p-3 text-right">37.7%</td>
+        <td class="p-3 text-right"><span class="rate-badge">37.7%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2010/">2010</a></td>
         <td class="p-3">Scottsdale, USA</td>
         <td class="p-3 text-right">22</td>
         <td class="p-3 text-right">57</td>
-        <td class="p-3 text-right">38.6%</td>
+        <td class="p-3 text-right"><span class="rate-badge">38.6%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2009/">2009</a></td>
         <td class="p-3">Grenoble, France</td>
         <td class="p-3 text-right">25</td>
         <td class="p-3 text-right">72</td>
-        <td class="p-3 text-right">34.7%</td>
+        <td class="p-3 text-right"><span class="rate-badge">34.7%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2008/">2008</a></td>
         <td class="p-3">Atlanta, USA</td>
         <td class="p-3 text-right">27</td>
         <td class="p-3 text-right">64</td>
-        <td class="p-3 text-right">42.2%</td>
+        <td class="p-3 text-right"><span class="rate-badge">42.2%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2007/">2007</a></td>
         <td class="p-3">Salzburg, Austria</td>
         <td class="p-3 text-right">33</td>
         <td class="p-3 text-right">77</td>
-        <td class="p-3 text-right">42.9%</td>
+        <td class="p-3 text-right"><span class="rate-badge">42.9%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2006/">2006</a></td>
         <td class="p-3">Seoul, Korea</td>
         <td class="p-3 text-right">41</td>
         <td class="p-3 text-right">100</td>
-        <td class="p-3 text-right">41.0%</td>
+        <td class="p-3 text-right"><span class="rate-badge">41.0%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2005/">2005</a></td>
         <td class="p-3">San Francisco, California, USA</td>
         <td class="p-3 text-right">31</td>
         <td class="p-3 text-right">100</td>
-        <td class="p-3 text-right">31.0%</td>
+        <td class="p-3 text-right"><span class="rate-badge">31.0%</span></td>
         <td class="p-3"></td>
         <td class="p-3">Over 100 submitted</td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2004/">2004</a></td>
         <td class="p-3">Washington DC, USA</td>
         <td class="p-3 text-right">31</td>
         <td class="p-3 text-right">102</td>
-        <td class="p-3 text-right">30.4%</td>
+        <td class="p-3 text-right"><span class="rate-badge">30.4%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2003/">2003</a></td>
         <td class="p-3">San Jose, California, USA</td>
         <td class="p-3 text-right">31</td>
         <td class="p-3 text-right">162</td>
-        <td class="p-3 text-right">19.1%</td>
+        <td class="p-3 text-right"><span class="rate-badge">19.1%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2002/">2002</a></td>
         <td class="p-3">Grenoble, France</td>
         <td class="p-3 text-right">38</td>
         <td class="p-3 text-right">118</td>
-        <td class="p-3 text-right">32.2%</td>
+        <td class="p-3 text-right"><span class="rate-badge">32.2%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/cases/2001/">2001</a></td>
         <td class="p-3">Atlanta, USA</td>
         <td class="p-3 text-right">28</td>
         <td class="p-3 text-right">80</td>
-        <td class="p-3 text-right">35.0%</td>
+        <td class="p-3 text-right"><span class="rate-badge">35.0%</span></td>
         <td class="p-3"></td>
         <td class="p-3">About 80 paper submissions.</td>
       </tr>
@@ -269,7 +269,7 @@
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">Conference Details</h2>
-  <dl class="bg-white shadow-md rounded-lg p-5">
+  <dl class="seo-detail-list">
     <dt>Full Title</dt>
     <dd>International Conference on Compilers, Architectures, and Synthesis for Embedded Systems</dd>
     <dt>Main Discipline</dt>
@@ -285,7 +285,7 @@
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">More CASES Pages</h2>
-  <ul class="seo-year-list bg-white shadow-md rounded-lg p-6">
+  <ul class="seo-year-list seo-list-card">
     <li><a href="/conferences/cases/2024/">CASES 2024</a></li>
     <li><a href="/conferences/cases/2023/">CASES 2023</a></li>
     <li><a href="/conferences/cases/2022/">CASES 2022</a></li>

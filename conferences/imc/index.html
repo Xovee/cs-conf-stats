@@ -14,13 +14,13 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://csconfstats.xoveexu.com/"},{"@type":"ListItem","position":2,"name":"Conferences","item":"https://csconfstats.xoveexu.com/conferences/"},{"@type":"ListItem","position":3,"name":"IMC","item":"https://csconfstats.xoveexu.com/conferences/imc/"}]},{"@context":"https://schema.org","@type":"Dataset","name":"IMC acceptance rate and submission statistics","description":"IMC acceptance rate and submission statistics from 2001-2024, including yearly accepted papers, submissions, locations, and notes.","url":"https://csconfstats.xoveexu.com/conferences/imc/","creator":{"@type":"Person","name":"Xovee Xu","url":"https://www.xoveexu.com"},"license":"https://github.com/Xovee/cs-conf-stats"}]}</script>
 </head>
 <body class="min-h-screen flex flex-col bg-gray-100 text-gray-800">
-<header class="py-6 border-b bg-white">
-  <div class="container mx-auto px-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-    <a href="/" class="flex items-center gap-3 text-gray-800 hover:no-underline">
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-brand" aria-label="CS Conf Stats home">
       <img src="/img/logo.svg" alt="CS Conf Stats logo" class="h-10 w-10">
-      <span class="text-2xl md:text-3xl text-uestc">CS Conf Stats</span>
+      <span class="site-brand-title">CS Conf Stats</span>
     </a>
-    <nav class="flex flex-wrap gap-4 text-base md:text-lg">
+    <nav class="site-nav" aria-label="Primary navigation">
       <a href="/conferences/">Conferences</a>
       <a href="/fun-fact.html">Fun Facts</a>
       <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -40,7 +40,7 @@
 </section>
 
 <section class="seo-stat-grid mb-8">
-  <div class="seo-stat-card">
+  <div class="seo-stat-card seo-stat-card-accent">
     <div class="conf-card-title">Latest Acceptance Rate</div>
     <div class="conf-card-big-desc">19.0%</div>
     <div class="conf-card-desc">2024: 30 accepted / 158 submitted</div>
@@ -59,206 +59,206 @@
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">Yearly Statistics</h2>
-  <div class="overflow-x-auto bg-white shadow-md rounded-lg">
-  <table class="min-w-full text-sm md:text-base">
+  <div class="seo-table-card">
+  <table class="seo-table">
     <thead>
-      <tr class="bg-gray-50 text-left">
-        <th class="p-3">Year</th>
-        <th class="p-3">Location</th>
-        <th class="p-3 text-right">Accepted</th>
-        <th class="p-3 text-right">Submitted</th>
-        <th class="p-3 text-right">Acceptance Rate</th>
-        <th class="p-3">Second Track</th>
-        <th class="p-3">Note</th>
+      <tr>
+        <th>Year</th>
+        <th>Location</th>
+        <th class="text-right">Accepted</th>
+        <th class="text-right">Submitted</th>
+        <th class="text-right">Acceptance Rate</th>
+        <th>Second Track</th>
+        <th>Note</th>
       </tr>
     </thead>
     <tbody>
-      <tr class="border-t">
+      <tr class="is-latest">
         <td class="p-3"><a href="/conferences/imc/2024/">2024</a></td>
         <td class="p-3">Madrid, Spain</td>
         <td class="p-3 text-right">30</td>
         <td class="p-3 text-right">158</td>
-        <td class="p-3 text-right">19.0%</td>
+        <td class="p-3 text-right"><span class="rate-badge">19.0%</span></td>
         <td class="p-3">25 / 91 (27.5%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2023/">2023</a></td>
         <td class="p-3">Montreal, Canada</td>
         <td class="p-3 text-right">38</td>
         <td class="p-3 text-right">137</td>
-        <td class="p-3 text-right">27.7%</td>
+        <td class="p-3 text-right"><span class="rate-badge">27.7%</span></td>
         <td class="p-3">14 / 64 (21.9%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2022/">2022</a></td>
         <td class="p-3">Nice, France</td>
         <td class="p-3 text-right">38</td>
         <td class="p-3 text-right">143</td>
-        <td class="p-3 text-right">26.6%</td>
+        <td class="p-3 text-right"><span class="rate-badge">26.6%</span></td>
         <td class="p-3">18 / 69 (26.1%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2021/">2021</a></td>
         <td class="p-3">Online, Online</td>
         <td class="p-3 text-right">38</td>
         <td class="p-3 text-right">135</td>
-        <td class="p-3 text-right">28.1%</td>
+        <td class="p-3 text-right"><span class="rate-badge">28.1%</span></td>
         <td class="p-3">15 / 61 (24.6%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2020/">2020</a></td>
         <td class="p-3">Online, Online</td>
         <td class="p-3 text-right">38</td>
         <td class="p-3 text-right">142</td>
-        <td class="p-3 text-right">26.8%</td>
+        <td class="p-3 text-right"><span class="rate-badge">26.8%</span></td>
         <td class="p-3">15 / 74 (20.3%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2019/">2019</a></td>
         <td class="p-3">Amsterdam, The Netherlands</td>
         <td class="p-3 text-right">29</td>
         <td class="p-3 text-right">118</td>
-        <td class="p-3 text-right">24.6%</td>
+        <td class="p-3 text-right"><span class="rate-badge">24.6%</span></td>
         <td class="p-3">10 / 79 (12.7%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2017/">2017</a></td>
         <td class="p-3">London, UK</td>
         <td class="p-3 text-right">28</td>
         <td class="p-3 text-right">100</td>
-        <td class="p-3 text-right">28.0%</td>
+        <td class="p-3 text-right"><span class="rate-badge">28.0%</span></td>
         <td class="p-3">14 / 79 (17.7%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2016/">2016</a></td>
         <td class="p-3">Santa Monica, California, USA</td>
         <td class="p-3 text-right">25</td>
         <td class="p-3 text-right">104</td>
-        <td class="p-3 text-right">24.0%</td>
+        <td class="p-3 text-right"><span class="rate-badge">24.0%</span></td>
         <td class="p-3">21 / 80 (26.3%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2015/">2015</a></td>
         <td class="p-3">Tokyo, Japan</td>
         <td class="p-3 text-right">31</td>
         <td class="p-3 text-right">96</td>
-        <td class="p-3 text-right">32.3%</td>
+        <td class="p-3 text-right"><span class="rate-badge">32.3%</span></td>
         <td class="p-3">12 / 73 (16.4%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2014/">2014</a></td>
         <td class="p-3">Vancouver, Canada</td>
         <td class="p-3 text-right">32</td>
         <td class="p-3 text-right">103</td>
-        <td class="p-3 text-right">31.1%</td>
+        <td class="p-3 text-right"><span class="rate-badge">31.1%</span></td>
         <td class="p-3">11 / 85 (12.9%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2013/">2013</a></td>
         <td class="p-3">Barcelona, Spain</td>
         <td class="p-3 text-right">25</td>
         <td class="p-3 text-right">92</td>
-        <td class="p-3 text-right">27.2%</td>
+        <td class="p-3 text-right"><span class="rate-badge">27.2%</span></td>
         <td class="p-3">17 / 86 (19.8%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2012/">2012</a></td>
         <td class="p-3">Boston, USA</td>
         <td class="p-3 text-right">35</td>
         <td class="p-3 text-right">101</td>
-        <td class="p-3 text-right">34.7%</td>
+        <td class="p-3 text-right"><span class="rate-badge">34.7%</span></td>
         <td class="p-3">10 / 82 (12.2%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2011/">2011</a></td>
         <td class="p-3">Berlin, Germany</td>
         <td class="p-3 text-right">28</td>
         <td class="p-3 text-right">111</td>
-        <td class="p-3 text-right">25.2%</td>
+        <td class="p-3 text-right"><span class="rate-badge">25.2%</span></td>
         <td class="p-3">14 / 110 (12.7%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2010/">2010</a></td>
         <td class="p-3">Melbourne, Australia</td>
         <td class="p-3 text-right">24</td>
         <td class="p-3 text-right">110</td>
-        <td class="p-3 text-right">21.8%</td>
+        <td class="p-3 text-right"><span class="rate-badge">21.8%</span></td>
         <td class="p-3">23 / 101 (22.8%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2009/">2009</a></td>
         <td class="p-3">Chicago, USA</td>
         <td class="p-3 text-right">27</td>
         <td class="p-3 text-right">115</td>
-        <td class="p-3 text-right">23.5%</td>
+        <td class="p-3 text-right"><span class="rate-badge">23.5%</span></td>
         <td class="p-3">14 / 68 (20.6%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2006/">2006</a></td>
         <td class="p-3">Rio de Janeiro, Brazil</td>
         <td class="p-3 text-right">19</td>
         <td class="p-3 text-right">92</td>
-        <td class="p-3 text-right">20.7%</td>
+        <td class="p-3 text-right"><span class="rate-badge">20.7%</span></td>
         <td class="p-3">15 / 63 (23.8%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2005/">2005</a></td>
         <td class="p-3">Berkeley, California, USA</td>
         <td class="p-3 text-right">22</td>
         <td class="p-3 text-right">82</td>
-        <td class="p-3 text-right">26.8%</td>
+        <td class="p-3 text-right"><span class="rate-badge">26.8%</span></td>
         <td class="p-3">14 / 66 (21.2%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2004/">2004</a></td>
         <td class="p-3">Taormina, Italy</td>
         <td class="p-3 text-right">19</td>
         <td class="p-3 text-right">98</td>
-        <td class="p-3 text-right">19.4%</td>
+        <td class="p-3 text-right"><span class="rate-badge">19.4%</span></td>
         <td class="p-3">19 / 59 (32.2%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2003/">2003</a></td>
         <td class="p-3">Miami, USA</td>
         <td class="p-3 text-right">19</td>
         <td class="p-3 text-right">73</td>
-        <td class="p-3 text-right">26.0%</td>
+        <td class="p-3 text-right"><span class="rate-badge">26.0%</span></td>
         <td class="p-3">13 / 36 (36.1%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2002/">2002</a></td>
         <td class="p-3">Marseille, France</td>
         <td class="p-3 text-right">15</td>
         <td class="p-3 text-right">62</td>
-        <td class="p-3 text-right">24.2%</td>
+        <td class="p-3 text-right"><span class="rate-badge">24.2%</span></td>
         <td class="p-3">26 / 31 (83.9%)</td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/imc/2001/">2001</a></td>
         <td class="p-3">San Francisco, California, USA</td>
         <td class="p-3 text-right">14</td>
         <td class="p-3 text-right">54</td>
-        <td class="p-3 text-right">25.9%</td>
+        <td class="p-3 text-right"><span class="rate-badge">25.9%</span></td>
         <td class="p-3">19 / 42 (45.2%)</td>
         <td class="p-3"></td>
       </tr>
@@ -269,7 +269,7 @@
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">Conference Details</h2>
-  <dl class="bg-white shadow-md rounded-lg p-5">
+  <dl class="seo-detail-list">
     <dt>Full Title</dt>
     <dd>ACM Internet Measurement Conference</dd>
     <dt>Main Discipline</dt>
@@ -285,7 +285,7 @@
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">More IMC Pages</h2>
-  <ul class="seo-year-list bg-white shadow-md rounded-lg p-6">
+  <ul class="seo-year-list seo-list-card">
     <li><a href="/conferences/imc/2024/">IMC 2024</a></li>
     <li><a href="/conferences/imc/2023/">IMC 2023</a></li>
     <li><a href="/conferences/imc/2022/">IMC 2022</a></li>

@@ -11,11 +11,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
   }
   
   // select conference
-  const dropdowns = document.querySelectorAll('select');
+  const dropdowns = Array.from(document.querySelectorAll('select'));
   const curConfSelection = document.getElementById('cur-conf');
+  const conferenceSearch = document.getElementById('conference-search');
+  const conferenceOptions = document.getElementById('conference-options');
+  const conferencePickerForm = document.getElementById('conference-picker-form');
+  const categoryTabs = document.getElementById('category-tabs');
+  const categoryConferenceButtons = document.getElementById('category-conference-buttons');
   const loadingMessage = document.getElementById("loadingMessage");
   const plotArea = document.getElementById('plot-area');
   let confPlot = null;
+  let activeCategorySelectId = 'dropdown-ai';
 
   function escapeHTML(value) {
     return String(value ?? '').replace(/[&<>"']/g, char => ({
@@ -107,6 +113,152 @@ document.addEventListener('DOMContentLoaded', (event) => {
       const sortedConferences = data.conferences
         .filter(c => c.series !== 'Template')
         .sort((a, b) => a.series.localeCompare(b.series));
+
+      const categorySelects = dropdowns.filter(dropdown => dropdown.id !== 'dropdown-all');
+      const conferenceByLower = new Map(sortedConferences.map(conference => [
+        conference.series.toLowerCase(),
+        conference.series
+      ]));
+      const eventCount = sortedConferences.reduce((total, conference) => total + conference.yearly_data.length, 0);
+      const latestYear = sortedConferences.reduce((latest, conference) => {
+        const conferenceLatest = Math.max(...conference.yearly_data.map(event => event.year));
+        return Math.max(latest, conferenceLatest);
+      }, 0);
+
+      const heroConfCount = document.getElementById('hero-conf-count');
+      const heroEventCount = document.getElementById('hero-event-count');
+      const heroLatestYear = document.getElementById('hero-latest-year');
+      if (heroConfCount) heroConfCount.textContent = sortedConferences.length.toLocaleString();
+      if (heroEventCount) heroEventCount.textContent = eventCount.toLocaleString();
+      if (heroLatestYear) heroLatestYear.textContent = latestYear.toString();
+
+      function getCategoryLabel(dropdown) {
+        const label = document.querySelector(`label[for="${dropdown.id}"]`);
+        return (label ? label.textContent : dropdown.id.replace('dropdown-', '')).trim();
+      }
+
+      function findCategorySelectId(conferenceSeries) {
+        const select = categorySelects.find(dropdown =>
+          Array.from(dropdown.options).some(option => option.value === conferenceSeries)
+        );
+        return select ? select.id : '';
+      }
+
+      function renderCategoryTabs() {
+        if (!categoryTabs) return;
+
+        const tabs = categorySelects.map(dropdown => {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = `category-tab${dropdown.id === activeCategorySelectId ? ' is-active' : ''}`;
+          button.dataset.selectId = dropdown.id;
+          button.textContent = getCategoryLabel(dropdown);
+          button.title = document.querySelector(`label[for="${dropdown.id}"]`)?.title || button.textContent;
+          return button;
+        });
+
+        categoryTabs.replaceChildren(...tabs);
+      }
+
+      function renderConferenceButtons(selectId, selectedConference = curConfSelection.textContent) {
+        if (!categoryConferenceButtons) return;
+
+        const dropdown = document.getElementById(selectId);
+        if (!dropdown) return;
+
+        activeCategorySelectId = selectId;
+        const buttons = Array.from(dropdown.options)
+          .filter(option => option.value)
+          .map(option => {
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.className = `conference-choice${option.value === selectedConference ? ' is-active' : ''}`;
+            button.dataset.selectId = selectId;
+            button.dataset.conf = option.value;
+            button.textContent = option.textContent;
+            return button;
+          });
+
+        categoryConferenceButtons.replaceChildren(...buttons);
+      }
+
+      function syncPickerUI(conferenceSeries) {
+        if (conferenceSearch && document.activeElement !== conferenceSearch) {
+          conferenceSearch.value = conferenceSeries;
+        }
+
+        const categorySelectId = findCategorySelectId(conferenceSeries) || activeCategorySelectId;
+        activeCategorySelectId = categorySelectId;
+        renderCategoryTabs();
+        renderConferenceButtons(categorySelectId, conferenceSeries);
+      }
+
+      function chooseConference(rawValue) {
+        const query = String(rawValue || '').trim();
+        if (!query) return;
+
+        const normalizedQuery = query.toLowerCase();
+        const matchedConference = conferenceByLower.get(normalizedQuery)
+          || sortedConferences.find(conference => conference.series.toLowerCase().startsWith(normalizedQuery))?.series
+          || sortedConferences.find(conference => {
+            const title = asArray(conference.metadata.series_full_title).join(' ');
+            return `${conference.series} ${title}`.toLowerCase().includes(normalizedQuery);
+          })?.series;
+
+        if (!matchedConference) {
+          conferenceSearch.value = curConfSelection.textContent;
+          return;
+        }
+
+        curConfSelection.textContent = matchedConference;
+        if (!updateDropdownSelection(matchedConference)) {
+          updateUrl(matchedConference);
+          displayConfMetadata(matchedConference);
+        }
+      }
+
+      if (conferenceOptions) {
+        const datalistOptions = sortedConferences.map(conference => {
+          const option = document.createElement('option');
+          option.value = conference.series;
+          option.label = asArray(conference.metadata.series_full_title).join(", ");
+          return option;
+        });
+        conferenceOptions.replaceChildren(...datalistOptions);
+      }
+
+      if (conferencePickerForm) {
+        conferencePickerForm.addEventListener('submit', event => {
+          event.preventDefault();
+          chooseConference(conferenceSearch.value);
+        });
+      }
+
+      if (conferenceSearch) {
+        conferenceSearch.addEventListener('change', () => chooseConference(conferenceSearch.value));
+      }
+
+      if (categoryTabs) {
+        categoryTabs.addEventListener('click', event => {
+          const button = event.target.closest('button[data-select-id]');
+          if (!button) return;
+          renderConferenceButtons(button.dataset.selectId);
+          renderCategoryTabs();
+        });
+      }
+
+      if (categoryConferenceButtons) {
+        categoryConferenceButtons.addEventListener('click', event => {
+          const button = event.target.closest('button[data-conf]');
+          if (!button) return;
+
+          const dropdown = document.getElementById(button.dataset.selectId);
+          if (!dropdown) return;
+
+          dropdown.value = button.dataset.conf;
+          dropdown.dispatchEvent(new Event('change'));
+        });
+      }
 
       sortedConferences.forEach(conference => {
         const option = document.createElement('option');
@@ -451,6 +603,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         trackButtons.querySelectorAll('input[name="track"]').forEach(input => {
           input.addEventListener('change', event => showTrack(event.target.value));
         });
+
+        syncPickerUI(conferenceSeries);
       }
 
       window.displayConfMetadata = displayConfMetadata;

@@ -14,13 +14,13 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://csconfstats.xoveexu.com/"},{"@type":"ListItem","position":2,"name":"Conferences","item":"https://csconfstats.xoveexu.com/conferences/"},{"@type":"ListItem","position":3,"name":"UbiComp","item":"https://csconfstats.xoveexu.com/conferences/ubicomp/"}]},{"@context":"https://schema.org","@type":"Dataset","name":"UbiComp acceptance rate and submission statistics","description":"UbiComp acceptance rate and submission statistics from 2001-2016, including yearly accepted papers, submissions, locations, and notes.","url":"https://csconfstats.xoveexu.com/conferences/ubicomp/","creator":{"@type":"Person","name":"Xovee Xu","url":"https://www.xoveexu.com"},"license":"https://github.com/Xovee/cs-conf-stats"}]}</script>
 </head>
 <body class="min-h-screen flex flex-col bg-gray-100 text-gray-800">
-<header class="py-6 border-b bg-white">
-  <div class="container mx-auto px-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-    <a href="/" class="flex items-center gap-3 text-gray-800 hover:no-underline">
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-brand" aria-label="CS Conf Stats home">
       <img src="/img/logo.svg" alt="CS Conf Stats logo" class="h-10 w-10">
-      <span class="text-2xl md:text-3xl text-uestc">CS Conf Stats</span>
+      <span class="site-brand-title">CS Conf Stats</span>
     </a>
-    <nav class="flex flex-wrap gap-4 text-base md:text-lg">
+    <nav class="site-nav" aria-label="Primary navigation">
       <a href="/conferences/">Conferences</a>
       <a href="/fun-fact.html">Fun Facts</a>
       <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -40,7 +40,7 @@
 </section>
 
 <section class="seo-stat-grid mb-8">
-  <div class="seo-stat-card">
+  <div class="seo-stat-card seo-stat-card-accent">
     <div class="conf-card-title">Latest Acceptance Rate</div>
     <div class="conf-card-big-desc">26.0%</div>
     <div class="conf-card-desc">2016: 101 accepted / 389 submitted</div>
@@ -59,152 +59,152 @@
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">Yearly Statistics</h2>
-  <div class="overflow-x-auto bg-white shadow-md rounded-lg">
-  <table class="min-w-full text-sm md:text-base">
+  <div class="seo-table-card">
+  <table class="seo-table">
     <thead>
-      <tr class="bg-gray-50 text-left">
-        <th class="p-3">Year</th>
-        <th class="p-3">Location</th>
-        <th class="p-3 text-right">Accepted</th>
-        <th class="p-3 text-right">Submitted</th>
-        <th class="p-3 text-right">Acceptance Rate</th>
-        <th class="p-3">Second Track</th>
-        <th class="p-3">Note</th>
+      <tr>
+        <th>Year</th>
+        <th>Location</th>
+        <th class="text-right">Accepted</th>
+        <th class="text-right">Submitted</th>
+        <th class="text-right">Acceptance Rate</th>
+        <th>Second Track</th>
+        <th>Note</th>
       </tr>
     </thead>
     <tbody>
-      <tr class="border-t">
+      <tr class="is-latest">
         <td class="p-3"><a href="/conferences/ubicomp/2016/">2016</a></td>
         <td class="p-3">Heidelberg, Germany</td>
         <td class="p-3 text-right">101</td>
         <td class="p-3 text-right">389</td>
-        <td class="p-3 text-right">26.0%</td>
+        <td class="p-3 text-right"><span class="rate-badge">26.0%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2014/">2014</a></td>
         <td class="p-3">Seattle, USA</td>
         <td class="p-3 text-right">71</td>
         <td class="p-3 text-right">454</td>
-        <td class="p-3 text-right">15.6%</td>
+        <td class="p-3 text-right"><span class="rate-badge">15.6%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2013/">2013</a></td>
         <td class="p-3">Zurich, Switzerland</td>
         <td class="p-3 text-right">92</td>
         <td class="p-3 text-right">394</td>
-        <td class="p-3 text-right">23.4%</td>
+        <td class="p-3 text-right"><span class="rate-badge">23.4%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2012/">2012</a></td>
         <td class="p-3">Pittsburgh, USA</td>
         <td class="p-3 text-right">58</td>
         <td class="p-3 text-right">301</td>
-        <td class="p-3 text-right">19.3%</td>
+        <td class="p-3 text-right"><span class="rate-badge">19.3%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2011/">2011</a></td>
         <td class="p-3">Beijing, China</td>
         <td class="p-3 text-right">50</td>
         <td class="p-3 text-right">302</td>
-        <td class="p-3 text-right">16.6%</td>
+        <td class="p-3 text-right"><span class="rate-badge">16.6%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2010/">2010</a></td>
         <td class="p-3">Copenhagen, Denmark</td>
         <td class="p-3 text-right">39</td>
         <td class="p-3 text-right">202</td>
-        <td class="p-3 text-right">19.3%</td>
+        <td class="p-3 text-right"><span class="rate-badge">19.3%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2009/">2009</a></td>
         <td class="p-3">Orlando, USA</td>
         <td class="p-3 text-right">31</td>
         <td class="p-3 text-right">251</td>
-        <td class="p-3 text-right">12.4%</td>
+        <td class="p-3 text-right"><span class="rate-badge">12.4%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2008/">2008</a></td>
         <td class="p-3">Seoul, Korea</td>
         <td class="p-3 text-right">42</td>
         <td class="p-3 text-right">226</td>
-        <td class="p-3 text-right">18.6%</td>
+        <td class="p-3 text-right"><span class="rate-badge">18.6%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2007/">2007</a></td>
         <td class="p-3">Innsbruck, Austria</td>
         <td class="p-3 text-right">29</td>
         <td class="p-3 text-right">152</td>
-        <td class="p-3 text-right">19.1%</td>
+        <td class="p-3 text-right"><span class="rate-badge">19.1%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2006/">2006</a></td>
         <td class="p-3">Orange County, California, USA</td>
         <td class="p-3 text-right">30</td>
         <td class="p-3 text-right">204</td>
-        <td class="p-3 text-right">14.7%</td>
+        <td class="p-3 text-right"><span class="rate-badge">14.7%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2005/">2005</a></td>
         <td class="p-3">Tokyo, Japan</td>
         <td class="p-3 text-right">22</td>
         <td class="p-3 text-right">230</td>
-        <td class="p-3 text-right">9.6%</td>
+        <td class="p-3 text-right"><span class="rate-badge">9.6%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2004/">2004</a></td>
         <td class="p-3">Nottingham, UK</td>
         <td class="p-3 text-right">26</td>
         <td class="p-3 text-right">144</td>
-        <td class="p-3 text-right">18.1%</td>
+        <td class="p-3 text-right"><span class="rate-badge">18.1%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2003/">2003</a></td>
         <td class="p-3">Seattle, USA</td>
         <td class="p-3 text-right">16</td>
         <td class="p-3 text-right">117</td>
-        <td class="p-3 text-right">13.7%</td>
+        <td class="p-3 text-right"><span class="rate-badge">13.7%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2002/">2002</a></td>
         <td class="p-3">Gothenburg, Sweden</td>
         <td class="p-3 text-right">15</td>
         <td class="p-3 text-right">136</td>
-        <td class="p-3 text-right">11.0%</td>
+        <td class="p-3 text-right"><span class="rate-badge">11.0%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
-      <tr class="border-t">
+      <tr class="">
         <td class="p-3"><a href="/conferences/ubicomp/2001/">2001</a></td>
         <td class="p-3">Atlanta, USA</td>
         <td class="p-3 text-right">14</td>
         <td class="p-3 text-right">90</td>
-        <td class="p-3 text-right">15.6%</td>
+        <td class="p-3 text-right"><span class="rate-badge">15.6%</span></td>
         <td class="p-3"></td>
         <td class="p-3"></td>
       </tr>
@@ -215,7 +215,7 @@
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">Conference Details</h2>
-  <dl class="bg-white shadow-md rounded-lg p-5">
+  <dl class="seo-detail-list">
     <dt>Full Title</dt>
     <dd>ACM International Joint Conference on Pervasive and Ubiquitous Computing</dd>
     <dt>Main Discipline</dt>
@@ -231,7 +231,7 @@
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">More UbiComp Pages</h2>
-  <ul class="seo-year-list bg-white shadow-md rounded-lg p-6">
+  <ul class="seo-year-list seo-list-card">
     <li><a href="/conferences/ubicomp/2016/">UbiComp 2016</a></li>
     <li><a href="/conferences/ubicomp/2014/">UbiComp 2014</a></li>
     <li><a href="/conferences/ubicomp/2013/">UbiComp 2013</a></li>
