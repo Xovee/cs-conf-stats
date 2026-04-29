@@ -10303,6 +10303,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "28th",
+          "location": "Mai Khao, Thailand",
+          "main_track": {
+            "num_acc": 583,
+            "num_sub": 1861
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "27th",
           "location": "Valencia, Spain",
@@ -14342,6 +14351,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "62nd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 420,
+            "num_sub": 1862
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "61st",
           "location": "San Francisco, California, USA",
@@ -14626,8 +14644,17 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "44th",
+          "location": "Munich, Germany",
+          "main_track": {
+            "num_acc": 266,
+            "num_sub": 1078
+          }
+        },
+        {
           "year": 2024,
-          "ordinal": "42nd",
+          "ordinal": "43rd",
           "location": "Newark, USA",
           "main_track": {
             "num_acc": 195,
@@ -14636,7 +14663,7 @@
         },
         {
           "year": 2023,
-          "ordinal": "41st",
+          "ordinal": "42nd",
           "location": "San Francisco, California, USA",
           "main_track": {
             "num_acc": 172,
@@ -14900,6 +14927,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "25th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 100
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "24th",
           "location": "Raleigh, USA",
@@ -15099,6 +15135,15 @@
         "note": "CASES conference is part of the ESWEEK."
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "28th",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 20,
+            "num_sub": 71
+          }
+        },
         {
           "year": 2024,
           "ordinal": "27th",
@@ -15311,6 +15356,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "23rd",
+          "location": "Taipei, Taiwan, China",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 92
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "22nd",
           "location": "Raleigh, USA",
@@ -15501,6 +15555,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "37th",
+          "location": "Brussels, Belgium",
+          "main_track": {
+            "num_acc": 21,
+            "num_sub": 55
+          }
+        },
         {
           "year": 2024,
           "ordinal": "36th",
@@ -15795,6 +15858,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "31st",
+          "location": "Irvine, California, USA",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 109
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "30th",
           "location": "Hong Kong, China",
@@ -16085,6 +16157,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "32nd",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 43,
+            "num_sub": 200
+          }
+        },
         {
           "year": 2024,
           "ordinal": "31st",
