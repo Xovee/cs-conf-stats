@@ -45,6 +45,83 @@ function countryToCode(countryName) {
   return countries[countryName] || 'Unknown';
 }
 
+function escapeHTML(value) {
+  return String(value ?? '').replace(/[&<>"']/g, char => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;'
+  }[char]));
+}
+
+function formatNumber(value) {
+  if (!Number.isFinite(value)) {
+    return 'N/A';
+  }
+
+  return value.toLocaleString('en-US');
+}
+
+function getSubmissionGrowth(conference) {
+  const recentEvents = conference.yearly_data
+    .filter(event => Number.isFinite(event.main_track?.num_sub) && event.main_track.num_sub > 0)
+    .sort((a, b) => b.year - a.year);
+  const latest = recentEvents[0] || null;
+  const baseline = recentEvents[4] || null;
+
+  if (!latest || !baseline) {
+    return {
+      series: conference.series,
+      growth: null,
+      baselineSubmissions: baseline?.main_track.num_sub ?? null,
+      latestSubmissions: latest?.main_track.num_sub ?? null
+    };
+  }
+
+  const latestSubmissions = latest.main_track.num_sub;
+  const baselineSubmissions = baseline.main_track.num_sub;
+
+  return {
+    series: conference.series,
+    growth: (latestSubmissions - baselineSubmissions) / baselineSubmissions,
+    baselineSubmissions,
+    latestSubmissions
+  };
+}
+
+function renderSubmissionGrowthTable(conferences) {
+  const tableBody = document.getElementById('viz-submission-growth-table');
+  if (!tableBody) {
+    return;
+  }
+
+  const rows = conferences
+    .filter(conference => conference.series !== 'Template')
+    .map(getSubmissionGrowth)
+    .sort((a, b) => {
+      if (a.growth === null && b.growth === null) {
+        return a.series.localeCompare(b.series);
+      }
+      if (a.growth === null) return 1;
+      if (b.growth === null) return -1;
+      return b.growth - a.growth;
+    });
+
+  tableBody.innerHTML = rows.map(row => {
+    const growthLabel = row.growth === null
+      ? 'N/A'
+      : `${row.growth >= 0 ? '+' : ''}${(row.growth * 100).toFixed(1)}%`;
+
+    return `<tr>
+      <td class="font-semibold"><a href="/?conf=${encodeURIComponent(row.series)}">${escapeHTML(row.series)}</a></td>
+      <td class="text-right ${row.growth === null ? 'text-gray-500' : row.growth >= 0 ? 'text-uestc' : 'text-uestc_orange'}">${growthLabel}</td>
+      <td class="text-right">${formatNumber(row.baselineSubmissions)}</td>
+      <td class="text-right">${formatNumber(row.latestSubmissions)}</td>
+    </tr>`;
+  }).join('');
+}
+
 fetch('./data/conf.json')
   .then(response => response.json())
   .then(data => {
@@ -365,6 +442,7 @@ fetch('./data/conf.json')
     // Initialize all charts - each render function returns the chart instance
     const disciplineChart = renderDiscipline(disciplineCounts);
     const conferenceChart = renderConferencePapers(seriesAccRates);
+    renderSubmissionGrowthTable(data.conferences);
     const yearlyChart = renderYearly(years, submissions, acceptances, rateYearly);
     const cityChart = renderCity(cityData);
     const countryChart = renderCountry(countryData);

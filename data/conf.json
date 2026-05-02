@@ -10059,6 +10059,16 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "38th",
+          "location": "Lyon, France",
+          "main_track": {
+            "num_acc": 166,
+            "num_sub": 556
+          },
+          "note": "Data from Rocco A. Servedio's CV and OpenAccept"
+        },
+        {
           "year": 2024,
           "ordinal": "37th",
           "location": "Edmonton, Canada",
@@ -16460,6 +16470,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "34th",
+          "location": "Notre Dame, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 133
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "33rd",
           "location": "Pisa, Italy",
@@ -16722,6 +16741,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "39th",
+          "location": "Salt Lake City, USA",
+          "main_track": {
+            "num_acc": 83,
+            "num_sub": 320
+          }
+        },
         {
           "year": 2024,
           "ordinal": "38th",
@@ -17051,6 +17079,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "38th",
+          "location": "St. Louis, USA",
+          "main_track": {
+            "num_acc": 135,
+            "num_sub": 623
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "37th",
           "location": "Atlanta, USA",
@@ -17345,6 +17382,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "30th",
+          "location": "Las Vegas, USA",
+          "main_track": {
+            "num_acc": 38,
+            "num_sub": 189
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "29th",
           "location": "Edinburgh, Scotland, UK",
@@ -17580,6 +17626,15 @@
         "note": "Some history: IPDPS was founded in 1987 named IPPS, and merged with SPDP in 1998 and 1999, then in 2000 renamed to IPDPS."
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "39th",
+          "location": "Milano, Italy",
+          "main_track": {
+            "num_acc": 105,
+            "num_sub": 425
+          }
+        },
         {
           "year": 2024,
           "ordinal": "38th",
@@ -18177,6 +18232,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "51st",
+          "location": "Stony Brook, USA",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 382
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "50th",
           "location": "Venice, Italy",
@@ -18565,14 +18629,22 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "19th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 53,
+            "num_sub": 339
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "18th",
           "location": "Santa Clara, California, USA",
           "main_track": {
             "num_acc": 49,
             "num_sub": 272
-          },
-          "note": "Remember to add revised accepted papers when adding '25 data."
+          }
         },
         {
           "year": 2023,
@@ -18747,6 +18819,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "31st",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 307
+          }
+        },
         {
           "year": 2024,
           "ordinal": "30th",
@@ -18938,6 +19019,15 @@
         "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "20th",
+          "location": "Rotterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 85,
+            "num_sub": 696
+          }
+        },
         {
           "year": 2024,
           "ordinal": "19th",
@@ -19370,14 +19460,17 @@
       },
       "yearly_data": [
         {
-          "year": 2024,
+          "year": 2025,
           "ordinal": "53rd",
-          "location": "Santa Clara, California, USA",
+          "location": "Boston, USA",
           "main_track": {
-            "num_acc": 77,
-            "num_sub": 481
+            "num_acc": 93,
+            "num_sub": 578
           },
-          "note": "The numbers of full and short papers are not clear. Therefore I combined then."
+          "second_track": {
+            "num_acc": 7,
+            "num_sub": 56
+          }
         },
         {
           "year": 2023,
@@ -19628,6 +19721,16 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "46th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 89,
+            "num_sub": 312
+          },
+          "note": "312 should be close to the actual number of submissions."
+        },
         {
           "year": 2024,
           "ordinal": "45th",
@@ -20382,6 +20485,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "39th",
+          "location": "Bergen, Norway",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 102
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "38th",
           "location": "Vienna, Austria",
@@ -20708,6 +20820,16 @@
         "note": "Since 2017, the proceedings are published in PACMPL."
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "30th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 110
+          },
+          "note": "Number of sub is from Jianlin Li's CV."
+        },
         {
           "year": 2024,
           "ordinal": "29th",

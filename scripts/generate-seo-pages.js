@@ -147,6 +147,7 @@ function pageShell({ title, description, canonicalPath, body, structuredData }) 
       <span class="site-brand-title">CS Conf Stats</span>
     </a>
     <nav class="site-nav" aria-label="Primary navigation">
+      <a href="/">Main</a>
       <a href="/conferences/">Conferences</a>
       <a href="/fun-fact.html">Fun Facts</a>
       <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -262,6 +263,41 @@ function renderExternalLinks(conference) {
   return `<p>${links.join(' | ')}</p>`;
 }
 
+function renderChartLink(series) {
+  return `<p class="seo-chart-cta">
+    <a href="/?conf=${encodeURIComponent(series)}" aria-label="View ${escapeHTML(series)} on the main interactive CS Conf Stats chart">
+      <span>View interactive chart</span>
+      <strong>${escapeHTML(series)} on CS Conf Stats</strong>
+    </a>
+  </p>`;
+}
+
+function renderSubmissionTrendCard(events) {
+  const recentEvents = events
+    .filter(event => Number.isFinite(event.main_track?.num_sub) && event.main_track.num_sub > 0)
+    .slice(0, 5);
+
+  if (recentEvents.length < 2) {
+    return '';
+  }
+
+  const latest = recentEvents[0];
+  const baseline = recentEvents[recentEvents.length - 1];
+  const latestSubmissions = latest.main_track.num_sub;
+  const baselineSubmissions = baseline.main_track.num_sub;
+  const delta = latestSubmissions - baselineSubmissions;
+  const percentChange = delta / baselineSubmissions;
+  const sign = delta >= 0 ? '+' : '-';
+  const changeLabel = `${sign}${Math.abs(percentChange * 100).toFixed(1)}%`;
+  const deltaLabel = `${sign}${formatNumber(Math.abs(delta))}`;
+
+  return `<div class="seo-stat-card seo-stat-card-wide">
+    <div class="conf-card-title">Submission Trend</div>
+    <div class="conf-card-big-desc">${changeLabel}</div>
+    <div class="conf-card-desc">Last ${recentEvents.length} events (${baseline.year}-${latest.year}): ${formatNumber(baselineSubmissions)} &rarr; ${formatNumber(latestSubmissions)} submissions (${deltaLabel}).</div>
+  </div>`;
+}
+
 function relatedConferences(conference, limit = 6) {
   const sameDiscipline = conferences
     .filter(item => item.series !== conference.series && item.discipline === conference.discipline)
@@ -295,6 +331,7 @@ function renderConferencePage(conference) {
   <h1 class="text-3xl md:text-5xl text-uestc mb-4">${escapeHTML(series)} Acceptance Rate and Submission Statistics</h1>
   <p>${escapeHTML(fullTitle)} is tracked by CS Conf Stats as a ${escapeHTML(discipline)} conference. The dataset covers ${events.length} events from ${yearRange}.</p>
   <p>${escapeHTML(latestSummary)}</p>
+  ${renderChartLink(series)}
   ${renderExternalLinks(conference)}
 </section>
 
@@ -314,6 +351,7 @@ function renderConferencePage(conference) {
     <div class="conf-card-desc">${escapeHTML(discipline)}</div>
     <div class="conf-card-desc">${escapeHTML(mainDisciplines)}</div>
   </div>
+  ${renderSubmissionTrendCard(events)}
 </section>
 
 <section class="mb-8">
@@ -342,7 +380,6 @@ function renderConferencePage(conference) {
   <ul class="seo-year-list seo-list-card">
     ${events.map(event => `<li><a href="${yearUrl(conference, event.year)}">${series} ${event.year}</a></li>`).join('\n    ')}
   </ul>
-  <p>Interactive chart: <a href="/?conf=${encodeURIComponent(series)}">${escapeHTML(series)} on the main CS Conf Stats chart</a>.</p>
   ${related ? `<p>Related ${escapeHTML(discipline)} conferences: ${related}.</p>` : ''}
 </section>`;
 
@@ -406,6 +443,7 @@ function renderYearPage(conference, event, events) {
   <p>${escapeHTML(description)}</p>
   <p>${escapeHTML(fullTitle)} ${event.year}${event.ordinal ? ` (${escapeHTML(event.ordinal)})` : ''} was held in ${escapeHTML(event.location)}.</p>
   <p>${escapeHTML(comparisonSentence(conference, event, olderEvent))}</p>
+  ${renderChartLink(series)}
 </section>
 
 <section class="seo-stat-grid mb-8">
@@ -448,7 +486,6 @@ function renderYearPage(conference, event, events) {
     <a href="${conferenceUrl(conference)}">All ${escapeHTML(series)} acceptance rates</a>
     ${olderEvent ? ` | <a href="${yearUrl(conference, olderEvent.year)}">Older: ${series} ${olderEvent.year}</a>` : ''}
   </p>
-  <p>Interactive chart: <a href="/?conf=${encodeURIComponent(series)}">${escapeHTML(series)} on the main CS Conf Stats chart</a>.</p>
   ${related ? `<p>Related conferences: ${related}.</p>` : ''}
 </section>`;
 

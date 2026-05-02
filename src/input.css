@@ -112,6 +112,14 @@ select option {
     @apply shadow-md rounded-lg px-5 py-4 m-3 flex-1 bg-white
 }
 
+.conf-card-wide {
+    @apply w-full max-w-none flex-none
+}
+
+.conf-card-trend {
+    @apply border border-blue-100 bg-blue-50
+}
+
 .conf-card-title {
     @apply font-bold text-xl mb-2
 }
@@ -134,6 +142,10 @@ select option {
 
 .seo-stat-card-accent {
     @apply border-l-4 border-l-uestc
+}
+
+.seo-stat-card-wide {
+    @apply md:col-span-3
 }
 
 .seo-list-card {
@@ -184,8 +196,63 @@ select option {
     @apply bg-orange-50
 }
 
+.fun-growth-table-card {
+    @apply overflow-visible
+}
+
+.fun-growth-table {
+    @apply w-full table-fixed tabular-nums
+}
+
+.fun-growth-table th,
+.fun-growth-table td {
+    @apply px-2 py-2 text-xs sm:px-3 sm:text-sm md:text-base
+}
+
+.fun-growth-table th:not(:first-child),
+.fun-growth-table td:not(:first-child) {
+    @apply text-right
+}
+
+.fun-growth-table th {
+    @apply whitespace-nowrap
+}
+
+.fun-growth-table th:nth-child(1),
+.fun-growth-table td:nth-child(1) {
+    width: 25%;
+}
+
+.fun-growth-table th:nth-child(2),
+.fun-growth-table td:nth-child(2) {
+    width: 23%;
+}
+
+.fun-growth-table th:nth-child(3),
+.fun-growth-table td:nth-child(3),
+.fun-growth-table th:nth-child(4),
+.fun-growth-table td:nth-child(4) {
+    width: 26%;
+}
+
 .rate-badge {
     @apply inline-flex rounded-md bg-blue-50 px-2 py-1 font-mono text-sm font-semibold text-uestc tabular-nums
+}
+
+.seo-chart-cta {
+    @apply my-5
+}
+
+.seo-chart-cta a {
+    @apply inline-flex max-w-full flex-col rounded-lg border border-blue-200 bg-blue-50 px-5 py-3 text-uestc shadow-sm transition hover:border-uestc hover:bg-white hover:no-underline sm:flex-row sm:items-center sm:gap-3
+}
+
+.seo-chart-cta span {
+    @apply text-sm font-semibold uppercase tracking-wide text-uestc_orange
+}
+
+.seo-chart-cta strong {
+    @apply text-base md:text-lg
 }
 
 .seo-detail-list {

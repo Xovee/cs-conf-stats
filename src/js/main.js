@@ -66,6 +66,39 @@ document.addEventListener('DOMContentLoaded', (event) => {
       .join("<br>");
   }
 
+  function formatNumber(value) {
+    return Number(value).toLocaleString('en-US');
+  }
+
+  function renderSubmissionTrendCard(yearlyData) {
+    const recentEvents = asArray(yearlyData)
+      .filter(event => Number.isFinite(event.main_track?.num_sub) && event.main_track.num_sub > 0)
+      .sort((a, b) => b.year - a.year)
+      .slice(0, 5);
+
+    if (recentEvents.length < 2) {
+      return '';
+    }
+
+    const latest = recentEvents[0];
+    const baseline = recentEvents[recentEvents.length - 1];
+    const latestSubmissions = latest.main_track.num_sub;
+    const baselineSubmissions = baseline.main_track.num_sub;
+    const delta = latestSubmissions - baselineSubmissions;
+    const percentChange = delta / baselineSubmissions;
+    const sign = delta >= 0 ? '+' : '-';
+    const changeLabel = `${sign}${Math.abs(percentChange * 100).toFixed(1)}%`;
+    const deltaLabel = `${sign}${formatNumber(Math.abs(delta))}`;
+
+    return `
+      <div class="conf-card conf-card-trend">
+        <div class="conf-card-title">Submission Trend</div>
+        <div class="conf-card-big-desc">${changeLabel}</div>
+        <div class="conf-card-desc">Last ${recentEvents.length} conferences (${escapeHTML(baseline.year)}-${escapeHTML(latest.year)}): ${formatNumber(baselineSubmissions)} &rarr; ${formatNumber(latestSubmissions)} submissions (${deltaLabel}).</div>
+      </div>
+    `;
+  }
+
   window.addEventListener('resize', debounce(() => {
     if (confPlot) {
       confPlot.resize();
@@ -366,6 +399,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
               <div class="conf-card-desc">Average acceptance rate in recent ${yearsToConsider} conferences: ${recentAccRate.toFixed(2)}%</div>
             </div>
           `;
+
+          cards += renderSubmissionTrendCard(conference.yearly_data);
         }
 
         if (conference.metadata.note && conference.metadata.note.length > 0) {

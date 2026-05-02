@@ -312,6 +312,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## IMC
 
+- IMC 2025 Number of Long Paper Submissions
 - IMC 2018
 - IMC 2008
 - IMC 2007

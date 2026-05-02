@@ -33,6 +33,7 @@
             <span class="site-brand-title">CS Conf Stats</span>
         </a>
         <nav class="site-nav" aria-label="Primary navigation">
+            <a href="/">Main</a>
             <a href="/conferences/">Conferences</a>
             <a href="/fun-fact.html" aria-current="page">Fun Facts</a>
             <a href="https://github.com/Xovee/cs-conf-stats" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -150,6 +151,25 @@
     <div class="md:text-lg">Here is the distributions of papers in different conferences!</div>
 
     <div id="viz-conference-paper" class="w-full h-[500px] md:h-[800px] mx-auto"></div>
+
+
+    <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">Submission Growth in Recent Conferences</div>
+
+    <div class="md:text-lg mb-5">How much did each conference increase or decrease from its fifth-latest recorded event to its latest recorded event?</div>
+
+    <div class="seo-table-card fun-growth-table-card mb-8">
+        <table class="seo-table fun-growth-table">
+            <thead>
+                <tr>
+                    <th>Conf.</th>
+                    <th class="text-right">Growth</th>
+                    <th class="text-right">5th Sub.</th>
+                    <th class="text-right">Latest Sub.</th>
+                </tr>
+            </thead>
+            <tbody id="viz-submission-growth-table"></tbody>
+        </table>
+    </div>
 
 
     <div class="text-xl md:text-2xl mt-5 mb-3 text-center md:text-left">Scatter Plot of Selected Conferences</div>
