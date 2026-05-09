@@ -21112,6 +21112,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "40th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 214,
+            "num_sub": 590
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "39th",
           "location": "Pasadena, California, USA",
@@ -21375,6 +21384,15 @@
         "note": "Some history: https://ase-conferences.org/ase-on-line-bibligraphy.html Before 1997, it was called the Knowledge-Based Software Engineering Conference (KBSE)."
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "40th",
+          "location": "Seoul, Korea",
+          "main_track": {
+            "num_acc": 245,
+            "num_sub": 1136
+          }
+        },
         {
           "year": 2024,
           "ordinal": "39th",
@@ -21691,7 +21709,15 @@
         "second_track_name": "",
         "note": ""
       },
-      "yearly_data": [
+      "yearly_data": [{
+          "year": 2025,
+          "ordinal": "47th",
+          "location": "Ottawa, Canada",
+          "main_track": {
+            "num_acc": 245,
+            "num_sub": 1150
+          }
+        },
         {
           "year": 2024,
           "ordinal": "46th",
@@ -21996,6 +22022,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "33rd",
+          "location": "Tronheim, Norway",
+          "main_track": {
+            "num_acc": 135,
+            "num_sub": 612
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "32nd",
           "location": "Porto de Galinhas, Brazil",
@@ -22250,6 +22285,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "34th",
+          "location": "Tronheim, Norway",
+          "main_track": {
+            "num_acc": 107,
+            "num_sub": 550
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "33rd",
           "location": "Vienna, Austria",
@@ -22486,6 +22530,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "66th",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "num_acc": 137,
+            "num_sub": 546
+          }
+        },
         {
           "year": 2024,
           "ordinal": "65th",
@@ -24071,6 +24124,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "40th",
+          "location": "Toronto, Canada",
+          "main_track": {
+            "num_acc": 36,
+            "num_sub": 91
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "39th",
           "location": "Ann Arbor, USA",
@@ -24369,6 +24431,15 @@
         "note": "Short papers and other types of papers including tool papers are not distinguished from full papers in some years of the conferences."
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "37th",
+          "location": "Zagreb, Croatia",
+          "main_track": {
+            "num_acc": 79,
+            "num_sub": 305
+          }
+        },
         {
           "year": 2024,
           "ordinal": "36th",
@@ -24686,6 +24757,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "40th",
+          "location": "Singapore, Singapore",
+          "main_track": {
+            "num_acc": 66,
+            "num_sub": 215
+          }
+        },
         {
           "year": 2024,
           "ordinal": "39th",
@@ -25611,6 +25691,19 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "52nd",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 174,
+            "num_sub": 771
+          },
+          "second_track": {
+            "num_acc": 132,
+            "num_sub": 201
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "51st",
           "location": "Denver, USA",
@@ -26049,6 +26142,16 @@
         "note": "Upon submission, authors can indicate their papers to be a dual-track submission or only to be considered for the journal track. Since I didn't find the numbers of submissions for the two tracks, the stats are aggregated for the two tracks. This mechanism seems to be started in 2022"
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "18th",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 301,
+            "num_sub": 1106
+          },
+          "note": "119 journal and 146 conf papers."
+        },
         {
           "year": 2024,
           "ordinal": "17th",
@@ -26632,6 +26735,15 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "38th",
+          "location": "Hangzhou, China",
+          "main_track": {
+            "num_acc": 1991,
+            "num_sub": 4306
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "37th",
           "location": "Abu Dhabi, UAE",
@@ -27157,6 +27269,15 @@
         "note": "InfoVis, SciVis, VAST."
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "36th",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 131,
+            "num_sub": 537
+          }
+        },
         {
           "year": 2024,
           "ordinal": "35th",
@@ -27938,6 +28059,19 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2025,
+          "ordinal": "33rd",
+          "location": "Minneapolis, USA",
+          "main_track": {
+            "num_acc": 50,
+            "num_sub": 199
+          },
+          "second_track": {
+            "num_acc": 22,
+            "num_sub": 76
+          }
+        },
         {
           "year": 2024,
           "ordinal": "32nd",
@@ -28830,7 +28964,7 @@
       },
       "yearly_data": [
         {
-          "year": 2024,
+          "year": 2026,
           "ordinal": "12th",
           "location": "Online, Online",
           "main_track": {
