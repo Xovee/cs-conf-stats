@@ -9599,6 +9599,24 @@
             "num_acc": 63,
             "num_sub": 264
           }
+        },
+        {
+          "year": 1991,
+          "ordinal": "29th",
+          "location": "Berkeley, California, USA",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 165
+          }
+        },
+        {
+          "year": 1983,
+          "ordinal": "21st",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 84
+          }
         }
       ]
     },
