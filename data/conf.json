@@ -3674,6 +3674,26 @@
             "num_acc": 60,
             "num_sub": 303
           }
+        },
+        {
+          "year": 1999,
+          "ordinal": "8th",
+          "location": "Kansas City, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 69,
+            "num_sub": 172
+          }
+        },
+        {
+          "year": 1998,
+          "ordinal": "7th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 53,
+            "num_sub": 210
+          }
         }
       ]
     },
@@ -4390,6 +4410,27 @@
             "num_acc": 46,
             "num_sub": 330
           }
+        },
+        {
+          "year": 2001,
+          "ordinal": "9th",
+          "location": "Ottawa, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 45,
+            "num_sub": 277
+          }
+        },
+        {
+          "year": 2000,
+          "ordinal": "8th",
+          "location": "Marina de Rey, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 36,
+            "num_sub": 214
+          },
+          "note": "Data should be very close."
         },
         {
           "year": 1997,
@@ -10359,6 +10400,24 @@
           }
         },
         {
+          "year": 2023,
+          "ordinal": "26th",
+          "location": "Valencia, Spain",
+          "main_track": {
+            "num_acc": 496,
+            "num_sub": 1689
+          }
+        },
+        {
+          "year": 2021,
+          "ordinal": "25th",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 492,
+            "num_sub": 1685
+          }
+        },
+        {
           "year": 2021,
           "ordinal": "24th",
           "location": "Valencia, Spain",
@@ -10419,6 +10478,15 @@
           "main_track": {
             "num_acc": 120,
             "num_sub": 335
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "16th",
+          "location": "Scottsdale, USA",
+          "main_track": {
+            "num_acc": 71,
+            "num_sub": 211
           }
         },
         {
@@ -15219,6 +15287,15 @@
           }
         },
         {
+          "year": 2019,
+          "ordinal": "22nd",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 16,
+            "num_sub": 75
+          }
+        },
+        {
           "year": 2018,
           "ordinal": "21st",
           "location": "Turin, Italy",
@@ -15372,6 +15449,15 @@
             "num_sub": 80
           },
           "note": "About 80 paper submissions."
+        },
+        {
+          "year": 2000,
+          "ordinal": "3rd",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 25,
+            "num_sub": 56
+          }
         }
       ]
     },

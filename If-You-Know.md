@@ -11,19 +11,18 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ACL
 
-- Before 1997
+- 1992 - 1996
+- 1984 - 1990
+- Before 1984
 
 ## ACM MM
 
 - Before 1997
-- ACM MM 1998-2001
+- ACM MM 1998-1999
 
 ## AISTATS
 
-- AISTATS 2025
-- AISTATS 2022-2023
 - AISTATS 2020
-- AISTATS 2013
 - AISTATS 2001
 - AISTATS 1999
 - AISTATS 1997
@@ -46,9 +45,9 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## CASES
 
-- CASES 2019-2020
+- CASES 2020
 - CASES 2017
-- CASES 1998-2000
+- CASES 1998-1999
 
 ## CAV
 
@@ -69,7 +68,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## CIKM 
 
-- Before 2000
+- Before 1997
 - CIKM 2003
 
 ## CODES+ISSS
