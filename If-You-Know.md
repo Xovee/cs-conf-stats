@@ -78,10 +78,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## COLT
 
-- COLT 2025
 - COLT 2011
-- COLT 2009
-- COLT 2000
 - COLT 1992-1998
 - COLT 1988
 
