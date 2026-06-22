@@ -1739,10 +1739,19 @@
         "parent_org": "European Computer Vision Association",
         "website": ["https://www.ecva.net/index.php"],
         "proceedings": "https://link.springer.com/conference/eccv",
-        "note": "Wow! This conference's data are complete! 🏆",
-        "data": "skip"
+        "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "19th",
+          "location": "Malmo, Sweden",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 2883,
+            "num_sub": 10473
+          }
+        },
         {
           "year": 2024,
           "ordinal": "18th",
