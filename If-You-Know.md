@@ -105,6 +105,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ECIR
 
+- ECIR 2026 full/short paper submission counts. Official proceedings report 46 full papers and 37 short papers, and Springer reports 530 total submissions across all tracks. We still need the full-paper and short-paper submission split before adding this year to the ECIR data.
 - Before 2002
 
 ## ECOOP
@@ -243,7 +244,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ICML
 
-- ICML 2011-2013
+- ICML 2013
 - ICML 1999-2000
 - ICML 1994-1997
 - ICML 1991-1992
@@ -357,7 +358,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## KDD
 
-- Before 1999
+- KDD 1995
 - KDD 2019
 
 ## LICS
@@ -459,7 +460,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## SDM 
 
-- SDM 2019-2020
+- SDM 2019
 - SDM 2012-2014
 - SDM 2008-2010
 - SDM 2003
@@ -570,10 +571,6 @@ First, we need **ALL** new stats in the upcoming years.
 - UAI 2010
 - Before 1992
 
-## UbiComp
-
-- After 2016
-
 ## UIST
 
 - Before 2003
@@ -601,7 +598,15 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## VLDB 
 
-- Before 1995
+- VLDB 1993
+- VLDB 1992
+- VLDB 1990
+- VLDB 1989
+- VLDB 1987
+- VLDB 1984
+- VLDB 1983
+- VLDB 1982
+- Before 1982
 - VLDB 2014
 - VLDB 2016-now
 

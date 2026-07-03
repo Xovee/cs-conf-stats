@@ -516,6 +516,26 @@
           }
         },
         {
+          "year": 2012,
+          "ordinal": "29th",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 242,
+            "num_sub": 890
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "28th",
+          "location": "Bellevue, Washington, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 152,
+            "num_sub": 589
+          }
+        },
+        {
           "year": 2010,
           "ordinal": "27th",
           "location": "Haifa, Israel",
@@ -669,6 +689,16 @@
         "website": ["https://iclr.cc/"]
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "14th",
+          "location": "Rio de Janeiro, Brazil",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 5355,
+            "num_sub": 19525
+          }
+        },
         {
           "year": 2025,
           "ordinal": "13th",
@@ -3152,6 +3182,56 @@
             "num_acc": 52,
             "num_sub": 297
           }
+        },
+        {
+          "year": 1994,
+          "ordinal": "20th",
+          "location": "Santiago de Chile, Chile",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 54,
+            "num_sub": 293
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "17th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 50,
+            "num_sub": 318
+          }
+        },
+        {
+          "year": 1988,
+          "ordinal": "14th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 42,
+            "num_sub": 236
+          }
+        },
+        {
+          "year": 1986,
+          "ordinal": "12th",
+          "location": "Kyoto, Japan",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 48,
+            "num_sub": 247
+          }
+        },
+        {
+          "year": 1985,
+          "ordinal": "11th",
+          "location": "Stockholm, Sweden",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 45,
+            "num_sub": 298
+          }
         }
       ]
     },
@@ -5119,6 +5199,36 @@
             "num_acc": 52,
             "num_sub": 237
           }
+        },
+        {
+          "year": 1998,
+          "ordinal": "4th",
+          "location": "New York City, New York, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 18,
+            "num_sub": 250
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "3rd",
+          "location": "Newport Beach, California, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 17,
+            "num_sub": 162
+          }
+        },
+        {
+          "year": 1996,
+          "ordinal": "2nd",
+          "location": "Portland, Oregon, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 42,
+            "num_sub": 215
+          }
         }
       ]
     },
@@ -5140,6 +5250,16 @@
         "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "19th",
+          "location": "Boise, USA",
+          "main_track": {
+            "track_name": "Research Track", 
+            "num_acc": 100,
+            "num_sub": 613
+          }
+        },
         {
           "year": 2025,
           "ordinal": "18th",
@@ -6533,6 +6653,15 @@
         "note": "The World Wide Web (WWW) conference is renamed to The Web Conference (WWW) in 2018."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "35th",
+          "location": "Dubai, United Arab Emirates",
+          "main_track": {
+            "num_acc": 678,
+            "num_sub": 3370
+          }
+        },
         {
           "year": 2025,
           "ordinal": "34th",
@@ -8092,6 +8221,15 @@
         "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "23rd",
+          "location": "Renton, Washington, USA",
+          "main_track": {
+            "num_acc": 150,
+            "num_sub": 659
+          }
+        },
         {
           "year": 2025,
           "ordinal": "22nd",
@@ -14168,6 +14306,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "45th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "num_acc": 142,
+            "num_sub": 701
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "44th",
           "location": "Madrid, Spain",
@@ -19383,6 +19530,15 @@
         "note": "For FAST proceedings, see each conference website's Technical Sessions page."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "24th",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 253
+          }
+        },
         {
           "year": 2025,
           "ordinal": "23rd",
