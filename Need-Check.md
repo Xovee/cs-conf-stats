@@ -18,8 +18,6 @@ These 2026 events are not yet in `data/conf.json`, and official pages show that 
 
 - AISTATS 2026: held May 2-5, 2026 in Tangier. Paper decisions and accepted-paper workflow are complete; check the virtual site now and PMLR again when the proceedings volume appears.
   Source: https://virtual.aistats.org/Conferences/2026
-- CHI 2026: held Apr 13-17, 2026 in Barcelona. The official analytics post reports 6,725 valid submitted papers; accepted count still needs a program/ACM DL count.
-  Source: https://chi2026.acm.org/2025/12/22/insights-into-submitting-authors-of-the-papers-track/
 - SIGMOD/PODS 2026: held May 31-Jun 05, 2026 in Bengaluru. Accepted-paper pages are visible for both SIGMOD and PODS; update both series after counting papers and checking submission counts.
   Source: https://2026.sigmod.org/
 - NDSS 2026: held Feb 23-27, 2026 in San Diego. Accepted papers are visible; accepted count and submission count need extraction/checking.

@@ -6957,6 +6957,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "44th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 1702,
+            "num_sub": 6725
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "43rd",
           "location": "Yokohama, Japan",
