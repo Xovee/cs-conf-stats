@@ -418,6 +418,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## PODS
 
+- PODS 2026 submission count
 - PODS 1985-1993
 
 ## POPL

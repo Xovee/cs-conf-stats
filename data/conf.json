@@ -3813,6 +3813,16 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "52nd",
+          "location": "Bengaluru, India",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 349,
+            "num_sub": 1049
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "51th",
           "location": "Berlin, Germany",
@@ -12792,6 +12802,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "47th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 253,
+            "num_sub": 1994
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "46th",
           "location": "San Francisco, California, USA",
@@ -13463,6 +13482,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "33rd",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 265,
+            "num_sub": 1481
+          }
+        },
         {
           "year": 2025,
           "ordinal": "32nd",
@@ -20028,6 +20056,16 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "47th",
+          "location": "Boulder, Colorado, USA",
+          "main_track": {
+            "num_acc": 109,
+            "num_sub": 413
+          },
+          "note": "Submitted count is inferred from the official accepted-paper count (109) and an author page reporting a 26.4% acceptance rate."
+        },
+        {
           "year": 2025,
           "ordinal": "46th",
           "location": "Seoul, Korea",
@@ -20336,6 +20374,15 @@
         "note": "Since 2018, the proceedings are published in PACMPL."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "53rd",
+          "location": "Rennes, France",
+          "main_track": {
+            "num_acc": 91,
+            "num_sub": 371
+          }
+        },
         {
           "year": 2025,
           "ordinal": "52nd",
@@ -22016,6 +22063,15 @@
         "note": ""
       },
       "yearly_data": [{
+          "year": 2026,
+          "ordinal": "48th",
+          "location": "Rio de Janeiro, Brazil",
+          "main_track": {
+            "num_acc": 321,
+            "num_sub": 1469
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "47th",
           "location": "Ottawa, Canada",

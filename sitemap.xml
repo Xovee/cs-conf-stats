@@ -1841,6 +1841,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/sigmod/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/sigmod/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -6266,6 +6271,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/ieee-s-p/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/ieee-s-p/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -6619,6 +6629,11 @@
     <loc>https://csconfstats.xoveexu.com/conferences/ndss/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/ndss/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://csconfstats.xoveexu.com/conferences/ndss/2025/</loc>
@@ -9966,6 +9981,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/pldi/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/pldi/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -10129,6 +10149,11 @@
     <loc>https://csconfstats.xoveexu.com/conferences/popl/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/popl/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://csconfstats.xoveexu.com/conferences/popl/2025/</loc>
@@ -11019,6 +11044,11 @@
     <loc>https://csconfstats.xoveexu.com/conferences/icse/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/icse/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://csconfstats.xoveexu.com/conferences/icse/2025/</loc>

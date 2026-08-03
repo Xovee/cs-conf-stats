@@ -2,7 +2,7 @@
 
 A list of events that need further check.
 
-Last reviewed: 2026-07-03.
+Last reviewed: 2026-08-03.
 
 ## Rule
 
@@ -18,18 +18,11 @@ These 2026 events are not yet in `data/conf.json`, and official pages show that 
 
 - AISTATS 2026: held May 2-5, 2026 in Tangier. Paper decisions and accepted-paper workflow are complete; check the virtual site now and PMLR again when the proceedings volume appears.
   Source: https://virtual.aistats.org/Conferences/2026
-- SIGMOD/PODS 2026: held May 31-Jun 05, 2026 in Bengaluru. Accepted-paper pages are visible for both SIGMOD and PODS; update both series after counting papers and checking submission counts.
-  Source: https://2026.sigmod.org/
-- NDSS 2026: held Feb 23-27, 2026 in San Diego. Accepted papers are visible; accepted count and submission count need extraction/checking.
-  Source: https://www.ndss-symposium.org/ndss2026/
-- IEEE S&P 2026: held May 18-21, 2026 in San Francisco. Accepted papers page is visible; accepted count and submission count need extraction/checking.
-  Source: https://www.ieee-security.org/TC/SP2026/accepted-papers.html
-- POPL 2026: held Jan 11-17, 2026 in Rennes. The official site says the POPL proceedings have been published in ACM DL.
-  Source: https://conf.researchr.org/home/POPL-2026
-- PLDI 2026: held Jun 15-19, 2026 in Boulder. Program and research-paper track are visible; count accepted research papers and find submission count.
-  Source: https://pldi26.sigplan.org/
-- ICSE 2026: held Apr 12-18, 2026 in Rio de Janeiro. Program/research track is visible; count accepted research-track papers and find submission count.
-  Source: https://conf.researchr.org/home/icse-2026
+- PODS 2026: held May 31-Jun 05, 2026 in Bengaluru. The official accepted-paper page lists 41 PODS papers, and DBLP/ACM DL confirm the PACMMOD PODS proceedings/issues, but no submission count was found in official pages, news, author pages, or title-specific searches.
+  Sources:
+  - https://2026.sigmod.org/pods_papers.shtml
+  - https://dblp.uni-trier.de/db/conf/pods/index.html
+  - https://dl.acm.org/doi/10.1145/3767714
 - SODA 2026: held Jan 11-14, 2026 in Vancouver. SIAM links the online program, proceedings, and searchable abstracts.
   Source: https://www.siam.org/conferences-events/past-event-archive/soda26/
 
@@ -61,10 +54,14 @@ None right now.
   - https://2026.eurosys.org/papers.html
 - HPCA 2026: OpenAccept reports 119 accepted out of 602 submissions, but no official or second independent source was found yet.
   Source: https://github.com/OpenAccept/openaccept-metadata/blob/master/sys/HPCA.json
+- PODS 2026: official accepted-paper page lists 41 papers, but submission count was not found after checking official pages, DBLP/ACM DL, SIGMOD/PODS news, title-specific queries, and several author/homepage/news hits. Keep tracking for a chair report, SIGMOD Record/SIGACT News note, or author/CV acceptance-rate source.
+  Sources:
+  - https://2026.sigmod.org/pods_papers.shtml
+  - https://dblp.uni-trier.de/db/conf/pods/index.html
 
 ### Not Ready / Conflicting
 
-- PLDI 2026, ICSE 2026, SODA 2026, POPL 2026, SIGMOD/PODS 2026, NDSS 2026, IEEE S&P 2026, IPDPS 2026, RTAS 2026, Eurographics 2026, EuroVis 2026, ICMR 2026, ICRA 2026, RSS 2026, VR 2026, and NAACL 2026: official programs/proceedings or accepted-paper pages are visible, but accepted/submitted statistics were not fully verified in this paused search.
+- SODA 2026, IPDPS 2026, RTAS 2026, Eurographics 2026, EuroVis 2026, ICMR 2026, ICRA 2026, RSS 2026, VR 2026, and NAACL 2026: official programs/proceedings or accepted-paper pages are visible, but accepted/submitted statistics were not fully verified in this paused search.
 
 ## Next Online-Check Candidates
 
@@ -73,6 +70,7 @@ These 2026 entries are not yet in `data/conf.json` and should be checked for new
 - EuroSys 2026
 - ASPLOS 2026
 - HPCA 2026
+- PODS 2026
 - IPDPS 2026
 - RTAS 2026
 - TACAS 2026
