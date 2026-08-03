@@ -10576,6 +10576,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "29th",
+          "location": "Tangier, Morocco",
+          "main_track": {
+            "num_acc": 590,
+            "num_sub": 2102
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "28th",
           "location": "Mai Khao, Thailand",
@@ -11099,6 +11108,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "31st",
+          "location": "Pittsburgh, Pennsylvania, USA",
+          "main_track": {
+            "num_acc": 152,
+            "num_sub": 1048
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "29th",
           "location": "San Diego, California, USA",
@@ -11379,6 +11397,15 @@
         "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "32nd",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "num_acc": 119,
+            "num_sub": 563
+          }
+        },
         {
           "year": 2025,
           "ordinal": "31st",
@@ -18954,6 +18981,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "20th",
+          "location": "Seattle, Washington, USA",
+          "main_track": {
+            "num_acc": 135,
+            "num_sub": 679
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "19th",
           "location": "Boston, USA",
@@ -19344,6 +19380,15 @@
         "note": "Wow! This conference's data are complete! 🏆"
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "21st",
+          "location": "Edinburgh, Scotland, UK",
+          "main_track": {
+            "num_acc": 138,
+            "num_sub": 723
+          }
+        },
         {
           "year": 2025,
           "ordinal": "20th",

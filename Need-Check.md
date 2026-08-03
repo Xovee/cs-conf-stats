@@ -16,8 +16,6 @@ When official statistics are unavailable, data can still be treated as valid if 
 
 These 2026 events are not yet in `data/conf.json`, and official pages show that results, proceedings, or programs are available or likely available.
 
-- AISTATS 2026: held May 2-5, 2026 in Tangier. Paper decisions and accepted-paper workflow are complete; check the virtual site now and PMLR again when the proceedings volume appears.
-  Source: https://virtual.aistats.org/Conferences/2026
 - PODS 2026: held May 31-Jun 05, 2026 in Bengaluru. The official accepted-paper page lists 41 PODS papers, and DBLP/ACM DL confirm the PACMMOD PODS proceedings/issues, but no submission count was found in official pages, news, author pages, or title-specific searches.
   Sources:
   - https://2026.sigmod.org/pods_papers.shtml
@@ -36,24 +34,6 @@ None right now.
 
 ### Strong Leads Needing One More Check
 
-- AISTATS 2026: the official virtual site lists 609 paper/poster entries, but no submitted-paper count was found. Check PMLR/OpenReview again later for official proceedings/statistics.
-  Source: https://virtual.aistats.org/virtual/2026/papers.html?filter=titles
-- ASPLOS 2026: one independent conference note reports 152 accepted out of 1048 submissions, with Spring 20/208 and Summer 132/840. Official program/proceedings pages exist, but the submitted count still needs an official source or a second independent source.
-  Sources:
-  - https://paper.lingyunyang.com/reading-notes/conference/asplos-2026.md
-  - https://www.asplos-conference.org/asplos2026/program/
-  - https://dl.acm.org/doi/proceedings/10.1145/3760250
-  - https://dl.acm.org/doi/proceedings/10.1145/3779212
-- OSDI 2026: one independent conference note reports 135 accepted out of 679 submissions. The USENIX technical sessions page is available, but a chair-message/proceedings-statistics source or a second independent source is still needed.
-  Sources:
-  - https://paper.lingyunyang.com/reading-notes/conference/osdi-2026.md
-  - https://www.usenix.org/conference/osdi26/technical-sessions
-- EuroSys 2026: one independent conference note reports Spring-cycle stats of 79 accepted out of 404 submissions. Official papers page is visible, but this is only Spring-cycle data and still needs final total/mapping confirmation.
-  Sources:
-  - https://paper.lingyunyang.com/reading-notes/conference/eurosys-2026.md
-  - https://2026.eurosys.org/papers.html
-- HPCA 2026: OpenAccept reports 119 accepted out of 602 submissions, but no official or second independent source was found yet.
-  Source: https://github.com/OpenAccept/openaccept-metadata/blob/master/sys/HPCA.json
 - PODS 2026: official accepted-paper page lists 41 papers, but submission count was not found after checking official pages, DBLP/ACM DL, SIGMOD/PODS news, title-specific queries, and several author/homepage/news hits. Keep tracking for a chair report, SIGMOD Record/SIGACT News note, or author/CV acceptance-rate source.
   Sources:
   - https://2026.sigmod.org/pods_papers.shtml
@@ -67,9 +47,6 @@ None right now.
 
 These 2026 entries are not yet in `data/conf.json` and should be checked for newly published results, accepted-paper pages, or proceedings:
 
-- EuroSys 2026
-- ASPLOS 2026
-- HPCA 2026
 - PODS 2026
 - IPDPS 2026
 - RTAS 2026
