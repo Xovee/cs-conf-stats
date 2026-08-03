@@ -5,7 +5,6 @@ const { SITE_URL, buildSlugMap, readConferences } = require('./seo-utils');
 const rootDir = path.resolve(__dirname, '..');
 const conferencesDir = path.join(rootDir, 'conferences');
 const generatedMarkerPath = path.join(conferencesDir, '.generated-by-cs-conf-stats');
-const today = new Date().toISOString().slice(0, 10);
 const conferences = readConferences(rootDir);
 const slugBySeries = buildSlugMap(conferences);
 const sitemapUrls = [];
@@ -591,7 +590,6 @@ function renderSitemaps() {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(item => `  <url>
     <loc>${escapeXML(item.loc)}</loc>
-    <lastmod>${today}</lastmod>
     <changefreq>${item.changefreq}</changefreq>
     <priority>${item.priority}</priority>
   </url>`).join('\n')}

@@ -176,6 +176,11 @@ npm run build:seo
 
 This creates `/conferences/`, one page for each conference, one page for each conference year, `sitemap.xml`, and `robots.txt`.
 
+The generated sitemap intentionally omits `<lastmod>`. A modification date should
+only be published when it accurately reflects a significant update to each page;
+using the build date would make generated output non-reproducible and overstate
+changes across the entire site.
+
 ## Discuss
 
 Should I include second-tier conferences? If you have some thoughts, you can share with me :)
