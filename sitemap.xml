@@ -436,6 +436,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/ijcai/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/ijcai/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2779,6 +2784,11 @@
     <loc>https://csconfstats.xoveexu.com/conferences/sigir/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/sigir/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://csconfstats.xoveexu.com/conferences/sigir/2025/</loc>

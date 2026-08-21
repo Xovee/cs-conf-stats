@@ -847,13 +847,23 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "35th",
+          "location": "Bremen, Germany",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 713,
+            "num_sub": 5233
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "34th",
           "location": "Montreal, Canada",
           "main_track": {
             "track_name": "Research Track",
-            "num_acc": 1023,
-            "num_sub": 5806
+            "num_acc": 1015,
+            "num_sub": 5348
           }
         },
         {
@@ -6010,6 +6020,19 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "49th",
+          "location": "Melbourne, Australia",
+          "main_track": {
+            "num_acc": 233,
+            "num_sub": 1271
+          },
+          "second_track": {
+            "num_acc": 149,
+            "num_sub": 455
+          }
+        },
         {
           "year": 2025,
           "ordinal": "48th",
