@@ -2994,6 +2994,16 @@
       },
       "yearly_data": [
         {
+          "year": 2025,
+          "ordinal": "51st",
+          "location": "London, UK",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 369,
+            "num_sub": 1613
+          }
+        },
+        {
           "year": 2015,
           "ordinal": "41st",
           "location": "Kohala Coast, Hawaii, USA",
@@ -19877,7 +19887,7 @@
       "yearly_data": [
         {
           "year": 2025,
-          "ordinal": "53rd",
+          "ordinal": "54th",
           "location": "Boston, USA",
           "main_track": {
             "num_acc": 93,
@@ -19887,6 +19897,16 @@
             "num_acc": 7,
             "num_sub": 56
           }
+        },
+        {
+          "year": 2024,
+          "ordinal": "53rd",
+          "location": "Santa Clara, California, USA",
+          "main_track": {
+            "num_acc": 72,
+            "num_sub": 439
+          },
+          "note": "Estimated; submission count range is 432-439."
         },
         {
           "year": 2023,

@@ -1476,6 +1476,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/vldb/2025/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/vldb/2015/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -9912,6 +9917,11 @@
   </url>
   <url>
     <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2025/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2024/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

@@ -37,7 +37,6 @@ First, we need **ALL** new stats in the upcoming years.
 - KBSE 1993
 - KBSE 1992
 - KBSE 1990
-- KBSE 1994
 
 ## ASPLOS
 
@@ -88,7 +87,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## CSCW
 
-- CSCW 2019-2024
+- CSCW 2019-now. Accepted papers are published through PACM HCI with revision cycles that can cross conference years; we need submission and acceptance counts using a consistent conference-year definition.
 - CSCW 1996
 - CSCW 1988-1992
 
@@ -295,6 +294,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ICWSM
 
+- ICWSM 2021-now. Full papers use multiple submission cycles and revise-and-resubmit decisions that can cross conference years; we need exact yearly submission and acceptance counts using a consistent definition. For 2024, the proceedings suggest 138 full-length papers and state an approximately 20% acceptance rate (roughly 690 submissions), but no exact submission count is available.
 - ICWSM 2011
 - Before 2010
 
@@ -572,6 +572,10 @@ First, we need **ALL** new stats in the upcoming years.
 - UAI 2010
 - Before 1992
 
+## UbiComp
+
+- UbiComp 2017-now. Main technical papers are published through IMWUT journal issues; we need submission and acceptance counts that map consistently to each conference year.
+
 ## UIST
 
 - Before 2003
@@ -619,10 +623,6 @@ First, we need **ALL** new stats in the upcoming years.
 - VR 1997
 - VR 1995
 - VR 1994
-
-## WSDM 
-
-- WSDM 2024
 
 # Conferences that Need to Check
 
