@@ -7986,6 +7986,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "45th",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 329,
+            "num_sub": 1740
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "44th",
           "location": "London, UK",
@@ -9579,6 +9588,19 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "64th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 2296,
+            "num_sub": 12148
+          },
+          "second_track": {
+            "num_acc": 2163,
+            "num_sub": 12148
+          }
+        },
         {
           "year": 2025,
           "ordinal": "63rd",
@@ -11758,6 +11780,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "53rd",
+          "location": "Raleigh, USA",
+          "main_track": {
+            "num_acc": 161,
+            "num_sub": 850
+          }
+        },
         {
           "year": 2025,
           "ordinal": "52nd",
@@ -15975,6 +16006,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "38th",
+          "location": "Lund, Sweden",
+          "main_track": {
+            "num_acc": 23,
+            "num_sub": 63
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "37th",
           "location": "Brussels, Belgium",
@@ -16276,6 +16316,15 @@
         "note": "Wow! This conference's data are complete!"
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "32nd",
+          "location": "Saint-Malo, France",
+          "main_track": {
+            "num_acc": 29,
+            "num_sub": 115
+          }
+        },
         {
           "year": 2025,
           "ordinal": "31st",
@@ -16868,6 +16917,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "35th",
+          "location": "Cleveland, USA",
+          "main_track": {
+            "num_acc": 40,
+            "num_sub": 281
+          }
+        },
         {
           "year": 2025,
           "ordinal": "34th",
@@ -18026,6 +18084,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "40th",
+          "location": "New Orleans, USA",
+          "main_track": {
+            "num_acc": 101,
+            "num_sub": 434
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "39th",
           "location": "Milano, Italy",
@@ -18630,6 +18697,15 @@
         "note": "The papers presented in SIGMETRICS are published in the Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS). Since there are revision papers, the accurate assessment of the acceptance rate is difficult (though roughly the same level). In addition to full papers, before 2018, there are papers presented as extended abstracts (posters)."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "52nd",
+          "location": "Ann Arbor, USA",
+          "main_track": {
+            "num_acc": 82,
+            "num_sub": 479
+          }
+        },
         {
           "year": 2025,
           "ordinal": "51st",
