@@ -56,6 +56,14 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   - https://www.linkedin.com/posts/the-taub-faculty-of-computer-science-technion_congratulations-to-elizaveta-nesterova-activity-7476920744724180992-j8gN
 - PPoPP 2026: 51 accepted main-conference papers; submission count missing.
   Source: https://ppopp26.sigplan.org/track/PPoPP-2026-papers
+- DAC 2026: official location recorded. The official accepted-ID page lists 544 Research Manuscripts, while the official final program contains 545 unique Research Manuscript titles; exact submission count is also missing.
+  Sources:
+  - https://dac.com/2026/accepted-paper-ids
+  - https://confcats-siteplex.s3.amazonaws.com/dac/images/dac-2026_program_july-22.pdf
+- ICS 2026: 102 accepted main-conference papers counted from the official program; submission count missing.
+  Source: https://dipsa-qub.github.io/ICS2026-webpage/program/program.html
+- STOC 2026: 212 accepted papers counted from the official accepted-paper list; submission count missing.
+  Source: https://acm-stoc.org/stoc2026/accepted-papers.html
 
 ## 2026 Completed In This Sweep
 
@@ -87,6 +95,22 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   Sources:
   - https://link.springer.com/book/10.1007/978-3-032-32519-8
   - https://conferences.i-cav.org/2026/
+- MobiSys 2026: 68/302 main-conference papers. The official program confirms the accepted set, and two independent author publication pages report the same ratio.
+  Sources:
+  - https://www.sigmobile.org/mobisys/2026/program/
+  - https://nxc.snu.ac.kr/publications
+  - https://www.cse.msu.edu/~ghtu/publications.html
+- FSE 2026: 211/920 Research Papers. The accepted count appears on the official program, and the full ratio is independently reported in the conference sponsorship material and an author announcement.
+  Sources:
+  - https://conf.researchr.org/track/fse-2026/fse-2026-research-papers
+  - https://www.shinhwei.com/FSE-Sponsorship-Information.pdf
+  - https://www.linkedin.com/posts/jaydeb-sarker_mentoringresearch-fse2026-activity-7442521717106790401-hMwi
+- ICALP 2026: 190/628 eligible submissions across Tracks A and B (155/523 and 35/105 respectively).
+  Source: https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/LIPIcs.ICALP.2026.0/LIPIcs.ICALP.2026.0.pdf
+- LICS 2026: 82/293 paper submissions; the proceedings also report seven desk rejections.
+  Source: https://drops.dagstuhl.de/storage/00lipics/lipics-vol380-lics2026/LIPIcs.LICS.2026.0/LIPIcs.LICS.2026.0.pdf
+- CCC 2026: 42/124 submissions.
+  Source: https://drops.dagstuhl.de/storage/00lipics/lipics-vol383-ccc2026/LIPIcs.CCC.2026.0/LIPIcs.CCC.2026.0.pdf
 
 ## 2026 Non-Event
 

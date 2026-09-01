@@ -4411,6 +4411,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/mobisys/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/mobisys/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -7386,6 +7391,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/dac/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/dac/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -8664,6 +8674,11 @@
     <loc>https://csconfstats.xoveexu.com/conferences/ics/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/ics/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://csconfstats.xoveexu.com/conferences/ics/2025/</loc>
@@ -11381,6 +11396,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/fse/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/fse/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -11996,6 +12016,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/stoc/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/stoc/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -12251,6 +12276,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/icalp/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/icalp/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -12504,6 +12534,11 @@
     <loc>https://csconfstats.xoveexu.com/conferences/ccc/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/ccc/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://csconfstats.xoveexu.com/conferences/ccc/2025/</loc>
@@ -12849,6 +12884,11 @@
     <loc>https://csconfstats.xoveexu.com/conferences/lics/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/lics/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://csconfstats.xoveexu.com/conferences/lics/2025/</loc>

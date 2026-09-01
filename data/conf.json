@@ -9233,6 +9233,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "24th",
+          "location": "Cambridge, UK",
+          "main_track": {
+            "num_acc": 68,
+            "num_sub": 302
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "23rd",
           "location": "Anaheim, California, USA",
@@ -14898,6 +14907,11 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "63rd",
+          "location": "Long Beach, California, USA"
+        },
+        {
           "year": 2025,
           "ordinal": "62nd",
           "location": "San Francisco, California, USA",
@@ -17313,6 +17327,14 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "40th",
+          "location": "Belfast, Northern Ireland, UK",
+          "main_track": {
+            "num_acc": 102
+          }
+        },
         {
           "year": 2025,
           "ordinal": "39th",
@@ -22685,6 +22707,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "34th",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "num_acc": 211,
+            "num_sub": 920
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "33rd",
           "location": "Tronheim, Norway",
@@ -23850,6 +23881,14 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "58th",
+          "location": "Salt Lake City, USA",
+          "main_track": {
+            "num_acc": 212
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "57th",
           "location": "Prague, Czech Republic",
@@ -24323,6 +24362,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "53rd",
+          "location": "Egham, UK",
+          "main_track": {
+            "num_acc": 190,
+            "num_sub": 628
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "52nd",
           "location": "Aarhus, Denmark",
@@ -24794,6 +24842,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "41st",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "num_acc": 42,
+            "num_sub": 124
+          }
+        },
         {
           "year": 2025,
           "ordinal": "40th",
@@ -25437,6 +25494,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "41st",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "num_acc": 82,
+            "num_sub": 293
+          }
+        },
         {
           "year": 2025,
           "ordinal": "40th",

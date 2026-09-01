@@ -95,6 +95,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## DAC 
 
+- DAC 2026 exact Research Manuscript submission count and final accepted count. The official accepted-ID page lists 544 papers, while the official final program contains 545 unique Research Manuscript titles.
 - DAC 2014-2017
 - DAC 2012
 - DAC 2000-2001
@@ -275,6 +276,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ICS
 
+- ICS 2026 submission count. The official program contains 102 main-conference papers.
 - ICS 2013
 - ICS 1993
 - ICS 1992
@@ -573,6 +575,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## STOC
 
+- STOC 2026 submission count. The official accepted-paper list contains 212 papers.
 - STOC 1999
 - STOC 1995
 - STOC 1994
