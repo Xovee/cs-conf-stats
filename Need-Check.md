@@ -64,6 +64,21 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   Source: https://dipsa-qub.github.io/ICS2026-webpage/program/program.html
 - STOC 2026: 212 accepted papers counted from the official accepted-paper list; submission count missing.
   Source: https://acm-stoc.org/stoc2026/accepted-papers.html
+- ICFP 2026: 38 accepted PACMPL papers counted from the unique paper DOIs on the official Accepted Papers page; submission count missing.
+  Source: https://icfp26.sigplan.org/track/icfp-2026/icfp-2026-icfp-papers
+- FM 2026: 45 Research Track papers are recorded. The proceedings report 239 combined Research and TAP submissions and 51 accepted papers overall; the official TAP list contains 6 accepted papers, so the combined submission count cannot be used for the Research Track.
+  Sources:
+  - https://link.springer.com/book/10.1007/978-3-032-26204-2
+  - https://conf.researchr.org/track/fm-2026/fm-2026-research-paper
+  - https://conf.researchr.org/track/fm-2026/fm-2026-tap
+- FOCS 2026: 174 accepted papers counted from the official list; submission count missing.
+  Source: https://focs.computer.org/2026/accepted-papers/
+- VIS 2026: 145 accepted VIS full papers counted from the official page after excluding 63 papers marked TVCG and 11 marked CG&A; submission count missing. Boston is recorded as the flagship location, while Paris and Tianjin are satellite locations.
+  Sources:
+  - https://www.ieeevis.org/year/2026/info/program/papers_list/
+  - https://www.ieeevis.org/year/2026/satellites/
+- SIGSPATIAL 2026: 58 accepted Research Papers counted from the official list before the separate Short Papers section; Research Paper submission count missing.
+  Source: https://sigspatial2026.sigspatial.org/research-accepted/
 
 ## 2026 Completed In This Sweep
 
@@ -111,10 +126,43 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   Source: https://drops.dagstuhl.de/storage/00lipics/lipics-vol380-lics2026/LIPIcs.LICS.2026.0/LIPIcs.LICS.2026.0.pdf
 - CCC 2026: 42/124 submissions.
   Source: https://drops.dagstuhl.de/storage/00lipics/lipics-vol383-ccc2026/LIPIcs.CCC.2026.0/LIPIcs.CCC.2026.0.pdf
+- CRYPTO 2026: 189/781 full papers.
+  Source: https://link.springer.com/book/10.1007/978-3-032-35428-0
+- ECOOP 2026: 30/98 unique submissions across the two official review rounds.
+  Source: https://drops.dagstuhl.de/storage/00lipics/lipics-vol372-ecoop2026/LIPIcs.ECOOP.2026.0/LIPIcs.ECOOP.2026.0.pdf
+- ISMB 2026: 65/408 Proceedings submissions.
+  Source: https://academic.oup.com/bioinformatics/article/42/Supplement_1/btag279/8726347
+- UAI 2026: 332/1,087 papers. An NTT institutional announcement reports 1,087 submissions and a 30.5% acceptance rate; an independent author announcement gives the exact ratio.
+  Sources:
+  - https://www.group.ntt/en/topics/2026/08/14/uai2026.html
+  - https://www.linkedin.com/in/parth-patel-1020prp
+- SIGGRAPH 2026: Conference track 195/961 and Journal-only track 132/216. The 132 Journal papers include 97 journal-only submissions and 35 dual-track submissions, following the same display convention as existing years.
+  Sources:
+  - https://dl.acm.org/doi/10.1145/3815597
+  - https://s2026.siggraph.org/program/technical-papers/
+- ASE 2026: 263/1,304 Research Papers. The official accepted-paper page confirms the accepted set, while two independent author and research-group publication pages report the exact ratio.
+  Sources:
+  - https://conf.researchr.org/track/ase-2026/ase-2026-research-track
+  - https://security.csl.toronto.edu/blog/wp-publications/dingase2026rfc2tla/
+  - https://rebels.cs.uwaterloo.ca/publications.html
+- ISSTA 2026: 210/888 Research Papers. The official accepted-paper page confirms the accepted set, and a Waterloo research-group publication page reports the exact ratio.
+  Sources:
+  - https://conf.researchr.org/track/issta-2026/issta-2026-research-papers
+  - https://rebels.cs.uwaterloo.ca/publications.html
+- SenSys 2026: 48/257 papers. This is the inaugural ACM/IEEE SenSys formed by merging the former SenSys, IPSN, and IoTDI communities.
+  Sources:
+  - https://sensys26.hotcrp.com/
+  - https://sensys.acm.org/2026/
+- IROS 2026: 1,585/4,348 contributed conference papers. The larger 4,947 figure reported elsewhere includes additional submission pools and is not used, consistent with prior years.
+  Sources:
+  - https://bme.uic.edu/news-stories/internship-leads-to-a-published-paper-for-undergrad/
+  - https://www.linkedin.com/posts/fpt-software-ai-center_fpt-airesidency-iros2026-activity-7477692478129848320-tJVC
+  - https://2026.ieee-iros.org/
 
 ## 2026 Non-Event
 
 - NAACL has no independent 2026 annual meeting. Do not add a NAACL 2026 record.
+- ICCV is biennial and has no 2026 edition. Do not add an ICCV 2026 record.
 
 ## Next Online-Check Candidates
 

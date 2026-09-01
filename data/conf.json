@@ -9454,20 +9454,29 @@
       "series": "SenSys",
       "discipline": "Mobile",
       "metadata": {
-        "series_full_title": "ACM Conference on Embedded Networked Sensor Systems",
+        "series_full_title": "ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems",
         "main_discipline": [
           "Sensors", "Embedded Systems", "IoT"
         ],
         "other_discipline": [
           "Cyber-Physical Systems", "Networking", "Energy Harvesting", "Power Management", "Security & Privacy"
         ],
-        "parent_org": "ACM",
-        "website": "https://www.sigmobile.org/grav/events/conferences/sensys",
+        "parent_org": "ACM, IEEE",
+        "website": "https://sensys.acm.org/",
         "proceedings": "https://dl.acm.org/conference/sensys/proceedings",
         "second_track_name": "",
-        "note": "Wow! This conference's data are complete! 🏆"
+        "note": "From 2026, SenSys is an ACM/IEEE conference formed by merging the former SenSys, IPSN, and IoTDI communities. Before 2026, it was the ACM Conference on Embedded Networked Sensor Systems."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "1st",
+          "location": "Saint-Malo, France",
+          "main_track": {
+            "num_acc": 48,
+            "num_sub": 257
+          }
+        },
         {
           "year": 2025,
           "ordinal": "23rd",
@@ -10969,6 +10978,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "42nd",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 332,
+            "num_sub": 1087
+          }
+        },
         {
           "year": 2025,
           "ordinal": "41st",
@@ -14209,6 +14227,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "46th",
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "num_acc": 189,
+            "num_sub": 781
+          }
+        },
         {
           "year": 2025,
           "ordinal": "45th",
@@ -21161,6 +21188,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "40th",
+          "location": "Brussels, Belgium",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 98
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "39th",
           "location": "Bergen, Norway",
@@ -21496,6 +21532,14 @@
         "note": "Since 2017, the proceedings are published in PACMPL."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "31st",
+          "location": "Indianapolis, USA",
+          "main_track": {
+            "num_acc": 38
+          }
+        },
         {
           "year": 2025,
           "ordinal": "30th",
@@ -22060,6 +22104,15 @@
         "note": "Some history: https://ase-conferences.org/ase-on-line-bibligraphy.html Before 1997, it was called the Knowledge-Based Software Engineering Conference (KBSE)."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "41st",
+          "location": "Munich, Germany",
+          "main_track": {
+            "num_acc": 263,
+            "num_sub": 1304
+          }
+        },
         {
           "year": 2025,
           "ordinal": "40th",
@@ -22979,6 +23032,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "35th",
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 210,
+            "num_sub": 888
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "34th",
           "location": "Tronheim, Norway",
@@ -23224,6 +23286,14 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "67th",
+          "location": "New York City, USA",
+          "main_track": {
+            "num_acc": 174
+          }
+        },
         {
           "year": 2025,
           "ordinal": "66th",
@@ -26219,6 +26289,14 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "27th",
+          "location": "Tokyo, Japan",
+          "main_track": {
+            "num_acc": 45
+          }
+        },
+        {
           "year": 2024,
           "ordinal": "26th",
           "location": "Milan, Italy",
@@ -26449,6 +26527,19 @@
         "note": "The main track is dual-track, the main track submissions could be accepted to the Journal track. "
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "53rd",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 195,
+            "num_sub": 961
+          },
+          "second_track": {
+            "num_acc": 132,
+            "num_sub": 216
+          }
+        },
         {
           "year": 2025,
           "ordinal": "52nd",
@@ -27511,6 +27602,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "39th",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_acc": 1585,
+            "num_sub": 4348
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "38th",
           "location": "Hangzhou, China",
@@ -28053,6 +28153,14 @@
         "note": "InfoVis, SciVis, VAST."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "37th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 145
+          }
+        },
         {
           "year": 2025,
           "ordinal": "36th",
@@ -28862,6 +28970,14 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "34th",
+          "location": "Riverside, California, USA",
+          "main_track": {
+            "num_acc": 58
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "33rd",
           "location": "Minneapolis, USA",
@@ -29193,6 +29309,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "34th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 65,
+            "num_sub": 408
+          }
+        },
         {
           "year": 2025,
           "ordinal": "33rd",

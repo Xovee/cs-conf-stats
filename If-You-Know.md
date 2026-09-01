@@ -192,6 +192,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## FM
 
+- FM 2026 Research Track submission count. The official proceedings combine the Research and TAP tracks into 239 submissions, while the official accepted-paper lists contain 45 Research Track papers and 6 TAP papers.
 - FM 1998
 - FM 1991
 - FM 1990
@@ -200,6 +201,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## FOCS
 
+- FOCS 2026 submission count. The official accepted-paper list contains 174 papers.
 - FOCS 1997
 - FOCS 1984
 - FOCS 1976
@@ -241,6 +243,10 @@ First, we need **ALL** new stats in the upcoming years.
 ## ICDM
 
 - ICDM 2026 Research Track submission and accepted counts
+
+## ICFP
+
+- ICFP 2026 submission count. The official Accepted Papers page contains 38 unique PACMPL paper DOIs.
 
 ## ICME
 
@@ -536,6 +542,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## SIGSPATIAL
 
+- SIGSPATIAL 2026 Research Paper submission count. The official accepted-paper page contains 58 Research Papers before the separate Short Papers section.
 - SIGSPATIAL 2000
 - SIGSPATIAL 1999
 - SIGSPATIAL 1997
@@ -618,6 +625,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## VIS
 
+- VIS 2026 full-paper submission count. The official Accepted Papers page contains 145 VIS full papers after excluding 63 invited TVCG papers and 11 invited CG&A papers.
 - VIS 1993
 - VIS 1992
 - VIS 1991
