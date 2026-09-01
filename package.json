@@ -6,10 +6,11 @@
     "build:seo": "node ./scripts/generate-seo-pages.js",
     "watch:css": "tailwindcss -i ./src/input.css -o ./output.css --watch",
     "check:js": "node --check ./src/js/main.js && node --check ./src/js/fun.js",
+    "check:docs": "node ./scripts/check-docs.js",
     "check:data": "node ./scripts/check-data.js",
     "check:locations": "node ./scripts/check-locations.js",
     "check:seo": "node ./scripts/check-seo.js",
-    "check": "npm run check:js && npm run check:data && npm run check:locations && npm run check:seo"
+    "check": "npm run check:js && npm run check:docs && npm run check:data && npm run check:locations && npm run check:seo"
   },
   "overrides": {
     "minimatch": "^10.2.3",

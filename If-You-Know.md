@@ -1,7 +1,8 @@
 # If You Know the Stats of the Following Conferences
 
-Conferences that lack valid data. If you know some, you can create issues or PR  or directly 
-contact me at `xovee.xu at gmail.com`.
+This is the public list of conference statistics that are missing or still uncertain. If you know some, you can create an issue or PR, or contact me at `xovee.xu at gmail.com`.
+
+The [data collection policy](./docs/data-collection-policy.md) defines the required track scope and source standard. Operational research details and source links belong in [Need Check](./Need-Check.md). An item explicitly listed here remains open even when its conference has other data for the same year.
 
 First, we need **ALL** new stats in the upcoming years. 
 

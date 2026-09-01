@@ -119,13 +119,14 @@ Number of submissions and number of accepted papers for the following conference
 1. WSDM: ACM International Conference on Web Search and Data Mining.
 
 
-## If You Know
+## Data Curation
 
-If you know some stats of the conferences [listed here](./If-You-Know.md), you can send them to us. 
+The authoritative rules for track scope, valid submission counts, source confidence, conflicts, partial records, and locations are in the [data collection policy](./docs/data-collection-policy.md).
 
-## Need Check
+The two tracking lists have separate roles:
 
-[Some events](./Need-Check.md) need further check (e.g., when proceedings are published). 
+- [If You Know](./If-You-Know.md) is the public list of missing or uncertain statistics where outside help is useful.
+- [Need Check](./Need-Check.md) is the active research ledger for partial records, sources, conflicts, and future checks.
 
 ## Build
 
@@ -149,7 +150,7 @@ npm run check
 
 ### Partial yearly records
 
-An entry in `yearly_data` may be added as soon as any verified fact is known. `year` is required; `ordinal`, `location`, `main_track.num_sub`, and `main_track.num_acc` are independently optional. Do not use `0`, `null`, or an estimate as a placeholder for missing data.
+An entry in `yearly_data` may be added as soon as any verified fact is known. `year` is required; `ordinal`, `location`, `main_track.num_sub`, and `main_track.num_acc` are independently optional. Do not use `0`, `null`, or an estimate as a placeholder for missing data. Explicitly approved estimates must follow the exception and note requirements in the data collection policy.
 
 For example, a location-only record is valid:
 
@@ -199,7 +200,7 @@ npm.cmd run check
 
 ## Quality Checks
 
-Run JavaScript syntax checks plus data/page/SEO consistency checks:
+Run JavaScript syntax checks plus documentation, data, location, page, and SEO consistency checks:
 ```shell
 npm run check
 ```

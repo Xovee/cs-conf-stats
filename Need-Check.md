@@ -4,13 +4,11 @@ A list of events that need further check.
 
 Last reviewed: 2026-09-01.
 
-## Rule
+## Purpose
 
-For recent years, if 2024, 2025, or 2026 data already exists in `data/conf.json`, treat it as confirmed and do not re-check it here.
+This is the operational research ledger for partial records, source links, unresolved conflicts, and next candidates. Durable decisions about track scope, source confidence, valid submissions, protected recent data, and partial records live in the [data collection policy](./docs/data-collection-policy.md).
 
-Exception: keep the item here when `If-You-Know.md` explicitly says that a recent-year statistic is still missing or uncertain.
-
-When official statistics are unavailable, data can still be treated as valid if two independent sources, such as author pages, blogs, CVs, or reports, mutually verify the same number.
+Keep this file specific to current evidence and work status. It must not override the policy.
 
 ## 2026 Partial Records
 
