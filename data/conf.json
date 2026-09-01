@@ -3012,6 +3012,11 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "52nd",
+          "location": "Boston, USA"
+        },
+        {
           "year": 2025,
           "ordinal": "51st",
           "location": "London, UK",
@@ -4623,9 +4628,14 @@
         ],
         "parent_org": "IEEE CS",
         "proceedings": "https://www.computer.org/csdl/proceedings/1000179",
-        "note": "Wow! This conference's data are complete! 🏆"
+        "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "26th",
+          "location": "Shenyang, China"
+        },
         {
           "year": 2025,
           "ordinal": "25th",
@@ -7493,6 +7503,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "29th",
+          "location": "Salt Lake City, USA",
+          "main_track": {
+            "num_acc": 194,
+            "num_sub": 637
+          }
+        },
         {
           "year": 2018,
           "ordinal": "21st",

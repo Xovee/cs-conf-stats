@@ -46,6 +46,10 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   Sources:
   - https://conferences.sigcomm.org/sigcomm/2026/
   - https://conferences.sigcomm.org/sigcomm/2026/accepted/
+- VLDB 2026: official location recorded; rolling Research Track submission and accepted counts missing.
+  Source: https://vldb.org/2026/
+- ICDM 2026: official location recorded; Research Track submission and accepted counts missing.
+  Source: https://icdm2026.neu.edu.cn/
 
 ## 2026 Completed In This Sweep
 
@@ -65,6 +69,10 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   Sources:
   - https://gli.konkuk.ac.kr/publications/papers/
   - https://news.hntou.edu.cn/jxky/202608/t20260817_105843.html
+- CSCW 2026: 194/637 complete paper submissions in the official May 2025 cycle.
+  Sources:
+  - https://cscw.acm.org/2026/blog/finaldecisions.html
+  - https://cscw.acm.org/2026/
 
 ## 2026 Non-Event
 
@@ -72,11 +80,7 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
 
 ## Next Online-Check Candidates
 
-After resolving the partial records above, continue with conferences whose 2026 proceedings or chair reports may now be available:
-
-- VLDB 2026
-- ICDM 2026
-- CSCW 2026
+After resolving the partial records above, continue with conferences whose 2026 proceedings or chair reports may now be available. The first 2026 candidate sweep is complete; choose the next batch from conferences that still lack a 2026 entry.
 
 ## If-You-Know Exceptions
 

@@ -88,7 +88,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## CSCW
 
-- CSCW 2019-now. Accepted papers are published through PACM HCI with revision cycles that can cross conference years; we need submission and acceptance counts using a consistent conference-year definition.
+- CSCW 2019-2025. Accepted papers are published through PACM HCI with revision cycles that can cross conference years; we need submission and acceptance counts using a consistent conference-year definition.
 - CSCW 1996
 - CSCW 1988-1992
 
@@ -235,6 +235,10 @@ First, we need **ALL** new stats in the upcoming years.
 - ICDE 2026 research-paper submission count
 - ICDE 1990
 - ICDE 1988
+
+## ICDM
+
+- ICDM 2026 Research Track submission and accepted counts
 
 ## ICME
 
@@ -626,7 +630,7 @@ First, we need **ALL** new stats in the upcoming years.
 - VLDB 1982
 - Before 1982
 - VLDB 2014
-- VLDB 2016-now
+- VLDB 2016-2026 research submission and accepted counts. The 2026 location is recorded, but PVLDB uses rolling review cycles.
 
 ## VR
 
