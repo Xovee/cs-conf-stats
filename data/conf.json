@@ -8940,9 +8940,14 @@
         "website": "https://www.sigmobile.org/grav/",
         "proceedings": "https://dl.acm.org/conference/mobicom/proceedings",
         "second_track_name": "",
-        "note": "Wow! This conference's data are complete! 🏆"
+        "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "32nd",
+          "location": "Austin, USA"
+        },
         {
           "year": 2025,
           "ordinal": "31st",
@@ -12403,6 +12408,11 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "59th",
+          "location": "Athens, Greece"
+        },
+        {
           "year": 2025,
           "ordinal": "58th",
           "location": "Seoul, Korea",
@@ -12736,9 +12746,14 @@
         "website": "https://www.sigsac.org/ccs/ccs-history.html",
         "proceedings": "https://dl.acm.org/conference/ccs/proceedings",
         "second_track_name": "",
-        "note": "Wow! This conference's data are complete! 🏆"
+        "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "33rd",
+          "location": "The Hague, The Netherlands"
+        },
         {
           "year": 2025,
           "ordinal": "32nd",
@@ -15245,6 +15260,11 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "45th",
+          "location": "San Jose, California, USA"
+        },
+        {
           "year": 2025,
           "ordinal": "44th",
           "location": "Munich, Germany",
@@ -16795,6 +16815,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "47th",
+          "location": "Yokohama, Japan",
+          "main_track": {
+            "num_sub": 350
+          },
+          "note": "Accepted count pending shepherding."
+        },
+        {
           "year": 2025,
           "ordinal": "32nd",
           "location": "Boston, USA",
@@ -17713,6 +17742,10 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "location": "Chicago, USA"
+        },
+        {
           "year": 2025,
           "ordinal": "38th",
           "location": "St. Louis, USA",
@@ -18589,6 +18622,11 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "26th",
+          "location": "Karlsruhe, Germany"
+        },
         {
           "year": 2024,
           "ordinal": "24th",

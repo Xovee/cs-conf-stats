@@ -79,6 +79,34 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   - https://www.ieeevis.org/year/2026/satellites/
 - SIGSPATIAL 2026: 58 accepted Research Papers counted from the official list before the separate Short Papers section; Research Paper submission count missing.
   Source: https://sigspatial2026.sigspatial.org/research-accepted/
+- CCS 2026: official location and 33rd edition recorded. Cycle A reports 191 final accepts from a 981-paper decision pool after excluding 225 desk rejections, but Cycle B is still outstanding, so no annual counts are recorded yet.
+  Sources:
+  - https://www.sigsac.org/ccs/CCS2026/
+  - https://github.com/ACM-CCS-2026/Transparency-Report
+- MICRO 2026: official location and 59th edition recorded; main Research Track submission and accepted counts missing. The inaugural Industry Track uses the same submission system and accepted Industry papers will not be labeled separately in the proceedings, so a combined proceedings count must not be treated as the Research Track count.
+  Sources:
+  - https://microarch.hosting.acm.org/micro59/
+  - https://www.microarch.org/micro59/submit/industrial.php
+- MobiCom 2026: official location and 32nd edition recorded. The official page currently lists 29 accepted papers from the Summer round only; Winter-round and annual submission statistics remain missing.
+  Sources:
+  - https://sigmobile.org/mobicom/2026/
+  - https://www.sigmobile.org/mobicom/2026/accepted.html
+- IMC 2026: official location and 26th edition recorded. The official page currently lists only 23 Cycle 1 accepted papers; Cycle 2 and exact annual full-paper submission statistics remain missing.
+  Sources:
+  - https://conferences.sigcomm.org/imc/2026/
+  - https://conferences.sigcomm.org/imc/2026/accepted-papers/
+- SC 2026: official Chicago location recorded; Technical Paper submission and accepted counts missing. Two independent author pages report an acceptance rate of about 19% (19.2% and 19.0%), but exact counts are not yet available.
+  Sources:
+  - https://sc26.supercomputing.org/
+  - https://abrahamchan.github.io/
+  - https://hasanur-rahman.github.io/
+- ICCAD 2026: official San Jose location and 45th edition recorded; Regular Paper submission and accepted counts missing. An author announcement reports an approximate 24% acceptance rate, which is insufficient for exact counts.
+  Sources:
+  - https://iccad.com/2026/
+  - https://sites.google.com/view/liang/publication
+  - https://www.linkedin.com/in/sang-geon-yun
+- RTSS 2026: official location, 47th edition, and 350 valid submissions recorded after excluding duplicates and non-compliant papers. The initial decisions include 32 accepted and 18 conditionally accepted papers; the final accepted count is pending shepherding.
+  Source: https://2026.rtss.org/
 
 ## 2026 Completed In This Sweep
 
