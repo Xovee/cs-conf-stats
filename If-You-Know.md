@@ -78,6 +78,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## COLT
 
+- COLT 2026 exact submission count. The official accepted-paper list contains 191 papers; one institutional announcement says nearly 650 submissions.
 - COLT 2011
 - COLT 1992-1998
 - COLT 1988
@@ -438,6 +439,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## PPoPP
 
+- PPoPP 2026 submission count. The official main-conference list contains 51 accepted papers.
 - PPoPP 2001 (acc 14)
 - PPoPP 1995
 - PPoPP 1993

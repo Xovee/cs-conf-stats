@@ -10461,6 +10461,14 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "39th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 191
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "38th",
           "location": "Lyon, France",
@@ -13413,6 +13421,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "35th",
+          "location": "Baltimore, USA",
+          "main_track": {
+            "num_acc": 362,
+            "num_sub": 2750
+          }
+        },
         {
           "year": 2025,
           "ordinal": "34th",
@@ -17936,6 +17953,14 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "31st",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "num_acc": 51
+          }
+        },
         {
           "year": 2025,
           "ordinal": "30th",
@@ -25077,6 +25102,15 @@
         "note": "Short papers and other types of papers including tool papers are not distinguished from full papers in some years of the conferences."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "38th",
+          "location": "Lisbon, Portugal",
+          "main_track": {
+            "num_acc": 81,
+            "num_sub": 319
+          }
+        },
         {
           "year": 2025,
           "ordinal": "37th",

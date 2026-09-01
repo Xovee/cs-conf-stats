@@ -50,6 +50,12 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   Source: https://vldb.org/2026/
 - ICDM 2026: official location recorded; Research Track submission and accepted counts missing.
   Source: https://icdm2026.neu.edu.cn/
+- COLT 2026: 191 accepted papers; exact submission count missing. One institutional announcement says nearly 650 submissions.
+  Sources:
+  - https://learningtheory.org/colt2026/accepted.html
+  - https://www.linkedin.com/posts/the-taub-faculty-of-computer-science-technion_congratulations-to-elizaveta-nesterova-activity-7476920744724180992-j8gN
+- PPoPP 2026: 51 accepted main-conference papers; submission count missing.
+  Source: https://ppopp26.sigplan.org/track/PPoPP-2026-papers
 
 ## 2026 Completed In This Sweep
 
@@ -73,6 +79,14 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   Sources:
   - https://cscw.acm.org/2026/blog/finaldecisions.html
   - https://cscw.acm.org/2026/
+- USENIX Security 2026: 362/2,750 valid submissions across the two review cycles.
+  Sources:
+  - https://www.usenix.org/sites/default/files/sec26_message.pdf
+  - https://www.usenix.org/conference/usenixsecurity26/technical-sessions
+- CAV 2026: 81/319 across the official paper categories: 54 full papers, 21 short tool papers, and 6 industrial experience reports and case studies.
+  Sources:
+  - https://link.springer.com/book/10.1007/978-3-032-32519-8
+  - https://conferences.i-cav.org/2026/
 
 ## 2026 Non-Event
 
