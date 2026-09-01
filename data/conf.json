@@ -2616,6 +2616,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "45th",
+          "location": "Bengaluru, India",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 41
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "44th",
           "location": "Berlin, Germany",
@@ -6373,6 +6382,19 @@
         "note": "Wow! This conference has complete data! 🏆"
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "16th",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 277,
+            "num_sub": 788
+          },
+          "second_track": {
+            "num_acc": 39,
+            "num_sub": 144
+          }
+        },
         {
           "year": 2025,
           "ordinal": "15th",
@@ -23452,6 +23474,14 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "37th",
+          "location": "Vancouver, Canada",
+          "main_track": {
+            "num_acc": 154
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "36th",
           "location": "New Orleans, USA",
@@ -25606,6 +25636,19 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "32nd",
+          "location": "Turin, Italy",
+          "main_track": {
+            "num_acc": 34,
+            "num_sub": 117
+          },
+          "second_track": {
+            "num_acc": 15,
+            "num_sub": 33
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "31st",
           "location": "Hamilton, Canada",
@@ -26863,6 +26906,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "47th",
+          "location": "Aachen, Germany",
+          "main_track": {
+            "num_acc": 96,
+            "num_sub": 253
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "46th",
           "location": "London, UK",
@@ -26981,6 +27033,14 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "43rd",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_sub": 5088
+          }
+        },
         {
           "year": 2025,
           "ordinal": "42nd",
@@ -27601,6 +27661,14 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "22nd",
+          "location": "Sydney, Australia",
+          "main_track": {
+            "num_acc": 203
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "21st",
           "location": "Los Angeles, California, USA",
@@ -28123,6 +28191,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "33rd",
+          "location": "Daegu, Korea",
+          "main_track": {
+            "num_acc": 228,
+            "num_sub": 775
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "32nd",
           "location": "Saint-Malo, France",
@@ -28377,6 +28454,15 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "28th",
+          "location": "Nottingham, UK",
+          "main_track": {
+            "num_acc": 52,
+            "num_sub": 195
+          }
+        },
         {
           "year": 2025,
           "ordinal": "27th",
@@ -29248,6 +29334,14 @@
         "note": "The long paper acceptance rate is extremely low (around ~5%), therefore I combined the data of long and short papers."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "30th",
+          "location": "Thessaloniki, Greece",
+          "main_track": {
+            "num_acc": 65
+          }
+        },
         {
           "year": 2025,
           "ordinal": "29th",

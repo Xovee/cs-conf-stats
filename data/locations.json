@@ -1,6 +1,7 @@
 {
   "_comment": "Canonical display names used by data/conf.json. Add a verified location here before using it in a conference record; aliases are rejected with a canonical replacement.",
   "canonical_locations": [
+    "Aachen, Germany",
     "Aalborg, Denmark",
     "Aarhus, Denmark",
     "Aberdeen, UK",

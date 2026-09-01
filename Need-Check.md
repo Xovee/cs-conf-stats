@@ -2,7 +2,7 @@
 
 A list of events that need further check.
 
-Last reviewed: 2026-08-03.
+Last reviewed: 2026-09-01.
 
 ## Rule
 
@@ -12,53 +12,54 @@ Exception: keep the item here when `If-You-Know.md` explicitly says that a recen
 
 When official statistics are unavailable, data can still be treated as valid if two independent sources, such as author pages, blogs, CVs, or reports, mutually verify the same number.
 
-## 2026 Data To Add or Check
+## 2026 Partial Records
 
-These 2026 events are not yet in `data/conf.json`, and official pages show that results, proceedings, or programs are available or likely available.
+These events now have confirmed partial data in `data/conf.json`. Keep the known fields and continue looking only for the missing complements.
 
-- PODS 2026: held May 31-Jun 05, 2026 in Bengaluru. The official accepted-paper page lists 41 PODS papers, and DBLP/ACM DL confirm the PACMMOD PODS proceedings/issues, but no submission count was found in official pages, news, author pages, or title-specific searches.
+- PODS 2026: 41 accepted research papers; submission count missing.
+  Source: https://2026.sigmod.org/pods_papers.shtml
+- SODA 2026: 154 accepted papers counted from the official accepted-paper list; submission count missing.
+  Source: https://www.siam.org/conferences-events/past-event-archive/soda26/program/accepted-papers/
+- ICRA 2026: 5,088 submissions; accepted count missing.
+  Source: https://2026.ieee-icra.org/contribute/call-for-icra-2026-papers-now-accepting-submissions/
+- RSS 2026: 203 accepted papers; submission count missing.
+  Source: https://roboticsconference.org/program/papers/
+- RECOMB 2026: 65 accepted papers; submission count missing.
+  Source: https://recomb.org/recomb2026/accepted_papers.html
+
+## 2026 Completed In This Sweep
+
+- TACAS 2026: regular research papers 34/117; regular tool papers 15/33.
+  Source: https://etaps.org/files/2026/tacas-i-2026.pdf
+- Eurographics 2026: 96/253 valid full-paper submissions.
+  Source: https://diglib.eg.org/handle/10.1111/cgf70327
+- EuroVis 2026: 52/195 full-paper submissions, excluding 10 desk rejections.
+  Source: https://diglib.eg.org/handle/10.1111/cgf70477
+- ICMR 2026: long papers 277/788; short papers 39/144.
+  Source: https://iris.cnr.it/handle/20.500.14243/596261
+- VR 2026: 228/775 under the unified TVCG and conference-paper review process. The total comprises 160 TVCG papers and 68 conference-only papers.
   Sources:
-  - https://2026.sigmod.org/pods_papers.shtml
-  - https://dblp.uni-trier.de/db/conf/pods/index.html
-  - https://dl.acm.org/doi/10.1145/3767714
-- SODA 2026: held Jan 11-14, 2026 in Vancouver. SIAM links the online program, proceedings, and searchable abstracts.
-  Source: https://www.siam.org/conferences-events/past-event-archive/soda26/
+  - https://doi.org/10.1109/TVCG.2026.3673782
+  - https://ieeevr.org/2026/program/papers/
 
-## 2026 Sweep Findings
+## 2026 Non-Event
 
-Search paused on 2026-07-03. Do not edit `conf.json` from these notes without a final source/mapping check.
-
-### High-Confidence Candidate
-
-None right now.
-
-### Strong Leads Needing One More Check
-
-- PODS 2026: official accepted-paper page lists 41 papers, but submission count was not found after checking official pages, DBLP/ACM DL, SIGMOD/PODS news, title-specific queries, and several author/homepage/news hits. Keep tracking for a chair report, SIGMOD Record/SIGACT News note, or author/CV acceptance-rate source.
-  Sources:
-  - https://2026.sigmod.org/pods_papers.shtml
-  - https://dblp.uni-trier.de/db/conf/pods/index.html
-
-### Not Ready / Conflicting
-
-- SODA 2026, IPDPS 2026, RTAS 2026, Eurographics 2026, EuroVis 2026, ICMR 2026, ICRA 2026, RSS 2026, VR 2026, and NAACL 2026: official programs/proceedings or accepted-paper pages are visible, but accepted/submitted statistics were not fully verified in this paused search.
+- NAACL has no independent 2026 annual meeting. Do not add a NAACL 2026 record.
 
 ## Next Online-Check Candidates
 
-These 2026 entries are not yet in `data/conf.json` and should be checked for newly published results, accepted-paper pages, or proceedings:
+After resolving the partial records above, continue with conferences whose 2026 proceedings or chair reports may now be available:
 
-- PODS 2026
-- IPDPS 2026
-- RTAS 2026
-- TACAS 2026
-- Eurographics 2026
-- EuroVis 2026
-- ICMR 2026
-- ICRA 2026
-- RSS 2026
-- RECOMB 2026
-- VR 2026
-- NAACL 2026
+- ICDE 2026
+- VLDB 2026
+- CIKM 2026
+- ACM MM 2026
+- ICDM 2026
+- SDM 2026
+- ICWSM 2026
+- CSCW 2026
+- UIST 2026
+- SIGCOMM 2026
 
 ## If-You-Know Exceptions
 

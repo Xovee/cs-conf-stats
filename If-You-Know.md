@@ -252,6 +252,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ICRA
 
+- ICRA 2026 accepted count
 - ICRA 2009
 - ICRA 2006
 - ICRA 1995
@@ -438,9 +439,14 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## RECOMB
 
+- RECOMB 2026 submission count
 - RECOMB 1998
 - RECOMB 1999
 - RECOMB 2000
+
+## RSS
+
+- RSS 2026 submission count
 
 ## RTSS
 
@@ -528,6 +534,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## SODA
 
+- SODA 2026 submission count
 - SODA 2008
 - SODA 2001
 - SODA 1999
