@@ -26,6 +26,26 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   Source: https://roboticsconference.org/program/papers/
 - RECOMB 2026: 65 accepted papers; submission count missing.
   Source: https://recomb.org/recomb2026/accepted_papers.html
+- ICDE 2026: 261 accepted research papers; submission count missing.
+  Source: https://icde2026.github.io/accepted-papers.html
+- ICWSM 2026: 154 full papers in the official proceedings; exact full-paper submission count missing.
+  Sources:
+  - https://ojs.aaai.org/index.php/ICWSM
+  - https://icwsm.org/2026/
+- SDM 2026: official location recorded; submission and accepted counts missing.
+  Source: https://www.siam.org/conferences-events/siam-conferences/sdm26/
+- UIST 2026: 1,259 complete submissions; accepted count missing.
+  Sources:
+  - https://uist.acm.org/2026/announcements/
+  - https://uist.acm.org/2026/attending/
+- ACM MM 2026: 7,053 main-track submissions; accepted count missing.
+  Sources:
+  - https://cdmc.xmu.edu.cn/info/1002/5624.htm
+  - https://in.linkedin.com/in/aaryansharma-iitb
+- SIGCOMM 2026: 110 accepted papers; submission count missing.
+  Sources:
+  - https://conferences.sigcomm.org/sigcomm/2026/
+  - https://conferences.sigcomm.org/sigcomm/2026/accepted/
 
 ## 2026 Completed In This Sweep
 
@@ -41,6 +61,10 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   Sources:
   - https://doi.org/10.1109/TVCG.2026.3673782
   - https://ieeevr.org/2026/program/papers/
+- CIKM 2026: 597/2,216 full research papers.
+  Sources:
+  - https://gli.konkuk.ac.kr/publications/papers/
+  - https://news.hntou.edu.cn/jxky/202608/t20260817_105843.html
 
 ## 2026 Non-Event
 
@@ -50,16 +74,9 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
 
 After resolving the partial records above, continue with conferences whose 2026 proceedings or chair reports may now be available:
 
-- ICDE 2026
 - VLDB 2026
-- CIKM 2026
-- ACM MM 2026
 - ICDM 2026
-- SDM 2026
-- ICWSM 2026
 - CSCW 2026
-- UIST 2026
-- SIGCOMM 2026
 
 ## If-You-Know Exceptions
 
@@ -75,5 +92,5 @@ These recent-year items stay on the check list because `If-You-Know.md` explicit
 
 These are visible from `data/conf.json` and are separate from the 2026 sweep:
 
-- ICWSM latest local year is 2020. Check 2021-2026 proceedings/statistics.
+- ICWSM 2021-2025 remain absent; 2026 is now recorded as a partial entry.
 - UbiComp latest local year is 2016. This likely needs a separate policy because UbiComp/IMWUT has a journal/rolling publication model.

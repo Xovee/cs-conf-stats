@@ -1096,6 +1096,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/icde/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/icde/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1711,6 +1716,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/cikm/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/cikm/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2054,6 +2064,11 @@
     <loc>https://csconfstats.xoveexu.com/conferences/acm-mm/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/acm-mm/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://csconfstats.xoveexu.com/conferences/acm-mm/2025/</loc>
@@ -2586,6 +2601,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/sdm/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/sdm/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3019,6 +3039,11 @@
     <loc>https://csconfstats.xoveexu.com/conferences/icwsm/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/icwsm/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://csconfstats.xoveexu.com/conferences/icwsm/2020/</loc>
@@ -3631,6 +3656,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/uist/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/uist/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -4034,6 +4064,11 @@
     <loc>https://csconfstats.xoveexu.com/conferences/sigcomm/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/sigcomm/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://csconfstats.xoveexu.com/conferences/sigcomm/2025/</loc>

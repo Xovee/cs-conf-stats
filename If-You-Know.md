@@ -17,6 +17,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ACM MM
 
+- ACM MM 2026 accepted research-paper count
 - Before 1997
 - ACM MM 1998-1999
 
@@ -231,6 +232,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ICDE
 
+- ICDE 2026 research-paper submission count
 - ICDE 1990
 - ICDE 1988
 
@@ -295,7 +297,8 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ICWSM
 
-- ICWSM 2021-now. Full papers use multiple submission cycles and revise-and-resubmit decisions that can cross conference years; we need exact yearly submission and acceptance counts using a consistent definition. For 2024, the proceedings suggest 138 full-length papers and state an approximately 20% acceptance rate (roughly 690 submissions), but no exact submission count is available.
+- ICWSM 2026 full-paper submission count. The official proceedings contain 154 full papers, but only describe the acceptance rate as approximately 20%.
+- ICWSM 2021-2025. Full papers use multiple submission cycles and revise-and-resubmit decisions that can cross conference years; we need exact yearly submission and acceptance counts using a consistent definition. For 2024, the proceedings suggest 138 full-length papers and state an approximately 20% acceptance rate (roughly 690 submissions), but no exact submission count is available.
 - ICWSM 2011
 - Before 2010
 
@@ -467,6 +470,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## SDM 
 
+- SDM 2026 submission and accepted counts
 - SDM 2019
 - SDM 2012-2014
 - SDM 2008-2010
@@ -475,6 +479,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## SIGCOMM
 
+- SIGCOMM 2026 submission count
 - Before 1994
 
 ## SIGGRAPH
@@ -585,6 +590,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## UIST
 
+- UIST 2026 accepted count. One author homepage reports 253/1,259; this still needs an official source or a second independent source.
 - Before 2003
 
 ## USENIX ATC

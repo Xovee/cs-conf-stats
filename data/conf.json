@@ -2216,6 +2216,15 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "42nd",
+          "location": "Montreal, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 261
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "41st",
           "location": "Hong Kong, China",
@@ -3483,6 +3492,16 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "35th",
+          "location": "Rome, Italy",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 597,
+            "num_sub": 2216
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "34th",
           "location": "Seoul, Korea",
@@ -4250,6 +4269,15 @@
         "second_track_name": "Short Paper Track"
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "34th",
+          "location": "Rio de Janeiro, Brazil",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_sub": 7053
+          }
+        },
         {
           "year": 2025,
           "ordinal": "33rd",
@@ -5515,6 +5543,11 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "26th",
+          "location": "Salt Lake City, USA"
+        },
+        {
           "year": 2025,
           "ordinal": "25th",
           "location": "Alexandria, USA",
@@ -6599,6 +6632,14 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "20th",
+          "location": "Los Angeles, California, USA",
+          "main_track": {
+            "num_acc": 154
+          }
+        },
         {
           "year": 2020,
           "ordinal": "14th",
@@ -7781,6 +7822,14 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "39th",
+          "location": "Detroit, USA",
+          "main_track": {
+            "num_sub": 1259
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "38th",
           "location": "Busan, Korea",
@@ -8549,6 +8598,14 @@
         "note": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "59th",
+          "location": "Denver, USA",
+          "main_track": {
+            "num_acc": 110
+          }
+        },
         {
           "year": 2025,
           "ordinal": "58th",
