@@ -70,6 +70,41 @@ document.addEventListener('DOMContentLoaded', (event) => {
     return Number(value).toLocaleString('en-US');
   }
 
+  function isKnownCount(value) {
+    return Number.isFinite(value) && value > 0;
+  }
+
+  function isCompleteTrack(track) {
+    return isKnownCount(track?.num_acc) && isKnownCount(track?.num_sub);
+  }
+
+  function renderPartialRecords(events) {
+    const rows = events
+      .slice()
+      .sort((a, b) => b.year - a.year)
+      .map(event => {
+        const facts = [];
+        if (event.ordinal) facts.push(escapeHTML(event.ordinal));
+        if (event.location) facts.push(escapeHTML(event.location));
+        if (isKnownCount(event.main_track?.num_acc)) facts.push(`${formatNumber(event.main_track.num_acc)} accepted`);
+        if (isKnownCount(event.main_track?.num_sub)) facts.push(`${formatNumber(event.main_track.num_sub)} submitted`);
+        if (event.note) facts.push(escapeHTML(event.note));
+        return `<div><strong>${escapeHTML(event.year)}</strong>: ${facts.join(' &middot; ')}</div>`;
+      })
+      .join('');
+
+    if (!rows) {
+      return '';
+    }
+
+    return `
+      <div class="conf-card">
+        <div class="conf-card-title">Partial Records</div>
+        <div class="conf-card-desc">${rows}</div>
+      </div>
+    `;
+  }
+
   function renderSubmissionTrendCard(yearlyData) {
     const recentEvents = asArray(yearlyData)
       .filter(event => Number.isFinite(event.main_track?.num_sub) && event.main_track.num_sub > 0)
@@ -360,7 +395,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
         // prepare plot data
         // main research track
-        const mainTrackData = conference.yearly_data.map(d => ({
+        const mainTrackData = conference.yearly_data
+          .filter(d => isCompleteTrack(d.main_track))
+          .map(d => ({
           year: d.year,
           ordinal: d.ordinal,
           num_acc: d.main_track.num_acc, 
@@ -369,13 +406,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
           acc_rate: (d.main_track.num_acc / d.main_track.num_sub) * 100,
           location: d.location,
           note: d.note
-        }));
+          }));
         
         let secondTrackData = [];
         if (conference.metadata.second_track_name) {
           secondTrackData = conference.yearly_data
-              .filter(d => d.second_track && d.second_track.num_acc > 0)
-              .map(d => ({
+            .filter(d => isCompleteTrack(d.second_track))
+            .map(d => ({
             year: d.year,
             ordinal: d.ordinal,
             num_acc: d.second_track.num_acc,
@@ -390,9 +427,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const sortedMainTrackData = mainTrackData.slice().sort((a, b) => b.year - a.year);
         const yearsToConsider = Math.min(sortedMainTrackData.length, 5);
         const recentYearsData = sortedMainTrackData.slice(0, yearsToConsider);
-        const recentAccRate = recentYearsData.reduce((acc, d) => acc + d.acc_rate, 0) / recentYearsData.length;
+        const recentAccRate = yearsToConsider > 0
+          ? recentYearsData.reduce((acc, d) => acc + d.acc_rate, 0) / recentYearsData.length
+          : null;
 
-        if (conference.yearly_data && conference.yearly_data.length > 0) {
+        if (recentAccRate !== null) {
           cards += `
             <div class="conf-card">
               <div class="conf-card-title">Acceptance Rate</div>
@@ -400,8 +439,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
             </div>
           `;
 
-          cards += renderSubmissionTrendCard(conference.yearly_data);
         }
+
+        cards += renderSubmissionTrendCard(conference.yearly_data);
+
+        const partialEvents = conference.yearly_data.filter(event => !isCompleteTrack(event.main_track));
+        cards += renderPartialRecords(partialEvents);
 
         if (conference.metadata.note && conference.metadata.note.length > 0) {
           cards += `

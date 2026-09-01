@@ -236,7 +236,7 @@
         {
           "year": 2002,
           "ordinal": "18th",
-          "location": "Edmonton, Alberta, USA",
+          "location": "Edmonton, Canada",
           "main_track": {
             "track_name": "Research Track", 
             "num_acc": 121,
@@ -3491,7 +3491,7 @@
         {
           "year": 2024,
           "ordinal": "33rd",
-          "location": "Boise, Idaho, USA",
+          "location": "Boise, USA",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 347,
@@ -5247,7 +5247,7 @@
         {
           "year": 1998,
           "ordinal": "4th",
-          "location": "New York City, New York, USA",
+          "location": "New York City, USA",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 18,
@@ -5267,7 +5267,7 @@
         {
           "year": 1996,
           "ordinal": "2nd",
-          "location": "Portland, Oregon, USA",
+          "location": "Portland, USA",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 42,
@@ -8299,7 +8299,7 @@
         {
           "year": 2026,
           "ordinal": "23rd",
-          "location": "Renton, Washington, USA",
+          "location": "Renton, USA",
           "main_track": {
             "num_acc": 150,
             "num_sub": 659
@@ -11179,7 +11179,7 @@
         {
           "year": 2026,
           "ordinal": "31st",
-          "location": "Pittsburgh, Pennsylvania, USA",
+          "location": "Pittsburgh, USA",
           "main_track": {
             "num_acc": 152,
             "num_sub": 1048
@@ -12880,7 +12880,7 @@
         {
           "year": 1993,
           "ordinal": "1st",
-          "location": "Fairfax, Greece",
+          "location": "Fairfax, USA",
           "main_track": {
             "num_acc": 27,
             "num_sub": 60
@@ -19106,7 +19106,7 @@
         {
           "year": 2026,
           "ordinal": "20th",
-          "location": "Seattle, Washington, USA",
+          "location": "Seattle, USA",
           "main_track": {
             "num_acc": 135,
             "num_sub": 679
@@ -20236,7 +20236,7 @@
         {
           "year": 2026,
           "ordinal": "47th",
-          "location": "Boulder, Colorado, USA",
+          "location": "Boulder, USA",
           "main_track": {
             "num_acc": 109,
             "num_sub": 413

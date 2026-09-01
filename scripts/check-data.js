@@ -21,6 +21,43 @@ function isPositiveNumber(value) {
   return typeof value === 'number' && Number.isFinite(value) && value > 0;
 }
 
+function hasOwn(object, key) {
+  return Object.prototype.hasOwnProperty.call(object, key);
+}
+
+function validateTrack(track, eventLabel, trackName) {
+  if (track === undefined) {
+    return { hasData: false, isComplete: false };
+  }
+  if (!track || typeof track !== 'object' || Array.isArray(track)) {
+    addError(`${eventLabel}: ${trackName} must be an object when present.`);
+    return { hasData: false, isComplete: false };
+  }
+
+  const hasAccepted = hasOwn(track, 'num_acc');
+  const hasSubmitted = hasOwn(track, 'num_sub');
+  if (!hasAccepted && !hasSubmitted) {
+    addError(`${eventLabel}: ${trackName} must contain num_acc or num_sub.`);
+    return { hasData: false, isComplete: false };
+  }
+
+  if (hasAccepted && !isPositiveNumber(track.num_acc)) {
+    addError(`${eventLabel}: ${trackName}.num_acc must be a positive number when present.`);
+  }
+  if (hasSubmitted && !isPositiveNumber(track.num_sub)) {
+    addError(`${eventLabel}: ${trackName}.num_sub must be a positive number when present.`);
+  }
+  if (hasAccepted && hasSubmitted && isPositiveNumber(track.num_acc) && isPositiveNumber(track.num_sub)
+      && track.num_acc > track.num_sub) {
+    addError(`${eventLabel}: ${trackName} accepted papers cannot exceed submissions.`);
+  }
+
+  return {
+    hasData: true,
+    isComplete: hasAccepted && hasSubmitted
+  };
+}
+
 function decodeConfValue(value) {
   try {
     return decodeURIComponent(value.replace(/\+/g, '%20'));
@@ -39,6 +76,8 @@ const conferences = Array.isArray(data.conferences) ? data.conferences : [];
 const formalConferences = conferences.filter(conference => conference.series !== 'Template');
 const seriesCounts = new Map();
 let eventCount = 0;
+let completeEventCount = 0;
+let partialEventCount = 0;
 
 for (const conference of formalConferences) {
   if (typeof conference.series !== 'string' || conference.series.trim() === '') {
@@ -73,29 +112,24 @@ for (const conference of formalConferences) {
       years.add(event.year);
     }
 
-    if (typeof event.location !== 'string' || !event.location.includes(',')) {
-      addError(`${eventLabel}: location should include city and country separated by a comma.`);
+    const hasLocation = hasOwn(event, 'location');
+    if (hasLocation && (typeof event.location !== 'string' || !event.location.includes(','))) {
+      addError(`${eventLabel}: location should include city and country separated by a comma when present.`);
     }
 
-    if (!event.main_track || typeof event.main_track !== 'object') {
-      addError(`${eventLabel}: missing main_track.`);
-      continue;
+    const mainTrack = validateTrack(event.main_track, eventLabel, 'main_track');
+    const secondTrack = validateTrack(event.second_track, eventLabel, 'second_track');
+    const hasOrdinal = typeof event.ordinal === 'string' && event.ordinal.trim() !== '';
+    const hasNote = typeof event.note === 'string' && event.note.trim() !== '';
+
+    if (!hasLocation && !hasOrdinal && !hasNote && !mainTrack.hasData && !secondTrack.hasData) {
+      addError(`${eventLabel}: partial entry must contain at least one known fact beyond the year.`);
     }
 
-    const { num_acc: numAccepted, num_sub: numSubmitted } = event.main_track;
-    if (!isPositiveNumber(numAccepted) || !isPositiveNumber(numSubmitted)) {
-      addError(`${eventLabel}: main_track counts must be positive numbers.`);
-    } else if (numAccepted > numSubmitted) {
-      addError(`${eventLabel}: accepted papers cannot exceed submissions.`);
-    }
-
-    if (event.second_track) {
-      const { num_acc: secondAccepted, num_sub: secondSubmitted } = event.second_track;
-      if (!isPositiveNumber(secondAccepted) || !isPositiveNumber(secondSubmitted)) {
-        addError(`${eventLabel}: second_track counts must be positive numbers when present.`);
-      } else if (secondAccepted > secondSubmitted) {
-        addError(`${eventLabel}: second_track accepted papers cannot exceed submissions.`);
-      }
+    if (mainTrack.isComplete) {
+      completeEventCount += 1;
+    } else {
+      partialEventCount += 1;
     }
   }
 }
@@ -181,4 +215,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`Data check passed: ${formalConferences.length} conferences, ${eventCount} yearly entries.`);
+console.log(`Data check passed: ${formalConferences.length} conferences, ${eventCount} yearly entries (${completeEventCount} complete, ${partialEventCount} partial).`);

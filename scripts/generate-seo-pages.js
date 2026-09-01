@@ -60,7 +60,31 @@ function extractUrls(value) {
 }
 
 function formatNumber(value) {
+  if (!Number.isFinite(value)) {
+    return 'N/A';
+  }
   return new Intl.NumberFormat('en-US').format(value);
+}
+
+function isKnownCount(value) {
+  return Number.isFinite(value) && value > 0;
+}
+
+function isCompleteTrack(track) {
+  return isKnownCount(track?.num_acc) && isKnownCount(track?.num_sub);
+}
+
+function formatTrack(track) {
+  if (!track || (!isKnownCount(track.num_acc) && !isKnownCount(track.num_sub))) {
+    return '';
+  }
+  if (isCompleteTrack(track)) {
+    return `${formatNumber(track.num_acc)} / ${formatNumber(track.num_sub)} (${((track.num_acc / track.num_sub) * 100).toFixed(1)}%)`;
+  }
+  if (isKnownCount(track.num_acc)) {
+    return `${formatNumber(track.num_acc)} accepted`;
+  }
+  return `${formatNumber(track.num_sub)} submitted`;
 }
 
 function getRate(event) {
@@ -77,6 +101,26 @@ function getRate(event) {
 function formatRate(event) {
   const rate = getRate(event);
   return rate === null ? 'N/A' : `${(rate * 100).toFixed(1)}%`;
+}
+
+function eventSummary(conference, event) {
+  const series = conference.series;
+  const accepted = event.main_track?.num_acc;
+  const submitted = event.main_track?.num_sub;
+  const facts = [];
+
+  if (isCompleteTrack(event.main_track)) {
+    facts.push(`accepted ${formatNumber(accepted)} papers out of ${formatNumber(submitted)} submissions, for an acceptance rate of ${formatRate(event)}`);
+  } else {
+    if (isKnownCount(accepted)) facts.push(`has ${formatNumber(accepted)} accepted papers recorded`);
+    if (isKnownCount(submitted)) facts.push(`received ${formatNumber(submitted)} submissions`);
+  }
+  if (event.location) facts.push(`was held in ${event.location}`);
+
+  if (facts.length === 0) {
+    return `${series} ${event.year} has a partial record in CS Conf Stats.`;
+  }
+  return `${series} ${event.year} ${facts.join(', and ')}.`;
 }
 
 function sortedYears(conference) {
@@ -204,17 +248,15 @@ function graphStructuredData(...items) {
 
 function renderTable(conference, events) {
   const rows = events.map((event, index) => {
-    const accepted = event.main_track.num_acc;
-    const submitted = event.main_track.num_sub;
+    const accepted = event.main_track?.num_acc;
+    const submitted = event.main_track?.num_sub;
     const note = toText(event.note);
-    const secondTrack = event.second_track
-      ? `${formatNumber(event.second_track.num_acc)} / ${formatNumber(event.second_track.num_sub)} (${((event.second_track.num_acc / event.second_track.num_sub) * 100).toFixed(1)}%)`
-      : '';
+    const secondTrack = formatTrack(event.second_track);
     const rowClass = index === 0 ? 'is-latest' : '';
 
     return `      <tr class="${rowClass}">
         <td class="p-3"><a href="${yearUrl(conference, event.year)}">${event.year}</a></td>
-        <td class="p-3">${escapeHTML(event.location)}</td>
+        <td class="p-3">${escapeHTML(event.location || 'N/A')}</td>
         <td class="p-3 text-right">${formatNumber(accepted)}</td>
         <td class="p-3 text-right">${formatNumber(submitted)}</td>
         <td class="p-3 text-right"><span class="rate-badge">${formatRate(event)}</span></td>
@@ -308,11 +350,15 @@ function relatedConferences(conference, limit = 6) {
 function renderConferencePage(conference) {
   const events = sortedYears(conference);
   const latest = events[0];
+  const completeEvents = events.filter(event => isCompleteTrack(event.main_track));
+  const latestComplete = completeEvents[0] || null;
   const series = conference.series;
   const fullTitle = toText(conference.metadata.series_full_title);
   const discipline = conference.discipline;
   const yearRange = `${events[events.length - 1].year}-${events[0].year}`;
-  const latestSummary = `${series} ${latest.year} accepted ${formatNumber(latest.main_track.num_acc)} papers out of ${formatNumber(latest.main_track.num_sub)} submissions, for an acceptance rate of ${formatRate(latest)}.`;
+  const latestSummary = isCompleteTrack(latest.main_track)
+    ? `${series} ${latest.year} accepted ${formatNumber(latest.main_track.num_acc)} papers out of ${formatNumber(latest.main_track.num_sub)} submissions, for an acceptance rate of ${formatRate(latest)}.`
+    : eventSummary(conference, latest);
   const title = `${series} Acceptance Rate and Submission Statistics | CS Conf Stats`;
   const description = `${series} acceptance rate and submission statistics from ${yearRange}, including yearly accepted papers, submissions, locations, and notes.`;
   const canonicalPath = conferenceUrl(conference);
@@ -335,11 +381,11 @@ function renderConferencePage(conference) {
 </section>
 
 <section class="seo-stat-grid mb-8">
-  <div class="seo-stat-card seo-stat-card-accent">
-    <div class="conf-card-title">Latest Acceptance Rate</div>
-    <div class="conf-card-big-desc">${formatRate(latest)}</div>
-    <div class="conf-card-desc">${latest.year}: ${formatNumber(latest.main_track.num_acc)} accepted / ${formatNumber(latest.main_track.num_sub)} submitted</div>
-  </div>
+  ${latestComplete ? `<div class="seo-stat-card seo-stat-card-accent">
+    <div class="conf-card-title">${latestComplete === latest ? 'Latest Acceptance Rate' : 'Latest Complete Rate'}</div>
+    <div class="conf-card-big-desc">${formatRate(latestComplete)}</div>
+    <div class="conf-card-desc">${latestComplete.year}: ${formatNumber(latestComplete.main_track.num_acc)} accepted / ${formatNumber(latestComplete.main_track.num_sub)} submitted</div>
+  </div>` : ''}
   <div class="seo-stat-card">
     <div class="conf-card-title">Years Covered</div>
     <div class="conf-card-big-desc">${events.length}</div>
@@ -412,21 +458,43 @@ function comparisonSentence(conference, event, olderEvent) {
 
   const currentRate = getRate(event);
   const olderRate = getRate(olderEvent);
-  const rateDirection = currentRate >= olderRate ? 'increased' : 'decreased';
-  const submissionDirection = event.main_track.num_sub >= olderEvent.main_track.num_sub ? 'increased' : 'decreased';
+  const comparisons = [];
 
-  return `Compared with ${conference.series} ${olderEvent.year}, the acceptance rate ${rateDirection} from ${formatRate(olderEvent)} to ${formatRate(event)}, and submissions ${submissionDirection} from ${formatNumber(olderEvent.main_track.num_sub)} to ${formatNumber(event.main_track.num_sub)}.`;
+  if (currentRate !== null && olderRate !== null) {
+    const rateDirection = currentRate >= olderRate ? 'increased' : 'decreased';
+    comparisons.push(`the acceptance rate ${rateDirection} from ${formatRate(olderEvent)} to ${formatRate(event)}`);
+  }
+
+  const submitted = event.main_track?.num_sub;
+  const olderSubmitted = olderEvent.main_track?.num_sub;
+  if (isKnownCount(submitted) && isKnownCount(olderSubmitted)) {
+    const submissionDirection = submitted >= olderSubmitted ? 'increased' : 'decreased';
+    comparisons.push(`submissions ${submissionDirection} from ${formatNumber(olderSubmitted)} to ${formatNumber(submitted)}`);
+  }
+
+  if (comparisons.length === 0) {
+    return `${conference.series} ${event.year} and ${olderEvent.year} do not yet have enough matching data for a direct comparison.`;
+  }
+
+  return `Compared with ${conference.series} ${olderEvent.year}, ${comparisons.join(', and ')}.`;
 }
 
 function renderYearPage(conference, event, events) {
   const series = conference.series;
   const fullTitle = toText(conference.metadata.series_full_title);
-  const accepted = event.main_track.num_acc;
-  const submitted = event.main_track.num_sub;
+  const accepted = event.main_track?.num_acc;
+  const submitted = event.main_track?.num_sub;
+  const hasAccepted = isKnownCount(accepted);
+  const hasSubmitted = isKnownCount(submitted);
+  const hasCompleteTrack = isCompleteTrack(event.main_track);
   const rate = formatRate(event);
   const canonicalPath = yearUrl(conference, event.year);
-  const title = `${series} ${event.year} Acceptance Rate: ${formatNumber(accepted)}/${formatNumber(submitted)} = ${rate} | CS Conf Stats`;
-  const description = `${series} ${event.year} accepted ${formatNumber(accepted)} papers out of ${formatNumber(submitted)} submissions, for an acceptance rate of ${rate}.`;
+  const title = hasCompleteTrack
+    ? `${series} ${event.year} Acceptance Rate: ${formatNumber(accepted)}/${formatNumber(submitted)} = ${rate} | CS Conf Stats`
+    : `${series} ${event.year} Conference Statistics | CS Conf Stats`;
+  const description = hasCompleteTrack
+    ? `${series} ${event.year} accepted ${formatNumber(accepted)} papers out of ${formatNumber(submitted)} submissions, for an acceptance rate of ${rate}.`
+    : `${eventSummary(conference, event)} This partial record contains the currently verified details.`;
   const eventIndex = events.findIndex(item => item.year === event.year);
   const newerEvent = eventIndex > 0 ? events[eventIndex - 1] : null;
   const olderEvent = eventIndex < events.length - 1 ? events[eventIndex + 1] : null;
@@ -438,26 +506,30 @@ function renderYearPage(conference, event, events) {
 </nav>
 
 <section class="mb-8">
-  <h1 class="text-3xl md:text-5xl text-uestc mb-4">${escapeHTML(series)} ${event.year} Acceptance Rate</h1>
+  <h1 class="text-3xl md:text-5xl text-uestc mb-4">${escapeHTML(series)} ${event.year} ${hasCompleteTrack ? 'Acceptance Rate' : 'Conference Statistics'}</h1>
   <p>${escapeHTML(description)}</p>
-  <p>${escapeHTML(fullTitle)} ${event.year}${event.ordinal ? ` (${escapeHTML(event.ordinal)})` : ''} was held in ${escapeHTML(event.location)}.</p>
+  ${event.location ? `<p>${escapeHTML(fullTitle)} ${event.year}${event.ordinal ? ` (${escapeHTML(event.ordinal)})` : ''} was held in ${escapeHTML(event.location)}.</p>` : ''}
   <p>${escapeHTML(comparisonSentence(conference, event, olderEvent))}</p>
   ${renderChartLink(series)}
 </section>
 
 <section class="seo-stat-grid mb-8">
-  <div class="seo-stat-card seo-stat-card-accent">
+  ${hasCompleteTrack ? `<div class="seo-stat-card seo-stat-card-accent">
     <div class="conf-card-title">Acceptance Rate</div>
     <div class="conf-card-big-desc">${rate}</div>
-  </div>
-  <div class="seo-stat-card">
+  </div>` : ''}
+  ${hasAccepted ? `<div class="seo-stat-card">
     <div class="conf-card-title">Accepted Papers</div>
     <div class="conf-card-big-desc">${formatNumber(accepted)}</div>
-  </div>
-  <div class="seo-stat-card">
+  </div>` : ''}
+  ${hasSubmitted ? `<div class="seo-stat-card">
     <div class="conf-card-title">Submissions</div>
     <div class="conf-card-big-desc">${formatNumber(submitted)}</div>
-  </div>
+  </div>` : ''}${!hasCompleteTrack && event.location ? `
+  <div class="seo-stat-card">
+    <div class="conf-card-title">Location</div>
+    <div class="conf-card-desc">${escapeHTML(event.location)}</div>
+  </div>` : ''}
 </section>
 
 <section class="mb-8">
@@ -468,7 +540,7 @@ function renderYearPage(conference, event, events) {
         <tr><th>Conference</th><td>${escapeHTML(series)} - ${escapeHTML(fullTitle)}</td></tr>
         <tr><th>Year</th><td>${event.year}</td></tr>
         <tr><th>Ordinal</th><td>${escapeHTML(event.ordinal || '')}</td></tr>
-        <tr><th>Location</th><td>${escapeHTML(event.location)}</td></tr>
+        <tr><th>Location</th><td>${escapeHTML(event.location || 'N/A')}</td></tr>
         <tr><th>Accepted</th><td>${formatNumber(accepted)}</td></tr>
         <tr><th>Submitted</th><td>${formatNumber(submitted)}</td></tr>
         <tr><th>Acceptance Rate</th><td><span class="rate-badge">${rate}</span></td></tr>
@@ -528,7 +600,8 @@ function renderConferencesIndex() {
       .map(conference => {
         const events = sortedYears(conference);
         const latest = events[0];
-        return `<li><a href="${conferenceUrl(conference)}"><span>${escapeHTML(conference.series)}</span>: ${escapeHTML(toText(conference.metadata.series_full_title))}</a> <span class="text-gray-600">Latest ${latest.year}: ${formatRate(latest)}</span></li>`;
+        const latestValue = isCompleteTrack(latest.main_track) ? formatRate(latest) : 'partial data';
+        return `<li><a href="${conferenceUrl(conference)}"><span>${escapeHTML(conference.series)}</span>: ${escapeHTML(toText(conference.metadata.series_full_title))}</a> <span class="text-gray-600">Latest ${latest.year}: ${latestValue}</span></li>`;
       })
       .join('\n');
 

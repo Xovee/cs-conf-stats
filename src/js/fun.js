@@ -63,6 +63,14 @@ function formatNumber(value) {
   return value.toLocaleString('en-US');
 }
 
+function isKnownCount(value) {
+  return Number.isFinite(value) && value > 0;
+}
+
+function isCompleteTrack(track) {
+  return isKnownCount(track?.num_acc) && isKnownCount(track?.num_sub);
+}
+
 function getSubmissionGrowth(conference) {
   const recentEvents = conference.yearly_data
     .filter(event => Number.isFinite(event.main_track?.num_sub) && event.main_track.num_sub > 0)
@@ -133,6 +141,10 @@ fetch('./data/conf.json')
     const yearlyCounts = {};
     const disciplineCounts = {};
     const singleConfs = [];
+    const acceptedEvents = [];
+    let eventCount = 0;
+    let pairedAccepted = 0;
+    let pairedSubmitted = 0;
     
     // Cache DOM references to avoid repeated queries
     const domCache = {
@@ -173,39 +185,40 @@ fetch('./data/conf.json')
       const discipline = conference.discipline;
 
       if (!seriesAccRates[series]) {
-        seriesAccRates[series] = {totalAcc: 0, totalSub: 0, numConf: 0};
+        seriesAccRates[series] = {totalAcc: 0, totalSub: 0, numConf: 0, numAccEvents: 0, accRates: []};
       }
 
       conference.yearly_data.forEach(yearData => {
-        const location = yearData.location.split(',');
-        const country = location[location.length - 1].trim();
-        const city = location[0].trim();
+        eventCount += 1;
 
-        const countryCode = countryToCode(country);
-        const flag = getCountryFlag(countryCode);
+        if (typeof yearData.location === 'string') {
+          const location = yearData.location.split(',');
+          const country = location[location.length - 1].trim();
+          const city = location[0].trim();
+          const countryCode = countryToCode(country);
+          const flag = getCountryFlag(countryCode);
+          const cityWithFlag = `${city} ${flag}`;
+          const countryWithFlag = `${country} ${flag}`;
 
-        const cityWithFlag = `${city} ${flag}`;
-        const countryWithFlag = `${country} ${flag}`;
+          if (cityCount[cityWithFlag]) {
+            cityCount[cityWithFlag]++;
+            cityConferences[cityWithFlag].push({year: yearData.year, name: `${conference.series} ${yearData.year}`});
+          } else {
+            cityCount[cityWithFlag] = 1;
+            cityConferences[cityWithFlag] = [{year: yearData.year, name: `${conference.series} ${yearData.year}`}];
+          }
 
-        if (cityCount[cityWithFlag]) {
-          cityCount[cityWithFlag]++;
-          cityConferences[cityWithFlag].push({year: yearData.year, name: `${conference.series} ${yearData.year}`});
-        } else {
-          cityCount[cityWithFlag] = 1;
-          cityConferences[cityWithFlag] = [{year: yearData.year, name: `${conference.series} ${yearData.year}`}];
+          countryCount[countryWithFlag] = (countryCount[countryWithFlag] || 0) + 1;
         }
 
-        if (countryCount[countryWithFlag]) {
-          countryCount[countryWithFlag]++;
-        } else {
-          countryCount[countryWithFlag] = 1;
-        }
+        const numAcc = yearData.main_track?.num_acc;
+        const numSub = yearData.main_track?.num_sub;
+        const hasAccepted = isKnownCount(numAcc);
+        const hasSubmitted = isKnownCount(numSub);
+        const hasCompleteTrack = isCompleteTrack(yearData.main_track);
+        const accRate = hasCompleteTrack ? (numAcc / numSub) * 100 : null;
 
-        const numAcc = yearData.main_track.num_acc;
-        const numSub = yearData.main_track.num_sub;
-        const accRate = (numAcc / numSub) * 100;
-
-        if (numSub > 0) {
+        if (hasCompleteTrack) {
           singleConfs.push({
             name: `${conference.series} ${yearData.year}`,
             sub: numSub,
@@ -216,38 +229,43 @@ fetch('./data/conf.json')
           });
         }
 
-        if (numSub > 0) {
+        if (hasAccepted) {
           seriesAccRates[series].totalAcc += numAcc;
-          seriesAccRates[series].totalSub += numSub;
-          seriesAccRates[series].numConf += 1;
+          seriesAccRates[series].numAccEvents += 1;
+          acceptedEvents.push({
+            name: `${conference.series} ${yearData.year}`,
+            acc: numAcc
+          });
 
-          if (!seriesAccRates[series].accRates) {
-            seriesAccRates[series].accRates = [];
+          if (discipline) {
+            disciplineCounts[discipline] = (disciplineCounts[discipline] || 0) + numAcc;
           }
-          const accRate = (numAcc / numSub) * 100;
-          seriesAccRates[series].accRates.push(accRate);
         }
 
-        // count discipline
-        if (discipline) {
-          if (disciplineCounts[discipline]) {
-            disciplineCounts[discipline] += numAcc;
-          } else {
-            disciplineCounts[discipline] = numAcc;
-          }
+        if (hasSubmitted) {
+          seriesAccRates[series].totalSub += numSub;
+        }
+
+        if (hasCompleteTrack) {
+          seriesAccRates[series].numConf += 1;
+          seriesAccRates[series].accRates.push(accRate);
+          pairedAccepted += numAcc;
+          pairedSubmitted += numSub;
         }
 
         // for yearly counting
         const year = yearData.year;
-        const numAccYearly = yearData.main_track.num_acc;
-        const numSubYearly = yearData.main_track.num_sub;
 
         if (!yearlyCounts[year]) {
-          yearlyCounts[year] = {totalAcc: 0, totalSub: 0};
+          yearlyCounts[year] = {totalAcc: 0, totalSub: 0, pairedAcc: 0, pairedSub: 0};
         }
 
-        yearlyCounts[year].totalAcc += numAccYearly;
-        yearlyCounts[year].totalSub += numSubYearly;
+        if (hasAccepted) yearlyCounts[year].totalAcc += numAcc;
+        if (hasSubmitted) yearlyCounts[year].totalSub += numSub;
+        if (hasCompleteTrack) {
+          yearlyCounts[year].pairedAcc += numAcc;
+          yearlyCounts[year].pairedSub += numSub;
+        }
 
       });
 
@@ -263,10 +281,10 @@ fetch('./data/conf.json')
     }
 
     const numVenues = Object.keys(seriesAccRates).length;
-    const numConfs = singleConfs.length;
-    const numTotalAcc = singleConfs.reduce((sum, conf) => sum + conf.acc, 0);
-    const numTotalSub = singleConfs.reduce((sum, conf) => sum + conf.sub, 0);
-    const avgAccRateViz = (numTotalAcc / numTotalSub) * 100;
+    const numConfs = eventCount;
+    const numTotalAcc = Object.values(seriesAccRates).reduce((sum, stats) => sum + stats.totalAcc, 0);
+    const numTotalSub = Object.values(seriesAccRates).reduce((sum, stats) => sum + stats.totalSub, 0);
+    const avgAccRateViz = (pairedAccepted / pairedSubmitted) * 100;
     const numTotalCountry = Object.keys(countryCount).length;
     const numTotalCity = Object.keys(cityCount).length;
     const cityEntries = Object.entries(cityCount).sort((a, b) => b[1] - a[1]);
@@ -277,7 +295,7 @@ fetch('./data/conf.json')
         .sort((a, b) => b[1] - a[1])[0];
     const [popConfName] = Object.entries(seriesAccRates)
         .sort((a, b) => b[1].totalSub - a[1].totalSub)[0];
-    const popSingleConf = singleConfs.slice().sort((a, b) => b.acc - a.acc)[0];
+    const popSingleConf = acceptedEvents.slice().sort((a, b) => b.acc - a.acc)[0];
     const mostSelective = singleConfs.slice().sort((a, b) => a.rate - b.rate)[0];
 
     domCache.numVenues.textContent = numberWithCommas(numVenues);
@@ -299,7 +317,7 @@ fetch('./data/conf.json')
     const years = Object.keys(yearlyCounts).sort((a, b) => Number(a) - Number(b));
     const submissions = years.map(year => yearlyCounts[year].totalSub);
     const acceptances = years.map(year => yearlyCounts[year].totalAcc);
-    const rateYearly = years.map(year => (yearlyCounts[year].totalSub > 0 ? (yearlyCounts[year].totalAcc / yearlyCounts[year].totalSub) * 100 : 0));
+    const rateYearly = years.map(year => (yearlyCounts[year].pairedSub > 0 ? (yearlyCounts[year].pairedAcc / yearlyCounts[year].pairedSub) * 100 : 0));
 
     const cityData = Object.keys(cityCount).map(city => ({
       name: city,
@@ -321,12 +339,12 @@ fetch('./data/conf.json')
       const avgAccRate = accRates.reduce((sum, rate) => sum + rate, 0) / accRates.length;
 
       return {name: series, value: avgAccRate };
-    });
+    }).filter(item => Number.isFinite(item.value));
 
     const aggregatedNumAcc = Object.keys(seriesAccRates).map(series => {
-      const {totalAcc, totalSub, numConf} = seriesAccRates[series];
-      return {name: series, value: totalAcc, numConf: numConf};
-    })
+      const {totalAcc, numAccEvents} = seriesAccRates[series];
+      return {name: series, value: totalAcc, numConf: numAccEvents};
+    }).filter(item => item.numConf > 0);
 
     const sortedAccRate = aggregatedAccRates.sort((a, b) => a.value - b.value).slice(0, 20);
     const sortedAccRateInv = aggregatedAccRates.sort((a, b) => b.value - a.value).slice(0, 30);

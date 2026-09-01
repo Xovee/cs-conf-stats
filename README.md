@@ -147,6 +147,43 @@ npm run build
 npm run check
 ```
 
+### Partial yearly records
+
+An entry in `yearly_data` may be added as soon as any verified fact is known. `year` is required; `ordinal`, `location`, `main_track.num_sub`, and `main_track.num_acc` are independently optional. Do not use `0`, `null`, or an estimate as a placeholder for missing data.
+
+For example, a location-only record is valid:
+
+```json
+{
+  "year": 2027,
+  "ordinal": "54th",
+  "location": "Raleigh, USA"
+}
+```
+
+A submission-only record is also valid:
+
+```json
+{
+  "year": 2027,
+  "main_track": {
+    "num_sub": 900
+  }
+}
+```
+
+Once both `num_acc` and `num_sub` are known, the record automatically becomes complete and is included in acceptance-rate charts. Partial counts and locations are still included in the corresponding Fun Facts totals.
+
+### Canonical locations
+
+Every location used in `data/conf.json` must match a canonical display name in `data/locations.json`. Reuse an existing name whenever possible. For a new city, verify the venue on the official conference website, add one canonical `City, Country` display name to `canonical_locations`, and then use that exact value in `conf.json`. Common non-canonical forms belong in `aliases`; the location check reports the required replacement.
+
+Run the location check directly with:
+
+```shell
+npm run check:locations
+```
+
 Before committing changes, run the full local verification:
 ```shell
 npm run build
