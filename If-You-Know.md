@@ -95,7 +95,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## DAC 
 
-- DAC 2026 exact Research Manuscript submission count and final accepted count. The official accepted-ID page lists 544 papers, while the official final program contains 545 unique Research Manuscript titles.
+- DAC 2026 Research Manuscript submission count. The official accepted-ID page lists 544 accepted papers.
 - DAC 2014-2017
 - DAC 2012
 - DAC 2000-2001
@@ -609,8 +609,9 @@ First, we need **ALL** new stats in the upcoming years.
 - UIST 2026 accepted count. One author homepage reports 253/1,259; this still needs an official source or a second independent source.
 - Before 2003
 
-## USENIX ATC
+## ATC
 
+- ATC 2026 main-track submission and accepted counts
 - USENIX ATC 2007
 - USENIX ATC 2006
 - USENIX ATC 2005

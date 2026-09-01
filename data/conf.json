@@ -3294,6 +3294,16 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "ordinal": "27th",
+          "location": "Bangkok, Thailand",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 1101,
+            "num_sub": 3810
+          }
+        },
+        {
           "year": 2025,
           "ordinal": "26th",
           "location": "Nantes, France",
@@ -14936,7 +14946,10 @@
         {
           "year": 2026,
           "ordinal": "63rd",
-          "location": "Long Beach, California, USA"
+          "location": "Long Beach, California, USA",
+          "main_track": {
+            "num_acc": 544
+          }
         },
         {
           "year": 2025,
@@ -20117,22 +20130,29 @@
       ]
     },
     {
-      "series": "USENIX ATC",
+      "series": "ATC",
       "discipline": "OS",
       "metadata": {
-        "series_full_title": "USENIX Annual Technical Conference",
+        "series_full_title": "ACM SIGOPS Annual Technical Conference",
+        "aliases": [
+          "USENIX ATC"
+        ],
         "main_discipline": [
           "Computer Systems", "Operating Systems", "Distributed Systems"
         ],
         "other_discipline": [
           "Virtualization", "Security & Privacy", "Performance Evaluation", "Reliability & Scalability", "Energy & Power Management"
         ],
-        "parent_org": "USENIX",
-        "website": "https://www.usenix.org/conferences/byname/131",
+        "parent_org": "ACM, ACM SIGOPS",
+        "website": "https://sigops.org/s/conferences/atc/2026/index.html",
         "second_track_name": "Short Paper Track",
-        "note": "Proceedings are available in each year's conference \"Technical Sessions\" page. Before 1995, there are two conferences, USENIX Summer and Winter Technical Conferences."
+        "note": "Known as the USENIX Annual Technical Conference through 2025. From 2026, it is the ACM SIGOPS Annual Technical Conference (ATC). Historical proceedings are available from USENIX; before 1995, USENIX held separate Summer and Winter Technical Conferences."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "location": "Hong Kong, China"
+        },
         {
           "year": 2025,
           "ordinal": "54th",

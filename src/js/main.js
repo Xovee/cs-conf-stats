@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
 
   // display conf stats
-  fetch('./data/conf.json')
+  fetch('./data/conf.json', { cache: 'no-store' })
     .then(response => response.json())
     .then(data => {
       dropdowns.forEach(dropdown => {
@@ -183,10 +183,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
         .sort((a, b) => a.series.localeCompare(b.series));
 
       const categorySelects = dropdowns.filter(dropdown => dropdown.id !== 'dropdown-all');
-      const conferenceByLower = new Map(sortedConferences.map(conference => [
-        conference.series.toLowerCase(),
-        conference.series
-      ]));
+      const conferenceByLower = new Map();
+      sortedConferences.forEach(conference => {
+        conferenceByLower.set(conference.series.toLowerCase(), conference.series);
+        asArray(conference.metadata.aliases).forEach(alias => {
+          conferenceByLower.set(String(alias).toLowerCase(), conference.series);
+        });
+      });
+
+      function resolveConferenceSeries(value) {
+        const rawValue = String(value || '').trim();
+        return conferenceByLower.get(rawValue.toLowerCase()) || rawValue;
+      }
+
+      window.resolveConferenceSeries = resolveConferenceSeries;
       const eventCount = sortedConferences.reduce((total, conference) => total + conference.yearly_data.length, 0);
 
       const heroConfCount = document.getElementById('hero-conf-count');
@@ -715,9 +725,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
       const params = new URLSearchParams(window.location.search);
       const conferenceFromUrl = params.get('conf');
       if (conferenceFromUrl) {
-        curConfSelection.textContent = conferenceFromUrl;
-        if (!updateDropdownSelection(conferenceFromUrl)) {
-          displayConfMetadata(conferenceFromUrl);
+        const resolvedConference = resolveConferenceSeries(conferenceFromUrl);
+        curConfSelection.textContent = resolvedConference;
+        if (resolvedConference !== conferenceFromUrl) {
+          history.replaceState({ conf: resolvedConference }, '', '?conf=' + encodeURIComponent(resolvedConference));
+        }
+        if (!updateDropdownSelection(resolvedConference)) {
+          displayConfMetadata(resolvedConference);
         }
       } else {
         displayConfMetadata(curConfSelection.textContent);
@@ -730,7 +744,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   window.onpopstate = function(event) {
     if (event.state && event.state.conf) {
-      const newConf = event.state.conf;
+      const newConf = window.resolveConferenceSeries
+        ? window.resolveConferenceSeries(event.state.conf)
+        : event.state.conf;
       curConfSelection.textContent = newConf;
       if (!updateDropdownSelection(newConf)) {
         if (window.displayConfMetadata) {

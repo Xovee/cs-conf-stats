@@ -111,7 +111,7 @@ Number of submissions and number of accepted papers for the following conference
 1. UAI: Conference on Uncertainty in Artificial Intelligence. 
 1. UbiComp: ACM International Joint Conference on Pervasive and Ubiquitous Computing.
 1. UIST: ACM Symposium on User Interface Software and Technology.
-1. USENIX ATC: USENIX Annual Technical Conference.
+1. ATC: ACM SIGOPS Annual Technical Conference (known as USENIX ATC through 2025).
 1. USENIX Security: USENIX Security Symposium. 
 1. VIS: IEEE Visualization Conference. 
 1. VLDB: International Conference on Very Large Data Bases.

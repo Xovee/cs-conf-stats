@@ -130,7 +130,7 @@ function renderSubmissionGrowthTable(conferences) {
   }).join('');
 }
 
-fetch('./data/conf.json')
+fetch('./data/conf.json', { cache: 'no-store' })
   .then(response => response.json())
   .then(data => {
 
@@ -449,7 +449,7 @@ fetch('./data/conf.json')
       {name: 'UAI', value: 1985},
       {name: 'UbiComp', value: 1999},
       {name: 'UIST', value: 1988},
-      {name: 'USENIX ATC', value: 1983},
+      {name: 'ATC', value: 1983},
       {name: 'USENIX Security', value: 1988},
       {name: 'VIS', value: 1990},
       {name: 'VR', value: 1995},

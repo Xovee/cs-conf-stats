@@ -1626,6 +1626,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/icme/2026/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/icme/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -10056,117 +10061,122 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2025/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2026/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2024/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2023/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2024/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2022/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2023/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2021/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2022/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2020/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2021/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2019/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2020/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2018/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2019/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2017/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2018/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2016/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2017/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2015/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2016/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2014/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2015/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2013/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2014/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2012/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2013/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2011/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2012/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2010/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2011/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2009/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2010/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2008/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2009/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2003/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2008/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/2000/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2003/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/1999/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/2000/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://csconfstats.xoveexu.com/conferences/usenix-atc/1998/</loc>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/1999/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/atc/1998/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

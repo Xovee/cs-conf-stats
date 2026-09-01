@@ -75,6 +75,7 @@ if (!Array.isArray(data.conferences)) {
 const conferences = Array.isArray(data.conferences) ? data.conferences : [];
 const formalConferences = conferences.filter(conference => conference.series !== 'Template');
 const seriesCounts = new Map();
+const conferenceNames = new Map();
 let eventCount = 0;
 let completeEventCount = 0;
 let partialEventCount = 0;
@@ -86,6 +87,7 @@ for (const conference of formalConferences) {
   }
 
   seriesCounts.set(conference.series, (seriesCounts.get(conference.series) || 0) + 1);
+  conferenceNames.set(conference.series.toLowerCase(), conference.series);
 
   if (!conference.metadata || typeof conference.metadata !== 'object') {
     addError(`${conference.series}: missing metadata object.`);
@@ -131,6 +133,30 @@ for (const conference of formalConferences) {
     } else {
       partialEventCount += 1;
     }
+  }
+}
+
+for (const conference of formalConferences) {
+  const aliases = conference.metadata?.aliases;
+  if (aliases === undefined) {
+    continue;
+  }
+  if (!Array.isArray(aliases) || aliases.length === 0) {
+    addError(`${conference.series}: metadata.aliases must be a non-empty array when present.`);
+    continue;
+  }
+
+  for (const alias of aliases) {
+    if (typeof alias !== 'string' || alias.trim() === '') {
+      addError(`${conference.series}: every metadata alias must be a non-empty string.`);
+      continue;
+    }
+    const normalizedAlias = alias.trim().toLowerCase();
+    if (conferenceNames.has(normalizedAlias)) {
+      addError(`${conference.series}: alias "${alias}" conflicts with conference name "${conferenceNames.get(normalizedAlias)}".`);
+      continue;
+    }
+    conferenceNames.set(normalizedAlias, conference.series);
   }
 }
 

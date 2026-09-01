@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { SITE_URL, buildSlugMap, readConferences } = require('./seo-utils');
+const { SITE_URL, buildSlugMap, readConferences, slugifySeries } = require('./seo-utils');
 
 const rootDir = path.resolve(__dirname, '..');
 const conferencesDir = path.join(rootDir, 'conferences');
@@ -151,6 +151,50 @@ function writeFile(relativePath, content) {
   const filePath = path.join(rootDir, relativePath);
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, content, 'utf8');
+}
+
+function legacySlugs(conference) {
+  const aliases = Array.isArray(conference.metadata.aliases) ? conference.metadata.aliases : [];
+  const canonicalSlug = slugBySeries.get(conference.series);
+  return [...new Set(aliases.map(slugifySeries))].filter(slug => slug && slug !== canonicalSlug);
+}
+
+function redirectPage(canonicalPath, label) {
+  const canonical = absoluteUrl(canonicalPath);
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url=${escapeHTML(canonicalPath)}">
+  <link rel="canonical" href="${escapeHTML(canonical)}">
+  <title>${escapeHTML(label)} | CS Conf Stats</title>
+</head>
+<body>
+  <p>This conference has a new name. <a href="${escapeHTML(canonicalPath)}">Continue to ${escapeHTML(label)}</a>.</p>
+</body>
+</html>
+`;
+}
+
+function renderLegacyRedirects(conference) {
+  const canonicalSlug = slugBySeries.get(conference.series);
+  let count = 0;
+
+  for (const legacySlug of legacySlugs(conference)) {
+    const canonicalPath = `/conferences/${canonicalSlug}/`;
+    writeFile(path.join('conferences', legacySlug, 'index.html'), redirectPage(canonicalPath, conference.series));
+    count += 1;
+
+    for (const event of conference.yearly_data) {
+      const yearPath = `/conferences/${canonicalSlug}/${event.year}/`;
+      writeFile(path.join('conferences', legacySlug, String(event.year), 'index.html'), redirectPage(yearPath, `${conference.series} ${event.year}`));
+      count += 1;
+    }
+  }
+
+  return count;
 }
 
 function resetGeneratedDirectory() {
@@ -688,7 +732,9 @@ for (const conference of conferences) {
   }
 }
 
+const legacyRedirectCount = conferences.reduce((total, conference) => total + renderLegacyRedirects(conference), 0);
+
 renderSitemaps();
 
 const yearPageCount = conferences.reduce((total, conference) => total + conference.yearly_data.length, 0);
-console.log(`Generated SEO pages: ${conferences.length} conference pages, ${yearPageCount} year pages, sitemap.xml, robots.txt.`);
+console.log(`Generated SEO pages: ${conferences.length} conference pages, ${yearPageCount} year pages, ${legacyRedirectCount} legacy redirects, sitemap.xml, robots.txt.`);

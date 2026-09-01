@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { SITE_URL, buildSlugMap, readConferences } = require('./seo-utils');
+const { SITE_URL, buildSlugMap, readConferences, slugifySeries } = require('./seo-utils');
 
 const rootDir = path.resolve(__dirname, '..');
 const conferences = readConferences(rootDir);
@@ -44,6 +44,50 @@ function expectedPagePaths() {
   }
 
   return pages;
+}
+
+function expectedLegacyRedirects() {
+  const redirects = [];
+  const canonicalSlugs = new Set(slugBySeries.values());
+
+  for (const conference of conferences) {
+    const aliases = Array.isArray(conference.metadata.aliases) ? conference.metadata.aliases : [];
+    const canonicalSlug = slugBySeries.get(conference.series);
+    const legacySlugs = [...new Set(aliases.map(slugifySeries))]
+      .filter(slug => slug && slug !== canonicalSlug);
+
+    for (const legacySlug of legacySlugs) {
+      if (canonicalSlugs.has(legacySlug)) {
+        addError(`${conference.series}: legacy slug "${legacySlug}" conflicts with a canonical conference slug.`);
+        continue;
+      }
+      redirects.push({
+        path: path.join('conferences', legacySlug, 'index.html'),
+        target: `/conferences/${canonicalSlug}/`,
+      });
+      for (const event of conference.yearly_data) {
+        redirects.push({
+          path: path.join('conferences', legacySlug, String(event.year), 'index.html'),
+          target: `/conferences/${canonicalSlug}/${event.year}/`,
+        });
+      }
+    }
+  }
+
+  return redirects;
+}
+
+function checkLegacyRedirect(redirect) {
+  const html = readText(redirect.path);
+  if (!html) {
+    return;
+  }
+  if (!html.includes(`<meta http-equiv="refresh" content="0; url=${redirect.target}">`)) {
+    addError(`${redirect.path}: missing redirect to ${redirect.target}.`);
+  }
+  if (!html.includes(`<link rel="canonical" href="${SITE_URL}${redirect.target}">`)) {
+    addError(`${redirect.path}: canonical does not match ${SITE_URL}${redirect.target}.`);
+  }
 }
 
 function checkPage(page, seenTitles) {
@@ -121,11 +165,15 @@ function checkGeneratedDirectory() {
 }
 
 const pages = expectedPagePaths();
+const legacyRedirects = expectedLegacyRedirects();
 const seenTitles = new Set();
 
 checkGeneratedDirectory();
 for (const page of pages) {
   checkPage(page, seenTitles);
+}
+for (const redirect of legacyRedirects) {
+  checkLegacyRedirect(redirect);
 }
 checkSitemap(pages);
 
@@ -137,4 +185,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`SEO check passed: ${pages.length} generated pages and sitemap URLs verified.`);
+console.log(`SEO check passed: ${pages.length} generated pages and sitemap URLs verified, plus ${legacyRedirects.length} legacy redirects.`);

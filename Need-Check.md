@@ -56,10 +56,10 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   - https://www.linkedin.com/posts/the-taub-faculty-of-computer-science-technion_congratulations-to-elizaveta-nesterova-activity-7476920744724180992-j8gN
 - PPoPP 2026: 51 accepted main-conference papers; submission count missing.
   Source: https://ppopp26.sigplan.org/track/PPoPP-2026-papers
-- DAC 2026: official location recorded. The official accepted-ID page lists 544 Research Manuscripts, while the official final program contains 545 unique Research Manuscript titles; exact submission count is also missing.
-  Sources:
-  - https://dac.com/2026/accepted-paper-ids
-  - https://confcats-siteplex.s3.amazonaws.com/dac/images/dac-2026_program_july-22.pdf
+- DAC 2026: 544 accepted Research Manuscripts recorded from the official accepted-ID page; submission count missing.
+  Source: https://dac.com/2026/accepted-paper-ids
+- ATC 2026: official Hong Kong location recorded; main-track submission and accepted counts are not yet available. From 2026, the former USENIX ATC continues as the ACM SIGOPS Annual Technical Conference (ATC).
+  Source: https://sigops.org/s/conferences/atc/2026/index.html
 - ICS 2026: 102 accepted main-conference papers counted from the official program; submission count missing.
   Source: https://dipsa-qub.github.io/ICS2026-webpage/program/program.html
 - STOC 2026: 212 accepted papers counted from the official accepted-paper list; submission count missing.
@@ -158,6 +158,11 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   - https://bme.uic.edu/news-stories/internship-leads-to-a-published-paper-for-undergrad/
   - https://www.linkedin.com/posts/fpt-software-ai-center_fpt-airesidency-iros2026-activity-7477692478129848320-tJVC
   - https://2026.ieee-iros.org/
+- ICME 2026: 1,101/3,810 valid submissions. Two independent acceptance announcements report this review-decision ratio. A later General Chair summary reports 1,092/3,989 overall; the valid-submission ratio is used to exclude invalid or desk-rejected papers.
+  Sources:
+  - https://www.linkedin.com/posts/fpt-software-ai-center_fptsoftwareaicenter-airesidency-ai1-activity-7441831263021355009-eCdf
+  - https://www.linkedin.com/posts/yassin-terraf_icme2026-speakeridentification-speakerrecognition-activity-7459543824915234816-OF-1
+  - https://www.linkedin.com/posts/supavadee_icme2026-ieee-multimedia-activity-7482467345958047744-m3Al
 
 ## 2026 Non-Event
 
