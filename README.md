@@ -185,12 +185,14 @@ Run the location check directly with:
 npm run check:locations
 ```
 
-Before committing changes, run the full local verification:
+For data, site code, build configuration, or generator changes, run the full local verification and review the resulting diff, including generated output:
 ```shell
 npm run build
 npm run check
 git diff --check
 ```
+
+For Markdown-only documentation or instruction changes that do not affect generated output, run `npm run check:docs` and `git diff --check`, and review the changed text. Reuse successful checks for the same file state, including before a requested commit; rerun affected checks after relevant changes or new failure evidence. Read-only reviews require no build.
 
 On Windows PowerShell, if `npm` is blocked by the execution policy, use `npm.cmd` instead:
 ```shell

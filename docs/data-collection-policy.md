@@ -1,14 +1,14 @@
 # Data Collection Policy
 
-This is the authoritative policy for researching, deciding, recording, and maintaining conference statistics in CS Conf Stats. `AGENTS.md`, `README.md`, `Need-Check.md`, and `If-You-Know.md` should point here instead of restating durable rules.
+This is the authoritative policy for researching, deciding, recording, and maintaining conference statistics in CS Conf Stats. Keep authoritative data-collection rules here. `AGENTS.md` and other project documentation may contain short operational summaries linked to this policy; synchronize affected summary text when policy changes. Keep event evidence and work status in the tracking files.
 
-Last reviewed: 2026-09-01.
+Last reviewed: 2026-09-15.
 
 ## 1. Project Scope
 
 The project primarily tracks the main Research, Technical, or Full Paper track of each conference. The goal is a consistent annual series, not exhaustive coverage of every track.
 
-- Track a secondary track only when it is important, already part of the series' established schema, or explicitly requested by the maintainer.
+- Track a secondary track only when it is already intentionally included in the series or the maintainer explicitly requests it. If an untracked secondary track appears important, recommend it without adding it.
 - Keep Main, Short, Industry, Applied, Findings, Journal, demo, workshop, and other pools separate.
 - Do not combine tracks merely because a proceedings preface reports one overall total.
 - Preserve a conference's established historical scope when possible. If a newly available number uses a different scope, leave the field incomplete instead of breaking comparability.
@@ -114,16 +114,16 @@ Classify each researched event into one of four states:
 
 ## 10. Standard Workflow
 
-1. Read this policy, both tracking lists, and the relevant existing conference records.
+1. Consult this policy unless its current contents are already available in context. Read only relevant event, year, and field entries in both tracking lists and `data/conf.json`; consult `data/locations.json` when locations are involved. Read broader ledger sections only when selecting or reviewing a broader research batch. Code-only changes and instruction-only reviews do not require loading conference records.
 2. Skip routine re-checking of protected recent records unless an exception applies.
 3. Research official sources first. Use two independent secondary sources only when official evidence is unavailable.
 4. Confirm track scope, denominator rules, cycle overlap, and decision stage before accepting a number.
-5. Classify the event as complete, partial, unresolved, or non-event. Ask the maintainer only when a real conflict or policy choice remains.
+5. Classify each event as complete, partial, unresolved, or non-event. Resolve apparent discrepancies from source scope where possible. If a real conflict or policy choice remains, report the competing values and sources and leave only the affected field unresolved. Continue independent research and record verified fields within the requested scope. An unresolved field does not block completion of the remaining authorized work.
 6. Update `data/conf.json`, `data/locations.json`, and the two tracking files as appropriate. Keep source URLs and unresolved details in `Need-Check.md`.
-7. Run `npm run build`, `npm run check`, and `git diff --check`.
+7. For data, site code, build configuration, or generator changes, run `npm run build`, `npm run check`, and `git diff --check`. For Markdown-only documentation or instruction changes that do not affect generated output, run `npm run check:docs` and `git diff --check`. Reuse successful checks for the same file state; rerun affected checks after relevant changes or new failure evidence. Read-only reviews require no build.
 8. Review the full diff for accidental generated-file churn or unrelated edits.
 9. Commit and push only when the maintainer explicitly requests it.
 
 ## 11. Changing This Policy
 
-Policy changes should be made here first. Update shorter references only when needed, run the document and project checks, and describe the behavioral change clearly in the commit. Event-specific decisions belong in event notes or the research ledger, not in this policy.
+Policy changes should be made here first. Synchronize affected summaries and references, apply the scope-appropriate verification in section 10, and describe the behavioral change clearly in the completion report and any explicitly requested commit. Event-specific decisions belong in event notes or the research ledger, not in this policy.

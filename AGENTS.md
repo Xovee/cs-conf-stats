@@ -4,14 +4,9 @@ These instructions apply to the entire repository.
 
 ## Read First
 
-Before researching or editing conference data, read these files in order:
+Before conference-data research or edits, consult the authoritative [data collection policy](./docs/data-collection-policy.md) unless its current contents are already available in context. Read only the relevant event, year, and field entries in [Need Check](./Need-Check.md), [If You Know](./If-You-Know.md), and [conference data](./data/conf.json); consult [canonical locations](./data/locations.json) when locations are involved. Read broader ledger sections only when selecting or reviewing a broader research batch. Code-only changes and instruction-only reviews do not require loading conference records.
 
-1. [Data collection policy](./docs/data-collection-policy.md) - the authoritative rules.
-2. [Need Check](./Need-Check.md) - the active research ledger.
-3. [If You Know](./If-You-Know.md) - the public list of missing or uncertain data.
-4. The relevant records in [conference data](./data/conf.json) and [canonical locations](./data/locations.json).
-
-Do not reconstruct policy from old chat history or individual event notes. If another project document conflicts with the data collection policy, follow the policy and fix the stale document in the same change.
+Do not reconstruct policy from old chat history or individual event notes. Use the data collection policy as the authoritative project policy. During an authorized editing task, correct directly related stale references when the intended behavior is clear. During a read-only review, report discrepancies without editing. If reconciliation would change policy or expand the task, present the decision needed and continue unaffected work.
 
 ## Data Work
 
@@ -21,24 +16,18 @@ Do not reconstruct policy from old chat history or individual event notes. If an
 - Official sources are preferred. Without an official source, require two independent sources that verify the same field and scope.
 - Partial yearly records are valid. Never invent missing values or use `0` or `null` as placeholders.
 - Every location must use the exact canonical display form in `data/locations.json`, after the event location itself has been verified from an official source.
-- Surface conflicting counts or ambiguous scopes to the user. Do not silently choose between them.
+- Surface unresolved conflicting counts or ambiguous scopes to the user. Do not silently choose between them; leave only the affected fields unresolved and continue independent work within the requested scope.
 
 ## Editing Boundaries
 
-- Edit source data and source files, then regenerate derived output with `npm run build`.
+- Edit source data and source files; regenerate derived output with `npm run build` when the change affects it.
 - Do not hand-edit `conferences/`, `sitemap.xml`, `robots.txt`, or `output.css`; they are generated.
-- Keep `Need-Check.md` operational and `If-You-Know.md` public-facing. Durable rules belong only in `docs/data-collection-policy.md`.
+- Keep authoritative data-collection rules in `docs/data-collection-policy.md`. This file may contain a short operational summary linked to the policy; synchronize affected summary text when policy changes. Keep `Need-Check.md` operational and `If-You-Know.md` public-facing, with event evidence and work status in the tracking files.
 - Preserve unrelated user changes in a dirty worktree.
 - Commit or push only when the user explicitly asks.
 
 ## Verification
 
-After changing data, documentation, or site code, run:
-
-```shell
-npm run build
-npm run check
-git diff --check
-```
-
-Review the resulting diff, including generated files, before reporting completion.
+- For data, site code, build configuration, or generator changes, run `npm run build`, `npm run check`, and `git diff --check`, then review the resulting diff, including generated output.
+- For Markdown-only documentation or instruction changes that do not affect generated output, run `npm run check:docs` and `git diff --check`, and review the changed text.
+- Reuse successful checks for the same file state; rerun affected checks after relevant changes or new failure evidence. Read-only reviews require no build.
