@@ -267,7 +267,6 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ICRA
 
-- ICRA 2026 accepted count
 - ICRA 2009
 - ICRA 2006
 - ICRA 1995
@@ -494,7 +493,6 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## SIGCOMM
 
-- SIGCOMM 2026 submission count
 - Before 1994
 
 ## SIGGRAPH
@@ -607,7 +605,6 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## UIST
 
-- UIST 2026 accepted count. One author homepage reports 253/1,259; this still needs an official source or a second independent source.
 - Before 2003
 
 ## ATC

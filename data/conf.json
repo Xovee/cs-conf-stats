@@ -7855,8 +7855,10 @@
           "ordinal": "39th",
           "location": "Detroit, USA",
           "main_track": {
-            "num_sub": 1259
-          }
+            "num_acc": 253,
+            "num_sub": 1175
+          },
+          "note": "Submissions exclude 27 desk rejections and 57 assisted desk rejections before full review (84 of 1,259 complete submissions)."
         },
         {
           "year": 2025,
@@ -8632,8 +8634,10 @@
           "ordinal": "59th",
           "location": "Denver, USA",
           "main_track": {
-            "num_acc": 110
-          }
+            "num_acc": 109,
+            "num_sub": 513
+          },
+          "note": "Uses the maintainer-confirmed decision statistics: 109 accepted papers, including 19 one-shot revisions, from 513 submissions."
         },
         {
           "year": 2025,
@@ -27363,8 +27367,10 @@
           "ordinal": "43rd",
           "location": "Vienna, Austria",
           "main_track": {
-            "num_sub": 5088
-          }
+            "num_acc": 1882,
+            "num_sub": 4947
+          },
+          "note": "Uses 4,947 valid submissions rather than the earlier 5,088 submission total; accepted conference papers exclude journal transfers."
         },
         {
           "year": 2025,

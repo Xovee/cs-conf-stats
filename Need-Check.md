@@ -14,12 +14,29 @@ Keep this file specific to current evidence and work status. It must not overrid
 
 These events now have confirmed partial data in `data/conf.json`. Keep the known fields and continue looking only for the missing complements.
 
+### Targeted follow-up: 2026-09-15
+
+- UIST 2026 completed: 253/1,175 (21.53%). Two independent author/research-group pages report 253 accepted papers. The official pre-rebuttal summary explicitly separates 1,259 complete submissions into 84 pre-full-review rejections (27 desk and 57 assisted desk) and 1,175 papers receiving four reviews. The maintainer approved correcting the protected existing denominator on 2026-09-15; the complete-submission denominator used by the author pages is not used for the project rate.
+  Sources:
+  - https://uist.acm.org/2026/announcements/
+  - https://makeabilitylab.cs.washington.edu/member/jaredhwang/
+  - https://ruixiao24.github.io/publications/
+- ICRA 2026 completed: 1,882/4,947 (38.04%). On 2026-09-15, the maintainer confirmed that 4,947 is the valid substantive-review pool, resolving the denominator question and replacing the earlier 5,088 submission total. Minoru Asada's first-hand conference report quotes the program chair's opening presentation with this ratio; Herbie Wright independently reports 1,882 accepted conference papers and distinguishes over 1,000 journal transfers. The exact breakdown of the 141 excluded submissions is not asserted.
+  Sources:
+  - https://robogaku.jp/news/2026/pblog040.html
+  - https://thoughts.herbiewright.com/posts/icra_trends/
+  - https://2026.ieee-icra.org/announcements/record-of-submissions/
+- SIGCOMM 2026 completed: 109/513 (21.25%). On 2026-09-15, the maintainer confirmed this ratio for the project's decision-pool scope. The conference welcome-session report gives 109 accepts, including 19 one-shot revisions. This approved decision statistic replaces the existing 110 from the official accepted-paper page; the reason for the one-paper discrepancy is not asserted.
+  Sources:
+  - https://everythinginsigcomm.group/t/sigcomm26-conference-welcome-awards/499
+  - https://conferences.sigcomm.org/sigcomm/2026/accepted/
+
+### Existing partial records
+
 - PODS 2026: 41 accepted research papers; submission count missing.
   Source: https://2026.sigmod.org/pods_papers.shtml
 - SODA 2026: 154 accepted papers counted from the official accepted-paper list; submission count missing.
   Source: https://www.siam.org/conferences-events/past-event-archive/soda26/program/accepted-papers/
-- ICRA 2026: 5,088 submissions; accepted count missing.
-  Source: https://2026.ieee-icra.org/contribute/call-for-icra-2026-papers-now-accepting-submissions/
 - RSS 2026: 203 accepted papers; submission count missing.
   Source: https://roboticsconference.org/program/papers/
 - RECOMB 2026: 65 accepted papers; submission count missing.
@@ -32,18 +49,10 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   - https://icwsm.org/2026/
 - SDM 2026: official location recorded; submission and accepted counts missing.
   Source: https://www.siam.org/conferences-events/siam-conferences/sdm26/
-- UIST 2026: 1,259 complete submissions; accepted count missing.
-  Sources:
-  - https://uist.acm.org/2026/announcements/
-  - https://uist.acm.org/2026/attending/
 - ACM MM 2026: 7,053 main-track submissions; accepted count missing.
   Sources:
   - https://cdmc.xmu.edu.cn/info/1002/5624.htm
   - https://in.linkedin.com/in/aaryansharma-iitb
-- SIGCOMM 2026: 110 accepted papers; submission count missing.
-  Sources:
-  - https://conferences.sigcomm.org/sigcomm/2026/
-  - https://conferences.sigcomm.org/sigcomm/2026/accepted/
 - VLDB 2026: official location recorded; rolling Research Track submission and accepted counts missing.
   Source: https://vldb.org/2026/
 - ICDM 2026: official location recorded; Research Track submission and accepted counts missing.
@@ -107,6 +116,10 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   Source: https://2026.rtss.org/
 
 ## 2026 Completed In This Sweep
+
+- UIST 2026: 253/1,175 fully reviewed papers; see the 2026-09-15 follow-up above for sources and the approved denominator correction.
+- ICRA 2026: 1,882/4,947 valid submissions; see the 2026-09-15 follow-up above for sources and maintainer confirmation.
+- SIGCOMM 2026: 109/513; see the 2026-09-15 follow-up above for sources and the maintainer-approved resolution.
 
 - TACAS 2026: regular research papers 34/117; regular tool papers 15/33.
   Source: https://etaps.org/files/2026/tacas-i-2026.pdf
