@@ -221,6 +221,22 @@ for (const series of knownSeries) {
   }
 }
 
+const expectedConferenceCount = formalConferences.length;
+
+const heroCountMatch = indexHtml.match(/<span\s+id="hero-conf-count"[^>]*>([\d,]+)<\/span>/);
+if (!heroCountMatch) {
+  addError('index.html must contain a hero-conf-count element with a numeric fallback.');
+} else if (Number(heroCountMatch[1].replace(/,/g, '')) !== expectedConferenceCount) {
+  addError(`index.html hero-conf-count fallback "${heroCountMatch[1]}" does not match the ${expectedConferenceCount} conferences in data/conf.json.`);
+}
+
+const listCountMatch = indexHtml.match(/List of ([\d,]+) conferences/);
+if (!listCountMatch) {
+  addError('index.html must state "List of N conferences".');
+} else if (Number(listCountMatch[1].replace(/,/g, '')) !== expectedConferenceCount) {
+  addError(`index.html footer says "List of ${listCountMatch[1]} conferences" but data/conf.json contains ${expectedConferenceCount} conferences.`);
+}
+
 const outputCss = readText('output.css');
 if (outputCss.includes('}(min-width')) {
   addError('output.css contains malformed media query output. Rebuild it with npm run build:css.');

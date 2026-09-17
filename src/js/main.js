@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', () => {
   // Debounce function to limit resize event firing
   function debounce(fn, delay = 250) {
     let timer;
@@ -148,13 +148,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
   function updateDropdownSelection(confValue) {
     let found = false;
     dropdowns.forEach(dropdown => {
-      for (let i = 0; i < dropdown.options.length; i++) {
-        if (dropdown.options[i].value === confValue) {
-          dropdown.value = confValue;
-          found = true;
-          dropdown.dispatchEvent(new Event('change'));
-          break;
-        }
+      const hasOption = Array.from(dropdown.options).some(option => option.value === confValue);
+      if (hasOption) {
+        dropdown.value = confValue;
+        found = true;
+      } else if (dropdown.id !== 'dropdown-all') {
+        dropdown.value = '';
       }
     });
     return found;
@@ -283,10 +282,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
 
         curConfSelection.textContent = matchedConference;
-        if (!updateDropdownSelection(matchedConference)) {
-          updateUrl(matchedConference);
-          displayConfMetadata(matchedConference);
-        }
+        updateDropdownSelection(matchedConference);
+        updateUrl(matchedConference);
+        displayConfMetadata(matchedConference);
       }
 
       if (conferenceOptions) {
@@ -580,7 +578,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           },
         };
 
-        function updateChart(trackData, title) {
+        function updateChart(trackData) {
 
           const isNarrowViewport = window.innerWidth <= 768;
 
@@ -654,7 +652,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           confPlot.setOption(option, true);
         }
 
-        updateChart(mainTrackData, "Research Track")
+        updateChart(mainTrackData)
 
         let secondTrackName = '';
 
@@ -676,9 +674,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
         function showTrack(track) {
           currentTrack = track;
           if (track === 'mainTrack') {
-            updateChart(mainTrackData, "Research Track");
+            updateChart(mainTrackData);
           } else {
-            updateChart(secondTrackData, secondTrackName);
+            updateChart(secondTrackData);
           }
         }
 
@@ -730,9 +728,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         if (resolvedConference !== conferenceFromUrl) {
           history.replaceState({ conf: resolvedConference }, '', '?conf=' + encodeURIComponent(resolvedConference));
         }
-        if (!updateDropdownSelection(resolvedConference)) {
-          displayConfMetadata(resolvedConference);
-        }
+        updateDropdownSelection(resolvedConference);
+        displayConfMetadata(resolvedConference);
       } else {
         displayConfMetadata(curConfSelection.textContent);
       }
@@ -748,10 +745,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
         ? window.resolveConferenceSeries(event.state.conf)
         : event.state.conf;
       curConfSelection.textContent = newConf;
-      if (!updateDropdownSelection(newConf)) {
-        if (window.displayConfMetadata) {
-          displayConfMetadata(newConf);
-        }
+      updateDropdownSelection(newConf);
+      if (window.displayConfMetadata) {
+        displayConfMetadata(newConf);
       }
     }
   };
