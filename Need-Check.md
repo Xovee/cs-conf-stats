@@ -43,10 +43,10 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   Source: https://recomb.org/recomb2026/accepted_papers.html
 - ICDE 2026: 261 accepted research papers; submission count missing.
   Source: https://icde2026.github.io/accepted-papers.html
-- ICWSM 2026: 154 full papers in the official proceedings; exact full-paper submission count missing.
+- ICWSM 2026: 154 full papers in the official proceedings; the exact full-paper submission count is not published. ICWSM 2026 used three submission rounds (2025-05-15, 2025-09-15, 2026-01-15) plus revise-and-resubmit, and both the official site and the proceedings preface state only an approximate 20% acceptance rate, so the submission count stays unresolved rather than being derived from the rate (policy section 12).
   Sources:
-  - https://ojs.aaai.org/index.php/ICWSM
-  - https://icwsm.org/2026/
+  - https://ojs.aaai.org/index.php/ICWSM/issue/view/735
+  - https://icwsm.org/2026/submit.html
 - SDM 2026: official location recorded; submission and accepted counts missing.
   Source: https://www.siam.org/conferences-events/siam-conferences/sdm26/
 - ACM MM 2026: 7,053 main-track submissions; accepted count missing.
@@ -241,18 +241,18 @@ A 2026-09-17 audit of the canonical location registry verified three previously 
 
 Policy section 12 requires an explicit conference-year mapping before counts are added. Verify each volume, issue, or cycle against the venue's official material and record the mapping here.
 
-- VLDB / PVLDB: map each PVLDB volume to the VLDB edition of the same volume year and take accepted and unique submission counts from the volume front matter or the conference site. Backlog: 2016-2024.
+- VLDB / PVLDB: PVLDB is a rolling journal, and its policy offers every accepted paper a presentation slot at the next available VLDB, so a volume's paper count does not map cleanly to one conference edition. A 2026-09-17 check found no public per-year submission count, and the volume front matter PDFs are not machine-readable with the available tooling. The confirmed 2025 record (369/1613) needs its scope source identified before 2016-2024 can be filled consistently. Backlog: 2016-2024.
   Sources:
   - https://www.vldb.org/pvldb/
-  - https://vldb.org/2026/
+  - https://vldb.org/2025/
 - CSCW / PACM HCI: map each CSCW review cycle and its PACM HCI issue to the CSCW edition in which the papers are presented; a cycle can precede the edition by more than a year. Backlog: 2019-2025.
   Sources:
   - https://cscw.acm.org/2026/
   - https://dl.acm.org/journal/pacmhci
-- UbiComp / IMWUT: map each annual IMWUT volume to the corresponding UbiComp edition, keeping IMWUT papers separate from ISWC and other co-located tracks. Backlog: 2017-now.
+- UbiComp / IMWUT: UbiComp/ISWC 2023 is recorded with 149 IMWUT full papers counted from the official paper-session listing (accepted only; the submission count is not published). The 2017-2022 and 2024-2025 editions remain unresolved because their programs do not expose a countable accepted list (2024 and 2025 link to an Angular SIGCHI program app). Backlog: 2017-2022, 2024-2025.
   Sources:
-  - https://dl.acm.org/journal/imwut
-  - https://www.ubicomp.org/
+  - https://www.ubicomp.org/ubicomp-iswc-2023/program/paper_sessions/
+  - https://www.ubicomp.org/ubicomp-iswc-2026/past-conferences/
 - ICWSM: sum the final acceptances of every submission cycle that feeds one ICWSM edition only when the cycles are unique and non-overlapping, and keep full papers separate from the Research Poster Track. Backlog: 2021-2025, plus the 2026 full-paper submission count.
   Sources:
   - https://icwsm.org/2026/

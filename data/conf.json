@@ -7696,6 +7696,14 @@
       },
       "yearly_data": [
         {
+          "year": 2023,
+          "location": "Cancun, Mexico",
+          "main_track": {
+            "num_acc": 149
+          },
+          "note": "Accepted count counted from the official UbiComp/ISWC 2023 paper-session listing as the IMWUT full papers presented in the main track; the reviewed-submission count is not published."
+        },
+        {
           "year": 2016,
           "ordinal": "16th",
           "location": "Heidelberg, Germany",

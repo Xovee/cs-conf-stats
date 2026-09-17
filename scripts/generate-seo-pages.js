@@ -596,11 +596,11 @@ function renderYearPage(conference, event, events) {
 
 <section class="mb-8">
   <h2 class="text-2xl md:text-3xl mb-3">More Pages</h2>
-  <p>
-    ${newerEvent ? `<a href="${yearUrl(conference, newerEvent.year)}">Newer: ${series} ${newerEvent.year}</a> | ` : ''}
-    <a href="${conferenceUrl(conference)}">All ${escapeHTML(series)} acceptance rates</a>
-    ${olderEvent ? ` | <a href="${yearUrl(conference, olderEvent.year)}">Older: ${series} ${olderEvent.year}</a>` : ''}
-  </p>
+  <p>${[
+    newerEvent ? `<a href="${yearUrl(conference, newerEvent.year)}">Newer: ${series} ${newerEvent.year}</a>` : '',
+    `<a href="${conferenceUrl(conference)}">All ${escapeHTML(series)} acceptance rates</a>`,
+    olderEvent ? `<a href="${yearUrl(conference, olderEvent.year)}">Older: ${series} ${olderEvent.year}</a>` : '',
+  ].filter(Boolean).join(' | ')}</p>
   ${related ? `<p>Related conferences: ${related}.</p>` : ''}
 </section>`;
 
