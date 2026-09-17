@@ -2447,7 +2447,7 @@
         {
           "year": 2003,
           "ordinal": "19th",
-          "location": "Bangalore, India",
+          "location": "Bengaluru, India",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 77,
@@ -3159,7 +3159,7 @@
         {
           "year": 2001,
           "ordinal": "27th",
-          "location": "Roma, Italy",
+          "location": "Rome, Italy",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 59,
@@ -3209,7 +3209,7 @@
         {
           "year": 1996,
           "ordinal": "22nd",
-          "location": "Bombay, India",
+          "location": "Mumbai, India",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 48,
@@ -3229,7 +3229,7 @@
         {
           "year": 1994,
           "ordinal": "20th",
-          "location": "Santiago de Chile, Chile",
+          "location": "Santiago, Chile",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 54,
@@ -4605,7 +4605,7 @@
         {
           "year": 2000,
           "ordinal": "8th",
-          "location": "Marina de Rey, California, USA",
+          "location": "Marina del Rey, California, USA",
           "main_track": {
             "track_name": "Research Track",
             "num_acc": 36,
@@ -6108,7 +6108,7 @@
         {
           "year": 2025,
           "ordinal": "48th",
-          "location": "Padova, Italy",
+          "location": "Padua, Italy",
           "main_track": {
             "num_acc": 239,
             "num_sub": 1071
@@ -6796,7 +6796,7 @@
         {
           "year": 2026,
           "ordinal": "35th",
-          "location": "Dubai, United Arab Emirates",
+          "location": "Dubai, UAE",
           "main_track": {
             "num_acc": 678,
             "num_sub": 3370
@@ -10527,7 +10527,7 @@
         {
           "year": 2023,
           "ordinal": "36th",
-          "location": "Bangalore, India",
+          "location": "Bengaluru, India",
           "main_track": {
             "num_acc": 164,
             "num_sub": 474
@@ -11770,7 +11770,7 @@
         {
           "year": 2010,
           "ordinal": "16th",
-          "location": "Bangalore, India",
+          "location": "Bengaluru, India",
           "main_track": {
             "num_acc": 32,
             "num_sub": 175
@@ -11852,7 +11852,7 @@
         {
           "year": 2001,
           "ordinal": "7th",
-          "location": "Nuevo Leone, Mexico",
+          "location": "Monterrey, Mexico",
           "main_track": {
             "num_acc": 26,
             "num_sub": 110
@@ -14068,7 +14068,7 @@
         {
           "year": 2013,
           "ordinal": "19th",
-          "location": "Bangalore, India",
+          "location": "Bengaluru, India",
           "main_track": {
             "num_acc": 54,
             "num_sub": 269
@@ -14900,7 +14900,7 @@
         {
           "year": 1996,
           "ordinal": "15th",
-          "location": "Saragossa, Spain",
+          "location": "Zaragoza, Spain",
           "main_track": {
             "num_acc": 34,
             "num_sub": 126
@@ -18198,7 +18198,7 @@
         {
           "year": 2010,
           "ordinal": "15th",
-          "location": "Bangalore, India",
+          "location": "Bengaluru, India",
           "main_track": {
             "num_acc": 29,
             "num_sub": 173
@@ -18317,7 +18317,7 @@
         {
           "year": 2025,
           "ordinal": "39th",
-          "location": "Milano, Italy",
+          "location": "Milan, Italy",
           "main_track": {
             "num_acc": 105,
             "num_sub": 425
@@ -19203,7 +19203,7 @@
         {
           "year": 2002,
           "ordinal": "28th",
-          "location": "Marina de Rey, California, USA",
+          "location": "Marina del Rey, California, USA",
           "main_track": {
             "num_acc": 23,
             "num_sub": 170
@@ -22833,7 +22833,7 @@
         {
           "year": 2025,
           "ordinal": "33rd",
-          "location": "Tronheim, Norway",
+          "location": "Trondheim, Norway",
           "main_track": {
             "num_acc": 135,
             "num_sub": 612
@@ -23105,7 +23105,7 @@
         {
           "year": 2025,
           "ordinal": "34th",
-          "location": "Tronheim, Norway",
+          "location": "Trondheim, Norway",
           "main_track": {
             "num_acc": 107,
             "num_sub": 550
@@ -24802,7 +24802,7 @@
         {
           "year": 1992,
           "ordinal": "19th",
-          "location": "Wien, Austria",
+          "location": "Vienna, Austria",
           "main_track": {
             "num_acc": 52,
             "num_sub": 190
@@ -24901,7 +24901,7 @@
         {
           "year": 1981,
           "ordinal": "8th",
-          "location": "Arce, Israel",
+          "location": "Acre, Israel",
           "main_track": {
             "num_acc": 44,
             "num_sub": 109

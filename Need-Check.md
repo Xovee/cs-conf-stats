@@ -2,7 +2,7 @@
 
 A list of events that need further check.
 
-Last reviewed: 2026-09-01.
+Last reviewed: 2026-09-17.
 
 ## Purpose
 
@@ -221,6 +221,19 @@ These recent-year items stay on the check list because `If-You-Know.md` explicit
 - CSCW 2019-2024.
 - VLDB 2016-now.
 - ECIR 2026: full/short paper submission counts. Official proceedings report 46 full papers and 37 short papers, and Springer reports 530 total submissions across all tracks, but the existing ECIR schema needs separate full-paper and short-paper submission counts.
+
+## Location Corrections
+
+A 2026-09-17 audit of the canonical location registry verified three previously flagged spellings.
+
+- ICALP 1981: the official Springer proceedings title uses "Acre (Akko), Israel", so the recorded "Arce, Israel" was corrected to "Acre, Israel" and kept as an alias.
+  Source: https://link.springer.com/book/10.1007/3-540-10843-2
+- HPCA 2001: Crossref metadata for the official IEEE proceedings (DOI 10.1109/hpca.2001) gives the event location as "Monterrey, Nuevo Leon, Mexico", so "Nuevo Leone, Mexico" was corrected to "Monterrey, Mexico" and the old form kept as an alias. The HPCA history page uses the same misspelled "Nuevo Leone" region name.
+  Sources:
+  - https://api.crossref.org/works?query.bibliographic=Proceedings+Seventh+International+Symposium+on+High-Performance+Computer+Architecture
+  - https://hpca-conf.org/
+- ASE 2022: no change. The official conference site itself labels the venue "Oakland Center, Michigan, USA", matching the recorded value.
+  Source: https://conf.researchr.org/home/ase-2022
 
 ## Local Data Backlog
 
