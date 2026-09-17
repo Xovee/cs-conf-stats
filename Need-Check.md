@@ -237,9 +237,30 @@ A 2026-09-17 audit of the canonical location registry verified three previously 
 - ASE 2022: no change. The official conference site itself labels the venue "Oakland Center, Michigan, USA", matching the recorded value.
   Source: https://conf.researchr.org/home/ase-2022
 
+## Journal / Rolling-Review Venue Mapping
+
+Policy section 12 requires an explicit conference-year mapping before counts are added. Verify each volume, issue, or cycle against the venue's official material and record the mapping here.
+
+- VLDB / PVLDB: map each PVLDB volume to the VLDB edition of the same volume year and take accepted and unique submission counts from the volume front matter or the conference site. Backlog: 2016-2024.
+  Sources:
+  - https://www.vldb.org/pvldb/
+  - https://vldb.org/2026/
+- CSCW / PACM HCI: map each CSCW review cycle and its PACM HCI issue to the CSCW edition in which the papers are presented; a cycle can precede the edition by more than a year. Backlog: 2019-2025.
+  Sources:
+  - https://cscw.acm.org/2026/
+  - https://dl.acm.org/journal/pacmhci
+- UbiComp / IMWUT: map each annual IMWUT volume to the corresponding UbiComp edition, keeping IMWUT papers separate from ISWC and other co-located tracks. Backlog: 2017-now.
+  Sources:
+  - https://dl.acm.org/journal/imwut
+  - https://www.ubicomp.org/
+- ICWSM: sum the final acceptances of every submission cycle that feeds one ICWSM edition only when the cycles are unique and non-overlapping, and keep full papers separate from the Research Poster Track. Backlog: 2021-2025, plus the 2026 full-paper submission count.
+  Sources:
+  - https://icwsm.org/2026/
+  - https://ojs.aaai.org/index.php/ICWSM
+
 ## Local Data Backlog
 
 These are visible from `data/conf.json` and are separate from the 2026 sweep:
 
-- ICWSM 2021-2025 remain absent; 2026 is now recorded as a partial entry.
-- UbiComp latest local year is 2016. This likely needs a separate policy because UbiComp/IMWUT has a journal/rolling publication model.
+- ICWSM 2021-2025 remain absent; 2026 is recorded as a partial entry. The mapping is tracked under Journal / Rolling-Review Venue Mapping.
+- UbiComp latest local year is 2016; the journal/rolling mapping is now defined in policy section 12 and tracked under Journal / Rolling-Review Venue Mapping.

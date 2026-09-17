@@ -2,7 +2,7 @@
 
 This is the authoritative policy for researching, deciding, recording, and maintaining conference statistics in CS Conf Stats. Keep authoritative data-collection rules here. `AGENTS.md` and other project documentation may contain short operational summaries linked to this policy; synchronize affected summary text when policy changes. Keep event evidence and work status in the tracking files.
 
-Last reviewed: 2026-09-15.
+Last reviewed: 2026-09-17.
 
 ## 1. Project Scope
 
@@ -12,7 +12,7 @@ The project primarily tracks the main Research, Technical, or Full Paper track o
 - Keep Main, Short, Industry, Applied, Findings, Journal, demo, workshop, and other pools separate.
 - Do not combine tracks merely because a proceedings preface reports one overall total.
 - Preserve a conference's established historical scope when possible. If a newly available number uses a different scope, leave the field incomplete instead of breaking comparability.
-- For rolling or journal-first venues, establish a conference-year mapping before adding annual counts.
+- For rolling or journal-first venues, establish a conference-year mapping before adding annual counts; see section 12.
 
 ## 2. What Counts as a Submission
 
@@ -127,3 +127,16 @@ Classify each researched event into one of four states:
 ## 11. Changing This Policy
 
 Policy changes should be made here first. Synchronize affected summaries and references, apply the scope-appropriate verification in section 10, and describe the behavioral change clearly in the completion report and any explicitly requested commit. Event-specific decisions belong in event notes or the research ledger, not in this policy.
+
+## 12. Journal and Rolling-Review Venues
+
+Some venues publish their main track through a journal or review it in rolling or multiple cycles. Examples include PVLDB for VLDB, PACM HCI for CSCW, IMWUT for UbiComp, and the multi-cycle ICWSM process. Establish a conference-year mapping before adding annual counts for these venues.
+
+- Anchor every record to a single conference edition. Attribute a paper to the edition at which it is presented, or, when presentation data is unavailable, to the journal volume or issue that the venue's own materials associate with that edition. Record the mapping in [Need-Check](../Need-Check.md).
+- Count each paper once, in its final-decision edition. Do not count a paper again because it was revised or resubmitted across cycles; a paper that was first reviewed earlier but finally accepted for edition Y counts at Y.
+- Use the number of unique papers that entered substantive review for that edition's main track as the denominator. Sum per-cycle unique submission counts only when the venue states that the cycles are unique and non-overlapping. Otherwise leave the submission count unresolved.
+- Never derive counts from an overall rate. A volume-wide or period-wide acceptance rate is not an edition figure.
+- Keep journal-only papers, conference-only papers, and secondary tracks separate; do not merge them merely to match a published total.
+- Prefer a partial record. When the mapping or a count is unavailable, record only the verified fields and leave the rest unresolved.
+
+Venue-specific mappings are operational and belong in [Need-Check](../Need-Check.md), not in this policy.

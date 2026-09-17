@@ -121,7 +121,7 @@ Number of submissions and number of accepted papers for the following conference
 
 ## Data Curation
 
-The authoritative rules for track scope, valid submission counts, source confidence, conflicts, partial records, and locations are in the [data collection policy](./docs/data-collection-policy.md).
+The authoritative rules for track scope, valid submission counts, source confidence, conflicts, partial records, locations, and journal/rolling-review conference-year mapping are in the [data collection policy](./docs/data-collection-policy.md).
 
 The two tracking lists have separate roles:
 
