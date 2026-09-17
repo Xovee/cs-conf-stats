@@ -94,11 +94,11 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   Sources:
   - https://microarch.hosting.acm.org/micro59/
   - https://www.microarch.org/micro59/submit/industrial.php
-- MobiCom 2026: official location and 32nd edition recorded. The official page currently lists 29 accepted papers from the Summer round only; Winter-round and annual submission statistics remain missing.
+- MobiCom 2026: 88 accepted main-conference papers counted from the official accepted-paper page (29 Summer + 59 Winter); the annual submission count is still missing.
   Sources:
-  - https://sigmobile.org/mobicom/2026/
+  - https://www.sigmobile.org/mobicom/2026/
   - https://www.sigmobile.org/mobicom/2026/accepted.html
-- IMC 2026: official location and 26th edition recorded. The official page currently lists only 23 Cycle 1 accepted papers; Cycle 2 and exact annual full-paper submission statistics remain missing.
+- IMC 2026: official location and 26th edition recorded. The accepted-paper page now posts both Cycle 1 (23 papers) and Cycle 2 (54 entries), but the Cycle 2 list mixes in the Replicability Track without separation, so the main-track accepted count and the exact annual full-paper submission statistics remain unresolved.
   Sources:
   - https://conferences.sigcomm.org/imc/2026/
   - https://conferences.sigcomm.org/imc/2026/accepted-papers/
@@ -112,8 +112,10 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   - https://iccad.com/2026/
   - https://sites.google.com/view/liang/publication
   - https://www.linkedin.com/in/sang-geon-yun
-- RTSS 2026: official location, 47th edition, and 350 valid submissions recorded after excluding duplicates and non-compliant papers. The initial decisions include 32 accepted and 18 conditionally accepted papers; the final accepted count is pending shepherding.
-  Source: https://2026.rtss.org/
+- RTSS 2026: official location, 47th edition, and 350 valid submissions recorded after excluding duplicates and non-compliant papers. Initial decisions were 32 accepted and 18 conditionally accepted papers. The preliminary program lists 44 research-session papers plus 4 in the Outstanding Papers session (48 total), below the 32+18 upper bound, so the final accepted count still needs one authoritative confirmation.
+  Sources:
+  - https://2026.rtss.org/
+  - https://2026.rtss.org/program/program/
 
 ## 2026 Completed In This Sweep
 

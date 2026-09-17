@@ -8950,7 +8950,11 @@
         {
           "year": 2026,
           "ordinal": "32nd",
-          "location": "Austin, USA"
+          "location": "Austin, USA",
+          "main_track": {
+            "num_acc": 88
+          },
+          "note": "Accepted count counted from the official Summer (29) and Winter (59) rounds; the annual submission count is not yet published."
         },
         {
           "year": 2025,
