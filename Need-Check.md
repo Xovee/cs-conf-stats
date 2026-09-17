@@ -112,13 +112,13 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   - https://iccad.com/2026/
   - https://sites.google.com/view/liang/publication
   - https://www.linkedin.com/in/sang-geon-yun
-- RTSS 2026: official location, 47th edition, and 350 valid submissions recorded after excluding duplicates and non-compliant papers. Initial decisions were 32 accepted and 18 conditionally accepted papers. The preliminary program lists 44 research-session papers plus 4 in the Outstanding Papers session (48 total), below the 32+18 upper bound, so the final accepted count still needs one authoritative confirmation.
-  Sources:
-  - https://2026.rtss.org/
-  - https://2026.rtss.org/program/program/
 
 ## 2026 Completed In This Sweep
 
+- RTSS 2026: 48/350 Research Track papers. Initial decisions were 32 accepted plus 18 conditionally accepted papers; the official program lists 48 research papers, which is the value recorded.
+  Sources:
+  - https://2026.rtss.org/
+  - https://2026.rtss.org/program/program/
 - UIST 2026: 253/1,175 fully reviewed papers; see the 2026-09-15 follow-up above for sources and the approved denominator correction.
 - ICRA 2026: 1,882/4,947 valid submissions; see the 2026-09-15 follow-up above for sources and maintainer confirmation.
 - SIGCOMM 2026: 109/513; see the 2026-09-15 follow-up above for sources and the maintainer-approved resolution.

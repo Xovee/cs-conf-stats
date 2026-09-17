@@ -16827,9 +16827,10 @@
           "ordinal": "47th",
           "location": "Yokohama, Japan",
           "main_track": {
+            "num_acc": 48,
             "num_sub": 350
           },
-          "note": "Accepted count pending shepherding."
+          "note": "Initial decisions were 32 accepted plus 18 conditionally accepted papers; the official program lists 48 research papers."
         },
         {
           "year": 2025,
