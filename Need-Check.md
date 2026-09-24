@@ -14,6 +14,12 @@ Keep this file specific to current evidence and work status. It must not overrid
 
 These events now have confirmed partial data in `data/conf.json`. Keep the known fields and continue looking only for the missing complements.
 
+### Targeted follow-up: 2026-09-25
+
+- NeurIPS 2026 completed: 7,900/30,709 (25.73%). The official Main Track decision notification supplied by the maintainer states "30709 valid paper submissions with a PDF" and 7,900 final acceptances: 7,496 posters, 292 spotlights, and 112 orals. These presentation categories sum to the main-track accepted total and are not separate tracks. The notification reports a rounded rate of 25.7%. The official conference homepage confirms the Fortieth Annual Conference and Sydney as the main site (December 6-12), with Atlanta and Paris as satellite sites (December 9-13). The canonical main location is recorded as `Sydney, Australia`, with the satellite arrangement explained in the event note.
+  Source: NeurIPS 2026 Program Chairs' decision notification via OpenReview, provided by the maintainer on 2026-09-25; no public source URL supplied. Personal submission details are not retained.
+  Official ordinal and location source: https://neurips.cc/Conferences/2026 (checked 2026-09-25).
+
 ### Targeted follow-up: 2026-09-15
 
 - UIST 2026 completed: 253/1,175 (21.53%). Two independent author/research-group pages report 253 accepted papers. The official pre-rebuttal summary explicitly separates 1,259 complete submissions into 84 pre-full-review rejections (27 desk and 57 assisted desk) and 1,175 papers receiving four reviews. The maintainer approved correcting the protected existing denominator on 2026-09-15; the complete-submission denominator used by the author pages is not used for the project rate.
