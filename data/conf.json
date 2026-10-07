@@ -6672,6 +6672,15 @@
           }
         },
         {
+          "year": 2025,
+          "ordinal": "19th",
+          "location": "Copenhagen, Denmark",
+          "main_track": {
+            "num_acc": 139
+          },
+          "note": "Full-paper count from the official program chairs' message, used by maintainer decision. The proceedings list 138 full papers; the difference remains unexplained. Submission count is unverified."
+        },
+        {
           "year": 2020,
           "ordinal": "14th",
           "location": "Online, Online",
@@ -10082,6 +10091,17 @@
         "note": "Main Track includes Long and Short Papers. The Second Track is the Findings."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "location": "Budapest, Hungary",
+          "main_track": {
+            "num_acc": 2710
+          },
+          "second_track": {
+            "num_acc": 2487
+          },
+          "note": "Counts from the official author roster as of October 2; includes virtual papers and Findings papers marked Not Presenting. Submission counts remain unverified."
+        },
         {
           "year": 2025,
           "ordinal": "30th",
@@ -13976,10 +13996,17 @@
         "parent_org": "International Association for Cryptologic Research",
         "website": "https://www.iacr.org/meetings/asiacrypt/",
         "proceedings": "https://link.springer.com/conference/asiacrypt",
-        "second_track_name": "",
-        "note": "Wow! This conference's data are complete! 🏆"
+        "second_track_name": ""
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "32nd",
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 197
+          }
+        },
         {
           "year": 2025,
           "ordinal": "31st",
@@ -15575,6 +15602,14 @@
       },
       "yearly_data": [
         {
+          "year": 2026,
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 49
+          },
+          "note": "Full-paper count from the preliminary ESWEEK 2026 program as of October 2; excludes late-breaking papers and extended abstracts."
+        },
+        {
           "year": 2025,
           "ordinal": "25th",
           "location": "Taipei, Taiwan, China",
@@ -15783,6 +15818,14 @@
         "note": "CASES conference is part of the ESWEEK."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 45
+          },
+          "note": "Full-paper count from the preliminary ESWEEK 2026 program as of October 2; excludes late-breaking papers and extended abstracts."
+        },
         {
           "year": 2025,
           "ordinal": "28th",
@@ -16021,6 +16064,14 @@
         "note": "CODES+ISSS is part of the ESWEEK."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 46
+          },
+          "note": "Full-paper count from the preliminary ESWEEK 2026 program as of October 2; excludes late-breaking papers and extended abstracts."
+        },
         {
           "year": 2025,
           "ordinal": "23rd",
@@ -18654,6 +18705,18 @@
           "year": 2026,
           "ordinal": "26th",
           "location": "Karlsruhe, Germany"
+        },
+        {
+          "year": 2025,
+          "ordinal": "25th",
+          "location": "Madison, USA",
+          "main_track": {
+            "num_acc": 46
+          },
+          "second_track": {
+            "num_acc": 23
+          },
+          "note": "Accepted counts from the official program's Long and Short labels; excludes 3 Replicability Track papers. Submission counts remain unverified across the two review cycles."
         },
         {
           "year": 2024,
@@ -21917,6 +21980,13 @@
         "note": "Now part of SPLASH. There are resubmissions every year. Since 2017, the proceedings are published in PACMPL."
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "location": "Oakland, California, USA",
+          "main_track": {
+            "num_acc": 170
+          }
+        },
         {
           "year": 2025,
           "ordinal": "40th",
@@ -27078,6 +27148,11 @@
         "note": "Upon submission, authors can indicate their papers to be a dual-track submission or only to be considered for the journal track. Since I didn't find the numbers of submissions for the two tracks, the stats are aggregated for the two tracks. This mechanism seems to be started in 2022"
       },
       "yearly_data": [
+        {
+          "year": 2026,
+          "ordinal": "19th",
+          "location": "Kuala Lumpur, Malaysia"
+        },
         {
           "year": 2025,
           "ordinal": "18th",

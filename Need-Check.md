@@ -14,6 +14,103 @@ Keep this file specific to current evidence and work status. It must not overrid
 
 These events now have confirmed partial data in `data/conf.json`. Keep the known fields and continue looking only for the missing complements.
 
+### Targeted follow-up: 2026-10-02
+
+- Asiacrypt 2026 partial: 197 accepted papers, 32nd edition, `Hong Kong, China`. The official homepage announced the accepted-paper list on September 22. The list is populated from the official `json/papers.json`: 197 entries with 197 unique titles. The submission count is still unverified; the largest paper ID is not a submission count.
+  Sources:
+  - https://asiacrypt.iacr.org/2026/
+  - https://asiacrypt.iacr.org/2026/acceptedpapers.php
+  - https://asiacrypt.iacr.org/2026/json/papers.json
+- OOPSLA 2026 partial: 170 accepted papers, `Oakland, California, USA`. The official Accepted Papers table (`#event-overview`) has 170 unique event IDs, all labeled OOPSLA. Count this accepted set for the 2026 edition, whose two review rounds publish in PACMPL volume 10, OOPSLA1 and OOPSLA2; do not add the separate SIGPLAN track or the TOPLAS presentation visible in the program. The unique annual substantive-review submission count is still missing; major revisions can cross rounds, so raw round totals cannot be summed without deduplication evidence.
+  Sources:
+  - https://2026.splashcon.org/track/oopsla-2026
+  - https://oopsla26.hotcrp.com/
+- ESWEEK 2026 partial records: CASES 45, CODES-ISSS 46, and EMSOFT 49 accepted full papers; all three locations are `Barcelona, Spain`. Count the unique full-paper titles in the official 2026 paper sessions, attributed to this edition, excluding every entry explicitly marked `(LBR)` or `(Extended Abstract)` and excluding separate poster, special-session, and workshop events. Session counts are CASES1-9: 5+5+6+5+5+6+5+4+4=45; CODES1-9: 5+5+5+5+5+6+5+5+5=46; EMSOFT1-10: 5+4+5+5+5+5+5+5+5+5=49. Each series has the same number of unique titles as counted entries. Submission counts remain unverified. The homepage describes the program as preliminary; these are the full papers listed as of this check, not inferred final submission statistics.
+  Sources:
+  - https://esweek.org/
+  - https://esweek.org/full-program/
+- EMNLP 2026 partial: `Budapest, Hungary` recorded from the official homepage. Main 2,710 and Findings 2,487 papers are now recorded from the separately tagged official author roster as of October 2, with maintainer authorization to prefer the official counts; see the roster audit below. The program overview mixes Main, Findings, CL, TACL, Industry, SRW, and demo presentations; do not use its combined presentation total as the main-track accepted count. Valid Main and Findings submission counts remain unverified.
+  Sources:
+  - https://2026.emnlp.org/
+  - https://2026.emnlp.org/program/
+- SIGGRAPH Asia 2026 partial: 19th edition, `Kuala Lumpur, Malaysia`. The official Technical Papers page says detailed program information is still forthcoming; submission and accepted counts are not verified. Preserve the series' existing aggregate journal/conference Technical Papers scope.
+  Sources:
+  - https://asia.siggraph.org/2026/
+  - https://asia.siggraph.org/2026/program/technical-papers/
+- ACM MM, ICDM, and MICRO 2026: checked the official sites for the missing count fields; no usable main-track submission/acceptance pair was found. Existing protected facts remain unchanged. ICDM's new Applied Track and MICRO's Industry Track must remain separate from the main Research Track.
+  Sources:
+  - https://2026.acmmm.org/
+  - https://icdm2026.neu.edu.cn/
+  - https://microarch.hosting.acm.org/micro59/
+- CCS 2026: the official transparency-report repository still contains only the April 20 Cycle A report. Although its table labels 191 as "Final accepts", its accompanying text says this is an upper bound because Minor Revision and Shepherding papers are not guaranteed final acceptance (78 straight accepts + 66 minor revisions + 47 shepherding). Cycle B and final annual unique counts remain unresolved; no annual counts are added.
+  Source: https://github.com/ACM-CCS-2026/Transparency-Report
+
+#### Submission-count follow-up
+
+No complete submission/acceptance pair was added in this batch. Prioritize the missing substantive-review denominators above; location-only additions do not provide new acceptance-rate comparison points.
+
+- ESWEEK: the official 32-page program guide confirms on page 2 that full Journal Track papers are published in TCAD, while Late Breaking papers and invited extended abstracts are separate. The guide contains no exact submission totals for CASES, CODES, or EMSOFT. Their denominators remain unresolved.
+  Source: https://esweek.org/wp-content/uploads/2026/10/ESWEEK_2026_program_10.pdf
+- OOPSLA: both official PACMPL volume 10 TOC endpoints returned HTTP 403, so their editorial/preface statistics could not be inspected. This access failure does not establish that the counts are unpublished.
+  Sources:
+  - https://dl.acm.org/toc/pacmpl/2026/10/OOPSLA1
+  - https://dl.acm.org/toc/pacmpl/2026/10/OOPSLA2
+- EMNLP: the expected 2026 ACL Anthology event endpoint returned HTTP 404; the official program overview still does not supply exact main-track and Findings statistics.
+  Source: https://aclanthology.org/events/emnlp-2026/
+- Asiacrypt: the accepted-paper JSON identifies its source as `IACR/hotcrp v2` but does not give a reviewed-submission total. No usable denominator was located in the checked official materials.
+- SIGGRAPH Asia: the official Facts & Figures page gives event and attendance information, not Technical Papers submission statistics. The checked press-release listing contains earlier-event announcements rather than a 2026 Technical Papers statistical report; do not reuse older figures.
+  Sources:
+  - https://asia.siggraph.org/2026/about-the-event/fact-figures/
+  - https://asia.siggraph.org/2026/for-the-press/press-releases/
+
+#### Public reports and submission-system leads: 2026-10-02
+
+These are source-reported figures, not newly confirmed main-track records. Percentages below computed from a published count pair describe that source's pool; they do not establish the project's substantive-review denominator.
+
+- EMNLP: a Reddit commenter quotes the decision notification: "we received an unprecedented 17669 submissions" and accepted 15.4% as Main Conference papers and 14.3% to Findings. Another commenter explicitly attributes the same percentages to the decision email. These are author reports of one notification, not independent official publications. Mohammad AL-Smadi's August 24 LinkedIn post also reports 17,669 and 15.4%, and claims 2,719 Main acceptances, but its reference for that discussion is the 2025 proceedings; the exact accepted count is not established by that citation. Resolve ARR/preferred-venue versus actual committed-paper pools, desk rejections, and exact final counts before recording. Do not reverse-calculate accepted counts from the rounded rates. A separate commitment discussion reports paper IDs around 10,000; these IDs are not counts.
+  Sources:
+  - https://www.reddit.com/r/MachineLearning/comments/1vtdpve/comment/p4yrp0q/
+  - https://www.reddit.com/r/MachineLearning/comments/1vtdpve/comment/p4yq9x4/
+  - https://www.linkedin.com/posts/mohammad-al-smadi-a9136a38_emnlp-nlp-aclrollingreview-share-7497600715289182209-Tou3/
+  - https://www.reddit.com/r/MachineLearning/comments/1veat2f/emnlp_commitment_submission_number_d/
+- SIGGRAPH Asia: the official `siggraphasia` Instagram post dated July 25 reports 1,315 Technical Papers submissions and 322 conditionally accepted papers (24.49% of that reported pool). Conference chair Frank Guan's May 31 LinkedIn post reports 1,303 submissions and embeds ACM SIGGRAPH's May 26 announcement with the same count. The 1,303 versus 1,315 difference remains unexplained; dates/stages differ. Conditional acceptances must not be recorded as final. Confirm valid submissions and the journal/conference aggregate scope before adding counts.
+  Sources:
+  - https://www.instagram.com/p/DbM72bHGjih/
+  - https://www.linkedin.com/posts/frank-guan-a7604221_siggraph-asia-2026-has-achieved-a-new-milestone-share-7466863735287214080-79R9/
+  - https://www.linkedin.com/feed/update/urn:li:share:7464986266955190272/
+- CASES: the official HotCRP public homepage states "52 of 197 submissions accepted" (26.40%). The same homepage explicitly receives both Journal Track and Late-Breaking Result Track papers. The 52 count differs from the program's 45 full papers, so this aggregate cannot establish either main-track field. Seek separate Journal Track submission/decision counts and excluded-paper treatment.
+  Source: https://cases26.hotcrp.com/
+- EMSOFT: the official HotCRP public homepage states "49 of 184 submissions accepted" (26.63%). The 49 count matches the program's full-paper set, and the conference homepage links this submission system. However, the public statistics do not label their track or explain desk rejection/withdrawal treatment. Keep 184 as a denominator candidate pending that scope check.
+  Sources:
+  - https://emsoft26.hotcrp.com/
+  - https://esweek.org/emsoft/
+- Asiacrypt, OOPSLA, and CODES-ISSS: no usable 2026 submission/rate report found in this public-search pass. OpenAccept's Asiacrypt table ends at 2025. SIGPLAN's Objectives of OOPSLA supplies approximate 2024/2025 round counts and only an expectation of growth in 2026, not 2026 statistics. CODES' public submission-system homepage has no count pair and receives both Journal and Late-Breaking tracks. This search result does not establish that nobody has shared figures.
+  Sources:
+  - https://openaccept.org/c/sec/asiacrypt/
+  - https://www.sigplan.org/Conferences/SPLASH/ObjectivesOfOOPSLA/
+  - https://codes2026.hotcrp.com/
+
+#### Scope and official-roster follow-up: 2026-10-02
+
+- EMNLP official roster: the conference Program page links to the public spreadsheet `EMNLP 26 Author Presenter Schedule and Times`. Its `Author Presentations ` sheet (sheet ID 943432490; trailing space in the tab name) has 5,612 rows including the header. The full readable fetch includes all 5,611 paper rows and the two auxiliary sheets. Count only paper IDs matching `^[0-9]+-MAIN$` or `^[0-9]+-FIND$`, excluding CL, TACL, IND, and DEMO. This yields 2,710 unique Main IDs/titles and 2,487 unique Findings IDs/titles, with no duplicate IDs, duplicate titles, or missing titles in either set. Include virtual entries and the 1,068 Findings entries marked Not Presenting; do not count only in-person presentations. The file metadata was modified on October 1 at 23:45:16 UTC. These are current official-roster counts, not an established decision-pool acceptance total. The Main roster differs by 9 from the unsupported LinkedIn claim of 2,719. The reason is not established; do not infer withdrawals or corrections. The maintainer explicitly instructed official sources to take precedence (official counts prevail), authorizing recording these dated roster counts: Main 2,710 and Findings 2,487. Store a note identifying the October 2 roster scope; do not treat the unsupported 2,719 claim as the source of an accepted count. The 17,669 substantive-review denominator remains unconfirmed.
+  Sources:
+  - https://2026.emnlp.org/program/
+  - https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490#gid=943432490
+  - https://www.linkedin.com/posts/pghazvinian_emnlp2026-emnlp-emnlp2026-share-7498401680791650304-uvFl/
+  The last author post confirms 17,669 and only approximate 15%/14% rates; it does not state exact accepted counts. Search-engine generated summaries claiming exact counts from this post are not evidence.
+- SIGGRAPH Asia: the official submission page links a three-page PDF headed `SIGGRAPH Asia 2026 Conditionally Accepted Technical Papers`. It lists 322 IDs (110, 110, and 102 on pages 1-3), matching the Instagram conditional count. This strengthens the conditional-count evidence but does not establish final acceptance. The current program page still says detailed program information is forthcoming. The submission page confirms the integrated Journal/Conference Technical Papers review scope; the 1,303 versus 1,315 submission discrepancy and valid-review denominator remain unresolved.
+  Sources:
+  - https://asia.siggraph.org/2026/submissions/technical-papers/
+  - https://asia.siggraph.org/2026/images/pdfs/SIGGRAPH-Asia-2026-Conditionally-Accepted-Technical-Papers.pdf
+  - https://asia.siggraph.org/2026/program/technical-papers/
+- EMSOFT: the full-length CFP links directly to `emsoft26.hotcrp.com` and confirms two-stage Journal Track review and TCAD publication. Its public Deadlines page lists March registration/full submission and June resubmission only, with no separate June 5 Late-Breaking deadline. The 49/184 homepage pair therefore has additional main-track evidence, but its treatment of desk rejections and withdrawals is still unstated. Do not assume those exclusions from the generic term submissions.
+  Sources:
+  - https://esweek.org/emsoft_cfp/
+  - https://emsoft26.hotcrp.com/deadlines
+  - https://esweek.org/author-information/
+- CASES: ESWEEK's author instructions confirm that Journal and Late-Breaking papers are mutually exclusive publication pools. The combined HotCRP homepage pair still cannot be partitioned into a 45-paper Journal Track denominator. No 2026 TCAD guest editorial was identified by the focused public search; unrelated current-issue/editorial matches do not establish ESWEEK statistics.
+  Source: https://esweek.org/author-information/
+
 ### Targeted follow-up: 2026-09-25
 
 - NeurIPS 2026 completed: 7,900/30,709 (25.73%). The official Main Track decision notification supplied by the maintainer states "30709 valid paper submissions with a PDF" and 7,900 final acceptances: 7,496 posters, 292 spotlights, and 112 orals. These presentation categories sum to the main-track accepted total and are not separate tracks. The notification reports a rounded rate of 25.7%. The official conference homepage confirms the Fortieth Annual Conference and Sydney as the main site (December 6-12), with Atlanta and Paris as satellite sites (December 9-13). The canonical main location is recorded as `Sydney, Australia`, with the satellite arrangement explained in the event note.
@@ -92,7 +189,7 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
   - https://www.ieeevis.org/year/2026/satellites/
 - SIGSPATIAL 2026: 58 accepted Research Papers counted from the official list before the separate Short Papers section; Research Paper submission count missing.
   Source: https://sigspatial2026.sigspatial.org/research-accepted/
-- CCS 2026: official location and 33rd edition recorded. Cycle A reports 191 final accepts from a 981-paper decision pool after excluding 225 desk rejections, but Cycle B is still outstanding, so no annual counts are recorded yet.
+- CCS 2026: official location and 33rd edition recorded. Cycle A reports an upper bound of 191 acceptances (including pending Minor Revision and Shepherding decisions) from a 981-paper decision pool after excluding 225 desk rejections. Cycle B and final annual counts remain outstanding, so no annual counts are recorded yet; see the 2026-10-02 follow-up above.
   Sources:
   - https://www.sigsac.org/ccs/CCS2026/
   - https://github.com/ACM-CCS-2026/Transparency-Report
@@ -220,13 +317,38 @@ These events now have confirmed partial data in `data/conf.json`. Keep the known
 
 After resolving the partial records above, continue with conferences whose 2026 proceedings or chair reports may now be available. The first 2026 candidate sweep is complete; choose the next batch from conferences that still lack a 2026 entry.
 
+## Bounded 2025 Follow-up: 2026-10-02
+
+The maintainer requested one limited attempt at IMC, ICWSM, CSCW, and UbiComp, with difficult fields deferred until new evidence appears. No new complete submission/acceptance pair was verified in this pass.
+
+- IMC 2025 partial: 25th edition, `Madison, USA`, 46 Long papers and 23 Short papers. Counted 73 unique program entry IDs: 46 Long (including 2 separately award-tagged papers), 23 Short (including 1 award-tagged paper), 3 Replicability Track papers, and 1 keynote. Exclude the latter two categories from the tracked paper counts. The two deadlines were November 21, 2024 and May 15, 2025, with one-shot revisions across cycles. The public Cycle 2 HotCRP page gives no counts. The ACM proceedings search-result snippet reports 72/305, but the proceedings page stopped at browser security verification; the figure's long/short/replicability split, unique annual pool, and validity filters could not be checked. Do not use 305 as the long-paper denominator. Both tracked submission counts remain unresolved; deferred pending new evidence.
+  Sources:
+  - https://conferences.sigcomm.org/imc/2025/
+  - https://conferences.sigcomm.org/imc/2025/program/
+  - https://conferences.sigcomm.org/imc/2025/cfp/
+  - https://imc2025-cycle2.hotcrp.com/
+  - https://dl.acm.org/doi/proceedings/10.1145/3730567
+- ICWSM 2025 partial: 139 accepted full papers, 19th edition, `Copenhagen, Denmark`. On October 2, the maintainer explicitly instructed using 139 from the official program's page 4, "From the Program Chairs". The official volume 19 Full Papers section contains 138 entries (unique article IDs 35800-35937), separate from 24 dataset, 7 poster, and 1 demonstration papers; the difference remains unexplained and is retained in the published note. The chairs' message reports 139 full papers and 33 dataset/poster/demo papers, and maps the full-paper program to January, May, and September 2024 and January 2025 cycles; 64 full papers were selected under the 2024 chairs, and only 33 of the 139 were accepted in their first round. The proceedings' introductory text describes an approximately 25% acceptance rate without an exact submission count. The submission count remains deferred; do not infer a denominator from the approximate rate or the number of first-round acceptances.
+  Sources:
+  - https://ojs.aaai.org/index.php/ICWSM/issue/view/658
+  - https://www.icwsm.org/2025/icwsm-program.pdf
+- CSCW 2025 unresolved: the official CFP maps the July and October 2024 new-paper cycles, including their revision deadlines, to presentation at CSCW 2025; the May 2025 submission deadline feeds CSCW 2026 instead. The checked conference/program pages and official awards announcement provide no complete annual count pair. The awards announcement's 13 Best Papers at 1% and 43 Honorable Mentions at the next 3% are rounded award rules, not exact submission statistics. Counts deferred pending new evidence.
+  Sources:
+  - https://cscw.acm.org/2025/index.php/submit-papers/
+  - https://cscw.acm.org/2025/index.php/program/
+  - https://medium.com/acm-cscw/announcing-the-best-of-cscw-2025-a95517e67ba3
+- UbiComp 2025 unresolved: the official IMWUT Papers page explicitly maps the main technical track to IMWUT 2024 Issue 4 and IMWUT 2025 Issues 1-3. The checked official program page and focused public search yielded no countable annual main-track list or unique reviewed-submission total. Counts deferred pending new evidence; do not substitute calendar-year IMWUT totals or the separate ISWC Notes and Briefs track.
+  Sources:
+  - https://www.ubicomp.org/ubicomp-iswc-2025/imwut_papers/
+  - https://www.ubicomp.org/ubicomp-iswc-2025/program/
+
 ## If-You-Know Exceptions
 
 These recent-year items stay on the check list because `If-You-Know.md` explicitly marks them as missing or uncertain, even if nearby years may already exist in `data/conf.json`:
 
-- IMC 2025: number of long-paper submissions.
+- IMC 2025: long- and short-paper submission counts; 46 Long and 23 Short accepted papers are recorded.
 - WSDM 2024.
-- CSCW 2019-2024.
+- CSCW 2019-2025.
 - VLDB 2016-now.
 - ECIR 2026: full/short paper submission counts. Official proceedings report 46 full papers and 37 short papers, and Springer reports 530 total submissions across all tracks, but the existing ECIR schema needs separate full-paper and short-paper submission counts.
 
@@ -252,14 +374,18 @@ Policy section 12 requires an explicit conference-year mapping before counts are
   - https://www.vldb.org/pvldb/
   - https://vldb.org/2025/
 - CSCW / PACM HCI: map each CSCW review cycle and its PACM HCI issue to the CSCW edition in which the papers are presented; a cycle can precede the edition by more than a year. Backlog: 2019-2025.
+  The official 2025 CFP maps the July and October 2024 new-paper cycles to CSCW 2025. See the bounded follow-up above for the unresolved counts.
   Sources:
+  - https://cscw.acm.org/2025/index.php/submit-papers/
   - https://cscw.acm.org/2026/
   - https://dl.acm.org/journal/pacmhci
 - UbiComp / IMWUT: UbiComp/ISWC 2023 is recorded with 149 IMWUT full papers counted from the official paper-session listing (accepted only; the submission count is not published). The 2017-2022 and 2024-2025 editions remain unresolved because their programs do not expose a countable accepted list (2024 and 2025 link to an Angular SIGCHI program app). Backlog: 2017-2022, 2024-2025.
+  The official 2025 mapping is IMWUT 2024 Issue 4 plus IMWUT 2025 Issues 1-3; see the bounded follow-up above.
   Sources:
+  - https://www.ubicomp.org/ubicomp-iswc-2025/imwut_papers/
   - https://www.ubicomp.org/ubicomp-iswc-2023/program/paper_sessions/
   - https://www.ubicomp.org/ubicomp-iswc-2026/past-conferences/
-- ICWSM: sum the final acceptances of every submission cycle that feeds one ICWSM edition only when the cycles are unique and non-overlapping, and keep full papers separate from the Research Poster Track. Backlog: 2021-2025, plus the 2026 full-paper submission count.
+- ICWSM: sum the final acceptances of every submission cycle that feeds one ICWSM edition only when the cycles are unique and non-overlapping, and keep full papers separate from the Research Poster Track. The 2025 chairs' message maps its program to January, May, and September 2024 and January 2025 cycles; 139 accepted full papers are recorded by maintainer decision. Backlog: 2021-2024, plus the 2025-2026 full-paper submission counts.
   Sources:
   - https://icwsm.org/2026/
   - https://ojs.aaai.org/index.php/ICWSM
@@ -268,5 +394,5 @@ Policy section 12 requires an explicit conference-year mapping before counts are
 
 These are visible from `data/conf.json` and are separate from the 2026 sweep:
 
-- ICWSM 2021-2025 remain absent; 2026 is recorded as a partial entry. The mapping is tracked under Journal / Rolling-Review Venue Mapping.
-- UbiComp latest local year is 2016; the journal/rolling mapping is now defined in policy section 12 and tracked under Journal / Rolling-Review Venue Mapping.
+- ICWSM 2021-2024 remain absent; 2025 and 2026 are recorded as partial entries. The mapping is tracked under Journal / Rolling-Review Venue Mapping.
+- UbiComp latest local year is 2023 (accepted count only); the journal/rolling mapping is defined in policy section 12 and tracked under Journal / Rolling-Review Venue Mapping.

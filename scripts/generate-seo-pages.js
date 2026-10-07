@@ -558,15 +558,15 @@ function renderYearPage(conference, event, events) {
 </section>
 
 <section class="seo-stat-grid mb-8">
-  ${hasCompleteTrack ? `<div class="seo-stat-card seo-stat-card-accent">
+${hasCompleteTrack ? `  <div class="seo-stat-card seo-stat-card-accent">
     <div class="conf-card-title">Acceptance Rate</div>
     <div class="conf-card-big-desc">${rate}</div>
   </div>` : ''}
-  ${hasAccepted ? `<div class="seo-stat-card">
+${hasAccepted ? `  <div class="seo-stat-card">
     <div class="conf-card-title">Accepted Papers</div>
     <div class="conf-card-big-desc">${formatNumber(accepted)}</div>
   </div>` : ''}
-  ${hasSubmitted ? `<div class="seo-stat-card">
+${hasSubmitted ? `  <div class="seo-stat-card">
     <div class="conf-card-title">Submissions</div>
     <div class="conf-card-big-desc">${formatNumber(submitted)}</div>
   </div>` : ''}${!hasCompleteTrack && event.location ? `

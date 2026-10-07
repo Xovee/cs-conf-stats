@@ -44,8 +44,13 @@ First, we need **ALL** new stats in the upcoming years.
 
 - ASPLOS I 1982
 
+## Asiacrypt
+
+- Asiacrypt 2026 submission count. The official accepted-paper list contains 197 papers.
+
 ## CASES
 
+- CASES 2026 full-paper submission count. The official ESWEEK program lists 45 full papers; HotCRP reports 52/197 across an unspecified pool while receiving both Journal and Late-Breaking papers. Separate Journal Track counts are needed.
 - CASES 2020
 - CASES 2017
 - CASES 1998-1999
@@ -74,6 +79,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## CODES+ISSS
 
+- CODES+ISSS 2026 full-paper submission count. The official ESWEEK program lists 46 full papers, excluding late-breaking papers and extended abstracts.
 - CODES+ISSS 2019-2020
 - CODES+ISSS 2017
 
@@ -128,11 +134,13 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## EMNLP
 
+- EMNLP 2026 valid Main/Findings submission counts. Official author-roster counts of 2,710 Main and 2,487 Findings papers are recorded as of October 2. Author-reported 17,669 submissions and 15.4%/14.3% rates still need review-pool clarification.
 - EMNLP 2003
 - Before 2002
 
 ## EMSOFT
 
+- EMSOFT 2026 full-paper review-pool confirmation. The official ESWEEK program lists 49 full papers and the linked HotCRP system reports 49/184; desk rejection and withdrawal treatment for the 184 submissions is unstated.
 - EMSOFT 2019
 - EMSOFT 2017
 
@@ -311,7 +319,8 @@ First, we need **ALL** new stats in the upcoming years.
 ## ICWSM
 
 - ICWSM 2026 full-paper submission count. The official proceedings contain 154 full papers, but only describe the acceptance rate as approximately 20%.
-- ICWSM 2021-2025. Full papers use multiple submission cycles and revise-and-resubmit decisions that can cross conference years; we need exact yearly submission and acceptance counts using a consistent definition. For 2024, the proceedings suggest 138 full-length papers and state an approximately 20% acceptance rate (roughly 690 submissions), but no exact submission count is available.
+- ICWSM 2025 exact full-paper submission count. The accepted count is recorded as 139 from the official program chairs' message by maintainer decision; the proceedings list 138 full papers. The proceedings describe an approximately 25% acceptance rate, without an exact submission count.
+- ICWSM 2021-2024. Full papers use multiple submission cycles and revise-and-resubmit decisions that can cross conference years; we need exact yearly submission and acceptance counts using a consistent definition. For 2024, the proceedings suggest 138 full-length papers and state an approximately 20% acceptance rate (roughly 690 submissions), but no exact submission count is available.
 - ICWSM 2011
 - Before 2010
 
@@ -326,7 +335,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## IMC
 
-- IMC 2025 Number of Long Paper Submissions
+- IMC 2025 long- and short-paper submission counts. The official program lists 46 long papers and 23 short papers, excluding 3 Replicability Track papers.
 - IMC 2018
 - IMC 2008
 - IMC 2007
@@ -409,6 +418,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## OOPSLA
 
+- OOPSLA 2026 unique annual submission count. The official Accepted Papers table lists 170 OOPSLA papers across the two publication rounds; cross-round revisions must not be counted twice.
 - OOPSLA 2011
 - OOPSLA 1998
 - OOPSLA 1997
@@ -503,6 +513,10 @@ First, we need **ALL** new stats in the upcoming years.
 - SIGGRAPH 1976
 - SIGGRAPH 1975
 - SIGGRAPH 1974
+
+## SIGGRAPH Asia
+
+- SIGGRAPH Asia 2026 valid Technical Papers submission and final accepted counts. Official sources report 1,303 versus 1,315 submissions at different dates, and the official PDF lists 322 conditionally accepted papers. Final counts and the submission discrepancy remain unresolved.
 
 
 ## SIGIR
