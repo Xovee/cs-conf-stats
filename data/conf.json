@@ -10885,6 +10885,14 @@
           }
         },
         {
+          "year": 2020,
+          "ordinal": "23rd",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 423
+          }
+        },
+        {
           "year": 2019,
           "ordinal": "22nd",
           "location": "Naha, Japan",
@@ -21362,6 +21370,26 @@
             "num_acc": 47,
             "num_sub": 112
           }
+        },
+        {
+          "year": 2023,
+          "ordinal": "37th",
+          "location": "Seattle, USA",
+          "main_track": {
+            "num_acc": 44,
+            "num_sub": 97
+          },
+          "note": "97 submissions from Emery Berger's csconferences dataset (personal communication), adopted by maintainer decision; independent corroboration and unique reviewed-pool scope remain unverified."
+        },
+        {
+          "year": 2022,
+          "ordinal": "36th",
+          "location": "Berlin, Germany",
+          "main_track": {
+            "num_acc": 35,
+            "num_sub": 78
+          },
+          "note": "78 submissions from Emery Berger's csconferences dataset, adopted by maintainer decision; independent corroboration and unique reviewed-pool scope remain unverified. Official accepted-paper list and proceedings enumerate 35 papers, while Berger reports 36; the discrepancy remains unexplained."
         },
         {
           "year": 2021,

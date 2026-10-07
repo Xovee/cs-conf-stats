@@ -342,6 +342,33 @@ The maintainer requested one limited attempt at IMC, ICWSM, CSCW, and UbiComp, w
   - https://www.ubicomp.org/ubicomp-iswc-2025/imwut_papers/
   - https://www.ubicomp.org/ubicomp-iswc-2025/program/
 
+## Historical Follow-up: 2026-10-07
+
+The maintainer requested a bounded first batch covering ECOOP 2022, ECOOP 2023, and AISTATS 2020, including researcher pages, public statistical datasets, blogs, and news search results alongside official material. Three accepted-paper counts are recorded. On October 7, the maintainer explicitly instructed adopting Emery Berger's submission counts of 78 for ECOOP 2022 and 97 for ECOOP 2023, with published source and uncertainty notes. These are maintainer-approved counts, not independently verified review-pool totals. AISTATS 2020 remains partial.
+
+- AISTATS 2020 partial: 23rd edition, `Online, Online`, 423 accepted papers. Counted 423 `.paper` entries in the official PMLR volume 108. The official conference site confirms the actual virtual meeting on August 26-28, superseding the original Palermo plan. The proceedings introduction and conference homepage give no submission total. Paper Copilot also reports 423 and cites PMLR, so it is a dependent source. Konstantin Mishchenko's blog reports only his own three acceptances, one rejection, and one withdrawal, not conference totals; it also retains the original planned venue and dates. No exact whole-conference submission total was located in the checked public results.
+  Sources:
+  - https://proceedings.mlr.press/v108/
+  - https://aistats.org/aistats2020/
+  - https://papercopilot.com/aistats-paper-list/aistats-2020-paper-list/
+  - https://konstmish.com/post/20_aistats/
+- ECOOP 2023 recorded by maintainer decision: 44/97, 37th edition, `Seattle, USA`. The official Research Papers accepted table contains 44 unique event IDs, matching proceedings articles 1-44: 37 regular papers, 3 experience papers, and 4 pearls/brave new ideas. Retain the existing series scope across these categories. Article 12, LoRe, is an extended abstract explicitly included in the official Research Papers accepted set; the CFP permits journal-after publication after ECOOP PC acceptance, so the title alone is not a reason to subtract it. Exclude front matter, keynotes, artifacts, and unrelated program tracks. Emery Berger's public CSV reports 44/97 with source `personal communication`. CCFCFP repeats 44/97 but links to Berger's repository, so it does not independently corroborate 97. The unique substantive-review pool and cycle-overlap treatment behind 97 remain unverified. The maintainer approved recording 97 with this limitation stated in the published note; retain the public scope-verification item. The chairs' message on PDF page 9 gives no exact paper totals and describes two rounds with revisions possibly crossing years. Its traditional 25% cap includes submissions and re-submissions and cannot supply a denominator. The 45 submissions on PDF page 11 are artifacts, not papers.
+  Sources:
+  - https://2023.ecoop.org/track/ecoop-2023-papers
+  - https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-263
+  - https://drops.dagstuhl.de/storage/00lipics/lipics-vol263-ecoop2023/LIPIcs.ECOOP.2023.0/LIPIcs.ECOOP.2023.0.pdf
+  - https://github.com/emeryberger/csconferences/blob/main/csconferences.csv
+  - https://ccfcfp.com/conf/ecoop/
+- ECOOP 2022 recorded by maintainer decision: 35/78, 36th edition, `Berlin, Germany`. The official Research Papers accepted table lists 35 papers, matching proceedings articles 1-35 (31 regular papers and 4 extended abstracts). All four abstracts are in the official Research Papers accepted set; do not subtract them merely by publication format. The program also contains presentations from earlier conferences, which are outside that set and must not be added. Berger's public CSV reports 36/78 without a source for this row. On October 7, the maintainer explicitly chose the official count of 35 with a published note retaining the unexplained difference from 36. The submission count of 78 lacks independent corroboration and unique review-pool evidence. The maintainer subsequently approved recording 78 from Berger with the source and limitations stated in the published note, while retaining the official accepted count of 35. Keep the public scope-verification and accepted-count discrepancy item. The official volume verifies the physical Berlin edition; the conference site also describes a virtual event. PDF page 11 explains two review rounds and journal-first/after publication without exact paper totals. The 57 submissions on PDF page 13 are artifacts, not papers. Neither the 25% cap nor artifact counts can supply a paper denominator.
+  Sources:
+  - https://2022.ecoop.org/
+  - https://2022.ecoop.org/track/ecoop-2022-papers
+  - https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-222
+  - https://drops.dagstuhl.de/storage/00lipics/lipics-vol222-ecoop2022/LIPIcs.ECOOP.2022.0/LIPIcs.ECOOP.2022.0.pdf
+  - https://github.com/emeryberger/csconferences/blob/main/csconferences.csv
+
+Additional checks: OpenAccept has no ECOOP 2022/2023 records; Maria Christakis's publication page has no statistics for these two editions. OpenResearch stopped at robot verification and supplied no usable page evidence. These failed or irrelevant leads are not corroboration. AISTATS 2020's submission count is deferred until new evidence appears rather than inferred from rates. The two ECOOP submission counts are recorded only under the explicit maintainer decision above.
+
 ## If-You-Know Exceptions
 
 These recent-year items stay on the check list because `If-You-Know.md` explicitly marks them as missing or uncertain, even if nearby years may already exist in `data/conf.json`:

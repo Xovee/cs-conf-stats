@@ -24,7 +24,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## AISTATS
 
-- AISTATS 2020
+- AISTATS 2020 submission count (423 accepted papers recorded)
 - AISTATS 2001
 - AISTATS 1999
 - AISTATS 1997
@@ -119,8 +119,8 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ECOOP
 
-- ECOOP 2023
-- ECOOP 2022
+- ECOOP 2023 submission-scope verification (44/97 recorded; submission count adopted from Emery Berger by maintainer decision)
+- ECOOP 2022 submission-scope verification and accepted-count discrepancy (35/78 recorded by maintainer decision; Emery Berger reports 36/78)
 - ECOOP 1990
 
 ## ECRTS

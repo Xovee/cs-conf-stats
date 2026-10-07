@@ -5251,6 +5251,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/aistats/2020/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/aistats/2019/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -10697,6 +10702,16 @@
   </url>
   <url>
     <loc>https://csconfstats.xoveexu.com/conferences/ecoop/2024/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/ecoop/2023/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/ecoop/2022/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
