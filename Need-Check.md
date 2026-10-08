@@ -369,6 +369,36 @@ The maintainer requested a bounded first batch covering ECOOP 2022, ECOOP 2023, 
 
 Additional checks: OpenAccept has no ECOOP 2022/2023 records; Maria Christakis's publication page has no statistics for these two editions. OpenResearch stopped at robot verification and supplied no usable page evidence. These failed or irrelevant leads are not corroboration. AISTATS 2020's submission count is deferred until new evidence appears rather than inferred from rates. The two ECOOP submission counts are recorded only under the explicit maintainer decision above.
 
+### Second historical batch: 2026-10-07
+
+The maintainer requested further historical exploration and a local site preview. This bounded batch covers ICML 2013, SDM 2019, and SDM 2012-2014. Two official accepted-paper counts are recorded; no new submission count or acceptance-rate pair is verified.
+
+- ICML 2013 partial: 30th edition, `Atlanta, USA`, 283 accepted papers. The official PMLR volume 28 contains 283 `.paper` entries with 283 unique article links across Cycles 1-3. The official conference site confirms Atlanta. The CFP and author instructions describe three review cycles and permit some declined Cycle I papers to resubmit in Cycle III; raw cycle submission totals would therefore need annual deduplication. No exact unique substantive-review submission count was found in the checked conference/proceedings material or public statistical datasets. Paper Copilot's accepted count cites PMLR and is dependent evidence; its displayed zero submissions is a missing-data placeholder, not a denominator.
+  Sources:
+  - https://proceedings.mlr.press/v28/
+  - https://icml.cc/2013/
+  - https://icml.cc/2013/index.html%3Fpage_id=25.html
+  - https://icml.cc/2013/index.html%3Fpage_id=19.html
+  - https://papercopilot.com/venue-overview/icml-2013-venue-overview/
+- SDM 2019 partial: `Calgary, Canada`, 89 accepted research papers. The official archived homepage confirms Calgary, Alberta, Canada, May 2-4, 2019. Counted 89 paper entries with 89 unique abstract IDs in the official CP1-CP15 paper sessions: 7+6+6+6+6+6+6+6+5+6+5+5+8+5+6=89. Exclude invited talks, tutorials, workshops, doctoral forum, and repeat poster presentations. The program also displays unrelated current-year tutorial links without event times; these are outside the counted paper sessions. No submission count or directly stated ordinal was verified. Crossref identifies the official proceedings as DOI `10.1137/1.9781611975673`, but its metadata supplies no statistics.
+  Sources:
+  - https://www.siam.org/conferences-events/past-event-archive/sdm19/
+  - https://meetings.siam.org/program.cfm?CONFCODE=DT19
+  - https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=67364
+  - https://doi.org/10.1137/1.9781611975673
+- SDM 2012 unresolved: Pavel Kuksa's publication page explicitly reports 99 accepted papers out of 362 submissions (27%). The publisher's indexed snippet also mentions 362 received submissions, but the full proceedings preface could not be read, so the snippet does not establish review-pool scope or serve as verified official evidence. Kuksa's CV copy on Academia.edu is the same author's evidence, not independent corroboration. Do not record either count until a direct official source or two independent sources establish the relevant field and scope. The publisher page stopped at Cloudflare verification; Princeton's catalog stopped at bot detection; the modern SIAM `sdm12` archive URL returned Page Not Found. These access failures do not establish that the original statistics are unavailable.
+  Sources and leads:
+  - http://pkuksa.org/~pkuksa/Publications.htm
+  - https://epubs.siam.org/doi/abs/10.1137/1.9781611972825
+  - https://epubs.siam.org/doi/book/10.1137/1.9781611972825
+  - https://catalog.princeton.edu/catalog/99131851318906421
+- SDM 2013-2014 unresolved: Crossref confirms the proceedings DOIs below, but provides no statistics or useful abstract. Public search results for Secure Data Management (also abbreviated SDM) refer to a different workshop and must be excluded. The official Data Mining & Analytics charter-renewal report is a promising historical source, but its request returned HTTP 403 and the browser PDF frame showed no readable content. The checked Yangqiu Song publication page provides no statistics for these editions. No main-track counts or officially verified locations were added.
+  Sources and leads:
+  - https://doi.org/10.1137/1.9781611972832
+  - https://doi.org/10.1137/1.9781611973440
+  - https://www.siam.org/media/km3jnse3/dma_charter_18_19.pdf
+  - https://home.cse.ust.hk/~yqsong/publications.html
+
 ## If-You-Know Exceptions
 
 These recent-year items stay on the check list because `If-You-Know.md` explicitly marks them as missing or uncertain, even if nearby years may already exist in `data/conf.json`:

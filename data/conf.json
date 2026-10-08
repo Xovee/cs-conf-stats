@@ -516,6 +516,15 @@
           }
         },
         {
+          "year": 2013,
+          "ordinal": "30th",
+          "location": "Atlanta, USA",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 283
+          }
+        },
+        {
           "year": 2012,
           "ordinal": "29th",
           "location": "Edinburgh, Scotland, UK",
@@ -5628,6 +5637,14 @@
             "track_name": "Research Track",
             "num_acc": 85,
             "num_sub": 400
+          }
+        },
+        {
+          "year": 2019,
+          "location": "Calgary, Canada",
+          "main_track": {
+            "track_name": "Research Track",
+            "num_acc": 89
           }
         },
         {

@@ -266,7 +266,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ICML
 
-- ICML 2013
+- ICML 2013 submission count
 - ICML 1999-2000
 - ICML 1994-1997
 - ICML 1991-1992
@@ -495,7 +495,7 @@ First, we need **ALL** new stats in the upcoming years.
 ## SDM 
 
 - SDM 2026 submission and accepted counts
-- SDM 2019
+- SDM 2019 submission count
 - SDM 2012-2014
 - SDM 2008-2010
 - SDM 2003

@@ -276,6 +276,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/icml/2013/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://csconfstats.xoveexu.com/conferences/icml/2012/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2647,6 +2652,11 @@
   </url>
   <url>
     <loc>https://csconfstats.xoveexu.com/conferences/sdm/2021/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://csconfstats.xoveexu.com/conferences/sdm/2019/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
