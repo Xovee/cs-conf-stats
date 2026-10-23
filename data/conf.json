@@ -645,6 +645,23 @@
           }
         },
         {
+          "year": 2000,
+          "ordinal": "17th",
+          "location": "Stanford, California, USA",
+          "main_track": {
+            "num_acc": 151
+          },
+          "note": "The official program-chair report gives 151 accepted papers; the final talk and ICML poster schedules each enumerate 150. The chair-report count is used; the one-paper difference is unexplained."
+        },
+        {
+          "year": 1999,
+          "ordinal": "16th",
+          "location": "Bled, Slovenia",
+          "main_track": {
+            "num_acc": 54
+          }
+        },
+        {
           "year": 1998,
           "ordinal": "15th",
           "location": "Madison, USA",
@@ -652,6 +669,32 @@
             "track_name": "Research Track",
             "num_acc": 66,
             "num_sub": 215
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "14th",
+          "location": "Nashville, USA"
+        },
+        {
+          "year": 1996,
+          "ordinal": "13th",
+          "location": "Bari, Italy"
+        },
+        {
+          "year": 1995,
+          "ordinal": "12th",
+          "location": "Tahoe City, California, USA",
+          "main_track": {
+            "num_acc": 68
+          }
+        },
+        {
+          "year": 1994,
+          "ordinal": "11th",
+          "location": "New Brunswick, USA",
+          "main_track": {
+            "num_acc": 42
           }
         },
         {
@@ -3825,7 +3868,7 @@
             "num_acc": 59,
             "num_sub": 378
           },
-          "note": "This data can be wrong."
+          "note": "Submission count remains uncertain: the existing 378 differs from 386 reported in the official 2004 SIGIR business-meeting report; review-pool treatment is unresolved."
         },
         {
           "year": 2002,
@@ -4310,8 +4353,10 @@
           "location": "Rio de Janeiro, Brazil",
           "main_track": {
             "track_name": "Research Track",
+            "num_acc": 1703,
             "num_sub": 7053
-          }
+          },
+          "note": "Accepted count from the official Main Track programme generated on 2026-10-21; oral and poster presentations are deduplicated. The existing 7,053 submission total is retained, but its Main Track substantive-review scope awaits verification."
         },
         {
           "year": 2025,
@@ -6433,6 +6478,15 @@
             "num_acc": 47,
             "num_sub": 201
           }
+        },
+        {
+          "year": 2000,
+          "ordinal": "23rd",
+          "location": "Athens, Greece",
+          "main_track": {
+            "num_acc": 38
+          },
+          "note": "Full papers only; excludes 30 posters and 7 demonstrations reported separately."
         },
         {
           "year": 1999,
@@ -10071,6 +10125,51 @@
           }
         },
         {
+          "year": 1996,
+          "ordinal": "34th",
+          "location": "Santa Cruz, California, USA",
+          "main_track": {
+            "num_acc": 42
+          },
+          "note": "Main-conference papers only; student-session papers and invited talks/abstracts are excluded."
+        },
+        {
+          "year": 1995,
+          "ordinal": "33rd",
+          "location": "Cambridge (MA), USA",
+          "main_track": {
+            "num_acc": 37
+          },
+          "note": "Main-conference papers only; student-session papers and invited talks/abstracts are excluded."
+        },
+        {
+          "year": 1994,
+          "ordinal": "32nd",
+          "location": "Las Cruces, USA",
+          "main_track": {
+            "num_acc": 40
+          },
+          "note": "Main-conference papers only; student-session papers and invited talks/abstracts are excluded."
+        },
+        {
+          "year": 1993,
+          "ordinal": "31st",
+          "location": "Columbus, USA",
+          "main_track": {
+            "num_acc": 33
+          },
+          "note": "Main-conference papers only; student-session papers and invited talks/abstracts are excluded."
+        },
+        {
+          "year": 1992,
+          "ordinal": "30th",
+          "location": "Newark, USA",
+          "main_track": {
+            "num_acc": 34
+          },
+          "note": "Main-conference papers only; student-session papers and invited talks/abstracts are excluded."
+        },
+        {
           "year": 1991,
           "ordinal": "29th",
           "location": "Berkeley, California, USA",
@@ -10342,12 +10441,55 @@
           }
         },
         {
+          "year": 2003,
+          "location": "Sapporo, Japan",
+          "main_track": {
+            "num_acc": 28
+          }
+        },
+        {
           "year": 2002,
           "ordinal": "7th",
           "location": "Providence, Rhode Island, USA",
           "main_track": {
             "num_acc": 41,
             "num_sub": 142
+          }
+        },
+        {
+          "year": 2000,
+          "location": "Hong Kong, China",
+          "main_track": {
+            "num_acc": 27
+          },
+          "note": "The proceedings contain 27 research papers; the final presentation program lists 26. The proceedings count is used."
+        },
+        {
+          "year": 1999,
+          "location": "College Park, USA",
+          "note": "The proceedings contain 33 research papers after excluding two invited talks, while the printed program lists 25; the accepted count remains unresolved."
+        },
+        {
+          "year": 1998,
+          "ordinal": "3rd",
+          "location": "Granada, Spain",
+          "main_track": {
+            "num_acc": 12
+          }
+        },
+        {
+          "year": 1997,
+          "ordinal": "2nd",
+          "location": "Providence, Rhode Island, USA",
+          "main_track": {
+            "num_acc": 23
+          }
+        },
+        {
+          "year": 1996,
+          "location": "Philadelphia, USA",
+          "main_track": {
+            "num_acc": 14
           }
         }
       ]
@@ -10529,6 +10671,16 @@
           }
         },
         {
+          "year": 2001,
+          "ordinal": "2nd",
+          "location": "Pittsburgh, USA",
+          "main_track": {
+            "num_sub": 110,
+            "num_acc": 31
+          },
+          "note": "Main-conference papers only; excludes invited talks, demonstrations, the student research workshop, other workshops, and co-located EMNLP."
+        },
+        {
           "year": 2000,
           "ordinal": "1st",
           "location": "Seattle, USA",
@@ -10690,6 +10842,14 @@
           "main_track": {
             "num_acc": 41,
             "num_sub": 139
+          }
+        },
+        {
+          "year": 2011,
+          "ordinal": "24th",
+          "location": "Budapest, Hungary",
+          "main_track": {
+            "num_acc": 36
           }
         },
         {
@@ -12482,7 +12642,11 @@
         {
           "year": 2026,
           "ordinal": "59th",
-          "location": "Athens, Greece"
+          "location": "Athens, Greece",
+          "main_track": {
+            "num_acc": 213
+          },
+          "note": "Main Research Track only; excludes 7 Industry Track papers. The official program and program co-chair report both confirm 213; one researcher page reports 215, and the official count is used."
         },
         {
           "year": 2025,
@@ -12824,7 +12988,11 @@
         {
           "year": 2026,
           "ordinal": "33rd",
-          "location": "The Hague, The Netherlands"
+          "location": "The Hague, The Netherlands",
+          "main_track": {
+            "num_acc": 482
+          },
+          "note": "The official accepted-paper list contains 482 papers; the main-conference schedule lists 483, with GPUThor appearing only in the schedule. The accepted-paper list is used."
         },
         {
           "year": 2025,
@@ -13966,6 +14134,14 @@
           "note": "From two external sources"
         },
         {
+          "year": 2011,
+          "ordinal": "18th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 28
+          }
+        },
+        {
           "year": 2010,
           "ordinal": "17th",
           "location": "San Diego, California, USA",
@@ -14004,6 +14180,118 @@
             "num_sub": 125
           },
           "note": "From two external sources"
+        },
+        {
+          "year": 2006,
+          "ordinal": "13th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 17
+          }
+        },
+        {
+          "year": 2005,
+          "ordinal": "12th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 16
+          }
+        },
+        {
+          "year": 2004,
+          "ordinal": "11th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 16
+          }
+        },
+        {
+          "year": 2003,
+          "ordinal": "10th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 17
+          }
+        },
+        {
+          "year": 2002,
+          "ordinal": "9th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 15
+          },
+          "note": "The official accepted-paper list and program enumerate 15 papers; an external historical table reports 16."
+        },
+        {
+          "year": 2001,
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 16
+          }
+        },
+        {
+          "year": 2000,
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 15,
+            "num_sub": 51
+          },
+          "note": "Submission pool follows a contemporary report of the program chair's remarks; the Windows 2000 birds-of-a-feather session is excluded."
+        },
+        {
+          "year": 1999,
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 11
+          }
+        },
+        {
+          "year": 1998,
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 12
+          },
+          "note": "Counts 12 technical papers; three panel sessions are excluded."
+        },
+        {
+          "year": 1997,
+          "ordinal": "4th",
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 13
+          },
+          "note": "Ordinal follows the official fourth-annual announcement; a contemporary report also counts the 1993 precursor workshop."
+        },
+        {
+          "year": 1996,
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 14
+          },
+          "note": "Excludes three panel sessions, the Java birds-of-a-feather session, and the banquet talk."
+        },
+        {
+          "year": 1995,
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 15
+          },
+          "note": "Counts technical papers; excludes three panel contributions. The official preliminary program is reconciled with the final proceedings table of contents."
+        },
+        {
+          "year": 1994,
+          "main_track": {
+            "num_acc": 15
+          },
+          "note": "Counts 15 technical presentations; three panel sessions and the banquet talk are excluded."
+        },
+        {
+          "year": 1993,
+          "location": "San Diego, California, USA",
+          "main_track": {
+            "num_acc": 12
+          },
+          "note": "Precursor PSRG workshop; counts technical papers and excludes four panel sessions."
         }
       ]
     },
@@ -14681,6 +14969,14 @@
             "num_acc": 35,
             "num_sub": 61
           }
+        },
+        {
+          "year": 1987,
+          "location": "Santa Barbara, California, USA",
+          "main_track": {
+            "num_acc": 36
+          },
+          "note": "Counts the 36 papers in Sections 1-6 of the official proceedings, including two regular-program papers not presented at the meeting; excludes Section 7 informal contributions."
         }
       ]
     },
@@ -15007,6 +15303,22 @@
             "num_acc": 36,
             "num_sub": 117
           }
+        },
+        {
+          "year": 1992,
+          "location": "Balatonfüred, Hungary",
+          "main_track": {
+            "num_acc": 35
+          },
+          "note": "Counts 35 regular-program papers in the official proceedings; excludes the panel report and 9 selected rump-session papers."
+        },
+        {
+          "year": 1991,
+          "location": "Brighton, UK",
+          "main_track": {
+            "num_acc": 43
+          },
+          "note": "Counts the 43 regular-program papers in the official proceedings (pages 1-507); excludes 11 short papers from the rump session."
         },
         {
           "year": 1990,
@@ -17391,6 +17703,15 @@
           }
         },
         {
+          "year": 2007,
+          "ordinal": "16th",
+          "location": "Monterey, California, USA",
+          "main_track": {
+            "num_acc": 20
+          },
+          "note": "Counts the main technical program; hot topics, posters, keynotes and the industry panel are excluded."
+        },
+        {
           "year": 2006,
           "ordinal": "15th",
           "location": "Paris, France",
@@ -17436,6 +17757,15 @@
           }
         },
         {
+          "year": 2001,
+          "ordinal": "10th",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 39
+          },
+          "note": "Counts 39 technical papers; invited talks, keynotes, posters, demonstrations, tutorials and associated workshops are excluded."
+        },
+        {
           "year": 2000,
           "ordinal": "9th",
           "location": "Pittsburgh, USA",
@@ -17479,6 +17809,33 @@
             "num_acc": 62,
             "num_sub": 82
           }
+        },
+        {
+          "year": 1995,
+          "ordinal": "4th",
+          "main_track": {
+            "num_acc": 27
+          },
+          "note": "Excludes three invited papers, including the one-page MAGIC project overview, and excludes tutorials, demonstrations, keynotes and the panel."
+        },
+        {
+          "year": 1994,
+          "ordinal": "3rd",
+          "location": "San Francisco, California, USA",
+          "main_track": {
+            "num_acc": 34
+          },
+          "note": "Counts 34 technical papers; the three invited papers, keynotes, tutorials and panel are excluded."
+        },
+        {
+          "year": 1993,
+          "ordinal": "2nd",
+          "location": "Spokane, USA"
+        },
+        {
+          "year": 1992,
+          "ordinal": "1st",
+          "location": "Syracuse, USA"
         }
       ]
     },
@@ -18822,6 +19179,17 @@
           }
         },
         {
+          "year": 2018,
+          "ordinal": "18th",
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 28
+          },
+          "second_track": {
+            "num_acc": 15
+          }
+        },
+        {
           "year": 2017,
           "ordinal": "17th",
           "location": "London, UK",
@@ -19778,6 +20146,38 @@
           }
         },
         {
+          "year": 1997,
+          "ordinal": "16th",
+          "location": "Saint-Malo, France",
+          "main_track": {
+            "num_acc": 23
+          }
+        },
+        {
+          "year": 1995,
+          "ordinal": "15th",
+          "location": "Copper Mountain, Colorado, USA",
+          "main_track": {
+            "num_acc": 22
+          }
+        },
+        {
+          "year": 1993,
+          "ordinal": "14th",
+          "location": "Asheville, North Carolina, USA",
+          "main_track": {
+            "num_acc": 21
+          }
+        },
+        {
+          "year": 1991,
+          "ordinal": "13th",
+          "location": "Pacific Grove, California, USA",
+          "main_track": {
+            "num_acc": 18
+          }
+        },
+        {
           "year": 1989,
           "ordinal": "12th",
           "location": "Litchfield Park, Arizona, USA",
@@ -20237,6 +20637,14 @@
           }
         },
         {
+          "year": 2008,
+          "ordinal": "6th",
+          "location": "San Jose, California, USA",
+          "main_track": {
+            "num_acc": 21
+          }
+        },
+        {
           "year": 2007,
           "ordinal": "5th",
           "location": "San Jose, California, USA",
@@ -20531,6 +20939,15 @@
             "num_acc": 24,
             "num_sub": 103
           }
+        },
+        {
+          "year": 2001,
+          "location": "Boston, USA",
+          "main_track": {
+            "num_acc": 24,
+            "track_name": "General Track"
+          },
+          "note": "General Track refereed papers only; excludes FREENIX papers, invited talks, and tutorials. The conference-wide 48/138 total combines tracks and is not used as this track's denominator."
         },
         {
           "year": 2000,
@@ -21686,6 +22103,11 @@
             "num_acc": 22,
             "num_sub": 129
           }
+        },
+        {
+          "year": 1990,
+          "location": "Ottawa, Canada",
+          "note": "Joint OOPSLA/ECOOP 1990. The official AITO conference history confirms Ottawa; main-track paper counts remain unresolved."
         },
         {
           "year": 1988,
@@ -23195,6 +23617,11 @@
           }
         },
         {
+          "year": 2000,
+          "ordinal": "8th",
+          "location": "San Diego, California, USA"
+        },
+        {
           "year": 1999,
           "ordinal": "7th",
           "location": "Toulouse, France",
@@ -23202,6 +23629,11 @@
             "num_acc": 29,
             "num_sub": 141
           }
+        },
+        {
+          "year": 1998,
+          "ordinal": "6th",
+          "location": "Lake Buena Vista, USA"
         },
         {
           "year": 1997,
@@ -24103,6 +24535,18 @@
             "num_acc": 19,
             "num_sub": 43
           }
+        },
+        {
+          "year": 2001,
+          "ordinal": "12th",
+          "location": "Washington DC, USA",
+          "main_track": {
+            "num_acc": 95
+          },
+          "second_track": {
+            "num_acc": 32
+          },
+          "note": "Long and Short papers are separate; three invited plenary talks are excluded. Submissions remain unresolved: the preface totals 313 (224 Long + 89 Short), while a researcher table reports 299 overall."
         },
         {
           "year": 2000,
@@ -25744,6 +26188,27 @@
             "num_acc": 31,
             "num_sub": 75
           }
+        },
+        {
+          "year": 1991,
+          "ordinal": "3rd",
+          "location": "Aalborg, Denmark",
+          "main_track": {
+            "num_acc": 42
+          },
+          "note": "42 refereed papers, excluding two invited talks."
+        },
+        {
+          "year": 1990,
+          "ordinal": "2nd",
+          "location": "New Brunswick, USA",
+          "note": "The proceedings front matter does not state submission or acceptance totals; the main-track paper count remains unresolved."
+        },
+        {
+          "year": 1989,
+          "ordinal": "1st",
+          "location": "Grenoble, France",
+          "note": "The proceedings omit some lecturers' manuscripts; accepted and submission totals remain unresolved."
         }
       ]
     },
@@ -26707,6 +27172,36 @@
             "num_sub": 140
           },
           "note": "Over 140 submissions of various kinds, accepted 7 industrial usage reports and 32 papers."
+        },
+        {
+          "year": 1991,
+          "ordinal": "4th",
+          "location": "Noordwijkerhout, The Netherlands",
+          "main_track": {
+            "num_acc": 31
+          },
+          "note": "Held as VDM 1991. Counts the 31 papers; excludes 3 invited talks, 7 shorter project reports, 14 tool-demonstration abstracts, and the separate tutorial volume."
+        },
+        {
+          "year": 1990,
+          "ordinal": "3rd",
+          "location": "Kiel, Germany",
+          "main_track": {
+            "num_acc": 24
+          },
+          "note": "Held as VDM 1990. Counts the 24 regular papers in the official proceedings; excludes the 3 invited talks. Submission count not found."
+        },
+        {
+          "year": 1988,
+          "ordinal": "2nd",
+          "location": "Dublin, Ireland",
+          "note": "Held as VDM 1988. Proceedings verified, but a main-track acceptance/submission count has not been established."
+        },
+        {
+          "year": 1987,
+          "ordinal": "1st",
+          "location": "Brussels, Belgium",
+          "note": "Held as VDM 1987. The foreword says the papers were solicited from experts; no competitive submission or acceptance count is recorded."
         }
       ]
     },
@@ -27433,6 +27928,38 @@
           }
         },
         {
+          "year": 2020,
+          "ordinal": "41st",
+          "location": "Online, Online",
+          "main_track": {
+            "num_acc": 49
+          }
+        },
+        {
+          "year": 2019,
+          "ordinal": "40th",
+          "location": "Genoa, Italy",
+          "main_track": {
+            "num_acc": 37
+          }
+        },
+        {
+          "year": 2018,
+          "ordinal": "39th",
+          "location": "Delft, The Netherlands",
+          "main_track": {
+            "num_acc": 44
+          }
+        },
+        {
+          "year": 2017,
+          "ordinal": "38th",
+          "location": "Lyon, France",
+          "main_track": {
+            "num_acc": 44
+          }
+        },
+        {
           "year": 2016,
           "ordinal": "37th",
           "location": "Lisbon, Portugal",
@@ -27448,6 +27975,22 @@
           "main_track": {
             "num_acc": 55,
             "num_sub": 207
+          }
+        },
+        {
+          "year": 2014,
+          "ordinal": "35th",
+          "location": "Strasbourg, France",
+          "main_track": {
+            "num_acc": 52
+          }
+        },
+        {
+          "year": 2013,
+          "ordinal": "34th",
+          "location": "Girona, Spain",
+          "main_track": {
+            "num_acc": 52
           }
         },
         {
@@ -29156,6 +29699,54 @@
             "num_acc": 39,
             "num_sub": 82
           }
+        },
+        {
+          "year": 2003,
+          "ordinal": "5th",
+          "location": "Grenoble, France",
+          "main_track": {
+            "num_acc": 30
+          },
+          "note": "Technical proceedings include case-study papers."
+        },
+        {
+          "year": 2002,
+          "ordinal": "4th",
+          "location": "Barcelona, Spain",
+          "main_track": {
+            "num_acc": 31
+          },
+          "note": "Technical proceedings include case-study papers."
+        },
+        {
+          "year": 2001,
+          "ordinal": "3rd",
+          "location": "Ascona, Switzerland",
+          "main_track": {
+            "num_acc": 33,
+            "num_sub": 68
+          },
+          "note": "Technical proceedings include case-study papers; the invited talk is excluded."
+        },
+        {
+          "year": 2000,
+          "ordinal": "2nd",
+          "location": "Amsterdam, The Netherlands",
+          "main_track": {
+            "num_acc": 27,
+            "num_sub": 66
+          },
+          "note": "Unified full-paper pool includes research papers and case studies."
+        },
+        {
+          "year": 1999,
+          "ordinal": "1st",
+          "location": "Vienna, Austria",
+          "main_track": {
+            "num_acc": 30,
+            "num_sub": 64
+          },
+          "note": "Unified full-paper pool: 21 research papers and 9 case studies."
         }
       ]
     },

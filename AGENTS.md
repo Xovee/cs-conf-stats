@@ -16,7 +16,7 @@ Do not reconstruct policy from old chat history or individual event notes. Use t
 - Official sources are preferred. Without an official source, require two independent sources that verify the same field and scope.
 - Partial yearly records are valid. Never invent missing values or use `0` or `null` as placeholders.
 - Every location must use the exact canonical display form in `data/locations.json`, after the event location itself has been verified from an official source.
-- Surface unresolved conflicting counts or ambiguous scopes to the user. Do not silently choose between them; leave only the affected fields unresolved and continue independent work within the requested scope.
+- For comparable counts differing by at most three papers, choose a supported source under policy section 4 and document the choice and discrepancy in the ledger and event note. Surface larger unresolved differences or ambiguous scopes to the user; leave only the affected fields unresolved and continue independent work within the requested scope.
 
 ## Editing Boundaries
 

@@ -2,7 +2,7 @@
 
 This is the authoritative policy for researching, deciding, recording, and maintaining conference statistics in CS Conf Stats. Keep authoritative data-collection rules here. `AGENTS.md` and other project documentation may contain short operational summaries linked to this policy; synchronize affected summary text when policy changes. Keep event evidence and work status in the tracking files.
 
-Last reviewed: 2026-09-17.
+Last reviewed: 2026-10-22.
 
 ## 1. Project Scope
 
@@ -53,7 +53,8 @@ Do not add inferred or estimated counts by default. The maintainer may explicitl
 
 - First determine whether apparently conflicting figures use different tracks, cycles, validity filters, or decision stages.
 - Prefer an official value only after confirming that it matches the project's scope.
-- If exact figures still conflict, present the values, sources, and likely scope difference to the maintainer. Do not choose silently.
+- For comparable counts for the same edition, field, track, statistical population, and decision stage that differ by at most three papers, the maintainer authorizes choosing one supported source without another approval. Prefer an explicit official accepted-paper/decision list or chair report over a presentation schedule when applicable. Record the chosen value, alternative counts, sources, and reason in the research ledger, and retain a concise discrepancy note in the event record. Do not average or combine the conflicting values.
+- This small-count tolerance does not resolve ambiguous scopes, mixed tracks, overlapping review cycles, conditional versus final acceptances, or unknown substantive-review denominators. Keep those affected fields unresolved. For larger count discrepancies or a policy choice not covered above, present the values, sources, and likely scope difference to the maintainer and continue independent work.
 - A missing submission count or missing accepted count is not a reason to reject verified facts; it produces a partial record.
 - A concise event `note` should explain an unusual statistical convention or approved inference. It is not a general citation dump.
 
@@ -118,7 +119,7 @@ Classify each researched event into one of four states:
 2. Skip routine re-checking of protected recent records unless an exception applies.
 3. Research official sources first. Use two independent secondary sources only when official evidence is unavailable.
 4. Confirm track scope, denominator rules, cycle overlap, and decision stage before accepting a number.
-5. Classify each event as complete, partial, unresolved, or non-event. Resolve apparent discrepancies from source scope where possible. If a real conflict or policy choice remains, report the competing values and sources and leave only the affected field unresolved. Continue independent research and record verified fields within the requested scope. An unresolved field does not block completion of the remaining authorized work.
+5. Classify each event as complete, partial, unresolved, or non-event. Resolve apparent discrepancies from source scope where possible, and apply the small-count selection rule in section 4 when its conditions hold. For remaining conflicts or policy choices, report the competing values and sources and leave only the affected field unresolved. Continue independent research and record verified fields within the requested scope. An unresolved field does not block completion of the remaining authorized work.
 6. Update `data/conf.json`, `data/locations.json`, and the two tracking files as appropriate. Keep source URLs and unresolved details in `Need-Check.md`.
 7. For data, site code, build configuration, or generator changes, run `npm run build`, `npm run check`, and `git diff --check`. For Markdown-only documentation or instruction changes that do not affect generated output, run `npm run check:docs` and `git diff --check`. Reuse successful checks for the same file state; rerun affected checks after relevant changes or new failure evidence. Read-only reviews require no build.
 8. Review the full diff for accidental generated-file churn or unrelated edits.

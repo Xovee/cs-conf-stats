@@ -12,13 +12,13 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## ACL
 
-- 1992 - 1996
+- ACL 1992-1996 main-track submission counts (accepted papers recorded: 1992 34; 1993 33; 1994 40; 1995 37; 1996 42)
 - 1984 - 1990
 - Before 1984
 
 ## ACM MM
 
-- ACM MM 2026 accepted research-paper count
+- ACM MM 2026 submission-scope verification (7,053 retained from the existing record; the checked source does not identify the Main Track substantive-review pool)
 - Before 1997
 - ACM MM 1998-1999
 
@@ -57,9 +57,9 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## CAV
 
-- CAV 1991
-- CAV 1990
-- CAV 1989
+- CAV 1991 submission count (42 refereed papers recorded, excluding 2 invited talks)
+- CAV 1990 main-track submission and accepted counts (edition and location recorded)
+- CAV 1989 main-track submission and accepted counts (edition and location recorded; proceedings omit some presented contributions)
 
 ## CCC
 
@@ -72,10 +72,14 @@ First, we need **ALL** new stats in the upcoming years.
 - CCC 1989
 - CCC 1988
 
+## CCS
+
+- CCS 2026 unique annual submission count (482 accepted papers recorded from the official list; the main-conference schedule lists 483)
+
 ## CIKM 
 
 - Before 1997
-- CIKM 2003
+- CIKM 2003 submission-count conflict: the existing 378 versus 386 in the official 2004 SIGIR business-meeting report; review-pool treatment remains unresolved.
 
 ## CODES+ISSS
 
@@ -86,13 +90,14 @@ First, we need **ALL** new stats in the upcoming years.
 ## COLT
 
 - COLT 2026 exact submission count. The official accepted-paper list contains 191 papers; one institutional announcement says nearly 650 submissions.
-- COLT 2011
+- COLT 2011 submission count (36 accepted papers recorded, excluding 6 open problems)
 - COLT 1992-1998
 - COLT 1988
 
 ## Crypto
 
-- Crypto before 1988
+- Crypto 1987 submission count (36 regular-program papers recorded, excluding informal contributions)
+- Crypto before 1987
 
 ## CSCW
 
@@ -121,7 +126,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 - ECOOP 2023 submission-scope verification (44/97 recorded; submission count adopted from Emery Berger by maintainer decision)
 - ECOOP 2022 submission-scope verification and accepted-count discrepancy (35/78 recorded by maintainer decision; Emery Berger reports 36/78)
-- ECOOP 1990
+- ECOOP 1990 main-track submission and accepted counts (joint OOPSLA/ECOOP event in Ottawa)
 
 ## ECRTS
 
@@ -135,8 +140,13 @@ First, we need **ALL** new stats in the upcoming years.
 ## EMNLP
 
 - EMNLP 2026 valid Main/Findings submission counts. Official author-roster counts of 2,710 Main and 2,487 Findings papers are recorded as of October 2. Author-reported 17,669 submissions and 15.4%/14.3% rates still need review-pool clarification.
-- EMNLP 2003
-- Before 2002
+- EMNLP 2003 valid submission count (28 research papers recorded; an official report gives 121 submissions without resolving rejection-before-review filtering)
+- EMNLP 2001 main-track submission and accepted counts
+- EMNLP 2000 submission count (27 published research papers recorded; presentation programs list 26)
+- EMNLP 1999 main-track submission and accepted counts (33 published research papers versus 25 programmed presentations; location recorded)
+- EMNLP 1998 submission count (12 research papers recorded)
+- EMNLP 1997 submission count (23 research papers recorded)
+- EMNLP 1996 submission count (14 research papers recorded)
 
 ## EMSOFT
 
@@ -146,17 +156,18 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## Eurocrypt
 
-- Eurocrypt 1991-1992
+- Eurocrypt 1992 submission count (35 regular papers recorded, excluding the panel report and rump-session papers)
+- Eurocrypt 1991 submission count (43 regular papers recorded, excluding rump-session papers)
 - Before 1990
 
 ## Eurographics 
 
-- Eurographics 2020
-- Eurographics 2019
-- Eurographics 2018
-- Eurographics 2017
-- Eurographics 2014
-- Eurographics 2013
+- Eurographics 2020 Full Papers submission count (49 conference full papers recorded; journal-only presentations excluded)
+- Eurographics 2019 Full Papers submission count (37 conference full papers recorded; journal-only presentations excluded)
+- Eurographics 2018 Full Papers submission count (44 conference full papers recorded; journal-only presentations excluded)
+- Eurographics 2017 Full Papers submission count (44 conference full papers recorded; journal-only presentations excluded)
+- Eurographics 2014 Full Papers submission count (52 papers recorded from the official conference issue)
+- Eurographics 2013 Full Papers submission count (52 conference full papers recorded; journal-only presentations excluded)
 - Eurographics 2012
 - Eurographics 2011
 - Eurographics 2010
@@ -189,24 +200,20 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## EuroVis
 
-- EuroVis 2003
-- EuroVis 2002
-- EuroVis 2001
-- EuroVis 2000
-- EuroVis 1999
+- EuroVis 2003 submission count (30 technical papers recorded, including case studies)
+- EuroVis 2002 submission count (31 technical papers recorded, including case studies)
 
 ## FAST
 
-- FAST 2008
+- FAST 2008 submission count (21 accepted papers recorded)
 
 ## FM
 
 - FM 2026 Research Track submission count. The official proceedings combine the Research and TAP tracks into 239 submissions, while the official accepted-paper lists contain 45 Research Track papers and 6 TAP papers.
-- FM 1998
-- FM 1991
-- FM 1990
-- FM 1988
-- FM 1987
+- FM 1991 submission count (31 regular VDM papers recorded, excluding shorter project reports, tools, invited talks, and tutorials)
+- FM 1990 submission count (24 regular VDM papers recorded, excluding 3 invited talks)
+- FM 1988 main-track submission and accepted counts (VDM edition and location recorded)
+- FM 1987 main-track submission and accepted counts, if applicable (VDM papers were solicited from experts)
 
 ## FOCS
 
@@ -218,8 +225,8 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## FSE
 
-- FSE 2000
-- FSE 1998
+- FSE 2000 main-track submission and accepted counts (edition and location recorded)
+- FSE 1998 main-track submission and accepted counts (edition and location recorded)
 - FSE 1996
 - FSE 1995
 - FSE 1994
@@ -227,9 +234,11 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## HPDC
 
-- HPDC 2007
-- HPDC 2001
-- Before 1996
+- HPDC 2007 submission count (20 main technical papers recorded)
+- HPDC 2001 submission count (39 main technical papers recorded)
+- HPDC 1995 submission count and canonical venue locality (27 contributed technical papers recorded; official venue is Pentagon City, Virginia)
+- HPDC 1994 submission count (34 main technical papers recorded)
+- HPDC 1992-1993 main-track submission and accepted counts (editions and locations recorded)
 
 ## ICALP
 
@@ -267,8 +276,9 @@ First, we need **ALL** new stats in the upcoming years.
 ## ICML
 
 - ICML 2013 submission count
-- ICML 1999-2000
-- ICML 1994-1997
+- ICML 1999-2000 substantive-review submission counts (54 and 151 accepted papers recorded; reported received totals 152 and 349 need scope verification)
+- ICML 1996-1997 main-track submission and accepted counts (editions and locations recorded)
+- ICML 1994-1995 submission counts (42 and 68 contributed papers recorded)
 - ICML 1991-1992
 - ICML 1989
 - Before 1988
@@ -291,7 +301,6 @@ First, we need **ALL** new stats in the upcoming years.
 ## ICS
 
 - ICS 2026 submission count. The official program contains 102 main-conference papers.
-- ICS 2013
 - ICS 1993
 - ICS 1992
 - ICS 1991
@@ -336,7 +345,7 @@ First, we need **ALL** new stats in the upcoming years.
 ## IMC
 
 - IMC 2025 long- and short-paper submission counts. The official program lists 46 long papers and 23 short papers, excluding 3 Replicability Track papers.
-- IMC 2018
+- IMC 2018 long- and short-paper submission counts (28 long and 15 short papers recorded)
 - IMC 2008
 - IMC 2007
 
@@ -400,16 +409,20 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## MICRO
 
+- MICRO 2026 valid main-track submission count (213 accepted Research Track papers recorded; researcher pages report 842 without review-pool exclusions)
 - Before 1991
-
-## NAACL
-
-- NAACL 2001
 
 ## NDSS
 
-- NDSS 2011
-- Before 2007
+- NDSS 2011 valid submission count (28 technical papers recorded; researcher tables report 139 without review-pool filtering)
+- NDSS 2001-2006 valid submission counts (16, 15, 17, 16, 16, and 17 technical papers recorded respectively; the 2002 official count of 15 differs from an external table's 16)
+- NDSS 1999 valid submission count (11 technical papers recorded)
+- NDSS 1998 valid technical-paper submission count (12 technical papers recorded, excluding three panels)
+- NDSS 1997 valid submission count (13 technical papers recorded)
+- NDSS 1996 technical-paper submission count (14 technical papers recorded; a reported total of 40 mixes papers, panels, and BOFs)
+- NDSS 1995 submission count (15 technical papers recorded, excluding three panel contributions)
+- NDSS 1994 submission count (15 technical papers recorded)
+- NDSS 1993 exact submission count (12 selected papers recorded for the precursor PSRG workshop; the official retrospective says over 20 submissions)
 
 ## NeurIPS
 
@@ -521,7 +534,7 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## SIGIR
 
-- SIGIR 2000
+- SIGIR 2000 submission count (38 full papers recorded, excluding posters and demonstrations)
 - Before 1999
 
 ## SIGMETRICS
@@ -568,8 +581,8 @@ First, we need **ALL** new stats in the upcoming years.
 ## SODA
 
 - SODA 2026 submission count
-- SODA 2008
-- SODA 2001
+- SODA 2008 main-track counts and withdrawal treatment (a researcher reports 455 submitted, 135 accepted, and 5 withdrawn; the review-pool scope and final accepted count still need confirmation)
+- SODA 2001 Long/Short submission counts (95 Long and 32 Short accepted papers recorded; the preface totals 313 submissions versus 299 in a researcher table)
 - SODA 1999
 - SODA 1997
 - SODA 1995
@@ -581,17 +594,16 @@ First, we need **ALL** new stats in the upcoming years.
 
 ## SOSP
 
-- SOSP 1997
-- SOSP 1995
-- SOSP 1993
-- SOSP 1991
+- SOSP 1997 submission count (23 main technical papers recorded)
+- SOSP 1995 submission count (22 main technical papers recorded)
+- SOSP 1993 submission count (21 main technical papers recorded)
+- SOSP 1991 submission count (18 main technical papers recorded)
 - SOSP 1977
 - SOSP 1975
 - SOSP 1973
 - SOSP 1971
 - SOSP 1969
 - SOSP 1967
-- SOSP 1965
 
 ## STOC
 
@@ -629,7 +641,7 @@ First, we need **ALL** new stats in the upcoming years.
 - USENIX ATC 2005
 - USENIX ATC 2004
 - USENIX ATC 2002
-- USENIX ATC 2001
+- USENIX ATC 2001 General Track submission count (24 refereed papers recorded; FREENIX excluded)
 - Before 1998
 
 ## USENIX Security

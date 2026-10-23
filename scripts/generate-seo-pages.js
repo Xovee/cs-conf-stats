@@ -552,7 +552,7 @@ function renderYearPage(conference, event, events) {
 <section class="mb-8">
   <h1 class="text-3xl md:text-5xl text-uestc mb-4">${escapeHTML(series)} ${event.year} ${hasCompleteTrack ? 'Acceptance Rate' : 'Conference Statistics'}</h1>
   <p>${escapeHTML(description)}</p>
-  ${event.location ? `<p>${escapeHTML(fullTitle)} ${event.year}${event.ordinal ? ` (${escapeHTML(event.ordinal)})` : ''} was held in ${escapeHTML(event.location)}.</p>` : ''}
+${event.location ? `  <p>${escapeHTML(fullTitle)} ${event.year}${event.ordinal ? ` (${escapeHTML(event.ordinal)})` : ''} was held in ${escapeHTML(event.location)}.</p>` : ''}
   <p>${escapeHTML(comparisonSentence(conference, event, olderEvent))}</p>
   ${renderChartLink(series)}
 </section>
